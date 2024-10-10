@@ -10,7 +10,14 @@ Text_RockSlideTeach::
     .string "Want to try using ROCK SLIDE?$"
     .endif
     .ifdef SPANISH
-    .string "En montañas como ésta, hay peligro\nde desprendimientos.\pImagínate qué horror que empiecen\na caerte rocas encima.\p¡Aaaaaaaaaaaaaaah!\nUn horror, vamos.\p¿No te da miedo?\n¿Quieres aprender AVALANCHA?$"
+    .string "En montañas como ésta, hay peligro\n"
+    .string "de desprendimientos.\p"
+    .string "Imagínate qué horror que empiecen\n"
+    .string "a caerte rocas encima.\p"
+    .string "¡Aaaaaaaaaaaaaaah!\n"
+    .string "Un horror, vamos.\p"
+    .string "¿No te da miedo?\n"
+    .string "¿Quieres aprender AVALANCHA?$"
     .endif
 
 Text_RockSlideDeclined::
@@ -27,7 +34,8 @@ Text_RockSlideWhichMon::
     .string "ROCK SLIDE?$"
     .endif
     .ifdef SPANISH
-    .string "¿A qué POKéMON quieres que\nle enseñe AVALANCHA?$"
+    .string "¿A qué POKéMON quieres que\n"
+    .string "le enseñe AVALANCHA?$"
     .endif
 
 Text_RockSlideTaught::
@@ -45,7 +53,8 @@ SeafoamIslands_B4F_Text_BouldersMightChangeWaterFlow::
     .string "flow of water.$"
     .endif
     .ifdef SPANISH
-    .string "¡Las ROCAS pueden cambiar\nel flujo del agua!$"
+    .string "¡Las ROCAS pueden cambiar\n"
+    .string "el flujo del agua!$"
     .endif
 
 SeafoamIslands_B4F_Text_DangerFastCurrent::
@@ -54,6 +63,7 @@ SeafoamIslands_B4F_Text_DangerFastCurrent::
     .string "Fast current!$"
     .endif
     .ifdef SPANISH
-    .string "¡PELIGRO!\n¡Rápidos!$"
+    .string "¡PELIGRO!\n"
+    .string "¡Rápidos!$"
     .endif
 
