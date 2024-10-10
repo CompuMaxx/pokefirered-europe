@@ -3,7 +3,8 @@ RockTunnel_1F_Text_LennyIntro::
     .string "This tunnel goes a long way, kid!$"
     .endif
     .ifdef SPANISH
-    .string "¡Este oscuro túnel recorre\nun largo camino!$"
+    .string "¡Este oscuro túnel recorre\n"
+    .string "un largo camino!$"
     .endif
 
 RockTunnel_1F_Text_LennyDefeat::
