@@ -5,7 +5,7 @@ PewterCity_Museum_1F_Text_Its50YForChildsTicket::
     .string "Would you like to come in?$"
     .endif
     .ifdef SPANISH
-    .string "Los niños pagan 50?.\p"
+    .string "Los niños pagan 50¥.\p"
     .string "¿Te gustaría entrar?$"
     .endif
 
@@ -23,7 +23,7 @@ PewterCity_Museum_1F_Text_Right50YThankYou::
     .string "Thank you!$"
     .endif
     .ifdef SPANISH
-    .string "¡50?! ¡Vale!\n"
+    .string "¡50¥! ¡Vale!\n"
     .string "¡Gracias!$"
     .endif
 

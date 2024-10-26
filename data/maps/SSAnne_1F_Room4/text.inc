@@ -14,7 +14,7 @@ SSAnne_1F_Room4_Text_WaitressCherryPiePlease::
     .string "pie, please!$"
     .endif
     .ifdef SPANISH
-    .string "¡Camarero, me gustaría tomar\n"
+    .string "¡Camarera, me gustaría tomar\n"
     .string "un trozo de tarta de cereza!$"
     .endif
 

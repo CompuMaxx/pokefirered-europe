@@ -15,7 +15,7 @@ FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500::
     .string "Would you like to play?$"
     .endif
     .ifdef SPANISH
-    .string "¡Por sólo 500?, podrás atrapar a\n"
+    .string "¡Por sólo 500¥, podrás atrapar a\n"
     .string "todos los POKéMON que quieras\l"
     .string "en el parque!\p"
     .string "¿Te gustaría probar?$"
@@ -28,7 +28,7 @@ FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls::
     .string "POKé BALLS here.$"
     .endif
     .ifdef SPANISH
-    .string "¡Son 500?, por favor!\p"
+    .string "¡Son 500¥, por favor!\p"
     .string "Aquí sólo usamos un tipo\n"
     .string "concreto de POKé BALL.$"
     .endif

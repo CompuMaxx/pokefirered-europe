@@ -77,7 +77,7 @@ CeladonCity_Condominiums_1F_Text_Nidoran::
     .string "NIDORAN♀: Kya kyaoo!$"
     .endif
     .ifdef SPANISH
-    .string "NIDORAN?: ¡Nidor! ¡Nidoorr!$"
+    .string "NIDORAN♀: ¡Nidor! ¡Nidoorr!$"
     .endif
 
 CeladonCity_Condominiums_1F_Text_ManagersSuite::

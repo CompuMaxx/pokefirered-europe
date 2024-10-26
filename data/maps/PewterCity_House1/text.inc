@@ -3,7 +3,7 @@ PewterCity_House1_Text_Nidoran::
     .string "NIDORAN♂: Bowbow!$"
     .endif
     .ifdef SPANISH
-    .string "NIDORAN?: ¡Nidor!$"
+    .string "NIDORAN♂: ¡Nidor!$"
     .endif
 
 PewterCity_House1_Text_NidoranSit::

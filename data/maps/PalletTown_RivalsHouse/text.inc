@@ -158,7 +158,7 @@ PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
     .endif
     .ifdef SPANISH
     .string "{FONT_NORMAL}{STR_VAR_1} parece encantado.\p"
-    .string "{PALETTE 5}DALIA: ¡Ya está! ¡Listo!\n"
+    .string "{FONT_FEMALE}DALIA: ¡Ya está! ¡Listo!\n"
     .string "¿Qué? ¿Tiene buen aspecto o no?\p"
     .string "¡Qué POKéMON más mono!$"
     .endif

@@ -7,7 +7,7 @@ PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy::
     .ifdef SPANISH
     .string "¡Un misterioso anciano me vendió\n"
     .string "este extraño pez POKéMON!\p"
-    .string "¡Es muy débil y cuesta 500?!$"
+    .string "¡Es muy débil y cuesta 500¥!$"
     .endif
 
 PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently::

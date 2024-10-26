@@ -72,7 +72,7 @@ Route5_PokemonDayCare_Text_OweMeXForMonsReturn::
 	.string "of this POKéMON.$"
     .endif
     .ifdef SPANISH
-    .string "Me debes {STR_VAR_2}? por este\n"
+    .string "Me debes {STR_VAR_2}¥ por este\n"
     .string "POKéMON.$"
     .endif
 

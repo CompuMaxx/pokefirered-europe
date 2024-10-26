@@ -36,7 +36,7 @@ Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500::
     .ifdef SPANISH
     .string "HOMBRE: ¡Hola, majo!\n"
     .string "¡Tengo una oferta sólo para ti!\p"
-    .string "¡Te daré un MAGIKARP por 500?\n"
+    .string "¡Te daré un MAGIKARP por 500¥\n"
     .string "de nada!\p"
     .string "¿Qué dices?$"
     .endif
@@ -52,7 +52,7 @@ Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500::
     .ifdef SPANISH
     .string "HOMBRE: ¡Hola, maja!\n"
     .string "¡Tengo una oferta sólo para ti!\p"
-    .string "¡Te daré un MAGIKARP por 500?\n"
+    .string "¡Te daré un MAGIKARP por 500¥\n"
     .string "de nada!\p"
     .string "¿Qué dices?$"
     .endif
@@ -63,7 +63,7 @@ Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp::
     .string "and bought the MAGIKARP…$"
     .endif
     .ifdef SPANISH
-    .string "{PLAYER} pagó la cantidad de 500?\n"
+    .string "{PLAYER} pagó la cantidad de 500¥\n"
     .string "y compró el MAGIKARP...$"
     .endif
 

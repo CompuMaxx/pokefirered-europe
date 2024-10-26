@@ -17,7 +17,7 @@ Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000::
     .endif
     .ifdef SPANISH
     .string "¡Vendí una inútil PEPITA\n"
-    .string "por 5.000?!$"
+    .string "por 5.000¥!$"
     .endif
 
 Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
