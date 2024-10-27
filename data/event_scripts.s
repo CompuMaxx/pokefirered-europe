@@ -808,42 +808,89 @@ gStdScriptsEnd::
 
 @ Unused
 Text_WouldYouLikeToMixRecords::
+	.ifdef ENGLISH
 	.string "Would you like to mix records with\n"
 	.string "other TRAINERS?$"
+	.endif
+	.ifdef SPANISH
+	.string "¿Quieres mezclar récords con\n"
+	.string "otros ENTRENADORES?$"
+	.endif
 
 @ Unused
 Text_WeHopeToSeeYouAgain2::
+	.ifdef ENGLISH
 	.string "We hope to see you again!$"
+	.endif
+	.ifdef SPANISH
+	.string "¡Vuelve cuando quieras!$"
+	.endif
 
 	.include "data/text/pc.inc"
 
 @ Unused
 Text_WelcomeTradeCenter::
+	.ifdef ENGLISH
 	.string "Welcome to the POKéMON CABLE CLUB\n"
 	.string "TRADE CENTER.$"
+	.endif
+	.ifdef SPANISH
+	.string "Hola. Éste es el CENTRO de CAMBIO\n"
+	.string "del CLUB del CABLE POKéMON.$"
+	.endif
 
 @ Unused
 Text_WelcomeColosseum::
+	.ifdef ENGLISH
 	.string "Welcome to the POKéMON CABLE CLUB\n"
 	.string "COLOSSEUM.$"
+	.endif
+	.ifdef SPANISH
+	.string "Hola. Éste es el COLISEO del\n"
+	.string "CLUB del CABLE POKéMON.$"
+	.endif
 
 @ Unused
 Text_WelcomeTimeCapsule::
+	.ifdef ENGLISH
 	.string "Welcome to the POKéMON CABLE CLUB\n"
 	.string "TIME CAPSULE.$"
+	.endif
+	.ifdef SPANISH
+	.string "Hola. Ésta es la CÁPSULA del\n"
+	.string "TIEMPO del CLUB del CABLE\l"
+	.string "POKéMON.$"
+	.endif
 
 Text_PleaseComeAgain::
+	.ifdef ENGLISH
 	.string "Please come again!$"
+	.endif
+	.ifdef SPANISH
+	.string "¡Vuelve cuando quieras!$"
+	.endif
 
 @ Unused
 Text_HavingDiscountSaleToday::
+	.ifdef ENGLISH
 	.string "Welcome!\p"
 	.string "We're having a discount sale today!$"
+	.endif
+	.ifdef SPANISH
+	.string "¡Hola!\p"
+	.string "¡Hoy tenemos rebajas!$"
+	.endif
 
 @ Unused
 Text_PlayerWhatCanIDoForYou::
+	.ifdef ENGLISH
 	.string "{PLAYER}{KUN}, welcome!\p"
 	.string "What can I do for you?$"
+	.endif
+	.ifdef SPANISH
+	.string "¡Hola, {PLAYER}{KUN}!\p"
+	.string "¿En qué puedo ayudarte?$"
+	.endif
 
 	.include "data/text/obtain_item.inc"
 
@@ -851,11 +898,22 @@ Text_MakingPreparations::
 	.string "じゅんびちゅうです！$"
 
 Text_WantWhichFloor::
+	.ifdef ENGLISH
 	.string "Which floor do you want?$"
+	.endif
+	.ifdef SPANISH
+	.string "¿A qué piso quieres ir?$"
+	.endif
 
 Text_BagItemCanBeRegistered::
+	.ifdef ENGLISH
 	.string "An item in the BAG can be\n"
 	.string "registered to SELECT for easy use.$"
+	.endif
+	.ifdef SPANISH
+	.string "Puedes asignar cualquier objeto de\n"
+	.string "la MOCHILA al Botón SELECT.$"
+	.endif
 
 @ Unused (email from R/S Rivals computer)
 Text_TrainerSchoolEmail::
@@ -869,7 +927,12 @@ Text_TrainerSchoolEmail::
 	.string "‥‥　‥‥　‥‥$"
 
 Text_PlayerBootedUpPC::
+	.ifdef ENGLISH
 	.string "{PLAYER} booted up the PC.$"
+	.endif
+	.ifdef SPANISH
+	.string "{PLAYER} encendió el PC.$"
+	.endif
 
 @ Unused
 Text_LinkWasCanceled::
@@ -877,29 +940,69 @@ Text_LinkWasCanceled::
 
 @ Unused
 Text_GiveNicknameToReceivedMon::
+	.ifdef ENGLISH
 	.string "Want to give a nickname to the\n"
 	.string "{STR_VAR_2} you received?$"
+	.endif
+	.ifdef SPANISH
+	.string "¿Quieres dar un nombre al\n"
+	.string "{STR_VAR_2} que has recibido?$"
+	.endif
 
 gText_PkmnFainted3::
+	.ifdef ENGLISH
 	.string "{STR_VAR_1} fainted…\p"
 	.string "$"
+	.endif
+	.ifdef SPANISH
+	.string "{STR_VAR_1} se debilitó... \p"
+	.string "$"
+	.endif
 
 Text_WelcomeWantToHealPkmn::
+	.ifdef ENGLISH
 	.string "Welcome to our POKéMON CENTER!\p"
 	.string "Would you like me to heal your\n"
 	.string "POKéMON back to perfect health?$"
+	.endif
+	.ifdef SPANISH
+	.string "¡Éste es el CENTRO POKéMON!\p"
+	.string "Nosotros curamos a los POKéMON\n"
+	.string "debilitados.\p"
+	.string "¿Quieres que nos ocupemos de los\n"
+	.string "POKéMON de tu equipo?$"
+	.endif
 
 Text_TakeYourPkmnForFewSeconds::
+	.ifdef ENGLISH
 	.string "Okay, I'll take your POKéMON for a\n"
 	.string "few seconds.$"
+	.endif
+	.ifdef SPANISH
+	.string "Muy bien. Ten un poco de\n"
+	.string "paciencia. Será sólo un momento.$"
+	.endif
 
 Text_WeHopeToSeeYouAgain::
+	.ifdef ENGLISH
 	.string "We hope to see you again!$"
+	.endif
+	.ifdef SPANISH
+	.string "¡Vuelve siempre que quieras!$"
+	.endif
 
 Text_RestoredPkmnToFullHealth::
+	.ifdef ENGLISH
 	.string "Thank you for waiting.\n"
 	.string "We've restored your POKéMON to\l"
 	.string "full health.$"
+	.endif
+	.ifdef SPANISH
+	.string "Gracias por esperar.\p"
+	.string "Misión cumplida. Somos especialistas\n"
+	.string "en devolver la forma a los\l"
+	.string "POKéMON.$"
+	.endif
 
 	.include "data/text/surf.inc"
 
@@ -914,21 +1017,46 @@ Text_BigHoleInTheWall::
 	.string "おおきな　あなが　あいている！$"
 
 Text_WirelessClubUndergoingAdjustments::
+	.ifdef ENGLISH
 	.string "I'm terribly sorry.\n"
 	.string "The POKéMON WIRELESS CLUB is\l"
 	.string "undergoing adjustments now.$"
+	.endif
+	.ifdef SPANISH
+	.string "Lo siento, pero el CLUB\n"
+	.string "INALÁMBRICO POKéMON no está\l"
+	.string "disponible todavía.$"
+	.endif
 
 Text_AppearsToBeUndergoingAdjustments::
+	.ifdef ENGLISH
 	.string "It appears to be undergoing\n"
 	.string "adjustments…$"
+	.endif
+	.ifdef SPANISH
+	.string "Se ve que están dándole\n"
+	.string "los últimos retoques...$"
+	.endif
 
 Text_HandedOverItem::
+	.ifdef ENGLISH
 	.string "{PLAYER} handed over the\n"
 	.string "{STR_VAR_1}.$"
+	.endif
+	.ifdef SPANISH
+	.string "¡{PLAYER} entregó\n"
+	.string "{STR_VAR_1}!$"
+	.endif
 
 Text_GiveNicknameToThisMon::
+	.ifdef ENGLISH
 	.string "Do you want to give a nickname to\n"
 	.string "this {STR_VAR_1}?$"
+	.endif
+	.ifdef SPANISH
+	.string "¿Quieres darle un mote a tu\n"
+	.string "{STR_VAR_1}?$"
+	.endif
 
 	.include "data/text/itemfinder.inc"
 	.include "data/text/route23.inc"
@@ -936,28 +1064,64 @@ Text_GiveNicknameToThisMon::
 	.include "data/text/ingame_trade.inc"
 
 Text_CardKeyOpenedDoor::
+	.ifdef ENGLISH
 	.string "Bingo!\n"
 	.string "The CARD KEY opened the door!$"
+	.endif
+	.ifdef SPANISH
+	.string "¡Bingo! ¡La LLAVE MAGNÉTICA\n"
+	.string "abrió la puerta!$"
+	.endif
 
 Text_ItNeedsCardKey::
+	.ifdef ENGLISH
 	.string "No!\n"
 	.string "It needs a CARD KEY!$"
+	.endif
+	.ifdef SPANISH
+	.string "¡Caray!\n"
+	.string "¡Necesito una LLAVE MAGNÉTICA!$"
+	.endif
 
 Text_AccessedProfOaksPC::
+	.ifdef ENGLISH
 	.string "Accessed PROF. OAK's PC…\p"
 	.string "Accessed the POKéDEX Rating\n"
 	.string "System…$"
+	.endif
+	.ifdef SPANISH
+	.string "Accedes al PC del PROF. OAK.\p"
+	.string "Accedes al Sistema de Evaluación\n"
+	.string "de la POKéDEX.$"
+	.endif
 
 Text_HavePokedexRated::
+	.ifdef ENGLISH
 	.string "Would you like to have your\n"
 	.string "POKéDEX rated?$"
+	.endif
+	.ifdef SPANISH
+	.string "¿Quieres evaluar tu POKéDEX?$"
+	.endif
 
 Text_ClosedLinkToProfOaksPC::
+	.ifdef ENGLISH
 	.string "Closed link to PROF. OAK's PC.$"
+	.endif
+	.ifdef SPANISH
+	.string "Cerrado el enlace al PC del PROF.\n"
+	.string "OAK.$"
+	.endif
 
 Text_VoiceRangOutDontRunAway::
+	.ifdef ENGLISH
 	.string "Someone's voice rang out,\n"
 	.string "“Don't run away!”$"
+	.endif
+	.ifdef SPANISH
+	.string "Alguien ha dicho:\n"
+	.string "“¡No huyas!”$"
+	.endif
 
 @ Uncear what the below unused JP texts were for
 Text_IdLikeToSeeRequest::
@@ -982,32 +1146,60 @@ Text_TheDoorIsClosed::
 	.string "ドアは　しまっている‥$"
 
 Text_TheDoorIsOpen::
+	.ifdef ENGLISH
 	.string "The door is open…$"
+	.endif
+	.ifdef SPANISH
+	.string "La puerta está abierta...$"
+	.endif
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/white_out.inc"
 	.include "data/text/poke_mart.inc"
 
 Text_MonFlewAway::
+	.ifdef ENGLISH
 	.string "The {STR_VAR_1} flew away!$"
+	.endif
+	.ifdef SPANISH
+	.string "¡El {STR_VAR_1} se ha marchado!$"
+	.endif
 
 Text_TheresBedLetsRest::
 	.string "ベッドが　ある‥‥\n"
 	.string "やすんでいこう$"
 
 Text_FoundTMHMContainsMove::
+	.ifdef ENGLISH
 	.string "{PLAYER} found a {STR_VAR_2}!\n"
 	.string "It contains {STR_VAR_1}.$"
+	.endif
+	.ifdef SPANISH
+	.string "¡{PLAYER} encontró\n"
+	.string "una {STR_VAR_2},\l"
+	.string "contiene {STR_VAR_1}!{PAUSE 64}$"
+	.endif
 
 	.include "data/text/seagallop.inc"
 
 @ Call for legendary bird trio
 Text_Gyaoo::
+	.ifdef ENGLISH
 	.string "Gyaoo!$"
+	.endif
+	.ifdef SPANISH
+	.string "¡Artic!$"
+	.endif
 
 Text_MoveCanOnlyBeLearnedOnce::
+	.ifdef ENGLISH
 	.string "This move can be learned only\n"
 	.string "once. Is that okay?$"
+	.endif
+	.ifdef SPANISH
+	.string "Este movimiento sólo se puede\n"
+	.string "aprender una vez, ¿vale?$"
+	.endif
 
 EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_OAK_IN_HIS_LAB
