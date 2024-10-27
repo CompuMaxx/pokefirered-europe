@@ -59,6 +59,9 @@ EventScript_TryDoRematchBattle::
 	waitmessage
 	waitbuttonpress
 	goto_if_questlog EventScript_EndQuestLogRematch
+.ifdef SPANISH
+	special QuestLog_CutRecording
+.endif
 	special StartRematchBattle
 	waitstate
 	releaseall
@@ -78,6 +81,9 @@ EventScript_TryDoDoubleRematchBattle::
 	waitmessage
 	waitbuttonpress
 	goto_if_questlog EventScript_EndQuestLogRematch
+.ifdef SPANISH
+	special QuestLog_CutRecording
+.endif
 	special StartRematchBattle
 	waitstate
 	releaseall
