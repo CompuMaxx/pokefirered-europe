@@ -21,6 +21,12 @@ JPText_BodySlamTaught::
     .string "ぼよよーん！$"
 
 FourIsland_House1_Text_YoureAwfullyHeavy::
+    .ifdef ENGLISH
     .string "There! Boing!\n"
     .string "You're awfully heavy!$"
+    .endif
+    .ifdef SPANISH
+    .string "¡Hala, qué golpe!\n"
+    .string "¡Qué fuerza tienes!$"
+    .endif
 
