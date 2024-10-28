@@ -323,6 +323,8 @@ int AsmFile::ReadBraille(unsigned char* s)
         { ' ', 0x00 },
         { ',', 0x04 },
         { '.', 0x2C },
+        { '=', 0x3F },
+        { '\'', 0x10 },
         { '$', 0xFF },
     };
 
