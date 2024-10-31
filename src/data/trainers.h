@@ -6,7 +6,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AQUA_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_LEADER_ARCHIE,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -16,7 +20,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -26,7 +34,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -36,7 +48,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_AROMA_LADY,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -46,7 +62,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RS_RUIN_MANIAC,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -56,7 +76,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_INTERVIEWER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTERVIEWER,
         .trainerPic = TRAINER_PIC_INTERVIEWER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -66,7 +90,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_TUBER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_RS_TUBER_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -76,7 +104,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_TUBER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_TUBER_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -86,7 +118,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -96,7 +132,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -106,7 +146,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_HEX_MANIAC,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -116,7 +160,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_LADY,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -126,7 +174,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_BEAUTY,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -136,7 +188,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RICH_BOY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_RICH_BOY,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -146,7 +202,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_RS_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -156,7 +216,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -166,7 +230,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_RS_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -176,7 +244,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GUITARIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_GUITARIST,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -186,7 +258,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_KINDLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -196,7 +272,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_CAMPER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -206,7 +286,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -216,7 +300,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_RS_PSYCHIC_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -226,7 +314,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_RS_PSYCHIC_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -236,7 +328,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_RS_GENTLEMAN,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -246,7 +342,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_SIDNEY,
+        #if ENGLISH
         .trainerName = _("SIDNEY"),
+        #elif SPANISH
+        .trainerName = _("SIXTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -256,7 +356,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
+        #if ENGLISH
         .trainerName = _("PHOEBE"),
+        #elif SPANISH
+        .trainerName = _("FÁTIMA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -266,7 +370,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
+        #if ENGLISH
         .trainerName = _("ROXANNE"),
+        #elif SPANISH
+        .trainerName = _("PETRA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -276,7 +384,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_BRAWLY,
+        #if ENGLISH
         .trainerName = _("BRAWLY"),
+        #elif SPANISH
+        .trainerName = _("MARCIAL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -286,7 +398,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_TATE_AND_LIZA,
+        #if ENGLISH
         .trainerName = _("TATE&LIZA"),
+        #elif SPANISH
+        .trainerName = _("VITO-LETI"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -296,7 +412,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCHOOL_KID,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -306,7 +426,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCHOOL_KID,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SCHOOL_KID_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -316,7 +440,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SR_AND_JR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_SR_AND_JR,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -326,7 +454,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEFAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_POKEFAN_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -336,7 +468,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEFAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_POKEFAN_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -346,7 +482,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_EXPERT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_EXPERT_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -356,7 +496,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_EXPERT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_EXPERT_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -366,7 +510,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -376,7 +524,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_STEVEN,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -386,7 +538,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RS_FISHERMAN,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -396,7 +552,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -406,7 +566,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -416,7 +580,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RUNNING_TRIATHLETE_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -426,7 +594,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RUNNING_TRIATHLETE_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -436,7 +608,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -446,7 +622,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -456,7 +636,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_DRAGON_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -466,7 +650,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -476,7 +664,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_NINJA_BOY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -486,7 +678,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BATTLE_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BATTLE_GIRL,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -496,7 +692,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PARASOL_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PARASOL_LADY,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -506,7 +706,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -516,7 +720,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_RS_PICNICKER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -526,7 +734,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_RS_TWINS,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -536,7 +748,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_SAILOR,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -546,7 +762,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BOARDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -556,7 +776,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BOARDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -566,7 +790,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COLLECTOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_COLLECTOR,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -576,7 +804,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_WALLY,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -586,7 +818,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BRENDAN_1,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -596,7 +832,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BRENDAN_1,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -606,7 +846,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BRENDAN_1,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -616,7 +860,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_MAY_1,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -626,7 +874,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_MAY_1,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -636,7 +888,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_MAY_1,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -646,7 +902,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_POKEMON_BREEDER_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -656,7 +916,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_POKEMON_BREEDER_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -666,7 +930,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_POKEMON_RANGER_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -676,7 +944,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_POKEMON_RANGER_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -686,7 +958,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_LEADER_MAXIE,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -696,7 +972,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -706,7 +986,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_F,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -716,7 +1000,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_LASS,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -726,7 +1014,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -736,7 +1028,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RS_HIKER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -746,7 +1042,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_RS_YOUNG_COUPLE,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -756,7 +1056,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_OLD_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_OLD_COUPLE,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -766,7 +1070,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_RS_SIS_AND_BRO,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -776,7 +1084,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AQUA_ADMIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_ADMIN_M,
+        #if ENGLISH
         .trainerName = _("MATT"),
+        #elif SPANISH
+        .trainerName = _("MATÍAS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -786,7 +1098,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AQUA_ADMIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_ADMIN_F,
+        #if ENGLISH
         .trainerName = _("SHELLY"),
+        #elif SPANISH
+        .trainerName = _("SILVINA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -796,7 +1112,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_ADMIN_M,
+        #if ENGLISH
         .trainerName = _("TABITHA"),
+        #elif SPANISH
+        .trainerName = _("TATIANO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -806,7 +1126,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_ADMIN_F,
+        #if ENGLISH
         .trainerName = _("COURTNEY"),
+        #elif SPANISH
+        .trainerName = _("CAROLA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -816,7 +1140,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_WATTSON,
+        #if ENGLISH
         .trainerName = _("WATTSON"),
+        #elif SPANISH
+        .trainerName = _("ERICO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -826,7 +1154,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_FLANNERY,
+        #if ENGLISH
         .trainerName = _("FLANNERY"),
+        #elif SPANISH
+        .trainerName = _("CANDELA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -836,7 +1168,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_NORMAN,
+        #if ENGLISH
         .trainerName = _("NORMAN"),
+        #elif SPANISH
+        .trainerName = _("NORMAN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -846,7 +1182,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_WINONA,
+        #if ENGLISH
         .trainerName = _("WINONA"),
+        #elif SPANISH
+        .trainerName = _("ALANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -856,7 +1196,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_WALLACE,
+        #if ENGLISH
         .trainerName = _("WALLACE"),
+        #elif SPANISH
+        .trainerName = _("PLUBIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -866,7 +1210,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_GLACIA,
+        #if ENGLISH
         .trainerName = _("GLACIA"),
+        #elif SPANISH
+        .trainerName = _("NÍVEA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -876,7 +1224,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
+        #if ENGLISH
         .trainerName = _("DRAKE"),
+        #elif SPANISH
+        .trainerName = _("DRACÓN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -886,7 +1238,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("BEN"),
+        #elif SPANISH
+        .trainerName = _("BEN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -896,7 +1252,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("CALVIN"),
+        #elif SPANISH
+        .trainerName = _("CALIXTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -906,7 +1266,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("JOSH"),
+        #elif SPANISH
+        .trainerName = _("JOSÉ"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -916,7 +1280,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("TIMMY"),
+        #elif SPANISH
+        .trainerName = _("TINO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -926,7 +1294,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("JOEY"),
+        #elif SPANISH
+        .trainerName = _("PEPE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -936,7 +1308,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("DAN"),
+        #elif SPANISH
+        .trainerName = _("DANE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -946,7 +1322,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("CHAD"),
+        #elif SPANISH
+        .trainerName = _("CIRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -956,7 +1336,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("TYLER"),
+        #elif SPANISH
+        .trainerName = _("TILEN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -966,7 +1350,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("EDDIE"),
+        #elif SPANISH
+        .trainerName = _("EDU"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -976,7 +1364,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("DILLON"),
+        #elif SPANISH
+        .trainerName = _("DIONI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -986,7 +1378,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("YASU"),
+        #elif SPANISH
+        .trainerName = _("YASU"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -996,7 +1392,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("DAVE"),
+        #elif SPANISH
+        .trainerName = _("DAVI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1006,7 +1406,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("BEN"),
+        #elif SPANISH
+        .trainerName = _("BEN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1016,7 +1420,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("RICK"),
+        #elif SPANISH
+        .trainerName = _("JANO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1026,7 +1434,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("DOUG"),
+        #elif SPANISH
+        .trainerName = _("DOMIN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1036,7 +1448,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("SAMMY"),
+        #elif SPANISH
+        .trainerName = _("SAMI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1046,7 +1462,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("COLTON"),
+        #elif SPANISH
+        .trainerName = _("CORNELIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1056,7 +1476,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("GREG"),
+        #elif SPANISH
+        .trainerName = _("GREGORIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1066,7 +1490,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("JAMES"),
+        #elif SPANISH
+        .trainerName = _("JAIME"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1076,7 +1504,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("KENT"),
+        #elif SPANISH
+        .trainerName = _("CASIMIRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1086,7 +1518,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("ROBBY"),
+        #elif SPANISH
+        .trainerName = _("ROBI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1096,7 +1532,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("CALE"),
+        #elif SPANISH
+        .trainerName = _("BUDI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1106,7 +1546,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("KEIGO"),
+        #elif SPANISH
+        .trainerName = _("KEIGO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1116,7 +1560,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("ELIJAH"),
+        #elif SPANISH
+        .trainerName = _("JUALU"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1126,7 +1574,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1136,7 +1588,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("BRENT"),
+        #elif SPANISH
+        .trainerName = _("BERNABÉ"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1146,7 +1602,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("CONNER"),
+        #elif SPANISH
+        .trainerName = _("ARIEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1156,7 +1616,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("JANICE"),
+        #elif SPANISH
+        .trainerName = _("LUCRECIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1166,7 +1630,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("SALLY"),
+        #elif SPANISH
+        .trainerName = _("SUSANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1176,7 +1644,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("ROBIN"),
+        #elif SPANISH
+        .trainerName = _("ROBERTA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1186,7 +1658,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("CRISSY"),
+        #elif SPANISH
+        .trainerName = _("CRISTI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1196,7 +1672,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("MIRIAM"),
+        #elif SPANISH
+        .trainerName = _("MIRNA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1206,7 +1686,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("IRIS"),
+        #elif SPANISH
+        .trainerName = _("IRIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1216,7 +1700,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("RELI"),
+        #elif SPANISH
+        .trainerName = _("RUTH"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1226,7 +1714,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("ALI"),
+        #elif SPANISH
+        .trainerName = _("MARGA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1236,7 +1728,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1246,7 +1742,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("HALEY"),
+        #elif SPANISH
+        .trainerName = _("HERMINIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1256,7 +1756,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("ANN"),
+        #elif SPANISH
+        .trainerName = _("ADA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1266,7 +1770,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("DAWN"),
+        #elif SPANISH
+        .trainerName = _("ARRATE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1276,7 +1784,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("PAIGE"),
+        #elif SPANISH
+        .trainerName = _("LULÚ"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1286,7 +1798,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("ANDREA"),
+        #elif SPANISH
+        .trainerName = _("ANDREA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1296,7 +1812,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("MEGAN"),
+        #elif SPANISH
+        .trainerName = _("VEVA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1306,7 +1826,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("JULIA"),
+        #elif SPANISH
+        .trainerName = _("GENO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1316,7 +1840,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("KAY"),
+        #elif SPANISH
+        .trainerName = _("BUSA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1326,7 +1854,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("LISA"),
+        #elif SPANISH
+        .trainerName = _("LISA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1336,7 +1868,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
+        #if ENGLISH
         .trainerName = _("EDMOND"),
+        #elif SPANISH
+        .trainerName = _("EDMUNDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1346,7 +1882,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
+        #if ENGLISH
         .trainerName = _("TREVOR"),
+        #elif SPANISH
+        .trainerName = _("TORIBIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1356,7 +1896,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
+        #if ENGLISH
         .trainerName = _("LEONARD"),
+        #elif SPANISH
+        .trainerName = _("LEONARDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1366,7 +1910,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
+        #if ENGLISH
         .trainerName = _("DUNCAN"),
+        #elif SPANISH
+        .trainerName = _("DATO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1376,7 +1924,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
+        #if ENGLISH
         .trainerName = _("HUEY"),
+        #elif SPANISH
+        .trainerName = _("HUMBERTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1386,7 +1938,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
+        #if ENGLISH
         .trainerName = _("DYLAN"),
+        #elif SPANISH
+        .trainerName = _("DAN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1396,7 +1952,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
+        #if ENGLISH
         .trainerName = _("PHILLIP"),
+        #elif SPANISH
+        .trainerName = _("FELIPE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1406,7 +1966,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
+        #if ENGLISH
         .trainerName = _("DWAYNE"),
+        #elif SPANISH
+        .trainerName = _("DIMAS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1416,7 +1980,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("LIAM"),
+        #elif SPANISH
+        .trainerName = _("ANGELITO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1426,7 +1994,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("SHANE"),
+        #elif SPANISH
+        .trainerName = _("CHANO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1436,7 +2008,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("ETHAN"),
+        #elif SPANISH
+        .trainerName = _("EZEQUIEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1446,7 +2022,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("RICKY"),
+        #elif SPANISH
+        .trainerName = _("RICHI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1456,7 +2036,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("JEFF"),
+        #elif SPANISH
+        .trainerName = _("GENARO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1466,7 +2050,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1476,7 +2064,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("CHRIS"),
+        #elif SPANISH
+        .trainerName = _("CRIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1486,7 +2078,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("DREW"),
+        #elif SPANISH
+        .trainerName = _("DOROTEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1496,7 +2092,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("DIANA"),
+        #elif SPANISH
+        .trainerName = _("DIANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1506,7 +2106,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("NANCY"),
+        #elif SPANISH
+        .trainerName = _("NEREA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1516,7 +2120,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ISABELLE"),
+        #elif SPANISH
+        .trainerName = _("CHÍO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1526,7 +2134,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("KELSEY"),
+        #elif SPANISH
+        .trainerName = _("ELIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1536,7 +2148,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ALICIA"),
+        #elif SPANISH
+        .trainerName = _("NELI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1546,7 +2162,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("CAITLIN"),
+        #elif SPANISH
+        .trainerName = _("NOE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1556,7 +2176,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("HEIDI"),
+        #elif SPANISH
+        .trainerName = _("HILARIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1566,7 +2190,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("CAROL"),
+        #elif SPANISH
+        .trainerName = _("CÁROL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1576,7 +2204,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("SOFIA"),
+        #elif SPANISH
+        .trainerName = _("SOFÍA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1586,7 +2218,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("MARTHA"),
+        #elif SPANISH
+        .trainerName = _("MARTA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1596,7 +2232,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("TINA"),
+        #elif SPANISH
+        .trainerName = _("TEÓFILA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1606,7 +2246,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("HANNAH"),
+        #elif SPANISH
+        .trainerName = _("ANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1616,7 +2260,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("MARK"),
+        #elif SPANISH
+        .trainerName = _("MARCO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1626,7 +2274,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("HERMAN"),
+        #elif SPANISH
+        .trainerName = _("HERNANDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1636,7 +2288,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("COOPER"),
+        #elif SPANISH
+        .trainerName = _("JULIÁN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1646,7 +2302,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("STEVE"),
+        #elif SPANISH
+        .trainerName = _("ESTEBAN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1656,7 +2316,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("WINSTON"),
+        #elif SPANISH
+        .trainerName = _("DANI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1666,7 +2330,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("DAWSON"),
+        #elif SPANISH
+        .trainerName = _("ISRAEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1676,7 +2344,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("ASHTON"),
+        #elif SPANISH
+        .trainerName = _("BASILIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1686,7 +2358,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("JOVAN"),
+        #elif SPANISH
+        .trainerName = _("GUSTAVO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1696,7 +2372,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("MIGUEL"),
+        #elif SPANISH
+        .trainerName = _("MIGUEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1706,7 +2386,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("AIDAN"),
+        #elif SPANISH
+        .trainerName = _("ADRIÁN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1716,7 +2400,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("GLENN"),
+        #elif SPANISH
+        .trainerName = _("LADIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1726,7 +2414,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("LESLIE"),
+        #elif SPANISH
+        .trainerName = _("LES"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1736,7 +2428,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1746,7 +2442,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1756,7 +2456,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1766,7 +2470,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("ERIK"),
+        #elif SPANISH
+        .trainerName = _("ENRIQUE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1776,7 +2484,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("AVERY"),
+        #elif SPANISH
+        .trainerName = _("AVERO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1786,7 +2498,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("DEREK"),
+        #elif SPANISH
+        .trainerName = _("DANTE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1796,7 +2512,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("ZAC"),
+        #elif SPANISH
+        .trainerName = _("ZAC"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1806,7 +2526,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("MARCOS"),
+        #elif SPANISH
+        .trainerName = _("MARCOS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1816,7 +2540,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("FRANKLIN"),
+        #elif SPANISH
+        .trainerName = _("FRANCIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1826,7 +2554,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("NOB"),
+        #elif SPANISH
+        .trainerName = _("NOBORU"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1836,7 +2568,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("WAYNE"),
+        #elif SPANISH
+        .trainerName = _("UBALDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1846,7 +2582,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("ALAN"),
+        #elif SPANISH
+        .trainerName = _("ALFONSO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1856,7 +2596,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("BRICE"),
+        #elif SPANISH
+        .trainerName = _("BALTASAR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1866,7 +2610,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("CLARK"),
+        #elif SPANISH
+        .trainerName = _("CARLO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1876,7 +2624,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("TRENT"),
+        #elif SPANISH
+        .trainerName = _("TARSI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1886,7 +2638,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("DUDLEY"),
+        #elif SPANISH
+        .trainerName = _("DINIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1896,7 +2652,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("ALLEN"),
+        #elif SPANISH
+        .trainerName = _("ALFREDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1906,7 +2666,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("ERIC"),
+        #elif SPANISH
+        .trainerName = _("EVARISTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1916,7 +2680,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("LENNY"),
+        #elif SPANISH
+        .trainerName = _("LUCIANO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1926,7 +2694,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("OLIVER"),
+        #elif SPANISH
+        .trainerName = _("ÓSCAR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1936,7 +2708,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("LUCAS"),
+        #elif SPANISH
+        .trainerName = _("LUCAS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1946,7 +2722,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("JARED"),
+        #elif SPANISH
+        .trainerName = _("JAVIER"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1956,7 +2736,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("MALIK"),
+        #elif SPANISH
+        .trainerName = _("MALEN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1966,7 +2750,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("ERNEST"),
+        #elif SPANISH
+        .trainerName = _("ERNESTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1976,7 +2764,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("ALEX"),
+        #elif SPANISH
+        .trainerName = _("SANDRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1986,7 +2778,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("LAO"),
+        #elif SPANISH
+        .trainerName = _("LAO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -1996,7 +2792,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2006,7 +2806,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("HIDEO"),
+        #elif SPANISH
+        .trainerName = _("HIDEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2016,7 +2820,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("RUBEN"),
+        #elif SPANISH
+        .trainerName = _("RUBÉN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2026,7 +2834,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("BILLY"),
+        #elif SPANISH
+        .trainerName = _("BERTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2036,7 +2848,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("NIKOLAS"),
+        #elif SPANISH
+        .trainerName = _("NICO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2046,7 +2862,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("JAXON"),
+        #elif SPANISH
+        .trainerName = _("JULIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2056,7 +2876,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("WILLIAM"),
+        #elif SPANISH
+        .trainerName = _("GUILLERMO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2066,7 +2890,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("LUKAS"),
+        #elif SPANISH
+        .trainerName = _("LUCIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2076,7 +2904,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("ISAAC"),
+        #elif SPANISH
+        .trainerName = _("ISAAC"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2086,7 +2918,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("GERALD"),
+        #elif SPANISH
+        .trainerName = _("GERARDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2096,7 +2932,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2106,7 +2946,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2116,7 +2960,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2126,7 +2974,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _("QUINN"),
+        #elif SPANISH
+        .trainerName = _("OCTAVIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2136,7 +2988,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _("RAMON"),
+        #elif SPANISH
+        .trainerName = _("RAMÓN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2146,7 +3002,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _("DUSTY"),
+        #elif SPANISH
+        .trainerName = _("DACIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2156,7 +3016,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _("ARNIE"),
+        #elif SPANISH
+        .trainerName = _("AMADEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2166,7 +3030,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2176,7 +3044,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _("SIMON"),
+        #elif SPANISH
+        .trainerName = _("SIMÓN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2186,7 +3058,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
+        #if ENGLISH
         .trainerName = _("LEWIS"),
+        #elif SPANISH
+        .trainerName = _("LAUREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2196,7 +3072,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ENGINEER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ENGINEER,
+        #if ENGLISH
         .trainerName = _("BAILY"),
+        #elif SPANISH
+        .trainerName = _("MANOLO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2206,7 +3086,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ENGINEER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ENGINEER,
+        #if ENGLISH
         .trainerName = _("BRAXTON"),
+        #elif SPANISH
+        .trainerName = _("PERICO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2216,7 +3100,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ENGINEER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ENGINEER,
+        #if ENGLISH
         .trainerName = _("BERNIE"),
+        #elif SPANISH
+        .trainerName = _("BERNARDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2226,7 +3114,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("DALE"),
+        #elif SPANISH
+        .trainerName = _("DANIEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2236,7 +3128,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("BARNY"),
+        #elif SPANISH
+        .trainerName = _("BELTRÁN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2246,7 +3142,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("NED"),
+        #elif SPANISH
+        .trainerName = _("NÉSTOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2256,7 +3156,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("CHIP"),
+        #elif SPANISH
+        .trainerName = _("CHICHO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2266,7 +3170,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("HANK"),
+        #elif SPANISH
+        .trainerName = _("HILARIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2276,7 +3184,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("ELLIOT"),
+        #elif SPANISH
+        .trainerName = _("ELOY"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2286,7 +3198,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("RONALD"),
+        #elif SPANISH
+        .trainerName = _("RONALDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2296,7 +3212,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("CLAUDE"),
+        #elif SPANISH
+        .trainerName = _("CLAUDIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2306,7 +3226,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("WADE"),
+        #elif SPANISH
+        .trainerName = _("GUIDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2316,7 +3240,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("NOLAN"),
+        #elif SPANISH
+        .trainerName = _("NARCISO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2326,7 +3254,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("ANDREW"),
+        #elif SPANISH
+        .trainerName = _("ANDRÉS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2336,7 +3268,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("LUIS"),
+        #elif SPANISH
+        .trainerName = _("LUIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2346,7 +3282,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("RICHARD"),
+        #elif SPANISH
+        .trainerName = _("RICARDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2356,7 +3296,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("REECE"),
+        #elif SPANISH
+        .trainerName = _("MARCELO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2366,7 +3310,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("MATTHEW"),
+        #elif SPANISH
+        .trainerName = _("MATEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2376,7 +3324,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("DOUGLAS"),
+        #elif SPANISH
+        .trainerName = _("DOMINGO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2386,7 +3338,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("DAVID"),
+        #elif SPANISH
+        .trainerName = _("DAVID"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2396,7 +3352,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("TONY"),
+        #elif SPANISH
+        .trainerName = _("TONI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2406,7 +3366,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("AXLE"),
+        #elif SPANISH
+        .trainerName = _("ALEJO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2416,7 +3380,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("BARRY"),
+        #elif SPANISH
+        .trainerName = _("BORIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2426,7 +3394,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("DEAN"),
+        #elif SPANISH
+        .trainerName = _("DINO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2436,7 +3408,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("DARRIN"),
+        #elif SPANISH
+        .trainerName = _("DARÍO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2446,7 +3422,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("SPENCER"),
+        #elif SPANISH
+        .trainerName = _("SERGIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2456,7 +3436,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("JACK"),
+        #elif SPANISH
+        .trainerName = _("OMAR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2466,7 +3450,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("JEROME"),
+        #elif SPANISH
+        .trainerName = _("JEROMO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2476,7 +3464,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("ROLAND"),
+        #elif SPANISH
+        .trainerName = _("ROMÁN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2486,7 +3478,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("KOJI"),
+        #elif SPANISH
+        .trainerName = _("KOJI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2496,7 +3492,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("LUKE"),
+        #elif SPANISH
+        .trainerName = _("LEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2506,7 +3506,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("CAMRON"),
+        #elif SPANISH
+        .trainerName = _("CADEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2516,7 +3520,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("RAUL"),
+        #elif SPANISH
+        .trainerName = _("RALE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2526,7 +3534,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("ISAIAH"),
+        #elif SPANISH
+        .trainerName = _("ISAÍAS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2536,7 +3548,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("ZEEK"),
+        #elif SPANISH
+        .trainerName = _("DERO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2546,7 +3562,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("JAMAL"),
+        #elif SPANISH
+        .trainerName = _("JAVI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2556,7 +3576,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("COREY"),
+        #elif SPANISH
+        .trainerName = _("CEFE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2566,7 +3590,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("CHASE"),
+        #elif SPANISH
+        .trainerName = _("CONRADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2576,7 +3604,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
+        #if ENGLISH
         .trainerName = _("HUGO"),
+        #elif SPANISH
+        .trainerName = _("HUGUE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2586,7 +3618,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
+        #if ENGLISH
         .trainerName = _("JASPER"),
+        #elif SPANISH
+        .trainerName = _("JAREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2596,7 +3632,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
+        #if ENGLISH
         .trainerName = _("DIRK"),
+        #elif SPANISH
+        .trainerName = _("GASPAR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2606,7 +3646,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
+        #if ENGLISH
         .trainerName = _("DARIAN"),
+        #elif SPANISH
+        .trainerName = _("DARIAN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2616,7 +3660,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
+        #if ENGLISH
         .trainerName = _("STAN"),
+        #elif SPANISH
+        .trainerName = _("EUSEBIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2626,7 +3674,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2636,7 +3688,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
+        #if ENGLISH
         .trainerName = _("RICH"),
+        #elif SPANISH
+        .trainerName = _("NORBER"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2646,7 +3702,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
+        #if ENGLISH
         .trainerName = _("BRIDGET"),
+        #elif SPANISH
+        .trainerName = _("BRÍGIDA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2656,7 +3716,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
+        #if ENGLISH
         .trainerName = _("TAMIA"),
+        #elif SPANISH
+        .trainerName = _("PURI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2666,7 +3730,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
+        #if ENGLISH
         .trainerName = _("LORI"),
+        #elif SPANISH
+        .trainerName = _("LARA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2676,7 +3744,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
+        #if ENGLISH
         .trainerName = _("LOLA"),
+        #elif SPANISH
+        .trainerName = _("LOLA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2686,7 +3758,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
+        #if ENGLISH
         .trainerName = _("SHEILA"),
+        #elif SPANISH
+        .trainerName = _("SOL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2696,7 +3772,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("TIFFANY"),
+        #elif SPANISH
+        .trainerName = _("TIZIANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2706,7 +3786,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("NORA"),
+        #elif SPANISH
+        .trainerName = _("NORA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2716,7 +3800,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("MELISSA"),
+        #elif SPANISH
+        .trainerName = _("MELISA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2726,7 +3814,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
+        #if ENGLISH
         .trainerName = _("GRACE"),
+        #elif SPANISH
+        .trainerName = _("GRACIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2736,7 +3828,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
+        #if ENGLISH
         .trainerName = _("OLIVIA"),
+        #elif SPANISH
+        .trainerName = _("OLIVIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2746,7 +3842,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("LAUREN"),
+        #elif SPANISH
+        .trainerName = _("LUCERO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2756,7 +3856,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("ANYA"),
+        #elif SPANISH
+        .trainerName = _("ANIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2766,7 +3870,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("ALICE"),
+        #elif SPANISH
+        .trainerName = _("ALICIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2776,7 +3884,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("CONNIE"),
+        #elif SPANISH
+        .trainerName = _("CORO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2786,7 +3898,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("SHIRLEY"),
+        #elif SPANISH
+        .trainerName = _("SILVIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2796,7 +3912,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
+        #if ENGLISH
         .trainerName = _("JOHAN"),
+        #elif SPANISH
+        .trainerName = _("LUISMI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2806,7 +3926,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
+        #if ENGLISH
         .trainerName = _("TYRON"),
+        #elif SPANISH
+        .trainerName = _("TOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2816,7 +3940,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
+        #if ENGLISH
         .trainerName = _("CAMERON"),
+        #elif SPANISH
+        .trainerName = _("SILVIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2826,7 +3954,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
+        #if ENGLISH
         .trainerName = _("PRESTON"),
+        #elif SPANISH
+        .trainerName = _("PATRICIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2836,7 +3968,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ROCKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ROCKER,
+        #if ENGLISH
         .trainerName = _("RANDALL"),
+        #elif SPANISH
+        .trainerName = _("ANTONIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2846,7 +3982,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ROCKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ROCKER,
+        #if ENGLISH
         .trainerName = _("LUCA"),
+        #elif SPANISH
+        .trainerName = _("MONE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2856,7 +3996,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("DALTON"),
+        #elif SPANISH
+        .trainerName = _("RODRIGO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2866,7 +4010,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("NELSON"),
+        #elif SPANISH
+        .trainerName = _("MODESTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2876,7 +4024,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("KIRK"),
+        #elif SPANISH
+        .trainerName = _("ÁNGEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2886,7 +4038,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("SHAWN"),
+        #elif SPANISH
+        .trainerName = _("ISMA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2896,7 +4052,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("GREGORY"),
+        #elif SPANISH
+        .trainerName = _("GRAU"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2906,7 +4066,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("EDWARD"),
+        #elif SPANISH
+        .trainerName = _("EDUARDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2916,7 +4080,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("KAYDEN"),
+        #elif SPANISH
+        .trainerName = _("LENO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2926,7 +4094,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("NATE"),
+        #elif SPANISH
+        .trainerName = _("NANDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2936,7 +4108,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
+        #if ENGLISH
         .trainerName = _("PHIL"),
+        #elif SPANISH
+        .trainerName = _("PEDRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2946,7 +4122,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
+        #if ENGLISH
         .trainerName = _("EDGAR"),
+        #elif SPANISH
+        .trainerName = _("EFRAÍN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2956,7 +4136,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
+        #if ENGLISH
         .trainerName = _("JASON"),
+        #elif SPANISH
+        .trainerName = _("JAIRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2966,7 +4150,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
+        #if ENGLISH
         .trainerName = _("COLE"),
+        #elif SPANISH
+        .trainerName = _("CAMILO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2976,7 +4164,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
+        #if ENGLISH
         .trainerName = _("VINCENT"),
+        #elif SPANISH
+        .trainerName = _("VICENTE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2986,7 +4178,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
+        #if ENGLISH
         .trainerName = _("JOHN"),
+        #elif SPANISH
+        .trainerName = _("JULI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -2996,7 +4192,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("SEBASTIAN"),
+        #elif SPANISH
+        .trainerName = _("SEBASTIÁN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3006,7 +4206,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("PERRY"),
+        #elif SPANISH
+        .trainerName = _("PASTOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3016,7 +4220,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("ROBERT"),
+        #elif SPANISH
+        .trainerName = _("ROBERTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3026,7 +4234,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("DONALD"),
+        #elif SPANISH
+        .trainerName = _("DONATO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3036,7 +4248,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("BENNY"),
+        #elif SPANISH
+        .trainerName = _("BENI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3046,7 +4262,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("EDWIN"),
+        #elif SPANISH
+        .trainerName = _("EDGARDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3056,7 +4276,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("CHESTER"),
+        #elif SPANISH
+        .trainerName = _("CELSO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3066,7 +4290,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("WILTON"),
+        #elif SPANISH
+        .trainerName = _("VALENTÍN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3076,7 +4304,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("RAMIRO"),
+        #elif SPANISH
+        .trainerName = _("RAMIRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3086,7 +4318,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("JACOB"),
+        #elif SPANISH
+        .trainerName = _("JACOBO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3096,7 +4332,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("ROGER"),
+        #elif SPANISH
+        .trainerName = _("ROGE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3106,7 +4346,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("REED"),
+        #elif SPANISH
+        .trainerName = _("REMO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3116,7 +4360,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("KEITH"),
+        #elif SPANISH
+        .trainerName = _("IMANOL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3126,7 +4374,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("CARTER"),
+        #elif SPANISH
+        .trainerName = _("CAYETANO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3136,7 +4388,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("MITCH"),
+        #elif SPANISH
+        .trainerName = _("MELCHOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3146,7 +4402,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("BECK"),
+        #elif SPANISH
+        .trainerName = _("BALDOMERO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3156,7 +4416,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("MARLON"),
+        #elif SPANISH
+        .trainerName = _("MAURO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3166,7 +4430,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("KOICHI"),
+        #elif SPANISH
+        .trainerName = _("KOICHI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3176,7 +4444,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("MIKE"),
+        #elif SPANISH
+        .trainerName = _("MIGUE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3186,7 +4458,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("HIDEKI"),
+        #elif SPANISH
+        .trainerName = _("HIDEKI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3196,7 +4472,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("AARON"),
+        #elif SPANISH
+        .trainerName = _("AARÓN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3206,7 +4486,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("HITOSHI"),
+        #elif SPANISH
+        .trainerName = _("HITOSHI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3216,7 +4500,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("ATSUSHI"),
+        #elif SPANISH
+        .trainerName = _("ATSUSHI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3226,7 +4514,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("KIYO"),
+        #elif SPANISH
+        .trainerName = _("HIRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3236,7 +4528,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("TAKASHI"),
+        #elif SPANISH
+        .trainerName = _("TAKASHI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3246,7 +4542,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("DAISUKE"),
+        #elif SPANISH
+        .trainerName = _("DAISUKE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3256,7 +4556,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3266,7 +4570,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3276,7 +4584,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3286,7 +4598,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3296,7 +4612,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3306,7 +4626,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3316,7 +4640,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3326,7 +4654,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3336,7 +4668,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3346,7 +4682,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("TED"),
+        #elif SPANISH
+        .trainerName = _("TICO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3356,7 +4696,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("CONNOR"),
+        #elif SPANISH
+        .trainerName = _("ROGELIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3366,7 +4710,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("JERRY"),
+        #elif SPANISH
+        .trainerName = _("JERÓNIMO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3376,7 +4724,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("JOSE"),
+        #elif SPANISH
+        .trainerName = _("JOSE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3386,7 +4738,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("RODNEY"),
+        #elif SPANISH
+        .trainerName = _("RODOLFO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3396,7 +4752,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("BEAU"),
+        #elif SPANISH
+        .trainerName = _("BENITO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3406,7 +4766,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("TAYLOR"),
+        #elif SPANISH
+        .trainerName = _("TIRSO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3416,7 +4780,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("JOSHUA"),
+        #elif SPANISH
+        .trainerName = _("JOSUÉ"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3426,7 +4794,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("PARKER"),
+        #elif SPANISH
+        .trainerName = _("PASCUAL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3436,7 +4808,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("ED"),
+        #elif SPANISH
+        .trainerName = _("MANU"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3446,7 +4822,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("TRAVIS"),
+        #elif SPANISH
+        .trainerName = _("TOBÍAS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3456,7 +4836,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("BRAYDON"),
+        #elif SPANISH
+        .trainerName = _("ARTURO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3466,7 +4850,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("IVAN"),
+        #elif SPANISH
+        .trainerName = _("IVÁN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3476,7 +4864,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BOSS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_LEADER_GIOVANNI,
+        #if ENGLISH
         .trainerName = _("GIOVANNI"),
+        #elif SPANISH
+        .trainerName = _("GIOVANNI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3486,7 +4878,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BOSS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_LEADER_GIOVANNI,
+        #if ENGLISH
         .trainerName = _("GIOVANNI"),
+        #elif SPANISH
+        .trainerName = _("GIOVANNI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3496,7 +4892,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_LEADER_GIOVANNI,
+        #if ENGLISH
         .trainerName = _("GIOVANNI"),
+        #elif SPANISH
+        .trainerName = _("GIOVANNI"),
+        #endif
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_FULL_HEAL},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3506,7 +4906,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3516,7 +4920,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3526,7 +4934,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3536,7 +4948,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3546,7 +4962,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3556,7 +4976,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3566,7 +4990,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3576,7 +5004,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3586,7 +5018,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3596,7 +5032,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3606,7 +5046,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3616,7 +5060,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3626,7 +5074,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3636,7 +5088,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3646,7 +5102,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3656,7 +5116,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3666,7 +5130,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3676,7 +5144,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3686,7 +5158,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3696,7 +5172,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3706,7 +5186,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3716,7 +5200,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3726,7 +5214,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3736,7 +5228,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3746,7 +5242,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3756,7 +5256,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3766,7 +5270,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3776,7 +5284,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3786,7 +5298,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3796,7 +5312,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3806,7 +5326,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3816,7 +5340,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3826,7 +5354,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3836,7 +5368,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3846,7 +5382,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3856,7 +5396,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3866,7 +5410,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3876,7 +5424,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3886,7 +5438,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3896,7 +5452,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3906,7 +5466,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -3916,7 +5480,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("SAMUEL"),
+        #elif SPANISH
+        .trainerName = _("SAMUEL"),
+        #endif
         .items = {ITEM_SUPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3926,7 +5494,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("GEORGE"),
+        #elif SPANISH
+        .trainerName = _("JORGE"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3936,7 +5508,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("COLBY"),
+        #elif SPANISH
+        .trainerName = _("ADÁN"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3946,7 +5522,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("PAUL"),
+        #elif SPANISH
+        .trainerName = _("PAULINO"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3956,7 +5536,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("ROLANDO"),
+        #elif SPANISH
+        .trainerName = _("ROLAN"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3966,7 +5550,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("GILBERT"),
+        #elif SPANISH
+        .trainerName = _("GILBERTO"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3976,7 +5564,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("OWEN"),
+        #elif SPANISH
+        .trainerName = _("ODÓN"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3986,7 +5578,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("BERKE"),
+        #elif SPANISH
+        .trainerName = _("BLAS"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -3996,7 +5592,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("YUJI"),
+        #elif SPANISH
+        .trainerName = _("YUJI"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4006,7 +5606,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("WARREN"),
+        #elif SPANISH
+        .trainerName = _("VALERIO"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4016,7 +5620,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("MARY"),
+        #elif SPANISH
+        .trainerName = _("MARI"),
+        #endif
         .items = {ITEM_SUPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4026,7 +5634,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("CAROLINE"),
+        #elif SPANISH
+        .trainerName = _("CAROLINA"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4036,7 +5648,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("ALEXA"),
+        #elif SPANISH
+        .trainerName = _("ALEJANDRA"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4046,7 +5662,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("SHANNON"),
+        #elif SPANISH
+        .trainerName = _("SABRINA"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4056,7 +5676,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("NAOMI"),
+        #elif SPANISH
+        .trainerName = _("NOEMÍ"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4066,7 +5690,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("BROOKE"),
+        #elif SPANISH
+        .trainerName = _("BERTA"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4076,7 +5704,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("AUSTINA"),
+        #elif SPANISH
+        .trainerName = _("AGUSTINA"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4086,7 +5718,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("JULIE"),
+        #elif SPANISH
+        .trainerName = _("JULIA"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4096,7 +5732,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_LORELEI,
+        #if ENGLISH
         .trainerName = _("LORELEI"),
+        #elif SPANISH
+        .trainerName = _("LORELEI"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4106,7 +5746,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_BRUNO,
+        #if ENGLISH
         .trainerName = _("BRUNO"),
+        #elif SPANISH
+        .trainerName = _("BRUNO"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4116,7 +5760,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_AGATHA,
+        #if ENGLISH
         .trainerName = _("AGATHA"),
+        #elif SPANISH
+        .trainerName = _("AGATHA"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4126,7 +5774,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_LANCE,
+        #if ENGLISH
         .trainerName = _("LANCE"),
+        #elif SPANISH
+        .trainerName = _("LANCE"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4136,7 +5788,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_BROCK,
+        #if ENGLISH
         .trainerName = _("BROCK"),
+        #elif SPANISH
+        .trainerName = _("BROCK"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4146,7 +5802,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_MISTY,
+        #if ENGLISH
         .trainerName = _("MISTY"),
+        #elif SPANISH
+        .trainerName = _("MISTY"),
+        #endif
         .items = {ITEM_SUPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4156,7 +5816,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_LT_SURGE,
+        #if ENGLISH
         .trainerName = _("LT. SURGE"),
+        #elif SPANISH
+        .trainerName = _("LT. SURGE"),
+        #endif
         .items = {ITEM_SUPER_POTION, ITEM_FULL_HEAL},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4166,7 +5830,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_ERIKA,
+        #if ENGLISH
         .trainerName = _("ERIKA"),
+        #elif SPANISH
+        .trainerName = _("ERIKA"),
+        #endif
         .items = {ITEM_HYPER_POTION, ITEM_FULL_HEAL},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4176,7 +5844,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_KOGA,
+        #if ENGLISH
         .trainerName = _("KOGA"),
+        #elif SPANISH
+        .trainerName = _("KOGA"),
+        #endif
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_FULL_HEAL},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4186,7 +5858,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_BLAINE,
+        #if ENGLISH
         .trainerName = _("BLAINE"),
+        #elif SPANISH
+        .trainerName = _("BLAINE"),
+        #endif
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_FULL_HEAL},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4196,7 +5872,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_SABRINA,
+        #if ENGLISH
         .trainerName = _("SABRINA"),
+        #elif SPANISH
+        .trainerName = _("SABRINA"),
+        #endif
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_FULL_HEAL},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4206,7 +5886,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
+        #if ENGLISH
         .trainerName = _("THOMAS"),
+        #elif SPANISH
+        .trainerName = _("TOMÁS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4216,7 +5900,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
+        #if ENGLISH
         .trainerName = _("ARTHUR"),
+        #elif SPANISH
+        .trainerName = _("ARMANDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4226,7 +5914,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
+        #if ENGLISH
         .trainerName = _("TUCKER"),
+        #elif SPANISH
+        .trainerName = _("TITO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4236,7 +5928,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
+        #if ENGLISH
         .trainerName = _("NORTON"),
+        #elif SPANISH
+        .trainerName = _("NICANOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4246,7 +5942,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
+        #if ENGLISH
         .trainerName = _("WALTER"),
+        #elif SPANISH
+        .trainerName = _("GABINO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4256,7 +5956,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4266,7 +5970,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4276,7 +5984,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4286,7 +5998,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4296,7 +6012,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4306,7 +6026,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4316,7 +6040,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4326,7 +6054,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4336,7 +6068,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4346,7 +6082,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4356,7 +6096,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4366,7 +6110,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4376,7 +6124,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4386,7 +6138,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4396,7 +6152,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4406,7 +6166,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("PATRICIA"),
+        #elif SPANISH
+        .trainerName = _("PATRICIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4416,7 +6180,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("CARLY"),
+        #elif SPANISH
+        .trainerName = _("CARI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4426,7 +6194,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("HOPE"),
+        #elif SPANISH
+        .trainerName = _("ESPE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4436,7 +6208,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("PAULA"),
+        #elif SPANISH
+        .trainerName = _("PAULA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4446,7 +6222,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("LAUREL"),
+        #elif SPANISH
+        .trainerName = _("LORENA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4456,7 +6236,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("JODY"),
+        #elif SPANISH
+        .trainerName = _("JIMENA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4466,7 +6250,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("TAMMY"),
+        #elif SPANISH
+        .trainerName = _("TAMARA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4476,7 +6264,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("RUTH"),
+        #elif SPANISH
+        .trainerName = _("RENATA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4486,7 +6278,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("KARINA"),
+        #elif SPANISH
+        .trainerName = _("LINA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4496,7 +6292,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("JANAE"),
+        #elif SPANISH
+        .trainerName = _("JANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4506,7 +6306,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("ANGELICA"),
+        #elif SPANISH
+        .trainerName = _("ANGÉLICA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4516,7 +6320,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("EMILIA"),
+        #elif SPANISH
+        .trainerName = _("EMILIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4526,7 +6334,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("JENNIFER"),
+        #elif SPANISH
+        .trainerName = _("JULIANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4536,7 +6348,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4546,7 +6362,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4556,7 +6376,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4566,7 +6390,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4576,7 +6404,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4586,7 +6418,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4596,7 +6432,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4606,7 +6446,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4616,7 +6460,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("AMANDA"),
+        #elif SPANISH
+        .trainerName = _("DALIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4626,7 +6474,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("STACY"),
+        #elif SPANISH
+        .trainerName = _("NARCISA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4636,7 +6488,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
+        #if ENGLISH
         .trainerName = _("TASHA"),
+        #elif SPANISH
+        .trainerName = _("TIRSA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4646,7 +6502,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("JEREMY"),
+        #elif SPANISH
+        .trainerName = _("ADOLFO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4656,7 +6516,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ALMA"),
+        #elif SPANISH
+        .trainerName = _("ALMA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4666,7 +6530,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("SUSIE"),
+        #elif SPANISH
+        .trainerName = _("SUSI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4676,7 +6544,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("VALERIE"),
+        #elif SPANISH
+        .trainerName = _("VALERIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4686,7 +6558,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("GWEN"),
+        #elif SPANISH
+        .trainerName = _("GEMA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4696,7 +6572,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("VIRGIL"),
+        #elif SPANISH
+        .trainerName = _("VIRGILIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4706,7 +6586,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("FLINT"),
+        #elif SPANISH
+        .trainerName = _("FIDEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4716,7 +6600,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("MISSY"),
+        #elif SPANISH
+        .trainerName = _("MERCE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4726,7 +6614,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("IRENE"),
+        #elif SPANISH
+        .trainerName = _("IRENE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4736,7 +6628,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("DANA"),
+        #elif SPANISH
+        .trainerName = _("DORA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4746,7 +6642,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ARIANA"),
+        #elif SPANISH
+        .trainerName = _("ARIANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4756,7 +6656,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("LEAH"),
+        #elif SPANISH
+        .trainerName = _("LEA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4766,7 +6670,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("JUSTIN"),
+        #elif SPANISH
+        .trainerName = _("JUSTI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4776,7 +6684,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("YAZMIN"),
+        #elif SPANISH
+        .trainerName = _("ACEN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4786,7 +6698,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("KINDRA"),
+        #elif SPANISH
+        .trainerName = _("CLEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4796,7 +6712,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("BECKY"),
+        #elif SPANISH
+        .trainerName = _("BETINA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4806,7 +6726,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("CELIA"),
+        #elif SPANISH
+        .trainerName = _("CELIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4816,7 +6740,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
+        #if ENGLISH
         .trainerName = _("BROOKS"),
+        #elif SPANISH
+        .trainerName = _("CELIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4826,7 +6754,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
+        #if ENGLISH
         .trainerName = _("LAMAR"),
+        #elif SPANISH
+        .trainerName = _("LENER"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4836,7 +6768,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
+        #if ENGLISH
         .trainerName = _("ELI & ANNE"),
+        #elif SPANISH
+        .trainerName = _("TITA-LIN"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4846,7 +6782,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOL_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOL_COUPLE,
+        #if ENGLISH
         .trainerName = _("RAY & TYRA"),
+        #elif SPANISH
+        .trainerName = _("DESI-TULA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -4856,7 +6796,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
+        #if ENGLISH
         .trainerName = _("GIA & JES"),
+        #elif SPANISH
+        .trainerName = _("AGA-ARE"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4866,7 +6810,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
+        #if ENGLISH
         .trainerName = _("KIRI & JAN"),
+        #elif SPANISH
+        .trainerName = _("LENA-TEA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4876,7 +6824,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
+        #if ENGLISH
         .trainerName = _("RON & MYA"),
+        #elif SPANISH
+        .trainerName = _("TIN-TINA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4886,7 +6838,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
+        #if ENGLISH
         .trainerName = _("LEA & JED"),
+        #elif SPANISH
+        .trainerName = _("LIZ-JOEL"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4896,7 +6852,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
+        #if ENGLISH
         .trainerName = _("LIA & LUC"),
+        #elif SPANISH
+        .trainerName = _("CATI-TEC"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4906,7 +6866,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
+        #if ENGLISH
         .trainerName = _("LIL & IAN"),
+        #elif SPANISH
+        .trainerName = _("ÍA-IGOR"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4916,7 +6880,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4926,7 +6894,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4936,7 +6908,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4946,7 +6922,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4956,7 +6936,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4966,7 +6950,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4976,7 +6964,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("BEN"),
+        #elif SPANISH
+        .trainerName = _("BEN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4986,7 +6978,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("BEN"),
+        #elif SPANISH
+        .trainerName = _("BEN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -4996,7 +6992,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("CHAD"),
+        #elif SPANISH
+        .trainerName = _("CIRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5006,7 +7006,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("RELI"),
+        #elif SPANISH
+        .trainerName = _("RUTH"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5016,7 +7020,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("RELI"),
+        #elif SPANISH
+        .trainerName = _("RUTH"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5026,7 +7034,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("TIMMY"),
+        #elif SPANISH
+        .trainerName = _("TINO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5036,7 +7048,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("TIMMY"),
+        #elif SPANISH
+        .trainerName = _("TINO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5046,7 +7062,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("TIMMY"),
+        #elif SPANISH
+        .trainerName = _("TINO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5056,7 +7076,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("CHAD"),
+        #elif SPANISH
+        .trainerName = _("CIRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5066,7 +7090,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("JANICE"),
+        #elif SPANISH
+        .trainerName = _("LUCRECIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5076,7 +7104,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("JANICE"),
+        #elif SPANISH
+        .trainerName = _("LUCRECIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5086,7 +7118,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("CHAD"),
+        #elif SPANISH
+        .trainerName = _("CIRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5096,7 +7132,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("FRANKLIN"),
+        #elif SPANISH
+        .trainerName = _("FRANCIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5106,7 +7146,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_PROF,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_PROFESSOR_OAK,
+        #if ENGLISH
         .trainerName = _("PROF. OAK"),
+        #elif SPANISH
+        .trainerName = _("PROF. OAK"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5116,7 +7160,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PLAYER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BRENDAN_2,
+        #if ENGLISH
         .trainerName = _("BRENDAN"),
+        #elif SPANISH
+        .trainerName = _("BRUNO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5126,7 +7174,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PLAYER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_MAY_2,
+        #if ENGLISH
         .trainerName = _("MAY"),
+        #elif SPANISH
+        .trainerName = _("AURA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5136,7 +7188,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PLAYER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RED,
+        #if ENGLISH
         .trainerName = _("RED"),
+        #elif SPANISH
+        .trainerName = _("JORO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5146,7 +7202,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PLAYER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEAF,
+        #if ENGLISH
         .trainerName = _("LEAF"),
+        #elif SPANISH
+        .trainerName = _("JAHO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5156,7 +7216,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5166,7 +7230,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
+        #if ENGLISH
         .trainerName = _("JACLYN"),
+        #elif SPANISH
+        .trainerName = _("JACINTA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5176,7 +7244,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
+        #if ENGLISH
         .trainerName = _("SHARON"),
+        #elif SPANISH
+        .trainerName = _("SILVANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5186,7 +7258,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TUBER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_F,
+        #if ENGLISH
         .trainerName = _("AMIRA"),
+        #elif SPANISH
+        .trainerName = _("PIZPI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5196,7 +7272,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER,
+        #if ENGLISH
         .trainerName = _("ALIZE"),
+        #elif SPANISH
+        .trainerName = _("FLOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5206,7 +7286,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
+        #if ENGLISH
         .trainerName = _("NICOLAS"),
+        #elif SPANISH
+        .trainerName = _("NICOLÁS"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -5216,7 +7300,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
+        #if ENGLISH
         .trainerName = _("MADELINE"),
+        #elif SPANISH
+        .trainerName = _("MIRANDA"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -5226,7 +7314,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_AROMA_LADY,
+        #if ENGLISH
         .trainerName = _("NIKKI"),
+        #elif SPANISH
+        .trainerName = _("MÓNICA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5236,7 +7328,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
+        #if ENGLISH
         .trainerName = _("STANLY"),
+        #elif SPANISH
+        .trainerName = _("SILVANO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5246,7 +7342,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LADY,
+        #if ENGLISH
         .trainerName = _("JACKI"),
+        #elif SPANISH
+        .trainerName = _("JADE"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5256,7 +7356,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
+        #if ENGLISH
         .trainerName = _("DAISY"),
+        #elif SPANISH
+        .trainerName = _("AZUCENA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5266,7 +7370,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("GOON"),
+        #elif SPANISH
+        .trainerName = _("QUIQUE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5276,7 +7384,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("GOON"),
+        #elif SPANISH
+        .trainerName = _("QUIQUE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5286,7 +7398,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("GOON"),
+        #elif SPANISH
+        .trainerName = _("QUIQUE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5296,7 +7412,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _(""),
+        #elif SPANISH
+        .trainerName = _(""),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5306,7 +7426,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("ANTHONY"),
+        #elif SPANISH
+        .trainerName = _("ANTÓN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5316,7 +7440,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("CHARLIE"),
+        #elif SPANISH
+        .trainerName = _("CARMELO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5326,7 +7454,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
+        #if ENGLISH
         .trainerName = _("ELI & ANNE"),
+        #elif SPANISH
+        .trainerName = _("TITA-LIN"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5336,7 +7468,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("JOHNSON"),
+        #elif SPANISH
+        .trainerName = _("FLAVIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5346,7 +7482,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("RICARDO"),
+        #elif SPANISH
+        .trainerName = _("LOREN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5356,7 +7496,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("JAREN"),
+        #elif SPANISH
+        .trainerName = _("JARO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5366,7 +7510,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5376,7 +7524,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5386,7 +7538,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5396,7 +7552,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5406,7 +7566,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5416,7 +7580,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5426,7 +7594,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
+        #if ENGLISH
         .trainerName = _("ADMIN"),
+        #elif SPANISH
+        .trainerName = _("ADMIN"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -5436,7 +7608,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("ADMIN"),
+        #elif SPANISH
+        .trainerName = _("ADMIN"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -5446,7 +7622,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
+        #if ENGLISH
         .trainerName = _("GIDEON"),
+        #elif SPANISH
+        .trainerName = _("GIL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5456,7 +7636,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("AMARA"),
+        #elif SPANISH
+        .trainerName = _("AMARA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5466,7 +7650,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("MARIA"),
+        #elif SPANISH
+        .trainerName = _("MIRIAM"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5476,7 +7664,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("ABIGAIL"),
+        #elif SPANISH
+        .trainerName = _("ADELA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5486,7 +7678,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("FINN"),
+        #elif SPANISH
+        .trainerName = _("AMARO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5496,7 +7692,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("GARRETT"),
+        #elif SPANISH
+        .trainerName = _("MONTI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5506,7 +7706,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("TOMMY"),
+        #elif SPANISH
+        .trainerName = _("TOMI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5516,7 +7720,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
+        #if ENGLISH
         .trainerName = _("TANYA"),
+        #elif SPANISH
+        .trainerName = _("TANIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5526,7 +7734,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("SHEA"),
+        #elif SPANISH
+        .trainerName = _("SHEA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5536,7 +7748,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("HUGH"),
+        #elif SPANISH
+        .trainerName = _("HUGO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5546,7 +7762,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("BRYCE"),
+        #elif SPANISH
+        .trainerName = _("SUSO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5556,7 +7776,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("CLAIRE"),
+        #elif SPANISH
+        .trainerName = _("ISA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5566,7 +7790,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
+        #if ENGLISH
         .trainerName = _("MIK & KIA"),
+        #elif SPANISH
+        .trainerName = _("FER-PÍA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5576,7 +7804,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_AROMA_LADY,
+        #if ENGLISH
         .trainerName = _("VIOLET"),
+        #elif SPANISH
+        .trainerName = _("VIOLETA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5586,7 +7818,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TUBER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_F,
+        #if ENGLISH
         .trainerName = _("ALEXIS"),
+        #elif SPANISH
+        .trainerName = _("ALEXA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5596,7 +7832,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
+        #if ENGLISH
         .trainerName = _("JOY & MEG"),
+        #elif SPANISH
+        .trainerName = _("FELI-MATI"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5606,7 +7846,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("TISHA"),
+        #elif SPANISH
+        .trainerName = _("TALÍA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5616,7 +7860,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
+        #if ENGLISH
         .trainerName = _("CELINA"),
+        #elif SPANISH
+        .trainerName = _("ANABEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5626,7 +7874,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
+        #if ENGLISH
         .trainerName = _("RAYNA"),
+        #elif SPANISH
+        .trainerName = _("RANIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5636,7 +7888,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LADY,
+        #if ENGLISH
         .trainerName = _("GILLIAN"),
+        #elif SPANISH
+        .trainerName = _("GALENIA"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5646,7 +7902,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("DESTIN"),
+        #elif SPANISH
+        .trainerName = _("DIEGO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5656,7 +7916,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("TOBY"),
+        #elif SPANISH
+        .trainerName = _("TANIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5666,7 +7930,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5676,7 +7944,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5686,7 +7958,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
+        #if ENGLISH
         .trainerName = _("GRUNT"),
+        #elif SPANISH
+        .trainerName = _("SOLDADO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5696,7 +7972,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("MILO"),
+        #elif SPANISH
+        .trainerName = _("MILO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5706,7 +7986,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("CHAZ"),
+        #elif SPANISH
+        .trainerName = _("TEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5716,7 +8000,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("HAROLD"),
+        #elif SPANISH
+        .trainerName = _("HORACIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5726,7 +8014,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("TYLOR"),
+        #elif SPANISH
+        .trainerName = _("TONIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5736,7 +8028,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("MYMO"),
+        #elif SPANISH
+        .trainerName = _("JUAN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5746,7 +8042,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("NICOLE"),
+        #elif SPANISH
+        .trainerName = _("NICOLASA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5756,7 +8056,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
+        #if ENGLISH
         .trainerName = _("AVA & GEB"),
+        #elif SPANISH
+        .trainerName = _("ALI-ROS"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5766,7 +8070,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_AROMA_LADY,
+        #if ENGLISH
         .trainerName = _("ROSE"),
+        #elif SPANISH
+        .trainerName = _("ROSA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5776,7 +8084,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("SAMIR"),
+        #elif SPANISH
+        .trainerName = _("SAMEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5786,7 +8098,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("DENISE"),
+        #elif SPANISH
+        .trainerName = _("DESIRÉ"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5796,7 +8112,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
+        #if ENGLISH
         .trainerName = _("MIU & MIA"),
+        #elif SPANISH
+        .trainerName = _("MARU-MÍA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5806,7 +8126,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("EARL"),
+        #elif SPANISH
+        .trainerName = _("VÍCTOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5816,7 +8140,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
+        #if ENGLISH
         .trainerName = _("FOSTER"),
+        #elif SPANISH
+        .trainerName = _("FAUSTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5826,7 +8154,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
+        #if ENGLISH
         .trainerName = _("LARRY"),
+        #elif SPANISH
+        .trainerName = _("LEANDRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5836,7 +8168,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("DARYL"),
+        #elif SPANISH
+        .trainerName = _("CIPRI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5846,7 +8182,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("HECTOR"),
+        #elif SPANISH
+        .trainerName = _("HÉCTOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5856,7 +8196,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
+        #if ENGLISH
         .trainerName = _("DARIO"),
+        #elif SPANISH
+        .trainerName = _("FERMÍN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5866,7 +8210,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
+        #if ENGLISH
         .trainerName = _("RODETTE"),
+        #elif SPANISH
+        .trainerName = _("ROSANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5876,7 +8224,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_AROMA_LADY,
+        #if ENGLISH
         .trainerName = _("MIAH"),
+        #elif SPANISH
+        .trainerName = _("JAZMÍN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5886,7 +8238,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
+        #if ENGLISH
         .trainerName = _("EVE & JON"),
+        #elif SPANISH
+        .trainerName = _("ELE-RUS"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5896,7 +8252,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("MASON"),
+        #elif SPANISH
+        .trainerName = _("MARIANO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5906,7 +8266,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
+        #if ENGLISH
         .trainerName = _("CYNDY"),
+        #elif SPANISH
+        .trainerName = _("CECILIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5916,7 +8280,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
+        #if ENGLISH
         .trainerName = _("JOCELYN"),
+        #elif SPANISH
+        .trainerName = _("CESARINA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5926,7 +8294,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
+        #if ENGLISH
         .trainerName = _("EVAN"),
+        #elif SPANISH
+        .trainerName = _("BLASCO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5936,7 +8308,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("MARK"),
+        #elif SPANISH
+        .trainerName = _("MARCO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -5946,7 +8322,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
+        #if ENGLISH
         .trainerName = _("LOGAN"),
+        #elif SPANISH
+        .trainerName = _("GONZALO"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -5956,7 +8336,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
+        #if ENGLISH
         .trainerName = _("JACKSON"),
+        #elif SPANISH
+        .trainerName = _("JOAQUÍN"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -5966,7 +8350,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
+        #if ENGLISH
         .trainerName = _("BETH"),
+        #elif SPANISH
+        .trainerName = _("BEATRIZ"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -5976,7 +8364,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
+        #if ENGLISH
         .trainerName = _("KATELYN"),
+        #elif SPANISH
+        .trainerName = _("CATALINA"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -5986,7 +8378,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("LEROY"),
+        #elif SPANISH
+        .trainerName = _("LORENZO"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -5996,7 +8392,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("MICHELLE"),
+        #elif SPANISH
+        .trainerName = _("MICAELA"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -6006,7 +8406,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOL_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOL_COUPLE,
+        #if ENGLISH
         .trainerName = _("LEX & NYA"),
+        #elif SPANISH
+        .trainerName = _("LINO-ABA"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -6016,7 +8420,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
+        #if ENGLISH
         .trainerName = _("BRANDON"),
+        #elif SPANISH
+        .trainerName = _("BARTOLO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6026,7 +8434,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
+        #if ENGLISH
         .trainerName = _("BENJAMIN"),
+        #elif SPANISH
+        .trainerName = _("BENJAMÍN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6036,7 +8448,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
+        #if ENGLISH
         .trainerName = _("EDNA"),
+        #elif SPANISH
+        .trainerName = _("ELSA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6046,7 +8462,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
+        #if ENGLISH
         .trainerName = _("CLIFFORD"),
+        #elif SPANISH
+        .trainerName = _("CLEN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6056,7 +8476,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LADY,
+        #if ENGLISH
         .trainerName = _("SELPHY"),
+        #elif SPANISH
+        .trainerName = _("CONSU"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6066,7 +8490,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
+        #if ENGLISH
         .trainerName = _("LAWSON"),
+        #elif SPANISH
+        .trainerName = _("LENI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6076,7 +8504,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
+        #if ENGLISH
         .trainerName = _("LAURA"),
+        #elif SPANISH
+        .trainerName = _("LAURA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6086,7 +8518,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER,
+        #if ENGLISH
         .trainerName = _("BETHANY"),
+        #elif SPANISH
+        .trainerName = _("MARISA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6096,7 +8532,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER,
+        #if ENGLISH
         .trainerName = _("ALLISON"),
+        #elif SPANISH
+        .trainerName = _("ARACELI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6106,7 +8546,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("GARRET"),
+        #elif SPANISH
+        .trainerName = _("GABRIEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6116,7 +8560,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("JONAH"),
+        #elif SPANISH
+        .trainerName = _("JONÁS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6126,7 +8574,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("VANCE"),
+        #elif SPANISH
+        .trainerName = _("VAN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6136,7 +8588,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("NASH"),
+        #elif SPANISH
+        .trainerName = _("NEMO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6146,7 +8602,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("CORDELL"),
+        #elif SPANISH
+        .trainerName = _("JUACO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6156,7 +8616,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("DALIA"),
+        #elif SPANISH
+        .trainerName = _("DALILA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6166,7 +8630,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("JOANA"),
+        #elif SPANISH
+        .trainerName = _("SONIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6176,7 +8644,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("RILEY"),
+        #elif SPANISH
+        .trainerName = _("RAÚL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6186,7 +8658,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("MARCY"),
+        #elif SPANISH
+        .trainerName = _("MARCELA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6196,7 +8672,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
+        #if ENGLISH
         .trainerName = _("LAYTON"),
+        #elif SPANISH
+        .trainerName = _("LANTEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6206,7 +8686,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("KELSEY"),
+        #elif SPANISH
+        .trainerName = _("ELIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6216,7 +8700,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("KELSEY"),
+        #elif SPANISH
+        .trainerName = _("ELIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6226,7 +8714,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("KELSEY"),
+        #elif SPANISH
+        .trainerName = _("ELIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6236,7 +8728,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("RICKY"),
+        #elif SPANISH
+        .trainerName = _("RICHI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6246,7 +8742,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("RICKY"),
+        #elif SPANISH
+        .trainerName = _("RICHI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6256,7 +8756,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("RICKY"),
+        #elif SPANISH
+        .trainerName = _("RICHI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6266,7 +8770,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("JEFF"),
+        #elif SPANISH
+        .trainerName = _("GENARO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6276,7 +8784,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("JEFF"),
+        #elif SPANISH
+        .trainerName = _("GENARO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6286,7 +8798,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("JEFF"),
+        #elif SPANISH
+        .trainerName = _("GENARO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6296,7 +8812,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ISABELLE"),
+        #elif SPANISH
+        .trainerName = _("CHÍO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6306,7 +8826,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ISABELLE"),
+        #elif SPANISH
+        .trainerName = _("CHÍO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6316,7 +8840,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ISABELLE"),
+        #elif SPANISH
+        .trainerName = _("CHÍO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6326,7 +8854,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("YASU"),
+        #elif SPANISH
+        .trainerName = _("YASU"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6336,7 +8868,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("YASU"),
+        #elif SPANISH
+        .trainerName = _("YASU"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6346,7 +8882,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ENGINEER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ENGINEER,
+        #if ENGLISH
         .trainerName = _("BERNIE"),
+        #elif SPANISH
+        .trainerName = _("BERNARDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6356,7 +8896,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
+        #if ENGLISH
         .trainerName = _("DARIAN"),
+        #elif SPANISH
+        .trainerName = _("DARIAN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6366,7 +8910,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("CHRIS"),
+        #elif SPANISH
+        .trainerName = _("CRIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6376,7 +8924,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("CHRIS"),
+        #elif SPANISH
+        .trainerName = _("CRIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6386,7 +8938,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
+        #if ENGLISH
         .trainerName = _("CHRIS"),
+        #elif SPANISH
+        .trainerName = _("CRIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6396,7 +8952,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ALICIA"),
+        #elif SPANISH
+        .trainerName = _("NELI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6406,7 +8966,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ALICIA"),
+        #elif SPANISH
+        .trainerName = _("NELI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6416,7 +8980,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("ALICIA"),
+        #elif SPANISH
+        .trainerName = _("NELI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6426,7 +8994,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("JEREMY"),
+        #elif SPANISH
+        .trainerName = _("ADOLFO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6436,7 +9008,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("MARK"),
+        #elif SPANISH
+        .trainerName = _("MARCO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6446,7 +9022,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("HERMAN"),
+        #elif SPANISH
+        .trainerName = _("HERNANDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6456,7 +9036,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("HERMAN"),
+        #elif SPANISH
+        .trainerName = _("HERNANDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6466,7 +9050,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("TRENT"),
+        #elif SPANISH
+        .trainerName = _("TARSI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6476,7 +9064,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("MEGAN"),
+        #elif SPANISH
+        .trainerName = _("VEVA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6486,7 +9078,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
+        #if ENGLISH
         .trainerName = _("MEGAN"),
+        #elif SPANISH
+        .trainerName = _("VEVA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6496,7 +9092,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
+        #if ENGLISH
         .trainerName = _("GLENN"),
+        #elif SPANISH
+        .trainerName = _("LADIS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6506,7 +9106,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
+        #if ENGLISH
         .trainerName = _("RICH"),
+        #elif SPANISH
+        .trainerName = _("NORBER"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6516,7 +9120,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("JAREN"),
+        #elif SPANISH
+        .trainerName = _("JARO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6526,7 +9134,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("ELLIOT"),
+        #elif SPANISH
+        .trainerName = _("ELOY"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6536,7 +9148,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ROCKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ROCKER,
+        #if ENGLISH
         .trainerName = _("LUCA"),
+        #elif SPANISH
+        .trainerName = _("MONE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6546,7 +9162,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
+        #if ENGLISH
         .trainerName = _("SHEILA"),
+        #elif SPANISH
+        .trainerName = _("SOL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6556,7 +9176,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("ROBERT"),
+        #elif SPANISH
+        .trainerName = _("ROBERTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6566,7 +9190,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("ROBERT"),
+        #elif SPANISH
+        .trainerName = _("ROBERTO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6576,7 +9204,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("SUSIE"),
+        #elif SPANISH
+        .trainerName = _("SUSI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6586,7 +9218,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("SUSIE"),
+        #elif SPANISH
+        .trainerName = _("SUSI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6596,7 +9232,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("SUSIE"),
+        #elif SPANISH
+        .trainerName = _("SUSI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6606,7 +9246,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("LUKAS"),
+        #elif SPANISH
+        .trainerName = _("LUCIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6616,7 +9260,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("BENNY"),
+        #elif SPANISH
+        .trainerName = _("BENI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6626,7 +9274,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("BENNY"),
+        #elif SPANISH
+        .trainerName = _("BENI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6636,7 +9288,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("MARLON"),
+        #elif SPANISH
+        .trainerName = _("MAURO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6646,7 +9302,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("MARLON"),
+        #elif SPANISH
+        .trainerName = _("MAURO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6656,7 +9316,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
+        #if ENGLISH
         .trainerName = _("GRACE"),
+        #elif SPANISH
+        .trainerName = _("GRACIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6666,7 +9330,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("CHESTER"),
+        #elif SPANISH
+        .trainerName = _("CELSO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6676,7 +9344,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("CHESTER"),
+        #elif SPANISH
+        .trainerName = _("CELSO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6686,7 +9358,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("BECKY"),
+        #elif SPANISH
+        .trainerName = _("BETINA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6696,7 +9372,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("BECKY"),
+        #elif SPANISH
+        .trainerName = _("BETINA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6706,7 +9386,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("BECKY"),
+        #elif SPANISH
+        .trainerName = _("BETINA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6716,7 +9400,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
+        #if ENGLISH
         .trainerName = _("RON & MYA"),
+        #elif SPANISH
+        .trainerName = _("TIN-TINA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6726,7 +9414,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
+        #if ENGLISH
         .trainerName = _("RON & MYA"),
+        #elif SPANISH
+        .trainerName = _("TIN-TINA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6736,7 +9428,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
+        #if ENGLISH
         .trainerName = _("RON & MYA"),
+        #elif SPANISH
+        .trainerName = _("TIN-TINA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6746,7 +9442,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("RUBEN"),
+        #elif SPANISH
+        .trainerName = _("RUBÉN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6756,7 +9456,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("CAMRON"),
+        #elif SPANISH
+        .trainerName = _("CADEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6766,7 +9470,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
+        #if ENGLISH
         .trainerName = _("JAXON"),
+        #elif SPANISH
+        .trainerName = _("JULIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6776,7 +9484,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("ISAIAH"),
+        #elif SPANISH
+        .trainerName = _("ISAÍAS"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6786,7 +9498,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("COREY"),
+        #elif SPANISH
+        .trainerName = _("CEFE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6796,7 +9512,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("JACOB"),
+        #elif SPANISH
+        .trainerName = _("JACOBO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6806,7 +9526,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("JACOB"),
+        #elif SPANISH
+        .trainerName = _("JACOBO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6816,7 +9540,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("ALICE"),
+        #elif SPANISH
+        .trainerName = _("ALICIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6826,7 +9554,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("DARRIN"),
+        #elif SPANISH
+        .trainerName = _("DARÍO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6836,7 +9568,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("MISSY"),
+        #elif SPANISH
+        .trainerName = _("MERCE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6846,7 +9582,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
+        #if ENGLISH
         .trainerName = _("MISSY"),
+        #elif SPANISH
+        .trainerName = _("MERCE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6856,7 +9596,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
+        #if ENGLISH
         .trainerName = _("WADE"),
+        #elif SPANISH
+        .trainerName = _("GUIDO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6866,7 +9610,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("JACK"),
+        #elif SPANISH
+        .trainerName = _("OMAR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6876,7 +9624,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
+        #if ENGLISH
         .trainerName = _("LIL & IAN"),
+        #elif SPANISH
+        .trainerName = _("ÍA-IGOR"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6886,7 +9638,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
+        #if ENGLISH
         .trainerName = _("LIL & IAN"),
+        #elif SPANISH
+        .trainerName = _("ÍA-IGOR"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6896,7 +9652,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("FINN"),
+        #elif SPANISH
+        .trainerName = _("AMARO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6906,7 +9666,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
+        #if ENGLISH
         .trainerName = _("SHARON"),
+        #elif SPANISH
+        .trainerName = _("SILVANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6916,7 +9680,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
+        #if ENGLISH
         .trainerName = _("SHARON"),
+        #elif SPANISH
+        .trainerName = _("SILVANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6926,7 +9694,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
+        #if ENGLISH
         .trainerName = _("TANYA"),
+        #elif SPANISH
+        .trainerName = _("TANIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6936,7 +9708,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
+        #if ENGLISH
         .trainerName = _("TANYA"),
+        #elif SPANISH
+        .trainerName = _("TANIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6946,7 +9722,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("SHEA"),
+        #elif SPANISH
+        .trainerName = _("SHEA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6956,7 +9736,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("SHEA"),
+        #elif SPANISH
+        .trainerName = _("SHEA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6966,7 +9750,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("HUGH"),
+        #elif SPANISH
+        .trainerName = _("HUGO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6976,7 +9764,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
+        #if ENGLISH
         .trainerName = _("HUGH"),
+        #elif SPANISH
+        .trainerName = _("HUGO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6986,7 +9778,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
+        #if ENGLISH
         .trainerName = _("MIK & KIA"),
+        #elif SPANISH
+        .trainerName = _("FER-PÍA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -6996,7 +9792,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
+        #if ENGLISH
         .trainerName = _("MIK & KIA"),
+        #elif SPANISH
+        .trainerName = _("FER-PÍA"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7006,7 +9806,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TUBER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_F,
+        #if ENGLISH
         .trainerName = _("AMIRA"),
+        #elif SPANISH
+        .trainerName = _("PIZPI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7016,7 +9820,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
+        #if ENGLISH
         .trainerName = _("JOY & MEG"),
+        #elif SPANISH
+        .trainerName = _("FELI-MATI"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7026,7 +9834,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
+        #if ENGLISH
         .trainerName = _("RAYNA"),
+        #elif SPANISH
+        .trainerName = _("RANIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7036,7 +9848,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
+        #if ENGLISH
         .trainerName = _("DESTIN"),
+        #elif SPANISH
+        .trainerName = _("DIEGO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7046,7 +9862,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER,
+        #if ENGLISH
         .trainerName = _("ALIZE"),
+        #elif SPANISH
+        .trainerName = _("FLOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7056,7 +9876,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
+        #if ENGLISH
         .trainerName = _("GIA & JES"),
+        #elif SPANISH
+        .trainerName = _("AGA-ARE"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7066,7 +9890,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
+        #if ENGLISH
         .trainerName = _("GIA & JES"),
+        #elif SPANISH
+        .trainerName = _("AGA-ARE"),
+        #endif
         .items = {},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7076,7 +9904,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("MILO"),
+        #elif SPANISH
+        .trainerName = _("MILO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7086,7 +9918,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("CHAZ"),
+        #elif SPANISH
+        .trainerName = _("TEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7096,7 +9932,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
+        #if ENGLISH
         .trainerName = _("HAROLD"),
+        #elif SPANISH
+        .trainerName = _("HORACIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7106,7 +9946,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("NICOLE"),
+        #elif SPANISH
+        .trainerName = _("NICOLASA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7116,7 +9960,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
+        #if ENGLISH
         .trainerName = _("JACLYN"),
+        #elif SPANISH
+        .trainerName = _("JACINTA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7126,7 +9974,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("SAMIR"),
+        #elif SPANISH
+        .trainerName = _("SAMEL"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7136,7 +9988,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
+        #if ENGLISH
         .trainerName = _("EARL"),
+        #elif SPANISH
+        .trainerName = _("VÍCTOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7146,7 +10002,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
+        #if ENGLISH
         .trainerName = _("LARRY"),
+        #elif SPANISH
+        .trainerName = _("LEANDRO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7156,7 +10016,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
+        #if ENGLISH
         .trainerName = _("HECTOR"),
+        #elif SPANISH
+        .trainerName = _("HÉCTOR"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7166,7 +10030,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
+        #if ENGLISH
         .trainerName = _("DARIO"),
+        #elif SPANISH
+        .trainerName = _("FERMÍN"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7176,7 +10044,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
+        #if ENGLISH
         .trainerName = _("RODETTE"),
+        #elif SPANISH
+        .trainerName = _("ROSANA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7186,7 +10058,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
+        #if ENGLISH
         .trainerName = _("MASON"),
+        #elif SPANISH
+        .trainerName = _("MARIANO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7196,7 +10072,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
+        #if ENGLISH
         .trainerName = _("NICOLAS"),
+        #elif SPANISH
+        .trainerName = _("NICOLÁS"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7206,7 +10086,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
+        #if ENGLISH
         .trainerName = _("MADELINE"),
+        #elif SPANISH
+        .trainerName = _("MIRANDA"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7216,7 +10100,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
+        #if ENGLISH
         .trainerName = _("CYNDY"),
+        #elif SPANISH
+        .trainerName = _("CECILIA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7226,7 +10114,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
+        #if ENGLISH
         .trainerName = _("EVAN"),
+        #elif SPANISH
+        .trainerName = _("BLASCO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7236,7 +10128,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
+        #if ENGLISH
         .trainerName = _("JACKSON"),
+        #elif SPANISH
+        .trainerName = _("JOAQUÍN"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7246,7 +10142,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
+        #if ENGLISH
         .trainerName = _("KATELYN"),
+        #elif SPANISH
+        .trainerName = _("CATALINA"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7256,7 +10156,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        #if ENGLISH
         .trainerName = _("LEROY"),
+        #elif SPANISH
+        .trainerName = _("LORENZO"),
+        #endif
         .items = {ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7266,7 +10170,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
+        #if ENGLISH
         .trainerName = _("MICHELLE"),
+        #elif SPANISH
+        .trainerName = _("MICAELA"),
+        #endif
         .items = {ITEM_HYPER_POTION},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7276,7 +10184,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOL_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOL_COUPLE,
+        #if ENGLISH
         .trainerName = _("LEX & NYA"),
+        #elif SPANISH
+        .trainerName = _("LINO-ABA"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7286,7 +10198,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("COLTON"),
+        #elif SPANISH
+        .trainerName = _("CORNELIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7296,7 +10212,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("COLTON"),
+        #elif SPANISH
+        .trainerName = _("CORNELIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7306,7 +10226,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
+        #if ENGLISH
         .trainerName = _("COLTON"),
+        #elif SPANISH
+        .trainerName = _("CORNELIO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7316,7 +10240,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("MATTHEW"),
+        #elif SPANISH
+        .trainerName = _("MATEO"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7326,7 +10254,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
+        #if ENGLISH
         .trainerName = _("TONY"),
+        #elif SPANISH
+        .trainerName = _("TONI"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7336,7 +10268,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
+        #if ENGLISH
         .trainerName = _("MELISSA"),
+        #elif SPANISH
+        .trainerName = _("MELISA"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
@@ -7346,7 +10282,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_LORELEI,
+        #if ENGLISH
         .trainerName = _("LORELEI"),
+        #elif SPANISH
+        .trainerName = _("LORELEI"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7356,7 +10296,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_BRUNO,
+        #if ENGLISH
         .trainerName = _("BRUNO"),
+        #elif SPANISH
+        .trainerName = _("BRUNO"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7366,7 +10310,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_AGATHA,
+        #if ENGLISH
         .trainerName = _("AGATHA"),
+        #elif SPANISH
+        .trainerName = _("AGATHA"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7376,7 +10324,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_LANCE,
+        #if ENGLISH
         .trainerName = _("LANCE"),
+        #elif SPANISH
+        .trainerName = _("LANCE"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7386,7 +10338,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7396,7 +10352,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7406,7 +10366,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
+        #if ENGLISH
         .trainerName = _("TERRY"),
+        #elif SPANISH
+        .trainerName = _("TEREN"),
+        #endif
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
@@ -7416,7 +10380,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
+        #if ENGLISH
         .trainerName = _("PAXTON"),
+        #elif SPANISH
+        .trainerName = _("GUILLE"),
+        #endif
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
