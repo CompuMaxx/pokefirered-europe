@@ -3,4 +3,10 @@ EventScript_RepelWoreOff::
 	end
 
 Text_RepelWoreOff::
+	.ifdef ENGLISH
 	.string "REPEL's effect wore off…$"
+	.endif
+	.ifdef SPANISH
+	.string "El REPELENTE ha dejado de hacer\n"
+	.string "efecto.$"
+	.endif
