@@ -325,7 +325,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
 #elif SPANISH
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
 {
-    [ABILITY_NONE] = _("-------"),
+    [ABILITY_NONE] = _("(?)"),
     [ABILITY_STENCH] = _("HEDOR"),
     [ABILITY_DRIZZLE] = _("LLOVIZNA"),
     [ABILITY_SPEED_BOOST] = _("IMPULSO"),
