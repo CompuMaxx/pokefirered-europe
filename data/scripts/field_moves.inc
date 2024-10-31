@@ -45,16 +45,34 @@ EventScript_DontCutTree::
 	end
 
 Text_CutTreeDown::
+	.ifdef ENGLISH
 	.string "This tree looks like it can be CUT\n"
 	.string "down!\p"
 	.string "Would you like to CUT it?$"
+	.endif
+	.ifdef SPANISH
+	.string "Parece que puedes CORTAR\n"
+	.string "este árbol.\p"
+	.string "¿Usas CORTE?$"
+	.endif
 
 Text_MonUsedMove::
+	.ifdef ENGLISH
 	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.endif
+	.ifdef SPANISH
+	.string "{STR_VAR_1} usó {STR_VAR_2}.$"
+	.endif
 
 Text_TreeCanBeCutDown::
+	.ifdef ENGLISH
 	.string "This tree looks like it can be CUT\n"
 	.string "down!$"
+	.endif
+	.ifdef SPANISH
+	.string "Parece que puedes CORTAR\n"
+	.string "este árbol.$"
+	.endif
 
 EventScript_RockSmash::
 	goto_if_questlog EventScript_ReleaseEnd
@@ -109,12 +127,24 @@ EventScript_DontSmashRock::
 	end
 
 Text_UseRockSmash::
+	.ifdef ENGLISH
 	.string "This rock appears to be breakable.\n"
 	.string "Would you like to use ROCK SMASH?$"
+	.endif
+	.ifdef SPANISH
+	.string "Parece que se puede romper esta\n"
+	.string "roca. ¿Usas GOLPE ROCA?$"
+	.endif
 
 Text_MonMaySmashRock::
+	.ifdef ENGLISH
 	.string "It's a rugged rock, but a POKéMON\n"
 	.string "may be able to smash it.$"
+	.endif
+	.ifdef SPANISH
+	.string "Es una roca muy dura, pero un\n"
+	.string "POKéMON podría hacerla añicos.$"
+	.endif
 
 EventScript_StrengthBoulder::
 	goto_if_questlog EventScript_ReleaseEnd
@@ -158,22 +188,48 @@ EventScript_DontUseStrength::
 	end
 
 Text_UseStrength::
+	.ifdef ENGLISH
 	.string "It's a big boulder, but a POKéMON\n"
 	.string "may be able to push it aside.\p"
 	.string "Would you like to use STRENGTH?$"
+	.endif
+	.ifdef SPANISH
+	.string "Es una roca enorme, pero un\n"
+	.string "POKéMON podría moverla.\p"
+	.string "¿Usas FUERZA?$"
+	.endif
 
 Text_MonUsedStrengthCanMoveBoulders::
+	.ifdef ENGLISH
 	.string "{STR_VAR_1} used STRENGTH!\p"
 	.string "{STR_VAR_1}'s STRENGTH made it\n"
 	.string "possible to move boulders around!$"
+	.endif
+	.ifdef SPANISH
+	.string "{STR_VAR_1} usó FUERZA.\p"
+	.string "La FUERZA de {STR_VAR_1} logró\n"
+	.string "desplazar la roca a un lado.$"
+	.endif
 
 Text_MonMayPushBoulder::
+	.ifdef ENGLISH
 	.string "It's a big boulder, but a POKéMON\n"
 	.string "may be able to push it aside.$"
+	.endif
+	.ifdef SPANISH
+	.string "Es una roca enorme, pero un\n"
+	.string "POKéMON podría apartarla.$"
+	.endif
 
 Text_StrengthMadeMovingBouldersPossible::
+	.ifdef ENGLISH
 	.string "STRENGTH made it possible to move\n"
 	.string "boulders around.$"
+	.endif
+	.ifdef SPANISH
+	.string "Usar FUERZA ha permitido desplazar\n"
+	.string "la roca a un lado.$"
+	.endif
 
 EventScript_Waterfall::
 	goto_if_questlog EventScript_ReleaseEnd
@@ -197,15 +253,32 @@ EventScript_EndWaterfall:
 	end
 
 Text_WallOfWaterCrashingDown::
+	.ifdef ENGLISH
 	.string "A wall of water is crashing down\n"
 	.string "with a mighty roar.$"
+	.endif
+	.ifdef SPANISH
+	.string "Un muro de agua cae con un\n"
+	.string "estruendo estremecedor...$"
+	.endif
 
 Text_UseWaterfall::
+	.ifdef ENGLISH
 	.string "It's a large waterfall.\n"
 	.string "Would you like to use WATERFALL?$"
+	.endif
+	.ifdef SPANISH
+	.string "Es una gran catarata.\n"
+	.string "¿Usas CASCADA?$"
+	.endif
 
 Text_MonUsedWaterfall::
+	.ifdef ENGLISH
 	.string "{STR_VAR_1} used WATERFALL.$"
+	.endif
+	.ifdef SPANISH
+	.string "{STR_VAR_1} usó CASCADA.$"
+	.endif
 
 @ Unused leftover from R/S
 EventScript_DeepWater::
@@ -255,31 +328,74 @@ EventScript_EndSurface:
 	end
 
 Text_MonMayGoUnderwater::
+	.ifdef ENGLISH
 	.string "The sea is deep here. A POKéMON\n"
 	.string "may be able to go underwater.$"
+	.endif
+	.ifdef SPANISH
+	.string "El mar es muy profundo en esta\n"
+	.string "zona.\l"
+	.string "Un POKéMON podría bucear aquí.$"
+	.endif
 
 Text_SeaIsDeepUseDive::
+	.ifdef ENGLISH
 	.string "The sea is deep here.\n"
 	.string "Would you like to use DIVE?$"
+	.endif
+	.ifdef SPANISH
+	.string "El mar es muy profundo en esta\n"
+	.string "zona. ¿Usas BUCEO?$"
+	.endif
 
 Text_MonUsedDive::
+	.ifdef ENGLISH
 	.string "{STR_VAR_1} used DIVE.$"
+	.endif
+	.ifdef SPANISH
+	.string "{STR_VAR_1} usó BUCEO.$"
+	.endif
 
 Text_MonMaySurface::
+	.ifdef ENGLISH
 	.string "Light is filtering down from above.\n"
 	.string "A POKéMON may be able to surface.$"
+	.endif
+	.ifdef SPANISH
+	.string "La luz se filtra desde la\n"
+	.string "superficie.\l"
+	.string "Un POKéMON puede emerger aquí.$"
+	.endif
 
 Text_LightFilteringUseDive::
+	.ifdef ENGLISH
 	.string "Light is filtering down from above.\n"
 	.string "Would you like to use DIVE?$"
+	.endif
+	.ifdef SPANISH
+	.string "La luz se filtra desde la\n"
+	.string "superficie. ¿Usas BUCEO?$"
+	.endif
 
 Text_DiveCantBeUsedHere::
+	.ifdef ENGLISH
 	.string "There is an obstacle above.\n"
 	.string "DIVE can't be used here.$"
+	.endif
+	.ifdef SPANISH
+	.string "Hay algún obstáculo en la\n"
+	.string "superficie.\l"
+	.string "No se puede usar BUCEO.$"
+	.endif
 
 EventScript_FailSweetScent::
 	msgbox Text_LooksLikeNothingHere, MSGBOX_SIGN
 	end
 
 Text_LooksLikeNothingHere::
+	.ifdef ENGLISH
 	.string "Looks like there's nothing here…$"
+	.endif
+	.ifdef SPANISH
+	.string "Parece que aquí no hay nada...$"
+	.endif
