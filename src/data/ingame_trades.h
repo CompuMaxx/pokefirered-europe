@@ -1,7 +1,11 @@
 static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_MR_MIME] = 
     {
+    #if ENGLISH
         .nickname = _("MIMIEN"),
+    #elif SPANISH
+        .nickname = _("MIMI"),
+    #endif
         .species = SPECIES_MR_MIME,
         .ivs = {20, 15, 17, 24, 23, 22},
         .abilityNum = 0,
@@ -10,14 +14,22 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x00009cae,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("REYLEY"),
+    #elif SPANISH
+        .otName= _("RÚTEO"),
+    #endif
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_ABRA
     }, 
     [INGAME_TRADE_JYNX] = 
     {
+    #if ENGLISH
         .nickname = _("ZYNX"),
+    #elif SPANISH
+        .nickname = _("ZYNX"),
+    #endif
         .species = SPECIES_JYNX,
         .ivs = {18, 17, 18, 22, 25, 21},
         .abilityNum = 0,
@@ -26,7 +38,11 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x498a2e1d,
         .heldItem = ITEM_FAB_MAIL,
         .mailNum = 0,
+    #if ENGLISH
         .otName = _("DONTAE"),
+    #elif SPANISH
+        .otName= _("CELESTO"),
+    #endif
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_POLIWHIRL
@@ -34,7 +50,11 @@ static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_NIDORAN] = 
     {
 #if defined(FIRERED)
+    #if ENGLISH
         .nickname = _("MS. NIDO"),
+    #elif SPANISH
+        .nickname = _("NIDRANA"),
+    #endif
         .species = SPECIES_NIDORAN_F,
         .ivs = {22, 18, 25, 19, 15, 22},
         .abilityNum = 0,
@@ -43,12 +63,20 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x4c970b89,
         .heldItem = ITEM_TINY_MUSHROOM,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("SAIGE"),
+    #elif SPANISH
+        .otName= _("QUICA"),
+    #endif
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_NIDORAN_M
 #elif defined(LEAFGREEN)
+    #if ENGLISH
         .nickname = _("MR. NIDO"),
+    #elif SPANISH
+        .nickname = _(""),
+    #endif
         .species = SPECIES_NIDORAN_M,
         .ivs = {19, 25, 18, 22, 22, 15},
         .abilityNum = 0,
@@ -57,7 +85,11 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x4c970b9e,
         .heldItem = ITEM_TINY_MUSHROOM,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("SAIGE"),
+    #elif SPANISH
+        .otName= _(""),
+    #endif
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_NIDORAN_F
@@ -65,7 +97,11 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_FARFETCHD] = 
     {
+    #if ENGLISH
         .nickname = _("CH'DING"),
+    #elif SPANISH
+        .nickname = _("FARFI"),
+    #endif
         .species = SPECIES_FARFETCHD,
         .ivs = {20, 25, 21, 24, 15, 20},
         .abilityNum = 0,
@@ -74,7 +110,11 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x151943d7,
         .heldItem = ITEM_STICK,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("ELYSSA"),
+    #elif SPANISH
+        .otName= _("CARMELA"),
+    #endif
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_SPEAROW
@@ -82,7 +122,11 @@ static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_NIDORINOA] = 
     {
 #if defined(FIRERED)
+    #if ENGLISH
         .nickname = _("NINA"),
+    #elif SPANISH
+        .nickname = _("NIDRINA"),
+    #endif
         .species = SPECIES_NIDORINA,
         .ivs = {22, 25, 18, 19, 22, 15},
         .abilityNum = 0,
@@ -91,12 +135,20 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x00eeca15,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("TURNER"),
+    #elif SPANISH
+        .otName= _("ONZANO"),
+    #endif
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_NIDORINO
 #elif defined(LEAFGREEN)
+    #if ENGLISH
         .nickname = _("NINO"),
+    #elif SPANISH
+        .nickname = _(""),
+    #endif
         .species = SPECIES_NIDORINO,
         .ivs = {19, 18, 25, 22, 15, 22},
         .abilityNum = 0,
@@ -105,7 +157,11 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x00eeca19,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("TURNER"),
+    #elif SPANISH
+        .otName= _(""),
+    #endif
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_NIDORINA
@@ -113,7 +169,11 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_LICKITUNG] = 
     {
+    #if ENGLISH
         .nickname = _("MARC"),
+    #elif SPANISH
+        .nickname = _("LICKITITO"),
+    #endif
         .species = SPECIES_LICKITUNG,
         .ivs = {24, 19, 21, 15, 23, 21},
         .abilityNum = 0,
@@ -122,7 +182,11 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x451308ab,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("HADEN"),
+    #elif SPANISH
+        .otName= _("DIOCHO"),
+    #endif
         .otGender = MALE,
         .sheen = 10,
 #if defined(FIRERED)
@@ -133,7 +197,11 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_ELECTRODE] = 
     {
+    #if ENGLISH
         .nickname = _("ESPHERE"),
+    #elif SPANISH
+        .nickname = _("BOLICHI"),
+    #endif
         .species = SPECIES_ELECTRODE,
         .ivs = {19, 16, 18, 25, 25, 19},
         .abilityNum = 1,
@@ -142,14 +210,22 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x06341016,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("CLIFTON"),
+    #elif SPANISH
+        .otName= _("CANEL"),
+    #endif
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_RAICHU
     }, 
     [INGAME_TRADE_TANGELA] = 
     {
+    #if ENGLISH
         .nickname = _("TANGENY"),
+    #elif SPANISH
+        .nickname = _("TANGELITO"),
+    #endif
         .species = SPECIES_TANGELA,
         .ivs = {22, 17, 25, 16, 23, 20},
         .abilityNum = 0,
@@ -158,14 +234,22 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x5c77ecfa,
         .heldItem = ITEM_STARDUST,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("NORMA"),
+    #elif SPANISH
+        .otName= _("DULCE"),
+    #endif
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_VENONAT
     },
     [INGAME_TRADE_SEEL] = 
     {
+    #if ENGLISH
         .nickname = _("SEELOR"),
+    #elif SPANISH
+        .nickname = _("SEELÍN "),
+    #endif
         .species = SPECIES_SEEL,
         .ivs = {24, 15, 22, 16, 23, 22},
         .abilityNum = 0,
@@ -174,7 +258,11 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x482cac89,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
+    #if ENGLISH
         .otName = _("GARETT"),
+    #elif SPANISH
+        .otName= _("GOYO"),
+    #endif
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_PONYTA
@@ -182,6 +270,7 @@ static const struct InGameTrade sInGameTrades[] = {
 };
 
 static const u16 sInGameTradeMailMessages[][10] = {
+    #if ENGLISH
     {
         EC_WORD_THAT_S,
         EC_WORD_A,
@@ -193,4 +282,17 @@ static const u16 sInGameTradeMailMessages[][10] = {
         EC_WORD_TO,
         EC_WORD_IT
     }
+    #elif SPANISH
+    {
+        EC_WORD_EXCL_EXCL,
+        EC_WORD_HAVE,
+        EC_WORD_NITWIT,
+        EC_WORD_BE,
+        EC_WORD_MUCH,
+        EC_WORD_MISS,
+        EC_POKEMON(JYNX),
+        EC_WORD_EXCL,
+        EC_WORD_UNDEFINED
+    }
+    #endif
 };
