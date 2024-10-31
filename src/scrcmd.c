@@ -1630,8 +1630,10 @@ bool8 ScrCmd_bufferitemname(struct ScriptContext * ctx)
     return FALSE;
 }
 
+#if ENGLISH
 static const u8 sText_S[] = _("S");
 static const u8 sText_IES[] = _("IES");
+#endif
 
 bool8 ScrCmd_bufferitemnameplural(struct ScriptContext * ctx)
 {
