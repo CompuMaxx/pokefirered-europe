@@ -265,7 +265,7 @@ static const u32 sSparklesBig_Gfx[]   = INCBIN_U32("graphics/intro/game_freak/sp
 #if ENGLISH
 static const u32 sPresents_Gfx[]      = INCBIN_U32("graphics/intro/game_freak/presents.4bpp.lz");
 #elif SPANISH
-static const u32 sPresents_Gfx[]      = INCBIN_U32("graphics/intro/game_freak/presents_es.4bpp.lz");
+extern const u32 sPresents_Gfx[];
 #endif
 
 // Scene 1 (Grass close up)

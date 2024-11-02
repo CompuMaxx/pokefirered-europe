@@ -1446,3 +1446,10 @@ const u16 gBerryCrush_Crusher_Pal[] = INCBIN_U16("graphics/berry_crush/berry_cru
 const u16 gUnknown_8EAFF60[] = INCBIN_U16("graphics/unknown/unknown_EAFF60.gbapal");
 const u32 gBerryCrush_Crusher_Gfx[] = INCBIN_U32("graphics/berry_crush/berry_crush.4bpp.lz");
 const u32 gBerryCrush_Crusher_Tilemap[] = INCBIN_U32("graphics/berry_crush/data_EB0ADC.bin.lz");
+
+#if SPANISH //static .rodata to global gfx_data
+const u32 sHoennTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/front_hoenn_es.bin");//08eaf54c
+const u32 sKantoTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back_es.bin");//08eaf95c
+const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/front_hoenn_link_es.bin");//08eaf768
+const u32 sPresents_Gfx[] = INCBIN_U32("graphics/intro/game_freak/presents_es.4bpp.lz");//08eafd04
+#endif

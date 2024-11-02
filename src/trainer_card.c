@@ -156,7 +156,7 @@ static const u32 sTrainerCardStickers_Gfx[] = INCBIN_U32("graphics/trainer_card/
 #if ENGLISH
 static const u32 sHoennTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/front_hoenn.bin");
 #elif SPANISH
-static const u32 sHoennTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/front_hoenn_es.bin");
+extern const u32 sHoennTrainerCardFront_Tilemap[];
 #endif
 static const u32 sKantoTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/front.bin");
 static const u32 sHoennTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back_hoenn.bin");
@@ -165,8 +165,8 @@ static const u32 sHoennTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_
 static const u32 sKantoTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back.bin");
 static const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/front_hoenn_link.bin");
 #elif SPANISH
-static const u32 sKantoTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back_es.bin");
-static const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/front_hoenn_link_es.bin");
+extern const u32 sKantoTrainerCardBack_Tilemap[];
+extern const u32 sHoennTrainerCardFrontLink_Tilemap[];
 #endif
 static const u32 sKantoTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/front_link.bin");
 static const u32 sHoennTrainerCardBg_Tilemap[] = INCBIN_U32("graphics/trainer_card/bg_hoenn.bin");
