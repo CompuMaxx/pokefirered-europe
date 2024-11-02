@@ -1,4 +1,5 @@
 
+#if ENGLISH
 static const u8 sEasyChatWord_Wandering[] = _("WANDERING");
 static const u8 sEasyChatWord_Rickety[] = _("RICKETY");
 static const u8 sEasyChatWord_RockSolid[] = _("ROCK-SOLID");
@@ -35,6 +36,44 @@ static const u8 sEasyChatWord_Fiery[] = _("FIERY");
 static const u8 sEasyChatWord_LoveyDovey[] = _("LOVEY-DOVEY");
 static const u8 sEasyChatWord_Happily[] = _("HAPPILY");
 static const u8 sEasyChatWord_Anticipation[] = _("ANTICIPATION");
+#elif SPANISH
+static const u8 sEasyChatWord_Wandering[] = _("RIDÍCULO");
+static const u8 sEasyChatWord_Rickety[] = _("¡EXCELENTE!");
+static const u8 sEasyChatWord_RockSolid[] = _("RUINA");
+static const u8 sEasyChatWord_Hungry[] = _("PRECIOSO");
+static const u8 sEasyChatWord_Tight[] = _("PRECIOSA");
+static const u8 sEasyChatWord_Ticklish[] = _("ODIOSO");
+static const u8 sEasyChatWord_Twirling[] = _("POTENTES");
+static const u8 sEasyChatWord_Spiraling[] = _("MEJOR");
+static const u8 sEasyChatWord_Thirsty[] = _("MEJORES");
+static const u8 sEasyChatWord_Lolling[] = _("GRAN");
+static const u8 sEasyChatWord_Silky[] = _("BONITO");
+static const u8 sEasyChatWord_Sadly[] = _("BONITA");
+static const u8 sEasyChatWord_Hopeless[] = _("HORRIBLE");
+static const u8 sEasyChatWord_Useless[] = _("ASUSTADA");
+static const u8 sEasyChatWord_Drooling[] = _("ASUSTADO");
+static const u8 sEasyChatWord_Exciting[] = _("DEMASIADO");
+static const u8 sEasyChatWord_Thick[] = _("ATROZ");
+static const u8 sEasyChatWord_Smooth[] = _("ATROCES");
+static const u8 sEasyChatWord_Slimy[] = _("BRUTAL");
+static const u8 sEasyChatWord_Thin[] = _("FEROCES");
+static const u8 sEasyChatWord_Break[] = _("REFRESCANTE");
+static const u8 sEasyChatWord_Voracious[] = _("VORAZ");
+static const u8 sEasyChatWord_Scatter[] = _("FEROZ");
+static const u8 sEasyChatWord_Awesome[] = _("FORMIDABLE");
+static const u8 sEasyChatWord_Wimpy[] = _("TERRORÍFICO");
+static const u8 sEasyChatWord_Wobbly[] = _("TERRORÍFICA");
+static const u8 sEasyChatWord_Shaky[] = _("BRUTALES");
+static const u8 sEasyChatWord_Ripped[] = _("ESPANTOSO");
+static const u8 sEasyChatWord_Shredded[] = _("ESPANTOSA");
+static const u8 sEasyChatWord_Increasing[] = _("RENCOROSO");
+static const u8 sEasyChatWord_Yet[] = _("RENCOROSA");
+static const u8 sEasyChatWord_Destroyed[] = _("AUTÉNTICA");
+static const u8 sEasyChatWord_Fiery[] = _("AUTÉNTICO");
+static const u8 sEasyChatWord_LoveyDovey[] = _("LLENO");
+static const u8 sEasyChatWord_Happily[] = _("BUENA");
+static const u8 sEasyChatWord_Anticipation[] = _("BUENO");
+#endif
 
 static const struct EasyChatWordInfo sEasyChatGroup_Adjectives[] = {
     {

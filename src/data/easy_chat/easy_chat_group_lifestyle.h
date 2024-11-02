@@ -1,4 +1,5 @@
 
+#if ENGLISH
 static const u8 sEasyChatWord_Chores[] = _("CHORES");
 static const u8 sEasyChatWord_Home[] = _("HOME");
 static const u8 sEasyChatWord_Money[] = _("MONEY");
@@ -44,6 +45,53 @@ static const u8 sEasyChatWord_Life[] = _("LIFE");
 static const u8 sEasyChatWord_Radio[] = _("RADIO");
 static const u8 sEasyChatWord_Rental[] = _("RENTAL");
 static const u8 sEasyChatWord_World[] = _("WORLD");
+#elif SPANISH
+static const u8 sEasyChatWord_Chores[] = _("RUTINA");
+static const u8 sEasyChatWord_Home[] = _("HOGAR");
+static const u8 sEasyChatWord_Money[] = _("DINERO");
+static const u8 sEasyChatWord_Allowance[] = _("PAGA SEMANAL");
+static const u8 sEasyChatWord_Bath[] = _("BAÑO");
+static const u8 sEasyChatWord_Conversation[] = _("CHARLAR");
+static const u8 sEasyChatWord_School[] = _("COLEGIO");
+static const u8 sEasyChatWord_Commemorate[] = _("CUMPLEAÑOS");
+static const u8 sEasyChatWord_Habit[] = _("HÁBITOS");
+static const u8 sEasyChatWord_Group[] = _("AMIGOS");
+static const u8 sEasyChatWord_Word[] = _("PRENSA");
+static const u8 sEasyChatWord_Store[] = _("MERCADO");
+static const u8 sEasyChatWord_Service[] = _("TRÁFICO");
+static const u8 sEasyChatWord_Work[] = _("TRABAJO");
+static const u8 sEasyChatWord_System[] = _("AUTOBÚS");
+static const u8 sEasyChatWord_Train[] = _("METRO");
+static const u8 sEasyChatWord_Class[] = _("CLASES");
+static const u8 sEasyChatWord_Lessons[] = _("DEBERES");
+static const u8 sEasyChatWord_Information[] = _("DESAYUNAR");
+static const u8 sEasyChatWord_Living[] = _("MERENDAR");
+static const u8 sEasyChatWord_Teacher[] = _("PROFESOR");
+static const u8 sEasyChatWord_Tournament[] = _("CENAR");
+static const u8 sEasyChatWord_Letter[] = _("CORREO");
+static const u8 sEasyChatWord_Event[] = _("EVENTO");
+static const u8 sEasyChatWord_Digital[] = _("NOTAS");
+static const u8 sEasyChatWord_Test[] = _("EXÁMENES");
+static const u8 sEasyChatWord_DeptStore[] = _("TIENDAS");
+static const u8 sEasyChatWord_Television[] = _("TELEVISIÓN");
+static const u8 sEasyChatWord_Phone[] = _("TELÉFONO");
+static const u8 sEasyChatWord_Item[] = _("RECREO");
+static const u8 sEasyChatWord_Name[] = _("DUCHARSE");
+static const u8 sEasyChatWord_News[] = _("PAN");
+static const u8 sEasyChatWord_Popular[] = _("CINE");
+static const u8 sEasyChatWord_Party[] = _("TEATRO");
+static const u8 sEasyChatWord_Study[] = _("ESTUDIOS");
+static const u8 sEasyChatWord_Machine[] = _("COCHES");
+static const u8 sEasyChatWord_Mail[] = _("PELUQUERÍA");
+static const u8 sEasyChatWord_Message[] = _("MENSAJES");
+static const u8 sEasyChatWord_Promise[] = _("PARQUE");
+static const u8 sEasyChatWord_Dream[] = _("AULA");
+static const u8 sEasyChatWord_Kindergarten[] = _("PISCINA");
+static const u8 sEasyChatWord_Life[] = _("PLAYA");
+static const u8 sEasyChatWord_Radio[] = _("RADIO");
+static const u8 sEasyChatWord_Rental[] = _("REÍR");
+static const u8 sEasyChatWord_World[] = _("LLORAR");
+#endif
 
 static const struct EasyChatWordInfo sEasyChatGroup_Lifestyle[] = {
     {

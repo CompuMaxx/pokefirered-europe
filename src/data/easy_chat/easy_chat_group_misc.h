@@ -1,4 +1,5 @@
 
+#if ENGLISH
 static const u8 sEasyChatWord_Highs[] = _("HIGHS");
 static const u8 sEasyChatWord_Lows[] = _("LOWS");
 static const u8 sEasyChatWord_Um[] = _("UM");
@@ -41,6 +42,50 @@ static const u8 sEasyChatWord_Confused[] = _("CONFUSED");
 static const u8 sEasyChatWord_Opposite[] = _("OPPOSITE");
 static const u8 sEasyChatWord_Left[] = _("LEFT");
 static const u8 sEasyChatWord_Right[] = _("RIGHT");
+#elif SPANISH
+static const u8 sEasyChatWord_Highs[] = _("INFANTIL");
+static const u8 sEasyChatWord_Lows[] = _("JOVEN");
+static const u8 sEasyChatWord_Um[] = _("BASTA");
+static const u8 sEasyChatWord_Rear[] = _("TIERNOS");
+static const u8 sEasyChatWord_Things[] = _("COSAS");
+static const u8 sEasyChatWord_Thing[] = _("BIEN");
+static const u8 sEasyChatWord_Below[] = _("A VER");
+static const u8 sEasyChatWord_Above[] = _("MÁXIMO");
+static const u8 sEasyChatWord_Back[] = _("APARTE");
+static const u8 sEasyChatWord_High[] = _("PREFIERO");
+static const u8 sEasyChatWord_Here[] = _("AQUÍ");
+static const u8 sEasyChatWord_Inside[] = _("AÚN");
+static const u8 sEasyChatWord_Outside[] = _("QUIZÁ");
+static const u8 sEasyChatWord_Beside[] = _("EN FORMA");
+static const u8 sEasyChatWord_ThisIsItExcl[] = _("EXPERIENCIA");
+static const u8 sEasyChatWord_This[] = _("ESTO");
+static const u8 sEasyChatWord_Every[] = _("TAN");
+static const u8 sEasyChatWord_These[] = _("ESTOS");
+static const u8 sEasyChatWord_TheseWere[] = _("VERDAD");
+static const u8 sEasyChatWord_Down[] = _("QUÉ");
+static const u8 sEasyChatWord_That[] = _("EMOCIÓN");
+static const u8 sEasyChatWord_ThoseAre[] = _("GANAS");
+static const u8 sEasyChatWord_ThoseWere[] = _("PIEL");
+static const u8 sEasyChatWord_ThatsItExcl[] = _("ÉSOS");
+static const u8 sEasyChatWord_Am[] = _("PARTES");
+static const u8 sEasyChatWord_ThatWas[] = _("ATENCIÓN");
+static const u8 sEasyChatWord_Front[] = _("CANTO");
+static const u8 sEasyChatWord_Up[] = _("SÍ");
+static const u8 sEasyChatWord_Choice[] = _("YA");
+static const u8 sEasyChatWord_Far[] = _("NUESTRAS");
+static const u8 sEasyChatWord_Away[] = _("NATURAL");
+static const u8 sEasyChatWord_Near[] = _("CONMIGO");
+static const u8 sEasyChatWord_Where[] = _("NO");
+static const u8 sEasyChatWord_When[] = _("POR FAVOR");
+static const u8 sEasyChatWord_What[] = _("ESTILO");
+static const u8 sEasyChatWord_Deep[] = _("MISMO");
+static const u8 sEasyChatWord_Shallow[] = _("ENORMEMENTE");
+static const u8 sEasyChatWord_Why[] = _("FORMA");
+static const u8 sEasyChatWord_Confused[] = _("ENSEGUIDA");
+static const u8 sEasyChatWord_Opposite[] = _("BAILA");
+static const u8 sEasyChatWord_Left[] = _("REALMENTE");
+static const u8 sEasyChatWord_Right[] = _("DIARIAMENTE");
+#endif
 
 static const struct EasyChatWordInfo sEasyChatGroup_Misc[] = {
     {

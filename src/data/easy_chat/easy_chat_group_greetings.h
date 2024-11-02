@@ -1,4 +1,5 @@
 
+#if ENGLISH
 static const u8 sEasyChatWord_Thanks[] = _("THANKS");
 static const u8 sEasyChatWord_Yes[] = _("YES");
 static const u8 sEasyChatWord_HereGoes[] = _("HERE GOES");
@@ -41,6 +42,50 @@ static const u8 sEasyChatWord_Yahoo[] = _("YAHOO");
 static const u8 sEasyChatWord_Yo[] = _("YO");
 static const u8 sEasyChatWord_ComeOver[] = _("COME OVER");
 static const u8 sEasyChatWord_CountOn[] = _("COUNT ON");
+#elif SPANISH
+static const u8 sEasyChatWord_Thanks[] = _("GRACIAS");
+static const u8 sEasyChatWord_Yes[] = _("¿QUÉ TAL?");
+static const u8 sEasyChatWord_HereGoes[] = _("¡AHÍ VA!");
+static const u8 sEasyChatWord_HereICome[] = _("¿CÓMO VAS?");
+static const u8 sEasyChatWord_HereItIs[] = _("¡NOS VEMOS!");
+static const u8 sEasyChatWord_Yeah[] = _("¡HASTA OTRA!");
+static const u8 sEasyChatWord_Welcome[] = _("¡BIENVENIDO!");
+static const u8 sEasyChatWord_Oi[] = _("¡BIENVENIDA!");
+static const u8 sEasyChatWord_HowDo[] = _("DE NADA");
+static const u8 sEasyChatWord_Congrats[] = _("ENHORABUENA");
+static const u8 sEasyChatWord_GiveMe[] = _("¡BIEN HECHO!");
+static const u8 sEasyChatWord_Sorry[] = _("¡LO SIENTO!");
+static const u8 sEasyChatWord_Apologize[] = _("¡DISCULPA!");
+static const u8 sEasyChatWord_Forgive[] = _("¡PERDONA!");
+static const u8 sEasyChatWord_HeyThere[] = _("¡OYE!");
+static const u8 sEasyChatWord_Hello[] = _("¡HOLA!");
+static const u8 sEasyChatWord_GoodBye[] = _("¡ADIÓS!");
+static const u8 sEasyChatWord_ThankYou[] = _("MIL GRACIAS");
+static const u8 sEasyChatWord_IveArrived[] = _("¡AQUÍ ESTOY!");
+static const u8 sEasyChatWord_Pardon[] = _("¡PERDÓN!");
+static const u8 sEasyChatWord_Excuse[] = _("¡QUÉ PENA!");
+static const u8 sEasyChatWord_SeeYa[] = _("¡QUÉ BIEN!");
+static const u8 sEasyChatWord_ExcuseMe[] = _("¡QUÉ GUAY!");
+static const u8 sEasyChatWord_WellThen[] = _("¡AHORA QUÉ!");
+static const u8 sEasyChatWord_GoAhead[] = _("TÚ MISMO");
+static const u8 sEasyChatWord_Appreciate[] = _("¡ME GUSTAS!");
+static const u8 sEasyChatWord_HeyQues[] = _("¡TÚ MISMA!");
+static const u8 sEasyChatWord_WhatsUpQues[] = _("¿QUÉ PASA?");
+static const u8 sEasyChatWord_HuhQues[] = _("¿QUÉ?");
+static const u8 sEasyChatWord_No[] = _("¡VETE!");
+static const u8 sEasyChatWord_Hi[] = _("¡TE DEJO!");
+static const u8 sEasyChatWord_YeahYeah[] = _("¡ME LARGO!");
+static const u8 sEasyChatWord_ByeBye[] = _("¡ME VOY!");
+static const u8 sEasyChatWord_MeetYou[] = _("HASTA NUNCA");
+static const u8 sEasyChatWord_Hey[] = _("¡OLVÍDAME!");
+static const u8 sEasyChatWord_Smell[] = _("¡OLVÍDATE!");
+static const u8 sEasyChatWord_Listening[] = _("¡PASA DE MÍ!");
+static const u8 sEasyChatWord_HooHah[] = _("¡PASO DE TI!");
+static const u8 sEasyChatWord_Yahoo[] = _("¡ME PIRO!");
+static const u8 sEasyChatWord_Yo[] = _("¡PÍRATE!");
+static const u8 sEasyChatWord_ComeOver[] = _("¡LÁRGATE!");
+static const u8 sEasyChatWord_CountOn[] = _("¡DÉJAME!");
+#endif
 
 static const struct EasyChatWordInfo sEasyChatGroup_Greetings[] = {
     {

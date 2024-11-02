@@ -1,4 +1,5 @@
 
+#if ENGLISH
 static const u8 sEasyChatWord_Appeal[] = _("APPEAL");
 static const u8 sEasyChatWord_Events[] = _("EVENTS");
 static const u8 sEasyChatWord_StayAtHome[] = _("STAY-AT-HOME");
@@ -27,6 +28,36 @@ static const u8 sEasyChatWord_Tower[] = _("TOWER");
 static const u8 sEasyChatWord_Union[] = _("UNION");
 static const u8 sEasyChatWord_Room[] = _("ROOM");
 static const u8 sEasyChatWord_Wireless[] = _("WIRELESS");
+#elif SPANISH
+static const u8 sEasyChatWord_Appeal[] = _("EXHIBICIÓN");
+static const u8 sEasyChatWord_Events[] = _("INHIBICIÓN");
+static const u8 sEasyChatWord_StayAtHome[] = _("SAFARI");
+static const u8 sEasyChatWord_Berry[] = _("BAYA");
+static const u8 sEasyChatWord_Contest[] = _("CONCURSO");
+static const u8 sEasyChatWord_Mc[] = _("PRESENTADOR");
+static const u8 sEasyChatWord_Judge[] = _("JUEZ");
+static const u8 sEasyChatWord_Super[] = _("ALTO");
+static const u8 sEasyChatWord_Stage[] = _("ESCENARIO");
+static const u8 sEasyChatWord_HallOfFame[] = _("HALL FAMA");
+static const u8 sEasyChatWord_Evolution[] = _("EVOLUCIÓN");
+static const u8 sEasyChatWord_Hyper[] = _("AVANZADO");
+static const u8 sEasyChatWord_BattleTower[] = _("T. BATALLA");
+static const u8 sEasyChatWord_Leaders[] = _("LÍDERES");
+static const u8 sEasyChatWord_BattleRoom[] = _("SALA BATALLA");
+static const u8 sEasyChatWord_Hidden[] = _("GUARIDA");
+static const u8 sEasyChatWord_SecretBase[] = _("BASE SECRETA");
+static const u8 sEasyChatWord_Blend[] = _("LICUAR");
+static const u8 sEasyChatWord_POKEBLOCK[] = _("{POKEBLOCK}");
+static const u8 sEasyChatWord_Master[] = _("EXPERTO");
+static const u8 sEasyChatWord_Rank[] = _("TIPOS");
+static const u8 sEasyChatWord_Ribbon[] = _("CINTA");
+static const u8 sEasyChatWord_Crush[] = _("MACHACABAYAS");
+static const u8 sEasyChatWord_Direct[] = _("DIRECTA");
+static const u8 sEasyChatWord_Tower[] = _("TORRE");
+static const u8 sEasyChatWord_Union[] = _("UNIÓN");
+static const u8 sEasyChatWord_Room[] = _("SALA");
+static const u8 sEasyChatWord_Wireless[] = _("INALÁMBRICA");
+#endif
 
 static const struct EasyChatWordInfo sEasyChatGroup_Events[] = {
     {

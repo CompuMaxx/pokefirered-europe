@@ -1,4 +1,5 @@
 
+#if ENGLISH
 static const u8 sEasyChatWord_Fall[] = _("FALL");
 static const u8 sEasyChatWord_Morning[] = _("MORNING");
 static const u8 sEasyChatWord_Tomorrow[] = _("TOMORROW");
@@ -44,6 +45,53 @@ static const u8 sEasyChatWord_Thursday[] = _("THURSDAY");
 static const u8 sEasyChatWord_Nighttime[] = _("NIGHTTIME");
 static const u8 sEasyChatWord_Night[] = _("NIGHT");
 static const u8 sEasyChatWord_Week[] = _("WEEK");
+#elif SPANISH
+static const u8 sEasyChatWord_Fall[] = _("OTOÑO");
+static const u8 sEasyChatWord_Morning[] = _("MAÑANAS");
+static const u8 sEasyChatWord_Tomorrow[] = _("MAÑANA");
+static const u8 sEasyChatWord_Last[] = _("ÚLTIMO");
+static const u8 sEasyChatWord_Day[] = _("DÍA");
+static const u8 sEasyChatWord_Sometime[] = _("ALGÚN DÍA");
+static const u8 sEasyChatWord_Always[] = _("SIEMPRE");
+static const u8 sEasyChatWord_Current[] = _("ACTUAL");
+static const u8 sEasyChatWord_Forever[] = _("NUNCA");
+static const u8 sEasyChatWord_Days[] = _("DÍAS");
+static const u8 sEasyChatWord_End[] = _("FIN");
+static const u8 sEasyChatWord_Tuesday[] = _("MARTES");
+static const u8 sEasyChatWord_Yesterday[] = _("AYER");
+static const u8 sEasyChatWord_Today[] = _("HOY");
+static const u8 sEasyChatWord_Friday[] = _("VIERNES");
+static const u8 sEasyChatWord_Monday[] = _("LUNES");
+static const u8 sEasyChatWord_Later[] = _("DESPUÉS");
+static const u8 sEasyChatWord_Earlier[] = _("ANTES");
+static const u8 sEasyChatWord_Another[] = _("JAMÁS");
+static const u8 sEasyChatWord_Time[] = _("HORA");
+static const u8 sEasyChatWord_Finish[] = _("MOMENTO");
+static const u8 sEasyChatWord_Wednesday[] = _("MIÉRCOLES");
+static const u8 sEasyChatWord_Soon[] = _("PRONTO");
+static const u8 sEasyChatWord_Start[] = _("PRINCIPIO");
+static const u8 sEasyChatWord_Month[] = _("MES");
+static const u8 sEasyChatWord_Stop[] = _("ACABAR");
+static const u8 sEasyChatWord_Now[] = _("AHORA");
+static const u8 sEasyChatWord_Final[] = _("FINAL");
+static const u8 sEasyChatWord_Next[] = _("SIGUIENTE");
+static const u8 sEasyChatWord_Age[] = _("ÉPOCA");
+static const u8 sEasyChatWord_Saturday[] = _("SÁBADO");
+static const u8 sEasyChatWord_Summer[] = _("VERANO");
+static const u8 sEasyChatWord_Sunday[] = _("DOMINGO");
+static const u8 sEasyChatWord_Beginning[] = _("INICIO");
+static const u8 sEasyChatWord_Spring[] = _("PRIMAVERA");
+static const u8 sEasyChatWord_Daytime[] = _("DIURNO");
+static const u8 sEasyChatWord_Winter[] = _("INVIERNO");
+static const u8 sEasyChatWord_Daily[] = _("DIARIO");
+static const u8 sEasyChatWord_Olden[] = _("ANTIGUO");
+static const u8 sEasyChatWord_Almost[] = _("MADRUGADA");
+static const u8 sEasyChatWord_Nearly[] = _("TEMPRANO");
+static const u8 sEasyChatWord_Thursday[] = _("JUEVES");
+static const u8 sEasyChatWord_Nighttime[] = _("NOCTURNO");
+static const u8 sEasyChatWord_Night[] = _("NOCHE");
+static const u8 sEasyChatWord_Week[] = _("SEMANA");
+#endif
 
 static const struct EasyChatWordInfo sEasyChatGroup_Time[] = {
     {

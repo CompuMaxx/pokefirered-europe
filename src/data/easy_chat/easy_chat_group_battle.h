@@ -1,4 +1,5 @@
 
+#if ENGLISH
 static const u8 sEasyChatWord_MatchUp[] = _("MATCH UP");
 static const u8 sEasyChatWord_Go[] = _("GO");
 static const u8 sEasyChatWord_No1[] = _("NO. 1");
@@ -62,6 +63,71 @@ static const u8 sEasyChatWord_Pushover[] = _("PUSHOVER");
 static const u8 sEasyChatWord_Leader[] = _("LEADER");
 static const u8 sEasyChatWord_Rule[] = _("RULE");
 static const u8 sEasyChatWord_Move[] = _("MOVE");
+#elif SPANISH
+static const u8 sEasyChatWord_MatchUp[] = _("IMPORTANTE");
+static const u8 sEasyChatWord_Go[] = _("ADELANTE");
+static const u8 sEasyChatWord_No1[] = _("N.º 1");
+static const u8 sEasyChatWord_Decide[] = _("GANARÁS");
+static const u8 sEasyChatWord_LetMeWin[] = _("CATEGORÍA");
+static const u8 sEasyChatWord_Wins[] = _("GANA");
+static const u8 sEasyChatWord_Win[] = _("GANAR");
+static const u8 sEasyChatWord_Won[] = _("GANÉ");
+static const u8 sEasyChatWord_IfIWin[] = _("SI YO GANO");
+static const u8 sEasyChatWord_WhenIWin[] = _("FUERZAS");
+static const u8 sEasyChatWord_CantWin[] = _("GANARME");
+static const u8 sEasyChatWord_CanWin[] = _("EMOCIONANTE");
+static const u8 sEasyChatWord_NoMatch[] = _("PERDERÁS");
+static const u8 sEasyChatWord_Spirit[] = _("ESPÍRITU");
+static const u8 sEasyChatWord_Decided[] = _("TU RIVAL");
+static const u8 sEasyChatWord_TrumpCard[] = _("TRIUNFARÉ");
+static const u8 sEasyChatWord_TakeThat[] = _("FORTALECERÉ");
+static const u8 sEasyChatWord_ComeOn[] = _("VENCERME");
+static const u8 sEasyChatWord_Attack[] = _("ATACO");
+static const u8 sEasyChatWord_Surrender[] = _("ME RINDO");
+static const u8 sEasyChatWord_Gutsy[] = _("VALIENTE");
+static const u8 sEasyChatWord_Talent[] = _("ESFORZARÉ");
+static const u8 sEasyChatWord_Strategy[] = _("ESTRATEGIA");
+static const u8 sEasyChatWord_Smite[] = _("ALUCINAR");
+static const u8 sEasyChatWord_Match[] = _("CÓLERA");
+static const u8 sEasyChatWord_Victory[] = _("VICTORIA");
+static const u8 sEasyChatWord_Offensive[] = _("OFENSIVA");
+static const u8 sEasyChatWord_Sense[] = _("IMPRESIÓNAME");
+static const u8 sEasyChatWord_Versus[] = _("VERSUS");
+static const u8 sEasyChatWord_Fights[] = _("LUCHAR");
+static const u8 sEasyChatWord_Power[] = _("PODER");
+static const u8 sEasyChatWord_Challenge[] = _("DESAFÍO");
+static const u8 sEasyChatWord_Strong[] = _("FUERZA");
+static const u8 sEasyChatWord_TooStrong[] = _("ENFRENTARÁS");
+static const u8 sEasyChatWord_GoEasy[] = _("TRANSFORMARÉ");
+static const u8 sEasyChatWord_Foe[] = _("¡LUCHA!");
+static const u8 sEasyChatWord_Genius[] = _("GENIO");
+static const u8 sEasyChatWord_Legend[] = _("LEYENDA");
+static const u8 sEasyChatWord_Escape[] = _("ESCAPARÁS");
+static const u8 sEasyChatWord_Aim[] = _("ODIO");
+static const u8 sEasyChatWord_Battle[] = _("COMBATE");
+static const u8 sEasyChatWord_Fight[] = _("LUCHO");
+static const u8 sEasyChatWord_Resuscitate[] = _("LUCHEMOS");
+static const u8 sEasyChatWord_Points[] = _("ENTRENADO");
+static const u8 sEasyChatWord_Serious[] = _("PELEO");
+static const u8 sEasyChatWord_GiveUp[] = _("DERROTARÁS");
+static const u8 sEasyChatWord_Loss[] = _("PERDER");
+static const u8 sEasyChatWord_IfILose[] = _("PALIZA");
+static const u8 sEasyChatWord_Lost[] = _("PERDERÉ");
+static const u8 sEasyChatWord_Lose[] = _("PERDIDO");
+static const u8 sEasyChatWord_Guard[] = _("LUCHA");
+static const u8 sEasyChatWord_Partner[] = _("AZOTES");
+static const u8 sEasyChatWord_Reject[] = _("RECHAZARÉ");
+static const u8 sEasyChatWord_Accept[] = _("¡ACEPTO!");
+static const u8 sEasyChatWord_Invincible[] = _("INVENCIBLE");
+static const u8 sEasyChatWord_Received[] = _("DESTINO");
+static const u8 sEasyChatWord_Easy[] = _("ESTROPEARME");
+static const u8 sEasyChatWord_Weak[] = _("APRENDE");
+static const u8 sEasyChatWord_TooWeak[] = _("DEBILITADO");
+static const u8 sEasyChatWord_Pushover[] = _("MACHACAR");
+static const u8 sEasyChatWord_Leader[] = _("LÍDER");
+static const u8 sEasyChatWord_Rule[] = _("REGLAS");
+static const u8 sEasyChatWord_Move[] = _("¡MUÉVETE!");
+#endif
 
 static const struct EasyChatWordInfo sEasyChatGroup_Battle[] = {
     {
