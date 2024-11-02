@@ -187,7 +187,6 @@ static const u8 sEasyChatWord_Flame[] = _("LLAMA");
 static const u8 sEasyChatWord_Gold[] = _("ORO");
 static const u8 sEasyChatWord_Leaf[] = _("HOJA");
 static const u8 sEasyChatWord_Silver[] = _("PLATA");
-#endif
 
 static const struct EasyChatWordInfo sEasyChatGroup_Trainer[] = {
     {
@@ -321,3 +320,4 @@ static const struct EasyChatWordInfo sEasyChatGroup_Trainer[] = {
         .enabled = TRUE
     }
 };
+#endif
