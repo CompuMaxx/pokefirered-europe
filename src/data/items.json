@@ -6396,7 +6396,7 @@
     },
     {
       "english": "BIKE VOUCHER",
-      "spanish": "BONO BICIs",
+      "spanish": "BONO BICI",
       "itemId": "ITEM_BIKE_VOUCHER",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
