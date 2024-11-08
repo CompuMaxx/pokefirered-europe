@@ -69,77 +69,6 @@ static const u8 sEasyChatWord_While[] = _("WHILE");
 static const u8 sEasyChatWord_Than[] = _("THAN");
 static const u8 sEasyChatWord_Once[] = _("ONCE");
 static const u8 sEasyChatWord_Anywhere[] = _("ANYWHERE");
-#elif SPANISH
-static const u8 sEasyChatWord_Will[] = _("HAS");
-static const u8 sEasyChatWord_WillBeHere[] = _("ESTOY");
-static const u8 sEasyChatWord_Or[] = _("VOY");
-static const u8 sEasyChatWord_Times[] = _("SIENTO");
-static const u8 sEasyChatWord_Wonder[] = _("VAS");
-static const u8 sEasyChatWord_IsItQues[] = _("DEVORA");
-static const u8 sEasyChatWord_Be[] = _("SER");
-static const u8 sEasyChatWord_Gimme[] = _("SEAS");
-static const u8 sEasyChatWord_Could[] = _("DIME");
-static const u8 sEasyChatWord_LikelyTo[] = _("VER");
-static const u8 sEasyChatWord_Would[] = _("QUEDAR");
-static const u8 sEasyChatWord_Is[] = _("ES");
-static const u8 sEasyChatWord_IsntItQues[] = _("SOY");
-static const u8 sEasyChatWord_Lets[] = _("ERES");
-static const u8 sEasyChatWord_Other[] = _("SERVIRÁ");
-static const u8 sEasyChatWord_Are[] = _("ESTÁS");
-static const u8 sEasyChatWord_Was[] = _("SON");
-static const u8 sEasyChatWord_Were[] = _("SERÁ");
-static const u8 sEasyChatWord_Those[] = _("DICEN");
-static const u8 sEasyChatWord_Isnt[] = _("ESPERO");
-static const u8 sEasyChatWord_Wont[] = _("PREFERIRÍA");
-static const u8 sEasyChatWord_Cant[] = _("PUEDES");
-static const u8 sEasyChatWord_Can[] = _("PUEDO");
-static const u8 sEasyChatWord_Dont[] = _("ESTÁ");
-static const u8 sEasyChatWord_Do[] = _("HAZ");
-static const u8 sEasyChatWord_Does[] = _("SÉ");
-static const u8 sEasyChatWord_Whom[] = _("TENGO");
-static const u8 sEasyChatWord_Which[] = _("FALTA");
-static const u8 sEasyChatWord_Wasnt[] = _("COMER");
-static const u8 sEasyChatWord_Werent[] = _("PUEDE");
-static const u8 sEasyChatWord_Have[] = _("TIENES");
-static const u8 sEasyChatWord_Havent[] = _("LLEGÓ");
-static const u8 sEasyChatWord_A[] = _("NECESITO");
-static const u8 sEasyChatWord_An[] = _("TENER");
-static const u8 sEasyChatWord_Not[] = _("PONGAS");
-static const u8 sEasyChatWord_There[] = _("ADORAMOS");
-static const u8 sEasyChatWord_OkQues[] = _("CREO");
-static const u8 sEasyChatWord_So[] = _("CORRIDO");
-static const u8 sEasyChatWord_Maybe[] = _("DEBERÍAMOS");
-static const u8 sEasyChatWord_About[] = _("EMPEZAR");
-static const u8 sEasyChatWord_Over[] = _("PODRÁS");
-static const u8 sEasyChatWord_It[] = _("GUSTAN");
-static const u8 sEasyChatWord_All[] = _("PORTAS");
-static const u8 sEasyChatWord_For[] = _("LLEGAN");
-static const u8 sEasyChatWord_On[] = _("DEBERÍA");
-static const u8 sEasyChatWord_Off[] = _("PRÉSTAME");
-static const u8 sEasyChatWord_As[] = _("PODRÍAS");
-static const u8 sEasyChatWord_To[] = _("UTILIZA");
-static const u8 sEasyChatWord_With[] = _("CUIDAS");
-static const u8 sEasyChatWord_Better[] = _("VEO");
-static const u8 sEasyChatWord_Ever[] = _("EMOCIONAN");
-static const u8 sEasyChatWord_Since[] = _("QUIERO");
-static const u8 sEasyChatWord_Of[] = _("HACERME");
-static const u8 sEasyChatWord_BelongsTo[] = _("HAY");
-static const u8 sEasyChatWord_At[] = _("CREAS");
-static const u8 sEasyChatWord_In[] = _("ESCUCHA");
-static const u8 sEasyChatWord_Out[] = _("DECIDAN");
-static const u8 sEasyChatWord_Too[] = _("OBSERVA");
-static const u8 sEasyChatWord_Like[] = _("GUSTA");
-static const u8 sEasyChatWord_Did[] = _("PARECE");
-static const u8 sEasyChatWord_Didnt[] = _("QUIERES");
-static const u8 sEasyChatWord_Doesnt[] = _("DES");
-static const u8 sEasyChatWord_Without[] = _("DA");
-static const u8 sEasyChatWord_After[] = _("DESAPARECE");
-static const u8 sEasyChatWord_Before[] = _("BUSCANDO");
-static const u8 sEasyChatWord_While[] = _("VEN");
-static const u8 sEasyChatWord_Than[] = _("DESPIERTA");
-static const u8 sEasyChatWord_Once[] = _("PASARLO");
-static const u8 sEasyChatWord_Anywhere[] = _("CONFÍA");
-#endif
 
 static const struct EasyChatWordInfo sEasyChatGroup_Endings[] = {
     {
@@ -488,3 +417,422 @@ static const struct EasyChatWordInfo sEasyChatGroup_Endings[] = {
         .enabled = TRUE
     }
 };
+#elif SPANISH
+static const u8 sEasyChatWord_Will[] = _("HAS");
+static const u8 sEasyChatWord_WillBeHere[] = _("ESTOY");
+static const u8 sEasyChatWord_Or[] = _("VOY");
+static const u8 sEasyChatWord_Times[] = _("SIENTO");
+static const u8 sEasyChatWord_Wonder[] = _("VAS");
+static const u8 sEasyChatWord_IsItQues[] = _("DEVORA");
+static const u8 sEasyChatWord_Be[] = _("SER");
+static const u8 sEasyChatWord_Gimme[] = _("SEAS");
+static const u8 sEasyChatWord_Could[] = _("DIME");
+static const u8 sEasyChatWord_LikelyTo[] = _("VER");
+static const u8 sEasyChatWord_Would[] = _("QUEDAR");
+static const u8 sEasyChatWord_Is[] = _("ES");
+static const u8 sEasyChatWord_IsntItQues[] = _("SOY");
+static const u8 sEasyChatWord_Lets[] = _("ERES");
+static const u8 sEasyChatWord_Other[] = _("SERVIRÁ");
+static const u8 sEasyChatWord_Are[] = _("ESTÁS");
+static const u8 sEasyChatWord_Was[] = _("SON");
+static const u8 sEasyChatWord_Were[] = _("SERÁ");
+static const u8 sEasyChatWord_Those[] = _("DICEN");
+static const u8 sEasyChatWord_Isnt[] = _("ESPERO");
+static const u8 sEasyChatWord_Wont[] = _("PREFERIRÍA");
+static const u8 sEasyChatWord_Cant[] = _("PUEDES");
+static const u8 sEasyChatWord_Can[] = _("PUEDO");
+static const u8 sEasyChatWord_Dont[] = _("ESTÁ");
+static const u8 sEasyChatWord_Do[] = _("HAZ");
+static const u8 sEasyChatWord_Does[] = _("SÉ");
+static const u8 sEasyChatWord_Whom[] = _("TENGO");
+static const u8 sEasyChatWord_Which[] = _("FALTA");
+static const u8 sEasyChatWord_Wasnt[] = _("COMER");
+static const u8 sEasyChatWord_Werent[] = _("PUEDE");
+static const u8 sEasyChatWord_Have[] = _("TIENES");
+static const u8 sEasyChatWord_Havent[] = _("LLEGÓ");
+static const u8 sEasyChatWord_A[] = _("NECESITO");
+static const u8 sEasyChatWord_An[] = _("TENER");
+static const u8 sEasyChatWord_Not[] = _("PONGAS");
+static const u8 sEasyChatWord_There[] = _("ADORAMOS");
+static const u8 sEasyChatWord_OkQues[] = _("CREO");
+static const u8 sEasyChatWord_So[] = _("CORRIDO");
+static const u8 sEasyChatWord_Maybe[] = _("DEBERÍAMOS");
+static const u8 sEasyChatWord_About[] = _("EMPEZAR");
+static const u8 sEasyChatWord_Over[] = _("PODRÁS");
+static const u8 sEasyChatWord_It[] = _("GUSTAN");
+static const u8 sEasyChatWord_All[] = _("PORTAS");
+static const u8 sEasyChatWord_For[] = _("LLEGAN");
+static const u8 sEasyChatWord_On[] = _("DEBERÍA");
+static const u8 sEasyChatWord_Off[] = _("PRÉSTAME");
+static const u8 sEasyChatWord_As[] = _("PODRÍAS");
+static const u8 sEasyChatWord_To[] = _("UTILIZA");
+static const u8 sEasyChatWord_With[] = _("CUIDAS");
+static const u8 sEasyChatWord_Better[] = _("VEO");
+static const u8 sEasyChatWord_Ever[] = _("EMOCIONAN");
+static const u8 sEasyChatWord_Since[] = _("QUIERO");
+static const u8 sEasyChatWord_Of[] = _("HACERME");
+static const u8 sEasyChatWord_BelongsTo[] = _("HAY");
+static const u8 sEasyChatWord_At[] = _("CREAS");
+static const u8 sEasyChatWord_In[] = _("ESCUCHA");
+static const u8 sEasyChatWord_Out[] = _("DECIDAN");
+static const u8 sEasyChatWord_Too[] = _("OBSERVA");
+static const u8 sEasyChatWord_Like[] = _("GUSTA");
+static const u8 sEasyChatWord_Did[] = _("PARECE");
+static const u8 sEasyChatWord_Didnt[] = _("QUIERES");
+static const u8 sEasyChatWord_Doesnt[] = _("DES");
+static const u8 sEasyChatWord_Without[] = _("DA");
+static const u8 sEasyChatWord_After[] = _("DESAPARECE");
+static const u8 sEasyChatWord_Before[] = _("BUSCANDO");
+static const u8 sEasyChatWord_While[] = _("VEN");
+static const u8 sEasyChatWord_Than[] = _("DESPIERTA");
+static const u8 sEasyChatWord_Once[] = _("PASARLO");
+static const u8 sEasyChatWord_Anywhere[] = _("CONFÍA");
+
+static const struct EasyChatWordInfo sEasyChatGroup_Endings[] = {
+    {
+        .text = sEasyChatWord_Will,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_WillBeHere,
+        .alphabeticalOrder = 64,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Or,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Times,
+        .alphabeticalOrder = 68,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Wonder,
+        .alphabeticalOrder = 37,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_IsItQues,
+        .alphabeticalOrder = 54,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Be,
+        .alphabeticalOrder = 36,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Gimme,
+        .alphabeticalOrder = 48,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Could,
+        .alphabeticalOrder = 62,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_LikelyTo,
+        .alphabeticalOrder = 44,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Would,
+        .alphabeticalOrder = 38,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Is,
+        .alphabeticalOrder = 56,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_IsntItQues,
+        .alphabeticalOrder = 61,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Lets,
+        .alphabeticalOrder = 63,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Other,
+        .alphabeticalOrder = 66,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Are,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Was,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Were,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Those,
+        .alphabeticalOrder = 50,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Isnt,
+        .alphabeticalOrder = 39,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Wont,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Cant,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Can,
+        .alphabeticalOrder = 55,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Dont,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Do,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Does,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Whom,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Which,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Wasnt,
+        .alphabeticalOrder = 58,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Werent,
+        .alphabeticalOrder = 41,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Have,
+        .alphabeticalOrder = 52,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Havent,
+        .alphabeticalOrder = 0,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_A,
+        .alphabeticalOrder = 53,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_An,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Not,
+        .alphabeticalOrder = 43,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_There,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_OkQues,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_So,
+        .alphabeticalOrder = 57,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Maybe,
+        .alphabeticalOrder = 59,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_About,
+        .alphabeticalOrder = 67,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Over,
+        .alphabeticalOrder = 40,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_It,
+        .alphabeticalOrder = 46,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_All,
+        .alphabeticalOrder = 34,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_For,
+        .alphabeticalOrder = 42,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_On,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Off,
+        .alphabeticalOrder = 45,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_As,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_To,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_With,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Better,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Ever,
+        .alphabeticalOrder = 60,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Since,
+        .alphabeticalOrder = 51,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Of,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_BelongsTo,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_At,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_In,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Out,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Too,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Like,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Did,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Didnt,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Doesnt,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Without,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_After,
+        .alphabeticalOrder = 47,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Before,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_While,
+        .alphabeticalOrder = 65,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Than,
+        .alphabeticalOrder = 49,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Once,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Anywhere,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE
+    }
+};
+#endif
