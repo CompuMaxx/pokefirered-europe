@@ -282,24 +282,42 @@ void ShowEasyChatScreen(void)
     DoEasyChatScreen(gSpecialVar_0x8004, words, CB2_ReturnToFieldContinueScript);
 }
 
+#if ENGLISH
 static const u16 sECPhrase_MysteryEventIsExciting[] = {
     EC_WORD_MYSTERY,
     EC_WORD_EVENT,
     EC_WORD_IS,
     EC_WORD_EXCITING
 };
+#elif SPANISH
+static const u16 sECPhrase_MysteryEventIsExciting[] = {
+    EC_WORD_EVENT,
+    EC_WORD_MYSTERY,
+    EC_WORD_IS,
+    EC_WORD_EXCITING,
+};
+#endif
 
 static void CompareProfileResponseWithPassphrase(void)
 {
     gSpecialVar_0x8004 = IsPhraseDifferentThanPlayerInput(sECPhrase_MysteryEventIsExciting, NELEMS(sECPhrase_MysteryEventIsExciting));
 }
 
+#if ENGLISH
 static const u16 sECPhrase_LinkTogetherWithAll[] = {
     EC_WORD_LINK,
     EC_WORD_TOGETHER,
     EC_WORD_WITH,
     EC_WORD_ALL
 };
+#elif SPANISH
+static const u16 sECPhrase_LinkTogetherWithAll[] = {
+    EC_WORD_LINK,
+    EC_WORD_MISS,
+    EC_WORD_TO_THEM,
+    EC_WORD_UNDEFINED,
+};
+#endif
 
 static void CompareQuestionnaireResponseWithPassphrase(void)
 {
