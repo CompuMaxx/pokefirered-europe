@@ -348,9 +348,15 @@ static const u32 sWindow2Map_Pikachu[] = INCBIN_U32("graphics/credits/unk_84105B
 
 static const u32 sUnused = 0xF0;
 
+#if ENGLISH
 static const u16 sTheEndGfxPal[] = INCBIN_U16("graphics/credits/unk_8410B20.gbapal");
 static const u8 sTheEndGfxTiles[] = INCBIN_U8("graphics/credits/unk_8410B20.4bpp.lz");
 static const u8 sTheEndGfxMap[] = INCBIN_U8("graphics/credits/unk_8410B20.bin.lz");
+#elif SPANISH
+extern const u16 sTheEndGfxPal[];
+extern const u8 sTheEndGfxTiles[];
+extern const u8 sTheEndGfxMap[];
+#endif
 
 static const struct CompressedGraphicsHeader sCopyrightOrTheEndGfxHeaders[] = {
     {

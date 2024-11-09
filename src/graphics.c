@@ -1452,4 +1452,12 @@ const u32 sHoennTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/f
 const u32 sKantoTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back_es.bin");//08eaf95c
 const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/front_hoenn_link_es.bin");//08eaf768
 const u32 sPresents_Gfx[] = INCBIN_U32("graphics/intro/game_freak/presents_es.4bpp.lz");//08eafd04
+
+const u16 sTheEndGfxPal[] = INCBIN_U16("graphics/credits/unk_8410B20.gbapal");//bprs diff
+const u8 sTheEndGfxTiles[] = INCBIN_U8("graphics/credits/unk_8410B20.4bpp.lz");//bprs diff
+const u8 sTheEndGfxMap[] = INCBIN_U8("graphics/credits/unk_8410B20.bin.lz");//bprs diff
+
+const u32 sCategoryMonInfoBgTiles[] = INCBIN_U32("graphics/pokedex/mini_page.4bpp.lz");//bprs diff
+const u32 sKantoDexTiles[] = INCBIN_U32("graphics/pokedex/kanto_dex_bgtiles_es.4bpp.lz");//bprs diff
+const u32 sNatDexTiles[] = INCBIN_U32("graphics/pokedex/national_dex_bgtiles_es.4bpp.lz");//bprs diff
 #endif

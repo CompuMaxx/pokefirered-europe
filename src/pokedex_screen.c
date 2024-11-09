@@ -158,13 +158,14 @@ static void Task_DexScreen_RegisterMonToPokedex(u8 taskId);
 
 #include "data/pokemon_graphics/footprint_table.h"
 
-const u32 sCategoryMonInfoBgTiles[] = INCBIN_U32("graphics/pokedex/mini_page.4bpp.lz");
 #if ENGLISH
+const u32 sCategoryMonInfoBgTiles[] = INCBIN_U32("graphics/pokedex/mini_page.4bpp.lz");
 const u32 sKantoDexTiles[] = INCBIN_U32("graphics/pokedex/kanto_dex_bgtiles.4bpp.lz");
 const u32 sNatDexTiles[] = INCBIN_U32("graphics/pokedex/national_dex_bgtiles.4bpp.lz");
 #elif SPANISH
-const u32 sKantoDexTiles[] = INCBIN_U32("graphics/pokedex/kanto_dex_bgtiles_es.4bpp.lz");
-const u32 sNatDexTiles[] = INCBIN_U32("graphics/pokedex/national_dex_bgtiles_es.4bpp.lz");
+extern const u32 sCategoryMonInfoBgTiles[];
+extern const u32 sKantoDexTiles[];
+extern const u32 sNatDexTiles[];
 #endif
 const u16 sKantoDexPalette[0x100] = INCBIN_U16("graphics/pokedex/kanto_dex_bgpals.gbapal");
 
