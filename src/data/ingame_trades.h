@@ -248,7 +248,7 @@ static const struct InGameTrade sInGameTrades[] = {
     #if ENGLISH
         .nickname = _("SEELOR"),
     #elif SPANISH
-        .nickname = _("SEELÍN "),
+        .nickname = _("SEELÍN"),
     #endif
         .species = SPECIES_SEEL,
         .ivs = {24, 15, 22, 16, 23, 22},
