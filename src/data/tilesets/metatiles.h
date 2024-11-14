@@ -115,7 +115,11 @@ const u32 gMetatileAttributes_UnusedGatehouse2[] = INCBIN_U32("data/tilesets/sec
 const u16 gMetatiles_CeruleanCave[] = INCBIN_U16("data/tilesets/secondary/cerulean_cave/metatiles.bin");
 const u32 gMetatileAttributes_CeruleanCave[] = INCBIN_U32("data/tilesets/secondary/cerulean_cave/metatile_attributes.bin");
 
+#if ENGLISH
 const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles.bin");
+#elif SPANISH
+const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles_es.bin");
+#endif
 const u32 gMetatileAttributes_DepartmentStore[] = INCBIN_U32("data/tilesets/secondary/department_store/metatile_attributes.bin");
 
 const u16 gMetatiles_GenericBuilding2[] = INCBIN_U16("data/tilesets/secondary/generic_building_2/metatiles.bin");
