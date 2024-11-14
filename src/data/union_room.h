@@ -164,9 +164,15 @@ static const struct ListMenuTemplate sListMenuTemplate_UnionRoomGroups = {
 
 static const struct WindowTemplate sWindowTemplate_InviteToActivity = {
     .bg = 0,
+#if ENGLISH
     .tilemapLeft = 20,
     .tilemapTop = 6,
     .width = 8,
+#elif SPANISH
+    .tilemapLeft = 18,
+    .tilemapTop = 6,
+    .width = 10,
+#endif
     .height = 7,
     .paletteNum = 15,
     .baseBlock = 0x001
