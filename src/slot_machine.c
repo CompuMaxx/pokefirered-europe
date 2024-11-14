@@ -649,6 +649,7 @@ bool8 (*const sSlotMachineSetupTasks[])(u8 *, struct SlotMachineSetupTaskData *)
 };
 
 #if defined(FIRERED)
+#if ENGLISH
 static const u16 sBgPal_00[] = INCBIN_U16("graphics/slot_machine/unk_8465930.gbapal");
 static const u16 sBgPal_10[] = INCBIN_U16("graphics/slot_machine/unk_8465950.gbapal");
 static const u16 sBgPal_20[] = INCBIN_U16("graphics/slot_machine/unk_8465970.gbapal");
@@ -656,6 +657,15 @@ static const u16 sBgPal_30[] = INCBIN_U16("graphics/slot_machine/unk_8465990.gba
 static const u16 sBgPal_40[] = INCBIN_U16("graphics/slot_machine/unk_84659b0.gbapal");
 static const u32 sBg2Tiles_00[] = INCBIN_U32("graphics/slot_machine/unk_84659d0.4bpp.lz");
 static const u32 sBg2Map[] = INCBIN_U32("graphics/slot_machine/unk_84661d4.bin.lz");
+#elif SPANISH
+extern const u16 sBgPal_00[];
+extern const u16 sBgPal_10[];
+extern const u16 sBgPal_20[];
+extern const u16 sBgPal_30[];
+extern const u16 sBgPal_40[];
+extern const u32 sBg2Tiles_00[];
+extern const u32 sBg2Map[];
+#endif
 static const u16 sBgPal_50[] = INCBIN_U16("graphics/slot_machine/unk_84664bc.gbapal");
 static const u16 sBgPal_VictoryFlash[] = INCBIN_U16("graphics/slot_machine/unk_84664dc.gbapal","graphics/slot_machine/unk_84664fc.gbapal", "graphics/slot_machine/unk_846651c.gbapal");
 #elif defined(LEAFGREEN)

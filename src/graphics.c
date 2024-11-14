@@ -1460,4 +1460,13 @@ const u8 sTheEndGfxMap[] = INCBIN_U8("graphics/credits/unk_8410B20.bin.lz");//bp
 const u32 sCategoryMonInfoBgTiles[] = INCBIN_U32("graphics/pokedex/mini_page.4bpp.lz");//bprs diff
 const u32 sKantoDexTiles[] = INCBIN_U32("graphics/pokedex/kanto_dex_bgtiles_es.4bpp.lz");//bprs diff
 const u32 sNatDexTiles[] = INCBIN_U32("graphics/pokedex/national_dex_bgtiles_es.4bpp.lz");//bprs diff
+
+//slot_machine.c
+const u16 sBgPal_00[] = INCBIN_U16("graphics/slot_machine/unk_8465930.gbapal");//08eafd68
+const u16 sBgPal_10[] = INCBIN_U16("graphics/slot_machine/unk_8465950.gbapal");
+const u16 sBgPal_20[] = INCBIN_U16("graphics/slot_machine/unk_8465970.gbapal");
+const u16 sBgPal_30[] = INCBIN_U16("graphics/slot_machine/unk_8465990.gbapal");
+const u16 sBgPal_40[] = INCBIN_U16("graphics/slot_machine/unk_84659b0.gbapal");
+const u32 sBg2Tiles_00[] = INCBIN_U32("graphics/slot_machine/unk_84659d0.4bpp.lz");//bprs diff
+const u32 sBg2Map[] = INCBIN_U32("graphics/slot_machine/unk_84661d4.bin.lz");
 #endif
