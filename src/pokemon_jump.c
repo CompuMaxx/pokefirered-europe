@@ -2908,9 +2908,15 @@ static const u16 sVenusaur_Pal[] = INCBIN_U16("graphics/pokemon_jump/venusaur.gb
 static const u32 sVenusaur_Gfx[] = INCBIN_U32("graphics/pokemon_jump/venusaur.4bpp.lz");
 static const u32 sVenusaur_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/venusaur.bin.lz");
 
+#if ENGLISH
 static const u16 sBonuses_Pal[] = INCBIN_U16("graphics/pokemon_jump/bonuses.gbapal");
 static const u32 sBonuses_Gfx[] = INCBIN_U32("graphics/pokemon_jump/bonuses.4bpp.lz");
 static const u32 sBonuses_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/bonuses.bin.lz");
+#elif SPANISH
+extern const u16 sBonuses_Pal[];
+extern const u32 sBonuses_Gfx[];
+extern const u32 sBonuses_Tilemap[];
+#endif
 
 static const struct BgTemplate sBgTemplates[] =
 {
@@ -3334,7 +3340,9 @@ static bool32 ResetVineGfx(void)
     return TRUE;
 }
 
+#if ENGLISH
 static const u8 sPluralTxt[] = _("IES");
+#endif
 
 static void PrintPrizeMessage(u16 itemId, u16 quantity)
 {
