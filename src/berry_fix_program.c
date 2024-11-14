@@ -225,6 +225,53 @@ static int BerryFix_TrySetScene(int);
 static void BerryFix_SetScene(int);
 static void BerryFix_HideScene(void);
 
+enum {
+    SCENE_ENSURE_CONNECT,
+    SCENE_TURN_OFF_POWER,
+    SCENE_TRANSMITTING,
+    SCENE_FOLLOW_INSTRUCT,
+    SCENE_TRANSMIT_FAILED,
+    SCENE_BEGIN,
+    SCENE_NONE
+};
+
+static const struct {
+    const u8 *gfx;
+    const u8 *tilemap;
+    const u8 *palette; //why u8 ?
+} sBerryFixGraphics_copy[] = {
+    [SCENE_ENSURE_CONNECT] = {
+        gBerryFixGameboy_Gfx,
+        gBerryFixGameboy_Tilemap,
+        gBerryFixGameboy_Pal
+    },
+    [SCENE_TURN_OFF_POWER] = {
+        gBerryFixGameboyLogo_Gfx,
+        gBerryFixGameboyLogo_Tilemap,
+        gBerryFixGameboyLogo_Pal
+    },
+    [SCENE_TRANSMITTING] = {
+        gBerryFixGbaTransfer_Gfx,
+        gBerryFixGbaTransfer_Tilemap,
+        gBerryFixGbaTransfer_Pal
+    },
+    [SCENE_FOLLOW_INSTRUCT] = {
+        gBerryFixGbaTransferHighlight_Gfx,
+        gBerryFixGbaTransferHighlight_Tilemap,
+        gBerryFixGbaTransferHighlight_Pal
+    },
+    [SCENE_TRANSMIT_FAILED] = {
+        gBerryFixGbaTransferError_Gfx,
+        gBerryFixGbaTransferError_Tilemap,
+        gBerryFixGbaTransferError_Pal
+    },
+    [SCENE_BEGIN] = {
+        gBerryFixWindow_Gfx,
+        gBerryFixWindow_Tilemap,
+        gBerryFixWindow_Pal
+    },
+};
+
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
 static const u8 sText_BerryProgramUpdate[] = _("Actualización del programa de bayas");
 static const u8 sText_RubySapphire[] = _("Rubí/Zafiro");
@@ -345,15 +392,6 @@ static const u16 sBerryFixPalColors[] = {
 static const u8 sBerryProgramTextColors[] = {TEXT_DYNAMIC_COLOR_1, TEXT_DYNAMIC_COLOR_2, TEXT_DYNAMIC_COLOR_3};
 static const u8 sGameTitleTextColors[] = { TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_1, TEXT_DYNAMIC_COLOR_4};
 
-enum {
-    SCENE_ENSURE_CONNECT,
-    SCENE_TURN_OFF_POWER,
-    SCENE_TRANSMITTING,
-    SCENE_FOLLOW_INSTRUCT,
-    SCENE_TRANSMIT_FAILED,
-    SCENE_BEGIN,
-    SCENE_NONE
-};
 
 static const u8 *const sBerryProgramTexts[] = {
     [SCENE_ENSURE_CONNECT]  = sText_EnsureGBAConnectionMatches,
@@ -401,7 +439,9 @@ static const struct {
     },
 };
 
-extern const u8 gMultiBootProgram_BerryGlitchFix_Start[0x3BF4];
+#define MB_BERRYFIX_SIZE 0x4120
+
+extern const u8 gMultiBootProgram_BerryGlitchFix_Start[MB_BERRYFIX_SIZE];
 extern const u8 gMultiBootProgram_BerryGlitchFix_End[];
 
 enum {
@@ -422,9 +462,9 @@ static void SetScene(int scene)
     REG_BG0HOFS = 0;
     REG_BG0VOFS = 0;
     REG_BLDCNT = 0;
-    LZ77UnCompVram(sBerryFixGraphics[scene].gfx, (void *)BG_CHAR_ADDR(0));
-    LZ77UnCompVram(sBerryFixGraphics[scene].tilemap, (void *)BG_SCREEN_ADDR(31));
-    CpuCopy16(sBerryFixGraphics[scene].palette, (void *)BG_PLTT, 0x200);
+    LZ77UnCompVram(sBerryFixGraphics_copy[scene].gfx, (void *)BG_CHAR_ADDR(0));
+    LZ77UnCompVram(sBerryFixGraphics_copy[scene].tilemap, (void *)BG_SCREEN_ADDR(31));
+    CpuCopy16(sBerryFixGraphics_copy[scene].palette, (void *)BG_PLTT, 0x200);
     REG_BG0CNT = BGCNT_PRIORITY(0) | BGCNT_CHARBASE(0) | BGCNT_16COLOR | BGCNT_SCREENBASE(31) | BGCNT_TXT256x256;
     REG_DISPCNT = DISPCNT_BG0_ON;
 }
