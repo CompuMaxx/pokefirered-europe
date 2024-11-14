@@ -1029,12 +1029,18 @@ static void TTVcmd_DudeMoveLeft(u8 taskId)
         --objAddr->x2;
 }
 
+#if ENGLISH
+    #define RECTWIDTH 8
+#elif SPANISH
+    #define RECTWIDTH 4
+#endif
+
 static void TTVcmd_RenderAndRemoveBg1EndGraphic(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     if (!data[2])
     {
-        CopyToBgTilemapBufferRect_ChangePalette(1, sBg1EndGraphic, 20, 10, 8, 2, 0x11);
+        CopyToBgTilemapBufferRect_ChangePalette(1, sBg1EndGraphic, 20, 10, RECTWIDTH, 2, 0x11);
         ScheduleBgCopyTilemapToVram(1);
     }
     if (++data[2] > 126)
@@ -1047,9 +1053,11 @@ static void TTVcmd_RenderAndRemoveBg1EndGraphic(u8 taskId)
 
 static void TeachyTvClearBg1EndGraphicText(void)
 {
-    FillBgTilemapBufferRect_Palette0(1, 0, 20, 10, 8, 2);
+    FillBgTilemapBufferRect_Palette0(1, 0, 20, 10, RECTWIDTH, 2);
     ScheduleBgCopyTilemapToVram(1);
 }
+
+#undef RECTWIDTH
 
 static void TTVcmd_End(u8 taskId)
 {

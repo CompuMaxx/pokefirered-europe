@@ -6356,8 +6356,10 @@ static void es_sub_8044D64()
             break;
         case TRUE:
             if (r1[0]==0xFD && r1[1]==0x1D) //B_TRAINER1_NAME = FD 1D
+            {
                 r1[1] = 0x1C;               //B_TRAINER1_CLASS = FD 1C
-            return;
+                return;
+            } 
         }
         r1++;
     }
@@ -6369,7 +6371,7 @@ u8 *es_sub_8044DB0(u8 *src)
 
     r5 = src;
 
-    if (!(gBattleTypeFlags & (BATTLE_TYPE_DOUBLE | BATTLE_TYPE_TRAINER)))
+    if ((gBattleTypeFlags & (BATTLE_TYPE_DOUBLE | BATTLE_TYPE_TRAINER)))
     {
         if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_TEAM_ROCKET)
         {

@@ -462,6 +462,16 @@ static const struct BgTemplate sRegionMapBgTemplates[] = {
     }
 };
 
+#if ENGLISH
+    #define WIN_TOPBAR_LEFT_WIDTH       5
+    #define WIN_TOPBAR_RIGHT_WIDTH      5
+    #define WIN_TOPBAR_RIGHT_BASEBLOCK  0x15a
+#elif SPANISH
+    #define WIN_TOPBAR_LEFT_WIDTH       6
+    #define WIN_TOPBAR_RIGHT_WIDTH      6
+    #define WIN_TOPBAR_RIGHT_BASEBLOCK  0x15c
+#endif
+
 static const struct WindowTemplate sRegionMapWindowTemplates[] = {
     [WIN_MAP_NAME] = 
     {
@@ -498,7 +508,7 @@ static const struct WindowTemplate sRegionMapWindowTemplates[] = {
         .bg = 3,
         .tilemapLeft = 18,
         .tilemapTop = 0,
-        .width = 5,
+        .width = WIN_TOPBAR_LEFT_WIDTH,
         .height = 2,
         .paletteNum = 12,
         .baseBlock = 0x150
@@ -508,10 +518,10 @@ static const struct WindowTemplate sRegionMapWindowTemplates[] = {
         .bg = 3,
         .tilemapLeft = 24,
         .tilemapTop = 0,
-        .width = 5,
+        .width = WIN_TOPBAR_RIGHT_WIDTH,
         .height = 2,
         .paletteNum = 12,
-        .baseBlock = 0x15a
+        .baseBlock = WIN_TOPBAR_RIGHT_BASEBLOCK
     }, DUMMY_WIN_TEMPLATE
 };
 
@@ -1900,7 +1910,7 @@ static bool8 HandleSwitchMapInput(void)
     ands r0, r0, r2\n\
     cmp r0, #0\n\
     beq _80C17C8 @if_DPAD_DOWN\n\
-    movs r1, r7\n\
+    adds r1, r7\n\
     adds r0, r6, r1\n\
     ldrb r0, [r0]\n\
     cmp r0, #0\n\
