@@ -1474,4 +1474,8 @@ const u32 sBg2Map[] = INCBIN_U32("graphics/slot_machine/unk_84661d4.bin.lz");
 const u16 sBonuses_Pal[] = INCBIN_U16("graphics/pokemon_jump/bonuses.gbapal");
 const u32 sBonuses_Gfx[] = INCBIN_U32("graphics/pokemon_jump/bonuses.4bpp.lz");
 const u32 sBonuses_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/bonuses.bin.lz");
+
+//minigame_countdown.c
+const u16 sSpritePal_321Start[] = INCBIN_U16("graphics/link_games/unk_847a348.gbapal");
+const u16 sSpriteSheet_321Start[] = INCBIN_U16("graphics/link_games/unk_847a348.4bpp.lz");
 #endif
