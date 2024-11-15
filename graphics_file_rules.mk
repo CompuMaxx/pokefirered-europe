@@ -117,6 +117,9 @@ $(MISCGFXDIR)/japanese_hof.4bpp: %.4bpp: %.png
 $(MISCGFXDIR)/markings2.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 25 -Wnum_tiles
 
+$(MISCGFXDIR)/markings2_es.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 25 -Wnum_tiles
+
 $(INTERFACEGFXDIR)/menu.gbapal: $(INTERFACEGFXDIR)/menu_0.gbapal \
 						$(INTERFACEGFXDIR)/menu_1.gbapal
 	@cat $^ >$@
@@ -212,6 +215,9 @@ $(BATTRANSGFXDIR)/vs_frame.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 16 -Wnum_tiles
 
 $(INTERFACEGFXDIR)/party_menu_misc.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 62 -Wnum_tiles
+
+$(INTERFACEGFXDIR)/party_menu_misc_es.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 62 -Wnum_tiles
 
 $(TYPESGFXDIR)/move_types.4bpp: $(types:%=$(TYPESGFXDIR)/%.4bpp) $(contest_types:%=$(TYPESGFXDIR)/contest_%.4bpp)
@@ -465,6 +471,9 @@ $(FAMECHECKERGFXDIR)/spinning_pokeball.4bpp: %.4bpp: %.png
 $(FAMECHECKERGFXDIR)/bg.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 165 -Wnum_tiles
 
+$(FAMECHECKERGFXDIR)/bg_es.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 165 -Wnum_tiles
+
 graphics/seagallop/water.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 41 -Wnum_tiles
 
@@ -480,8 +489,14 @@ $(SLOTMACHINEGFXDIR)/unk_8466620.4bpp: %.4bpp: %.png
 $(SLOTMACHINEGFXDIR)/unk_84659d0.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 138 -Wnum_tiles
 
+$(SLOTMACHINEGFXDIR)/bg_es.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 138 -Wnum_tiles
+
 $(TEACHYTVGFXDIR)/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 233 -Wnum_tiles
+
+$(TEACHYTVGFXDIR)/tiles_es.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 233
 
 $(SSANNEGFXDIR)/smoke.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 17 -Wnum_tiles
@@ -586,6 +601,9 @@ $(HALLOFFAMEGFXDIR)/hall_of_fame.4bpp: %.4bpp: %.png
 
 $(TILESETGFXDIR)/primary/general/anim/water_current_landwatersedge/7.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 47 -Wnum_tiles
+
+$(TILESETGFXDIR)/secondary/department_store/tiles_es.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 202
 
 $(MAPPREVIEWGFXDIR)/altering_cave/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 391 -Wnum_tiles
