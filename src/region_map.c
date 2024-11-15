@@ -1910,7 +1910,7 @@ static bool8 HandleSwitchMapInput(void)
     ands r0, r0, r2\n\
     cmp r0, #0\n\
     beq _80C17C8 @if_DPAD_DOWN\n\
-    adds r1, r7\n\
+    adds r1, r7, #0x0\n\
     adds r0, r6, r1\n\
     ldrb r0, [r0]\n\
     cmp r0, #0\n\
