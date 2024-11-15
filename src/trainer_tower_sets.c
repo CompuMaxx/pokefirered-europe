@@ -19,6 +19,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 	.prize = TTPRIZE_WHITE_HERB,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("COLE"),
 			.facilityClass = FACILITY_CLASS_YOUNGSTER,
 			.textColor = 1,
@@ -26,6 +27,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 			.speechWin = {EC_WORD_ALL_RIGHT, EC_WORD_EXCL, EC_WORD_BYE_BYE, EC_WORD_EXCL, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_HIYAH, EC_WORD_EXCL_EXCL, EC_WORD_DONE, EC_WORD_IN, EC_WORD_TOTALLY, EC_WORD_EXCL_EXCL},
 			.speechAfter = {EC_WORD_TCH, EC_WORD_TCH, EC_WORD_YOU_RE, EC_WORD_TOO_STRONG, 0xFFFF, 0xFFFF},
+		#elif SPANISH
+			.name = _("CAMILO"),
+			.facilityClass = FACILITY_CLASS_YOUNGSTER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_WHERE, EC_WORD_AT, EC_WORD_NITWIT, EC_WORD_CAN_T, EC_WORD_CAN_T_WIN, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_MUFUFU, EC_WORD_HERE_IT_IS, EC_WORD_YEAH, EC_WORD_HEHEHE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_OI_OI_OI, EC_WORD_UNDEFINED, EC_WORD_EXCL_EXCL, EC_WORD_DOWN, EC_WORD_IF_I_LOSE, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_EXCL_EXCL, EC_WORD_LET_S, EC_WORD_EXCITING, EC_WORD_UNDEFINED, EC_WORD_APPROVED, EC_WORD_EXCL},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_RATICATE,
@@ -174,6 +184,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 	.prize = TTPRIZE_DRAGON_SCALE,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("JAC"),
 			.facilityClass = FACILITY_CLASS_BURGLAR,
 			.textColor = 1,
@@ -181,6 +192,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 			.speechWin = {EC_WORD_YOU_VE, EC_WORD_GOT, EC_WORD_NOTHING, EC_WORD_THAT, EC_WORD_I, EC_WORD_WANT},
 			.speechLose = {EC_WORD_EEK, EC_WORD_EXCL_EXCL, EC_WORD_I_AM, EC_WORD_SORRY, EC_WORD_I, EC_WORD_SURRENDER},
 			.speechAfter = {EC_WORD_I, EC_WORD_WILL, EC_WORD_STOP, EC_WORD_BEING, EC_WORD_A, EC_MOVE2(THIEF)},
+		#elif SPANISH
+			.name = _("JAN"),
+			.facilityClass = FACILITY_CLASS_BURGLAR,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_EXCL_EXCL, EC_WORD_WONDER, EC_WORD_LISTEN, EC_WORD_LOSS, EC_WORD_COLD, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_EXCL_EXCL, EC_WORD_LET_S, EC_WORD_PLUS, EC_WORD_NITWIT, EC_WORD_PATTERN, EC_WORD_EXCL},
+			.speechLose = {EC_WORD_ARRGH, EC_WORD_UNDEFINED, EC_WORD_NO, EC_WORD_UNDEFINED, EC_WORD_COUNT_ON, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_ABSOLUTELY, EC_WORD_LIKE, EC_WORD_FORGETS, EC_WORD_POKEMON, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MEOWTH,
@@ -329,6 +349,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 	.prize = TTPRIZE_IRON,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("MILY"),
 			.facilityClass = FACILITY_CLASS_PSYCHIC_F,
 			.textColor = 1,
@@ -336,6 +357,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 			.speechWin = {EC_WORD_ISN_T, EC_WORD_IT, EC_WORD_INCREDIBLE, EC_WORD_QUES, EC_WORD_POKEMON, EC_WORD_POWER},
 			.speechLose = {EC_WORD_THIS, EC_WORD_IS, EC_WORD_AN, EC_WORD_AWFUL, EC_MOVE(NIGHTMARE), EC_WORD_ELLIPSIS_EXCL},
 			.speechAfter = {EC_WORD_THIS, EC_WORD_IS, EC_WORD_A, EC_WORD_DREAM, EC_WORD_NOTHING, EC_WORD_MORE},
+		#elif SPANISH
+			.name = _("MIRLA"),
+			.facilityClass = FACILITY_CLASS_PSYCHIC_F,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_CHANSEY,
@@ -484,6 +514,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 	.prize = TTPRIZE_CHOICE_BAND,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("JOS & ANNE"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 7,
@@ -491,6 +522,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			.speechWin = {EC_WORD_VERY, EC_WORD_WELL, EC_WORD_DONE, EC_WORD_EXCL, EC_WORD_GOOD, EC_WORD_BATTLE},
 			.speechLose = {EC_WORD_UNBELIEVABLE, EC_WORD_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_DISAPPOINTED, EC_WORD_BUT, EC_WORD_YOU, EC_WORD_WIN, EC_WORD_ELLIPSIS},
+		#elif SPANISH
+			.name = _("DEN-ANI"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_DOES, EC_WORD_NITWIT, EC_WORD_OR, EC_WORD_LISTEN, EC_WORD_WIN, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_WENT, EC_WORD_FOR_NOW, EC_WORD_BATTLE, EC_WORD_VERY, EC_WORD_ANTICIPATION, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_CRIES, EC_WORD_UNDEFINED, EC_WORD_HEY, EC_WORD_UNDEFINED, EC_WORD_LISTENING, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_LET_S, EC_WORD_LEFT, EC_WORD_INCREDIBLE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_RAPIDASH,
@@ -627,6 +667,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("JOS & ANNE"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 7,
@@ -634,6 +675,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			.speechWin = {EC_WORD_PERFECT, EC_WORD_EXCL, EC_WORD_WE, EC_WORD_GET, EC_WORD_THE, EC_WORD_WIN},
 			.speechLose = {EC_WORD_LOST, EC_WORD_QUES_EXCL, EC_WORD_YOU, EC_WORD_MUST_BE, EC_WORD_JOKING, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_HOW, EC_WORD_COULD, EC_WORD_I, EC_WORD_LOSE, EC_WORD_THIS, EC_WORD_QUES},
+		#elif SPANISH
+			.name = _("DEN-ANI"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_I, EC_WORD_OR, EC_WORD_LISTEN, EC_WORD_WIN, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_WIN, EC_WORD_IS, EC_WORD_BEING, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_QUES_EXCL, EC_WORD_NITWIT, EC_WORD_I, EC_WORD_PLAYS, EC_WORD_LOSE, EC_WORD_QUES},
+			.speechAfter = {EC_WORD_LET_S, EC_WORD_LEFT, EC_WORD_APPROVED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_HOUNDOOM,
@@ -781,6 +831,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 	.prize = TTPRIZE_CALCIUM,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("EMY & ALEK"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 1,
@@ -788,6 +839,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			.speechWin = {EC_WORD_OH, EC_WORD_OH, EC_WORD_HE, EC_WORD_IS, EC_WORD_REALLY, EC_WORD_AWESOME},
 			.speechLose = {EC_WORD_AIYEEH, EC_WORD_EXCL_EXCL, EC_WORD_YOU_RE, EC_WORD_NOT, EC_WORD_SERIOUS, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_WHO, EC_WORD_ARE, EC_WORD_YOU, EC_WORD_QUES, 0xFFFF, 0xFFFF},
+		#elif SPANISH
+			.name = _("EMI-ALE"),
+			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_WILL_BE_HERE, EC_WORD_EVERY, EC_WORD_ALL_RIGHT, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_EXCL_EXCL, EC_WORD_EVEN_SO, EC_WORD_ABSOLUTELY, EC_WORD_LIKE, EC_WORD_FIGHTS, EC_WORD_EXCL},
+			.speechLose = {EC_WORD_WHERE, EC_WORD_ABSOLUTELY, EC_WORD_AROUND, EC_WORD_OK_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_QUES_EXCL, EC_WORD_AND, EC_WORD_YOU, EC_WORD_WHO, EC_WORD_LET_S, EC_WORD_QUES},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_TAUROS,
@@ -924,6 +984,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("EMY & ALEK"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 1,
@@ -931,6 +992,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			.speechWin = {EC_WORD_SIGH, EC_WORD_ELLIPSIS, EC_WORD_MY, EC_WORD_GIRL, EC_WORD_IS, EC_WORD_CUTE},
 			.speechLose = {EC_WORD_WAAAH, EC_WORD_EXCL_EXCL, EC_WORD_YOU, EC_WORD_CAN_T, EC_WORD_BE, EC_WORD_SERIOUS},
 			.speechAfter = {EC_WORD_WAIT, EC_WORD_ELLIPSIS, EC_WORD_WHO, EC_WORD_ARE, EC_WORD_YOU, EC_WORD_QUES},
+		#elif SPANISH
+			.name = _("EMI-ALE"),
+			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_WILL_BE_HERE, EC_WORD_VERY, EC_WORD_CARES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_JUST, EC_WORD_AREN_T, EC_WORD_IS, EC_WORD_FOR_NOW, EC_MOVE(CHARM), EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_WHERE, EC_WORD_WEREN_T, EC_WORD_BE, EC_WORD_THESE_WERE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_BUT, EC_WORD_UNDEFINED, EC_WORD_QUES_EXCL, EC_WORD_WHO, EC_WORD_LET_S, EC_WORD_QUES},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_LICKITUNG,
@@ -1078,6 +1148,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 	.prize = TTPRIZE_HP_UP,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("JO & HALEY"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
 			.textColor = 5,
@@ -1085,6 +1156,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 			.speechWin = {EC_WORD_YAY, EC_WORD_WE, EC_WORD_WON, EC_WORD_EXCL, EC_WORD_SORRY, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_AWW, EC_WORD_EXCL, EC_WORD_THAT_WAS, EC_WORD_REALLY, EC_WORD_TERRIBLE, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_ALL, EC_WORD_I, EC_WORD_DO, EC_WORD_IS, EC_WORD_LOSE, EC_WORD_ELLIPSIS},
+		#elif SPANISH
+			.name = _("FIL-RENA"),
+			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_BELONGS_TO, EC_WORD_NITWIT, EC_WORD_WIN, EC_WORD_OH_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_SORRY, EC_WORD_UNDEFINED,EC_WORD_GWAHAHAHA, EC_WORD_UNDEFINED,EC_WORD_HIYAH, EC_WORD_LALALA},
+			.speechLose = {EC_WORD_SIGH, EC_WORD_UNDEFINED,EC_WORD_FUFUFU, EC_WORD_UNDEFINED,EC_WORD_WAAAH, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_SIGH, EC_WORD_UNDEFINED,EC_WORD_ALWAYS, EC_WORD_FAINTED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_SNEASEL,
@@ -1221,6 +1301,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("JO & HALEY"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
 			.textColor = 5,
@@ -1228,6 +1309,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 			.speechWin = {EC_WORD_YOU_RE, EC_WORD_NOT, EC_WORD_JOKING, EC_WORD_QUES, EC_WORD_WE, EC_WORD_WON},
 			.speechLose = {EC_WORD_WIMPY, EC_WORD_ELLIPSIS, EC_WORD_WE, EC_WORD_WERE, EC_WORD_WEAK, EC_WORD_ELLIPSIS},
 			.speechAfter = {EC_WORD_HAHAHA, EC_WORD_ELLIPSIS, EC_WORD_WE_RE, EC_WORD_TOTALLY, EC_WORD_USELESS, EC_WORD_ELLIPSIS},
+		#elif SPANISH
+			.name = _("FIL-RENA"),
+			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_HEY_THERE, EC_WORD_SNORT, EC_WORD_MOVE, EC_WORD_UNDEFINED,EC_WORD_EEK, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_HAH, EC_WORD_UNDEFINED,EC_WORD_HERE_IT_IS, EC_WORD_UNDEFINED,EC_WORD_UH_HUH, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_AWW, EC_WORD_UNDEFINED,EC_WORD_GIVE_ME, EC_WORD_UNDEFINED,EC_WORD_AWW, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_SIGH, EC_WORD_UNDEFINED,EC_WORD_FOREVER, EC_WORD_CAN, EC_WORD_WIN, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_HYPNO,
@@ -1375,6 +1465,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 	.prize = TTPRIZE_METAL_COAT,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("JORDY"),
 			.facilityClass = FACILITY_CLASS_BIKER,
 			.textColor = 3,
@@ -1382,6 +1473,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			.speechWin = {EC_WORD_WHAT, EC_WORD_A_LITTLE, EC_WORD_PUSHOVER, EC_WORD_YOU, EC_WORD_ARE, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_YOU, EC_WORD_WERE, EC_WORD_READY, EC_WORD_TO, EC_WORD_ROCK, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_DARN, EC_WORD_EXCL, EC_WORD_I, EC_WORD_DON_T, EC_WORD_GET, EC_WORD_IT},
+		#elif SPANISH
+			.name = _("JORDI"),
+			.facilityClass = FACILITY_CLASS_BIKER,
+			.textColor = 3,
+			.speechBefore = {EC_WORD_HEH, EC_WORD_UNDEFINED,EC_WORD_EXCL_EXCL, EC_WORD_GUARD, EC_WORD_NEAR, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_LET_S, EC_WORD_VERY, EC_WORD_BUT, EC_WORD_NITWIT, EC_WORD_VERY, EC_WORD_APPROVED},
+			.speechLose = {EC_WORD_LET_S, EC_WORD_VERY, EC_WORD_BUT, EC_WORD_NITWIT, EC_WORD_VERY, EC_WORD_PATTERN},
+			.speechAfter = {EC_WORD_WHOAH, EC_WORD_UNDEFINED,EC_WORD_LET_S, EC_WORD_VERY, EC_WORD_APPROVED, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MAGBY,
@@ -1518,6 +1618,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("ERNEST"),
 			.facilityClass = FACILITY_CLASS_BIKER,
 			.textColor = 1,
@@ -1525,6 +1626,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			.speechWin = {EC_WORD_NOT, EC_WORD_GUTSY, EC_WORD_ENOUGH, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_WHY, EC_WORD_DID, EC_WORD_YOU, EC_WORD_CRUSH, EC_WORD_ME, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_BEAT, EC_WORD_I, EC_WORD_NEED, EC_WORD_A, EC_WORD_NAP},
+		#elif SPANISH
+			.name = _("ERNESTO"),
+			.facilityClass = FACILITY_CLASS_BIKER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_LET_S, EC_WORD_EXCITING, EC_WORD_LOWS, EC_WORD_RECOMMEND, EC_WORD_FIGHTS, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_WHERE, EC_WORD_LET_S, EC_WORD_VERY, EC_WORD_GUTSY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_WILL_BE_HERE, EC_WORD_PLUS, EC_WORD_NITWIT, EC_WORD_DEFEATED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_EXCL_EXCL, EC_WORD_DOWN, EC_WORD_IF_I_LOSE, EC_WORD_EXCL, EC_WORD_SIGH, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_CLEFFA,
@@ -1661,6 +1771,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("GABRIEL"),
 			.facilityClass = FACILITY_CLASS_CUE_BALL,
 			.textColor = 1,
@@ -1668,6 +1779,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			.speechWin = {EC_WORD_I_AM, EC_WORD_INVINCIBLE, EC_WORD_YOU, EC_WORD_GOT, EC_WORD_THAT, EC_WORD_QUES},
 			.speechLose = {EC_WORD_WHAT, EC_WORD_WAS, EC_WORD_THAT, EC_WORD_QUES, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_GOING, EC_WORD_TO, EC_WORD_WIN, EC_WORD_NEXT, EC_WORD_TIME},
+		#elif SPANISH
+			.name = _("GABI"),
+			.facilityClass = FACILITY_CLASS_CUE_BALL,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_LAY, EC_WORD_OR, EC_WORD_LISTEN, EC_WORD_GIVES, EC_WORD_NATURALLY, EC_WORD_IF_I_LOSE},
+			.speechWin = {EC_WORD_NEAR, EC_WORD_UNDEFINED,EC_WORD_WHERE, EC_WORD_CAN_T, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_EXCL_EXCL, EC_WORD_BUT, EC_WORD_ANTICIPATION, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_A_TINY_BIT, EC_WORD_NEXT, EC_WORD_BATTLE, EC_WORD_IS, EC_WORD_ANY, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_PICHU,
@@ -1814,6 +1934,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 	.prize = TTPRIZE_UP_GRADE,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("MIKE"),
 			.facilityClass = FACILITY_CLASS_HIKER,
 			.textColor = 5,
@@ -1821,6 +1942,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechWin = {EC_WORD_WHAT_S_UP_QUES, EC_WORD_WHERE, EC_WORD_IS, EC_WORD_YOUR, EC_WORD_POWER, EC_WORD_QUES},
 			.speechLose = {EC_WORD_YOU, EC_WORD_GOT, EC_WORD_ME, EC_WORD_WITH, EC_WORD_YOUR, EC_MOVE2(FAKE_OUT)},
 			.speechAfter = {EC_WORD_OH_YEAH, EC_WORD_EXCL, EC_WORD_THAT_S, EC_WORD_PRETTY, EC_WORD_EXCELLENT, EC_WORD_EXCL},
+		#elif SPANISH
+			.name = _("MIGUE"),
+			.facilityClass = FACILITY_CLASS_HIKER,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_TOO_LATE, EC_WORD_POKEMON, EC_WORD_WAS, EC_WORD_VERY, EC_WORD_FULL, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_ABSOLUTELY, EC_WORD_DID, EC_WORD_NITWIT, EC_WORD_LET_S, EC_WORD_VERY, EC_WORD_PATTERN},
+			.speechLose = {EC_WORD_ABSOLUTELY, EC_WORD_DID, EC_WORD_NITWIT, EC_WORD_ISN_T_IT_QUES, EC_WORD_VERY, EC_WORD_PATTERN},
+			.speechAfter = {EC_WORD_EXCL_EXCL, EC_WORD_DOWN, EC_WORD_INCREDIBLE, EC_WORD_UNDEFINED,EC_WORD_LET_S, EC_WORD_EXCL},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_PINSIR,
@@ -1957,6 +2087,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("REBECCA"),
 			.facilityClass = FACILITY_CLASS_CRUSH_GIRL,
 			.textColor = 5,
@@ -1964,6 +2095,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechWin = {EC_WORD_IT_S, EC_WORD_TOO, EC_WORD_BAD, EC_WORD_BUT, EC_WORD_I_AM, EC_WORD_OVERWHELMING},
 			.speechLose = {EC_WORD_ARRGH, EC_WORD_EXCL_EXCL, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_WORD_YOU, EC_WORD_ANGER, EC_WORD_ME, EC_WORD_BUT, EC_WORD_YOU_RE, EC_WORD_TOUGH},
+		#elif SPANISH
+			.name = _("REBECA"),
+			.facilityClass = FACILITY_CLASS_CRUSH_GIRL,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_I, EC_WORD_FOREVER, EC_WORD_FAINTED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_MUFUFU, EC_WORD_UNDEFINED,EC_WORD_LISTEN, EC_WORD_FORGETS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_ARRGH, EC_WORD_UNDEFINED,EC_WORD_CRY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_THAT_S, EC_WORD_THESE_WERE, EC_WORD_IS, EC_WORD_NITWIT, EC_WORD_LET_S, EC_WORD_APPROVED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_SANDSLASH,
@@ -2100,6 +2240,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("NICOLAS"),
 			.facilityClass = FACILITY_CLASS_BLACK_BELT,
 			.textColor = 5,
@@ -2107,6 +2248,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechWin = {EC_WORD_YOU_RE, EC_WORD_TOO_WEAK, EC_WORD_TO, EC_WORD_EVER, EC_WORD_BEAT, EC_WORD_ME},
 			.speechLose = {EC_WORD_WHY, EC_WORD_COULDN_T, EC_WORD_I, EC_WORD_BEAT, EC_WORD_YOU, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_I, EC_WORD_HAVE, EC_WORD_TO, EC_WORD_TRAIN, EC_WORD_SOME, EC_WORD_MORE},
+		#elif SPANISH
+			.name = _("NICOLÁS"),
+			.facilityClass = FACILITY_CLASS_BLACK_BELT,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_MEET_YOU, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_WHERE, EC_WORD_OVER, EC_WORD_COME_ON, EC_WORD_UNDEFINED,EC_WORD_PATTERN, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_WHERE, EC_WORD_LET_S, EC_WORD_EVERY, EC_WORD_PATTERN, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WHOM, EC_WORD_NITWIT, EC_WORD_FORGETS, EC_WORD_A_LOT, EC_WORD_PLUS, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_HITMONLEE,
@@ -2253,6 +2403,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 	.prize = TTPRIZE_HP_UP,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("JOEY"),
 			.facilityClass = FACILITY_CLASS_CAMPER,
 			.textColor = 1,
@@ -2260,6 +2411,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 			.speechWin = {EC_WORD_WERE, EC_WORD_MY, EC_WORD_POKEMON, EC_WORD_TOO, EC_WORD_MUCH, EC_WORD_QUES},
 			.speechLose = {EC_WORD_YOUR, EC_WORD_POKEMON, EC_WORD_ARE, EC_WORD_WAY, EC_WORD_TOO_STRONG, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_THE, EC_WORD_WAY, EC_WORD_POKEMON, EC_WORD_MATCH_UP, EC_WORD_IS, EC_WORD_IMPORTANT},
+		#elif SPANISH
+			.name = _("PEPE"),
+			.facilityClass = FACILITY_CLASS_CAMPER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_TOO_LATE, EC_WORD_POKEMON, EC_WORD_WAS, EC_WORD_LEFT, EC_WORD_FULL, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_WAS, EC_WORD_FULL, EC_WORD_OH_QUES, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_AS_MUCH_AS, EC_WORD_POKEMON, EC_WORD_WAS, EC_WORD_LEFT, EC_WORD_FULL, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_KNOW, EC_WORD_ONLY, EC_WORD_RANK, EC_WORD_UNDEFINED,EC_WORD_IS, EC_WORD_MATCH_UP},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MURKROW,
@@ -2408,6 +2568,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 	.prize = TTPRIZE_METAL_COAT,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("LILY"),
 			.facilityClass = FACILITY_CLASS_PKMN_BREEDER,
 			.textColor = 1,
@@ -2415,6 +2576,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 			.speechWin = {EC_WORD_I, EC_WORD_BELIEVE, EC_WORD_IN, EC_WORD_MY, EC_WORD_POKEMON, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_I, EC_WORD_NEED, EC_WORD_SOMETHING, EC_WORD_IN, EC_MOVE(RETURN), EC_WORD_ELLIPSIS},
 			.speechAfter = {EC_WORD_MY, EC_WORD_POKEMON, EC_WORD_HAVE, EC_WORD_MY, EC_WORD_TRUST, EC_WORD_FOREVER},
+		#elif SPANISH
+			.name = _("LILA"),
+			.facilityClass = FACILITY_CLASS_PKMN_BREEDER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_QUES_EXCL, EC_WORD_AND, EC_WORD_YOU, EC_WORD_DOWN, EC_WORD_DIDN_T, EC_WORD_QUES},
+			.speechWin = {EC_WORD_I, EC_WORD_TRUST, EC_WORD_THE, EC_WORD_TOO_LATE, EC_WORD_POKEMON, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_WHERE, EC_WORD_SINCE, EC_WORD_TALKING, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_ANYWHERE, EC_WORD_THE, EC_WORD_AS_MUCH_AS, EC_WORD_POKEMON, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_CLEFAIRY,
@@ -2563,6 +2733,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 	.prize = TTPRIZE_UP_GRADE,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("BRANDON"),
 			.facilityClass = FACILITY_CLASS_BUG_CATCHER,
 			.textColor = 1,
@@ -2570,6 +2741,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 			.speechWin = {EC_WORD_SEE, EC_WORD_QUES, EC_WORD_ISN_T, EC_WORD_POISON, EC_WORD_TERRIBLE, EC_WORD_QUES},
 			.speechLose = {EC_WORD_HUH_QUES, EC_WORD_OUR, EC_WORD_POISON, EC_WORD_DIDN_T, EC_WORD_WORK, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_POISON, EC_WORD_IS, EC_WORD_A, EC_WORD_TERRIBLE, EC_MOVE(TORMENT), EC_WORD_ISN_T_IT_QUES},
+		#elif SPANISH
+			.name = _("BARTOLO"),
+			.facilityClass = FACILITY_CLASS_BUG_CATCHER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_A_TINY_BIT, EC_WORD_POISON, EC_WORD_IS, EC_WORD_HOPELESS, EC_WORD_OH_QUES, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_A_TINY_BIT, EC_WORD_POISON, EC_WORD_IS, EC_WORD_LEFT, EC_WORD_HOPELESS, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_LET_S, EC_WORD_INCREDIBLE, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_A_TINY_BIT, EC_WORD_POISON, EC_WORD_IS, EC_WORD_A_LITTLE, EC_WORD_BAD, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_BUTTERFREE,
@@ -2718,6 +2898,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 	.prize = TTPRIZE_IRON,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("RIC & RENE"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
 			.textColor = 5,
@@ -2725,6 +2906,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			.speechWin = {EC_WORD_MY, EC_WORD_BIG, EC_WORD_BROTHER, EC_WORD_IS, EC_WORD_TOO, EC_WORD_AWESOME},
 			.speechLose = {EC_WORD_MY, EC_WORD_BIG, EC_WORD_BROTHER, EC_WORD_ISN_T, EC_WORD_AWESOME, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_BIG, EC_WORD_BROTHER, EC_WORD_FIGHT, EC_WORD_EXCL, 0xFFFF, 0xFFFF},
+		#elif SPANISH
+			.name = _("RIC-ELA"),
+			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_JUST, EC_WORD_BROTHER, EC_WORD_IS, EC_WORD_INCREDIBLE, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_JUST, EC_WORD_BROTHER, EC_WORD_IS, EC_WORD_FOR_NOW, EC_WORD_GENIUS, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_JUST, EC_WORD_BROTHER, EC_WORD_IS, EC_WORD_FOR_NOW, EC_WORD_PATTERN, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_EXCL_EXCL, EC_WORD_BROTHER, EC_WORD_BELONGS_TO, EC_WORD_NITWIT, EC_WORD_FIGHTS, EC_WORD_EXCL},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_HITMONLEE,
@@ -2861,6 +3051,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("RIC & RENE"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
 			.textColor = 5,
@@ -2868,6 +3059,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			.speechWin = {EC_WORD_I_AM, EC_WORD_TOO, EC_WORD_AWESOME, EC_WORD_EXCL, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_HUH_QUES, 0xFFFF, EC_WORD_I_AM, EC_WORD_NOT_VERY, EC_WORD_AWESOME, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_I, EC_WORD_WILL, EC_WORD_DO, EC_WORD_MY, EC_WORD_BEST, EC_WORD_EXCL},
+		#elif SPANISH
+			.name = _("RIC-ELA"),
+			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_ISN_T_IT_QUES, EC_WORD_FOR_NOW, EC_WORD_MASTER, EC_WORD_THE, EC_WORD_POKEMON, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_ISN_T_IT_QUES, EC_WORD_A_TINY_BIT, EC_WORD_PLUS, EC_WORD_MASTER, EC_WORD_THE, EC_WORD_POKEMON},
+			.speechLose = {EC_WORD_JOKING, EC_WORD_WHERE, EC_WORD_ISN_T_IT_QUES, EC_WORD_EVERY, EC_WORD_MASTER, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WHOM, EC_WORD_NITWIT, EC_WORD_BE, EC_WORD_SPIRALING, EC_WORD_INSIDE, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MACHAMP,
@@ -3015,6 +3215,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 	.prize = TTPRIZE_DRAGON_SCALE,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("JEN & KIRA"),
 			.facilityClass = FACILITY_CLASS_TWINS,
 			.textColor = 5,
@@ -3022,6 +3223,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 			.speechWin = {EC_WORD_EHEHE, EC_WORD_YAY, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_WAAAH, EC_WORD_EXCL, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_WORD_I, EC_WORD_WILL, EC_WORD_TRY, EC_WORD_TO, EC_WORD_GET, EC_WORD_BETTER},
+		#elif SPANISH
+			.name = _("CEA-NEA"),
+			.facilityClass = FACILITY_CLASS_TWINS,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_OR, EC_WORD_LISTEN, EC_WORD_HOWEVER, EC_WORD_THEIR, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_MUFUFU, EC_WORD_GIGGLE, EC_WORD_EXCUSE_ME, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_FUFUFU, EC_WORD_UNDEFINED,EC_WORD_HEHE, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WHOM, EC_WORD_NITWIT, EC_WORD_FIGHTS, EC_WORD_PLUS, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_JOLTEON,
@@ -3158,6 +3368,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("JEN & KIRA"),
 			.facilityClass = FACILITY_CLASS_TWINS,
 			.textColor = 3,
@@ -3165,6 +3376,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 			.speechWin = {EC_WORD_GIGGLE, EC_WORD_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_WAAAH, EC_WORD_EXCL, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_WORD_WE, EC_WORD_HAVE, EC_WORD_TO, EC_WORD_WORK, EC_WORD_BETTER, 0xFFFF},
+		#elif SPANISH
+			.name = _("CEA-NEA"),
+			.facilityClass = FACILITY_CLASS_TWINS,
+			.textColor = 3,
+			.speechBefore = {EC_WORD_BELONGS_TO, EC_WORD_NITWIT, EC_WORD_FIGHTS, EC_WORD_MISS, EC_WORD_THOSE_ARE, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_AIYEEH, EC_WORD_DASH_DASH_DASH, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_CRIES, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_ON, EC_WORD_FIGHTS, EC_WORD_PLUS, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_JOLTEON,
@@ -3312,6 +3532,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 	.prize = TTPRIZE_MENTAL_HERB,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("ISAC & MAG"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 1,
@@ -3319,6 +3540,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 			.speechWin = {EC_WORD_FEELING, EC_WORD_SHAKY, EC_WORD_HUH_QUES, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_I_AM, EC_WORD_ALL, EC_WORD_SHAKY, EC_WORD_ELLIPSIS, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_WORD_MY, EC_WORD_GIRL, EC_WORD_ISN_T, EC_WORD_SHAKY, EC_WORD_SHE_IS, EC_WORD_LOVEY_DOVEY},
+		#elif SPANISH
+			.name = _("NEL-MAI"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_USING, EC_MOVE(EARTHQUAKE), EC_WORD_IS, EC_WORD_VERY, EC_WORD_DONE, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_QUES_EXCL, EC_WORD_LAY, EC_WORD_WILL, EC_WORD_UNDEFINED,EC_WORD_GIDDY, EC_WORD_QUES},
+			.speechLose = {EC_WORD_ABSOLUTELY, EC_WORD_PLAYS, EC_WORD_GIDDY, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_JUST, EC_WORD_AREN_T, EC_WORD_WHERE, EC_WORD_DON_T, EC_WORD_HAPPY, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_NIDOKING,
@@ -3455,6 +3685,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("ISAC & MAG"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 1,
@@ -3462,6 +3693,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 			.speechWin = {EC_WORD_SEE, EC_WORD_QUES, EC_WORD_I, EC_WORD_DIDN_T, EC_WORD_LIE, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_HUH_QUES, EC_WORD_YOU, EC_WORD_LEFT, EC_WORD_ME, EC_WORD_FEELING, EC_WORD_SHAKY},
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_LOVEY_DOVEY, EC_WORD_FOR, EC_WORD_HIM, EC_WORD_NOT, EC_WORD_SHAKY},
+		#elif SPANISH
+			.name = _("NEL-MAI"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 1,
+			.speechBefore = {EC_MOVE(EARTHQUAKE), EC_WORD_IS, EC_WORD_LEFT, EC_WORD_DONE, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_HUMPH, EC_WORD_UNDEFINED,EC_MOVE(EARTHQUAKE), EC_WORD_IS, EC_WORD_AROUND, EC_WORD_PLUS},
+			.speechLose = {EC_WORD_SIGH, EC_WORD_UNDEFINED,EC_WORD_WILL_BE_HERE, EC_WORD_HAPPY, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_AROUND, EC_WORD_NITWIT, EC_WORD_WILL_BE_HERE, EC_WORD_IS, EC_WORD_ALL_RIGHT, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_SKARMORY,
@@ -3609,6 +3849,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 	.prize = TTPRIZE_BRIGHT_POWDER,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("CHELSEA"),
 			.facilityClass = FACILITY_CLASS_PKMN_RANGER_F,
 			.textColor = 7,
@@ -3616,6 +3857,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechWin = {EC_WORD_YOU, EC_WORD_TAKE, EC_WORD_THE, EC_WORD_LOSS, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_BE, EC_WORD_KIND, EC_WORD_TO, EC_WORD_THE, EC_WORD_GREEN, EC_WORD_WORLD},
 			.speechAfter = {EC_WORD_DON_T, EC_WORD_EVER, EC_WORD_POISON, EC_WORD_THE, EC_WORD_GREEN, EC_WORD_WORLD},
+		#elif SPANISH
+			.name = _("CHELO"),
+			.facilityClass = FACILITY_CLASS_PKMN_RANGER_F,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_ISN_T_IT_QUES, EC_WORD_VERY, EC_WORD_UPSIDE_DOWN, EC_WORD_MISS, EC_WORD_THAT_S, EC_WORD_NATURE},
+			.speechWin = {EC_WORD_FEELING, EC_WORD_MINUS, EC_WORD_ISN_T_IT_QUES, EC_WORD_UPSIDE_DOWN, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_BELONGS_TO, EC_WORD_NITWIT, EC_WORD_BE, EC_WORD_EXCELLENT, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WHERE, EC_WORD_BELONGS_TO, EC_WORD_NITWIT, EC_WORD_USING, EC_MOVE2(TOXIC), EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_VILEPLUME,
@@ -3752,6 +4002,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("TRENTON"),
 			.facilityClass = FACILITY_CLASS_PKMN_RANGER_M,
 			.textColor = 7,
@@ -3759,6 +4010,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechWin = {EC_WORD_TAKE_THAT, EC_WORD_EXCL, EC_WORD_THE, EC_WORD_LOSS, EC_WORD_IS, EC_WORD_YOURS},
 			.speechLose = {EC_MOVE2(PROTECT), EC_WORD_THE, EC_WORD_GREEN, EC_WORD_WORLD, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_MOVE2(PROTECT), EC_WORD_AND, EC_WORD_RESUSCITATE, EC_WORD_THE, EC_WORD_GREEN, EC_WORD_WORLD},
+		#elif SPANISH
+			.name = _("TREMEL"),
+			.facilityClass = FACILITY_CLASS_PKMN_RANGER_M,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_THAT_S, EC_WORD_NATURE, EC_WORD_PRAISE, EC_WORD_COMPLETE, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_I, EC_WORD_WHOM, EC_MOVE(CHARM), EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_YOU, EC_WORD_HAVE, EC_WORD_A_LITTLE, EC_WORD_LIE, EC_WORD_COMPLETE, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_THAT_S, EC_WORD_NATURE, EC_WORD_IS, EC_WORD_GREEN, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_GYARADOS,
@@ -3895,6 +4155,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("ALBERT"),
 			.facilityClass = FACILITY_CLASS_COOLTRAINER_M,
 			.textColor = 7,
@@ -3902,6 +4163,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechWin = {EC_WORD_YOU_RE, EC_WORD_TOO_WEAK, EC_WORD_TO, EC_WORD_MAKE, EC_WORD_THINGS, EC_WORD_EXCITING},
 			.speechLose = {EC_WORD_YOU_RE, EC_WORD_STRONG, EC_WORD_THAT_WAS, EC_WORD_WILD, EC_WORD_AND, EC_WORD_EXCITING},
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_TIRED, EC_WORD_AFTER, EC_WORD_THAT, EC_WORD_EXCITING, EC_WORD_MATCH},
+		#elif SPANISH
+			.name = _("ALBERTO"),
+			.facilityClass = FACILITY_CLASS_COOLTRAINER_M,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_AHAHA, EC_WORD_UNDEFINED,EC_WORD_EEK, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_LET_S, EC_WORD_VERY, EC_WORD_FUNNY, EC_WORD_UNDEFINED,EC_WORD_GWAHAHAHA, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_RICKETY, EC_WORD_UNDEFINED,EC_WORD_LET_S, EC_WORD_VERY, EC_WORD_APPROVED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WILL_BE_HERE, EC_WORD_DOWNCAST, EC_WORD_LATER, EC_WORD_HIT, EC_WORD_CAN_WIN, EC_WORD_BATTLE},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_KINGDRA,
@@ -4048,6 +4318,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 	.prize = TTPRIZE_CALCIUM,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("CAMRYN"),
 			.facilityClass = FACILITY_CLASS_PICNICKER,
 			.textColor = 1,
@@ -4055,6 +4326,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechWin = {EC_WORD_I, EC_WORD_SAID, EC_WORD_THAT, EC_WORD_I, EC_WORD_WOULD, EC_WORD_WIN},
 			.speechLose = {EC_WORD_OH_QUES, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, EC_WORD_DID, EC_WORD_I, EC_WORD_LOSE, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_TOO_STRONG, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
+		#elif SPANISH
+			.name = _("CARMINA"),
+			.facilityClass = FACILITY_CLASS_PICNICKER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_EEK, EC_WORD_UNDEFINED,EC_WORD_OR, EC_WORD_LISTEN, EC_WORD_WIN, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_I, EC_WORD_ALWAYS, EC_WORD_DOES, EC_WORD_WIN, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNBELIEVABLE, EC_WORD_UNDEFINED,EC_WORD_HUMPH, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_ABSOLUTELY, EC_WORD_TALENT, EC_WORD_PLUS, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MURKROW,
@@ -4191,6 +4471,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("NATALIA"),
 			.facilityClass = FACILITY_CLASS_AROMA_LADY,
 			.textColor = 1,
@@ -4198,6 +4479,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechWin = {EC_WORD_WASN_T, EC_WORD_THAT, EC_WORD_NICE, EC_WORD_QUES, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_THAT, EC_WORD_WASN_T, EC_WORD_GOOD, EC_WORD_QUES, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_WORD_I, EC_MOVE2(REFRESH), EC_WORD_THINGS, EC_WORD_WITH, EC_WORD_REFRESHING, EC_MOVE(AROMATHERAPY)},
+		#elif SPANISH
+			.name = _("NATALIA"),
+			.facilityClass = FACILITY_CLASS_AROMA_LADY,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_QUES_EXCL, EC_WORD_LAY, EC_WORD_LIKE, EC_WORD_A_TINY_BIT, EC_MOVE(SWEET_SCENT), EC_WORD_QUES},
+			.speechWin = {EC_WORD_I, EC_WORD_UP, EC_WORD_NITWIT, EC_WORD_DOES, EC_WORD_WIN, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_SURRENDER, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_ABSOLUTELY, EC_WORD_LIKE, EC_WORD_THAT_S, EC_MOVE(AROMATHERAPY), EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_BELLOSSOM,
@@ -4334,6 +4624,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("KATHLEEN"),
 			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
 			.textColor = 7,
@@ -4341,6 +4632,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechWin = {EC_WORD_SORRY, EC_WORD_ELLIPSIS, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_THIS, EC_WORD_IS, EC_WORD_HARD, EC_WORD_TO, EC_WORD_BELIEVE, EC_WORD_ELLIPSIS},
 			.speechAfter = {EC_WORD_YOU, EC_WORD_HAVE, EC_WORD_PURE_POWER, EC_WORD_THAT, EC_WORD_IS, EC_WORD_NATURAL},
+		#elif SPANISH
+			.name = _("NOELIA"),
+			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_WONDER, EC_WORD_LISTEN, EC_WORD_LOSS, EC_WORD_UNDEFINED,EC_WORD_OOPS, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_SORRY, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_PLAYS, EC_WORD_LOSE, EC_WORD_I, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_FIGHTS, EC_WORD_MISS, EC_WORD_STRONG, EC_WORD_IS, EC_WORD_AROUND, EC_WORD_SPIRALING},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MAROWAK,
@@ -4487,6 +4787,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 	.prize = TTPRIZE_CARBOS,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("BRADEN"),
 			.facilityClass = FACILITY_CLASS_SWIMMER_M,
 			.textColor = 1,
@@ -4494,6 +4795,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 			.speechWin = {EC_WORD_WROOOAAR_EXCL, 0xFFFF, EC_WORD_SERIOUSLY, EC_WORD_I, EC_WORD_WON, EC_WORD_QUES},
 			.speechLose = {EC_WORD_YOU, EC_WORD_SHOCKED, EC_WORD_ME, EC_WORD_OUT, EC_WORD_OF, EC_WORD_HAPPINESS},
 			.speechAfter = {EC_WORD_NICE, EC_WORD_WORK, EC_WORD_YOU, EC_WORD_EXCL, EC_WORD_YOU_RE, EC_WORD_FABULOUS},
+		#elif SPANISH
+			.name = _("BORJA"),
+			.facilityClass = FACILITY_CLASS_SWIMMER_M,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_WILL_BE_HERE, EC_WORD_SATISFIED, EC_WORD_MISS, EC_WORD_JUST, EC_WORD_STRONG, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_DASH_DASH_DASH, EC_WORD_UNDEFINED,EC_WORD_ISN_T_IT_QUES, EC_WORD_A_TINY_BIT, EC_WORD_SPIRALING, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_MMM, EC_WORD_UNDEFINED,EC_WORD_DOWN, EC_WORD_WHY, EC_WORD_LIE, EC_WORD_LOSS},
+			.speechAfter = {EC_WORD_AWFULLY, EC_WORD_WHY, EC_WORD_LIE, EC_WORD_FIGHTS, EC_WORD_IS, EC_WORD_HAPPILY},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_VAPOREON,
@@ -4642,6 +4952,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 	.prize = TTPRIZE_KINGS_ROCK,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("ALLYSON"),
 			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
 			.textColor = 7,
@@ -4649,6 +4960,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 			.speechWin = {EC_WORD_YES, EC_WORD_EXCL_EXCL, EC_WORD_I, EC_WORD_ADORE, EC_WORD_MYSELF, EC_WORD_TODAY},
 			.speechLose = {EC_WORD_I_WAS, EC_WORD_CONFUSED, EC_WORD_ABOUT, EC_WORD_THINGS, EC_WORD_I, EC_WORD_THINK},
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_TOO, EC_WORD_STRONG, EC_WORD_TODAY, EC_WORD_THAT_S, EC_WORD_ALL},
+		#elif SPANISH
+			.name = _("AMANDA"),
+			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_GWAH, EC_WORD_UNDEFINED,EC_WORD_SINCE, EC_WORD_ONCE, EC_WORD_THING, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_TODAY, EC_WORD_ABSOLUTELY, EC_WORD_TIMES, EC_WORD_LIE, EC_WORD_HAS, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_NOW, EC_WORD_WHOM, EC_WORD_HAS, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_BUT, EC_WORD_WHERE, EC_WORD_LIE, EC_WORD_REALLY, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_STARMIE,
@@ -4797,6 +5117,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 	.prize = TTPRIZE_UP_GRADE,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("ALBERTO"),
 			.facilityClass = FACILITY_CLASS_SAILOR,
 			.textColor = 5,
@@ -4804,6 +5125,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 			.speechWin = {EC_WORD_YO, EC_WORD_EXCL_EXCL, EC_WORD_YOU, EC_WORD_GIVE_UP, EC_WORD_NOW, EC_WORD_EH_QUES},
 			.speechLose = {EC_WORD_IT_S, EC_WORD_ALL, EC_WORD_OVER, EC_WORD_ELLIPSIS, EC_WORD_I, EC_WORD_SURRENDER},
 			.speechAfter = {EC_WORD_OKAY, EC_WORD_I, EC_WORD_CONCEDE, EC_WORD_ELLIPSIS, EC_WORD_I, EC_WORD_LOST},
+		#elif SPANISH
+			.name = _("ÁLVARO"),
+			.facilityClass = FACILITY_CLASS_SAILOR,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_ACCEPT, EC_WORD_UNDEFINED,EC_WORD_EEK, EC_WORD_UNDEFINED,EC_WORD_EH_QUES, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_TCH, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_LET_S, EC_WORD_NATURALLY, EC_WORD_PERSON, EC_WORD_UNAVOIDABLE, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_AROUND, EC_WORD_CONCEDE, EC_WORD_HAVE, EC_WORD_STRONG, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_FERALIGATR,
@@ -4952,6 +5282,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 	.prize = TTPRIZE_METAL_COAT,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("KAT & KIPP"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
 			.textColor = 4,
@@ -4959,6 +5290,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 			.speechWin = {EC_WORD_WAY, EC_WORD_TO, EC_WORD_GO, EC_WORD_MY, EC_WORD_AWESOME, EC_WORD_BROTHER},
 			.speechLose = {EC_WORD_SIGH, EC_WORD_ELLIPSIS, EC_WORD_THAT_S, EC_WORD_HOW, EC_WORD_IT, EC_WORD_GOES},
 			.speechAfter = {EC_WORD_OKAY, EC_WORD_MY, EC_WORD_AWESOME, EC_WORD_BROTHER, EC_WORD_FIGHT, EC_WORD_FIGHT},
+		#elif SPANISH
+			.name = _("BEA-BLEN"),
+			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_GO, EC_WORD_UNDEFINED,EC_WORD_YOU, EC_WORD_CAN_T, EC_WORD_BROTHER, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_EXCL_EXCL, EC_WORD_HAPPILY, EC_WORD_GUARD, EC_WORD_EXCL, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_EXCL_EXCL, EC_WORD_PLAYS, EC_WORD_LOSE, EC_WORD_EXCL, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WILL_BE_HERE, EC_WORD_LEFT, EC_WORD_VERY, EC_WORD_DISAPPOINTS, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_SNEASEL,
@@ -5095,6 +5435,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("KAT & KIPP"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
 			.textColor = 4,
@@ -5102,6 +5443,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 			.speechWin = {EC_WORD_FUFUFU, EC_WORD_ELLIPSIS, EC_WORD_WE_RE, EC_WORD_TOO_STRONG, EC_WORD_TO, EC_WORD_LOSE},
 			.speechLose = {EC_WORD_WHAT, EC_WORD_HUH_QUES, EC_WORD_ARE, EC_WORD_YOU, EC_WORD_JOKING, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_WAAAH, EC_WORD_WAAAH, EC_WORD_OH, EC_WORD_BIG, EC_WORD_SISTER, EC_WORD_EXCL},
+		#elif SPANISH
+			.name = _("BEA-BLEN"),
+			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_GO, EC_WORD_UNDEFINED,EC_WORD_YOU, EC_WORD_CAN_T, EC_WORD_SISTER, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_EXCL_EXCL, EC_WORD_DOWN, EC_WORD_BATTLE, EC_WORD_EXCL, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_EXCL_EXCL, EC_WORD_DOWN, EC_WORD_BAD, EC_WORD_NITWIT, EC_WORD_ISN_T_IT_QUES, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_WILL_BE_HERE, EC_WORD_LEFT, EC_WORD_VERY, EC_WORD_DISAPPOINTED, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_FURRET,
@@ -5249,6 +5599,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 	.prize = TTPRIZE_MENTAL_HERB,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("GEB&MEGAN"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 7,
@@ -5256,6 +5607,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 			.speechWin = {EC_WORD_HAHAHA, EC_WORD_SORRY, EC_WORD_MY, EC_WORD_FRIEND, EC_WORD_TOUGH, EC_WORD_LOSS},
 			.speechLose = {EC_WORD_YOU_RE, EC_WORD_SERIOUS, EC_WORD_AREN_T, EC_WORD_YOU, EC_WORD_FRIEND, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_WON_T, EC_WORD_YOU, EC_WORD_GET, EC_WORD_LOST, EC_WORD_PLEASE, EC_WORD_QUES},
+		#elif SPANISH
+			.name = _("TED-SELI"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_ABSOLUTELY, EC_WORD_TALENT, EC_WORD_A_LOT, EC_WORD_RECOMMEND, EC_WORD_WIN, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_SORRY, EC_WORD_UNDEFINED,EC_WORD_FORGIVE, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_OH_DEAR, EC_WORD_UNDEFINED,EC_WORD_EXCL_EXCL, EC_WORD_DOWN, EC_WORD_STRONG, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_HAVE, EC_WORD_A_LOT, EC_WORD_WHAT, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_POLITOED,
@@ -5392,6 +5752,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("GEB&MEGAN"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 7,
@@ -5399,6 +5760,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 			.speechWin = {EC_WORD_GIGGLE, EC_WORD_ELLIPSIS, EC_WORD_I_AM, EC_WORD_SO, EC_WORD_SORRY, 0xFFFF},
 			.speechLose = {EC_WORD_MY, EC_WORD_WORD, EC_WORD_THIS, EC_WORD_IS, EC_WORD_JUST, EC_WORD_INCREDIBLE},
 			.speechAfter = {EC_WORD_WE, EC_WORD_NEED, EC_WORD_TO, EC_WORD_TRAIN, EC_WORD_SOME, EC_WORD_MORE},
+		#elif SPANISH
+			.name = _("TED-SELI"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_QUES_EXCL, EC_WORD_DIDN_T, EC_WORD_FIGHTS, EC_WORD_MISS, EC_WORD_WE, EC_WORD_QUES},
+			.speechWin = {EC_WORD_GWAHAHAHA, EC_WORD_UNDEFINED,EC_WORD_SORRY, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_DOWN, EC_WORD_WHY, EC_WORD_LIE, EC_WORD_LOSS, EC_WORD_EVERY, EC_WORD_TERRIBLE},
+			.speechAfter = {EC_WORD_UNBELIEVABLE, EC_WORD_UNDEFINED,EC_WORD_EXCL_EXCL, EC_WORD_LET_S, EC_WORD_APPROVED, EC_WORD_EXCL},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MAROWAK,
@@ -5546,6 +5916,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 	.prize = TTPRIZE_ZINC,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("LISA&LEAH"),
 			.facilityClass = FACILITY_CLASS_TWINS,
 			.textColor = 1,
@@ -5553,6 +5924,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 			.speechWin = {EC_WORD_YEAH_YEAH, EC_WORD_EXCL_EXCL, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.speechLose = {EC_WORD_AWW, EC_WORD_EXCL, EC_WORD_WAAAH, EC_WORD_EXCL_EXCL, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_WORD_EXCUSE_ME, EC_WORD_BUT, EC_WORD_YOU_RE, EC_WORD_ALL, EC_WORD_TOO_STRONG, 0xFFFF},
+		#elif SPANISH
+			.name = _("LISA-LOE"),
+			.facilityClass = FACILITY_CLASS_TWINS,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_POLIWAG,
@@ -5689,6 +6069,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("LISA&LEAH"),
 			.facilityClass = FACILITY_CLASS_TWINS,
 			.textColor = 1,
@@ -5696,6 +6077,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 			.speechWin = {EC_WORD_YEAH_YEAH, EC_WORD_EXCL_EXCL, EC_WORD_YOU, EC_WORD_MAKE, EC_WORD_ME, EC_WORD_HAPPY},
 			.speechLose = {EC_WORD_AWW, EC_WORD_EXCL, EC_WORD_WAAAH, EC_WORD_EXCL_EXCL, 0xFFFF, 0xFFFF},
 			.speechAfter = {EC_WORD_YOU, EC_WORD_SHOULD, EC_WORD_NOT, EC_MOVE2(BEAT_UP), EC_WORD_ON, EC_WORD_CHILDREN},
+		#elif SPANISH
+			.name = _("LISA-LOE"),
+			.facilityClass = FACILITY_CLASS_TWINS,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_WOOPER,
@@ -5843,6 +6233,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 	.prize = TTPRIZE_PROTEIN,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("PRISCILLA"),
 			.facilityClass = FACILITY_CLASS_TUBER,
 			.textColor = 1,
@@ -5850,6 +6241,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechWin = {EC_WORD_WAAAH, EC_WORD_EXCL, EC_WORD_DID, EC_WORD_I, EC_WORD_WIN, EC_WORD_QUES},
 			.speechLose = {EC_WORD_OH_DEAR, EC_WORD_ELLIPSIS, EC_WORD_I, EC_WORD_COULDN_T, EC_WORD_WIN, EC_WORD_ELLIPSIS},
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_A, EC_WORD_NICE, EC_WORD_TRAINER, EC_WORD_THANK_YOU, EC_WORD_EXCL},
+		#elif SPANISH
+			.name = _("LOURDES"),
+			.facilityClass = FACILITY_CLASS_TUBER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_ABSOLUTELY, EC_WORD_IT, EC_WORD_ONLY, EC_WORD_POKEMON, EC_WORD_EH_QUES, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_EXCL_EXCL, EC_WORD_WON, EC_WORD_THING, EC_WORD_EXCL, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_PLAYS, EC_WORD_LOSE, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_LET_S, EC_WORD_BEING, EC_WORD_ALT_COLOR, EC_WORD_POKEMON, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_GOLDEEN,
@@ -5986,6 +6386,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("CHARLOTTE"),
 			.facilityClass = FACILITY_CLASS_LADY,
 			.textColor = 1,
@@ -5993,6 +6394,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechWin = {EC_WORD_OH, EC_WORD_MY, EC_WORD_MY, EC_WORD_ELLIPSIS, EC_WORD_I_AM, EC_WORD_SORRY},
 			.speechLose = {EC_WORD_YOU_RE, EC_WORD_BETTER, EC_WORD_THAN, EC_WORD_A, EC_WORD_POKEMON, EC_WORD_LADY},
 			.speechAfter = {EC_WORD_HOHOHO, EC_WORD_THANK_YOU, EC_WORD_FOR, EC_WORD_AN, EC_WORD_AMUSING, EC_WORD_BATTLE},
+		#elif SPANISH
+			.name = _("CHANTAL"),
+			.facilityClass = FACILITY_CLASS_LADY,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_HELLO, EC_WORD_UNDEFINED,EC_WORD_QUES_EXCL, EC_WORD_ARE, EC_WORD_ALT_COLOR, EC_WORD_QUES},
+			.speechWin = {EC_WORD_I, EC_WORD_WILL_BE_HERE, EC_WORD_ALT_COLOR, EC_WORD_UNDEFINED,EC_WORD_SORRY, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_LET_S, EC_WORD_A_LOT, EC_WORD_SPIRALING, EC_WORD_NITWIT, EC_WORD_I, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_THANKS, EC_WORD_HOWEVER, EC_WORD_FOR_NOW, EC_WORD_BATTLE, EC_WORD_EVERY, EC_WORD_ANTICIPATION},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_OCTILLERY,
@@ -6129,6 +6539,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("SHANIA"),
 			.facilityClass = FACILITY_CLASS_SWIMMER_F,
 			.textColor = 1,
@@ -6136,6 +6547,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechWin = {EC_WORD_AHAHA, EC_WORD_NO, EC_WORD_WAY, EC_WORD_YOU_RE, EC_WORD_TOO_WEAK, EC_WORD_SERIOUSLY},
 			.speechLose = {EC_WORD_WHY, EC_WORD_QUES_EXCL, EC_WORD_YOU, EC_WORD_SHOULD, EC_WORD_NOT, EC_WORD_LIE},
 			.speechAfter = {EC_WORD_NICE, EC_WORD_BATTLE, EC_WORD_THANKS, EC_WORD_FOR, EC_WORD_ENTERTAINING, EC_WORD_ME},
+		#elif SPANISH
+			.name = _("GABRIELA"),
+			.facilityClass = FACILITY_CLASS_SWIMMER_F,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_ISN_T_IT_QUES, EC_WORD_THAT_S, EC_WORD_SPIRALING, EC_WORD_ALT_COLOR, EC_WORD_POKEMON, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_GWAHAHAHA, EC_WORD_LET_S, EC_WORD_EXCITING, EC_WORD_FUNNY, EC_WORD_LIE, EC_WORD_THESE_WERE},
+			.speechLose = {EC_WORD_ANTICIPATION, EC_WORD_UNDEFINED,EC_WORD_WHERE, EC_WORD_ISN_T_IT_QUES, EC_WORD_EVERY, EC_WORD_HAPPILY},
+			.speechAfter = {EC_WORD_WENT, EC_WORD_FOR_NOW, EC_WORD_BATTLE, EC_WORD_VERY, EC_WORD_PLAY, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MANTINE,
@@ -6282,6 +6702,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 	.prize = TTPRIZE_DRAGON_SCALE,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("BRENNAN"),
 			.facilityClass = FACILITY_CLASS_SAILOR,
 			.textColor = 1,
@@ -6289,6 +6710,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			.speechWin = {EC_WORD_YOU, EC_WORD_LOSE, EC_WORD_IF, EC_WORD_YOU, EC_WORD_GIVE_UP, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_OOPS, EC_WORD_YOU, EC_WORD_GOT, EC_WORD_AN, EC_WORD_EASY, EC_WORD_WIN},
 			.speechAfter = {EC_WORD_I, EC_WORD_DON_T, EC_MOVE(GRUDGE), EC_WORD_YOU, EC_WORD_BUT, EC_WORD_ELLIPSIS},
+		#elif SPANISH
+			.name = _("JUANRA"),
+			.facilityClass = FACILITY_CLASS_SAILOR,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_BELONGS_TO, EC_WORD_NITWIT, EC_WORD_FIGHTS, EC_WORD_MISS, EC_MOVE2(SLACK_OFF), EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_EXCL_EXCL, EC_WORD_GOTCHA, EC_WORD_APPROVED, EC_WORD_RECOMMEND, EC_WORD_WIN, EC_WORD_EXCL},
+			.speechLose = {EC_WORD_EXCL_EXCL, EC_WORD_DOWN, EC_WORD_WANDERING, EC_WORD_EXCL, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_LOSS, EC_WORD_IS, EC_WORD_A_LITTLE, EC_WORD_HOPELESS, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_LAPRAS,
@@ -6425,6 +6855,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("KADEN"),
 			.facilityClass = FACILITY_CLASS_FISHERMAN,
 			.textColor = 1,
@@ -6432,6 +6863,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			.speechWin = {EC_WORD_MY, EC_WORD_FANTASTIC, EC_WORD_FASHION, EC_WORD_APPEAL, EC_WORD_WINS, EC_WORD_OUT},
 			.speechLose = {EC_WORD_UH_OH, EC_WORD_ELLIPSIS, EC_WORD_I, EC_WORD_SEE, EC_WORD_I, EC_WORD_LOST},
 			.speechAfter = {EC_WORD_FASHION, EC_WORD_APPEAL, EC_WORD_WON_T, EC_WORD_GET, EC_WORD_ME, EC_WORD_WINS},
+		#elif SPANISH
+			.name = _("JOSERRA"),
+			.facilityClass = FACILITY_CLASS_FISHERMAN,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_ABSOLUTELY, EC_WORD_LIKE, EC_WORD_A_LOT, EC_WORD_FISHING, EC_WORD_IS, EC_WORD_BEING},
+			.speechWin = {EC_WORD_AND, EC_WORD_ABSOLUTELY, EC_WORD_LIKE, EC_WORD_A_LOT, EC_WORD_WIN, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_ABSOLUTELY, EC_WORD_OR, EC_WORD_LISTEN, EC_WORD_FISHING, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WHERE, EC_WORD_CASE, EC_WORD_IS, EC_WORD_FISHING, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_CHINCHOU,
@@ -6568,6 +7008,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("EMANUEL"),
 			.facilityClass = FACILITY_CLASS_GENTLEMAN,
 			.textColor = 1,
@@ -6575,6 +7016,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			.speechWin = {EC_WORD_I, EC_WORD_SEE, EC_WORD_I, EC_WORD_WASN_T, EC_WORD_RIGHT, EC_WORD_ELLIPSIS},
 			.speechLose = {EC_WORD_YOU, EC_WORD_TRULY, EC_WORD_ARE, EC_WORD_A, EC_WORD_MASTER, EC_WORD_TRAINER},
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_SORRY, EC_WORD_THAT, EC_WORD_I_WAS, EC_WORD_YOUR, EC_WORD_OPPONENT},
+		#elif SPANISH
+			.name = _("MAURICIO"),
+			.facilityClass = FACILITY_CLASS_GENTLEMAN,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_EXCL_EXCL, EC_WORD_ISN_T_IT_QUES, EC_WORD_DECIDED, EC_WORD_EXCL, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_WHOM, EC_WORD_NATURALLY, EC_WORD_LOLLING, EC_WORD_STRONG, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_HAVE, EC_WORD_NATURALLY, EC_WORD_STRONG, EC_WORD_WOBBLY, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_LAY, EC_WORD_WHOM, EC_WORD_HAS, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_VAPOREON,
@@ -6721,6 +7171,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 	.prize = TTPRIZE_METAL_COAT,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("JARRETT"),
 			.facilityClass = FACILITY_CLASS_JUGGLER,
 			.textColor = 2,
@@ -6728,6 +7179,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 			.speechWin = {EC_WORD_CONGRATS, EC_WORD_FOR, EC_WORD_YOUR, EC_WORD_LOSS, EC_WORD_PARTY, EC_WORD_KID},
 			.speechLose = {EC_WORD_NICE, EC_MOVE(SELF_DESTRUCT), EC_WORD_THERE, EC_WORD_EXCL, EC_WORD_YOU_RE, EC_WORD_PERFECT},
 			.speechAfter = {EC_WORD_WANT, EC_WORD_TO, EC_WORD_PARTY, EC_WORD_SOME, EC_WORD_MORE, EC_WORD_QUES},
+		#elif SPANISH
+			.name = _("JUANCAR"),
+			.facilityClass = FACILITY_CLASS_JUGGLER,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_GUARD, EC_WORD_LIE, EC_WORD_WHY, EC_WORD_AWFUL, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_EXCL_EXCL, EC_WORD_WON, EC_WORD_PATTERN, EC_WORD_EXCL, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_CONGRATS, EC_WORD_UNDEFINED,EC_WORD_FOR_NOW, EC_WORD_BATTLE, EC_WORD_VERY, EC_WORD_ANTICIPATION},
+			.speechAfter = {EC_WORD_QUES_EXCL, EC_WORD_DIDN_T, EC_WORD_FIGHTS, EC_MOVE(ENCORE), EC_WORD_NEAR, EC_WORD_QUES},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_ELECTRODE,
@@ -6876,6 +7336,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 	.prize = TTPRIZE_DRAGON_SCALE,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("OWEN"),
 			.facilityClass = FACILITY_CLASS_SUPER_NERD,
 			.textColor = 2,
@@ -6883,6 +7344,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 			.speechWin = {EC_WORD_ACCEPT, EC_WORD_MY, EC_MOVE2(PRESENT), EC_WORD_OF, EC_MOVE2(THUNDER_WAVE), EC_WORD_EXCL},
 			.speechLose = {EC_MOVE2(WRAP), EC_MOVE(BIND), EC_WORD_ELECTRIC, EC_MOVE2(WHIRLWIND), EC_WORD_SPIRALING, EC_WORD_AROUND},
 			.speechAfter = {EC_MOVE2(WHIRLWIND), EC_WORD_SPIRALING, 0xFFFF, 0xFFFF, EC_WORD_SPIRALING, EC_MOVE2(WHIRLWIND)},
+		#elif SPANISH
+			.name = _("ODÓN"),
+			.facilityClass = FACILITY_CLASS_SUPER_NERD,
+			.textColor = 2,
+			.speechBefore = {EC_MOVE2(THUNDER_WAVE), EC_WORD_IS, EC_WORD_AROUND, EC_WORD_SPIRALING, EC_WORD_NITWIT, EC_WORD_BELONGS_TO},
+			.speechWin = {EC_MOVE2(THUNDER_WAVE), EC_WORD_DON_T, EC_WORD_LIE, EC_WORD_FASHION, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_ABSOLUTELY, EC_WORD_PLAYS, EC_WORD_GIDDY, EC_WORD_MISS, EC_MOVE2(THUNDER_WAVE), EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_SIGH, EC_WORD_UNDEFINED,EC_WORD_WILL_BE_HERE, EC_WORD_GIDDY, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MAGNETON,
@@ -7031,6 +7501,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 	.prize = TTPRIZE_PROTEIN,
 	.trainers = {
 	    {
+		#if ENGLISH
 			.name = _("LORENZO"),
 			.facilityClass = FACILITY_CLASS_PSYCHIC_M,
 			.textColor = 1,
@@ -7038,6 +7509,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 			.speechWin = {EC_WORD_NO, EC_WORD_KEEN_EYE, EC_WORD_CAN, EC_WORD_STOP, EC_WORD_MY, EC_WORD_POWER},
 			.speechLose = {EC_WORD_HERE_IT_IS, EC_WORD_EXCL, EC_MOVE(KINESIS), EC_WORD_EXCL, EC_WORD_ELLIPSIS, EC_WORD_WHAT},
 			.speechAfter = {EC_WORD_I, EC_WORD_WILL, EC_WORD_MAKE, EC_WORD_THE, EC_MOVE(KINESIS), EC_WORD_HALL_OF_FAME},
+		#elif SPANISH
+			.name = _("PABLO"),
+			.facilityClass = FACILITY_CLASS_PSYCHIC_M,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_LET_S, EC_WORD_EXCITING, EC_WORD_PATTERN, EC_WORD_RECOMMEND, EC_WORD_TOO_LATE, EC_WORD_POKEMON},
+			.speechWin = {EC_WORD_TOO_LATE, EC_WORD_POKEMON, EC_WORD_EVER, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_WHOM, EC_WORD_NITWIT, EC_WORD_USING, EC_MOVE(KINESIS), EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WHERE, EC_WORD_KNOW, EC_WORD_A_TINY_BIT, EC_WORD_HALL_OF_FAME, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MR_MIME,
@@ -7186,6 +7666,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 	.prize = TTPRIZE_SCOPE_LENS,
 	.trainers = {
 		{
+		#if ENGLISH
 			.name = _("NIA & CARL"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 4,
@@ -7193,6 +7674,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 			.speechWin = {EC_WORD_THAT_S, EC_WORD_THE, EC_WORD_DIGITAL, EC_WORD_HYPER, EC_WORD_MODE, EC_WORD_POWER},
 			.speechLose = {EC_WORD_MY, EC_WORD_PERFECT, EC_WORD_STRATEGY, EC_WORD_WAS, EC_MOVE2(BEAT_UP), EC_WORD_QUES},
 			.speechAfter = {EC_WORD_MY, EC_WORD_INVINCIBLE, EC_WORD_STRATEGY, EC_WORD_WAS, EC_WORD_DESTROYED, EC_WORD_ELLIPSIS},
+		#elif SPANISH
+			.name = _("NÍA-NERO"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_MUK,
@@ -7329,6 +7819,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("NIA & CARL"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 4,
@@ -7336,6 +7827,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 			.speechWin = {EC_WORD_THAT_S_IT_EXCL, EC_WORD_THE, EC_WORD_POWER, EC_WORD_OF, EC_WORD_OUR, EC_WORD_SYSTEM},
 			.speechLose = {EC_WORD_OKAY, EC_WORD_EXCL, EC_MOVE(THUNDERBOLT), EC_WORD_RUN_AWAY, EC_WORD_SYSTEM, EC_WORD_START},
 			.speechAfter = {EC_WORD_GO, EC_WORD_ON, EC_WORD_PLEASE, EC_WORD_EXCL, EC_WORD_TCH, EC_WORD_ELLIPSIS},
+		#elif SPANISH
+			.name = _("NÍA-NERO"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_KANGASKHAN,
@@ -7483,6 +7983,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 	.prize = TTPRIZE_CARBOS,
 	.trainers = {
 		{
+		#if ENGLISH
 			.name = _("AXE & REN"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
 			.textColor = 2,
@@ -7490,6 +7991,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 			.speechWin = {EC_WORD_THAT_S, EC_WORD_THAT, EC_WORD_MAN, EC_WORD_I_AM, EC_WORD_COLD, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_I, EC_WORD_CAN_T_WIN, EC_WORD_IN, EC_WORD_THIS, EC_MOVE(SHEER_COLD), EC_WORD_ELLIPSIS},
 			.speechAfter = {EC_WORD_THIS, EC_MOVE(SHEER_COLD), EC_WORD_HAS, EC_WORD_ME, EC_WORD_FEELING, EC_WORD_SHAKY},
+		#elif SPANISH
+			.name = _("SEL-RELA"),
+			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_EXCL_EXCL, EC_WORD_DOWN, EC_MOVE(SHEER_COLD), EC_WORD_EXCL, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_NOW, EC_WORD_WHERE, EC_WORD_WHOM, EC_MOVE(SHEER_COLD), EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_MISS, EC_MOVE(SHEER_COLD), EC_WORD_WHERE, EC_WORD_CAN, EC_WORD_WIN, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WHERE, EC_WORD_WHOM, EC_WORD_WHEN_I_WIN, EC_WORD_HOWEVER, EC_WORD_A_TINY_BIT, EC_MOVE(SHEER_COLD)},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_LANTURN,
@@ -7626,6 +8136,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("AXE & REN"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
 			.textColor = 2,
@@ -7633,6 +8144,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 			.speechWin = {EC_WORD_I, EC_WORD_WON, EC_WORD_BUT, EC_WORD_I_AM, EC_WORD_NOT, EC_WORD_HOT},
 			.speechLose = {EC_WORD_I_AM, EC_WORD_HUNGRY, EC_WORD_FOR, EC_WORD_ANY, EC_WORD_HOT, EC_WORD_EATS},
 			.speechAfter = {EC_WORD_SISTER, EC_WORD_I, EC_WORD_NEED, EC_WORD_SOMETHING, EC_WORD_HOT, EC_WORD_PLEASE},
+		#elif SPANISH
+			.name = _("SEL-RELA"),
+			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_ABSOLUTELY, EC_WORD_TIMES, EC_WORD_VERY, EC_WORD_THING, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_WIN, EC_WORD_IS, EC_WORD_VERY, EC_WORD_MATCH_UP, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_LOSS, EC_WORD_WHERE, EC_WORD_IS, EC_WORD_ANTICIPATION, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_A, EC_WORD_A_LITTLE, EC_WORD_BREAK, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_ELECTABUZZ,
@@ -7780,6 +8300,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 	.prize = TTPRIZE_ZINC,
 	.trainers = {
 		{
+		#if ENGLISH
 			.name = _("KATI & GEB"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 2,
@@ -7787,6 +8308,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 			.speechWin = {EC_WORD_LALALA, EC_WORD_LALALA, EC_WORD_OUR, EC_WORD_LOVEY_DOVEY, EC_WORD_LALALA, EC_WORD_LIFE},
 			.speechLose = {EC_WORD_I, EC_WORD_NEED, EC_WORD_TO, EC_WORD_LOSE, EC_WORD_MY, EC_MOVE2(FRUSTRATION)},
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_JUST, EC_WORD_A_LITTLE, EC_WORD_KID, EC_WORD_AHAHA, EC_WORD_EXCL},
+		#elif SPANISH
+			.name = _("LUCI-UDO"),
+			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_FLAAFFY,
@@ -7923,6 +8453,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("KATI & GEB"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 2,
@@ -7930,6 +8461,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 			.speechWin = {EC_WORD_DON_T, EC_WORD_STOP, EC_WORD_OUR, EC_WORD_LOVEY_DOVEY, EC_WORD_LOCOMOTIVE, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_HIS, EC_WORD_CRY, EC_WORD_HAS, EC_WORD_CUTE_CHARM, EC_WORD_TOO, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_YOU, EC_WORD_HAVE, EC_WORD_TIME, EC_WORD_TO, EC_WORD_TALK, EC_WORD_QUES},
+		#elif SPANISH
+			.name = _("LUCI-UDO"),
+			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_PICHU,
@@ -8077,6 +8617,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 	.prize = TTPRIZE_WHITE_HERB,
 	.trainers = {
 		{
+		#if ENGLISH
 			.name = _("BEN"),
 			.facilityClass = FACILITY_CLASS_ROCKER,
 			.textColor = 1,
@@ -8084,6 +8625,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechWin = {EC_WORD_STATIC, EC_WORD_IS, EC_WORD_ELECTRIC, EC_WORD_YES, EC_WORD_IT, EC_WORD_IS},
 			.speechLose = {EC_WORD_ELECTRIC, EC_WORD_ABOUT, EC_WORD_MY, EC_WORD_DIGITAL, EC_WORD_TELEVISION, EC_WORD_I_AM},
 			.speechAfter = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_A, EC_WORD_NATURAL, EC_WORD_POWER},
+		#elif SPANISH
+			.name = _("TELMO"),
+			.facilityClass = FACILITY_CLASS_ROCKER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_HIYAH, EC_WORD_LALALA, EC_WORD_SONG, EC_WORD_IS, EC_WORD_AROUND, EC_WORD_SPIRALING},
+			.speechWin = {EC_WORD_THAT_S, EC_WORD_STATIC, EC_WORD_IS, EC_WORD_BEING, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_A, EC_WORD_PLUS, EC_WORD_STATIC, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_THAT_S, EC_WORD_STATIC, EC_WORD_WITHOUT, EC_WORD_STRONG, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_ELECTRODE,
@@ -8220,6 +8770,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("CAMDEN"),
 			.facilityClass = FACILITY_CLASS_ENGINEER,
 			.textColor = 1,
@@ -8227,6 +8778,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechWin = {EC_WORD_A, EC_MOVE(THUNDERBOLT), EC_WORD_IS, EC_WORD_ELECTRIC, EC_WORD_TOO, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_ABOUT, EC_WORD_WIRELESS, EC_WORD_LINK},
 			.speechAfter = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_A, EC_WORD_TREASURE, EC_WORD_EXCL},
+		#elif SPANISH
+			.name = _("ROQUE"),
+			.facilityClass = FACILITY_CLASS_ENGINEER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_RELEASE, EC_WORD_THAT_S, EC_WORD_STRONG, EC_WORD_LIE, EC_WORD_THAT_S, EC_WORD_STATIC},
+			.speechWin = {EC_WORD_WHOM, EC_WORD_THAT_S, EC_WORD_STRONG, EC_WORD_HIT, EC_MOVE(THUNDERBOLT), EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_HIGH, EC_WORD_THAT_S, EC_WORD_LINK, EC_WORD_WIRELESS, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_THAT_S, EC_WORD_LINK, EC_WORD_WIRELESS, EC_WORD_IS, EC_WORD_UNION, EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_GRANBULL,
@@ -8363,6 +8923,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("ZACKERY"),
 			.facilityClass = FACILITY_CLASS_SCIENTIST,
 			.textColor = 1,
@@ -8370,6 +8931,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechWin = {EC_MOVE2(THUNDER_SHOCK), EC_WORD_IS, EC_WORD_ELECTRIC, EC_WORD_YOU, EC_WORD_KNOW, EC_WORD_QUES},
 			.speechLose = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_MOVE2(FLASH), EC_MOVE2(FLASH), EC_MOVE2(FLASH), EC_WORD_EXCL_EXCL},
 			.speechAfter = {EC_WORD_ALL, EC_WORD_TOGETHER, EC_WORD_NOW, EC_WORD_EXCL, EC_MOVE(SPARK), EC_MOVE(SPARK)},
+		#elif SPANISH
+			.name = _("GERMÁN"),
+			.facilityClass = FACILITY_CLASS_SCIENTIST,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_RELEASE, EC_WORD_A_TINY_BIT, EC_WORD_POWER, EC_WORD_ELECTRIC, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_MOVE2(THUNDER_SHOCK), EC_WORD_IS, EC_WORD_LIE, EC_WORD_TYPE, EC_WORD_ELECTRIC, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_ELECTRIC, EC_WORD_AND, EC_MOVE2(FLASH), EC_WORD_WAS, EC_WORD_SHAKY, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_BELONGS_TO, EC_WORD_NITWIT, EC_WORD_AN, EC_WORD_A_LITTLE, EC_WORD_LIE, EC_MOVE(SPARK)},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_WEEZING,
@@ -8516,6 +9086,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 	.prize = TTPRIZE_UP_GRADE,
 	.trainers = {
 		{
+		#if ENGLISH
 			.name = _("MAURA"),
 			.facilityClass = FACILITY_CLASS_BEAUTY,
 			.textColor = 2,
@@ -8523,6 +9094,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechWin = {EC_WORD_WHAT, EC_WORD_AM, EC_WORD_I, EC_WORD_LEADER, EC_WORD_OF, EC_WORD_QUES},
 			.speechLose = {EC_WORD_I_AM, EC_WORD_NO, EC_WORD_LEADER, EC_WORD_IT_S, EC_WORD_A_LITTLE, EC_WORD_LIE},
 			.speechAfter = {EC_WORD_HEY, EC_WORD_EXCL, EC_WORD_THE, EC_WORD_GROUND, EC_WORD_IS, EC_WORD_SLIMY},
+		#elif SPANISH
+			.name = _("MAGDA"),
+			.facilityClass = FACILITY_CLASS_BEAUTY,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_ISN_T_IT_QUES, EC_WORD_NATURALLY, EC_WORD_DESTROYED, EC_WORD_LEADER, EC_WORD_UNDEFINED,EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_QUES_EXCL, EC_WORD_LIE, EC_WORD_DOWN, EC_WORD_ISN_T_IT_QUES, EC_WORD_LEADER, EC_WORD_QUES},
+			.speechLose = {EC_WORD_WHERE, EC_WORD_ISN_T_IT_QUES, EC_WORD_LEADER, EC_WORD_WHERE, EC_WORD_IS, EC_WORD_THESE_WERE},
+			.speechAfter = {EC_WORD_ALWAYS, EC_WORD_BELONGS_TO, EC_WORD_NITWIT, EC_WORD_BE, EC_WORD_LIE, EC_WORD_THESE_WERE},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_PICHU,
@@ -8659,6 +9239,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("MIKAELA"),
 			.facilityClass = FACILITY_CLASS_LASS,
 			.textColor = 1,
@@ -8666,6 +9247,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechWin = {EC_WORD_NEVER, EC_WORD_SAID, EC_WORD_WHAT, EC_WORD_I_AM, EC_WORD_NO_1, EC_WORD_AT},
 			.speechLose = {EC_WORD_NEXT, EC_WORD_TIME, EC_WORD_I, EC_WORD_WILL, EC_WORD_BE, EC_WORD_OVERWHELMING},
 			.speechAfter = {EC_WORD_YOU, EC_MOVE2(SPIT_UP), EC_WORD_ME, EC_WORD_AS_IF, EC_WORD_I_AM, EC_WORD_NOTHING},
+		#elif SPANISH
+			.name = _("BLANCA"),
+			.facilityClass = FACILITY_CLASS_LASS,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_ISN_T_IT_QUES, EC_WORD_THAT_S, EC_WORD_NO_1, EC_WORD_ALT_COLOR, EC_WORD_POKEMON, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_THAT_S, EC_WORD_NO_1, EC_WORD_ISN_T_IT_QUES, EC_WORD_I, EC_WORD_GWAHAHAHA, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_A_TINY_BIT, EC_WORD_NEXT, EC_WORD_BATTLE, EC_WORD_WERE, EC_WORD_SPIRALING, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WHERE, EC_WORD_ABSOLUTELY, EC_WORD_LIKE, EC_WORD_USING, EC_MOVE2(SPIT_UP), EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_NIDORINO,
@@ -8802,6 +9392,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			}
 		},
 		{
+		#if ENGLISH
 			.name = _("FLINT"),
 			.facilityClass = FACILITY_CLASS_ENGINEER,
 			.textColor = 4,
@@ -8809,6 +9400,15 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechWin = {EC_WORD_I_VE, EC_WORD_WON, EC_WORD_THIS, EC_MOVE2(MILK_DRINK), EC_WORD_MATCH, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_I, EC_WORD_CAN_T, EC_WORD_DRINK, EC_WORD_ANY, EC_WORD_MORE, EC_WORD_DRINKS},
 			.speechAfter = {EC_WORD_WHOAH, EC_WORD_EXCL, EC_WORD_I_AM, EC_WORD_DROOLING, EC_WORD_ALL, EC_WORD_OVER},
+		#elif SPANISH
+			.name = _("TRISTÁN"),
+			.facilityClass = FACILITY_CLASS_ENGINEER,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_I, EC_WORD_USE, EC_MOVE2(MILK_DRINK), EC_WORD_UNDEFINED,EC_WORD_IS, EC_WORD_BEING},
+			.speechWin = {EC_MOVE2(MILK_DRINK), EC_WORD_IS, EC_WORD_AROUND, EC_WORD_SPIRALING, EC_WORD_NITWIT, EC_WORD_BELONGS_TO},
+			.speechLose = {EC_WORD_WHERE, EC_WORD_ALWAYS, EC_WORD_ABSOLUTELY, EC_WORD_LIKE, EC_MOVE2(MILK_DRINK), EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_I, EC_WORD_UP, EC_WORD_NITWIT, EC_WORD_WILL_BE_HERE, EC_MOVE2(MILK_DRINK), EC_WORD_UNDEFINED},
+		#endif
 			.mons = {
 				{
 					.species = SPECIES_WIGGLYTUFF,
