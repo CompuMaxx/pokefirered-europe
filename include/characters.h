@@ -332,6 +332,7 @@
 #define BRAILLE_CHAR_NUMBER          0x3A
 #define BRAILLE_CHAR_Y               0x3B
 #define BRAILLE_CHAR_PAREN           0x3C
+#define BRAILLE_CHAR_EQUAL           0x3F
 //
 #define NUM_BRAILLE_CHARS            0x40
 

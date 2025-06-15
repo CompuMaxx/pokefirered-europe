@@ -3051,7 +3051,7 @@ static void LoadPokeJumpGfx(void)
         LoadPalette(sVenusaur_Pal, BG_PLTT_ID(3), sizeof(sVenusaur_Pal));
         DecompressAndCopyTileDataToVram(BG_VENUSAUR, sVenusaur_Gfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(BG_VENUSAUR, sVenusaur_Tilemap, 0, 0, 1);
-        LoadPalette(sBonuses_Pal, BG_PLTT_ID(1), sizeof(sBonuses_Pal));
+        LoadPalette(sBonuses_Pal, BG_PLTT_ID(1), 0x20);
         DecompressAndCopyTileDataToVram(BG_BONUSES, sBonuses_Gfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(BG_BONUSES, sBonuses_Tilemap, 0, 0, 1);
         LoadPalette(sInterface_Pal, BG_PLTT_ID(2), sizeof(sInterface_Pal));
