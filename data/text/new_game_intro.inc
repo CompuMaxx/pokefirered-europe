@@ -334,7 +334,7 @@ gNameChoice_Suzi::
     .string "SUSA$"
     .endif
 
-gNewGame_HelpDocs1::
+gControlsGuide_Text_Intro::
     .ifdef ENGLISH
     .string "The various buttons will be explained in\n"
     .string "the order of their importance.$"
@@ -344,7 +344,7 @@ gNewGame_HelpDocs1::
     .string "se hará por orden de importancia.$"
     .endif
 
-gNewGame_HelpDocs2::
+gControlsGuide_Text_DPad::
     .ifdef ENGLISH
     .string "Moves the main character.\n"
     .string "Also used to choose various data\n"
@@ -355,7 +355,7 @@ gNewGame_HelpDocs2::
     .string "historia. Seleccionar opciones.$"
     .endif
 
-gNewGame_HelpDocs3::
+gControlsGuide_Text_AButton::
     .ifdef ENGLISH
     .string "Used to confirm a choice, check\n"
     .string "things, chat, and scroll text.$"
@@ -365,7 +365,7 @@ gNewGame_HelpDocs3::
     .string "cosas, chatear y leer texto.$"
     .endif
 
-gNewGame_HelpDocs4::
+gControlsGuide_Text_BButton::
     .ifdef ENGLISH
     .string "Used to exit, cancel a choice,\n"
     .string "and cancel a mode.$"
@@ -375,7 +375,7 @@ gNewGame_HelpDocs4::
     .string "y salir de distintos menús.$"
     .endif
 
-gNewGame_HelpDocs5::
+gControlsGuide_Text_StartButton::
     .ifdef ENGLISH
     .string "Press this button to open the\n"
     .string "MENU.$"
@@ -384,7 +384,7 @@ gNewGame_HelpDocs5::
     .string "Abrir el menú.$"
     .endif
 
-gNewGame_HelpDocs6::
+gControlsGuide_Text_SelectButton::
     .ifdef ENGLISH
     .string "Used to shift items and to use\n"
     .string "a registered item.$"
@@ -394,7 +394,7 @@ gNewGame_HelpDocs6::
     .string "el que haya registrado.$"
     .endif
 
-gNewGame_HelpDocs7::
+gControlsGuide_Text_LRButtons::
     .ifdef ENGLISH
     .string "If you need help playing the\n"
     .string "game, or on how to do things,\n"
@@ -404,7 +404,7 @@ gNewGame_HelpDocs7::
     .string "Acceder al sistema de AYUDA.$"
     .endif
 
-gOakText_AskPlayerGender::
+gOakSpeech_Text_AskPlayerGender::
     .ifdef ENGLISH
     .string "Now tell me. Are you a boy?\n"
     .string "Or are you a girl?$"
@@ -413,7 +413,7 @@ gOakText_AskPlayerGender::
     .string "Hola, ¿eres chico o chica?$"
     .endif
 
-gNewGameAdventureIntro1::
+gPikachuIntro_Text_Page1::
     .ifdef ENGLISH
     .string "In the world which you are about to\n"
     .string "enter, you will embark on a grand\n"
@@ -435,7 +435,7 @@ gNewGameAdventureIntro1::
     .string "y pistas de todo lo que te rodee.$"
     .endif
 
-gNewGameAdventureIntro2::
+gPikachuIntro_Text_Page2::
     .ifdef ENGLISH
     .string "New paths will open to you by helping\n"
     .string "people in need, overcoming challenges,\n"
@@ -455,7 +455,7 @@ gNewGameAdventureIntro2::
     .string "contigo, pero ¡ánimo, tú puedes!$"
     .endif
 
-gNewGameAdventureIntro3::
+gPikachuIntro_Text_Page3::
     .ifdef ENGLISH
     .string "Through your adventure, we hope\n"
     .string "that you will interact with all sorts\n"
@@ -474,10 +474,13 @@ gNewGameAdventureIntro3::
     .string "la aventura!$"
     .endif
 
-gOakText_WelcomeToTheWorld::
+gOakSpeech_Text_WelcomeToTheWorld::
     .ifdef ENGLISH
     .string "Hello, there!\n"
-    .string "Glad to meet you!\pWelcome to the world of POKéMON!\pMy name is OAK.\pPeople affectionately refer to me\n"
+    .string "Glad to meet you!\p"
+    .string "Welcome to the world of POKéMON!\p"
+    .string "My name is OAK.\p"
+    .string "People affectionately refer to me\n"
     .string "as the POKéMON PROFESSOR.\p$"
     .endif
     .ifdef SPANISH
@@ -489,7 +492,7 @@ gOakText_WelcomeToTheWorld::
     .string "$"
     .endif
 
-gOakText_WorldInhabited1::
+gOakSpeech_Text_ThisWorld::
     .ifdef ENGLISH
     .string "This world…$"
     .endif
@@ -497,7 +500,7 @@ gOakText_WorldInhabited1::
     .string "¡Este mundo está$"
     .endif
 
-gOakText_WorldInhabited2::
+gOakSpeech_Text_IsInhabitedFarAndWide::
     .ifdef ENGLISH
     .string "…is inhabited far and wide by\n"
     .string "creatures called POKéMON.\p$"
@@ -508,10 +511,12 @@ gOakText_WorldInhabited2::
     .string "$"
     .endif
 
-gOakText_PetsBattlingStudy::
+gOakSpeech_Text_IStudyPokemon::
     .ifdef ENGLISH
     .string "For some people, POKéMON are pets.\n"
-    .string "Others use them for battling.\pAs for myself…\pI study POKéMON as a profession.\p$"
+    .string "Others use them for battling.\p"
+    .string "As for myself…\p"
+    .string "I study POKéMON as a profession.\p$"
     .endif
     .ifdef SPANISH
     .string "Para algunos, los POKéMON son\n"
@@ -523,7 +528,7 @@ gOakText_PetsBattlingStudy::
     .string "$"
     .endif
 
-gOakText_TellMeALittleAboutYourself::
+gOakSpeech_Text_TellMeALittleAboutYourself::
     .ifdef ENGLISH
     .string "But first, tell me a little about\n"
     .string "yourself.\p$"
@@ -533,7 +538,7 @@ gOakText_TellMeALittleAboutYourself::
     .string "$"
     .endif
 
-gOakText_AskPlayerName::
+gOakSpeech_Text_YourNameWhatIsIt::
     .ifdef ENGLISH
     .string "Let's begin with your name.\n"
     .string "What is it?\p$"
@@ -544,7 +549,7 @@ gOakText_AskPlayerName::
     .string "$"
     .endif
 
-gOakText_FinalizePlayerName::
+gOakSpeech_Text_SoYourNameIsPlayer::
     .ifdef ENGLISH
     .string "Right…\n"
     .string "So your name is {PLAYER}.$"
@@ -554,10 +559,12 @@ gOakText_FinalizePlayerName::
     .string "¡Así que te llamas {PLAYER}!$"
     .endif
 
-gOakText_IntroduceRival::
+gOakSpeech_Text_WhatWasHisName::
     .ifdef ENGLISH
-    .string "This is my grandson.\pHe's been your rival since you both\n"
-    .string "were babies.\p…Erm, what was his name now?$"
+    .string "This is my grandson.\p"
+    .string "He's been your rival since you both\n"
+    .string "were babies.\p"
+    .string "…Erm, what was his name now?$"
     .endif
     .ifdef SPANISH
     .string "Éste es mi nieto.\p"
@@ -567,7 +574,7 @@ gOakText_IntroduceRival::
     .string "se llama?$"
     .endif
 
-gOakText_AskRivalName::
+gOakSpeech_Text_YourRivalsNameWhatWasIt::
     .ifdef ENGLISH
     .string "Your rival's name, what was it now?$"
     .endif
@@ -575,7 +582,7 @@ gOakText_AskRivalName::
     .string "¿Cómo era el nombre de tu rival?$"
     .endif
 
-gOakText_ConfirmRivalName::
+gOakSpeech_Text_ConfirmRivalName::
     .ifdef ENGLISH
     .string "…Er, was it {RIVAL}?$"
     .endif
@@ -583,7 +590,7 @@ gOakText_ConfirmRivalName::
     .string "Eh..., ¿era {RIVAL}?$"
     .endif
 
-gOakText_RememberRivalName::
+gOakSpeech_Text_RememberRivalsName::
     .ifdef ENGLISH
     .string "That's right! I remember now!\n"
     .string "His name is {RIVAL}!\p$"
@@ -594,10 +601,12 @@ gOakText_RememberRivalName::
     .string "$"
     .endif
 
-gOakText_LegendAboutToUnfold::
+gOakSpeech_Text_LetsGo::
     .ifdef ENGLISH
-    .string "{PLAYER}!\pYour very own POKéMON legend is\n"
-    .string "about to unfold!\pA world of dreams and adventures\n"
+    .string "{PLAYER}!\p"
+    .string "Your very own POKéMON legend is\n"
+    .string "about to unfold!\p"
+    .string "A world of dreams and adventures\n"
     .string "with POKéMON awaits! Let's go!$"
     .endif
     .ifdef SPANISH

@@ -211,8 +211,8 @@ static void SpriteCB_Start(struct Sprite *sprite)
 }
 
 #if ENGLISH
-static const u16 sSpritePal_321Start[] = INCBIN_U16("graphics/link_games/unk_847a348.gbapal");
-static const u16 sSpriteSheet_321Start[] = INCBIN_U16("graphics/link_games/unk_847a348.4bpp.lz");
+static const u16 sSpritePal_321Start[] = INCBIN_U16("graphics/misc/minigame_countdown.gbapal");
+static const u16 sSpriteSheet_321Start[] = INCBIN_U16("graphics/misc/minigame_countdown.4bpp.lz");
 #elif SPANISH
 extern const u16 sSpritePal_321Start[];
 extern const u16 sSpriteSheet_321Start[];

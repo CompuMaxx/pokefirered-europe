@@ -37,9 +37,9 @@ static s16 sVerticalCameraPan;
 static u8 sBikeCameraPanFlag;
 static void (*sFieldCameraPanningCallback)(void);
 
-struct CameraObject gFieldCamera;
-u16 gTotalCameraPixelOffsetY;
-u16 gTotalCameraPixelOffsetX;
+COMMON_DATA struct CameraObject gFieldCamera = {0};
+COMMON_DATA u16 gTotalCameraPixelOffsetY = 0;
+COMMON_DATA u16 gTotalCameraPixelOffsetX = 0;
 
 // text
 static void move_tilemap_camera_to_upper_left_corner_(struct FieldCameraOffset *cameraOffset)
@@ -236,7 +236,7 @@ static void DrawMetatileAt(const struct MapLayout *mapLayout, u16 offset, int x,
         metatiles = mapLayout->secondaryTileset->metatiles;
         metatileId -= NUM_METATILES_IN_PRIMARY;
     }
-    DrawMetatile(MapGridGetMetatileLayerTypeAt(x, y), metatiles + metatileId * 8, offset);
+    DrawMetatile(MapGridGetMetatileLayerTypeAt(x, y), metatiles + metatileId * NUM_TILES_PER_METATILE, offset);
 }
 
 static void DrawMetatile(s32 metatileLayerType, const u16 *tiles, u16 offset)

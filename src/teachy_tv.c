@@ -40,10 +40,10 @@ struct TeachyTvCtrlBlk
 struct TeachyTvBuf
 {
     MainCallback savedCallback;
-    u16 buffer1[0x800];
-    u16 buffer2[0x800];
-    u16 buffer3[0x800];
-    u16 buffer4[0x800];
+    u16 screenTilemap[BG_SCREEN_SIZE];
+    u16 buffer2[BG_SCREEN_SIZE];
+    u16 buffer3[BG_SCREEN_SIZE];
+    u16 titleTilemap[BG_SCREEN_SIZE];
     u8 grassAnimCounterLo;
     u8 grassAnimCounterHi;
     u8 grassAnimDisabled;
@@ -95,7 +95,7 @@ static u8 TeachyTvGrassAnimationCheckIfNeedsToGenerateGrassObj(s16 x, s16 y);
 static void TeachyTvGrassAnimationObjCallback(struct Sprite *sprite);
 static void TeachyTvRestorePlayerPartyCallback(void);
 static void TeachyTvPreBattleAnimAndSetBattleCallback(u8 taskId);
-static void TeachyTvLoadMapTilesetToBuffer(struct Tileset *ts, u8 *dstBuffer, u16 size);
+static void TeachyTvLoadMapTilesetToBuffer(const struct Tileset *ts, u8 *dstBuffer, u16 size);
 static void TeachyTvPushBackNewMapPalIndexArrayEntry(const struct MapLayout *mStruct, u16 *buf1, u8 *palIndexArray, u16 mapEntry, u16 offset);
 static void TeachyTvComputeMapTilesFromTilesetAndMetaTiles(const u16 *metaTilesArray, u8 *blockBuf, u8 *tileset);
 static void TeachyTvComputeSingleMapTileBlockFromTilesetAndMetaTiles(u8 *blockBuf, u8 *tileset, u8 metaTile);
@@ -150,7 +150,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .tilemapTop = 15,
         .width = 26,
         .height = 4,
-        .paletteNum = 0x3,
+        .paletteNum = 3,
         .baseBlock = 0x0EA,
     },
     {
@@ -159,7 +159,7 @@ static const struct WindowTemplate sWindowTemplates[] =
         .tilemapTop = 1,
         .width = 22,
         .height = 12,
-        .paletteNum = 0x3,
+        .paletteNum = 3,
         .baseBlock = 0x152,
     },
     DUMMY_WIN_TEMPLATE,
@@ -511,7 +511,7 @@ static void TeachyTvSetupBg(void)
     ResetAllBgsCoordinatesAndBgCntRegs();
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sBgTemplates, 4);
-    SetBgTilemapBuffer(1, sResources->buffer1);
+    SetBgTilemapBuffer(1, sResources->screenTilemap);
     SetBgTilemapBuffer(2, sResources->buffer2);
     SetBgTilemapBuffer(3, sResources->buffer3);
     SetGpuReg(REG_OFFSET_DISPCNT, 0x3040);
@@ -530,11 +530,11 @@ static void TeachyTvLoadGraphic(void)
 {
     u16 src = RGB_BLACK;
     ResetTempTileDataBuffers();
-    DecompressAndCopyTileDataToVram(1, gUnknown_8E86240, 0, 0, 0);
-    LZDecompressWram(gUnknown_8E86BE8, sResources->buffer1);
-    LZDecompressWram(gUnknown_8E86D6C, sResources->buffer4);
-    LoadCompressedPalette(gUnknown_8E86F98, 0, 0x80);
-    LoadPalette(&src, 0, sizeof(src));
+    DecompressAndCopyTileDataToVram(1, gTeachyTv_Gfx, 0, 0, 0);
+    LZDecompressWram(gTeachyTvScreen_Tilemap, sResources->screenTilemap);
+    LZDecompressWram(gTeachyTvTitle_Tilemap, sResources->titleTilemap);
+    LoadCompressedPalette(gTeachyTv_Pal, BG_PLTT_ID(0), 4 * PLTT_SIZE_4BPP);
+    LoadPalette(&src, BG_PLTT_ID(0), sizeof(src));
     LoadSpritePalette(&gSpritePalette_GeneralFieldEffect1);
     TeachyTvLoadBg3Map(sResources->buffer3);
 }
@@ -761,7 +761,7 @@ static void TTVcmd_TransitionRenderBg2TeachyTvGraphicInitNpcPos(u8 taskId)
     TeachyTvBg2AnimController();
     if (++data[2] > 63)
     {
-        CopyToBgTilemapBufferRect_ChangePalette(2, sResources->buffer4, 0, 0, 0x20, 0x20, 0x11);
+        CopyToBgTilemapBufferRect_ChangePalette(2, sResources->titleTilemap, 0, 0, 0x20, 0x20, 0x11);
         TeachyTvSetSpriteCoordsAndSwitchFrame(data[1], 8, 0x38, 7);
         ScheduleBgCopyTilemapToVram(2);
         data[2] = 0;
@@ -1295,7 +1295,7 @@ static void TeachyTvLoadBg3Map(u16 *buffer)
     Free(blockIndicesBuffer);
 }
 
-static void TeachyTvLoadMapTilesetToBuffer(struct Tileset *ts, u8 *dstBuffer, u16 size)
+static void TeachyTvLoadMapTilesetToBuffer(const struct Tileset *ts, u8 *dstBuffer, u16 size)
 {
     if (ts)
     {
@@ -1414,6 +1414,6 @@ static void TeachyTvLoadMapPalette(const struct MapLayout * mStruct, const u8 * 
             dest = mStruct->secondaryTileset->palettes[palIndexArray[i]];
         else
             dest = mStruct->primaryTileset->palettes[palIndexArray[i]];
-        LoadPalette(dest, 0x10 * (15 - i), 0x20);
+        LoadPalette(dest, BG_PLTT_ID(15 - i), PLTT_SIZE_4BPP);
     }
 }

@@ -150,15 +150,26 @@ PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
     .ifdef ENGLISH
+    #ifdef BUGFIX
+    .string "{COLOR DARK_GRAY}{STR_VAR_1} looks dreamily content…\p"
+    .string "{COLOR RED}DAISY: There you go! All done.\n"
+    #else
     .string "{FONT_NORMAL}{STR_VAR_1} looks dreamily content…\p"
     .string "{FONT_FEMALE}DAISY: There you go! All done.\n"
+    #endif
     .string "See? Doesn't it look nice?\p"
     .string "Giggle…\n"
     .string "It's such a cute POKéMON.$"
     .endif
+
     .ifdef SPANISH
+    #ifdef BUGFIX
+    .string "{COLOR DARK_GRAY}{STR_VAR_1} parece encantado.\p"
+    .string "{COLOR RED}DALIA: ¡Ya está! ¡Listo!\n"
+    #else
     .string "{FONT_NORMAL}{STR_VAR_1} parece encantado.\p"
     .string "{FONT_FEMALE}DALIA: ¡Ya está! ¡Listo!\n"
+    #endif
     .string "¿Qué? ¿Tiene buen aspecto o no?\p"
     .string "¡Qué POKéMON más mono!$"
     .endif

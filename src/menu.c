@@ -177,10 +177,10 @@ u8 CreateTopBarWindowLoadPalette(u8 bg, u8 width, u8 yPos, u8 palette, u16 baseT
     window.baseBlock = baseTile;
     sTopBarWindowId = AddWindow(&window);
     if (palette > 15)
-        palette = 15 * 16;
+        palette = BG_PLTT_ID(15);
     else
-        palette *= 16;
-    LoadPalette(GetTextWindowPalette(2), palette, 0x20);
+        palette = BG_PLTT_ID(palette);
+    LoadPalette(GetTextWindowPalette(2), palette, PLTT_SIZE_4BPP);
     return sTopBarWindowId;
 }
 
@@ -483,7 +483,7 @@ void MultichoiceList_PrintItems(u8 windowId, u8 fontId, u8 left, u8 top, u8 line
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-void UnionRoomAndTradeMenuPrintOptions(u8 windowId, u8 fontId, u8 lineHeight, u8 itemCount, const struct MenuAction *strs)
+void PrintMenuTable(u8 windowId, u8 fontId, u8 lineHeight, u8 itemCount, const struct MenuAction *strs)
 {
     u8 left = GetMenuCursorDimensionByFont(fontId, 0);
 

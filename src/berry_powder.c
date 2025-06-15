@@ -2,6 +2,7 @@
 #include "event_data.h"
 #include "load_save.h"
 #include "menu.h"
+#include "palette.h"
 #include "quest_log.h"
 #include "script_menu.h"
 #include "string_util.h"
@@ -113,15 +114,15 @@ void DisplayBerryPowderVendorMenu(void)
 {
     struct WindowTemplate template;
 
-    if (QuestLog_SchedulePlaybackCB(QLPlaybackCB_DestroyScriptMenuMonPicSprites) != TRUE)
-    {
-        template = SetWindowTemplateFields(0, 1, 1, 8, 3, 15, 32);
-        sBerryPowderVendorWindowId = AddWindow(&template);
-        FillWindowPixelBuffer(sBerryPowderVendorWindowId, 0);
-        PutWindowTilemap(sBerryPowderVendorWindowId);
-        LoadStdWindowGfx(sBerryPowderVendorWindowId, 0x21D, 0xD0);
-        DrawPlayerPowderAmount(sBerryPowderVendorWindowId, 0x21D, 0xD, GetBerryPowder());
-    }
+    if (QL_AvoidDisplay(QL_DestroyAbortedDisplay) == TRUE)
+        return;
+
+    template = SetWindowTemplateFields(0, 1, 1, 8, 3, 15, 32);
+    sBerryPowderVendorWindowId = AddWindow(&template);
+    FillWindowPixelBuffer(sBerryPowderVendorWindowId, 0);
+    PutWindowTilemap(sBerryPowderVendorWindowId);
+    LoadStdWindowGfx(sBerryPowderVendorWindowId, 0x21D, BG_PLTT_ID(13));
+    DrawPlayerPowderAmount(sBerryPowderVendorWindowId, 0x21D, 13, GetBerryPowder());
 }
 
 void RemoveBerryPowderVendorMenu(void)
