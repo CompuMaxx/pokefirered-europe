@@ -130,7 +130,7 @@ MAKEFLAGS += --no-print-directory
 # Delete files that weren't built properly
 .DELETE_ON_ERROR:
 
-ALL_BUILDS := firered firered_rev1 leafgreen leafgreen_rev1 firered_es
+ALL_BUILDS := firered firered_rev1 leafgreen leafgreen_rev1 firered_es leafgreen_es
 ALL_BUILDS += $(ALL_BUILDS:%=%_modern)
 
 RULES_NO_SCAN += clean clean-assets tidy generated clean-generated
@@ -228,24 +228,31 @@ firered_rev1:           ; @$(MAKE) GAME_VERSION=FIRERED GAME_REVISION=1
 leafgreen:              ; @$(MAKE) GAME_VERSION=LEAFGREEN
 leafgreen_rev1:         ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_REVISION=1
 firered_es:             ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=SPANISH
+leafgreen_es:           ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH
 
 compare_firered:        ; @$(MAKE) GAME_VERSION=FIRERED COMPARE=1
 compare_firered_rev1:   ; @$(MAKE) GAME_VERSION=FIRERED GAME_REVISION=1 COMPARE=1
 compare_leafgreen:      ; @$(MAKE) GAME_VERSION=LEAFGREEN COMPARE=1
 compare_leafgreen_rev1: ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_REVISION=1 COMPARE=1
 compare_firered_es:     ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=SPANISH COMPARE=1
+compare_leafgreen_es:   ; @$(MAKE) GAME_VERSION=LEAFGREEN FIRERED GAME_LANGUAGE=SPANISH COMPARE=1
 
 firered_modern:        ; @$(MAKE) GAME_VERSION=FIRERED MODERN=1
 firered_rev1_modern:   ; @$(MAKE) GAME_VERSION=FIRERED GAME_REVISION=1 MODERN=1
 leafgreen_modern:      ; @$(MAKE) GAME_VERSION=LEAFGREEN MODERN=1
 leafgreen_rev1_modern: ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_REVISION=1 MODERN=1
 firered_es_modern:     ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=SPANISH MODERN=1
+leafgreen_es_modern:   ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH MODERN=1
 
 #test
 #Ubuntu 22.04 use: time make rojofuego -j$NPROC
 rojofuego:
 	@$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=SPANISH
 	@$(MAKE) syms GAME_VERSION=FIRERED GAME_LANGUAGE=SPANISH
+
+verdehoja:
+	@$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH
+	@$(MAKE) syms GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH
 
 modern: ; @$(MAKE) MODERN=1
 
