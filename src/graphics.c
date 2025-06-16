@@ -1476,14 +1476,24 @@ const u16 gTitleScreen_Slash_Pal[] = INCBIN_U16("graphics/title_screen/firered/s
 #endif //FIRERED
 
 #ifdef LEAFGREEN
+#if ENGLISH
 const u16 gGraphics_TitleScreen_GameTitleLogoPals[] = INCBIN_U16("graphics/title_screen/leafgreen/game_title_logo.gbapal");
 const u8 gGraphics_TitleScreen_GameTitleLogoTiles[] = INCBIN_U8("graphics/title_screen/leafgreen/game_title_logo.8bpp.lz");
 const u8 gGraphics_TitleScreen_GameTitleLogoMap[] = INCBIN_U8("graphics/title_screen/leafgreen/game_title_logo.bin.lz");
+#elif SPANISH
+const u16 gGraphics_TitleScreen_GameTitleLogoPals[] = INCBIN_U16("graphics/title_screen/leafgreen/game_title_logo_es.gbapal");
+const u8 gGraphics_TitleScreen_GameTitleLogoTiles[] = INCBIN_U8("graphics/title_screen/leafgreen/game_title_logo_es.8bpp.lz");
+const u8 gGraphics_TitleScreen_GameTitleLogoMap[] = INCBIN_U8("graphics/title_screen/leafgreen/game_title_logo_es.bin.lz");
+#endif //ENGLISH
 const u16 gGraphics_TitleScreen_BoxArtMonPals[] = INCBIN_U16("graphics/title_screen/leafgreen/box_art_mon.gbapal");
 const u8 gGraphics_TitleScreen_BoxArtMonTiles[] = INCBIN_U8("graphics/title_screen/leafgreen/box_art_mon.4bpp.lz");
 const u8 gGraphics_TitleScreen_BoxArtMonMap[] = INCBIN_U8("graphics/title_screen/leafgreen/box_art_mon.bin.lz");
 const u16 gGraphics_TitleScreen_BackgroundPals[] = INCBIN_U16("graphics/title_screen/leafgreen/background.gbapal");
+#if ENGLISH
 const u8 gGraphics_TitleScreen_CopyrightPressStartTiles[] = INCBIN_U8("graphics/title_screen/copyright_press_start.4bpp.lz");
+#elif SPANISH
+const u8 gGraphics_TitleScreen_CopyrightPressStartTiles[] = INCBIN_U8("graphics/title_screen/copyright_press_start_es.4bpp.lz");
+#endif //ENGLISH
 const u8 gGraphics_TitleScreen_CopyrightPressStartMap[] = INCBIN_U8("graphics/title_screen/copyright_press_start.bin.lz");
 const u16 gTitleScreen_Slash_Pal[] = INCBIN_U16("graphics/title_screen/leafgreen/slash.gbapal");
 #endif
@@ -1515,9 +1525,17 @@ const u8 sTheEnd_Tilemap[] = INCBIN_U8("graphics/credits/the_end_es.bin.lz");
 
 const u32 sPresents_Gfx[] = INCBIN_U32("graphics/intro/game_freak/presents_es.4bpp.lz");
 
+#ifdef FIRERED
 const u16 sBg_Pal[][16] = INCBIN_U16("graphics/slot_machine/firered/bg.gbapal");
 const u32 sBg_Tiles[] = INCBIN_U32("graphics/slot_machine/firered/bg_es.4bpp.lz");
 const u32 sBg_Tilemap[] = INCBIN_U32("graphics/slot_machine/firered/bg.bin.lz");
+#endif // FIRERED
+
+#ifdef LEAFGREEN
+const u16 sBg_Pal[][16] = INCBIN_U16("graphics/slot_machine/leafgreen/bg.gbapal");
+const u32 sBg_Tiles[] = INCBIN_U32("graphics/slot_machine/leafgreen/bg_es.4bpp.lz");
+const u32 sBg_Tilemap[] = INCBIN_U32("graphics/slot_machine/leafgreen/bg.bin.lz");
+#endif // LEAFGREEN
 
 const u16 sSpritePal_321Start[] = INCBIN_U16("graphics/misc/minigame_countdown_es.gbapal");
 const u16 sSpriteSheet_321Start[] = INCBIN_U16("graphics/misc/minigame_countdown_es.4bpp.lz");

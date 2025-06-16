@@ -75,7 +75,7 @@ static const struct InGameTrade sInGameTrades[] = {
     #if ENGLISH
         .nickname = _("MR. NIDO"),
     #elif SPANISH
-        .nickname = _(""),
+        .nickname = _("NIDRÁN"),
     #endif
         .species = SPECIES_NIDORAN_M,
         .ivs = {19, 25, 18, 22, 22, 15},
@@ -88,7 +88,7 @@ static const struct InGameTrade sInGameTrades[] = {
     #if ENGLISH
         .otName = _("SAIGE"),
     #elif SPANISH
-        .otName= _(""),
+        .otName= _("QUICA"),
     #endif
         .otGender = FEMALE,
         .sheen = 10,
@@ -147,7 +147,7 @@ static const struct InGameTrade sInGameTrades[] = {
     #if ENGLISH
         .nickname = _("NINO"),
     #elif SPANISH
-        .nickname = _(""),
+        .nickname = _("NIDRINO"),
     #endif
         .species = SPECIES_NIDORINO,
         .ivs = {19, 18, 25, 22, 15, 22},
@@ -160,7 +160,7 @@ static const struct InGameTrade sInGameTrades[] = {
     #if ENGLISH
         .otName = _("TURNER"),
     #elif SPANISH
-        .otName= _(""),
+        .otName= _("ONZANO"),
     #endif
         .otGender = MALE,
         .sheen = 10,

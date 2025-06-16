@@ -492,6 +492,9 @@ $(SLOTMACHINEGFXDIR)/firered/bg_es.4bpp: %.4bpp: %.png
 $(SLOTMACHINEGFXDIR)/leafgreen/bg.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 134 -Wnum_tiles
 
+$(SLOTMACHINEGFXDIR)/leafgreen/bg_es.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 134 -Wnum_tiles
+
 $(TEACHYTVGFXDIR)/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 233 -Wnum_tiles
 
