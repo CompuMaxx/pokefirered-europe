@@ -177,7 +177,7 @@ const struct SpriteTemplate gFallingFeatherSpriteTemplate =
     .callback = AnimFallingFeather,
 };
 
-static const u16 sUnusedPal[] = INCBIN_U16("graphics/battle_anims/unk_83E6C18.gbapal");
+static const u16 sUnusedPal[] = INCBIN_U16("graphics/battle_anims/unused/flying.gbapal");
 
 static const struct SpriteTemplate sUnusedBubbleThrowSpriteTemplate =
 {
@@ -395,15 +395,15 @@ static void AnimTask_AnimateGustTornadoPalette_Step(u8 taskId)
     {
         gTasks[taskId].data[10] = 0;
         data2 = gTasks[taskId].data[2];
-        temp = gPlttBufferFaded[16 * data2 + 0x108];
+        temp = gPlttBufferFaded[OBJ_PLTT_ID(data2) + 8];
         i = 7;
-        base = data2 * 16;
+        base = PLTT_ID(data2);
         do
         {
-            gPlttBufferFaded[base + 0x101 + i] = gPlttBufferFaded[base + 0x100 + i];
+            gPlttBufferFaded[base + OBJ_PLTT_OFFSET + 1 + i] = gPlttBufferFaded[base + OBJ_PLTT_OFFSET + i];
         } while (--i > 0);
 
-        gPlttBufferFaded[base + 0x101] = temp;
+        gPlttBufferFaded[base + OBJ_PLTT_OFFSET + 1] = temp;
     }
     if (--gTasks[taskId].data[0] == 0)
         DestroyAnimVisualTask(taskId);

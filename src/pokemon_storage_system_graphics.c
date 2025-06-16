@@ -76,117 +76,69 @@ static const union AffineAnimCmd *const sAffineAnims_ReleaseMon[] = {
     [RELEASE_ANIM_COME_BACK] = sAffineAnim_ReleaseMon_ComeBack,
 };
 
-static const u16 sWallpaperPalettes_Forest[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/forest/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/forest/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Forest[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/forest/tiles.gbapal");
 static const u32 sWallpaperTiles_Forest[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/forest/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Forest[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/forest/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_City[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/city/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/city/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_City[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/city/tiles.gbapal");
 static const u32 sWallpaperTiles_City[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/city/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_City[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/city/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Desert[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/desert/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/desert/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Desert[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/desert/tiles.gbapal");
 static const u32 sWallpaperTiles_Desert[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/desert/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Desert[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/desert/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Savanna[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/savanna/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/savanna/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Savanna[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/savanna/tiles.gbapal");
 static const u32 sWallpaperTiles_Savanna[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/savanna/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Savanna[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/savanna/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Crag[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/crag/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/crag/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Crag[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/crag/tiles.gbapal");
 static const u32 sWallpaperTiles_Crag[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/crag/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Crag[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/crag/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Volcano[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/volcano/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/volcano/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Volcano[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/volcano/tiles.gbapal");
 static const u32 sWallpaperTiles_Volcano[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/volcano/tiles.4bpp.lz");
 static const u8 sUnusedSpace1[4] = {};
 static const u32 sWallpaperTilemap_Volcano[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/volcano/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Snow[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/snow/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/snow/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Snow[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/snow/tiles.gbapal");
 static const u32 sWallpaperTiles_Snow[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/snow/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Snow[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/snow/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Cave[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/cave/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/cave/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Cave[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/cave/tiles.gbapal");
 static const u32 sWallpaperTiles_Cave[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/cave/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Cave[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/cave/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Beach[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/beach/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/beach/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Beach[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/beach/tiles.gbapal");
 static const u32 sWallpaperTiles_Beach[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/beach/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Beach[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/beach/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Seafloor[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/seafloor/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/seafloor/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Seafloor[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/seafloor/tiles.gbapal");
 static const u32 sWallpaperTiles_Seafloor[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/seafloor/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Seafloor[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/seafloor/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_River[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/river/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/river/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_River[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/river/tiles.gbapal");
 static const u32 sWallpaperTiles_River[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/river/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_River[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/river/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Sky[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/sky/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/sky/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Sky[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/sky/tiles.gbapal");
 static const u32 sWallpaperTiles_Sky[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/sky/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Sky[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/sky/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Stars[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/stars/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/stars/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Stars[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/stars/tiles.gbapal");
 static const u8 sUnusedSpace2[32] = {};
 static const u32 sWallpaperTiles_Stars[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/stars/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Stars[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/stars/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Pokecenter[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/pokecenter/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/pokecenter/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Pokecenter[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/pokecenter/tiles.gbapal");
 static const u32 sWallpaperTiles_Pokecenter[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/pokecenter/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Pokecenter[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/pokecenter/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Tiles[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/tiles/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/tiles/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Tiles[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/tiles/tiles.gbapal");
 static const u32 sWallpaperTiles_Tiles[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/tiles/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Tiles[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/tiles/tilemap.bin.lz");
 
-static const u16 sWallpaperPalettes_Simple[][16] = {
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/simple/title.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/wallpapers/simple/box.gbapal"),
-};
+static const u16 sWallpaperPalettes_Simple[][16] = INCBIN_U16("graphics/pokemon_storage/wallpapers/simple/tiles.gbapal");
 static const u32 sWallpaperTiles_Simple[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/simple/tiles.4bpp.lz");
 static const u32 sWallpaperTilemap_Simple[] = INCBIN_U32("graphics/pokemon_storage/wallpapers/simple/tilemap.bin.lz");
 
@@ -346,7 +298,7 @@ static u8 GetMonIconPriorityByCursorArea(void)
 void CreateMovingMonIcon(void)
 {
     u32 personality = GetMonData(&gStorage->movingMon, MON_DATA_PERSONALITY);
-    u16 species = GetMonData(&gStorage->movingMon, MON_DATA_SPECIES2);
+    u16 species = GetMonData(&gStorage->movingMon, MON_DATA_SPECIES_OR_EGG);
     u8 priority = GetMonIconPriorityByCursorArea();
 
     gStorage->movingMonSprite = CreateMonIconSprite(species, personality, 0, 0, priority, 7);
@@ -366,7 +318,7 @@ static void InitBoxMonSprites(u8 boxId)
     {
         for (j = 0; j < IN_BOX_COLUMNS; j++)
         {
-            species = GetBoxMonDataAt(boxId, boxPosition, MON_DATA_SPECIES2);
+            species = GetBoxMonDataAt(boxId, boxPosition, MON_DATA_SPECIES_OR_EGG);
             if (species != SPECIES_NONE)
             {
                 personality = GetBoxMonDataAt(boxId, boxPosition, MON_DATA_PERSONALITY);
@@ -392,7 +344,7 @@ static void InitBoxMonSprites(u8 boxId)
 
 void CreateBoxMonIconAtPos(u8 boxPosition)
 {
-    u16 species = GetCurrentBoxMonData(boxPosition, MON_DATA_SPECIES2);
+    u16 species = GetCurrentBoxMonData(boxPosition, MON_DATA_SPECIES_OR_EGG);
 
     if (species != SPECIES_NONE)
     {
@@ -615,7 +567,7 @@ static void SetBoxSpeciesAndPersonalities(u8 boxId)
     {
         for (j = 0; j < IN_BOX_COLUMNS; j++)
         {
-            gStorage->boxSpecies[boxPosition] = GetBoxMonDataAt(boxId, boxPosition, MON_DATA_SPECIES2);
+            gStorage->boxSpecies[boxPosition] = GetBoxMonDataAt(boxId, boxPosition, MON_DATA_SPECIES_OR_EGG);
             if (gStorage->boxSpecies[boxPosition] != SPECIES_NONE)
                 gStorage->boxPersonalities[boxPosition] = GetBoxMonDataAt(boxId, boxPosition, MON_DATA_PERSONALITY);
             boxPosition++;
@@ -645,14 +597,14 @@ void SetBoxMonIconObjMode(u8 boxPosition, u8 objMode)
 void CreatePartyMonsSprites(bool8 visible)
 {
     u16 i, count;
-    u16 species = GetMonData(&gPlayerParty[0], MON_DATA_SPECIES2);
+    u16 species = GetMonData(&gPlayerParty[0], MON_DATA_SPECIES_OR_EGG);
     u32 personality = GetMonData(&gPlayerParty[0], MON_DATA_PERSONALITY);
 
     gStorage->partySprites[0] = CreateMonIconSprite(species, personality, 104, 64, 1, 12);
     count = 1;
     for (i = 1; i < PARTY_SIZE; i++)
     {
-        species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2);
+        species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES_OR_EGG);
         if (species != SPECIES_NONE)
         {
             personality = GetMonData(&gPlayerParty[i], MON_DATA_PERSONALITY);
@@ -1253,9 +1205,9 @@ static void LoadWallpaperGfx(u8 boxId, s8 direction)
     DrawWallpaper(gStorage->wallpaperBgTilemapBuffer, gStorage->wallpaperTilemap, gStorage->wallpaperLoadDir, gStorage->wallpaperOffset);
 
     if (gStorage->wallpaperLoadDir != 0)
-        LoadPalette(wallpaper->palettes, (gStorage->wallpaperOffset * 32) + 0x40, 0x40);
+        LoadPalette(wallpaper->palettes, BG_PLTT_ID(4) + BG_PLTT_ID(gStorage->wallpaperOffset * 2), 2 * PLTT_SIZE_4BPP);
     else
-        CpuCopy16(wallpaper->palettes, &gPlttBufferUnfaded[(gStorage->wallpaperOffset * 32) + 0x40], 0x40);
+        CpuCopy16(wallpaper->palettes, &gPlttBufferUnfaded[BG_PLTT_ID(4) + BG_PLTT_ID(gStorage->wallpaperOffset * 2)], 2 * PLTT_SIZE_4BPP);
 
     DecompressAndLoadBgGfxUsingHeap(2, wallpaper->tiles, 0, 256 * gStorage->wallpaperOffset, 0);
 
@@ -1329,12 +1281,12 @@ static void InitBoxTitle(u8 boxId)
     gStorage->wallpaperPalBits = 0x3F0;
 
     tagIndex = IndexOfSpritePaletteTag(PALTAG_BOX_TITLE);
-    gStorage->boxTitlePalOffset = 0x10e + 16 * tagIndex;
-    gStorage->wallpaperPalBits |= 0x10000 << tagIndex;
+    gStorage->boxTitlePalOffset = OBJ_PLTT_ID(tagIndex) + 14;
+    gStorage->wallpaperPalBits |= (1 << 16) << tagIndex;
 
     tagIndex = IndexOfSpritePaletteTag(PALTAG_BOX_TITLE);
-    gStorage->boxTitleAltPalOffset = 0x10e + 16 * tagIndex;
-    gStorage->wallpaperPalBits |= 0x10000 << tagIndex;
+    gStorage->boxTitleAltPalOffset = OBJ_PLTT_ID(tagIndex) + 14;
+    gStorage->wallpaperPalBits |= (1 << 16) << tagIndex;
 
     StringCopyPadded(gStorage->boxTitleText, GetBoxNamePtr(boxId), 0, 8);
     DrawTextWindowAndBufferTiles(gStorage->boxTitleText, gStorage->boxTitleTiles, 0, 0, gStorage->boxTitleUnused, 2);
@@ -1435,9 +1387,9 @@ static void CycleBoxTitleColor(void)
     u8 boxId = StorageGetCurrentBox();
     u8 wallpaperId = GetBoxWallpaper(boxId);
     if (gStorage->boxTitleCycleId == 0)
-        CpuCopy16(sBoxTitleColors[wallpaperId], gPlttBufferUnfaded + gStorage->boxTitlePalOffset, 4);
+        CpuCopy16(sBoxTitleColors[wallpaperId], &gPlttBufferUnfaded[gStorage->boxTitlePalOffset], PLTT_SIZEOF(2));
     else
-        CpuCopy16(sBoxTitleColors[wallpaperId], gPlttBufferUnfaded + gStorage->boxTitleAltPalOffset, 4);
+        CpuCopy16(sBoxTitleColors[wallpaperId], &gPlttBufferUnfaded[gStorage->boxTitleAltPalOffset], PLTT_SIZEOF(2));
 }
 
 static s16 GetBoxTitleBaseX(const u8 *string)

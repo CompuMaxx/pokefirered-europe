@@ -23,6 +23,7 @@
 #include "menu_indicators.h"
 #include "constants/items.h"
 #include "constants/songs.h"
+#include "constants/quest_log.h"
 
 // Any item in the TM Case with nonzero importance is considered an HM
 #define IS_HM(itemId) (ItemId_GetImportance(itemId) != 0)
@@ -615,9 +616,9 @@ static bool8 HandleLoadTMCaseGraphicsAndPalettes(void)
         break;
     case 3:
         if (gSaveBlock2Ptr->playerGender == MALE)
-            LoadCompressedPalette(gTMCaseMenu_Male_Pal, 0, 0x80);
+            LoadCompressedPalette(gTMCaseMenu_Male_Pal, BG_PLTT_ID(0), 4 * PLTT_SIZE_4BPP);
         else
-            LoadCompressedPalette(gTMCaseMenu_Female_Pal, 0, 0x80);
+            LoadCompressedPalette(gTMCaseMenu_Female_Pal, BG_PLTT_ID(0), 4 * PLTT_SIZE_4BPP);
         sTMCaseDynamicResources->seqId++;
         break;
     case 4:
@@ -1328,7 +1329,7 @@ static void Task_DoSaleOfTMs(u8 taskId)
     PlaySE(SE_SHOP);
     RemoveBagItem(gSpecialVar_ItemId, tQuantitySelected);
     AddMoney(&gSaveBlock1Ptr->money, ItemId_GetPrice(gSpecialVar_ItemId) / 2 * tQuantitySelected);
-    RecordItemPurchase(gSpecialVar_ItemId, tQuantitySelected, 2);
+    RecordItemTransaction(gSpecialVar_ItemId, tQuantitySelected, QL_EVENT_SOLD_ITEM - QL_EVENT_USED_POKEMART);
     DestroyListMenuTask(tListTaskId, &sTMCaseStaticResources.scrollOffset, &sTMCaseStaticResources.selectedRow);
     TMCaseSetup_GetTMCount();
     TMCaseSetup_InitListMenuPositions();
@@ -1494,7 +1495,7 @@ static void Task_Pokedude_Run(u8 taskId)
             sTMCaseStaticResources.selectedRow = sPokedudeBagBackup->selectedRow;
             sTMCaseStaticResources.scrollOffset = sPokedudeBagBackup->scrollOffset;
             Free(sPokedudeBagBackup);
-            CpuFastCopy(gPlttBufferFaded, gPlttBufferUnfaded, 0x400);
+            CpuFastCopy(gPlttBufferFaded, gPlttBufferUnfaded, PLTT_SIZE);
             CB2_SetUpReshowBattleScreenAfterMenu();
             BeginNormalPaletteFade(PALETTES_ALL, -2, 0, 16, 0);
             tPokedudeState++;
@@ -1518,14 +1519,14 @@ static void InitWindowTemplatesAndPals(void)
 
     InitWindows(sWindowTemplates);
     DeactivateAllTextPrinters();
-    LoadUserWindowGfx(0, 0x5B, 0xE0);
-    LoadMenuMessageWindowGfx(0, 0x64, 0xB0);
-    LoadStdWindowGfx(0, 0x78, 0xD0);
-    LoadPalette(gStandardMenuPalette, 0xF0, 0x20);
-    LoadPalette(gStandardMenuPalette, 0xA0, 0x20);
-    LoadPalette(sPal3Override, 0xF6, 0x04);
-    LoadPalette(sPal3Override, 0xD6, 0x04);
-    ListMenuLoadStdPalAt(0xc0, 0x01);
+    LoadUserWindowGfx(0, 0x5B, BG_PLTT_ID(14));
+    LoadMenuMessageWindowGfx(0, 0x64, BG_PLTT_ID(11));
+    LoadStdWindowGfx(0, 0x78, BG_PLTT_ID(13));
+    LoadPalette(gStandardMenuPalette, BG_PLTT_ID(15), PLTT_SIZE_4BPP);
+    LoadPalette(gStandardMenuPalette, BG_PLTT_ID(10), PLTT_SIZE_4BPP);
+    LoadPalette(sPal3Override, BG_PLTT_ID(15) + 6, sizeof(sPal3Override));
+    LoadPalette(sPal3Override, BG_PLTT_ID(13) + 6, sizeof(sPal3Override));
+    ListMenuLoadStdPalAt(BG_PLTT_ID(12), 1);
     for (i = 0; i < ARRAY_COUNT(sWindowTemplates) - 1; i++)
         FillWindowPixelBuffer(i, 0x00);
     PutWindowTilemap(WIN_LIST);
@@ -1543,12 +1544,12 @@ static void TMCase_Print(u8 windowId, u8 fontId, const u8 * str, u8 x, u8 y, u8 
 
 static void TMCase_SetWindowBorder1(u8 windowId)
 {
-    DrawStdFrameWithCustomTileAndPalette(windowId, FALSE, 0x5B, 0x0E);
+    DrawStdFrameWithCustomTileAndPalette(windowId, FALSE, 0x5B, 14);
 }
 
 static void TMCase_SetWindowBorder2(u8 windowId)
 {
-    DrawStdFrameWithCustomTileAndPalette(windowId, FALSE, 0x78, 0x0D);
+    DrawStdFrameWithCustomTileAndPalette(windowId, FALSE, 0x78, 13);
 }
 
 static void PrintMessageWithFollowupTask(u8 taskId, u8 fontId, const u8 * str, TaskFunc func)
@@ -1565,10 +1566,10 @@ static void PrintTitle(void)
 
 static void DrawMoveInfoLabels(void)
 {
-    BlitMoveInfoIcon(WIN_MOVE_INFO_LABELS, 19, 0, 0);
-    BlitMoveInfoIcon(WIN_MOVE_INFO_LABELS, 20, 0, 12);
-    BlitMoveInfoIcon(WIN_MOVE_INFO_LABELS, 21, 0, 24);
-    BlitMoveInfoIcon(WIN_MOVE_INFO_LABELS, 22, 0, 36);
+    BlitMenuInfoIcon(WIN_MOVE_INFO_LABELS, MENU_INFO_ICON_TYPE, 0, 0);
+    BlitMenuInfoIcon(WIN_MOVE_INFO_LABELS, MENU_INFO_ICON_POWER, 0, 12);
+    BlitMenuInfoIcon(WIN_MOVE_INFO_LABELS, MENU_INFO_ICON_ACCURACY, 0, 24);
+    BlitMenuInfoIcon(WIN_MOVE_INFO_LABELS, MENU_INFO_ICON_PP, 0, 36);
     CopyWindowToVram(WIN_MOVE_INFO_LABELS, COPYWIN_GFX);
 }
 
@@ -1589,7 +1590,7 @@ static void PrintMoveInfo(u16 itemId)
     {
         // Draw type icon
         move = ItemIdToBattleMoveId(itemId);
-        BlitMoveInfoIcon(WIN_MOVE_INFO, gBattleMoves[move].type + 1, 0, 0);
+        BlitMenuInfoIcon(WIN_MOVE_INFO, gBattleMoves[move].type + 1, 0, 0);
 
         // Print power
         if (gBattleMoves[move].power < 2)
@@ -1683,10 +1684,10 @@ static void SetDiscSpriteAnim(struct Sprite *sprite, u8 tmIdx)
 
 static void TintDiscpriteByType(u8 type)
 {
-    u8 palIndex = IndexOfSpritePaletteTag(TAG_DISC) << 4;
-    LoadPalette(sTMSpritePaletteBuffer + sTMSpritePaletteOffsetByType[type], 0x100 | palIndex, 0x20);
+    u8 palOffset = PLTT_ID(IndexOfSpritePaletteTag(TAG_DISC));
+    LoadPalette(sTMSpritePaletteBuffer + sTMSpritePaletteOffsetByType[type], OBJ_PLTT_OFFSET + palOffset, PLTT_SIZE_4BPP);
     if (sTMCaseStaticResources.menuType == TMCASE_POKEDUDE)
-        BlendPalettes(1 << (0x10 + palIndex), 4, RGB_BLACK);
+        BlendPalettes(1 << (16 + palOffset), 4, RGB_BLACK);
 }
 
 static void SetDiscSpritePosition(struct Sprite *sprite, u8 tmIdx)

@@ -14,7 +14,7 @@ struct ConnectionFlags
     u8 east:1;
 };
 
-struct BackupMapLayout VMap;
+COMMON_DATA struct BackupMapLayout VMap = {0};
 EWRAM_DATA u16 gBackupMapData[VIRTUAL_MAP_SIZE] = {};
 EWRAM_DATA struct MapHeader gMapHeader = {};
 EWRAM_DATA struct Camera gCamera = {};
@@ -24,15 +24,15 @@ EWRAM_DATA u8 gGlobalFieldTintMode = QL_TINT_NONE;
 static const struct ConnectionFlags sDummyConnectionFlags = {};
 
 static void InitMapLayoutData(struct MapHeader *);
-static void InitBackupMapLayoutData(u16 *, u16, u16);
+static void InitBackupMapLayoutData(const u16 *, u16, u16);
 static void InitBackupMapLayoutConnections(struct MapHeader *);
 static void FillSouthConnection(struct MapHeader const *, struct MapHeader const *, s32);
 static void FillNorthConnection(struct MapHeader const *, struct MapHeader const *, s32);
 static void FillWestConnection(struct MapHeader const *, struct MapHeader const *, s32);
 static void FillEastConnection(struct MapHeader const *, struct MapHeader const *, s32);
 static void LoadSavedMapView(void);
-static struct MapConnection *GetIncomingConnection(u8, s32, s32);
-static bool8 IsPosInIncomingConnectingMap(u8, s32, s32, struct MapConnection *);
+static const struct MapConnection *GetIncomingConnection(u8, s32, s32);
+static bool8 IsPosInIncomingConnectingMap(u8, s32, s32, const struct MapConnection *);
 static bool8 IsCoordInIncomingConnectingMap(s32, s32, s32, s32);
 static u32 GetAttributeByMetatileIdAndMapLayout(const struct MapLayout *, u16, u8);
 
@@ -82,7 +82,7 @@ static const u8 sMetatileAttrShifts[METATILE_ATTRIBUTE_COUNT] = {
     [METATILE_ATTRIBUTE_7]              = 31
 };
 
-const struct MapHeader * GetMapHeaderFromConnection(struct MapConnection * connection)
+const struct MapHeader * GetMapHeaderFromConnection(const struct MapConnection * connection)
 {
     return Overworld_GetMapHeaderByGroupAndId(connection->mapGroup, connection->mapNum);
 }
@@ -112,7 +112,7 @@ static void InitMapLayoutData(struct MapHeader * mapHeader)
     InitBackupMapLayoutConnections(mapHeader);
 }
 
-static void InitBackupMapLayoutData(u16 *map, u16 width, u16 height)
+static void InitBackupMapLayoutData(const u16 *map, u16 width, u16 height)
 {
     s32 y;
     u16 *dest = VMap.map;
@@ -129,7 +129,7 @@ static void InitBackupMapLayoutData(u16 *map, u16 width, u16 height)
 static void InitBackupMapLayoutConnections(struct MapHeader *mapHeader)
 {
     s32 count;
-    struct MapConnection *connection;
+    const struct MapConnection *connection;
     s32 i;
 
     gMapConnectionFlags = sDummyConnectionFlags;
@@ -173,7 +173,7 @@ static void InitBackupMapLayoutConnections(struct MapHeader *mapHeader)
 static void FillConnection(s32 x, s32 y, const struct MapHeader *connectedMapHeader, s32 x2, s32 y2, s32 width, s32 height)
 {
     s32 i;
-    u16 *src;
+    const u16 *src;
     u16 *dest;
     s32 mapWidth;
 
@@ -628,7 +628,7 @@ bool32 CanCameraMoveInDirection(s32 direction)
     return TRUE;
 }
 
-static void SetPositionFromConnection(struct MapConnection *connection, int direction, s32 x, s32 y)
+static void SetPositionFromConnection(const struct MapConnection *connection, int direction, s32 x, s32 y)
 {
     struct MapHeader const *mapHeader;
     mapHeader = GetMapHeaderFromConnection(connection);
@@ -656,7 +656,7 @@ static void SetPositionFromConnection(struct MapConnection *connection, int dire
 bool8 CameraMove(s32 x, s32 y)
 {
     s32 direction;
-    struct MapConnection *connection;
+    const struct MapConnection *connection;
     s32 old_x, old_y;
     gCamera.active = FALSE;
     direction = GetPostCameraMoveMapBorderId(x, y);
@@ -683,10 +683,10 @@ bool8 CameraMove(s32 x, s32 y)
     return gCamera.active;
 }
 
-struct MapConnection *GetIncomingConnection(u8 direction, s32 x, s32 y)
+const struct MapConnection *GetIncomingConnection(u8 direction, s32 x, s32 y)
 {
     s32 count;
-    struct MapConnection *connection;
+    const struct MapConnection *connection;
     const struct MapConnections *connections = gMapHeader.connections;
     s32 i;
 
@@ -705,7 +705,7 @@ struct MapConnection *GetIncomingConnection(u8 direction, s32 x, s32 y)
 
 }
 
-static bool8 IsPosInIncomingConnectingMap(u8 direction, s32 x, s32 y, struct MapConnection *connection)
+static bool8 IsPosInIncomingConnectingMap(u8 direction, s32 x, s32 y, const struct MapConnection *connection)
 {
     struct MapHeader const *mapHeader;
     mapHeader = GetMapHeaderFromConnection(connection);
@@ -742,7 +742,7 @@ static bool32 IsCoordInConnectingMap(s32 coord, s32 max)
     return FALSE;
 }
 
-static s32 IsPosInConnectingMap(struct MapConnection *connection, s32 x, s32 y)
+static s32 IsPosInConnectingMap(const struct MapConnection *connection, s32 x, s32 y)
 {
     struct MapHeader const *mapHeader;
     mapHeader = GetMapHeaderFromConnection(connection);
@@ -758,10 +758,10 @@ static s32 IsPosInConnectingMap(struct MapConnection *connection, s32 x, s32 y)
     return FALSE;
 }
 
-struct MapConnection *GetMapConnectionAtPos(s16 x, s16 y)
+const struct MapConnection *GetMapConnectionAtPos(s16 x, s16 y)
 {
     s32 count;
-    struct MapConnection *connection;
+    const struct MapConnection *connection;
     s32 i;
     u8 direction;
     if (!gMapHeader.connections)
@@ -845,19 +845,19 @@ static void ApplyGlobalTintToPaletteEntries(u16 offset, u16 size)
     case QL_TINT_NONE:
         return;
     case QL_TINT_GRAYSCALE:
-        TintPalette_GrayScale(gPlttBufferUnfaded + offset, size);
+        TintPalette_GrayScale(&gPlttBufferUnfaded[offset], size);
         break;
     case QL_TINT_SEPIA:
-        TintPalette_SepiaTone(gPlttBufferUnfaded + offset, size);
+        TintPalette_SepiaTone(&gPlttBufferUnfaded[offset], size);
         break;
     case QL_TINT_BACKUP_GRAYSCALE:
         QuestLog_BackUpPalette(offset, size);
-        TintPalette_GrayScale(gPlttBufferUnfaded + offset, size);
+        TintPalette_GrayScale(&gPlttBufferUnfaded[offset], size);
         break;
     default:
         return;
     }
-    CpuCopy16(gPlttBufferUnfaded + offset, gPlttBufferFaded + offset, size * sizeof(u16));
+    CpuCopy16(&gPlttBufferUnfaded[offset], &gPlttBufferFaded[offset], PLTT_SIZEOF(size));
 }
 
 void ApplyGlobalTintToPaletteSlot(u8 slot, u8 count)
@@ -867,19 +867,19 @@ void ApplyGlobalTintToPaletteSlot(u8 slot, u8 count)
     case QL_TINT_NONE:
         return;
     case QL_TINT_GRAYSCALE:
-        TintPalette_GrayScale(gPlttBufferUnfaded + slot * 16, count * 16);
+        TintPalette_GrayScale(&gPlttBufferUnfaded[BG_PLTT_ID(slot)], count * 16);
         break;
     case QL_TINT_SEPIA:
-        TintPalette_SepiaTone(gPlttBufferUnfaded + slot * 16, count * 16);
+        TintPalette_SepiaTone(&gPlttBufferUnfaded[BG_PLTT_ID(slot)], count * 16);
         break;
     case QL_TINT_BACKUP_GRAYSCALE:
-        QuestLog_BackUpPalette(slot * 16, count * 16);
-        TintPalette_GrayScale(gPlttBufferUnfaded + slot * 16, count * 16);
+        QuestLog_BackUpPalette(BG_PLTT_ID(slot), count * 16);
+        TintPalette_GrayScale(&gPlttBufferUnfaded[BG_PLTT_ID(slot)], count * 16);
         break;
     default:
         return;
     }
-    CpuFastCopy(gPlttBufferUnfaded + slot * 16, gPlttBufferFaded + slot * 16, count * 16 * sizeof(u16));
+    CpuFastCopy(&gPlttBufferUnfaded[BG_PLTT_ID(slot)], &gPlttBufferFaded[BG_PLTT_ID(slot)], count * PLTT_SIZE_4BPP);
 }
 
 static void LoadTilesetPalette(struct Tileset const *tileset, u16 destOffset, u16 size)
@@ -890,8 +890,8 @@ static void LoadTilesetPalette(struct Tileset const *tileset, u16 destOffset, u1
     {
         if (tileset->isSecondary == FALSE)
         {
-            LoadPalette(&black, destOffset, 2);
-            LoadPalette(tileset->palettes[0] + 1, destOffset + 1, size - 2);
+            LoadPalette(&black, destOffset, PLTT_SIZEOF(1));
+            LoadPalette(tileset->palettes[0] + 1, destOffset + 1, size - PLTT_SIZEOF(1));
             ApplyGlobalTintToPaletteEntries(destOffset + 1, (size - 2) >> 1);
         }
         else if (tileset->isSecondary == TRUE)
@@ -924,12 +924,12 @@ void CopySecondaryTilesetToVramUsingHeap(const struct MapLayout *mapLayout)
 
 static void LoadPrimaryTilesetPalette(const struct MapLayout *mapLayout)
 {
-    LoadTilesetPalette(mapLayout->primaryTileset, 0, NUM_PALS_IN_PRIMARY * 16 * 2);
+    LoadTilesetPalette(mapLayout->primaryTileset, BG_PLTT_ID(0), NUM_PALS_IN_PRIMARY * PLTT_SIZE_4BPP);
 }
 
 void LoadSecondaryTilesetPalette(const struct MapLayout *mapLayout)
 {
-    LoadTilesetPalette(mapLayout->secondaryTileset, NUM_PALS_IN_PRIMARY * 16, (NUM_PALS_TOTAL - NUM_PALS_IN_PRIMARY) * 16 * 2);
+    LoadTilesetPalette(mapLayout->secondaryTileset, BG_PLTT_ID(NUM_PALS_IN_PRIMARY), (NUM_PALS_TOTAL - NUM_PALS_IN_PRIMARY) * PLTT_SIZE_4BPP);
 }
 
 void CopyMapTilesetsToVram(struct MapLayout const *mapLayout)

@@ -27,6 +27,7 @@
 #include "battle_transition.h"
 #include "battle_controllers.h"
 #include "constants/battle_setup.h"
+#include "constants/event_objects.h"
 #include "constants/items.h"
 #include "constants/maps.h"
 #include "constants/songs.h"
@@ -219,14 +220,14 @@ static void CreateBattleStartTask(u8 transition, u16 song) // song == 0 means de
 
 static bool8 CheckSilphScopeInPokemonTower(u16 mapGroup, u16 mapNum)
 {
-    if (mapGroup == MAP_GROUP(POKEMON_TOWER_1F)
-     && (mapNum == MAP_NUM(POKEMON_TOWER_1F)
-      || mapNum == MAP_NUM(POKEMON_TOWER_2F)
-      || mapNum == MAP_NUM(POKEMON_TOWER_3F)
-      || mapNum == MAP_NUM(POKEMON_TOWER_4F)
-      || mapNum == MAP_NUM(POKEMON_TOWER_5F)
-      || mapNum == MAP_NUM(POKEMON_TOWER_6F)
-      || mapNum == MAP_NUM(POKEMON_TOWER_7F))
+    if (mapGroup == MAP_GROUP(MAP_POKEMON_TOWER_1F)
+     && (mapNum == MAP_NUM(MAP_POKEMON_TOWER_1F)
+      || mapNum == MAP_NUM(MAP_POKEMON_TOWER_2F)
+      || mapNum == MAP_NUM(MAP_POKEMON_TOWER_3F)
+      || mapNum == MAP_NUM(MAP_POKEMON_TOWER_4F)
+      || mapNum == MAP_NUM(MAP_POKEMON_TOWER_5F)
+      || mapNum == MAP_NUM(MAP_POKEMON_TOWER_6F)
+      || mapNum == MAP_NUM(MAP_POKEMON_TOWER_7F))
      && !(CheckBagHasItem(ITEM_SILPH_SCOPE, 1)))
         return TRUE;
     else
@@ -497,7 +498,7 @@ u8 BattleSetup_GetTerrainId(void)
             return BATTLE_TERRAIN_WATER;
         return BATTLE_TERRAIN_PLAIN;
     }
-    if (MetatileBehavior_IsDeepSemiDeepOrSplashingWater(tileBehavior))
+    if (MetatileBehavior_IsDeepWaterTerrain(tileBehavior))
         return BATTLE_TERRAIN_WATER;
     if (MetatileBehavior_IsSurfable(tileBehavior))
         return BATTLE_TERRAIN_POND;
@@ -545,7 +546,7 @@ static u16 GetSumOfPlayerPartyLevel(u8 numMons)
 
     for (i = 0; i < PARTY_SIZE; ++i)
     {
-        u32 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2);
+        u32 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES_OR_EGG);
 
         if (species != SPECIES_EGG && species != SPECIES_NONE && GetMonData(&gPlayerParty[i], MON_DATA_HP) != 0)
         {
@@ -709,7 +710,7 @@ static void InitTrainerBattleVariables(void)
 {
     sTrainerBattleMode = 0;
     gTrainerBattleOpponent_A = 0;
-    sTrainerObjectEventLocalId = 0;
+    sTrainerObjectEventLocalId = LOCALID_NONE;
     sTrainerAIntroSpeech = NULL;
     sTrainerADefeatSpeech = NULL;
     sTrainerVictorySpeech = NULL;
@@ -776,7 +777,7 @@ static void TrainerBattleLoadArgs(const struct TrainerBattleParameter *specs, co
 
 static void SetMapVarsToTrainer(void)
 {
-    if (sTrainerObjectEventLocalId != 0)
+    if (sTrainerObjectEventLocalId != LOCALID_NONE)
     {
         gSpecialVar_LastTalked = sTrainerObjectEventLocalId;
         gSelectedObjectEvent = GetObjectEventIdByLocalIdAndMap(sTrainerObjectEventLocalId, gSaveBlock1Ptr->location.mapNum, gSaveBlock1Ptr->location.mapGroup);
@@ -808,7 +809,7 @@ const u8 *BattleSetup_ConfigureTrainerBattle(const u8 *data)
         return EventScript_TryDoDoubleTrainerBattle;
     case TRAINER_BATTLE_REMATCH_DOUBLE:
 #if ENGLISH
-        FinishRecordingQuestLogScene();
+        QL_FinishRecordingScene();
 #endif
         TrainerBattleLoadArgs(sDoubleBattleParams, data);
         SetMapVarsToTrainer();
@@ -816,7 +817,7 @@ const u8 *BattleSetup_ConfigureTrainerBattle(const u8 *data)
         return EventScript_TryDoDoubleRematchBattle;
     case TRAINER_BATTLE_REMATCH:
 #if ENGLISH
-        FinishRecordingQuestLogScene();
+        QL_FinishRecordingScene();
 #endif
         TrainerBattleLoadArgs(sOrdinaryBattleParams, data);
         SetMapVarsToTrainer();

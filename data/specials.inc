@@ -227,12 +227,12 @@ gSpecials::
 	def_special GetElevatorFloor
 	def_special NullFieldSpecial  @ Lottery Corner specials
 	def_special NullFieldSpecial
-	def_special SelectMoveTutorMon
+	def_special ChooseMonForMoveRelearner
 	def_special SelectMoveDeleterMove
 	def_special MoveDeleterForgetMove
 	def_special BufferMoveDeleterNicknameAndMove
 	def_special GetNumMovesSelectedMonHas
-	def_special DisplayMoveTutorMenu
+	def_special TeachMoveRelearnerMove
 	def_special NullFieldSpecial  @ Hoenn Cycling Road specials
 	def_special NullFieldSpecial
 	def_special GetPlayerAvatarBike
@@ -451,5 +451,5 @@ gSpecials::
 	def_special InitElevatorFloorSelectMenuPos
 	def_special UpdateLoreleiDollCollection
 	def_special LoopWingFlapSound
-	def_special CreateEventLegalEnemyMon
+	def_special CreateEnemyEventMon
 gSpecialsEnd::

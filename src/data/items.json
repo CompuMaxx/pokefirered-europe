@@ -3317,7 +3317,7 @@
       "spanish": "CAMP. ALIVIO",
       "itemId": "ITEM_SOOTHE_BELL",
       "price": 100,
-      "holdEffect": "HOLD_EFFECT_HAPPINESS_UP",
+      "holdEffect": "HOLD_EFFECT_FRIENDSHIP_UP",
       "holdEffectParam": 0,
       "description_english": "An item to be held by a POKéMON.\\nA bell with a comforting chime that\\nmakes the holder calm and friendly.",
       "description_spanish": "Al llevarla, calma los ánimos\\ny fomenta la amistad.",

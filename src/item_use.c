@@ -714,11 +714,11 @@ void FieldUseFunc_VsSeeker(u8 taskId)
     if ((gMapHeader.mapType != MAP_TYPE_ROUTE
       && gMapHeader.mapType != MAP_TYPE_TOWN
       && gMapHeader.mapType != MAP_TYPE_CITY)
-     || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(VIRIDIAN_FOREST)
-      && (gSaveBlock1Ptr->location.mapNum == MAP_NUM(VIRIDIAN_FOREST)
-       || gSaveBlock1Ptr->location.mapNum == MAP_NUM(MT_EMBER_EXTERIOR)
-       || gSaveBlock1Ptr->location.mapNum == MAP_NUM(THREE_ISLAND_BERRY_FOREST)
-       || gSaveBlock1Ptr->location.mapNum == MAP_NUM(SIX_ISLAND_PATTERN_BUSH))))
+     || (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_VIRIDIAN_FOREST)
+      && (gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_VIRIDIAN_FOREST)
+       || gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_MT_EMBER_EXTERIOR)
+       || gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_THREE_ISLAND_BERRY_FOREST)
+       || gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_SIX_ISLAND_PATTERN_BUSH))))
     {
         PrintNotTheTimeToUseThat(taskId, gTasks[taskId].data[3]);
     }
@@ -912,20 +912,14 @@ void FieldUseFunc_OakStopsYou(u8 taskId)
 
 void ItemUse_SetQuestLogEvent(u8 eventId, struct Pokemon *pokemon, u16 itemId, u16 param)
 {
-    struct UnkStruct_ItemUseQuestLog
-    {
-        u16 itemId;
-        u16 unk2;
-        u16 species;
-        u16 param;
-    } *questLog = Alloc(sizeof(*questLog));
+    struct QuestLogEvent_Item *data = Alloc(sizeof(*data));
 
-    questLog->itemId = itemId;
-    questLog->param = param;
+    data->itemId = itemId;
+    data->itemParam = param;
     if (pokemon != NULL)
-        questLog->species = GetMonData(pokemon, MON_DATA_SPECIES2);
+        data->species = GetMonData(pokemon, MON_DATA_SPECIES_OR_EGG);
     else
-        questLog->species = 0xFFFF;
-    SetQuestLogEvent(eventId, (void *)questLog);
-    Free(questLog);
+        data->species = 0xFFFF;
+    SetQuestLogEvent(eventId, (void *)data);
+    Free(data);
 }

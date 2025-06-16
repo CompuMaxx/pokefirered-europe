@@ -394,15 +394,15 @@ static void Task_RushInjuredPokemonToCenter(u8 taskId)
     case 0:
         windowId = AddWindow(&sWindowTemplate_WhiteoutText);
         gTasks[taskId].tWindowId = windowId;
-        Menu_LoadStdPalAt(0xF0);
+        Menu_LoadStdPalAt(BG_PLTT_ID(15));
         FillWindowPixelBuffer(windowId, PIXEL_FILL(0));
         PutWindowTilemap(windowId);
         CopyWindowToVram(windowId, COPYWIN_FULL);
 
         // Scene changes if last heal location was the player's house
-        loc = GetHealLocation(SPAWN_PALLET_TOWN);
-        if (gSaveBlock1Ptr->lastHealLocation.mapGroup == loc->group
-         && gSaveBlock1Ptr->lastHealLocation.mapNum == loc->map
+        loc = GetHealLocation(HEAL_LOCATION_PALLET_TOWN);
+        if (gSaveBlock1Ptr->lastHealLocation.mapGroup == loc->mapGroup
+         && gSaveBlock1Ptr->lastHealLocation.mapNum == loc->mapNum
          && gSaveBlock1Ptr->lastHealLocation.warpId == WARP_ID_NONE
          && gSaveBlock1Ptr->lastHealLocation.x == loc->x
          && gSaveBlock1Ptr->lastHealLocation.y == loc->y)

@@ -96,7 +96,7 @@ static const struct WindowTemplate sOptionMenuWinTemplates[] =
         .tilemapTop = 0,
         .width = 30,
         .height = 2,
-        .paletteNum = 0xF,
+        .paletteNum = 15,
         .baseBlock = 0x16e
     },
     DUMMY_WIN_TEMPLATE
@@ -133,7 +133,7 @@ static const struct BgTemplate sOptionMenuBgTemplates[] =
    },
 };
 
-static const u16 sOptionMenuPalette[] = INCBIN_U16("graphics/misc/unk_83cc2e4.gbapal");
+static const u16 sOptionMenuPalette[] = INCBIN_U16("graphics/misc/option_menu.gbapal");
 static const u16 sOptionMenuItemCounts[MENUITEM_COUNT] = {3, 2, 2, 2, 3, 10, 0};
 
 static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
@@ -343,14 +343,14 @@ static bool8 LoadOptionMenuPalette(void)
         LoadBgTiles(1, GetUserWindowGraphics(sOptionMenuPtr->option[MENUITEM_FRAMETYPE])->tiles, 0x120, 0x1AA);
         break;
     case 1:
-        LoadPalette(GetUserWindowGraphics(sOptionMenuPtr->option[MENUITEM_FRAMETYPE])->palette, 0x20, 0x20);
+        LoadPalette(GetUserWindowGraphics(sOptionMenuPtr->option[MENUITEM_FRAMETYPE])->palette, BG_PLTT_ID(2), PLTT_SIZE_4BPP);
         break;
     case 2:
-        LoadPalette(sOptionMenuPalette, 0x10, 0x20);
-        LoadPalette(GetTextWindowPalette(2), 0xF0, 0x20);
+        LoadPalette(sOptionMenuPalette, BG_PLTT_ID(1), sizeof(sOptionMenuPalette));
+        LoadPalette(GetTextWindowPalette(2), BG_PLTT_ID(15), PLTT_SIZE_4BPP);
         break;
     case 3:
-        LoadStdWindowGfxOnBg(1, 0x1B3, 0x30);
+        LoadStdWindowGfxOnBg(1, 0x1B3, BG_PLTT_ID(3));
         break;
     default:
         return TRUE;
@@ -385,7 +385,7 @@ static void Task_OptionMenu(u8 taskId)
             break;
         case 2:
             LoadBgTiles(1, GetUserWindowGraphics(sOptionMenuPtr->option[MENUITEM_FRAMETYPE])->tiles, 0x120, 0x1AA);
-            LoadPalette(GetUserWindowGraphics(sOptionMenuPtr->option[MENUITEM_FRAMETYPE])->palette, 0x20, 0x20);
+            LoadPalette(GetUserWindowGraphics(sOptionMenuPtr->option[MENUITEM_FRAMETYPE])->palette, BG_PLTT_ID(2), PLTT_SIZE_4BPP);
 #if ENGLISH
             BufferOptionMenuString(sOptionMenuPtr->cursorPos);
 #elif SPANISH

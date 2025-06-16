@@ -14,4 +14,3 @@
 #include "data/text/teachy_tv_es.h"
 #include "data/text/strings_3_es.h"
 #endif
-

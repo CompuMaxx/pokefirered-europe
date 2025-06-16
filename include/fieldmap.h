@@ -12,6 +12,8 @@
 #define MAX_MAP_DATA_SIZE 0x2800
 #define VIRTUAL_MAP_SIZE (MAX_MAP_DATA_SIZE)
 
+#define NUM_TILES_PER_METATILE 8
+
 // Map coordinates are offset by 7 when using the map
 // buffer because it needs to load sufficient border
 // metatiles to fill the player's view (the player has
@@ -33,8 +35,8 @@ void GetCameraCoords(u16 *, u16 *);
 bool8 MapGridGetCollisionAt(s32, s32);
 s32 GetMapBorderIdAt(s32, s32);
 bool32 CanCameraMoveInDirection(s32);
-const struct MapHeader * GetMapHeaderFromConnection(struct MapConnection * connection);
-struct MapConnection * GetMapConnectionAtPos(s16 x, s16 y);
+const struct MapHeader * GetMapHeaderFromConnection(const struct MapConnection * connection);
+const struct MapConnection * GetMapConnectionAtPos(s16 x, s16 y);
 void ApplyGlobalTintToPaletteSlot(u8 slot, u8 count);
 void SaveMapView(void);
 u32 ExtractMetatileAttribute(u32 attributes, u8 attributeType);

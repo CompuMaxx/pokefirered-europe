@@ -3,6 +3,7 @@
 #include "gba/flash_internal.h"
 #include "load_save.h"
 #include "pokemon.h"
+#include "pokemon_storage_system.h"
 #include "random.h"
 #include "item.h"
 #include "save_location.h"
@@ -36,10 +37,10 @@ EWRAM_DATA struct LoadedSaveData gLoadedSaveData = {0};
 EWRAM_DATA u32 gLastEncryptionKey = 0;
 
 // IWRAM common
-bool32 gFlashMemoryPresent;
-struct SaveBlock1 *gSaveBlock1Ptr;
-struct SaveBlock2 *gSaveBlock2Ptr;
-struct PokemonStorage *gPokemonStoragePtr;
+COMMON_DATA bool32 gFlashMemoryPresent = 0;
+COMMON_DATA struct SaveBlock1 *gSaveBlock1Ptr = NULL;
+COMMON_DATA struct SaveBlock2 *gSaveBlock2Ptr = NULL;
+COMMON_DATA struct PokemonStorage *gPokemonStoragePtr = NULL;
 
 void CheckForFlashMemory(void)
 {
@@ -77,7 +78,7 @@ void SetSaveBlocksPointers(void)
     gPokemonStoragePtr = (void *)(&gPokemonStorage) + offset;
 
     SetBagPocketsPointers();
-    SetQuestLogRecordAndPlaybackPointers(oldSave);
+    QL_AddASLROffset(oldSave);
 }
 
 void MoveSaveBlocks_ResetHeap(void)
