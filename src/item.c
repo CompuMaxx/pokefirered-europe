@@ -20,6 +20,8 @@ void SortAndCompactBagPocket(struct BagPocket * pocket);
 #include "data/items_en.h"
 #elif SPANISH
 #include "data/items_es.h"
+#elif ITALIAN //TODO: create header file
+#include "data/items_es.h"
 #endif
 
 u16 GetBagItemQuantity(u16 * ptr)
@@ -87,7 +89,7 @@ void CopyItemName(u16 itemId, u8 * dest)
         StringCopy(dest, ItemId_GetName(itemId));
     }
 }
-#elif SPANISH
+#else //#elif SPANISH
 void CopyItemName(u16 itemId, u8 * dest)
 {
     StringCopy(dest, ItemId_GetName(itemId));

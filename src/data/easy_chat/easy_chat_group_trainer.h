@@ -1,5 +1,5 @@
 
-#if ENGLISH
+#if ENGLISH || ITALIAN //TEST
 static const u8 sEasyChatWord_IChooseYou[] = _("I CHOOSE YOU");
 static const u8 sEasyChatWord_Gotcha[] = _("GOTCHA");
 static const u8 sEasyChatWord_Trade[] = _("TRADE");

@@ -1,5 +1,5 @@
 
-#if ENGLISH
+#if ENGLISH || ITALIAN //TEST
 static const u8 sEasyChatWord_KthxBye[] = _("KTHX, BYE.");
 static const u8 sEasyChatWord_YesSirExcl[] = _("YES, SIR!");
 static const u8 sEasyChatWord_AvantGarde[] = _("AVANT GARDE");

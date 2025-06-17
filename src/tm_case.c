@@ -944,7 +944,7 @@ static void ReturnToList(u8 taskId)
 static void Task_SelectedTMHM_Field(u8 taskId)
 {
     u8 * strbuf;
-#if SPANISH
+#if !ENGLISH //#if SPANISH
     u8 txt[64];
     u32 y;
     s32 i;
@@ -994,7 +994,7 @@ static void Task_SelectedTMHM_Field(u8 taskId)
         CopyWindowToVram(WIN_SELECTED_MSG, COPYWIN_GFX);
     }
 
-#elif SPANISH
+#else //#elif SPANISH
     GetTMNumberAndMoveString(txt, gSpecialVar_ItemId);
     j = 0;
     i = 0;

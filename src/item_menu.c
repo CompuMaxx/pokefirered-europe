@@ -117,7 +117,7 @@ static void Task_ItemMenuAction_Use(u8 taskId);
 static void Task_ItemMenuAction_Toss(u8 taskId);
 #if ENGLISH
 static void Task_ConfirmTossItems(u8 taskId);
-#elif SPANISH
+#else //#elif SPANISH
 static void Task_ConfirmTossItems(u16 itemId, u8 taskId);
 #endif
 static void Task_TossItem_No(u8 taskId);
@@ -1275,7 +1275,7 @@ static void Task_MoveItemInPocket_HandleInput(u8 taskId)
         break;
     }
 }
-#elif SPANISH
+#else //#elif SPANISH
 static void Task_MoveItemInPocket_HandleInput(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -1530,7 +1530,7 @@ static void Task_ItemMenuAction_Toss(u8 taskId)
     {
 #if ENGLISH
         Task_ConfirmTossItems(taskId);
-#elif SPANISH
+#else //#elif SPANISH
         Task_ConfirmTossItems(data[1], taskId);
 #endif
     }
@@ -1550,7 +1550,7 @@ static void Task_ConfirmTossItems(u8 taskId)
     BagPrintTextOnWindow(ShowBagWindow(6, 1), FONT_NORMAL, gStringVar4, 0, 2, 1, 0, 0, 1);
     BagCreateYesNoMenuBottomRight(taskId, &sYesNoMenu_Toss);
 }
-#elif SPANISH
+#else //#elif SPANISH
 static void Task_ConfirmTossItems(u16 itemId, u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -1589,7 +1589,7 @@ static void Task_SelectQuantityToToss(u8 taskId)
         BagDestroyPocketScrollArrowPair();
 #if ENGLISH
         Task_ConfirmTossItems(taskId);
-#elif SPANISH
+#else //#elif SPANISH
         Task_ConfirmTossItems(data[1], taskId);
 #endif
     }

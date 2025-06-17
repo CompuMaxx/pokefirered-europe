@@ -1,7 +1,7 @@
 #include "easy_chat.h"
 #include "constants/easy_chat.h"
 
-#if ENGLISH
+#if ENGLISH || ITALIAN //TEST
 static const u16 sEasyChatWordsByLetter_Others[] = {
     EC_WORD_EXCL,
     EC_WORD_EXCL_EXCL,

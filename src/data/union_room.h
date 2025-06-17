@@ -172,6 +172,10 @@ static const struct WindowTemplate sWindowTemplate_InviteToActivity = {
     .tilemapLeft = 18,
     .tilemapTop = 6,
     .width = 10,
+#elif ITALIAN
+    .tilemapLeft = 20,
+    .tilemapTop = 6,
+    .width = 8,
 #endif
     .height = 7,
     .paletteNum = 15,

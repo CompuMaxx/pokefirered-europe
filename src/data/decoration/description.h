@@ -1,4 +1,4 @@
-#if ENGLISH
+#if ENGLISH || ITALIAN //TEST
 const u8 DecorDesc_SMALL_DESK[] = _(
     "A small desk built\n"
         "for one.");

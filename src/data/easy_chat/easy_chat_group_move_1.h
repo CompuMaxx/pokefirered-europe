@@ -1,6 +1,6 @@
 #include "constants/moves.h"
 
-#if ENGLISH
+#if ENGLISH || ITALIAN //TEST
 static const u16 sEasyChatGroup_Move1[] = {
     MOVE_ABSORB,
     MOVE_AEROBLAST,

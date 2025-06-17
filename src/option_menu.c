@@ -65,7 +65,7 @@ static void PrintOptionMenuHeader(void);
 static void DrawOptionMenuBg(void);
 static void LoadOptionMenuItemNames(void);
 static void UpdateSettingSelectionDisplay(u16 selection);
-#if SPANISH
+#if SPANISH || ITALIAN //test
 static void es_sub_8088B2C(void);
 #endif
 
@@ -388,7 +388,7 @@ static void Task_OptionMenu(u8 taskId)
             LoadPalette(GetUserWindowGraphics(sOptionMenuPtr->option[MENUITEM_FRAMETYPE])->palette, BG_PLTT_ID(2), PLTT_SIZE_4BPP);
 #if ENGLISH
             BufferOptionMenuString(sOptionMenuPtr->cursorPos);
-#elif SPANISH
+#else //#elif SPANISH
             es_sub_8088B2C();
 #endif
             break;
@@ -398,7 +398,7 @@ static void Task_OptionMenu(u8 taskId)
         case 4:
 #if ENGLISH
             BufferOptionMenuString(sOptionMenuPtr->cursorPos);
-#elif SPANISH
+#else //#elif SPANISH
             es_sub_8088B2C();
 #endif
             break;
@@ -516,7 +516,7 @@ static void BufferOptionMenuString(u8 selection)
     CopyWindowToVram(1, COPYWIN_FULL);
 }
 
-#if SPANISH
+#if SPANISH || ITALIAN //test
 static void es_sub_8088B2C(void)
 {
     u8 str[20];

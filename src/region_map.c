@@ -466,7 +466,7 @@ static const struct BgTemplate sRegionMapBgTemplates[] = {
     #define WIN_TOPBAR_LEFT_WIDTH       5
     #define WIN_TOPBAR_RIGHT_WIDTH      5
     #define WIN_TOPBAR_RIGHT_BASEBLOCK  0x15a
-#elif SPANISH
+#elif SPANISH || ITALIAN //test
     #define WIN_TOPBAR_LEFT_WIDTH       6
     #define WIN_TOPBAR_RIGHT_WIDTH      6
     #define WIN_TOPBAR_RIGHT_BASEBLOCK  0x15c
@@ -1847,7 +1847,7 @@ static bool8 HandleSwitchMapInput(void)
     SetGpuWindowDims(1, &data);
     return FALSE;
 }
-#elif SPANISH
+#else //#elif SPANISH
 NAKED
 static bool8 HandleSwitchMapInput(void)
 {
@@ -3201,7 +3201,7 @@ static u16 GetMapsecUnderCursor(void)
 #if ENGLISH
     if ((mapsec == MAPSEC_NAVEL_ROCK || mapsec == MAPSEC_BIRTH_ISLAND) && !FlagGet(FLAG_WORLD_MAP_NAVEL_ROCK_EXTERIOR))
         mapsec = MAPSEC_NONE;
-#elif SPANISH
+#else //#elif SPANISH
     if (mapsec == MAPSEC_NAVEL_ROCK)
     {
         if (!FlagGet(FLAG_WORLD_MAP_NAVEL_ROCK_EXTERIOR))

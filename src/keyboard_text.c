@@ -5,6 +5,8 @@
 const u8 gText_EasyChatKeyboard_ABCDEFothers[] = _("{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 26}others");
 #elif SPANISH
 const u8 gText_EasyChatKeyboard_ABCDEFothers[] = _("{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 26}otros");
+#elif ITALIAN //TODO: translate
+const u8 gText_EasyChatKeyboard_ABCDEFothers[] = _("{CLEAR 11}A{CLEAR 6}B{CLEAR 6}C{CLEAR 26}D{CLEAR 6}E{CLEAR 6}F{CLEAR 26}others");
 #endif
 const u8 gText_EasyChatKeyboard_GHIJKL[] = _("{CLEAR 11}G{CLEAR 6}H{CLEAR 6}I{CLEAR 26}J{CLEAR 6}K{CLEAR 6}L");
 const u8 gText_EasyChatKeyboard_MNOPQRS[] = _("{CLEAR 11}M{CLEAR 6}N{CLEAR 6}O{CLEAR 26}P{CLEAR 6}Q{CLEAR 6}R{CLEAR 6}S{CLEAR 26} ");
@@ -67,6 +69,27 @@ const u8 gText_UnionRoomChatKeyboard_01234Lower[] = _("áéíóú");
 const u8 gText_UnionRoomChatKeyboard_56789Lower[] = _("01234");
 const u8 gText_UnionRoomChatKeyboard_PunctuationLower[] = _("56789");
 const u8 gText_UnionRoomChatKeyboard_SymbolsLower[] = _("¡!¿? ");
+#elif ITALIAN
+const u8 gText_UnionRoomChatKeyboard_ABCDE[] = _("ABCDE");
+const u8 gText_UnionRoomChatKeyboard_FGHIJ[] = _("FGHIJ");
+const u8 gText_UnionRoomChatKeyboard_KLMNO[] = _("KLMNÑ");
+const u8 gText_UnionRoomChatKeyboard_PQRST[] = _("OPQRS");
+const u8 gText_UnionRoomChatKeyboard_UVWXY[] = _("TUVWX");
+const u8 gText_UnionRoomChatKeyboard_Z[] = _("YZ.,Ü");
+const u8 gText_UnionRoomChatKeyboard_01234Upper[] = _("ÁÉÍÓÚ");
+const u8 gText_UnionRoomChatKeyboard_56789Upper[] = _("01234");
+const u8 gText_UnionRoomChatKeyboard_PunctuationUpper[] = _("56789");
+const u8 gText_UnionRoomChatKeyboard_SymbolsUpper[] = _("¡!¿? ");
+const u8 gText_UnionRoomChatKeyboard_abcde[] = _("abcde");
+const u8 gText_UnionRoomChatKeyboard_fghij[] = _("fghij");
+const u8 gText_UnionRoomChatKeyboard_klmno[] = _("klmnñ");
+const u8 gText_UnionRoomChatKeyboard_pqrst[] = _("opqrs");
+const u8 gText_UnionRoomChatKeyboard_uvwxy[] = _("tuvwx");
+const u8 gText_UnionRoomChatKeyboard_z[] = _("yz.,ü");
+const u8 gText_UnionRoomChatKeyboard_01234Lower[] = _("áéíóú");
+const u8 gText_UnionRoomChatKeyboard_56789Lower[] = _("01234");
+const u8 gText_UnionRoomChatKeyboard_PunctuationLower[] = _("56789");
+const u8 gText_UnionRoomChatKeyboard_SymbolsLower[] = _("¡!¿? ");
 #endif
 
 const u8 gText_EmptyTextInput1[] = _("");
@@ -86,7 +109,7 @@ const u8 gText_UnionRoomChatKeyboard_Emoji4[] = _("♂♀{EMOJI_LEFT_PAREN}{EMOJ
 const u8 gText_UnionRoomChatKeyboard_Emoji5[] = _("{EMOJI_LEFT_EYE}{EMOJI_RIGHT_EYE}{EMOJI_SMALLWHEEL}{EMOJI_SPHERE}{EMOJI_IRRITATED}");
 #if ENGLISH
 const u8 gText_UnionRoomChatKeyboard_Emoji6[] = _("{EMOJI_AT}{EMOJI_BIGWHEEL}{EMOJI_TONGUE}{EMOJI_ACUTE}{EMOJI_GRAVE}");
-#elif SPANISH
+#else //#elif SPANISH
 const u8 gText_UnionRoomChatKeyboard_Emoji6[] = _("{EMOJI_SPIRAL}{EMOJI_BIGWHEEL}{EMOJI_TONGUE}{EMOJI_ACUTE}{EMOJI_GRAVE}");
 #endif
 const u8 gText_UnionRoomChatKeyboard_Emoji7[] = _("{EMOJI_RIGHT_FIST}{EMOJI_LEFT_FIST}{EMOJI_TRIANGLE_OUTLINE}{EMOJI_UNION}{EMOJI_GREATER_THAN}");
@@ -94,6 +117,6 @@ const u8 gText_UnionRoomChatKeyboard_Emoji8[] = _("{EMOJI_CIRCLE}{EMOJI_TRIANGLE
 const u8 gText_UnionRoomChatKeyboard_Emoji9[] = _("{EMOJI_NOTE}{EMOJI_PLUS}{EMOJI_MINUS}{EMOJI_EQUALS}{EMOJI_PIPE}");
 #if ENGLISH
 const u8 gText_UnionRoomChatKeyboard_Emoji10[] = _("{EMOJI_HIGHBAR}{EMOJI_UNDERSCORE};: ");
-#elif SPANISH
+#else //#elif SPANISH
 const u8 gText_UnionRoomChatKeyboard_Emoji10[] = _("{EMOJI_HIGHBAR}{EMOJI_UNDERSCORE}{EMOJI_SEMICOLON}: ");
 #endif

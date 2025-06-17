@@ -875,7 +875,7 @@ static const u16 sBg1EndGraphic[] =
     0xD1, 0xD2, 0xD3, 0xD4, 0xD5, 0xD6, 0xD7, 0xD8,
     0xE1, 0xE2, 0xE3, 0xE4, 0xE5, 0xE6, 0xE7, 0xE8,
 };
-#elif SPANISH
+#else //#elif SPANISH
 static const u16 sBg1EndGraphic[] = 
 {
     0xD3, 0xD4, 0xD5, 0xD6,
@@ -1031,7 +1031,7 @@ static void TTVcmd_DudeMoveLeft(u8 taskId)
 
 #if ENGLISH
     #define RECTWIDTH 8
-#elif SPANISH
+#else //#elif SPANISH
     #define RECTWIDTH 4
 #endif
 

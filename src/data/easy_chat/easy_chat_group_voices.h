@@ -1,5 +1,5 @@
 
-#if ENGLISH
+#if ENGLISH || ITALIAN //TEST
 static const u8 sEasyChatWord_Excl[] = _("!");
 static const u8 sEasyChatWord_ExclExcl[] = _("!!");
 static const u8 sEasyChatWord_QuesExcl[] = _("?!");

@@ -400,7 +400,7 @@ void PSA_PrintMessage(u8 messageId)
         GetMonData(pokemon, MON_DATA_NICKNAME, str);
         StringAppend(scene->textBuf, gText_Period);
         break;
-    #elif SPANISH
+    #else //#elif SPANISH
         StringCopy(gStringVar2, ItemId_GetName(itemId));
         GetMonData(pokemon, MON_DATA_NICKNAME, gStringVar1);
         StringExpandPlaceholders(scene->textBuf, gText_WasUsedOn);
@@ -416,7 +416,7 @@ void PSA_PrintMessage(u8 messageId)
         str = ConvertIntToDecimalStringN(str, level, STR_CONV_MODE_LEFT_ALIGN, level < MAX_LEVEL ? 2 : 3);
         StringAppend(str, gText_Period2);
         break;
-    #elif SPANISH
+    #else //#elif SPANISH
         level = GetMonData(pokemon, MON_DATA_LEVEL);
         GetMonData(pokemon, MON_DATA_NICKNAME, gStringVar1);
         if (level < MAX_LEVEL)

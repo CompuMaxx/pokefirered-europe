@@ -1709,7 +1709,7 @@ static void DrawMonTextEntryBox(void)
 #if ENGLISH
     StringCopy(buffer, gSpeciesNames[sNamingScreen->monSpecies]);
     StringAppendN(buffer, sNamingScreen->template->title, 15);
-#elif SPANISH
+#else //#elif SPANISH
     StringCopy(gStringVar1, gSpeciesNames[sNamingScreen->monSpecies]);
     StringExpandPlaceholders(buffer, sNamingScreen->template->title);
 #endif

@@ -97,6 +97,12 @@ const struct Berry gBerries[] = {
             .name = _("CHERI"),
         #elif SPANISH
             .name = _("ZREZA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 20,
@@ -119,6 +125,12 @@ const struct Berry gBerries[] = {
             .name = _("CHESTO"),
         #elif SPANISH
             .name = _("ATANIA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SUPER_HARD,
             .size = 80,
@@ -141,6 +153,12 @@ const struct Berry gBerries[] = {
             .name = _("PECHA"),
         #elif SPANISH
             .name = _("MELOC"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_SOFT,
             .size = 40,
@@ -163,6 +181,12 @@ const struct Berry gBerries[] = {
             .name = _("RAWST"),
         #elif SPANISH
             .name = _("SAFRE"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 32,
@@ -185,6 +209,12 @@ const struct Berry gBerries[] = {
             .name = _("ASPEAR"),
         #elif SPANISH
             .name = _("PERASI"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SUPER_HARD,
             .size = 50,
@@ -207,6 +237,12 @@ const struct Berry gBerries[] = {
             .name = _("LEPPA"),
         #elif SPANISH
             .name = _("ZANAMA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_HARD,
             .size = 28,
@@ -229,6 +265,12 @@ const struct Berry gBerries[] = {
             .name = _("ORAN"),
         #elif SPANISH
             .name = _("ARANJA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SUPER_HARD,
             .size = 35,
@@ -251,6 +293,12 @@ const struct Berry gBerries[] = {
             .name = _("PERSIM"),
         #elif SPANISH
             .name = _("CAQUIC"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 47,
@@ -273,6 +321,12 @@ const struct Berry gBerries[] = {
             .name = _("LUM"),
         #elif SPANISH
             .name = _("ZIUELA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SUPER_HARD,
             .size = 34,
@@ -295,6 +349,12 @@ const struct Berry gBerries[] = {
             .name = _("SITRUS"),
         #elif SPANISH
             .name = _("ZIDRA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_HARD,
             .size = 95,
@@ -317,6 +377,12 @@ const struct Berry gBerries[] = {
             .name = _("FIGY"),
         #elif SPANISH
             .name = _("HIGOG"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 100,
@@ -339,6 +405,12 @@ const struct Berry gBerries[] = {
             .name = _("WIKI"),
         #elif SPANISH
             .name = _("WIKI"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 115,
@@ -361,6 +433,12 @@ const struct Berry gBerries[] = {
             .name = _("MAGO"),
         #elif SPANISH
             .name = _("ANGO"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 126,
@@ -383,6 +461,12 @@ const struct Berry gBerries[] = {
             .name = _("AGUAV"),
         #elif SPANISH
             .name = _("GUAYA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SUPER_HARD,
             .size = 64,
@@ -405,6 +489,12 @@ const struct Berry gBerries[] = {
             .name = _("IAPAPA"),
         #elif SPANISH
             .name = _("PABAYA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 223,
@@ -427,6 +517,12 @@ const struct Berry gBerries[] = {
             .name = _("RAZZ"),
         #elif SPANISH
             .name = _("FRAMBU"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_HARD,
             .size = 120,
@@ -449,6 +545,12 @@ const struct Berry gBerries[] = {
             .name = _("BLUK"),
         #elif SPANISH
             .name = _("ORAM"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 108,
@@ -471,6 +573,12 @@ const struct Berry gBerries[] = {
             .name = _("NANAB"),
         #elif SPANISH
             .name = _("LATANO"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_HARD,
             .size = 77,
@@ -493,6 +601,12 @@ const struct Berry gBerries[] = {
             .name = _("WEPEAR"),
         #elif SPANISH
             .name = _("PERAGU"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SUPER_HARD,
             .size = 74,
@@ -515,6 +629,12 @@ const struct Berry gBerries[] = {
             .name = _("PINAP"),
         #elif SPANISH
             .name = _("PINIA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 80,
@@ -537,6 +657,12 @@ const struct Berry gBerries[] = {
             .name = _("POMEG"),
         #elif SPANISH
             .name = _("GRANA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_HARD,
             .size = 135,
@@ -559,6 +685,12 @@ const struct Berry gBerries[] = {
             .name = _("KELPSY"),
         #elif SPANISH
             .name = _("ALGAMA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 150,
@@ -581,6 +713,12 @@ const struct Berry gBerries[] = {
             .name = _("QUALOT"),
         #elif SPANISH
             .name = _("ISPERO"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 110,
@@ -603,6 +741,12 @@ const struct Berry gBerries[] = {
             .name = _("HONDEW"),
         #elif SPANISH
             .name = _("MELUCE"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 162,
@@ -625,6 +769,12 @@ const struct Berry gBerries[] = {
             .name = _("GREPA"),
         #elif SPANISH
             .name = _("UVAV"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 149,
@@ -647,6 +797,12 @@ const struct Berry gBerries[] = {
             .name = _("TAMATO"),
         #elif SPANISH
             .name = _("TAMATE"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 200,
@@ -669,6 +825,12 @@ const struct Berry gBerries[] = {
             .name = _("CORNN"),
         #elif SPANISH
             .name = _("MAIS"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 75,
@@ -691,6 +853,12 @@ const struct Berry gBerries[] = {
             .name = _("MAGOST"),
         #elif SPANISH
             .name = _("AOSTAN"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 140,
@@ -713,6 +881,12 @@ const struct Berry gBerries[] = {
             .name = _("RABUTA"),
         #elif SPANISH
             .name = _("RAUTAN"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 226,
@@ -735,6 +909,12 @@ const struct Berry gBerries[] = {
             .name = _("NOMEL"),
         #elif SPANISH
             .name = _("MONLI"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SUPER_HARD,
             .size = 285,
@@ -757,6 +937,12 @@ const struct Berry gBerries[] = {
             .name = _("SPELON"),
         #elif SPANISH
             .name = _("WIKANO"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 133,
@@ -779,6 +965,12 @@ const struct Berry gBerries[] = {
             .name = _("PAMTRE"),
         #elif SPANISH
             .name = _("PLAMA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_SOFT,
             .size = 244,
@@ -801,6 +993,12 @@ const struct Berry gBerries[] = {
             .name = _("WATMEL"),
         #elif SPANISH
             .name = _("SAMBIA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 250,
@@ -823,6 +1021,12 @@ const struct Berry gBerries[] = {
             .name = _("DURIN"),
         #elif SPANISH
             .name = _("RUDION"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 280,
@@ -845,6 +1049,12 @@ const struct Berry gBerries[] = {
             .name = _("BELUE"),
         #elif SPANISH
             .name = _("ANDANO"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_SOFT,
             .size = 300,
@@ -867,6 +1077,12 @@ const struct Berry gBerries[] = {
             .name = _("LIECHI"),
         #elif SPANISH
             .name = _("LICHI"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_HARD,
             .size = 111,
@@ -889,6 +1105,12 @@ const struct Berry gBerries[] = {
             .name = _("GANLON"),
         #elif SPANISH
             .name = _("GONLAN"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_HARD,
             .size = 33,
@@ -911,6 +1133,12 @@ const struct Berry gBerries[] = {
             .name = _("SALAC"),
         #elif SPANISH
             .name = _("ASLAC"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_HARD,
             .size = 95,
@@ -933,6 +1161,12 @@ const struct Berry gBerries[] = {
             .name = _("PETAYA"),
         #elif SPANISH
             .name = _("YAPATI"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_VERY_HARD,
             .size = 237,
@@ -955,6 +1189,12 @@ const struct Berry gBerries[] = {
             .name = _("APICOT"),
         #elif SPANISH
             .name = _("ARICOC"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_HARD,
             .size = 75,
@@ -977,6 +1217,12 @@ const struct Berry gBerries[] = {
             .name = _("LANSAT"),
         #elif SPANISH
             .name = _("ZONLAN"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SOFT,
             .size = 97,
@@ -999,6 +1245,12 @@ const struct Berry gBerries[] = {
             .name = _("STARF"),
         #elif SPANISH
             .name = _("ARABOL"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_SUPER_HARD,
             .size = 153,
@@ -1021,6 +1273,12 @@ const struct Berry gBerries[] = {
             .name = _("ENIGMA"),
         #elif SPANISH
             .name = _("ENIGMA"),
+        #elif FRENCH
+            .name = _(""),
+        #elif ITALIAN
+            .name = _(""),
+        #elif GERMAN
+            .name = _(""),
         #endif
             .firmness = BERRY_FIRMNESS_UNKNOWN,
             .size = 0,

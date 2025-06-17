@@ -1,5 +1,5 @@
 
-#if ENGLISH
+#if ENGLISH || ITALIAN //TEST
 static const u8 sEasyChatWord_Opponent[] = _("OPPONENT");
 static const u8 sEasyChatWord_I[] = _("I");
 static const u8 sEasyChatWord_You[] = _("YOU");

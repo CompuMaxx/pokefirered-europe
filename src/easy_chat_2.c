@@ -289,7 +289,7 @@ static const u16 sECPhrase_MysteryEventIsExciting[] = {
     EC_WORD_IS,
     EC_WORD_EXCITING
 };
-#elif SPANISH
+#elif SPANISH || ITALIAN
 static const u16 sECPhrase_MysteryEventIsExciting[] = {
     EC_WORD_EVENT,
     EC_WORD_MYSTERY,
@@ -310,7 +310,7 @@ static const u16 sECPhrase_LinkTogetherWithAll[] = {
     EC_WORD_WITH,
     EC_WORD_ALL
 };
-#elif SPANISH
+#elif SPANISH || ITALIAN
 static const u16 sECPhrase_LinkTogetherWithAll[] = {
     EC_WORD_LINK,
     EC_WORD_MISS,

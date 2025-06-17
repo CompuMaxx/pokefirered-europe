@@ -220,7 +220,7 @@ static u8 *MapNamePopupAppendFloorNum(u8 *dest, s8 floorNum)
     *dest = EOS;
     return dest;
 }
-#elif SPANISH
+#else //#elif SPANISH
 //off_83CF324
 static const u8 *const sFloorNamePointers_up[] = {
     gText_1F,

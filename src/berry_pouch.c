@@ -98,7 +98,7 @@ static void Task_BerryPouch_Use(u8 taskId);
 static void Task_BerryPouch_Toss(u8 taskId);
 #if ENGLISH
 static void Task_AskTossMultiple(u8 taskId);
-#elif SPANISH
+#else //#elif SPANISH || ITALIAN
 static void Task_AskTossMultiple(u16 itemId, u8 taskId);
 #endif
 static void Task_TossNo(u8 taskId);
@@ -1097,7 +1097,7 @@ static void Task_BerryPouch_Toss(u8 taskId)
     if (data[2] == 1)
 #if ENGLISH
         Task_AskTossMultiple(taskId);
-#elif SPANISH
+#else //#elif SPANISH || ITALIAN
         Task_AskTossMultiple(data[1], taskId);
 #endif
     else
@@ -1117,7 +1117,7 @@ static void Task_AskTossMultiple(u8 taskId)
     BerryPouchPrint(GetOrCreateVariableWindow(7), FONT_NORMAL, gStringVar4, 0, 2, 1, 2, 0, 1);
     CreateYesNoMenuWin3(taskId, &sYesNoFuncs_Toss);
 }
-#elif SPANISH
+#else //#elif SPANISH || ITALIAN
 static void Task_AskTossMultiple(u16 itemId, u8 taskId)
 {
     s16 * data = gTasks[taskId].data;
@@ -1157,7 +1157,7 @@ static void Task_Toss_SelectMultiple(u8 taskId)
         DestroyScrollIndicatorArrows();
     #if ENGLISH
         Task_AskTossMultiple(taskId);
-    #elif SPANISH
+    #else //#elif SPANISH || ITALIAN
         Task_AskTossMultiple(data[1], taskId);
     #endif
     }

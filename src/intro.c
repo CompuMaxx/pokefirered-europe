@@ -264,7 +264,7 @@ static const u32 sSparklesSmall_Gfx[] = INCBIN_U32("graphics/intro/game_freak/sp
 static const u32 sSparklesBig_Gfx[]   = INCBIN_U32("graphics/intro/game_freak/sparkles_big.4bpp.lz");
 #if ENGLISH
 static const u32 sPresents_Gfx[]      = INCBIN_U32("graphics/intro/game_freak/presents.4bpp.lz");
-#elif SPANISH
+#else //#elif SPANISH
 extern const u32 sPresents_Gfx[];
 #endif
 

@@ -717,7 +717,7 @@ static void HandleMoveSwitching(void)
     }
 #if ENGLISH
     if (JOY_NEW(B_BUTTON))
-#elif SPANISH
+#else //#elif SPANISH
     else if (JOY_NEW(B_BUTTON))
 #endif
     {
@@ -734,7 +734,7 @@ static void HandleMoveSwitching(void)
     }
 #if ENGLISH
     if (JOY_NEW(DPAD_LEFT))
-#elif SPANISH
+#else //#elif SPANISH
     else if (JOY_NEW(DPAD_LEFT))
 #endif
     {
@@ -754,7 +754,7 @@ static void HandleMoveSwitching(void)
     }
 #if ENGLISH
     if (JOY_NEW(DPAD_RIGHT))
-#elif SPANISH
+#else //#elif SPANISH
     else if (JOY_NEW(DPAD_RIGHT))
 #endif
     {
@@ -774,7 +774,7 @@ static void HandleMoveSwitching(void)
     }
 #if ENGLISH
     if (JOY_NEW(DPAD_UP))
-#elif SPANISH
+#else //#elif SPANISH
     else if (JOY_NEW(DPAD_UP))
 #endif
     {
@@ -794,7 +794,7 @@ static void HandleMoveSwitching(void)
     }
 #if ENGLISH
     if (JOY_NEW(DPAD_DOWN))
-#elif SPANISH
+#else //#elif SPANISH
     else if (JOY_NEW(DPAD_DOWN))
 #endif
     {

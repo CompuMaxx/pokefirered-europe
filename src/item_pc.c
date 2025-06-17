@@ -801,7 +801,7 @@ static void Task_ItemPcMoveItemModeRun(u8 taskId)
         ItemPc_MoveItemModeCancel(taskId, sListMenuState.scroll + sListMenuState.row);
     }
 }
-#elif SPANISH
+#else //#elif SPANISH
 static void Task_ItemPcMoveItemModeRun(u8 taskId)
 {
     s16 * data = gTasks[taskId].data;

@@ -1,7 +1,7 @@
 const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
 #if ENGLISH
     [SPECIES_NONE] = _("??????????"),
-#elif SPANISH
+#else //#elif SPANISH
     [SPECIES_NONE] = _("(?)"),
 #endif
     [SPECIES_BULBASAUR] = _("BULBASAUR"),
@@ -281,7 +281,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_OLD_UNOWN_X] = _("?"),
     [SPECIES_OLD_UNOWN_Y] = _("?"),
     [SPECIES_OLD_UNOWN_Z] = _("?"),
-#elif SPANISH
+#else //#elif SPANISH
     [SPECIES_OLD_UNOWN_B] = _("(?)"),
     [SPECIES_OLD_UNOWN_C] = _("(?)"),
     [SPECIES_OLD_UNOWN_D] = _("(?)"),

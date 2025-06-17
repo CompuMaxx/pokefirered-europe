@@ -1035,7 +1035,7 @@ static void Task_TryJoinLinkGroup(u8 taskId)
             case ACTIVITY_WONDER_CARD:
             case ACTIVITY_WONDER_NEWS:
                 data->state = LG_STATE_READY_START_ACTIVITY;
-#if SPANISH
+#if SPANISH || ITALIAN
                 return;
 #endif
                 break;
@@ -1602,7 +1602,7 @@ static void Task_StartActivity(u8 taskId)
         SetMainCallback2(CB2_TransitionToCableClub);
         break;
     case ACTIVITY_TRADE | IN_UNION_ROOM:
-#if SPANISH
+#if SPANISH || ITALIAN
         CleanupOverworldWindowsAndTilemaps();
 #endif
         CreateTask(Task_StartUnionRoomTrade, 0);
@@ -1641,7 +1641,7 @@ static void Task_StartActivity(u8 taskId)
 
     DestroyTask(taskId);
     gSpecialVar_Result = LINKUP_SUCCESS;
-#if SPANISH
+#if SPANISH || ITALIAN
     if (sPlayerCurrActivity == (ACTIVITY_TRADE | IN_UNION_ROOM))
         return;
 #endif

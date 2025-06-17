@@ -139,7 +139,7 @@ static const u8 sFontSmallLatinGlyphWidths[] =
      8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,
      8,  8,  8,  8,  8,  8,  8,  5
 };
-#elif SPANISH
+#else //#elif SPANISH
 static const u16 sFontSmallLatinGlyphs[] = INCBIN_U16("graphics/fonts/latin_small_es.latfont");
 static const u8 sFontSmallLatinGlyphWidths[] = 
 {
@@ -221,7 +221,7 @@ static const u8 sFontNormalCopy1LatinGlyphWidths[] =
      8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,
      8,  8,  8,  8,  8,  8,  8,  6
 };
-#elif SPANISH
+#else //#elif SPANISH
 static const u16 sFontNormalCopy1LatinGlyphs[] = INCBIN_U16("graphics/fonts/latin_normal_es.latfont");
 static const u8 sFontNormalCopy1LatinGlyphWidths[] =
 {
@@ -303,7 +303,7 @@ static const u8 sFontNormalLatinGlyphWidths[] =
      8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,
      8,  8,  8,  8,  8,  8,  8,  6
 };
-#elif SPANISH
+#else //#elif SPANISH
 static const u16 sFontNormalLatinGlyphs[] = INCBIN_U16("graphics/fonts/latin_normal_es.latfont");
 static const u8 sFontNormalLatinGlyphWidths[] =
 {
@@ -408,7 +408,7 @@ static const u8 sFontMaleLatinGlyphWidths[] =
      8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,
      8,  8,  8,  8,  8,  8,  8,  6
 };
-#elif SPANISH
+#else //#elif SPANISH
 static const u16 sFontMaleLatinGlyphs[] = INCBIN_U16("graphics/fonts/latin_male_es.latfont");
 static const u8 sFontMaleLatinGlyphWidths[] =
 {
@@ -513,7 +513,7 @@ static const u8 sFontFemaleLatinGlyphWidths[] =
      8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,
      8,  8,  8,  8,  8,  8,  8,  6
 };
-#elif SPANISH
+#else //#elif SPANISH
 static const u16 sFontFemaleLatinGlyphs[] = INCBIN_U16("graphics/fonts/latin_female_es.latfont");
 static const u8 sFontFemaleLatinGlyphWidths[] =
 {

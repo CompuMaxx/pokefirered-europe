@@ -79,7 +79,7 @@ static const u16 sDefaultBattleStartWords[] = {
     EC_WORD_HERE_I_COME,
     EC_WORD_EXCL,
 };
-#elif SPANISH
+#elif SPANISH || ITALIAN
 static const u16 sDefaultProfileWords[] = {
     EC_WORD_ISN_T_IT_QUES,
     EC_WORD_BEING,
@@ -232,7 +232,7 @@ u8 *ConvertEasyChatWordsToString(u8 *dest, const u16 *src, u16 columns, u16 rows
     return dest;
 }
 
-#if SPANISH
+#if SPANISH || ITALIAN
 u8 *es_sub_80BDAE0(u8 *dest, const u16 *src, u16 columns, u16 rows)
 {
     u16 i, j, k;

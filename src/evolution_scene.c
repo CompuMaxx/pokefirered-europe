@@ -796,7 +796,7 @@ static void Task_EvolutionScene(u8 taskId)
 #if ENGLISH
                 StopMapMusic();
                 Overworld_PlaySpecialMapMusic();
-#elif SPANISH
+#else //#elif SPANISH
                 if (!(gTasks[taskId].tBits & TASK_BIT_LEARN_MOVE))
                 {
                     StopMapMusic();

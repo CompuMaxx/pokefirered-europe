@@ -2332,9 +2332,9 @@ static void DisplayPartyPokemonLevelCheck(struct Pokemon *mon, struct PartyMenuB
 static void DisplayPartyPokemonLevel(u8 level, struct PartyMenuBox *menuBox)
 {
     ConvertIntToDecimalStringN(gStringVar2, level, STR_CONV_MODE_LEFT_ALIGN, 3);
-#if ENGLISH
+#if ENGLISH || ITALIAN
     StringCopy(gStringVar1, gText_Lv);
-#elif SPANISH
+#else //#elif SPANISH
     gStringVar1[0] = CHAR_EXTRA_SYMBOL;
     gStringVar1[1] = CHAR_LV_2;
     gStringVar1[2] = CHAR_EXTRA_SYMBOL;

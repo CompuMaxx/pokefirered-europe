@@ -2,7 +2,7 @@
 #ifndef GUARD_DATA_REGION_MAP_REGION_MAP_ENTRIES_H
 #define GUARD_DATA_REGION_MAP_REGION_MAP_ENTRIES_H
 
-#if ENGLISH
+#if ENGLISH || ITALIAN
 ## for map_section in map_sections
 {% if existsIn(map_section, "name") and isEmptyString(getVar(map_section.name)) and not existsIn(map_section, "name_clone") %}{{ setVar(map_section.name, map_section.id) }}{% endif %}
 ## endfor

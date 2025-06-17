@@ -647,7 +647,7 @@ static void TT_ConvertEasyChatMessageToString(u16 *ecWords, u8 *dest)
         // Replace \n with \l at the end of line 2
         dest[i] = CHAR_PROMPT_SCROLL;
     }
-#elif SPANISH
+#else //#elif SPANISH
     es_sub_80BDAE0(dest, ecWords, 2, 3);
 #endif
 }

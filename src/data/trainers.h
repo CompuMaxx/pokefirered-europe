@@ -6,7 +6,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AQUA_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_LEADER_ARCHIE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -20,7 +20,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -34,7 +34,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_AQUA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -48,7 +48,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_AROMA_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -62,7 +62,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RS_RUIN_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -76,7 +76,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_INTERVIEWER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTERVIEWER,
         .trainerPic = TRAINER_PIC_INTERVIEWER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -90,7 +90,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_TUBER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_RS_TUBER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -104,7 +104,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_TUBER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_TUBER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -118,7 +118,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -132,7 +132,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -146,7 +146,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HEX_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_HEX_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -160,7 +160,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -174,7 +174,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -188,7 +188,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RICH_BOY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_RICH_BOY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -202,7 +202,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_RS_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -216,7 +216,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -230,7 +230,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_RS_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -244,7 +244,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GUITARIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_GUITARIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -258,7 +258,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_KINDLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_KINDLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -272,7 +272,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -286,7 +286,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BUG_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -300,7 +300,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_RS_PSYCHIC_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -314,7 +314,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_RS_PSYCHIC_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -328,7 +328,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_RS_GENTLEMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -342,7 +342,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_SIDNEY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SIDNEY"),
         #elif SPANISH
         .trainerName = _("SIXTO"),
@@ -356,7 +356,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PHOEBE"),
         #elif SPANISH
         .trainerName = _("FÁTIMA"),
@@ -370,7 +370,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROXANNE"),
         #elif SPANISH
         .trainerName = _("PETRA"),
@@ -384,7 +384,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_BRAWLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRAWLY"),
         #elif SPANISH
         .trainerName = _("MARCIAL"),
@@ -398,7 +398,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_TATE_AND_LIZA,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TATE&LIZA"),
         #elif SPANISH
         .trainerName = _("VITO-LETI"),
@@ -412,7 +412,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCHOOL_KID,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SCHOOL_KID_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -426,7 +426,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCHOOL_KID,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SCHOOL_KID_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -440,7 +440,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SR_AND_JR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_SR_AND_JR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -454,7 +454,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEFAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_POKEFAN_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -468,7 +468,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEFAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_POKEFAN_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -482,7 +482,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_EXPERT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_EXPERT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -496,7 +496,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_EXPERT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_EXPERT_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -510,7 +510,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -524,7 +524,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_STEVEN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -538,7 +538,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RS_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -552,7 +552,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -566,7 +566,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -580,7 +580,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RUNNING_TRIATHLETE_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -594,7 +594,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RUNNING_TRIATHLETE_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -608,7 +608,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -622,7 +622,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -636,7 +636,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_DRAGON_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_DRAGON_TAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -650,7 +650,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -664,7 +664,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_NINJA_BOY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_NINJA_BOY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -678,7 +678,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BATTLE_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BATTLE_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -692,7 +692,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PARASOL_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PARASOL_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -706,7 +706,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -720,7 +720,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_RS_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -734,7 +734,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_RS_TWINS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -748,7 +748,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_SAILOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -762,7 +762,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BOARDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -776,7 +776,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BOARDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -790,7 +790,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COLLECTOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_COLLECTOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -804,7 +804,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_WALLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -818,7 +818,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BRENDAN_1,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -832,7 +832,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BRENDAN_1,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -846,7 +846,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BRENDAN_1,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -860,7 +860,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_MAY_1,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -874,7 +874,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_MAY_1,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -888,7 +888,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_MAY_1,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -902,7 +902,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_POKEMON_BREEDER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -916,7 +916,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_POKEMON_BREEDER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -930,7 +930,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_POKEMON_RANGER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -944,7 +944,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RS_POKEMON_RANGER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -958,7 +958,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_MAGMA_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_LEADER_MAXIE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -972,7 +972,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -986,7 +986,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_MAGMA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_GRUNT_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -1000,7 +1000,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -1014,7 +1014,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -1028,7 +1028,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RS_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -1042,7 +1042,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_RS_YOUNG_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -1056,7 +1056,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_OLD_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_OLD_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -1070,7 +1070,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_RS_SIS_AND_BRO,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -1084,7 +1084,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AQUA_ADMIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_ADMIN_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MATT"),
         #elif SPANISH
         .trainerName = _("MATÍAS"),
@@ -1098,7 +1098,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AQUA_ADMIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_ADMIN_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHELLY"),
         #elif SPANISH
         .trainerName = _("SILVINA"),
@@ -1112,7 +1112,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_ADMIN_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TABITHA"),
         #elif SPANISH
         .trainerName = _("TATIANO"),
@@ -1126,7 +1126,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MAGMA,
         .trainerPic = TRAINER_PIC_MAGMA_ADMIN_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COURTNEY"),
         #elif SPANISH
         .trainerName = _("CAROLA"),
@@ -1140,7 +1140,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_WATTSON,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WATTSON"),
         #elif SPANISH
         .trainerName = _("ERICO"),
@@ -1154,7 +1154,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_FLANNERY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("FLANNERY"),
         #elif SPANISH
         .trainerName = _("CANDELA"),
@@ -1168,7 +1168,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_NORMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NORMAN"),
         #elif SPANISH
         .trainerName = _("NORMAN"),
@@ -1182,7 +1182,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_WINONA,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WINONA"),
         #elif SPANISH
         .trainerName = _("ALANA"),
@@ -1196,7 +1196,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_WALLACE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WALLACE"),
         #elif SPANISH
         .trainerName = _("PLUBIO"),
@@ -1210,7 +1210,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_GLACIA,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GLACIA"),
         #elif SPANISH
         .trainerName = _("NÍVEA"),
@@ -1224,7 +1224,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DRAKE"),
         #elif SPANISH
         .trainerName = _("DRACÓN"),
@@ -1238,7 +1238,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BEN"),
         #elif SPANISH
         .trainerName = _("BEN"),
@@ -1252,7 +1252,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CALVIN"),
         #elif SPANISH
         .trainerName = _("CALIXTO"),
@@ -1266,7 +1266,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOSH"),
         #elif SPANISH
         .trainerName = _("JOSÉ"),
@@ -1280,7 +1280,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TIMMY"),
         #elif SPANISH
         .trainerName = _("TINO"),
@@ -1294,7 +1294,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOEY"),
         #elif SPANISH
         .trainerName = _("PEPE"),
@@ -1308,7 +1308,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DAN"),
         #elif SPANISH
         .trainerName = _("DANE"),
@@ -1322,7 +1322,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHAD"),
         #elif SPANISH
         .trainerName = _("CIRO"),
@@ -1336,7 +1336,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TYLER"),
         #elif SPANISH
         .trainerName = _("TILEN"),
@@ -1350,7 +1350,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EDDIE"),
         #elif SPANISH
         .trainerName = _("EDU"),
@@ -1364,7 +1364,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DILLON"),
         #elif SPANISH
         .trainerName = _("DIONI"),
@@ -1378,7 +1378,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("YASU"),
         #elif SPANISH
         .trainerName = _("YASU"),
@@ -1392,7 +1392,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DAVE"),
         #elif SPANISH
         .trainerName = _("DAVI"),
@@ -1406,7 +1406,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BEN"),
         #elif SPANISH
         .trainerName = _("BEN"),
@@ -1420,7 +1420,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RICK"),
         #elif SPANISH
         .trainerName = _("JANO"),
@@ -1434,7 +1434,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DOUG"),
         #elif SPANISH
         .trainerName = _("DOMIN"),
@@ -1448,7 +1448,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SAMMY"),
         #elif SPANISH
         .trainerName = _("SAMI"),
@@ -1462,7 +1462,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COLTON"),
         #elif SPANISH
         .trainerName = _("CORNELIO"),
@@ -1476,7 +1476,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GREG"),
         #elif SPANISH
         .trainerName = _("GREGORIO"),
@@ -1490,7 +1490,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JAMES"),
         #elif SPANISH
         .trainerName = _("JAIME"),
@@ -1504,7 +1504,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KENT"),
         #elif SPANISH
         .trainerName = _("CASIMIRO"),
@@ -1518,7 +1518,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROBBY"),
         #elif SPANISH
         .trainerName = _("ROBI"),
@@ -1532,7 +1532,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CALE"),
         #elif SPANISH
         .trainerName = _("BUDI"),
@@ -1546,7 +1546,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KEIGO"),
         #elif SPANISH
         .trainerName = _("KEIGO"),
@@ -1560,7 +1560,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ELIJAH"),
         #elif SPANISH
         .trainerName = _("JUALU"),
@@ -1574,7 +1574,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -1588,7 +1588,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRENT"),
         #elif SPANISH
         .trainerName = _("BERNABÉ"),
@@ -1602,7 +1602,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CONNER"),
         #elif SPANISH
         .trainerName = _("ARIEL"),
@@ -1616,7 +1616,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JANICE"),
         #elif SPANISH
         .trainerName = _("LUCRECIA"),
@@ -1630,7 +1630,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SALLY"),
         #elif SPANISH
         .trainerName = _("SUSANA"),
@@ -1644,7 +1644,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROBIN"),
         #elif SPANISH
         .trainerName = _("ROBERTA"),
@@ -1658,7 +1658,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CRISSY"),
         #elif SPANISH
         .trainerName = _("CRISTI"),
@@ -1672,7 +1672,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MIRIAM"),
         #elif SPANISH
         .trainerName = _("MIRNA"),
@@ -1686,7 +1686,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("IRIS"),
         #elif SPANISH
         .trainerName = _("IRIS"),
@@ -1700,7 +1700,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RELI"),
         #elif SPANISH
         .trainerName = _("RUTH"),
@@ -1714,7 +1714,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALI"),
         #elif SPANISH
         .trainerName = _("MARGA"),
@@ -1728,7 +1728,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -1742,7 +1742,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HALEY"),
         #elif SPANISH
         .trainerName = _("HERMINIA"),
@@ -1756,7 +1756,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ANN"),
         #elif SPANISH
         .trainerName = _("ADA"),
@@ -1770,7 +1770,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DAWN"),
         #elif SPANISH
         .trainerName = _("ARRATE"),
@@ -1784,7 +1784,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PAIGE"),
         #elif SPANISH
         .trainerName = _("LULÚ"),
@@ -1798,7 +1798,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ANDREA"),
         #elif SPANISH
         .trainerName = _("ANDREA"),
@@ -1812,7 +1812,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MEGAN"),
         #elif SPANISH
         .trainerName = _("VEVA"),
@@ -1826,7 +1826,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JULIA"),
         #elif SPANISH
         .trainerName = _("GENO"),
@@ -1840,7 +1840,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KAY"),
         #elif SPANISH
         .trainerName = _("BUSA"),
@@ -1854,7 +1854,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LISA"),
         #elif SPANISH
         .trainerName = _("LISA"),
@@ -1868,7 +1868,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EDMOND"),
         #elif SPANISH
         .trainerName = _("EDMUNDO"),
@@ -1882,7 +1882,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TREVOR"),
         #elif SPANISH
         .trainerName = _("TORIBIO"),
@@ -1896,7 +1896,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LEONARD"),
         #elif SPANISH
         .trainerName = _("LEONARDO"),
@@ -1910,7 +1910,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DUNCAN"),
         #elif SPANISH
         .trainerName = _("DATO"),
@@ -1924,7 +1924,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HUEY"),
         #elif SPANISH
         .trainerName = _("HUMBERTO"),
@@ -1938,7 +1938,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DYLAN"),
         #elif SPANISH
         .trainerName = _("DAN"),
@@ -1952,7 +1952,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PHILLIP"),
         #elif SPANISH
         .trainerName = _("FELIPE"),
@@ -1966,7 +1966,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DWAYNE"),
         #elif SPANISH
         .trainerName = _("DIMAS"),
@@ -1980,7 +1980,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LIAM"),
         #elif SPANISH
         .trainerName = _("ANGELITO"),
@@ -1994,7 +1994,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHANE"),
         #elif SPANISH
         .trainerName = _("CHANO"),
@@ -2008,7 +2008,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ETHAN"),
         #elif SPANISH
         .trainerName = _("EZEQUIEL"),
@@ -2022,7 +2022,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RICKY"),
         #elif SPANISH
         .trainerName = _("RICHI"),
@@ -2036,7 +2036,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JEFF"),
         #elif SPANISH
         .trainerName = _("GENARO"),
@@ -2050,7 +2050,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -2064,7 +2064,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHRIS"),
         #elif SPANISH
         .trainerName = _("CRIS"),
@@ -2078,7 +2078,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DREW"),
         #elif SPANISH
         .trainerName = _("DOROTEO"),
@@ -2092,7 +2092,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DIANA"),
         #elif SPANISH
         .trainerName = _("DIANA"),
@@ -2106,7 +2106,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NANCY"),
         #elif SPANISH
         .trainerName = _("NEREA"),
@@ -2120,7 +2120,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ISABELLE"),
         #elif SPANISH
         .trainerName = _("CHÍO"),
@@ -2134,7 +2134,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KELSEY"),
         #elif SPANISH
         .trainerName = _("ELIA"),
@@ -2148,7 +2148,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALICIA"),
         #elif SPANISH
         .trainerName = _("NELI"),
@@ -2162,7 +2162,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CAITLIN"),
         #elif SPANISH
         .trainerName = _("NOE"),
@@ -2176,7 +2176,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HEIDI"),
         #elif SPANISH
         .trainerName = _("HILARIA"),
@@ -2190,7 +2190,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CAROL"),
         #elif SPANISH
         .trainerName = _("CÁROL"),
@@ -2204,7 +2204,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SOFIA"),
         #elif SPANISH
         .trainerName = _("SOFÍA"),
@@ -2218,7 +2218,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARTHA"),
         #elif SPANISH
         .trainerName = _("MARTA"),
@@ -2232,7 +2232,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TINA"),
         #elif SPANISH
         .trainerName = _("TEÓFILA"),
@@ -2246,7 +2246,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HANNAH"),
         #elif SPANISH
         .trainerName = _("ANA"),
@@ -2260,7 +2260,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARK"),
         #elif SPANISH
         .trainerName = _("MARCO"),
@@ -2274,7 +2274,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HERMAN"),
         #elif SPANISH
         .trainerName = _("HERNANDO"),
@@ -2288,7 +2288,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COOPER"),
         #elif SPANISH
         .trainerName = _("JULIÁN"),
@@ -2302,7 +2302,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("STEVE"),
         #elif SPANISH
         .trainerName = _("ESTEBAN"),
@@ -2316,7 +2316,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WINSTON"),
         #elif SPANISH
         .trainerName = _("DANI"),
@@ -2330,7 +2330,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DAWSON"),
         #elif SPANISH
         .trainerName = _("ISRAEL"),
@@ -2344,7 +2344,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ASHTON"),
         #elif SPANISH
         .trainerName = _("BASILIO"),
@@ -2358,7 +2358,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOVAN"),
         #elif SPANISH
         .trainerName = _("GUSTAVO"),
@@ -2372,7 +2372,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MIGUEL"),
         #elif SPANISH
         .trainerName = _("MIGUEL"),
@@ -2386,7 +2386,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AIDAN"),
         #elif SPANISH
         .trainerName = _("ADRIÁN"),
@@ -2400,7 +2400,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GLENN"),
         #elif SPANISH
         .trainerName = _("LADIS"),
@@ -2414,7 +2414,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LESLIE"),
         #elif SPANISH
         .trainerName = _("LES"),
@@ -2428,7 +2428,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -2442,7 +2442,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -2456,7 +2456,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -2470,7 +2470,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ERIK"),
         #elif SPANISH
         .trainerName = _("ENRIQUE"),
@@ -2484,7 +2484,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AVERY"),
         #elif SPANISH
         .trainerName = _("AVERO"),
@@ -2498,7 +2498,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DEREK"),
         #elif SPANISH
         .trainerName = _("DANTE"),
@@ -2512,7 +2512,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ZAC"),
         #elif SPANISH
         .trainerName = _("ZAC"),
@@ -2526,7 +2526,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARCOS"),
         #elif SPANISH
         .trainerName = _("MARCOS"),
@@ -2540,7 +2540,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("FRANKLIN"),
         #elif SPANISH
         .trainerName = _("FRANCIS"),
@@ -2554,7 +2554,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NOB"),
         #elif SPANISH
         .trainerName = _("NOBORU"),
@@ -2568,7 +2568,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WAYNE"),
         #elif SPANISH
         .trainerName = _("UBALDO"),
@@ -2582,7 +2582,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALAN"),
         #elif SPANISH
         .trainerName = _("ALFONSO"),
@@ -2596,7 +2596,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRICE"),
         #elif SPANISH
         .trainerName = _("BALTASAR"),
@@ -2610,7 +2610,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CLARK"),
         #elif SPANISH
         .trainerName = _("CARLO"),
@@ -2624,7 +2624,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TRENT"),
         #elif SPANISH
         .trainerName = _("TARSI"),
@@ -2638,7 +2638,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DUDLEY"),
         #elif SPANISH
         .trainerName = _("DINIO"),
@@ -2652,7 +2652,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALLEN"),
         #elif SPANISH
         .trainerName = _("ALFREDO"),
@@ -2666,7 +2666,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ERIC"),
         #elif SPANISH
         .trainerName = _("EVARISTO"),
@@ -2680,7 +2680,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LENNY"),
         #elif SPANISH
         .trainerName = _("LUCIANO"),
@@ -2694,7 +2694,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("OLIVER"),
         #elif SPANISH
         .trainerName = _("ÓSCAR"),
@@ -2708,7 +2708,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LUCAS"),
         #elif SPANISH
         .trainerName = _("LUCAS"),
@@ -2722,7 +2722,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JARED"),
         #elif SPANISH
         .trainerName = _("JAVIER"),
@@ -2736,7 +2736,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MALIK"),
         #elif SPANISH
         .trainerName = _("MALEN"),
@@ -2750,7 +2750,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ERNEST"),
         #elif SPANISH
         .trainerName = _("ERNESTO"),
@@ -2764,7 +2764,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALEX"),
         #elif SPANISH
         .trainerName = _("SANDRO"),
@@ -2778,7 +2778,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LAO"),
         #elif SPANISH
         .trainerName = _("LAO"),
@@ -2792,7 +2792,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -2806,7 +2806,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HIDEO"),
         #elif SPANISH
         .trainerName = _("HIDEO"),
@@ -2820,7 +2820,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RUBEN"),
         #elif SPANISH
         .trainerName = _("RUBÉN"),
@@ -2834,7 +2834,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BILLY"),
         #elif SPANISH
         .trainerName = _("BERTO"),
@@ -2848,7 +2848,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NIKOLAS"),
         #elif SPANISH
         .trainerName = _("NICO"),
@@ -2862,7 +2862,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JAXON"),
         #elif SPANISH
         .trainerName = _("JULIO"),
@@ -2876,7 +2876,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WILLIAM"),
         #elif SPANISH
         .trainerName = _("GUILLERMO"),
@@ -2890,7 +2890,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LUKAS"),
         #elif SPANISH
         .trainerName = _("LUCIO"),
@@ -2904,7 +2904,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ISAAC"),
         #elif SPANISH
         .trainerName = _("ISAAC"),
@@ -2918,7 +2918,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GERALD"),
         #elif SPANISH
         .trainerName = _("GERARDO"),
@@ -2932,7 +2932,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -2946,7 +2946,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -2960,7 +2960,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -2974,7 +2974,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("QUINN"),
         #elif SPANISH
         .trainerName = _("OCTAVIO"),
@@ -2988,7 +2988,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RAMON"),
         #elif SPANISH
         .trainerName = _("RAMÓN"),
@@ -3002,7 +3002,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DUSTY"),
         #elif SPANISH
         .trainerName = _("DACIO"),
@@ -3016,7 +3016,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ARNIE"),
         #elif SPANISH
         .trainerName = _("AMADEO"),
@@ -3030,7 +3030,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -3044,7 +3044,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SIMON"),
         #elif SPANISH
         .trainerName = _("SIMÓN"),
@@ -3058,7 +3058,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BURGLAR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_BURGLAR,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LEWIS"),
         #elif SPANISH
         .trainerName = _("LAUREN"),
@@ -3072,7 +3072,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ENGINEER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ENGINEER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BAILY"),
         #elif SPANISH
         .trainerName = _("MANOLO"),
@@ -3086,7 +3086,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ENGINEER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ENGINEER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRAXTON"),
         #elif SPANISH
         .trainerName = _("PERICO"),
@@ -3100,7 +3100,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ENGINEER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ENGINEER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BERNIE"),
         #elif SPANISH
         .trainerName = _("BERNARDO"),
@@ -3114,7 +3114,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DALE"),
         #elif SPANISH
         .trainerName = _("DANIEL"),
@@ -3128,7 +3128,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BARNY"),
         #elif SPANISH
         .trainerName = _("BELTRÁN"),
@@ -3142,7 +3142,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NED"),
         #elif SPANISH
         .trainerName = _("NÉSTOR"),
@@ -3156,7 +3156,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHIP"),
         #elif SPANISH
         .trainerName = _("CHICHO"),
@@ -3170,7 +3170,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HANK"),
         #elif SPANISH
         .trainerName = _("HILARIO"),
@@ -3184,7 +3184,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ELLIOT"),
         #elif SPANISH
         .trainerName = _("ELOY"),
@@ -3198,7 +3198,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RONALD"),
         #elif SPANISH
         .trainerName = _("RONALDO"),
@@ -3212,7 +3212,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CLAUDE"),
         #elif SPANISH
         .trainerName = _("CLAUDIO"),
@@ -3226,7 +3226,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WADE"),
         #elif SPANISH
         .trainerName = _("GUIDO"),
@@ -3240,7 +3240,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NOLAN"),
         #elif SPANISH
         .trainerName = _("NARCISO"),
@@ -3254,7 +3254,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ANDREW"),
         #elif SPANISH
         .trainerName = _("ANDRÉS"),
@@ -3268,7 +3268,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LUIS"),
         #elif SPANISH
         .trainerName = _("LUIS"),
@@ -3282,7 +3282,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RICHARD"),
         #elif SPANISH
         .trainerName = _("RICARDO"),
@@ -3296,7 +3296,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("REECE"),
         #elif SPANISH
         .trainerName = _("MARCELO"),
@@ -3310,7 +3310,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MATTHEW"),
         #elif SPANISH
         .trainerName = _("MATEO"),
@@ -3324,7 +3324,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DOUGLAS"),
         #elif SPANISH
         .trainerName = _("DOMINGO"),
@@ -3338,7 +3338,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DAVID"),
         #elif SPANISH
         .trainerName = _("DAVID"),
@@ -3352,7 +3352,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TONY"),
         #elif SPANISH
         .trainerName = _("TONI"),
@@ -3366,7 +3366,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AXLE"),
         #elif SPANISH
         .trainerName = _("ALEJO"),
@@ -3380,7 +3380,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BARRY"),
         #elif SPANISH
         .trainerName = _("BORIS"),
@@ -3394,7 +3394,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DEAN"),
         #elif SPANISH
         .trainerName = _("DINO"),
@@ -3408,7 +3408,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DARRIN"),
         #elif SPANISH
         .trainerName = _("DARÍO"),
@@ -3422,7 +3422,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SPENCER"),
         #elif SPANISH
         .trainerName = _("SERGIO"),
@@ -3436,7 +3436,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACK"),
         #elif SPANISH
         .trainerName = _("OMAR"),
@@ -3450,7 +3450,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JEROME"),
         #elif SPANISH
         .trainerName = _("JEROMO"),
@@ -3464,7 +3464,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROLAND"),
         #elif SPANISH
         .trainerName = _("ROMÁN"),
@@ -3478,7 +3478,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KOJI"),
         #elif SPANISH
         .trainerName = _("KOJI"),
@@ -3492,7 +3492,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LUKE"),
         #elif SPANISH
         .trainerName = _("LEO"),
@@ -3506,7 +3506,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CAMRON"),
         #elif SPANISH
         .trainerName = _("CADEL"),
@@ -3520,7 +3520,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RAUL"),
         #elif SPANISH
         .trainerName = _("RALE"),
@@ -3534,7 +3534,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ISAIAH"),
         #elif SPANISH
         .trainerName = _("ISAÍAS"),
@@ -3548,7 +3548,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ZEEK"),
         #elif SPANISH
         .trainerName = _("DERO"),
@@ -3562,7 +3562,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JAMAL"),
         #elif SPANISH
         .trainerName = _("JAVI"),
@@ -3576,7 +3576,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COREY"),
         #elif SPANISH
         .trainerName = _("CEFE"),
@@ -3590,7 +3590,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHASE"),
         #elif SPANISH
         .trainerName = _("CONRADO"),
@@ -3604,7 +3604,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HUGO"),
         #elif SPANISH
         .trainerName = _("HUGUE"),
@@ -3618,7 +3618,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JASPER"),
         #elif SPANISH
         .trainerName = _("JAREN"),
@@ -3632,7 +3632,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DIRK"),
         #elif SPANISH
         .trainerName = _("GASPAR"),
@@ -3646,7 +3646,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DARIAN"),
         #elif SPANISH
         .trainerName = _("DARIAN"),
@@ -3660,7 +3660,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("STAN"),
         #elif SPANISH
         .trainerName = _("EUSEBIO"),
@@ -3674,7 +3674,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -3688,7 +3688,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RICH"),
         #elif SPANISH
         .trainerName = _("NORBER"),
@@ -3702,7 +3702,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRIDGET"),
         #elif SPANISH
         .trainerName = _("BRÍGIDA"),
@@ -3716,7 +3716,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TAMIA"),
         #elif SPANISH
         .trainerName = _("PURI"),
@@ -3730,7 +3730,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LORI"),
         #elif SPANISH
         .trainerName = _("LARA"),
@@ -3744,7 +3744,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LOLA"),
         #elif SPANISH
         .trainerName = _("LOLA"),
@@ -3758,7 +3758,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHEILA"),
         #elif SPANISH
         .trainerName = _("SOL"),
@@ -3772,7 +3772,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TIFFANY"),
         #elif SPANISH
         .trainerName = _("TIZIANA"),
@@ -3786,7 +3786,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NORA"),
         #elif SPANISH
         .trainerName = _("NORA"),
@@ -3800,7 +3800,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MELISSA"),
         #elif SPANISH
         .trainerName = _("MELISA"),
@@ -3814,7 +3814,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRACE"),
         #elif SPANISH
         .trainerName = _("GRACIA"),
@@ -3828,7 +3828,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("OLIVIA"),
         #elif SPANISH
         .trainerName = _("OLIVIA"),
@@ -3842,7 +3842,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LAUREN"),
         #elif SPANISH
         .trainerName = _("LUCERO"),
@@ -3856,7 +3856,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ANYA"),
         #elif SPANISH
         .trainerName = _("ANIA"),
@@ -3870,7 +3870,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALICE"),
         #elif SPANISH
         .trainerName = _("ALICIA"),
@@ -3884,7 +3884,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CONNIE"),
         #elif SPANISH
         .trainerName = _("CORO"),
@@ -3898,7 +3898,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHIRLEY"),
         #elif SPANISH
         .trainerName = _("SILVIA"),
@@ -3912,7 +3912,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOHAN"),
         #elif SPANISH
         .trainerName = _("LUISMI"),
@@ -3926,7 +3926,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TYRON"),
         #elif SPANISH
         .trainerName = _("TOR"),
@@ -3940,7 +3940,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CAMERON"),
         #elif SPANISH
         .trainerName = _("SILVIO"),
@@ -3954,7 +3954,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PRESTON"),
         #elif SPANISH
         .trainerName = _("PATRICIO"),
@@ -3968,7 +3968,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ROCKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ROCKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RANDALL"),
         #elif SPANISH
         .trainerName = _("ANTONIO"),
@@ -3982,7 +3982,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ROCKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ROCKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LUCA"),
         #elif SPANISH
         .trainerName = _("MONE"),
@@ -3996,7 +3996,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DALTON"),
         #elif SPANISH
         .trainerName = _("RODRIGO"),
@@ -4010,7 +4010,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NELSON"),
         #elif SPANISH
         .trainerName = _("MODESTO"),
@@ -4024,7 +4024,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KIRK"),
         #elif SPANISH
         .trainerName = _("ÁNGEL"),
@@ -4038,7 +4038,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHAWN"),
         #elif SPANISH
         .trainerName = _("ISMA"),
@@ -4052,7 +4052,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GREGORY"),
         #elif SPANISH
         .trainerName = _("GRAU"),
@@ -4066,7 +4066,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EDWARD"),
         #elif SPANISH
         .trainerName = _("EDUARDO"),
@@ -4080,7 +4080,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KAYDEN"),
         #elif SPANISH
         .trainerName = _("LENO"),
@@ -4094,7 +4094,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NATE"),
         #elif SPANISH
         .trainerName = _("NANDO"),
@@ -4108,7 +4108,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PHIL"),
         #elif SPANISH
         .trainerName = _("PEDRO"),
@@ -4122,7 +4122,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EDGAR"),
         #elif SPANISH
         .trainerName = _("EFRAÍN"),
@@ -4136,7 +4136,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JASON"),
         #elif SPANISH
         .trainerName = _("JAIRO"),
@@ -4150,7 +4150,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COLE"),
         #elif SPANISH
         .trainerName = _("CAMILO"),
@@ -4164,7 +4164,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("VINCENT"),
         #elif SPANISH
         .trainerName = _("VICENTE"),
@@ -4178,7 +4178,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOHN"),
         #elif SPANISH
         .trainerName = _("JULI"),
@@ -4192,7 +4192,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SEBASTIAN"),
         #elif SPANISH
         .trainerName = _("SEBASTIÁN"),
@@ -4206,7 +4206,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PERRY"),
         #elif SPANISH
         .trainerName = _("PASTOR"),
@@ -4220,7 +4220,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROBERT"),
         #elif SPANISH
         .trainerName = _("ROBERTO"),
@@ -4234,7 +4234,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DONALD"),
         #elif SPANISH
         .trainerName = _("DONATO"),
@@ -4248,7 +4248,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BENNY"),
         #elif SPANISH
         .trainerName = _("BENI"),
@@ -4262,7 +4262,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EDWIN"),
         #elif SPANISH
         .trainerName = _("EDGARDO"),
@@ -4276,7 +4276,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHESTER"),
         #elif SPANISH
         .trainerName = _("CELSO"),
@@ -4290,7 +4290,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WILTON"),
         #elif SPANISH
         .trainerName = _("VALENTÍN"),
@@ -4304,7 +4304,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RAMIRO"),
         #elif SPANISH
         .trainerName = _("RAMIRO"),
@@ -4318,7 +4318,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACOB"),
         #elif SPANISH
         .trainerName = _("JACOBO"),
@@ -4332,7 +4332,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROGER"),
         #elif SPANISH
         .trainerName = _("ROGE"),
@@ -4346,7 +4346,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("REED"),
         #elif SPANISH
         .trainerName = _("REMO"),
@@ -4360,7 +4360,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KEITH"),
         #elif SPANISH
         .trainerName = _("IMANOL"),
@@ -4374,7 +4374,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CARTER"),
         #elif SPANISH
         .trainerName = _("CAYETANO"),
@@ -4388,7 +4388,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MITCH"),
         #elif SPANISH
         .trainerName = _("MELCHOR"),
@@ -4402,7 +4402,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BECK"),
         #elif SPANISH
         .trainerName = _("BALDOMERO"),
@@ -4416,7 +4416,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARLON"),
         #elif SPANISH
         .trainerName = _("MAURO"),
@@ -4430,7 +4430,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KOICHI"),
         #elif SPANISH
         .trainerName = _("KOICHI"),
@@ -4444,7 +4444,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MIKE"),
         #elif SPANISH
         .trainerName = _("MIGUE"),
@@ -4458,7 +4458,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HIDEKI"),
         #elif SPANISH
         .trainerName = _("HIDEKI"),
@@ -4472,7 +4472,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AARON"),
         #elif SPANISH
         .trainerName = _("AARÓN"),
@@ -4486,7 +4486,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HITOSHI"),
         #elif SPANISH
         .trainerName = _("HITOSHI"),
@@ -4500,7 +4500,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ATSUSHI"),
         #elif SPANISH
         .trainerName = _("ATSUSHI"),
@@ -4514,7 +4514,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KIYO"),
         #elif SPANISH
         .trainerName = _("HIRO"),
@@ -4528,7 +4528,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TAKASHI"),
         #elif SPANISH
         .trainerName = _("TAKASHI"),
@@ -4542,7 +4542,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DAISUKE"),
         #elif SPANISH
         .trainerName = _("DAISUKE"),
@@ -4556,7 +4556,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -4570,7 +4570,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -4584,7 +4584,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -4598,7 +4598,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -4612,7 +4612,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -4626,7 +4626,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -4640,7 +4640,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -4654,7 +4654,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -4668,7 +4668,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_EARLY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_EARLY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -4682,7 +4682,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TED"),
         #elif SPANISH
         .trainerName = _("TICO"),
@@ -4696,7 +4696,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CONNOR"),
         #elif SPANISH
         .trainerName = _("ROGELIO"),
@@ -4710,7 +4710,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JERRY"),
         #elif SPANISH
         .trainerName = _("JERÓNIMO"),
@@ -4724,7 +4724,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOSE"),
         #elif SPANISH
         .trainerName = _("JOSE"),
@@ -4738,7 +4738,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RODNEY"),
         #elif SPANISH
         .trainerName = _("RODOLFO"),
@@ -4752,7 +4752,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BEAU"),
         #elif SPANISH
         .trainerName = _("BENITO"),
@@ -4766,7 +4766,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TAYLOR"),
         #elif SPANISH
         .trainerName = _("TIRSO"),
@@ -4780,7 +4780,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOSHUA"),
         #elif SPANISH
         .trainerName = _("JOSUÉ"),
@@ -4794,7 +4794,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PARKER"),
         #elif SPANISH
         .trainerName = _("PASCUAL"),
@@ -4808,7 +4808,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ED"),
         #elif SPANISH
         .trainerName = _("MANU"),
@@ -4822,7 +4822,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TRAVIS"),
         #elif SPANISH
         .trainerName = _("TOBÍAS"),
@@ -4836,7 +4836,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRAYDON"),
         #elif SPANISH
         .trainerName = _("ARTURO"),
@@ -4850,7 +4850,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("IVAN"),
         #elif SPANISH
         .trainerName = _("IVÁN"),
@@ -4864,7 +4864,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BOSS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_LEADER_GIOVANNI,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GIOVANNI"),
         #elif SPANISH
         .trainerName = _("GIOVANNI"),
@@ -4878,7 +4878,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BOSS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_LEADER_GIOVANNI,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GIOVANNI"),
         #elif SPANISH
         .trainerName = _("GIOVANNI"),
@@ -4892,7 +4892,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_LEADER_GIOVANNI,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GIOVANNI"),
         #elif SPANISH
         .trainerName = _("GIOVANNI"),
@@ -4906,7 +4906,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -4920,7 +4920,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -4934,7 +4934,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -4948,7 +4948,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -4962,7 +4962,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -4976,7 +4976,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -4990,7 +4990,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5004,7 +5004,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5018,7 +5018,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5032,7 +5032,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5046,7 +5046,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5060,7 +5060,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5074,7 +5074,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5088,7 +5088,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5102,7 +5102,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5116,7 +5116,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5130,7 +5130,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5144,7 +5144,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5158,7 +5158,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5172,7 +5172,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5186,7 +5186,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5200,7 +5200,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5214,7 +5214,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5228,7 +5228,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5242,7 +5242,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5256,7 +5256,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5270,7 +5270,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5284,7 +5284,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5298,7 +5298,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5312,7 +5312,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5326,7 +5326,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5340,7 +5340,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5354,7 +5354,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5368,7 +5368,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5382,7 +5382,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5396,7 +5396,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5410,7 +5410,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5424,7 +5424,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5438,7 +5438,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5452,7 +5452,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5466,7 +5466,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -5480,7 +5480,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SAMUEL"),
         #elif SPANISH
         .trainerName = _("SAMUEL"),
@@ -5494,7 +5494,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GEORGE"),
         #elif SPANISH
         .trainerName = _("JORGE"),
@@ -5508,7 +5508,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COLBY"),
         #elif SPANISH
         .trainerName = _("ADÁN"),
@@ -5522,7 +5522,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PAUL"),
         #elif SPANISH
         .trainerName = _("PAULINO"),
@@ -5536,7 +5536,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROLANDO"),
         #elif SPANISH
         .trainerName = _("ROLAN"),
@@ -5550,7 +5550,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GILBERT"),
         #elif SPANISH
         .trainerName = _("GILBERTO"),
@@ -5564,7 +5564,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("OWEN"),
         #elif SPANISH
         .trainerName = _("ODÓN"),
@@ -5578,7 +5578,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BERKE"),
         #elif SPANISH
         .trainerName = _("BLAS"),
@@ -5592,7 +5592,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("YUJI"),
         #elif SPANISH
         .trainerName = _("YUJI"),
@@ -5606,7 +5606,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WARREN"),
         #elif SPANISH
         .trainerName = _("VALERIO"),
@@ -5620,7 +5620,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARY"),
         #elif SPANISH
         .trainerName = _("MARI"),
@@ -5634,7 +5634,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CAROLINE"),
         #elif SPANISH
         .trainerName = _("CAROLINA"),
@@ -5648,7 +5648,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALEXA"),
         #elif SPANISH
         .trainerName = _("ALEJANDRA"),
@@ -5662,7 +5662,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHANNON"),
         #elif SPANISH
         .trainerName = _("SABRINA"),
@@ -5676,7 +5676,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NAOMI"),
         #elif SPANISH
         .trainerName = _("NOEMÍ"),
@@ -5690,7 +5690,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BROOKE"),
         #elif SPANISH
         .trainerName = _("BERTA"),
@@ -5704,7 +5704,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AUSTINA"),
         #elif SPANISH
         .trainerName = _("AGUSTINA"),
@@ -5718,7 +5718,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JULIE"),
         #elif SPANISH
         .trainerName = _("JULIA"),
@@ -5732,7 +5732,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_LORELEI,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LORELEI"),
         #elif SPANISH
         .trainerName = _("LORELEI"),
@@ -5746,7 +5746,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_BRUNO,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRUNO"),
         #elif SPANISH
         .trainerName = _("BRUNO"),
@@ -5760,7 +5760,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_AGATHA,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AGATHA"),
         #elif SPANISH
         .trainerName = _("AGATHA"),
@@ -5774,7 +5774,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_LANCE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LANCE"),
         #elif SPANISH
         .trainerName = _("LANCE"),
@@ -5788,7 +5788,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_BROCK,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BROCK"),
         #elif SPANISH
         .trainerName = _("BROCK"),
@@ -5802,7 +5802,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_MISTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MISTY"),
         #elif SPANISH
         .trainerName = _("MISTY"),
@@ -5816,7 +5816,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_LT_SURGE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LT. SURGE"),
         #elif SPANISH
         .trainerName = _("LT. SURGE"),
@@ -5830,7 +5830,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_ERIKA,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ERIKA"),
         #elif SPANISH
         .trainerName = _("ERIKA"),
@@ -5844,7 +5844,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_KOGA,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KOGA"),
         #elif SPANISH
         .trainerName = _("KOGA"),
@@ -5858,7 +5858,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_BLAINE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BLAINE"),
         #elif SPANISH
         .trainerName = _("BLAINE"),
@@ -5872,7 +5872,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_SABRINA,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SABRINA"),
         #elif SPANISH
         .trainerName = _("SABRINA"),
@@ -5886,7 +5886,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("THOMAS"),
         #elif SPANISH
         .trainerName = _("TOMÁS"),
@@ -5900,7 +5900,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ARTHUR"),
         #elif SPANISH
         .trainerName = _("ARMANDO"),
@@ -5914,7 +5914,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TUCKER"),
         #elif SPANISH
         .trainerName = _("TITO"),
@@ -5928,7 +5928,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NORTON"),
         #elif SPANISH
         .trainerName = _("NICANOR"),
@@ -5942,7 +5942,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WALTER"),
         #elif SPANISH
         .trainerName = _("GABINO"),
@@ -5956,7 +5956,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -5970,7 +5970,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -5984,7 +5984,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -5998,7 +5998,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6012,7 +6012,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6026,7 +6026,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6040,7 +6040,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6054,7 +6054,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6068,7 +6068,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6082,7 +6082,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6096,7 +6096,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6110,7 +6110,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RIVAL_LATE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RIVAL_LATE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6124,7 +6124,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6138,7 +6138,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6152,7 +6152,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -6166,7 +6166,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PATRICIA"),
         #elif SPANISH
         .trainerName = _("PATRICIA"),
@@ -6180,7 +6180,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CARLY"),
         #elif SPANISH
         .trainerName = _("CARI"),
@@ -6194,7 +6194,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HOPE"),
         #elif SPANISH
         .trainerName = _("ESPE"),
@@ -6208,7 +6208,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PAULA"),
         #elif SPANISH
         .trainerName = _("PAULA"),
@@ -6222,7 +6222,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LAUREL"),
         #elif SPANISH
         .trainerName = _("LORENA"),
@@ -6236,7 +6236,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JODY"),
         #elif SPANISH
         .trainerName = _("JIMENA"),
@@ -6250,7 +6250,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TAMMY"),
         #elif SPANISH
         .trainerName = _("TAMARA"),
@@ -6264,7 +6264,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RUTH"),
         #elif SPANISH
         .trainerName = _("RENATA"),
@@ -6278,7 +6278,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KARINA"),
         #elif SPANISH
         .trainerName = _("LINA"),
@@ -6292,7 +6292,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JANAE"),
         #elif SPANISH
         .trainerName = _("JANA"),
@@ -6306,7 +6306,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ANGELICA"),
         #elif SPANISH
         .trainerName = _("ANGÉLICA"),
@@ -6320,7 +6320,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EMILIA"),
         #elif SPANISH
         .trainerName = _("EMILIA"),
@@ -6334,7 +6334,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JENNIFER"),
         #elif SPANISH
         .trainerName = _("JULIANA"),
@@ -6348,7 +6348,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6362,7 +6362,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6376,7 +6376,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6390,7 +6390,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6404,7 +6404,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6418,7 +6418,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6432,7 +6432,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6446,7 +6446,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6460,7 +6460,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AMANDA"),
         #elif SPANISH
         .trainerName = _("DALIA"),
@@ -6474,7 +6474,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("STACY"),
         #elif SPANISH
         .trainerName = _("NARCISA"),
@@ -6488,7 +6488,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHANNELER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_CHANNELER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TASHA"),
         #elif SPANISH
         .trainerName = _("TIRSA"),
@@ -6502,7 +6502,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JEREMY"),
         #elif SPANISH
         .trainerName = _("ADOLFO"),
@@ -6516,7 +6516,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALMA"),
         #elif SPANISH
         .trainerName = _("ALMA"),
@@ -6530,7 +6530,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SUSIE"),
         #elif SPANISH
         .trainerName = _("SUSI"),
@@ -6544,7 +6544,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("VALERIE"),
         #elif SPANISH
         .trainerName = _("VALERIA"),
@@ -6558,7 +6558,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GWEN"),
         #elif SPANISH
         .trainerName = _("GEMA"),
@@ -6572,7 +6572,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("VIRGIL"),
         #elif SPANISH
         .trainerName = _("VIRGILIO"),
@@ -6586,7 +6586,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("FLINT"),
         #elif SPANISH
         .trainerName = _("FIDEL"),
@@ -6600,7 +6600,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MISSY"),
         #elif SPANISH
         .trainerName = _("MERCE"),
@@ -6614,7 +6614,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("IRENE"),
         #elif SPANISH
         .trainerName = _("IRENE"),
@@ -6628,7 +6628,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DANA"),
         #elif SPANISH
         .trainerName = _("DORA"),
@@ -6642,7 +6642,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ARIANA"),
         #elif SPANISH
         .trainerName = _("ARIANA"),
@@ -6656,7 +6656,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LEAH"),
         #elif SPANISH
         .trainerName = _("LEA"),
@@ -6670,7 +6670,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JUSTIN"),
         #elif SPANISH
         .trainerName = _("JUSTI"),
@@ -6684,7 +6684,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("YAZMIN"),
         #elif SPANISH
         .trainerName = _("ACEN"),
@@ -6698,7 +6698,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KINDRA"),
         #elif SPANISH
         .trainerName = _("CLEO"),
@@ -6712,7 +6712,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BECKY"),
         #elif SPANISH
         .trainerName = _("BETINA"),
@@ -6726,7 +6726,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CELIA"),
         #elif SPANISH
         .trainerName = _("CELIA"),
@@ -6740,7 +6740,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BROOKS"),
         #elif SPANISH
         .trainerName = _("CELIO"),
@@ -6754,7 +6754,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LAMAR"),
         #elif SPANISH
         .trainerName = _("LENER"),
@@ -6768,7 +6768,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ELI & ANNE"),
         #elif SPANISH
         .trainerName = _("TITA-LIN"),
@@ -6782,7 +6782,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOL_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOL_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RAY & TYRA"),
         #elif SPANISH
         .trainerName = _("DESI-TULA"),
@@ -6796,7 +6796,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GIA & JES"),
         #elif SPANISH
         .trainerName = _("AGA-ARE"),
@@ -6810,7 +6810,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KIRI & JAN"),
         #elif SPANISH
         .trainerName = _("LENA-TEA"),
@@ -6824,7 +6824,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RON & MYA"),
         #elif SPANISH
         .trainerName = _("TIN-TINA"),
@@ -6838,7 +6838,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LEA & JED"),
         #elif SPANISH
         .trainerName = _("LIZ-JOEL"),
@@ -6852,7 +6852,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LIA & LUC"),
         #elif SPANISH
         .trainerName = _("CATI-TEC"),
@@ -6866,7 +6866,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LIL & IAN"),
         #elif SPANISH
         .trainerName = _("ÍA-IGOR"),
@@ -6880,7 +6880,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6894,7 +6894,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6908,7 +6908,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6922,7 +6922,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6936,7 +6936,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6950,7 +6950,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -6964,7 +6964,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BEN"),
         #elif SPANISH
         .trainerName = _("BEN"),
@@ -6978,7 +6978,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BEN"),
         #elif SPANISH
         .trainerName = _("BEN"),
@@ -6992,7 +6992,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHAD"),
         #elif SPANISH
         .trainerName = _("CIRO"),
@@ -7006,7 +7006,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RELI"),
         #elif SPANISH
         .trainerName = _("RUTH"),
@@ -7020,7 +7020,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RELI"),
         #elif SPANISH
         .trainerName = _("RUTH"),
@@ -7034,7 +7034,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TIMMY"),
         #elif SPANISH
         .trainerName = _("TINO"),
@@ -7048,7 +7048,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TIMMY"),
         #elif SPANISH
         .trainerName = _("TINO"),
@@ -7062,7 +7062,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TIMMY"),
         #elif SPANISH
         .trainerName = _("TINO"),
@@ -7076,7 +7076,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHAD"),
         #elif SPANISH
         .trainerName = _("CIRO"),
@@ -7090,7 +7090,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JANICE"),
         #elif SPANISH
         .trainerName = _("LUCRECIA"),
@@ -7104,7 +7104,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JANICE"),
         #elif SPANISH
         .trainerName = _("LUCRECIA"),
@@ -7118,7 +7118,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHAD"),
         #elif SPANISH
         .trainerName = _("CIRO"),
@@ -7132,7 +7132,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("FRANKLIN"),
         #elif SPANISH
         .trainerName = _("FRANCIS"),
@@ -7146,7 +7146,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_PROF,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_PROFESSOR_OAK,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PROF. OAK"),
         #elif SPANISH
         .trainerName = _("PROF. OAK"),
@@ -7160,7 +7160,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PLAYER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_BRENDAN_2,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRENDAN"),
         #elif SPANISH
         .trainerName = _("BRUNO"),
@@ -7174,7 +7174,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PLAYER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_RS_MAY_2,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MAY"),
         #elif SPANISH
         .trainerName = _("AURA"),
@@ -7188,7 +7188,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PLAYER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RED,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RED"),
         #elif SPANISH
         .trainerName = _("JORO"),
@@ -7202,7 +7202,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PLAYER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LEAF,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LEAF"),
         #elif SPANISH
         .trainerName = _("JAHO"),
@@ -7216,7 +7216,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7230,7 +7230,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACLYN"),
         #elif SPANISH
         .trainerName = _("JACINTA"),
@@ -7244,7 +7244,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHARON"),
         #elif SPANISH
         .trainerName = _("SILVANA"),
@@ -7258,7 +7258,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TUBER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AMIRA"),
         #elif SPANISH
         .trainerName = _("PIZPI"),
@@ -7272,7 +7272,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALIZE"),
         #elif SPANISH
         .trainerName = _("FLOR"),
@@ -7286,7 +7286,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NICOLAS"),
         #elif SPANISH
         .trainerName = _("NICOLÁS"),
@@ -7300,7 +7300,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MADELINE"),
         #elif SPANISH
         .trainerName = _("MIRANDA"),
@@ -7314,7 +7314,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_AROMA_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NIKKI"),
         #elif SPANISH
         .trainerName = _("MÓNICA"),
@@ -7328,7 +7328,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("STANLY"),
         #elif SPANISH
         .trainerName = _("SILVANO"),
@@ -7342,7 +7342,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACKI"),
         #elif SPANISH
         .trainerName = _("JADE"),
@@ -7356,7 +7356,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DAISY"),
         #elif SPANISH
         .trainerName = _("AZUCENA"),
@@ -7370,7 +7370,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GOON"),
         #elif SPANISH
         .trainerName = _("QUIQUE"),
@@ -7384,7 +7384,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GOON"),
         #elif SPANISH
         .trainerName = _("QUIQUE"),
@@ -7398,7 +7398,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GOON"),
         #elif SPANISH
         .trainerName = _("QUIQUE"),
@@ -7412,7 +7412,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _(""),
         #elif SPANISH
         .trainerName = _(""),
@@ -7426,7 +7426,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ANTHONY"),
         #elif SPANISH
         .trainerName = _("ANTÓN"),
@@ -7440,7 +7440,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHARLIE"),
         #elif SPANISH
         .trainerName = _("CARMELO"),
@@ -7454,7 +7454,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ELI & ANNE"),
         #elif SPANISH
         .trainerName = _("TITA-LIN"),
@@ -7468,7 +7468,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOHNSON"),
         #elif SPANISH
         .trainerName = _("FLAVIO"),
@@ -7482,7 +7482,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RICARDO"),
         #elif SPANISH
         .trainerName = _("LOREN"),
@@ -7496,7 +7496,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JAREN"),
         #elif SPANISH
         .trainerName = _("JARO"),
@@ -7510,7 +7510,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7524,7 +7524,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7538,7 +7538,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7552,7 +7552,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7566,7 +7566,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7580,7 +7580,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7594,7 +7594,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ADMIN"),
         #elif SPANISH
         .trainerName = _("ADMIN"),
@@ -7608,7 +7608,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ADMIN"),
         #elif SPANISH
         .trainerName = _("ADMIN"),
@@ -7622,7 +7622,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SCIENTIST,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SCIENTIST,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GIDEON"),
         #elif SPANISH
         .trainerName = _("GIL"),
@@ -7636,7 +7636,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AMARA"),
         #elif SPANISH
         .trainerName = _("AMARA"),
@@ -7650,7 +7650,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARIA"),
         #elif SPANISH
         .trainerName = _("MIRIAM"),
@@ -7664,7 +7664,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ABIGAIL"),
         #elif SPANISH
         .trainerName = _("ADELA"),
@@ -7678,7 +7678,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("FINN"),
         #elif SPANISH
         .trainerName = _("AMARO"),
@@ -7692,7 +7692,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GARRETT"),
         #elif SPANISH
         .trainerName = _("MONTI"),
@@ -7706,7 +7706,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TOMMY"),
         #elif SPANISH
         .trainerName = _("TOMI"),
@@ -7720,7 +7720,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TANYA"),
         #elif SPANISH
         .trainerName = _("TANIA"),
@@ -7734,7 +7734,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHEA"),
         #elif SPANISH
         .trainerName = _("SHEA"),
@@ -7748,7 +7748,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HUGH"),
         #elif SPANISH
         .trainerName = _("HUGO"),
@@ -7762,7 +7762,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRYCE"),
         #elif SPANISH
         .trainerName = _("SUSO"),
@@ -7776,7 +7776,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CLAIRE"),
         #elif SPANISH
         .trainerName = _("ISA"),
@@ -7790,7 +7790,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MIK & KIA"),
         #elif SPANISH
         .trainerName = _("FER-PÍA"),
@@ -7804,7 +7804,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_AROMA_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("VIOLET"),
         #elif SPANISH
         .trainerName = _("VIOLETA"),
@@ -7818,7 +7818,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TUBER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALEXIS"),
         #elif SPANISH
         .trainerName = _("ALEXA"),
@@ -7832,7 +7832,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOY & MEG"),
         #elif SPANISH
         .trainerName = _("FELI-MATI"),
@@ -7846,7 +7846,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TISHA"),
         #elif SPANISH
         .trainerName = _("TALÍA"),
@@ -7860,7 +7860,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CELINA"),
         #elif SPANISH
         .trainerName = _("ANABEL"),
@@ -7874,7 +7874,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RAYNA"),
         #elif SPANISH
         .trainerName = _("RANIA"),
@@ -7888,7 +7888,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GILLIAN"),
         #elif SPANISH
         .trainerName = _("GALENIA"),
@@ -7902,7 +7902,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DESTIN"),
         #elif SPANISH
         .trainerName = _("DIEGO"),
@@ -7916,7 +7916,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TOBY"),
         #elif SPANISH
         .trainerName = _("TANIO"),
@@ -7930,7 +7930,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7944,7 +7944,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7958,7 +7958,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRUNT"),
         #elif SPANISH
         .trainerName = _("SOLDADO"),
@@ -7972,7 +7972,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MILO"),
         #elif SPANISH
         .trainerName = _("MILO"),
@@ -7986,7 +7986,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHAZ"),
         #elif SPANISH
         .trainerName = _("TEO"),
@@ -8000,7 +8000,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HAROLD"),
         #elif SPANISH
         .trainerName = _("HORACIO"),
@@ -8014,7 +8014,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TYLOR"),
         #elif SPANISH
         .trainerName = _("TONIO"),
@@ -8028,7 +8028,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MYMO"),
         #elif SPANISH
         .trainerName = _("JUAN"),
@@ -8042,7 +8042,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NICOLE"),
         #elif SPANISH
         .trainerName = _("NICOLASA"),
@@ -8056,7 +8056,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AVA & GEB"),
         #elif SPANISH
         .trainerName = _("ALI-ROS"),
@@ -8070,7 +8070,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_AROMA_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROSE"),
         #elif SPANISH
         .trainerName = _("ROSA"),
@@ -8084,7 +8084,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SAMIR"),
         #elif SPANISH
         .trainerName = _("SAMEL"),
@@ -8098,7 +8098,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DENISE"),
         #elif SPANISH
         .trainerName = _("DESIRÉ"),
@@ -8112,7 +8112,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MIU & MIA"),
         #elif SPANISH
         .trainerName = _("MARU-MÍA"),
@@ -8126,7 +8126,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EARL"),
         #elif SPANISH
         .trainerName = _("VÍCTOR"),
@@ -8140,7 +8140,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("FOSTER"),
         #elif SPANISH
         .trainerName = _("FAUSTO"),
@@ -8154,7 +8154,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LARRY"),
         #elif SPANISH
         .trainerName = _("LEANDRO"),
@@ -8168,7 +8168,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DARYL"),
         #elif SPANISH
         .trainerName = _("CIPRI"),
@@ -8182,7 +8182,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HECTOR"),
         #elif SPANISH
         .trainerName = _("HÉCTOR"),
@@ -8196,7 +8196,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DARIO"),
         #elif SPANISH
         .trainerName = _("FERMÍN"),
@@ -8210,7 +8210,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RODETTE"),
         #elif SPANISH
         .trainerName = _("ROSANA"),
@@ -8224,7 +8224,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_AROMA_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_AROMA_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MIAH"),
         #elif SPANISH
         .trainerName = _("JAZMÍN"),
@@ -8238,7 +8238,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EVE & JON"),
         #elif SPANISH
         .trainerName = _("ELE-RUS"),
@@ -8252,7 +8252,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MASON"),
         #elif SPANISH
         .trainerName = _("MARIANO"),
@@ -8266,7 +8266,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CYNDY"),
         #elif SPANISH
         .trainerName = _("CECILIA"),
@@ -8280,7 +8280,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOCELYN"),
         #elif SPANISH
         .trainerName = _("CESARINA"),
@@ -8294,7 +8294,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EVAN"),
         #elif SPANISH
         .trainerName = _("BLASCO"),
@@ -8308,7 +8308,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARK"),
         #elif SPANISH
         .trainerName = _("MARCO"),
@@ -8322,7 +8322,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LOGAN"),
         #elif SPANISH
         .trainerName = _("GONZALO"),
@@ -8336,7 +8336,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACKSON"),
         #elif SPANISH
         .trainerName = _("JOAQUÍN"),
@@ -8350,7 +8350,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BETH"),
         #elif SPANISH
         .trainerName = _("BEATRIZ"),
@@ -8364,7 +8364,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KATELYN"),
         #elif SPANISH
         .trainerName = _("CATALINA"),
@@ -8378,7 +8378,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LEROY"),
         #elif SPANISH
         .trainerName = _("LORENZO"),
@@ -8392,7 +8392,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MICHELLE"),
         #elif SPANISH
         .trainerName = _("MICAELA"),
@@ -8406,7 +8406,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOL_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOL_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LEX & NYA"),
         #elif SPANISH
         .trainerName = _("LINO-ABA"),
@@ -8420,7 +8420,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRANDON"),
         #elif SPANISH
         .trainerName = _("BARTOLO"),
@@ -8434,7 +8434,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BENJAMIN"),
         #elif SPANISH
         .trainerName = _("BENJAMÍN"),
@@ -8448,7 +8448,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EDNA"),
         #elif SPANISH
         .trainerName = _("ELSA"),
@@ -8462,7 +8462,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CLIFFORD"),
         #elif SPANISH
         .trainerName = _("CLEN"),
@@ -8476,7 +8476,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LADY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_LADY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SELPHY"),
         #elif SPANISH
         .trainerName = _("CONSU"),
@@ -8490,7 +8490,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LAWSON"),
         #elif SPANISH
         .trainerName = _("LENI"),
@@ -8504,7 +8504,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LAURA"),
         #elif SPANISH
         .trainerName = _("LAURA"),
@@ -8518,7 +8518,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BETHANY"),
         #elif SPANISH
         .trainerName = _("MARISA"),
@@ -8532,7 +8532,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALLISON"),
         #elif SPANISH
         .trainerName = _("ARACELI"),
@@ -8546,7 +8546,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GARRET"),
         #elif SPANISH
         .trainerName = _("GABRIEL"),
@@ -8560,7 +8560,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JONAH"),
         #elif SPANISH
         .trainerName = _("JONÁS"),
@@ -8574,7 +8574,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("VANCE"),
         #elif SPANISH
         .trainerName = _("VAN"),
@@ -8588,7 +8588,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NASH"),
         #elif SPANISH
         .trainerName = _("NEMO"),
@@ -8602,7 +8602,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CORDELL"),
         #elif SPANISH
         .trainerName = _("JUACO"),
@@ -8616,7 +8616,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DALIA"),
         #elif SPANISH
         .trainerName = _("DALILA"),
@@ -8630,7 +8630,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOANA"),
         #elif SPANISH
         .trainerName = _("SONIA"),
@@ -8644,7 +8644,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RILEY"),
         #elif SPANISH
         .trainerName = _("RAÚL"),
@@ -8658,7 +8658,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARCY"),
         #elif SPANISH
         .trainerName = _("MARCELA"),
@@ -8672,7 +8672,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LAYTON"),
         #elif SPANISH
         .trainerName = _("LANTEO"),
@@ -8686,7 +8686,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KELSEY"),
         #elif SPANISH
         .trainerName = _("ELIA"),
@@ -8700,7 +8700,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KELSEY"),
         #elif SPANISH
         .trainerName = _("ELIA"),
@@ -8714,7 +8714,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KELSEY"),
         #elif SPANISH
         .trainerName = _("ELIA"),
@@ -8728,7 +8728,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RICKY"),
         #elif SPANISH
         .trainerName = _("RICHI"),
@@ -8742,7 +8742,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RICKY"),
         #elif SPANISH
         .trainerName = _("RICHI"),
@@ -8756,7 +8756,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RICKY"),
         #elif SPANISH
         .trainerName = _("RICHI"),
@@ -8770,7 +8770,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JEFF"),
         #elif SPANISH
         .trainerName = _("GENARO"),
@@ -8784,7 +8784,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JEFF"),
         #elif SPANISH
         .trainerName = _("GENARO"),
@@ -8798,7 +8798,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JEFF"),
         #elif SPANISH
         .trainerName = _("GENARO"),
@@ -8812,7 +8812,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ISABELLE"),
         #elif SPANISH
         .trainerName = _("CHÍO"),
@@ -8826,7 +8826,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ISABELLE"),
         #elif SPANISH
         .trainerName = _("CHÍO"),
@@ -8840,7 +8840,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ISABELLE"),
         #elif SPANISH
         .trainerName = _("CHÍO"),
@@ -8854,7 +8854,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("YASU"),
         #elif SPANISH
         .trainerName = _("YASU"),
@@ -8868,7 +8868,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("YASU"),
         #elif SPANISH
         .trainerName = _("YASU"),
@@ -8882,7 +8882,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ENGINEER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ENGINEER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BERNIE"),
         #elif SPANISH
         .trainerName = _("BERNARDO"),
@@ -8896,7 +8896,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DARIAN"),
         #elif SPANISH
         .trainerName = _("DARIAN"),
@@ -8910,7 +8910,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHRIS"),
         #elif SPANISH
         .trainerName = _("CRIS"),
@@ -8924,7 +8924,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHRIS"),
         #elif SPANISH
         .trainerName = _("CRIS"),
@@ -8938,7 +8938,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CAMPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHRIS"),
         #elif SPANISH
         .trainerName = _("CRIS"),
@@ -8952,7 +8952,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALICIA"),
         #elif SPANISH
         .trainerName = _("NELI"),
@@ -8966,7 +8966,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALICIA"),
         #elif SPANISH
         .trainerName = _("NELI"),
@@ -8980,7 +8980,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALICIA"),
         #elif SPANISH
         .trainerName = _("NELI"),
@@ -8994,7 +8994,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JEREMY"),
         #elif SPANISH
         .trainerName = _("ADOLFO"),
@@ -9008,7 +9008,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARK"),
         #elif SPANISH
         .trainerName = _("MARCO"),
@@ -9022,7 +9022,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HERMAN"),
         #elif SPANISH
         .trainerName = _("HERNANDO"),
@@ -9036,7 +9036,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HERMAN"),
         #elif SPANISH
         .trainerName = _("HERNANDO"),
@@ -9050,7 +9050,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TRENT"),
         #elif SPANISH
         .trainerName = _("TARSI"),
@@ -9064,7 +9064,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MEGAN"),
         #elif SPANISH
         .trainerName = _("VEVA"),
@@ -9078,7 +9078,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LASS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LASS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MEGAN"),
         #elif SPANISH
         .trainerName = _("VEVA"),
@@ -9092,7 +9092,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SUPER_NERD,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_SUPER_NERD,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GLENN"),
         #elif SPANISH
         .trainerName = _("LADIS"),
@@ -9106,7 +9106,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_GAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RICH"),
         #elif SPANISH
         .trainerName = _("NORBER"),
@@ -9120,7 +9120,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JAREN"),
         #elif SPANISH
         .trainerName = _("JARO"),
@@ -9134,7 +9134,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ELLIOT"),
         #elif SPANISH
         .trainerName = _("ELOY"),
@@ -9148,7 +9148,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ROCKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_ROCKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LUCA"),
         #elif SPANISH
         .trainerName = _("MONE"),
@@ -9162,7 +9162,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHEILA"),
         #elif SPANISH
         .trainerName = _("SOL"),
@@ -9176,7 +9176,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROBERT"),
         #elif SPANISH
         .trainerName = _("ROBERTO"),
@@ -9190,7 +9190,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ROBERT"),
         #elif SPANISH
         .trainerName = _("ROBERTO"),
@@ -9204,7 +9204,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SUSIE"),
         #elif SPANISH
         .trainerName = _("SUSI"),
@@ -9218,7 +9218,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SUSIE"),
         #elif SPANISH
         .trainerName = _("SUSI"),
@@ -9232,7 +9232,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SUSIE"),
         #elif SPANISH
         .trainerName = _("SUSI"),
@@ -9246,7 +9246,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LUKAS"),
         #elif SPANISH
         .trainerName = _("LUCIO"),
@@ -9260,7 +9260,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BENNY"),
         #elif SPANISH
         .trainerName = _("BENI"),
@@ -9274,7 +9274,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BENNY"),
         #elif SPANISH
         .trainerName = _("BENI"),
@@ -9288,7 +9288,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARLON"),
         #elif SPANISH
         .trainerName = _("MAURO"),
@@ -9302,7 +9302,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MARLON"),
         #elif SPANISH
         .trainerName = _("MAURO"),
@@ -9316,7 +9316,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BEAUTY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_BEAUTY,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GRACE"),
         #elif SPANISH
         .trainerName = _("GRACIA"),
@@ -9330,7 +9330,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHESTER"),
         #elif SPANISH
         .trainerName = _("CELSO"),
@@ -9344,7 +9344,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHESTER"),
         #elif SPANISH
         .trainerName = _("CELSO"),
@@ -9358,7 +9358,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BECKY"),
         #elif SPANISH
         .trainerName = _("BETINA"),
@@ -9372,7 +9372,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BECKY"),
         #elif SPANISH
         .trainerName = _("BETINA"),
@@ -9386,7 +9386,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BECKY"),
         #elif SPANISH
         .trainerName = _("BETINA"),
@@ -9400,7 +9400,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RON & MYA"),
         #elif SPANISH
         .trainerName = _("TIN-TINA"),
@@ -9414,7 +9414,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RON & MYA"),
         #elif SPANISH
         .trainerName = _("TIN-TINA"),
@@ -9428,7 +9428,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RON & MYA"),
         #elif SPANISH
         .trainerName = _("TIN-TINA"),
@@ -9442,7 +9442,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RUBEN"),
         #elif SPANISH
         .trainerName = _("RUBÉN"),
@@ -9456,7 +9456,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CAMRON"),
         #elif SPANISH
         .trainerName = _("CADEL"),
@@ -9470,7 +9470,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JAXON"),
         #elif SPANISH
         .trainerName = _("JULIO"),
@@ -9484,7 +9484,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ISAIAH"),
         #elif SPANISH
         .trainerName = _("ISAÍAS"),
@@ -9498,7 +9498,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COREY"),
         #elif SPANISH
         .trainerName = _("CEFE"),
@@ -9512,7 +9512,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACOB"),
         #elif SPANISH
         .trainerName = _("JACOBO"),
@@ -9526,7 +9526,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACOB"),
         #elif SPANISH
         .trainerName = _("JACOBO"),
@@ -9540,7 +9540,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALICE"),
         #elif SPANISH
         .trainerName = _("ALICIA"),
@@ -9554,7 +9554,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DARRIN"),
         #elif SPANISH
         .trainerName = _("DARÍO"),
@@ -9568,7 +9568,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MISSY"),
         #elif SPANISH
         .trainerName = _("MERCE"),
@@ -9582,7 +9582,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PICNICKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PICNICKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MISSY"),
         #elif SPANISH
         .trainerName = _("MERCE"),
@@ -9596,7 +9596,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_FISHERMAN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_FISHERMAN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("WADE"),
         #elif SPANISH
         .trainerName = _("GUIDO"),
@@ -9610,7 +9610,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACK"),
         #elif SPANISH
         .trainerName = _("OMAR"),
@@ -9624,7 +9624,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LIL & IAN"),
         #elif SPANISH
         .trainerName = _("ÍA-IGOR"),
@@ -9638,7 +9638,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SIS_AND_BRO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SIS_AND_BRO,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LIL & IAN"),
         #elif SPANISH
         .trainerName = _("ÍA-IGOR"),
@@ -9652,7 +9652,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("FINN"),
         #elif SPANISH
         .trainerName = _("AMARO"),
@@ -9666,7 +9666,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHARON"),
         #elif SPANISH
         .trainerName = _("SILVANA"),
@@ -9680,7 +9680,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHARON"),
         #elif SPANISH
         .trainerName = _("SILVANA"),
@@ -9694,7 +9694,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TANYA"),
         #elif SPANISH
         .trainerName = _("TANIA"),
@@ -9708,7 +9708,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TANYA"),
         #elif SPANISH
         .trainerName = _("TANIA"),
@@ -9722,7 +9722,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHEA"),
         #elif SPANISH
         .trainerName = _("SHEA"),
@@ -9736,7 +9736,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SHEA"),
         #elif SPANISH
         .trainerName = _("SHEA"),
@@ -9750,7 +9750,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HUGH"),
         #elif SPANISH
         .trainerName = _("HUGO"),
@@ -9764,7 +9764,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HUGH"),
         #elif SPANISH
         .trainerName = _("HUGO"),
@@ -9778,7 +9778,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MIK & KIA"),
         #elif SPANISH
         .trainerName = _("FER-PÍA"),
@@ -9792,7 +9792,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_KIN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_KIN,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MIK & KIA"),
         #elif SPANISH
         .trainerName = _("FER-PÍA"),
@@ -9806,7 +9806,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TUBER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AMIRA"),
         #elif SPANISH
         .trainerName = _("PIZPI"),
@@ -9820,7 +9820,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TWINS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_TWINS,
         .trainerPic = TRAINER_PIC_TWINS,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JOY & MEG"),
         #elif SPANISH
         .trainerName = _("FELI-MATI"),
@@ -9834,7 +9834,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAINTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_PAINTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RAYNA"),
         #elif SPANISH
         .trainerName = _("RANIA"),
@@ -9848,7 +9848,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNGSTER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_YOUNGSTER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DESTIN"),
         #elif SPANISH
         .trainerName = _("DIEGO"),
@@ -9862,7 +9862,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_BREEDER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("ALIZE"),
         #elif SPANISH
         .trainerName = _("FLOR"),
@@ -9876,7 +9876,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GIA & JES"),
         #elif SPANISH
         .trainerName = _("AGA-ARE"),
@@ -9890,7 +9890,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_YOUNG_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("GIA & JES"),
         #elif SPANISH
         .trainerName = _("AGA-ARE"),
@@ -9904,7 +9904,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MILO"),
         #elif SPANISH
         .trainerName = _("MILO"),
@@ -9918,7 +9918,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CHAZ"),
         #elif SPANISH
         .trainerName = _("TEO"),
@@ -9932,7 +9932,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BIRD_KEEPER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HAROLD"),
         #elif SPANISH
         .trainerName = _("HORACIO"),
@@ -9946,7 +9946,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NICOLE"),
         #elif SPANISH
         .trainerName = _("NICOLASA"),
@@ -9960,7 +9960,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACLYN"),
         #elif SPANISH
         .trainerName = _("JACINTA"),
@@ -9974,7 +9974,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("SAMIR"),
         #elif SPANISH
         .trainerName = _("SAMEL"),
@@ -9988,7 +9988,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_HIKER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EARL"),
         #elif SPANISH
         .trainerName = _("VÍCTOR"),
@@ -10002,7 +10002,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RUIN_MANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LARRY"),
         #elif SPANISH
         .trainerName = _("LEANDRO"),
@@ -10016,7 +10016,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("HECTOR"),
         #elif SPANISH
         .trainerName = _("HÉCTOR"),
@@ -10030,7 +10030,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("DARIO"),
         #elif SPANISH
         .trainerName = _("FERMÍN"),
@@ -10044,7 +10044,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PSYCHIC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("RODETTE"),
         #elif SPANISH
         .trainerName = _("ROSANA"),
@@ -10058,7 +10058,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_JUGGLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_JUGGLER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MASON"),
         #elif SPANISH
         .trainerName = _("MARIANO"),
@@ -10072,7 +10072,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("NICOLAS"),
         #elif SPANISH
         .trainerName = _("NICOLÁS"),
@@ -10086,7 +10086,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MADELINE"),
         #elif SPANISH
         .trainerName = _("MIRANDA"),
@@ -10100,7 +10100,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CRUSH_GIRL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_CRUSH_GIRL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("CYNDY"),
         #elif SPANISH
         .trainerName = _("CECILIA"),
@@ -10114,7 +10114,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_TAMER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
         .trainerPic = TRAINER_PIC_TAMER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("EVAN"),
         #elif SPANISH
         .trainerName = _("BLASCO"),
@@ -10128,7 +10128,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("JACKSON"),
         #elif SPANISH
         .trainerName = _("JOAQUÍN"),
@@ -10142,7 +10142,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("KATELYN"),
         #elif SPANISH
         .trainerName = _("CATALINA"),
@@ -10156,7 +10156,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LEROY"),
         #elif SPANISH
         .trainerName = _("LORENZO"),
@@ -10170,7 +10170,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_COOLTRAINER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MICHELLE"),
         #elif SPANISH
         .trainerName = _("MICAELA"),
@@ -10184,7 +10184,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_COOL_COUPLE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOL_COUPLE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LEX & NYA"),
         #elif SPANISH
         .trainerName = _("LINO-ABA"),
@@ -10198,7 +10198,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COLTON"),
         #elif SPANISH
         .trainerName = _("CORNELIO"),
@@ -10212,7 +10212,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COLTON"),
         #elif SPANISH
         .trainerName = _("CORNELIO"),
@@ -10226,7 +10226,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_BUG_CATCHER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_BUG_CATCHER,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("COLTON"),
         #elif SPANISH
         .trainerName = _("CORNELIO"),
@@ -10240,7 +10240,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MATTHEW"),
         #elif SPANISH
         .trainerName = _("MATEO"),
@@ -10254,7 +10254,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMER_M,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TONY"),
         #elif SPANISH
         .trainerName = _("TONI"),
@@ -10268,7 +10268,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SWIMMER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_SWIMMER_F,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("MELISSA"),
         #elif SPANISH
         .trainerName = _("MELISA"),
@@ -10282,7 +10282,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_LORELEI,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LORELEI"),
         #elif SPANISH
         .trainerName = _("LORELEI"),
@@ -10296,7 +10296,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_BRUNO,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("BRUNO"),
         #elif SPANISH
         .trainerName = _("BRUNO"),
@@ -10310,7 +10310,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_AGATHA,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("AGATHA"),
         #elif SPANISH
         .trainerName = _("AGATHA"),
@@ -10324,7 +10324,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
         .trainerPic = TRAINER_PIC_ELITE_FOUR_LANCE,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("LANCE"),
         #elif SPANISH
         .trainerName = _("LANCE"),
@@ -10338,7 +10338,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -10352,7 +10352,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -10366,7 +10366,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CHAMPION_RIVAL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("TERRY"),
         #elif SPANISH
         .trainerName = _("TEREN"),
@@ -10380,7 +10380,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_CUE_BALL,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CUE_BALL,
-        #if ENGLISH
+        #if ENGLISH || ITALIAN //test
         .trainerName = _("PAXTON"),
         #elif SPANISH
         .trainerName = _("GUILLE"),

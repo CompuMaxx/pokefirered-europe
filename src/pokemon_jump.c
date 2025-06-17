@@ -2912,7 +2912,7 @@ static const u32 sVenusaur_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/venusau
 static const u16 sBonuses_Pal[] = INCBIN_U16("graphics/pokemon_jump/bonuses.gbapal");
 static const u32 sBonuses_Gfx[] = INCBIN_U32("graphics/pokemon_jump/bonuses.4bpp.lz");
 static const u32 sBonuses_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/bonuses.bin.lz");
-#elif SPANISH
+#else //#elif SPANISH
 extern const u16 sBonuses_Pal[];
 extern const u32 sBonuses_Gfx[];
 extern const u32 sBonuses_Tilemap[];

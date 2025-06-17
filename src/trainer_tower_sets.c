@@ -19,7 +19,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 	.prize = TTPRIZE_WHITE_HERB,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("COLE"),
 			.facilityClass = FACILITY_CLASS_YOUNGSTER,
 			.textColor = 1,
@@ -184,7 +184,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 	.prize = TTPRIZE_DRAGON_SCALE,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JAC"),
 			.facilityClass = FACILITY_CLASS_BURGLAR,
 			.textColor = 1,
@@ -349,7 +349,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 	.prize = TTPRIZE_IRON,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("MILY"),
 			.facilityClass = FACILITY_CLASS_PSYCHIC_F,
 			.textColor = 1,
@@ -514,7 +514,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 	.prize = TTPRIZE_CHOICE_BAND,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JOS & ANNE"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 7,
@@ -667,7 +667,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JOS & ANNE"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 7,
@@ -831,7 +831,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 	.prize = TTPRIZE_CALCIUM,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("EMY & ALEK"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 1,
@@ -984,7 +984,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("EMY & ALEK"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 1,
@@ -1148,7 +1148,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 	.prize = TTPRIZE_HP_UP,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JO & HALEY"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
 			.textColor = 5,
@@ -1301,7 +1301,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JO & HALEY"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
 			.textColor = 5,
@@ -1465,7 +1465,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 	.prize = TTPRIZE_METAL_COAT,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JORDY"),
 			.facilityClass = FACILITY_CLASS_BIKER,
 			.textColor = 3,
@@ -1618,7 +1618,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("ERNEST"),
 			.facilityClass = FACILITY_CLASS_BIKER,
 			.textColor = 1,
@@ -1771,7 +1771,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("GABRIEL"),
 			.facilityClass = FACILITY_CLASS_CUE_BALL,
 			.textColor = 1,
@@ -1934,7 +1934,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 	.prize = TTPRIZE_UP_GRADE,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("MIKE"),
 			.facilityClass = FACILITY_CLASS_HIKER,
 			.textColor = 5,
@@ -2087,7 +2087,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("REBECCA"),
 			.facilityClass = FACILITY_CLASS_CRUSH_GIRL,
 			.textColor = 5,
@@ -2240,7 +2240,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("NICOLAS"),
 			.facilityClass = FACILITY_CLASS_BLACK_BELT,
 			.textColor = 5,
@@ -2403,7 +2403,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 	.prize = TTPRIZE_HP_UP,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JOEY"),
 			.facilityClass = FACILITY_CLASS_CAMPER,
 			.textColor = 1,
@@ -2568,7 +2568,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 	.prize = TTPRIZE_METAL_COAT,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("LILY"),
 			.facilityClass = FACILITY_CLASS_PKMN_BREEDER,
 			.textColor = 1,
@@ -2733,7 +2733,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 	.prize = TTPRIZE_UP_GRADE,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("BRANDON"),
 			.facilityClass = FACILITY_CLASS_BUG_CATCHER,
 			.textColor = 1,
@@ -2898,7 +2898,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 	.prize = TTPRIZE_IRON,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("RIC & RENE"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
 			.textColor = 5,
@@ -3051,7 +3051,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("RIC & RENE"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
 			.textColor = 5,
@@ -3215,7 +3215,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 	.prize = TTPRIZE_DRAGON_SCALE,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JEN & KIRA"),
 			.facilityClass = FACILITY_CLASS_TWINS,
 			.textColor = 5,
@@ -3368,7 +3368,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JEN & KIRA"),
 			.facilityClass = FACILITY_CLASS_TWINS,
 			.textColor = 3,
@@ -3532,7 +3532,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 	.prize = TTPRIZE_MENTAL_HERB,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("ISAC & MAG"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 1,
@@ -3685,7 +3685,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("ISAC & MAG"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 1,
@@ -3849,7 +3849,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 	.prize = TTPRIZE_BRIGHT_POWDER,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("CHELSEA"),
 			.facilityClass = FACILITY_CLASS_PKMN_RANGER_F,
 			.textColor = 7,
@@ -4002,7 +4002,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("TRENTON"),
 			.facilityClass = FACILITY_CLASS_PKMN_RANGER_M,
 			.textColor = 7,
@@ -4155,7 +4155,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("ALBERT"),
 			.facilityClass = FACILITY_CLASS_COOLTRAINER_M,
 			.textColor = 7,
@@ -4318,7 +4318,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 	.prize = TTPRIZE_CALCIUM,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("CAMRYN"),
 			.facilityClass = FACILITY_CLASS_PICNICKER,
 			.textColor = 1,
@@ -4471,7 +4471,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("NATALIA"),
 			.facilityClass = FACILITY_CLASS_AROMA_LADY,
 			.textColor = 1,
@@ -4624,7 +4624,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("KATHLEEN"),
 			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
 			.textColor = 7,
@@ -4787,7 +4787,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 	.prize = TTPRIZE_CARBOS,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("BRADEN"),
 			.facilityClass = FACILITY_CLASS_SWIMMER_M,
 			.textColor = 1,
@@ -4952,7 +4952,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 	.prize = TTPRIZE_KINGS_ROCK,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("ALLYSON"),
 			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
 			.textColor = 7,
@@ -5117,7 +5117,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 	.prize = TTPRIZE_UP_GRADE,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("ALBERTO"),
 			.facilityClass = FACILITY_CLASS_SAILOR,
 			.textColor = 5,
@@ -5282,7 +5282,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 	.prize = TTPRIZE_METAL_COAT,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("KAT & KIPP"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
 			.textColor = 4,
@@ -5435,7 +5435,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("KAT & KIPP"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
 			.textColor = 4,
@@ -5599,7 +5599,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 	.prize = TTPRIZE_MENTAL_HERB,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("GEB&MEGAN"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 7,
@@ -5752,7 +5752,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("GEB&MEGAN"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 7,
@@ -5916,7 +5916,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 	.prize = TTPRIZE_ZINC,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("LISA&LEAH"),
 			.facilityClass = FACILITY_CLASS_TWINS,
 			.textColor = 1,
@@ -6069,7 +6069,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("LISA&LEAH"),
 			.facilityClass = FACILITY_CLASS_TWINS,
 			.textColor = 1,
@@ -6233,7 +6233,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 	.prize = TTPRIZE_PROTEIN,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("PRISCILLA"),
 			.facilityClass = FACILITY_CLASS_TUBER,
 			.textColor = 1,
@@ -6386,7 +6386,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("CHARLOTTE"),
 			.facilityClass = FACILITY_CLASS_LADY,
 			.textColor = 1,
@@ -6539,7 +6539,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("SHANIA"),
 			.facilityClass = FACILITY_CLASS_SWIMMER_F,
 			.textColor = 1,
@@ -6702,7 +6702,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 	.prize = TTPRIZE_DRAGON_SCALE,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("BRENNAN"),
 			.facilityClass = FACILITY_CLASS_SAILOR,
 			.textColor = 1,
@@ -6855,7 +6855,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("KADEN"),
 			.facilityClass = FACILITY_CLASS_FISHERMAN,
 			.textColor = 1,
@@ -7008,7 +7008,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("EMANUEL"),
 			.facilityClass = FACILITY_CLASS_GENTLEMAN,
 			.textColor = 1,
@@ -7171,7 +7171,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 	.prize = TTPRIZE_METAL_COAT,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("JARRETT"),
 			.facilityClass = FACILITY_CLASS_JUGGLER,
 			.textColor = 2,
@@ -7336,7 +7336,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 	.prize = TTPRIZE_DRAGON_SCALE,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("OWEN"),
 			.facilityClass = FACILITY_CLASS_SUPER_NERD,
 			.textColor = 2,
@@ -7501,7 +7501,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 	.prize = TTPRIZE_PROTEIN,
 	.trainers = {
 	    {
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("LORENZO"),
 			.facilityClass = FACILITY_CLASS_PSYCHIC_M,
 			.textColor = 1,
@@ -7666,7 +7666,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 	.prize = TTPRIZE_SCOPE_LENS,
 	.trainers = {
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("NIA & CARL"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 4,
@@ -7819,7 +7819,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("NIA & CARL"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 4,
@@ -7983,7 +7983,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 	.prize = TTPRIZE_CARBOS,
 	.trainers = {
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("AXE & REN"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
 			.textColor = 2,
@@ -8136,7 +8136,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("AXE & REN"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
 			.textColor = 2,
@@ -8300,7 +8300,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 	.prize = TTPRIZE_ZINC,
 	.trainers = {
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("KATI & GEB"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 2,
@@ -8453,7 +8453,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("KATI & GEB"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 2,
@@ -8617,7 +8617,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 	.prize = TTPRIZE_WHITE_HERB,
 	.trainers = {
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("BEN"),
 			.facilityClass = FACILITY_CLASS_ROCKER,
 			.textColor = 1,
@@ -8770,7 +8770,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("CAMDEN"),
 			.facilityClass = FACILITY_CLASS_ENGINEER,
 			.textColor = 1,
@@ -8923,7 +8923,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("ZACKERY"),
 			.facilityClass = FACILITY_CLASS_SCIENTIST,
 			.textColor = 1,
@@ -9086,7 +9086,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 	.prize = TTPRIZE_UP_GRADE,
 	.trainers = {
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("MAURA"),
 			.facilityClass = FACILITY_CLASS_BEAUTY,
 			.textColor = 2,
@@ -9239,7 +9239,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("MIKAELA"),
 			.facilityClass = FACILITY_CLASS_LASS,
 			.textColor = 1,
@@ -9392,7 +9392,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			}
 		},
 		{
-		#if ENGLISH
+		#if ENGLISH || ITALIAN //test
 			.name = _("FLINT"),
 			.facilityClass = FACILITY_CLASS_ENGINEER,
 			.textColor = 4,

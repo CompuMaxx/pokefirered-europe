@@ -1,7 +1,7 @@
 static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_MR_MIME] = 
     {
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("MIMIEN"),
     #elif SPANISH
         .nickname = _("MIMI"),
@@ -14,7 +14,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x00009cae,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("REYLEY"),
     #elif SPANISH
         .otName= _("RÚTEO"),
@@ -25,7 +25,7 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_JYNX] = 
     {
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("ZYNX"),
     #elif SPANISH
         .nickname = _("ZYNX"),
@@ -38,7 +38,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x498a2e1d,
         .heldItem = ITEM_FAB_MAIL,
         .mailNum = 0,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("DONTAE"),
     #elif SPANISH
         .otName= _("CELESTO"),
@@ -50,7 +50,7 @@ static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_NIDORAN] = 
     {
 #if defined(FIRERED)
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("MS. NIDO"),
     #elif SPANISH
         .nickname = _("NIDRANA"),
@@ -63,7 +63,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x4c970b89,
         .heldItem = ITEM_TINY_MUSHROOM,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("SAIGE"),
     #elif SPANISH
         .otName= _("QUICA"),
@@ -72,7 +72,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .sheen = 10,
         .requestedSpecies = SPECIES_NIDORAN_M
 #elif defined(LEAFGREEN)
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("MR. NIDO"),
     #elif SPANISH
         .nickname = _("NIDRÁN"),
@@ -85,7 +85,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x4c970b9e,
         .heldItem = ITEM_TINY_MUSHROOM,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("SAIGE"),
     #elif SPANISH
         .otName= _("QUICA"),
@@ -97,7 +97,7 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_FARFETCHD] = 
     {
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("CH'DING"),
     #elif SPANISH
         .nickname = _("FARFI"),
@@ -110,7 +110,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x151943d7,
         .heldItem = ITEM_STICK,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("ELYSSA"),
     #elif SPANISH
         .otName= _("CARMELA"),
@@ -122,7 +122,7 @@ static const struct InGameTrade sInGameTrades[] = {
     [INGAME_TRADE_NIDORINOA] = 
     {
 #if defined(FIRERED)
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("NINA"),
     #elif SPANISH
         .nickname = _("NIDRINA"),
@@ -135,7 +135,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x00eeca15,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("TURNER"),
     #elif SPANISH
         .otName= _("ONZANO"),
@@ -144,7 +144,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .sheen = 10,
         .requestedSpecies = SPECIES_NIDORINO
 #elif defined(LEAFGREEN)
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("NINO"),
     #elif SPANISH
         .nickname = _("NIDRINO"),
@@ -157,7 +157,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x00eeca19,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("TURNER"),
     #elif SPANISH
         .otName= _("ONZANO"),
@@ -169,7 +169,7 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_LICKITUNG] = 
     {
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("MARC"),
     #elif SPANISH
         .nickname = _("LICKITITO"),
@@ -182,7 +182,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x451308ab,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("HADEN"),
     #elif SPANISH
         .otName= _("DIOCHO"),
@@ -197,7 +197,7 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_ELECTRODE] = 
     {
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("ESPHERE"),
     #elif SPANISH
         .nickname = _("BOLICHI"),
@@ -210,7 +210,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x06341016,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("CLIFTON"),
     #elif SPANISH
         .otName= _("CANEL"),
@@ -221,7 +221,7 @@ static const struct InGameTrade sInGameTrades[] = {
     }, 
     [INGAME_TRADE_TANGELA] = 
     {
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("TANGENY"),
     #elif SPANISH
         .nickname = _("TANGELITO"),
@@ -234,7 +234,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x5c77ecfa,
         .heldItem = ITEM_STARDUST,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("NORMA"),
     #elif SPANISH
         .otName= _("DULCE"),
@@ -245,7 +245,7 @@ static const struct InGameTrade sInGameTrades[] = {
     },
     [INGAME_TRADE_SEEL] = 
     {
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .nickname = _("SEELOR"),
     #elif SPANISH
         .nickname = _("SEELÍN"),
@@ -258,7 +258,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .personality = 0x482cac89,
         .heldItem = ITEM_NONE,
         .mailNum = 255,
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
         .otName = _("GARETT"),
     #elif SPANISH
         .otName= _("GOYO"),
@@ -270,7 +270,7 @@ static const struct InGameTrade sInGameTrades[] = {
 };
 
 static const u16 sInGameTradeMailMessages[][10] = {
-    #if ENGLISH
+    #if ENGLISH || ITALIAN //test
     {
         EC_WORD_THAT_S,
         EC_WORD_A,

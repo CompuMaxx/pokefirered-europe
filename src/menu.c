@@ -248,7 +248,7 @@ void ClearTopBarWindow(void)
     }
 }
 
-#if SPANISH
+#if SPANISH || ITALIAN //test
 void es_sub_810F8F0(u8 a0)
 {
     if (sTopBarWindowId != 0xFF)
