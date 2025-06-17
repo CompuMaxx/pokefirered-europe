@@ -6452,6 +6452,14 @@ u8 *MonSpritesGfxManager_GetSpritePtr(u8 spriteNum)
     }
 }
 
+#if ITALIAN
+NAKED
+static void it_sub_8044d1c(void)
+{
+    asm("bx lr");
+}
+#endif
+
 #if SPANISH
 //Is trainer class n name in src ?
 static bool32 es_sub_8044D1C(u8 *src)

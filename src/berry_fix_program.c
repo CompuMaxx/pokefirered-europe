@@ -203,7 +203,7 @@ static void Task_BerryFixMain(u8 taskId)
     }
 }
 
-#else //#elif SPANISH
+#else //other language
 
 #include "malloc.h"
 #include "bg.h"

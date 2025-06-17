@@ -756,7 +756,7 @@ void InitBattlerHealthboxCoords(u8 battler)
     UpdateSpritePos(gHealthboxSpriteIds[battler], x, y);
 }
 
-#if ENGLISH
+#if ENGLISH || ITALIAN
     #define TEXT_LV _("{LV_2}")
 #elif SPANISH
     #define TEXT_LV _("{LV_3}")
@@ -773,7 +773,7 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
 #if ENGLISH
     objVram = ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
     xPos = 5 * (3 - (objVram - (text + 2)));
-#elif SPANISH
+#else //#elif SPANISH || ITALIAN
     u8 *txtPtr = text + StringLength(text);
     objVram = ConvertIntToDecimalStringN(txtPtr, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
     xPos = 5 * (3 - (objVram - txtPtr));
@@ -1264,7 +1264,7 @@ u8 CreatePartyStatusSummarySprites(u8 battlerId, struct HpAndStatus *partyInfo, 
     PlaySE12WithPanning(SE_BALL_TRAY_ENTER, 0);
     return taskId;
 }
-#elif SPANISH
+#else //#elif SPANISH
 u8 CreatePartyStatusSummarySprites(u8 battlerId, struct HpAndStatus *partyInfo, bool8 isSwitchingMons, bool8 isBattleStart)
 {
     bool8 isOpponent;

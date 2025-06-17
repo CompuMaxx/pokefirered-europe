@@ -8052,7 +8052,7 @@ static void GetAllGroundEffectFlags_OnBeginStep(struct ObjectEvent *objEvent, u3
 static void GetAllGroundEffectFlags_OnFinishStep(struct ObjectEvent *objEvent, u32 *flags)
 {
     ObjectEventUpdateMetatileBehaviors(objEvent);
-#if SPANISH
+#if SPANISH || ITALIAN
     GetGroundEffectFlags_Reflection(objEvent, flags);
 #endif
     GetGroundEffectFlags_ShallowFlowingWater(objEvent, flags);

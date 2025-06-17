@@ -466,7 +466,7 @@ static void Task_LinkupFailed(u8 taskId)
 {
     gSpecialVar_Result = LINKUP_FAILED;
     ClearLinkPlayerCountWindow(gTasks[taskId].tWindowId);
-#if SPANISH
+#if SPANISH || ITALIAN
     RemoveWindow(gTasks[taskId].tWindowId);
 #endif
     HideFieldMessageBox();
@@ -478,7 +478,7 @@ static void Task_LinkupConnectionError(u8 taskId)
 {
     gSpecialVar_Result = LINKUP_CONNECTION_ERROR;
     ClearLinkPlayerCountWindow(gTasks[taskId].tWindowId);
-#if SPANISH
+#if SPANISH || ITALIAN
     RemoveWindow(gTasks[taskId].tWindowId);
 #endif
     HideFieldMessageBox();
