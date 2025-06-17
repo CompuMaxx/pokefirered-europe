@@ -130,7 +130,7 @@ MAKEFLAGS += --no-print-directory
 # Delete files that weren't built properly
 .DELETE_ON_ERROR:
 
-ALL_BUILDS := firered firered_rev1 leafgreen leafgreen_rev1 firered_es leafgreen_es
+ALL_BUILDS := firered firered_rev1 leafgreen leafgreen_rev1 firered_es leafgreen_es firered_it
 ALL_BUILDS += $(ALL_BUILDS:%=%_modern)
 
 RULES_NO_SCAN += clean clean-assets tidy generated clean-generated
@@ -229,6 +229,7 @@ leafgreen:              ; @$(MAKE) GAME_VERSION=LEAFGREEN
 leafgreen_rev1:         ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_REVISION=1
 firered_es:             ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=SPANISH
 leafgreen_es:           ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH
+firered_it:             ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=ITALIAN
 
 compare_firered:        ; @$(MAKE) GAME_VERSION=FIRERED COMPARE=1
 compare_firered_rev1:   ; @$(MAKE) GAME_VERSION=FIRERED GAME_REVISION=1 COMPARE=1
@@ -253,6 +254,11 @@ rojofuego:
 verdehoja:
 	@$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH
 	@$(MAKE) syms GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH
+
+#WSL2 TEST use: time make rossofuoco -j$NPROC
+rossofuoco:
+	@$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=ITALIAN
+	@$(MAKE) syms GAME_VERSION=FIRERED GAME_LANGUAGE=ITALIAN
 
 modern: ; @$(MAKE) MODERN=1
 
@@ -374,6 +380,16 @@ $(OBJ_DIR)/sym_common.ld: sym_common.txt $(C_OBJS) $(wildcard common_syms/*.txt)
 $(OBJ_DIR)/sym_ewram.ld: sym_ewram.txt
 	$(RAMSCRGEN) ewram_data $< ENGLISH > $@
 endif #ENGLISH
+ifeq ($(GAME_LANGUAGE),ITALIAN)
+$(OBJ_DIR)/sym_bss.ld: sym_bss_it.txt
+	$(RAMSCRGEN) .bss $< ITALIAN > $@
+
+$(OBJ_DIR)/sym_common.ld: sym_common.txt $(C_OBJS) $(wildcard common_syms/*.txt)
+	$(RAMSCRGEN) COMMON $< ITALIAN -c $(C_BUILDDIR),common_syms > $@
+
+$(OBJ_DIR)/sym_ewram.ld: sym_ewram.txt
+	$(RAMSCRGEN) ewram_data $< ITALIAN > $@
+endif #ITALIAN
 ifeq ($(GAME_LANGUAGE),SPANISH)
 $(OBJ_DIR)/sym_bss.ld: sym_bss_es.txt
 	$(RAMSCRGEN) .bss $< SPANISH > $@
@@ -385,11 +401,16 @@ $(OBJ_DIR)/sym_ewram.ld: sym_ewram.txt
 	$(RAMSCRGEN) ewram_data $< SPANISH > $@
 endif #SPANISH
 
+# sym_bss_it.txt & ld_script_it.ld maybe the same as the Spanish version
+
 # Linker script
 ifeq ($(MODERN),0)
   ifeq ($(GAME_LANGUAGE),ENGLISH)
     LD_SCRIPT := ld_script.ld
   endif #ENGLISH
+  ifeq ($(GAME_LANGUAGE),ITALIAN)
+    LD_SCRIPT := ld_script_it.ld
+  endif #ITALIAN
   ifeq ($(GAME_LANGUAGE),SPANISH)
     LD_SCRIPT := ld_script_es.ld
   endif #SPANISH

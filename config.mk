@@ -53,6 +53,18 @@ ifeq ($(GAME_LANGUAGE),ENGLISH)
   BUILD_NAME  := $(BUILD_NAME)
   GAME_CODE   := $(GAME_CODE)E
 else
+ifeq ($(GAME_LANGUAGE),FRENCH)
+  BUILD_NAME  := $(BUILD_NAME)_fr
+  GAME_CODE   := $(GAME_CODE)F
+else
+ifeq ($(GAME_LANGUAGE),ITALIAN)
+  BUILD_NAME  := $(BUILD_NAME)_it
+  GAME_CODE   := $(GAME_CODE)I
+else
+ifeq ($(GAME_LANGUAGE),GERMAN)
+  BUILD_NAME  := $(BUILD_NAME)_de
+  GAME_CODE   := $(GAME_CODE)D
+else
 ifeq ($(GAME_LANGUAGE),SPANISH)
   BUILD_NAME  := $(BUILD_NAME)_es
   GAME_CODE   := $(GAME_CODE)S
@@ -60,10 +72,6 @@ else
 $(error unknown language $(GAME_LANGUAGE))
 endif
 endif
-
-# Modern GCC
-ifeq ($(MODERN), 0)
-  BUILD_NAME := $(BUILD_NAME)
-else
-  BUILD_NAME := $(BUILD_NAME)_modern
+endif
+endif
 endif
