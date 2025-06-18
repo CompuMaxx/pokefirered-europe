@@ -20,8 +20,8 @@ void SortAndCompactBagPocket(struct BagPocket * pocket);
 #include "data/items_en.h"
 #elif SPANISH
 #include "data/items_es.h"
-#elif ITALIAN //TODO: create header file
-#include "data/items_es.h"
+#elif ITALIAN
+#include "data/items_it.h"
 #endif
 
 u16 GetBagItemQuantity(u16 * ptr)

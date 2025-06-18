@@ -6453,10 +6453,8 @@ u8 *MonSpritesGfxManager_GetSpritePtr(u8 spriteNum)
 }
 
 #if ITALIAN
-NAKED
-static void it_sub_8044d1c(void)
+static void it_nullsub(void)
 {
-    asm("bx lr");
 }
 #endif
 

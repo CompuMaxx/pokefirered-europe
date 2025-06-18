@@ -46,6 +46,7 @@ sound/**/*.bin
 sound/songs/midi/*.s
 src/data/items_en.h
 src/data/items_es.h
+src/data/items_it.h
 src/data/heal_locations.h
 src/data/wild_encounters.h
 src/data/region_map/region_map_entries.h

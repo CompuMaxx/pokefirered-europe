@@ -13,10 +13,10 @@
 #include "data/text/strings_2_es.h"
 #include "data/text/teachy_tv_es.h"
 #include "data/text/strings_3_es.h"
-#elif ITALIAN //TODO: translate
-#include "data/text/strings_1_es.h"
-#include "data/text/quest_log_es.h"
-#include "data/text/strings_2_es.h"
-#include "data/text/teachy_tv_es.h"
-#include "data/text/strings_3_es.h"
+#elif ITALIAN
+#include "data/text/strings_1_it.h"
+#include "data/text/quest_log_it.h"
+#include "data/text/strings_2_it.h"
+#include "data/text/teachy_tv_it.h"
+#include "data/text/strings_3_it.h"
 #endif
