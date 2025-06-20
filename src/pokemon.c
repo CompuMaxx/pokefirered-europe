@@ -6453,7 +6453,7 @@ u8 *MonSpritesGfxManager_GetSpritePtr(u8 spriteNum)
 }
 
 #if ITALIAN
-static void it_nullsub(void)
+u8 *it_nullsub(const u8 *src)
 {
 }
 #endif

@@ -2608,6 +2608,9 @@ static const u16 sGrammarMoveUsedTable[] =
 #if SPANISH
 extern u8 *es_sub_8044DB0(const u8 *src);
 #endif
+#if ITALIAN
+extern u8 *it_nullsub(const u8 *src);
+#endif
 
 //TODO: decompile this function to match Italian version
 void BufferStringBattle(u16 stringId)
@@ -2656,10 +2659,12 @@ void BufferStringBattle(u16 stringId)
             }
             else
             {
-#if ENGLISH || ITALIAN
+#if ENGLISH
                 stringPtr = sText_Trainer1WantsToBattle;
 #elif SPANISH
                 stringPtr = es_sub_8044DB0(sText_Trainer1WantsToBattle);
+#elif ITALIAN
+                stringPtr = it_nullsub(sText_Trainer1WantsToBattle);
 #endif
             }
         }
@@ -2706,10 +2711,12 @@ void BufferStringBattle(u16 stringId)
                 else if (gBattleTypeFlags & BATTLE_TYPE_LINK)
                     stringPtr = sText_LinkTrainerSentOutTwoPkmn;
                 else
-#if ENGLISH || ITALIAN
+#if ENGLISH
                     stringPtr = sText_Trainer1SentOutTwoPkmn;
-#else //#elif SPANISH
+#elif SPANISH
                     stringPtr = es_sub_8044DB0(sText_Trainer1SentOutTwoPkmn);
+#elif ITALIAN
+                    stringPtr = it_nullsub(sText_Trainer1SentOutTwoPkmn);
 #endif
             }
             else
@@ -2722,10 +2729,12 @@ void BufferStringBattle(u16 stringId)
                         stringPtr = sText_LinkTrainerSentOutPkmn;
                 }
                 else
-#if ENGLISH || ITALIAN
+#if ENGLISH
                     stringPtr = sText_Trainer1SentOutPkmn;
-#else //#elif SPANISH
+#elif SPANISH
                     stringPtr = es_sub_8044DB0(sText_Trainer1SentOutPkmn);
+#elif ITALIAN
+                    stringPtr = it_nullsub(sText_Trainer1SentOutPkmn);
 #endif
             }
         }
@@ -2753,10 +2762,12 @@ void BufferStringBattle(u16 stringId)
             }
             else
             {
-#if ENGLISH || ITALIAN
+#if ENGLISH
                 stringPtr = sText_Trainer1WithdrewPkmn;
-#else //#elif SPANISH
+#elif SPANISH
                 stringPtr = es_sub_8044DB0(sText_Trainer1WithdrewPkmn);
+#elif ITALIAN
+                stringPtr = it_nullsub(sText_Trainer1WithdrewPkmn);
 #endif
             }
         }
@@ -2786,10 +2797,12 @@ void BufferStringBattle(u16 stringId)
             }
             else
             {
-#if ENGLISH || ITALIAN
+#if ENGLISH
                 stringPtr = sText_Trainer1SentOutPkmn2;
-#else //#elif SPANISH
+#elif SPANISH
                 stringPtr = es_sub_8044DB0(sText_Trainer1SentOutPkmn2);
+#elif ITALIAN
+                stringPtr = it_nullsub(sText_Trainer1SentOutPkmn2);
 #endif
             }
         }
@@ -2881,10 +2894,12 @@ void BufferStringBattle(u16 stringId)
         }
         else
         {
-#if ENGLISH || ITALIAN
+#if ENGLISH
             stringPtr = gBattleStringsTable[stringId - BATTLESTRINGS_TABLE_START];
-#else //#elif SPANISH
+#elif SPANISH
             stringPtr = es_sub_8044DB0(gBattleStringsTable[stringId - BATTLESTRINGS_TABLE_START]);
+#elif ITALIAN
+            stringPtr = it_nullsub(gBattleStringsTable[stringId - BATTLESTRINGS_TABLE_START]);
 #endif
         }
         break;
