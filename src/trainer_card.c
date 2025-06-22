@@ -155,7 +155,7 @@ static void CreateTrainerCardTrainerPic(void);
 static const u32 sTrainerCardStickers_Gfx[]           = INCBIN_U32("graphics/trainer_card/stickers.4bpp.lz");
 #if ENGLISH
 static const u32 sHoennTrainerCardFront_Tilemap[]     = INCBIN_U32("graphics/trainer_card/rse/front.bin.lz");
-#else //#elif SPANISH
+#else //#elif SPANISH || ITALIAN
 extern const u32 sHoennTrainerCardFront_Tilemap[];
 #endif
 static const u32 sKantoTrainerCardFront_Tilemap[]     = INCBIN_U32("graphics/trainer_card/front.bin.lz");
@@ -164,7 +164,7 @@ static const u32 sHoennTrainerCardBack_Tilemap[]      = INCBIN_U32("graphics/tra
 #if ENGLISH
 static const u32 sKantoTrainerCardBack_Tilemap[]      = INCBIN_U32("graphics/trainer_card/back.bin.lz");
 static const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front_link.bin.lz");
-#else //#elif SPANISH
+#else //#elif SPANISH || ITALIAN
 extern const u32 sKantoTrainerCardBack_Tilemap[];
 extern const u32 sHoennTrainerCardFrontLink_Tilemap[];
 #endif
