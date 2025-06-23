@@ -104,7 +104,7 @@ Route4_PokemonCenter_1F_EventScript_PayForMagikarp::
 	message Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp
 	waitmessage
 	waitfanfare
-	.ifdef SPANISH
+	.if SPANISH == TRUE || ITALIAN == TRUE
 	delay 120
 	.endif
 	bufferspeciesname STR_VAR_1, SPECIES_MAGIKARP

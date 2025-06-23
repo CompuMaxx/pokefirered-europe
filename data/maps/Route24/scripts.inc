@@ -54,7 +54,7 @@ Route24_EventScript_BattleRocket::
 	playbgm MUS_ENCOUNTER_ROCKET, 0
 	waitbuttonpress
 	setvar VAR_LAST_TALKED, LOCALID_ROUTE24_ROCKET
-	.ifdef SPANISH
+	.if SPANISH == TRUE || ITALIAN == TRUE
 	setvar VAR_MAP_SCENE_ROUTE24, 1
 	.endif
 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_6, Route24_Text_RocketDefeat

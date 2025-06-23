@@ -130,7 +130,7 @@ u8 RunHelpSystemCallback(void)
         sVideoState.state = 8;
         break;
     case 8:
-    #if SPANISH
+    #if SPANISH || ITALIAN
         RestoreGPURegs();
     #endif
         RestoreCallbacks();

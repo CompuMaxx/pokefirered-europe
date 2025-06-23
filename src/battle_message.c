@@ -2946,12 +2946,12 @@ static const u8 *TryGetStatusString(u8 *src)
 extern const u8 gText_Entrenadora[];
 extern const u8 gText_Lideres[];
 
-const u8 *es_sub_80D7AF8(void)
+const u8 *Localize_TrainerClass_SchoolKid()
 {
     return gTrainerClassNames[TRAINER_CLASS_SCHOOL_KID];
 }
 
-const u8 *es_sub_80D7B00(u32 gender)
+const u8 *Localize_TrainerClass_PkmnTrainer(u32 gender)
 {
     const u8 * txt = gText_Entrenadora;
     if (gender == MALE)
@@ -2959,7 +2959,7 @@ const u8 *es_sub_80D7B00(u32 gender)
     return txt;
 }
 
-const u8 *es_sub_80D7B18(bool32 doubleBattle)
+const u8 *Localize_TrainerClass_Leader(bool32 doubleBattle)
 {
     const u8 * txt = gText_Lideres;
     if (!doubleBattle)
@@ -2967,9 +2967,9 @@ const u8 *es_sub_80D7B18(bool32 doubleBattle)
     return txt;
 }
 
-const u8 *es_sub_80D7B30(s32 battleType, u32 trainerId)
+const u8 *Localize_TrainerClass_Names(s32 battleType, u32 trainerId)
 {
-    u8 nameIndex, trainerClass, trainerEncounterMusicId;
+    u8 trainerClass, trainerEncounterMusicId;
     bool8 doubleBattle;
     const u8 * txt;
 
@@ -2979,41 +2979,36 @@ const u8 *es_sub_80D7B30(s32 battleType, u32 trainerId)
         trainerClass = GetSecretBaseTrainerNameIndex();
         txt = gTrainerClassNames[trainerClass];
         return txt;
-        break;
 
     case TRAINER_UNION_ROOM:
         trainerClass = GetUnionRoomTrainerClass();
         txt = gTrainerClassNames[trainerClass];
         return txt;
-        break;
 
     case BATTLE_TYPE_BATTLE_TOWER:
         trainerClass = GetBattleTowerTrainerClassNameId();
         txt = gTrainerClassNames[trainerClass];
         return txt;
-        break;
 
     case BATTLE_TYPE_TRAINER_TOWER:
         trainerClass = GetTrainerTowerOpponentClass();
         txt = gTrainerClassNames[trainerClass];
         return txt;
-        break;
 
     case TRAINER_LINK_OPPONENT:
         trainerClass = GetEreaderTrainerClassId();
         txt = gTrainerClassNames[trainerClass];
         return txt;
-        break;
 
     default:
         trainerClass = gTrainers[trainerId].trainerClass;
         trainerEncounterMusicId = GetTrainerEncounterMusicId(trainerId);
 
         if (trainerClass == TRAINER_CLASS_SCHOOL_KID)
-            return es_sub_80D7AF8();
+            return Localize_TrainerClass_SchoolKid();
 
         if (trainerClass == TRAINER_CLASS_PKMN_TRAINER && trainerEncounterMusicId == TRAINER_ENCOUNTER_MUSIC_FEMALE)
-            return es_sub_80D7B00(FEMALE);
+            return Localize_TrainerClass_PkmnTrainer(FEMALE);
 
         if (trainerClass == TRAINER_CLASS_LEADER)
         {
@@ -3021,16 +3016,88 @@ const u8 *es_sub_80D7B30(s32 battleType, u32 trainerId)
                 doubleBattle = TRUE;
             else
                 doubleBattle = FALSE;
-            return es_sub_80D7B18(doubleBattle);
+            return Localize_TrainerClass_Leader(doubleBattle);
         }
         txt = gTrainerClassNames[trainerClass];
         return txt;
-        break;
+    }
+}
+#elif ITALIAN
+extern const u8 gText_Scolara[];
+extern const u8 gText_Capilestra[];
+
+const u8 *Localize_TrainerClass_SchoolKid(u32 gender)
+{
+    const u8 * txt = gText_Scolara;
+    if (gender == MALE)
+        txt = gTrainerClassNames[TRAINER_CLASS_SCHOOL_KID];
+    return txt;
+}
+
+const u8 *Localize_TrainerClass_PkmnTrainer(u32 gender)
+{
+    return gTrainerClassNames[TRAINER_CLASS_PKMN_TRAINER];
+}
+
+const u8 *Localize_TrainerClass_Leader(bool32 doubleBattle)
+{
+    const u8 * txt = gText_Capilestra;
+    if (!doubleBattle)
+        txt = gTrainerClassNames[TRAINER_CLASS_LEADER];
+    return txt;
+}
+
+//mismatch
+const u8 *Localize_TrainerClass_Names(s32 battleType, u32 trainerId)
+{
+    u8 trainerClass, trainerEncounterMusicId;
+
+    switch (battleType)
+    {
+    case TRAINER_SECRET_BASE:
+        trainerClass = GetSecretBaseTrainerNameIndex();
+        return gTrainerClassNames[trainerClass];
+
+    case TRAINER_UNION_ROOM:
+        trainerClass = GetUnionRoomTrainerClass();
+        return gTrainerClassNames[trainerClass];
+
+    case BATTLE_TYPE_BATTLE_TOWER:
+        trainerClass = GetBattleTowerTrainerClassNameId();
+        return gTrainerClassNames[trainerClass];
+
+    case BATTLE_TYPE_TRAINER_TOWER:
+        trainerClass = GetTrainerTowerOpponentClass();
+        return gTrainerClassNames[trainerClass];
+
+    case TRAINER_LINK_OPPONENT:
+        trainerClass = GetEreaderTrainerClassId();
+        return gTrainerClassNames[trainerClass];
+
+    default:
+        trainerClass = gTrainers[trainerId].trainerClass;
+        trainerEncounterMusicId = GetTrainerEncounterMusicId(trainerId);
+
+        if (trainerClass == TRAINER_CLASS_SCHOOL_KID)
+        {
+            return Localize_TrainerClass_SchoolKid((u8)trainerEncounterMusicId);
+        }
+
+        if (trainerClass == TRAINER_CLASS_PKMN_TRAINER && (u8)trainerEncounterMusicId == TRAINER_ENCOUNTER_MUSIC_FEMALE)
+        {
+            return Localize_TrainerClass_PkmnTrainer(FEMALE);
+        }
+
+        if (trainerClass == TRAINER_CLASS_LEADER)
+        {
+            return Localize_TrainerClass_Leader((bool32)gTrainers[trainerId].doubleBattle == TRUE);
+        }
+        return gTrainerClassNames[trainerClass];
     }
 }
 #endif
 
-#if ENGLISH || ITALIAN
+#if ENGLISH
 #define HANDLE_NICKNAME_STRING_CASE(battlerId, monIndex)                \
     if (GetBattlerSide(battlerId) != B_SIDE_PLAYER)                     \
     {                                                                   \
@@ -3052,7 +3119,7 @@ const u8 *es_sub_80D7B30(s32 battleType, u32 trainerId)
     }                                                                   \
     StringGet_Nickname(text);                                           \
     toCpy = text;
-#else //#elif SPANISH
+#else //#elif SPANISH || ITALIAN
 #define HANDLE_NICKNAME_STRING_CASE(battlerId, monIndex)                \
     if (GetBattlerSide(battlerId) != B_SIDE_PLAYER)                     \
     {                                                                   \
@@ -3237,11 +3304,11 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                             if ((gBattleStruct->multiplayerId != 0 && (gPotentialItemEffectBattler & BIT_SIDE))
                                 || (gBattleStruct->multiplayerId == 0 && !(gPotentialItemEffectBattler & BIT_SIDE)))
                             {
-#if ENGLISH || ITALIAN
+#if ENGLISH
                                 StringCopy(text, gEnigmaBerries[gPotentialItemEffectBattler].name);
                                 StringAppend(text, sText_BerrySuffix);
                                 toCpy = text;
-#else //#elif SPANISH
+#else //#elif SPANISH || ITALIAN
                                 toCpy = StringCopy(gStringVar3, gEnigmaBerries[gPotentialItemEffectBattler].name);
                                 toCpy++;
                                 StringExpandPlaceholders((u8*)toCpy, sText_BerrySuffix);
@@ -3292,7 +3359,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 toCpy = gAbilityNames[sBattlerAbilities[gEffectBattler]];
                 break;
             case B_TXT_TRAINER1_CLASS: // trainer class name
-#if ENGLISH || ITALIAN
+#if ENGLISH
                 if (gTrainerBattleOpponent_A == TRAINER_SECRET_BASE)
                     toCpy = gTrainerClassNames[GetSecretBaseTrainerNameIndex()];
                 else if (gTrainerBattleOpponent_A == TRAINER_UNION_ROOM)
@@ -3308,17 +3375,17 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 break;
 #else //#elif SPANISH
                 if (gTrainerBattleOpponent_A == TRAINER_SECRET_BASE)
-                    toCpy = es_sub_80D7B30(TRAINER_SECRET_BASE, TRAINER_NONE);
+                    toCpy = Localize_TrainerClass_Names(TRAINER_SECRET_BASE, TRAINER_NONE);
                 else if (gTrainerBattleOpponent_A == TRAINER_UNION_ROOM)
-                    toCpy = es_sub_80D7B30(TRAINER_UNION_ROOM, TRAINER_NONE);
+                    toCpy = Localize_TrainerClass_Names(TRAINER_UNION_ROOM, TRAINER_NONE);
                 else if (gBattleTypeFlags & BATTLE_TYPE_BATTLE_TOWER)
-                    toCpy = es_sub_80D7B30(BATTLE_TYPE_BATTLE_TOWER, TRAINER_NONE);
+                    toCpy = Localize_TrainerClass_Names(BATTLE_TYPE_BATTLE_TOWER, TRAINER_NONE);
                 else if (gBattleTypeFlags & BATTLE_TYPE_TRAINER_TOWER)
-                    toCpy = es_sub_80D7B30(BATTLE_TYPE_TRAINER_TOWER, TRAINER_NONE);
+                    toCpy = Localize_TrainerClass_Names(BATTLE_TYPE_TRAINER_TOWER, TRAINER_NONE);
                 else if (gBattleTypeFlags & BATTLE_TYPE_EREADER_TRAINER)
-                    toCpy = es_sub_80D7B30(TRAINER_LINK_OPPONENT, TRAINER_NONE);
+                    toCpy = Localize_TrainerClass_Names(TRAINER_LINK_OPPONENT, TRAINER_NONE);
                 else
-                    toCpy = es_sub_80D7B30(0, gTrainerBattleOpponent_A);
+                    toCpy = Localize_TrainerClass_Names(0, gTrainerBattleOpponent_A);
                 break;
 #endif
             case B_TXT_TRAINER1_NAME: // trainer1 name
@@ -3492,7 +3559,7 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
         {
         case B_BUFF_STRING: // battle string
             hword = T1_READ_16(&src[srcId + 1]);
-#if SPANISH || GERMAN// || ITALIAN
+#if SPANISH || GERMAN || ITALIAN
             if (hword == STRINGID_STATSHARPLY || hword == STRINGID_STATHARSHLY)
                 srcId += 3;
 #endif
@@ -3524,7 +3591,7 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
             srcId += 2;
             break;
         case B_BUFF_MON_NICK_WITH_PREFIX: // poke nick with prefix
-#if ENGLISH || ITALIAN
+#if ENGLISH
             if (GetBattlerSide(src[srcId + 1]) == B_SIDE_PLAYER)
             {
                 GetMonData(&gPlayerParty[src[srcId + 2]], MON_DATA_NICKNAME, text);
@@ -3540,7 +3607,7 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
             }
             StringGet_Nickname(text);
             StringAppend(dst, text);
-#else //#elif SPANISH
+#else //#elif SPANISH || ITALIAN
             if (GetBattlerSide(src[srcId + 1]) == B_SIDE_PLAYER)
             {
                 GetMonData(&gPlayerParty[src[srcId + 2]], MON_DATA_NICKNAME, text);
@@ -3592,10 +3659,10 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
                 {
                     if (gLinkPlayers[gBattleStruct->multiplayerId].id == gPotentialItemEffectBattler)
                     {
-#if ENGLISH || ITALIAN
+#if ENGLISH
                         StringCopy(dst, gEnigmaBerries[gPotentialItemEffectBattler].name);
                         StringAppend(dst, sText_BerrySuffix);
-#else //#elif SPANISH
+#else //#elif SPANISH || ITALIAN
                         StringCopy(gStringVar3, gEnigmaBerries[gPotentialItemEffectBattler].name);
                         StringExpandPlaceholders(dst,sText_BerrySuffix);
 #endif

@@ -346,3 +346,6 @@ const u8 gText_Receive[] = _("RICEVI");
 const u8 gText_Send[] = _("INVIA");
 const u8 gText_Toss[] = _("BUTTA");
 const u8 gText_DelAllCancelOk[] = _("CANCELLA{CLEAR_TO 0x57}ESCI{CLEAR_TO 0xA4}OK");
+
+const u8 gText_Scolara[] = _("SCOLARA");
+const u8 gText_Capilestra[] = _("CAPIPALESTRA");

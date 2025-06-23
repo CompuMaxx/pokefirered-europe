@@ -460,7 +460,7 @@ static void TeachyTvMainCallback(void)
         sResources->grassAnimDisabled = 0;
         sResources->scrollIndicatorArrowPairId = 0xFF;
         SetVBlankHBlankCallbacksToNull();
-    #if SPANISH
+    #if SPANISH || ITALIAN
         ResetVramOamAndBgCntRegs();
     #endif
         ClearScheduledBgCopiesToVram();

@@ -264,7 +264,7 @@ static const u32 sSparklesSmall_Gfx[] = INCBIN_U32("graphics/intro/game_freak/sp
 static const u32 sSparklesBig_Gfx[]   = INCBIN_U32("graphics/intro/game_freak/sparkles_big.4bpp.lz");
 #if ENGLISH
 static const u32 sPresents_Gfx[]      = INCBIN_U32("graphics/intro/game_freak/presents.4bpp.lz");
-#else //#elif SPANISH
+#else //#elif SPANISH || ITALIAN
 extern const u32 sPresents_Gfx[];
 #endif
 
@@ -1253,7 +1253,7 @@ static void IntroCB_GF_RevealLogo(struct IntroSequenceData * this)
         if (!IsDma3ManagerBusyWithBgCopy())
         {
             DestroySprite(this->gameFreakLogoArtSprite);
-        #if REVISION >= 1 || SPANISH
+        #if REVISION >= 1 || SPANISH || ITALIAN
             GFScene_CreatePresentsSprite();
         #endif
             this->timer = 0;
@@ -2099,7 +2099,7 @@ static struct Sprite *GFScene_CreateLogoSprite(void)
     return &gSprites[spriteId];
 }
 
-#if REVISION >= 1 || SPANISH
+#if REVISION >= 1 || SPANISH || ITALIAN
 static void GFScene_CreatePresentsSprite(void)
 {
     int i;

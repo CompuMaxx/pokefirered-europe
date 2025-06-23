@@ -994,7 +994,7 @@ void QL_HandleInput(void)
     if (sPlaybackControl.endMode != END_MODE_NONE)
         return;
 
-#if SPANISH
+#if SPANISH || ITALIAN
     if (gPaletteFade.active)
         return;
 #endif

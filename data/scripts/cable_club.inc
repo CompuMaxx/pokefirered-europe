@@ -164,7 +164,7 @@ CableClub_EventScript_PlayerExitUnionRoom::
 CableClub_EventScript_TrainerCardDataOverwritten::
 	message CableClub_Text_TrainerCardDataOverwritten
 	waitmessage
-.ifdef SPANISH
+.if SPANISH == TRUE || ITALIAN == TRUE
 	delay 60
 .endif
 	playse SE_PIN

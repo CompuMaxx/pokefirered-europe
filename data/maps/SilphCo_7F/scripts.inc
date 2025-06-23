@@ -131,7 +131,7 @@ SilphCo_7F_EventScript_ReceiveLaprasParty::
 	message SilphCo_7F_Text_ObtainedLaprasFromEmployee
 	waitmessage
 	waitfanfare
-	.ifdef SPANISH
+	.if SPANISH == TRUE || ITALIAN == TRUE
 	delay 60
 	.endif
 	bufferspeciesname STR_VAR_1, SPECIES_LAPRAS
@@ -148,7 +148,7 @@ SilphCo_7F_EventScript_ReceiveLaprasPC::
 	message SilphCo_7F_Text_ObtainedLaprasFromEmployee
 	waitmessage
 	waitfanfare
-	.ifdef SPANISH
+	.if SPANISH == TRUE || ITALIAN == TRUE
 	delay 60
 	.endif
 	bufferspeciesname STR_VAR_1, SPECIES_LAPRAS

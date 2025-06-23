@@ -2119,7 +2119,7 @@ static void UpdateFallingBerries(void)
         else if (sGame->berryState[i] == BERRYSTATE_EATEN)
         {
             // Berry has been eaten, wait and create a new berry
-        #if SPANISH
+        #if SPANISH || ITALIAN
             sGame->berriesFalling = TRUE;
         #endif
             if (++sGame->newBerryTimer[i] >= 20)

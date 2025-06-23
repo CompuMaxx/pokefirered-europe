@@ -3305,7 +3305,7 @@ static void Task_SlideSelectedSlotsOnscreen(u8 taskId)
         // BUG: memory leak
         // Free(sSlot1TilemapBuffer);
         // Free(sSlot2TilemapBuffer);
-#if SPANISH
+#if SPANISH || ITALIAN
         Free(sSlot1TilemapBuffer);
         Free(sSlot2TilemapBuffer);
 #endif

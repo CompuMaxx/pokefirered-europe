@@ -361,7 +361,7 @@ static const u32 sUnused = 0xF0;
 static const u16 sTheEnd_Pal[] = INCBIN_U16("graphics/credits/the_end.gbapal");
 static const u8 sTheEnd_Tiles[] = INCBIN_U8("graphics/credits/the_end.4bpp.lz");
 static const u8 sTheEnd_Tilemap[] = INCBIN_U8("graphics/credits/the_end.bin.lz");
-#else //#elif SPANISH
+#else //#elif SPANISH || ITALIAN
 extern const u16 sTheEnd_Pal[];
 extern const u8 sTheEnd_Tiles[];
 extern const u8 sTheEnd_Tilemap[];
@@ -1276,7 +1276,7 @@ static bool32 DoCopyrightOrTheEndGfxScene(void)
         if (!gPaletteFade.active)
         {
             sCreditsMgr->subseqno = 0;
-#if SPANISH
+#if SPANISH || ITALIAN
             if (sCreditsMgr->whichMon)
                 FadeOutMapMusic(16);
 #endif

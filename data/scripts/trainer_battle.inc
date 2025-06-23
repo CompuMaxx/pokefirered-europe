@@ -59,7 +59,7 @@ EventScript_TryDoRematchBattle::
 	waitmessage
 	waitbuttonpress
 	goto_if_questlog EventScript_EndQuestLogRematch
-.ifdef SPANISH
+.if SPANISH == TRUE || ITALIAN == TRUE
 	special QuestLog_CutRecording
 .endif
 	special StartRematchBattle
@@ -81,7 +81,7 @@ EventScript_TryDoDoubleRematchBattle::
 	waitmessage
 	waitbuttonpress
 	goto_if_questlog EventScript_EndQuestLogRematch
-.ifdef SPANISH
+.if SPANISH == TRUE || ITALIAN == TRUE
 	special QuestLog_CutRecording
 .endif
 	special StartRematchBattle
