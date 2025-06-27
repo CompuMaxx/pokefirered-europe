@@ -1,619 +1,243 @@
 gOtherText_NewName::
-    .ifdef ENGLISH
-    .string "NEW NAME$"
-    .endif
-    .ifdef SPANISH
-    .string "OTRO NOMBRE$"
-    .endif
+	.string "NEW NAME$"
 
 gNameChoice_Green::
-    .ifdef ENGLISH
-    .string "GREEN$"
-    .endif
-    .ifdef SPANISH
-    .string "VERTE$"
-    .endif
+	.string "GREEN$"
 
 gNameChoice_Red::
-    .ifdef ENGLISH
-    .string "RED$"
-    .endif
-    .ifdef SPANISH
-    .string "JORO$"
-    .endif
+	.string "RED$"
 
 gNameChoice_Leaf::
-    .ifdef ENGLISH
-    .string "LEAF$"
-    .endif
-    .ifdef SPANISH
-    .string "JAHO$"
-    .endif
+	.string "LEAF$"
 
 gNameChoice_Fire::
-    .ifdef ENGLISH
-    .string "FIRE$"
-    .endif
-    .ifdef SPANISH
-    .string "GUEFO$"
-    .endif
+	.string "FIRE$"
 
 gNameChoice_Gary::
-    .ifdef ENGLISH
-    .string "GARY$"
-    .endif
-    .ifdef SPANISH
-    .string "BOSCO$"
-    .endif
+	.string "GARY$"
 
 gNameChoice_Kaz::
-    .ifdef ENGLISH
-    .string "KAZ$"
-    .endif
-    .ifdef SPANISH
-    .string "FLOREN$"
-    .endif
+	.string "KAZ$"
 
 gNameChoice_Toru::
-    .ifdef ENGLISH
-    .string "TORU$"
-    .endif
-    .ifdef SPANISH
-    .string "SILVIO$"
-    .endif
+	.string "TORU$"
 
 gNameChoice_Ash::
-    .ifdef ENGLISH
-    .string "ASH$"
-    .endif
-    .ifdef SPANISH
-    .string "FURIO$"
-    .endif
+	.string "ASH$"
 
 gNameChoice_Kene::
-    .ifdef ENGLISH
-    .string "KENE$"
-    .endif
-    .ifdef SPANISH
-    .string "LLAMÍN$"
-    .endif
+	.string "KENE$"
 
 gNameChoice_Geki::
-    .ifdef ENGLISH
-    .string "GEKI$"
-    .endif
-    .ifdef SPANISH
-    .string "CANDEL$"
-    .endif
+	.string "GEKI$"
 
 gNameChoice_Jak::
-    .ifdef ENGLISH
-    .string "JAK$"
-    .endif
-    .ifdef SPANISH
-    .string "JUNO$"
-    .endif
+	.string "JAK$"
 
 gNameChoice_Janne::
-    .ifdef ENGLISH
-    .string "JANNE$"
-    .endif
-    .ifdef SPANISH
-    .string "JUAN$"
-    .endif
+	.string "JANNE$"
 
 gNameChoice_Jonn::
-    .ifdef ENGLISH
-    .string "JONN$"
-    .endif
-    .ifdef SPANISH
-    .string "JUANMA$"
-    .endif
+	.string "JONN$"
 
 gNameChoice_Kamon::
-    .ifdef ENGLISH
-    .string "KAMON$"
-    .endif
-    .ifdef SPANISH
-    .string "ÁLVARO$"
-    .endif
+	.string "KAMON$"
 
 gNameChoice_Karl::
-    .ifdef ENGLISH
-    .string "KARL$"
-    .endif
-    .ifdef SPANISH
-    .string "RAL$"
-    .endif
+	.string "KARL$"
 
 gNameChoice_Taylor::
-    .ifdef ENGLISH
-    .string "TAYLOR$"
-    .endif
-    .ifdef SPANISH
-    .string "MARINO$"
-    .endif
+	.string "TAYLOR$"
 
 gNameChoice_Oscar::
-    .ifdef ENGLISH
-    .string "OSCAR$"
-    .endif
-    .ifdef SPANISH
-    .string "TOILO$"
-    .endif
+	.string "OSCAR$"
 
 gNameChoice_Hiro::
-    .ifdef ENGLISH
-    .string "HIRO$"
-    .endif
-    .ifdef SPANISH
-    .string "NER$"
-    .endif
+	.string "HIRO$"
 
 gNameChoice_Max::
-    .ifdef ENGLISH
-    .string "MAX$"
-    .endif
-    .ifdef SPANISH
-    .string "MAX$"
-    .endif
+	.string "MAX$"
 
 gNameChoice_Jon::
-    .ifdef ENGLISH
-    .string "JON$"
-    .endif
-    .ifdef SPANISH
-    .string "MOREL$"
-    .endif
+	.string "JON$"
 
 gNameChoice_Ralph::
-    .ifdef ENGLISH
-    .string "RALPH$"
-    .endif
-    .ifdef SPANISH
-    .string "RAFA$"
-    .endif
+	.string "RALPH$"
 
 gNameChoice_Kay::
-    .ifdef ENGLISH
-    .string "KAY$"
-    .endif
-    .ifdef SPANISH
-    .string "VER$"
-    .endif
+	.string "KAY$"
 
 gNameChoice_Tosh::
-    .ifdef ENGLISH
-    .string "TOSH$"
-    .endif
-    .ifdef SPANISH
-    .string "LERIO$"
-    .endif
+	.string "TOSH$"
 
 gNameChoice_Roak::
-    .ifdef ENGLISH
-    .string "ROAK$"
-    .endif
-    .ifdef SPANISH
-    .string "RODI$"
-    .endif
+	.string "ROAK$"
 
 gNameChoice_Omi::
-    .ifdef ENGLISH
-    .string "OMI$"
-    .endif
-    .ifdef SPANISH
-    .string "MENA$"
-    .endif
+	.string "OMI$"
 
 gNameChoice_Jodi::
-    .ifdef ENGLISH
-    .string "JODI$"
-    .endif
-    .ifdef SPANISH
-    .string "CIRA$"
-    .endif
+	.string "JODI$"
 
 gNameChoice_Amanda::
-    .ifdef ENGLISH
-    .string "AMANDA$"
-    .endif
-    .ifdef SPANISH
-    .string "MARÍA$"
-    .endif
+	.string "AMANDA$"
 
 gNameChoice_Hillary::
-    .ifdef ENGLISH
-    .string "HILLARY$"
-    .endif
-    .ifdef SPANISH
-    .string "MINA$"
-    .endif
+	.string "HILLARY$"
 
 gNameChoice_Makey::
-    .ifdef ENGLISH
-    .string "MAKEY$"
-    .endif
-    .ifdef SPANISH
-    .string "NENA$"
-    .endif
+	.string "MAKEY$"
 
 gNameChoice_Michi::
-    .ifdef ENGLISH
-    .string "MICHI$"
-    .endif
-    .ifdef SPANISH
-    .string "LUNA$"
-    .endif
+	.string "MICHI$"
 
 gNameChoice_Paula::
-    .ifdef ENGLISH
-    .string "PAULA$"
-    .endif
-    .ifdef SPANISH
-    .string "BRUNA$"
-    .endif
+	.string "PAULA$"
 
 gNameChoice_June::
-    .ifdef ENGLISH
-    .string "JUNE$"
-    .endif
-    .ifdef SPANISH
-    .string "CLAUDIA$"
-    .endif
+	.string "JUNE$"
 
 gNameChoice_Cassie::
-    .ifdef ENGLISH
-    .string "CASSIE$"
-    .endif
-    .ifdef SPANISH
-    .string "CASILDA$"
-    .endif
+	.string "CASSIE$"
 
 gNameChoice_Rey::
-    .ifdef ENGLISH
-    .string "REY$"
-    .endif
-    .ifdef SPANISH
-    .string "RITA$"
-    .endif
+	.string "REY$"
 
 gNameChoice_Seda::
-    .ifdef ENGLISH
-    .string "SEDA$"
-    .endif
-    .ifdef SPANISH
-    .string "SELENA$"
-    .endif
+	.string "SEDA$"
 
 gNameChoice_Kiko::
-    .ifdef ENGLISH
-    .string "KIKO$"
-    .endif
-    .ifdef SPANISH
-    .string "MATILDE$"
-    .endif
+	.string "KIKO$"
 
 gNameChoice_Mina::
-    .ifdef ENGLISH
-    .string "MINA$"
-    .endif
-    .ifdef SPANISH
-    .string "NURIA$"
-    .endif
+	.string "MINA$"
 
 gNameChoice_Norie::
-    .ifdef ENGLISH
-    .string "NORIE$"
-    .endif
-    .ifdef SPANISH
-    .string "MARINA$"
-    .endif
+	.string "NORIE$"
 
 gNameChoice_Sai::
-    .ifdef ENGLISH
-    .string "SAI$"
-    .endif
-    .ifdef SPANISH
-    .string "SALIA$"
-    .endif
+	.string "SAI$"
 
 gNameChoice_Momo::
-    .ifdef ENGLISH
-    .string "MOMO$"
-    .endif
-    .ifdef SPANISH
-    .string "MIRTA$"
-    .endif
+	.string "MOMO$"
 
 gNameChoice_Suzi::
-    .ifdef ENGLISH
-    .string "SUZI$"
-    .endif
-    .ifdef SPANISH
-    .string "SUSA$"
-    .endif
+	.string "SUZI$"
 
 gControlsGuide_Text_Intro::
-    .ifdef ENGLISH
-    .string "The various buttons will be explained in\n"
-    .string "the order of their importance.$"
-    .endif
-    .ifdef SPANISH
-    .string "La explicación de los botones\n"
-    .string "se hará por orden de importancia.$"
-    .endif
+	.string "The various buttons will be explained in\n"
+	.string "the order of their importance.$"
 
 gControlsGuide_Text_DPad::
-    .ifdef ENGLISH
-    .string "Moves the main character.\n"
-    .string "Also used to choose various data\n"
-    .string "headings.$"
-    .endif
-    .ifdef SPANISH
-    .string "Mover al protagonista de la\n"
-    .string "historia. Seleccionar opciones.$"
-    .endif
+	.string "Moves the main character.\n"
+	.string "Also used to choose various data\n"
+	.string "headings.$"
 
 gControlsGuide_Text_AButton::
-    .ifdef ENGLISH
-    .string "Used to confirm a choice, check\n"
-    .string "things, chat, and scroll text.$"
-    .endif
-    .ifdef SPANISH
-    .string "Confirmar opciones, curiosear\n"
-    .string "cosas, chatear y leer texto.$"
-    .endif
+	.string "Used to confirm a choice, check\n"
+	.string "things, chat, and scroll text.$"
 
 gControlsGuide_Text_BButton::
-    .ifdef ENGLISH
-    .string "Used to exit, cancel a choice,\n"
-    .string "and cancel a mode.$"
-    .endif
-    .ifdef SPANISH
-    .string "Retroceder, cancelar opciones\n"
-    .string "y salir de distintos menús.$"
-    .endif
+	.string "Used to exit, cancel a choice,\n"
+	.string "and cancel a mode.$"
 
 gControlsGuide_Text_StartButton::
-    .ifdef ENGLISH
-    .string "Press this button to open the\n"
-    .string "MENU.$"
-    .endif
-    .ifdef SPANISH
-    .string "Abrir el menú.$"
-    .endif
+	.string "Press this button to open the\n"
+	.string "MENU.$"
 
 gControlsGuide_Text_SelectButton::
-    .ifdef ENGLISH
-    .string "Used to shift items and to use\n"
-    .string "a registered item.$"
-    .endif
-    .ifdef SPANISH
-    .string "Cambiar objetos de lugar y usar\n"
-    .string "el que haya registrado.$"
-    .endif
+	.string "Used to shift items and to use\n"
+	.string "a registered item.$"
 
 gControlsGuide_Text_LRButtons::
-    .ifdef ENGLISH
-    .string "If you need help playing the\n"
-    .string "game, or on how to do things,\n"
-    .string "press the L or R Button.$"
-    .endif
-    .ifdef SPANISH
-    .string "Acceder al sistema de AYUDA.$"
-    .endif
+	.string "If you need help playing the\n"
+	.string "game, or on how to do things,\n"
+	.string "press the L or R Button.$"
 
 gOakSpeech_Text_AskPlayerGender::
-    .ifdef ENGLISH
-    .string "Now tell me. Are you a boy?\n"
-    .string "Or are you a girl?$"
-    .endif
-    .ifdef SPANISH
-    .string "Hola, ¿eres chico o chica?$"
-    .endif
+	.string "Now tell me. Are you a boy?\n"
+	.string "Or are you a girl?$"
 
 gPikachuIntro_Text_Page1::
-    .ifdef ENGLISH
-    .string "In the world which you are about to\n"
-    .string "enter, you will embark on a grand\n"
-    .string "adventure with you as the hero.\n"
-    .string "\n"
-    .string "Speak to people and check things\n"
-    .string "wherever you go, be it towns, roads,\n"
-    .string "or caves. Gather information and\n"
-    .string "hints from every source.$"
-    .endif
-    .ifdef SPANISH
-    .string "Estás a punto de sumergirte en un\n"
-    .string "mundo lleno de aventuras de las\n"
-    .string "que vas a ser protagonista.\n"
-    .string "\n"
-    .string "Habla con la gente y curiosea todo\n"
-    .string "lo que te llame la atención, estés\n"
-    .string "donde estés. Consigue información\n"
-    .string "y pistas de todo lo que te rodee.$"
-    .endif
+	.string "In the world which you are about to\n"
+	.string "enter, you will embark on a grand\n"
+	.string "adventure with you as the hero.\n"
+	.string "\n"
+	.string "Speak to people and check things\n"
+	.string "wherever you go, be it towns, roads,\n"
+	.string "or caves. Gather information and\n"
+	.string "hints from every source.$"
 
 gPikachuIntro_Text_Page2::
-    .ifdef ENGLISH
-    .string "New paths will open to you by helping\n"
-    .string "people in need, overcoming challenges,\n"
-    .string "and solving mysteries.\n"
-    .string "\n"
-    .string "At times, you will be challenged by\n"
-    .string "others and attacked by wild creatures.\n"
-    .string "Be brave and keep pushing on.$"
-    .endif
-    .ifdef SPANISH
-    .string "Durante el largo camino, tendrás\n"
-    .string "que ayudar a gente, enfrentarte\n"
-    .string "a desafíos y resolver misterios.\n"
-    .string "\n"
-    .string "Te cruzarás con rivales y criaturas\n"
-    .string "salvajes que querrán luchar\n"
-    .string "contigo, pero ¡ánimo, tú puedes!$"
-    .endif
+	.string "New paths will open to you by helping\n"
+	.string "people in need, overcoming challenges,\n"
+	.string "and solving mysteries.\n"
+	.string "\n"
+	.string "At times, you will be challenged by\n"
+	.string "others and attacked by wild creatures.\n"
+	.string "Be brave and keep pushing on.$"
 
 gPikachuIntro_Text_Page3::
-    .ifdef ENGLISH
-    .string "Through your adventure, we hope\n"
-    .string "that you will interact with all sorts\n"
-    .string "of people and achieve personal growth.\n"
-    .string "That is our biggest objective.\n"
-    .string "\n"
-    .string "Press the A Button, and let your\n"
-    .string "adventure begin!$"
-    .endif
-    .ifdef SPANISH
-    .string "Recuerda, habla con todo el mundo;\n"
-    .string "crecerás como persona, y ése es\n"
-    .string "tu principal objetivo.\n"
-    .string "\n"
-    .string "Pulsa el Botón A, ¡que comience\n"
-    .string "la aventura!$"
-    .endif
+	.string "Through your adventure, we hope\n"
+	.string "that you will interact with all sorts\n"
+	.string "of people and achieve personal growth.\n"
+	.string "That is our biggest objective.\n"
+	.string "\n"
+	.string "Press the A Button, and let your\n"
+	.string "adventure begin!$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
-    .ifdef ENGLISH
-    .string "Hello, there!\n"
-    .string "Glad to meet you!\p"
-    .string "Welcome to the world of POKéMON!\p"
-    .string "My name is OAK.\p"
-    .string "People affectionately refer to me\n"
-    .string "as the POKéMON PROFESSOR.\p$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Hola!\n"
-    .string "¡Éste es el mundo de POKéMON!\p"
-    .string "¡Me llamo OAK!\p"
-    .string "¡Pero la gente me llama\n"
-    .string "PROFESOR POKéMON!\p"
-    .string "$"
-    .endif
+	.string "Hello, there!\n"
+	.string "Glad to meet you!\p"
+	.string "Welcome to the world of POKéMON!\p"
+	.string "My name is OAK.\p"
+	.string "People affectionately refer to me\n"
+	.string "as the POKéMON PROFESSOR.\p$"
 
 gOakSpeech_Text_ThisWorld::
-    .ifdef ENGLISH
-    .string "This world…$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Este mundo está$"
-    .endif
+	.string "This world…$"
 
 gOakSpeech_Text_IsInhabitedFarAndWide::
-    .ifdef ENGLISH
-    .string "…is inhabited far and wide by\n"
-    .string "creatures called POKéMON.\p$"
-    .endif
-    .ifdef SPANISH
-    .string "habitado por unas criaturas\n"
-    .string "llamadas POKéMON!\p"
-    .string "$"
-    .endif
+	.string "…is inhabited far and wide by\n"
+	.string "creatures called POKéMON.\p$"
 
 gOakSpeech_Text_IStudyPokemon::
-    .ifdef ENGLISH
-    .string "For some people, POKéMON are pets.\n"
-    .string "Others use them for battling.\p"
-    .string "As for myself…\p"
-    .string "I study POKéMON as a profession.\p$"
-    .endif
-    .ifdef SPANISH
-    .string "Para algunos, los POKéMON son\n"
-    .string "mascotas. Pero otros los usan\l"
-    .string "para pelear.\p"
-    .string "En cuanto a mí...\p"
-    .string "Estudio a los POKéMON como\n"
-    .string "profesión.\p"
-    .string "$"
-    .endif
+	.string "For some people, POKéMON are pets.\n"
+	.string "Others use them for battling.\p"
+	.string "As for myself…\p"
+	.string "I study POKéMON as a profession.\p$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
-    .ifdef ENGLISH
-    .string "But first, tell me a little about\n"
-    .string "yourself.\p$"
-    .endif
-    .ifdef SPANISH
-    .string "Bueno, cuéntame algo de ti.\p"
-    .string "$"
-    .endif
+	.string "But first, tell me a little about\n"
+	.string "yourself.\p$"
 
 gOakSpeech_Text_YourNameWhatIsIt::
-    .ifdef ENGLISH
-    .string "Let's begin with your name.\n"
-    .string "What is it?\p$"
-    .endif
-    .ifdef SPANISH
-    .string "Pero primero dime cómo te llamas.\p"
-    .string "\n"
-    .string "$"
-    .endif
+	.string "Let's begin with your name.\n"
+	.string "What is it?\p$"
 
 gOakSpeech_Text_SoYourNameIsPlayer::
-    .ifdef ENGLISH
-    .string "Right…\n"
-    .string "So your name is {PLAYER}.$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Bien!\n"
-    .string "¡Así que te llamas {PLAYER}!$"
-    .endif
+	.string "Right…\n"
+	.string "So your name is {PLAYER}.$"
 
 gOakSpeech_Text_WhatWasHisName::
-    .ifdef ENGLISH
-    .string "This is my grandson.\p"
-    .string "He's been your rival since you both\n"
-    .string "were babies.\p"
-    .string "…Erm, what was his name now?$"
-    .endif
-    .ifdef SPANISH
-    .string "Éste es mi nieto.\p"
-    .string "Ha sido tu rival desde que erais\n"
-    .string "pequeños.\p"
-    .string "Mmm... ¿podrías decirme cómo\n"
-    .string "se llama?$"
-    .endif
+	.string "This is my grandson.\p"
+	.string "He's been your rival since you both\n"
+	.string "were babies.\p"
+	.string "…Erm, what was his name now?$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
-    .ifdef ENGLISH
-    .string "Your rival's name, what was it now?$"
-    .endif
-    .ifdef SPANISH
-    .string "¿Cómo era el nombre de tu rival?$"
-    .endif
+	.string "Your rival's name, what was it now?$"
 
 gOakSpeech_Text_ConfirmRivalName::
-    .ifdef ENGLISH
-    .string "…Er, was it {RIVAL}?$"
-    .endif
-    .ifdef SPANISH
-    .string "Eh..., ¿era {RIVAL}?$"
-    .endif
+	.string "…Er, was it {RIVAL}?$"
 
 gOakSpeech_Text_RememberRivalsName::
-    .ifdef ENGLISH
-    .string "That's right! I remember now!\n"
-    .string "His name is {RIVAL}!\p$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Ah, sí! ¡Es verdad!\n"
-    .string "¡Se llamaba {RIVAL}!\p"
-    .string "$"
-    .endif
+	.string "That's right! I remember now!\n"
+	.string "His name is {RIVAL}!\p$"
 
 gOakSpeech_Text_LetsGo::
-    .ifdef ENGLISH
-    .string "{PLAYER}!\p"
-    .string "Your very own POKéMON legend is\n"
-    .string "about to unfold!\p"
-    .string "A world of dreams and adventures\n"
-    .string "with POKéMON awaits! Let's go!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡{PLAYER}!\p"
-    .string "¡Tu propia leyenda POKéMON está\n"
-    .string "a punto de comenzar!\p"
-    .string "¡Te espera un mundo de sueños y\n"
-    .string "aventuras con los POKéMON!\l"
-    .string "¡Adelante!$"
-    .endif
+	.string "{PLAYER}!\p"
+	.string "Your very own POKéMON legend is\n"
+	.string "about to unfold!\p"
+	.string "A world of dreams and adventures\n"
+	.string "with POKéMON awaits! Let's go!$"

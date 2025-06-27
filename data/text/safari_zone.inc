@@ -1,40 +1,18 @@
 @ The text here is a copy/paste from Hoenn's Safari Zone, and any unused text was left untranslated
 
 SafariZone_Text_WouldYouLikeToExit::
-	.ifdef ENGLISH
 	.string "Would you like to exit the SAFARI\n"
 	.string "ZONE right now?$"
-	.endif
-	.ifdef SPANISH
-	.string "¿Quieres salir de la ZONA del\n"
-	.string "SAFARI ahora mismo?$"
-	.endif
 
 SafariZone_Text_TimesUp::
-	.ifdef ENGLISH
 	.string "PA: Ding-dong!\p"
 	.string "Time's up!\p"
 	.string "PA: Your SAFARI GAME is over!$"
-	.endif
-	.ifdef SPANISH
-	.string "AVISO: ¡Ding-dong!\p"
-	.string "¡Se acabó el tiempo!\p"
-	.string "AVISO: ¡Tu JUEGO de SAFARI\n"
-	.string "se ha terminado!$"
-	.endif
 
 SafariZone_Text_OutOfBalls::
-	.ifdef ENGLISH
 	.string "PA: Ding-dong!\p"
 	.string "You are out of SAFARI BALLS!\p"
 	.string "PA: Your SAFARI GAME is over!$"
-	.endif
-	.ifdef SPANISH
-	.string "AVISO: ¡Ding-dong!\p"
-	.string "Te has quedado sin SAFARI BALLS.\p"
-	.string "AVISO: ¡Tu JUEGO de SAFARI\n"
-	.string "se ha terminado!$"
-	.endif
 
 SafariZone_Text_WelcomeToSafariZone::
 	.string "サファリゾーンへ　ようこそ！\p"
@@ -93,14 +71,8 @@ SafariZone_Text_PleaseEnjoyYourself::
 	.string "では　いってらっしゃい！$"
 
 SafariZone_Text_ExcuseMeYourPCBoxIsFull::
-	.ifdef ENGLISH
 	.string "Excuse me!\n"
 	.string "Your PC BOX is full.$"
-	.endif
-	.ifdef SPANISH
-	.string "Lo siento, pero todas las CAJAS\n"
-	.string "de tu PC están llenas.$"
-	.endif
 
 SafariZone_Text_YouNeedPokeblockCase::
 	.string "あ！　おきゃくさん\n"
