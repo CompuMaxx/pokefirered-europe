@@ -462,11 +462,11 @@ static const struct BgTemplate sRegionMapBgTemplates[] = {
     }
 };
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     #define WIN_TOPBAR_LEFT_WIDTH       5
     #define WIN_TOPBAR_RIGHT_WIDTH      5
     #define WIN_TOPBAR_RIGHT_BASEBLOCK  0x15a
-#elif SPANISH || ITALIAN //test
+#else
     #define WIN_TOPBAR_LEFT_WIDTH       6
     #define WIN_TOPBAR_RIGHT_WIDTH      6
     #define WIN_TOPBAR_RIGHT_BASEBLOCK  0x15c
@@ -1793,7 +1793,7 @@ static bool8 DimScreenForSwitchMapMenu(void)
     }
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static bool8 HandleSwitchMapInput(void)
 {
     bool8 changedSelection = FALSE;
@@ -1847,7 +1847,7 @@ static bool8 HandleSwitchMapInput(void)
     SetGpuWindowDims(1, &data);
     return FALSE;
 }
-#else //#elif SPANISH
+#else
 NAKED
 static bool8 HandleSwitchMapInput(void)
 {
@@ -3198,10 +3198,10 @@ static u16 GetMapsecUnderCursor(void)
         return MAPSEC_NONE;
 
     mapsec = GetSelectedMapSection(GetSelectedRegionMap(), LAYER_MAP, sMapCursor->y, sMapCursor->x);
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     if ((mapsec == MAPSEC_NAVEL_ROCK || mapsec == MAPSEC_BIRTH_ISLAND) && !FlagGet(FLAG_WORLD_MAP_NAVEL_ROCK_EXTERIOR))
         mapsec = MAPSEC_NONE;
-#else //#elif SPANISH
+#else
     if (mapsec == MAPSEC_NAVEL_ROCK)
     {
         if (!FlagGet(FLAG_WORLD_MAP_NAVEL_ROCK_EXTERIOR))

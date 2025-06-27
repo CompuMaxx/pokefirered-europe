@@ -2332,14 +2332,14 @@ static void DisplayPartyPokemonLevelCheck(struct Pokemon *mon, struct PartyMenuB
 static void DisplayPartyPokemonLevel(u8 level, struct PartyMenuBox *menuBox)
 {
     ConvertIntToDecimalStringN(gStringVar2, level, STR_CONV_MODE_LEFT_ALIGN, 3);
-#if ENGLISH || ITALIAN
-    StringCopy(gStringVar1, gText_Lv);
-#else //#elif SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
     gStringVar1[0] = CHAR_EXTRA_SYMBOL;
     gStringVar1[1] = CHAR_LV_2;
     gStringVar1[2] = CHAR_EXTRA_SYMBOL;
     gStringVar1[3] = CHAR_LV_2_END;
     gStringVar1[4] = EOS;
+#else
+    StringCopy(gStringVar1, gText_Lv);
 #endif
     StringAppend(gStringVar1, gStringVar2);
     DisplayPartyPokemonBarDetail(menuBox->windowId, gStringVar1, 0, &menuBox->infoRects->dimensions[4]);
@@ -3305,7 +3305,7 @@ static void Task_SlideSelectedSlotsOnscreen(u8 taskId)
         // BUG: memory leak
         // Free(sSlot1TilemapBuffer);
         // Free(sSlot2TilemapBuffer);
-#if SPANISH || ITALIAN
+#if GAME_LANGUAGE != LANGUAGE_ENGLISH
         Free(sSlot1TilemapBuffer);
         Free(sSlot2TilemapBuffer);
 #endif

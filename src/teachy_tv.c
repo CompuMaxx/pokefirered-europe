@@ -460,7 +460,7 @@ static void TeachyTvMainCallback(void)
         sResources->grassAnimDisabled = 0;
         sResources->scrollIndicatorArrowPairId = 0xFF;
         SetVBlankHBlankCallbacksToNull();
-    #if SPANISH || ITALIAN
+    #if GAME_LANGUAGE != LANGUAGE_ENGLISH
         ResetVramOamAndBgCntRegs();
     #endif
         ClearScheduledBgCopiesToVram();
@@ -869,13 +869,13 @@ static void TTVcmd_TextPrinterSwitchStringByOptionChosen2(u8 taskId)
     ++data[3];
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static const u16 sBg1EndGraphic[] = 
 {
     0xD1, 0xD2, 0xD3, 0xD4, 0xD5, 0xD6, 0xD7, 0xD8,
     0xE1, 0xE2, 0xE3, 0xE4, 0xE5, 0xE6, 0xE7, 0xE8,
 };
-#else //#elif SPANISH
+#else
 static const u16 sBg1EndGraphic[] = 
 {
     0xD3, 0xD4, 0xD5, 0xD6,
@@ -1029,9 +1029,9 @@ static void TTVcmd_DudeMoveLeft(u8 taskId)
         --objAddr->x2;
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     #define RECTWIDTH 8
-#else //#elif SPANISH
+#else
     #define RECTWIDTH 4
 #endif
 

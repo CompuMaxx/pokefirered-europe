@@ -427,26 +427,7 @@ const u8 gTypeEffectiveness[336] =
 
 const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
 {
-#if ENGLISH
-    [TYPE_NORMAL] = _("NORMAL"),
-    [TYPE_FIGHTING] = _("FIGHT"),
-    [TYPE_FLYING] = _("FLYING"),
-    [TYPE_POISON] = _("POISON"),
-    [TYPE_GROUND] = _("GROUND"),
-    [TYPE_ROCK] = _("ROCK"),
-    [TYPE_BUG] = _("BUG"),
-    [TYPE_GHOST] = _("GHOST"),
-    [TYPE_STEEL] = _("STEEL"),
-    [TYPE_MYSTERY] = _("???"),
-    [TYPE_FIRE] = _("FIRE"),
-    [TYPE_WATER] = _("WATER"),
-    [TYPE_GRASS] = _("GRASS"),
-    [TYPE_ELECTRIC] = _("ELECTR"),
-    [TYPE_PSYCHIC] = _("PSYCHC"),
-    [TYPE_ICE] = _("ICE"),
-    [TYPE_DRAGON] = _("DRAGON"),
-    [TYPE_DARK] = _("DARK"),
-#elif SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
     [TYPE_NORMAL] = _("NORMAL"),
     [TYPE_FIGHTING] = _("LUCHA"),
     [TYPE_FLYING] = _("VOLAD."),
@@ -465,7 +446,7 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     [TYPE_ICE] = _("HIELO"),
     [TYPE_DRAGON] = _("DRAGÓN"),
     [TYPE_DARK] = _("SINIE."),
-#elif ITALIAN
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
     [TYPE_NORMAL] = _("NORM"),
     [TYPE_FIGHTING] = _("LOTTA"),
     [TYPE_FLYING] = _("VOLAN"),
@@ -484,6 +465,25 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     [TYPE_ICE] = _("GHIACC"),
     [TYPE_DRAGON] = _("DRAGO"),
     [TYPE_DARK] = _("BUIO"),
+#else //LANGUAGE_ENGLISH
+    [TYPE_NORMAL] = _("NORMAL"),
+    [TYPE_FIGHTING] = _("FIGHT"),
+    [TYPE_FLYING] = _("FLYING"),
+    [TYPE_POISON] = _("POISON"),
+    [TYPE_GROUND] = _("GROUND"),
+    [TYPE_ROCK] = _("ROCK"),
+    [TYPE_BUG] = _("BUG"),
+    [TYPE_GHOST] = _("GHOST"),
+    [TYPE_STEEL] = _("STEEL"),
+    [TYPE_MYSTERY] = _("???"),
+    [TYPE_FIRE] = _("FIRE"),
+    [TYPE_WATER] = _("WATER"),
+    [TYPE_GRASS] = _("GRASS"),
+    [TYPE_ELECTRIC] = _("ELECTR"),
+    [TYPE_PSYCHIC] = _("PSYCHC"),
+    [TYPE_ICE] = _("ICE"),
+    [TYPE_DRAGON] = _("DRAGON"),
+    [TYPE_DARK] = _("DARK"),
 #endif
 };
 

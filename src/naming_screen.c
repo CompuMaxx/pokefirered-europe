@@ -1706,10 +1706,10 @@ static void DrawMonTextEntryBox(void)
 {
     u8 buffer[32];
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     StringCopy(buffer, gSpeciesNames[sNamingScreen->monSpecies]);
     StringAppendN(buffer, sNamingScreen->template->title, 15);
-#else //#elif SPANISH
+#else
     StringCopy(gStringVar1, gSpeciesNames[sNamingScreen->monSpecies]);
     StringExpandPlaceholders(buffer, sNamingScreen->template->title);
 #endif

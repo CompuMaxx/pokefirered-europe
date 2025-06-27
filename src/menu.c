@@ -248,8 +248,8 @@ void ClearTopBarWindow(void)
     }
 }
 
-#if SPANISH || ITALIAN //test
-void es_sub_810F8F0(u8 a0)
+#if GAME_LANGUAGE != LANGUAGE_ENGLISH
+void Unused_ClearTopBarWindow(u8 a0)
 {
     if (sTopBarWindowId != 0xFF)
     {

@@ -115,9 +115,9 @@ static void Task_ItemContext_FieldOrBattle(u8 taskId);
 static void Task_FieldItemContextMenuHandleInput(u8 taskId);
 static void Task_ItemMenuAction_Use(u8 taskId);
 static void Task_ItemMenuAction_Toss(u8 taskId);
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static void Task_ConfirmTossItems(u8 taskId);
-#else //#elif SPANISH
+#else
 static void Task_ConfirmTossItems(u16 itemId, u8 taskId);
 #endif
 static void Task_TossItem_No(u8 taskId);
@@ -1238,7 +1238,7 @@ static void BeginMovingItemInPocket(u8 taskId, s16 itemIndex)
     gTasks[taskId].func = Task_MoveItemInPocket_HandleInput;
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static void Task_MoveItemInPocket_HandleInput(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -1275,7 +1275,7 @@ static void Task_MoveItemInPocket_HandleInput(u8 taskId)
         break;
     }
 }
-#else //#elif SPANISH
+#else
 static void Task_MoveItemInPocket_HandleInput(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -1528,9 +1528,9 @@ static void Task_ItemMenuAction_Toss(u8 taskId)
     data[8] = 1;
     if (data[2] == 1)
     {
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
         Task_ConfirmTossItems(taskId);
-#else //#elif SPANISH
+#else
         Task_ConfirmTossItems(data[1], taskId);
 #endif
     }
@@ -1541,7 +1541,7 @@ static void Task_ItemMenuAction_Toss(u8 taskId)
     }
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static void Task_ConfirmTossItems(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -1550,7 +1550,7 @@ static void Task_ConfirmTossItems(u8 taskId)
     BagPrintTextOnWindow(ShowBagWindow(6, 1), FONT_NORMAL, gStringVar4, 0, 2, 1, 0, 0, 1);
     BagCreateYesNoMenuBottomRight(taskId, &sYesNoMenu_Toss);
 }
-#else //#elif SPANISH
+#else
 static void Task_ConfirmTossItems(u16 itemId, u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
@@ -1587,9 +1587,9 @@ static void Task_SelectQuantityToToss(u8 taskId)
         HideBagWindow(0);
         ScheduleBgCopyTilemapToVram(0);
         BagDestroyPocketScrollArrowPair();
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
         Task_ConfirmTossItems(taskId);
-#else //#elif SPANISH
+#else
         Task_ConfirmTossItems(data[1], taskId);
 #endif
     }

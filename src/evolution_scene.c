@@ -793,10 +793,10 @@ static void Task_EvolutionScene(u8 taskId)
             {
                 u8 text[20];
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
                 StopMapMusic();
                 Overworld_PlaySpecialMapMusic();
-#else //#elif SPANISH
+#else
                 if (!(gTasks[taskId].tBits & TASK_BIT_LEARN_MOVE))
                 {
                     StopMapMusic();

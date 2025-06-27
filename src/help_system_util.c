@@ -124,13 +124,13 @@ u8 RunHelpSystemCallback(void)
         if (!gDisableHelpSystemVolumeReduce)
             m4aMPlayVolumeControl(&gMPlayInfo_BGM, TRACKS_ALL, 0x100);
         RestoreMapTextColors();
-    #if ENGLISH
+    #if GAME_LANGUAGE == LANGUAGE_ENGLISH
         RestoreGPURegs();
     #endif
         sVideoState.state = 8;
         break;
     case 8:
-    #if SPANISH || ITALIAN
+    #if GAME_LANGUAGE != LANGUAGE_ENGLISH
         RestoreGPURegs();
     #endif
         RestoreCallbacks();

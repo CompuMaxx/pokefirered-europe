@@ -63,7 +63,7 @@ static const u8 *const sEasyChatGroupNamePointers[] = {
     [EC_GROUP_POKEMON_2] = gEasyChatGroupName_Pokemon2,
 };
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static const u16 sDefaultProfileWords[] = {
     EC_WORD_I_AM,
     EC_WORD_A,
@@ -79,7 +79,7 @@ static const u16 sDefaultBattleStartWords[] = {
     EC_WORD_HERE_I_COME,
     EC_WORD_EXCL,
 };
-#elif SPANISH || ITALIAN
+#else //LANGUAGE_SPANISH || LANGUAGE_ITALIAN
 static const u16 sDefaultProfileWords[] = {
     EC_WORD_ISN_T_IT_QUES,
     EC_WORD_BEING,
@@ -232,8 +232,8 @@ u8 *ConvertEasyChatWordsToString(u8 *dest, const u16 *src, u16 columns, u16 rows
     return dest;
 }
 
-#if SPANISH || ITALIAN
-u8 *es_sub_80BDAE0(u8 *dest, const u16 *src, u16 columns, u16 rows)
+#if GAME_LANGUAGE != LANGUAGE_ENGLISH
+u8 *Localize_ConvertEasyChatMessageToString(u8 *dest, const u16 *src, u16 columns, u16 rows)
 {
     u16 i, j, k;
     u16 numColumns;

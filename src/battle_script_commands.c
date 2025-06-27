@@ -5841,14 +5841,14 @@ static void DrawLevelUpBannerText(void)
     txtPtr = gStringVar4;
     gStringVar4[0] = CHAR_EXTRA_SYMBOL;
     *++txtPtr = CHAR_LV_2;
-#if ENGLISH || ITALIAN
-    *++txtPtr = 0;
-#else //#elif SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
     *++txtPtr = CHAR_EXTRA_SYMBOL;
     *++txtPtr = CHAR_LV_2_END;
     *++txtPtr = EXT_CTRL_CODE_BEGIN;
     *++txtPtr = EXT_CTRL_CODE_CLEAR;
     *++txtPtr = 5;
+#else
+    *++txtPtr = 0;
 #endif
     txtPtr2 = txtPtr + 1;
     txtPtr = ConvertIntToDecimalStringN(++txtPtr, monLevel, STR_CONV_MODE_LEFT_ALIGN, 3);

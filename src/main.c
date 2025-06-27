@@ -30,16 +30,16 @@ const u8 gGameLanguage = GAME_LANGUAGE;
 
 #if MODERN
 const char BuildDateTime[] = __DATE__ " " __TIME__;
-#elif ENGLISH
-    #if REVISION == 0
-        const char BuildDateTime[] = "2004 04 26 11:20";
-    #else //REVISION == 1
-    const char BuildDateTime[] = "2004 07 20 09:30";
-    #endif //REVISION
-#elif SPANISH
+#elif GAME_LANGUAGE == LANGUAGE_SPANISH
 const char BuildDateTime[] = "2004 07 20 15:50";
-#elif ITALIAN
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 const char BuildDateTime[] = "2004 07 26 17:40";
+#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
+#if REVISION == 0
+const char BuildDateTime[] = "2004 04 26 11:20";
+#else //REVISION == 1
+const char BuildDateTime[] = "2004 07 20 09:30";
+#endif //REVISION
 #endif //MODERN
 
 const IntrFunc gIntrTableTemplate[] =
@@ -154,7 +154,7 @@ void AgbMain()
 #endif
 #endif
 
-#if REVISION == 1 || ITALIAN
+#if REVISION == 1 || (GAME_LANGUAGE == LANGUAGE_ITALIAN)
     if (gFlashMemoryPresent != TRUE)
         SetMainCallback2(NULL);
 #endif

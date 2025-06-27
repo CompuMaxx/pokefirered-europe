@@ -630,7 +630,7 @@ static void SetTrainerTowerNPCGraphics(void)
 
 static void TT_ConvertEasyChatMessageToString(u16 *ecWords, u8 *dest)
 {
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     s32 i;
     ConvertEasyChatWordsToString(dest, ecWords, 3, 2);
     if ((unsigned)GetStringWidth(FONT_NORMAL, dest, -1) > 196)
@@ -647,8 +647,8 @@ static void TT_ConvertEasyChatMessageToString(u16 *ecWords, u8 *dest)
         // Replace \n with \l at the end of line 2
         dest[i] = CHAR_PROMPT_SCROLL;
     }
-#else //#elif SPANISH
-    es_sub_80BDAE0(dest, ecWords, 2, 3);
+#else 
+    Localize_ConvertEasyChatMessageToString(dest, ecWords, 2, 3);
 #endif
 }
 

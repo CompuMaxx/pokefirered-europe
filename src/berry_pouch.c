@@ -96,9 +96,9 @@ static void Task_NormalContextMenu(u8 taskId);
 static void Task_NormalContextMenu_HandleInput(u8 taskId);
 static void Task_BerryPouch_Use(u8 taskId);
 static void Task_BerryPouch_Toss(u8 taskId);
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static void Task_AskTossMultiple(u8 taskId);
-#else //#elif SPANISH || ITALIAN
+#else
 static void Task_AskTossMultiple(u16 itemId, u8 taskId);
 #endif
 static void Task_TossNo(u8 taskId);
@@ -1095,9 +1095,9 @@ static void Task_BerryPouch_Toss(u8 taskId)
     PutWindowTilemap(0);
     data[8] = 1;
     if (data[2] == 1)
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
         Task_AskTossMultiple(taskId);
-#else //#elif SPANISH || ITALIAN
+#else
         Task_AskTossMultiple(data[1], taskId);
 #endif
     else
@@ -1108,7 +1108,7 @@ static void Task_BerryPouch_Toss(u8 taskId)
     }
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static void Task_AskTossMultiple(u8 taskId)
 {
     s16 * data = gTasks[taskId].data;
@@ -1117,7 +1117,7 @@ static void Task_AskTossMultiple(u8 taskId)
     BerryPouchPrint(GetOrCreateVariableWindow(7), FONT_NORMAL, gStringVar4, 0, 2, 1, 2, 0, 1);
     CreateYesNoMenuWin3(taskId, &sYesNoFuncs_Toss);
 }
-#else //#elif SPANISH || ITALIAN
+#else
 static void Task_AskTossMultiple(u16 itemId, u8 taskId)
 {
     s16 * data = gTasks[taskId].data;
@@ -1155,9 +1155,9 @@ static void Task_Toss_SelectMultiple(u8 taskId)
         ScheduleBgCopyTilemapToVram(0);
         ScheduleBgCopyTilemapToVram(2);
         DestroyScrollIndicatorArrows();
-    #if ENGLISH
+    #if GAME_LANGUAGE == LANGUAGE_ENGLISH
         Task_AskTossMultiple(taskId);
-    #else //#elif SPANISH || ITALIAN
+    #else
         Task_AskTossMultiple(data[1], taskId);
     #endif
     }

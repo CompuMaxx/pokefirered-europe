@@ -6452,13 +6452,13 @@ u8 *MonSpritesGfxManager_GetSpritePtr(u8 spriteNum)
     }
 }
 
-#if ITALIAN
-u8 *it_nullsub(const u8 *src)
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+u8 *Localize_BattleStrings(const u8 *src)
 {
 }
 #endif
 
-#if SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
 //Is trainer class n name in src ?
 static bool32 es_sub_8044D1C(u8 *src)
 {
@@ -6525,7 +6525,7 @@ static void es_sub_8044D64()
     }
 }
 
-u8 *es_sub_8044DB0(u8 *src)
+u8 *Localize_BattleStrings(u8 *src)
 {
     u8 *r5;
 

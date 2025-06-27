@@ -202,7 +202,7 @@ static void MapNamePopupPrintMapNameOnWindow(u16 windowId)
     AddTextPrinterParameterized(windowId, FONT_NORMAL, mapName, xpos, 2, TEXT_SKIP_DRAW, NULL);
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static u8 *MapNamePopupAppendFloorNum(u8 *dest, s8 floorNum)
 {
     if (floorNum == 0)
@@ -220,8 +220,7 @@ static u8 *MapNamePopupAppendFloorNum(u8 *dest, s8 floorNum)
     *dest = EOS;
     return dest;
 }
-#else //#elif SPANISH
-//off_83CF324
+#else
 static const u8 *const sFloorNamePointers_up[] = {
     gText_1F,
     gText_2F,
@@ -237,7 +236,6 @@ static const u8 *const sFloorNamePointers_up[] = {
     gText_Rooftop
 };
 
-//off_83CF354
 static const u8 *const sFloorNamePointers_down[] = {
     gText_B1F,
     gText_B2F,

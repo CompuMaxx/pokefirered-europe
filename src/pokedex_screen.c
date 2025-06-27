@@ -23,7 +23,7 @@
 
 #define TAG_AREA_MARKERS 2001
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     #define WTDE_MONPIC_TILEMAPTOP 3
     #define WTDE_MONPIC_HEIGHT 8
     #define WTDE_SPECIESSTATS_BASEBLOCK 0x01e8
@@ -31,7 +31,7 @@
     #define WTDE_FLAVORTEXT_BASEBLOCK 0x0250
 
     #define FLAVOR_TEXT_Y 8
-#elif SPANISH || ITALIAN
+#else
     #define WTDE_MONPIC_TILEMAPTOP 2
     #define WTDE_MONPIC_HEIGHT 9
     #define WTDE_SPECIESSTATS_BASEBLOCK 0x01f0
@@ -158,11 +158,11 @@ static void Task_DexScreen_RegisterMonToPokedex(u8 taskId);
 
 #include "data/pokemon_graphics/footprint_table.h"
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 const u32 sCategoryMonInfoBgTiles[] = INCBIN_U32("graphics/pokedex/mini_page.4bpp.lz");
 const u32 sKantoDexTiles[] = INCBIN_U32("graphics/pokedex/kanto_dex_bgtiles.4bpp.lz");
 const u32 sNatDexTiles[] = INCBIN_U32("graphics/pokedex/national_dex_bgtiles.4bpp.lz");
-#else //#elif SPANISH
+#else
 extern const u32 sCategoryMonInfoBgTiles[];
 extern const u32 sKantoDexTiles[];
 extern const u32 sNatDexTiles[];
@@ -2236,8 +2236,8 @@ static void DexScreen_LoadMonPicInWindow(u8 windowId, u16 species, u16 paletteOf
     LoadMonPicInWindow(species, SHINY_ODDS, DexScreen_GetDefaultPersonality(species), TRUE, paletteOffset >> 4, windowId);
 }
 
-#if SPANISH || ITALIAN
-void es_sub_8104d70(u8 windowId, u16 species, u16 paletteSlot, u16 destX, u16 destY)
+#if GAME_LANGUAGE != LANGUAGE_ENGLISH
+void Localize_DexScreen_LoadMonPicInWindow(u8 windowId, u16 species, u16 paletteSlot, u16 destX, u16 destY)
 {
     u32 personality = DexScreen_GetDefaultPersonality(species);
     CreateTrainerCardMonIconSprite(species, 8, personality, TRUE, destX, destY, (u8)(paletteSlot >> 4), windowId);
@@ -2670,9 +2670,9 @@ void DexScreen_DexPageZoomEffectFrame(u8 bg, u8 scale)
     else if (top < 2) // or up.
         top = 2;
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     divY = (top + 1) + ((height / 2) + 1); // The horizontal divider
-#else //#elif SPANISH
+#else
     divY = (top + 2) + (height / 2) - 1;
 #endif
 
@@ -2702,14 +2702,11 @@ void DexScreen_DexPageZoomEffectFrame(u8 bg, u8 scale)
     FillBgTilemapBufferRect_Palette0(bg, 2, left + 1, divY + 1, width, top + height - divY);
 }
 
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
 {
     u8 * categoryName;
     u8 index, categoryStr[12];
-#if SPANISH || ITALIAN
-    s32 stringWidth;
-    s32 tmp;
-#endif
 
     species = SpeciesToNationalPokedexNum(species);
 
@@ -2717,7 +2714,7 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     index = 0;
     if (DexScreen_GetSetPokedexFlag(species, FLAG_GET_CAUGHT, FALSE))
     {
-#if REVISION == 0 && ENGLISH
+#if REVISION == 0
         while ((categoryName[index] != CHAR_SPACE) && (index < 11))
 #else
         while ((categoryName[index] != EOS) && (index < 11))
@@ -2727,7 +2724,6 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
             index++;
         }
     }
-#if ENGLISH
     else
     {
         while (index < 11)
@@ -2742,27 +2738,8 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, categoryStr, x, y, 0);
     x += GetStringWidth(FONT_SMALL, categoryStr, 0);
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, gText_PokedexPokemon, x, y, 0);
-
-#else //#elif SPANISH
-    else
-    {
-        categoryStr[index++] = CHAR_LEFT_PAREN;
-        categoryStr[index++] = CHAR_QUESTION_MARK;
-        categoryStr[index++] = CHAR_RIGHT_PAREN;
-    }
-
-    categoryStr[index] = EOS;
-
-    DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, gText_PokedexPokemon, x, y, 0);
-
-    stringWidth = GetStringWidth(FONT_SMALL, gText_PokedexPokemon, 0);
-    tmp = x + 5;
-    x = tmp + stringWidth;
-    DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, categoryStr, x, y, 0);  
-#endif
 }
 
-#if ENGLISH
 void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y)
 {
     u16 height;
@@ -2911,12 +2888,47 @@ void DexScreen_PrintMonWeight(u8 windowId, u16 species, u8 x, u8 y)
     x += 30;
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, buffer, x, y, 0);
 }
-#else //#elif SPANISH
+#else
+
+void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
+{
+    u8 * categoryName;
+    u8 index, categoryStr[12];
+    s32 stringWidth;
+    s32 tmp;
+
+    species = SpeciesToNationalPokedexNum(species);
+
+    categoryName = (u8 *)gPokedexEntries[species].categoryName;
+    index = 0;
+    if (DexScreen_GetSetPokedexFlag(species, FLAG_GET_CAUGHT, FALSE))
+    {
+        while ((categoryName[index] != EOS) && (index < 11))
+        {
+            categoryStr[index] = categoryName[index];
+            index++;
+        }
+    }
+    else
+    {
+        categoryStr[index++] = CHAR_LEFT_PAREN;
+        categoryStr[index++] = CHAR_QUESTION_MARK;
+        categoryStr[index++] = CHAR_RIGHT_PAREN;
+    }
+
+    categoryStr[index] = EOS;
+
+    DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, gText_PokedexPokemon, x, y, 0);
+    stringWidth = GetStringWidth(FONT_SMALL, gText_PokedexPokemon, 0);
+    tmp = x + 5;
+    x = tmp + stringWidth;
+    DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, categoryStr, x, y, 0);  
+}
 
 #define PRINT_HEIGHT    0
 #define PRINT_WEIGHT    1
 
-void es_sub_8105C78(u8 windowId, u16 species, u8 x, u8 y, bool8 mode)
+void Localize_DexScreen_PrintMonHeightAndWeight(u8 windowId, u16 species, u8 x, u8 y, bool8 mode)
 {
     u16 size;
     u8 result;
@@ -3000,12 +3012,12 @@ void es_sub_8105C78(u8 windowId, u16 species, u8 x, u8 y, bool8 mode)
 
 void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y)
 {
-    es_sub_8105C78(windowId, species, x, y, PRINT_HEIGHT);
+    Localize_DexScreen_PrintMonHeightAndWeight(windowId, species, x, y, PRINT_HEIGHT);
 }
 
 void DexScreen_PrintMonWeight(u8 windowId, u16 species, u8 x, u8 y)
 {
-    es_sub_8105C78(windowId, species, x, y, PRINT_WEIGHT);
+    Localize_DexScreen_PrintMonHeightAndWeight(windowId, species, x, y, PRINT_WEIGHT);
 }
 #endif
 
@@ -3091,10 +3103,10 @@ static u8 DexScreen_DrawMonDexPage(bool8 justRegistered)
 
     // Mon pic
     FillWindowPixelBuffer(sPokedexScreenData->windowIds[0], PIXEL_FILL(0));
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     DexScreen_LoadMonPicInWindow(sPokedexScreenData->windowIds[0], sPokedexScreenData->dexSpecies, 144);
-#else //#elif SPANISH
-    es_sub_8104d70(sPokedexScreenData->windowIds[0], sPokedexScreenData->dexSpecies, 144, 0, 6);
+#else
+    Localize_DexScreen_LoadMonPicInWindow(sPokedexScreenData->windowIds[0], sPokedexScreenData->dexSpecies, 144, 0, 6);
 #endif
     PutWindowTilemap(sPokedexScreenData->windowIds[0]);
     CopyWindowToVram(sPokedexScreenData->windowIds[0], COPYWIN_GFX);

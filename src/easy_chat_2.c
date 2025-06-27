@@ -282,14 +282,14 @@ void ShowEasyChatScreen(void)
     DoEasyChatScreen(gSpecialVar_0x8004, words, CB2_ReturnToFieldContinueScript);
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static const u16 sECPhrase_MysteryEventIsExciting[] = {
     EC_WORD_MYSTERY,
     EC_WORD_EVENT,
     EC_WORD_IS,
     EC_WORD_EXCITING
 };
-#elif SPANISH || ITALIAN
+#else //LANGUAGE_SPANISH || LANGUAGE_ITALIAN
 static const u16 sECPhrase_MysteryEventIsExciting[] = {
     EC_WORD_EVENT,
     EC_WORD_MYSTERY,
@@ -303,14 +303,14 @@ static void CompareProfileResponseWithPassphrase(void)
     gSpecialVar_0x8004 = IsPhraseDifferentThanPlayerInput(sECPhrase_MysteryEventIsExciting, NELEMS(sECPhrase_MysteryEventIsExciting));
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static const u16 sECPhrase_LinkTogetherWithAll[] = {
     EC_WORD_LINK,
     EC_WORD_TOGETHER,
     EC_WORD_WITH,
     EC_WORD_ALL
 };
-#elif SPANISH || ITALIAN
+#else //LANGUAGE_SPANISH || LANGUAGE_ITALIAN
 static const u16 sECPhrase_LinkTogetherWithAll[] = {
     EC_WORD_LINK,
     EC_WORD_MISS,

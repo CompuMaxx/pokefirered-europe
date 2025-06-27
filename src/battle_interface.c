@@ -756,10 +756,10 @@ void InitBattlerHealthboxCoords(u8 battler)
     UpdateSpritePos(gHealthboxSpriteIds[battler], x, y);
 }
 
-#if ENGLISH || ITALIAN
-    #define TEXT_LV _("{LV_2}")
-#elif SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
     #define TEXT_LV _("{LV_3}")
+#else
+    #define TEXT_LV _("{LV_2}")
 #endif
 
 static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
@@ -770,10 +770,10 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
     u32 xPos;
     u8 *objVram;
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     objVram = ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
     xPos = 5 * (3 - (objVram - (text + 2)));
-#else //#elif SPANISH || ITALIAN
+#else
     u8 *txtPtr = text + StringLength(text);
     objVram = ConvertIntToDecimalStringN(txtPtr, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
     xPos = 5 * (3 - (objVram - txtPtr));
@@ -1089,7 +1089,7 @@ void SwapHpBarsWithHpText(void)
 #define sSpeed                  data[3]
 #define sIsEmptyBall            data[7]
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 u8 CreatePartyStatusSummarySprites(u8 battlerId, struct HpAndStatus *partyInfo, bool8 isSwitchingMons, bool8 isBattleStart)
 {
     bool8 isOpponent;
@@ -1264,7 +1264,7 @@ u8 CreatePartyStatusSummarySprites(u8 battlerId, struct HpAndStatus *partyInfo, 
     PlaySE12WithPanning(SE_BALL_TRAY_ENTER, 0);
     return taskId;
 }
-#else //#elif SPANISH
+#else
 u8 CreatePartyStatusSummarySprites(u8 battlerId, struct HpAndStatus *partyInfo, bool8 isSwitchingMons, bool8 isBattleStart)
 {
     bool8 isOpponent;

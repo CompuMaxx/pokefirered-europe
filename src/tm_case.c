@@ -944,7 +944,7 @@ static void ReturnToList(u8 taskId)
 static void Task_SelectedTMHM_Field(u8 taskId)
 {
     u8 * strbuf;
-#if !ENGLISH //#if SPANISH
+#if GAME_LANGUAGE != LANGUAGE_ENGLISH
     u8 txt[64];
     u32 y;
     s32 i;
@@ -983,7 +983,7 @@ static void Task_SelectedTMHM_Field(u8 taskId)
     
     // Print label text next to the context window
     strbuf = Alloc(256);
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
     GetTMNumberAndMoveString(strbuf, gSpecialVar_ItemId);
     StringAppend(strbuf, gText_Var1IsSelected + 2); // +2 skips over the stringvar
     TMCase_Print(WIN_SELECTED_MSG, FONT_NORMAL, strbuf, 0, 2, 1, 0, 0, COLOR_DARK);
@@ -994,7 +994,7 @@ static void Task_SelectedTMHM_Field(u8 taskId)
         CopyWindowToVram(WIN_SELECTED_MSG, COPYWIN_GFX);
     }
 
-#else //#elif SPANISH
+#else
     GetTMNumberAndMoveString(txt, gSpecialVar_ItemId);
     j = 0;
     i = 0;

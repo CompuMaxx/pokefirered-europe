@@ -780,7 +780,7 @@ static void ItemPc_MoveItemModeInit(u8 taskId, s16 pos)
     gTasks[taskId].func = Task_ItemPcMoveItemModeRun;
 }
 
-#if ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 static void Task_ItemPcMoveItemModeRun(u8 taskId)
 {
     s16 * data = gTasks[taskId].data;
@@ -801,7 +801,7 @@ static void Task_ItemPcMoveItemModeRun(u8 taskId)
         ItemPc_MoveItemModeCancel(taskId, sListMenuState.scroll + sListMenuState.row);
     }
 }
-#else //#elif SPANISH
+#else
 static void Task_ItemPcMoveItemModeRun(u8 taskId)
 {
     s16 * data = gTasks[taskId].data;
