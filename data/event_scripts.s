@@ -40,6 +40,7 @@
 #include "constants/mystery_gift.h"
 	.include "asm/macros.inc"
 	.include "asm/macros/event.inc"
+	.include "constants/version.inc"
 	.set FALSE, 0
 	.set TRUE,  1
 
@@ -807,7 +808,7 @@ gStdScriptsEnd::
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
 
-.ifdef SPANISH
+.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.include "data/text/spanish/mix_record.inc"
 	.include "data/text/spanish/pc.inc"
 	.include "data/text/spanish/cable_club.inc"
@@ -826,7 +827,7 @@ gStdScriptsEnd::
 	.include "data/text/spanish/general.inc"
 	.include "data/text/spanish/seagallop.inc"
 	.include "data/text/spanish/legendary_cry.inc"
-.else @ENGLISH
+.else @LANGUAGE_ENGLISH
 	.include "data/text/mix_record.inc"
 	.include "data/text/pc.inc"
 	.include "data/text/cable_club.inc"
@@ -939,9 +940,9 @@ EventScript_WallTownMap::
 	releaseall
 	end
 
-.ifdef SPANISH
+.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.include "data/text/spanish/pokedex_rating.inc"
-.else @ENGLISH
+.else @LANGUAGE_ENGLISH
 	.include "data/text/pokedex_rating.inc"
 .endif
 	.include "data/scripts/pokedex_rating.inc"
@@ -1164,9 +1165,9 @@ EventScript_NoMoreRoomForPokemon::
 	release
 	end
 
-.ifdef SPANISH
+.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.include "data/text/spanish/braille.inc"
-.else @ENGLISH
+.else @LANGUAGE_ENGLISH
 	.include "data/text/braille.inc"
 .endif
 	.include "data/scripts/trainers.inc"
@@ -1177,7 +1178,7 @@ Text_TestMsg::
 	.string "テストよう　メッセージです！\n"
 	.string "ポケモンの　せかいへ　ようこそ！$"
 
-.ifdef SPANISH
+.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.include "data/scripts/fame_checker.inc"
 	.include "data/text/spanish/fame_checker.inc"
 	.include "data/text/spanish/sign_lady.inc"
@@ -1206,7 +1207,7 @@ Text_TestMsg::
 	.include "data/text/spanish/save.inc"
 	.include "data/text/spanish/new_game_intro.inc"
 	.include "data/text/spanish/pokedude.inc"
-.else @ENGLISH
+.else @LANGUAGE_ENGLISH
 	.include "data/scripts/fame_checker.inc"
 	.include "data/text/fame_checker.inc"
 	.include "data/text/sign_lady.inc"

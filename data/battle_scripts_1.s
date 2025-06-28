@@ -13,6 +13,7 @@
 #include "constants/game_stat.h"
 #include "constants/battle_string_ids.h"
 	.include "asm/macros/battle_script.inc"
+	.include "constants/version.inc"
 @ Define these here since misc_constants.inc conflicts with the C headers
 	.set NULL, 0
 	.set FALSE, 0
@@ -2571,16 +2572,15 @@ BattleScript_EffectTeeterDance::
 BattleScript_TeeterDanceLoop::
 	movevaluescleanup
 	setmoveeffect MOVE_EFFECT_CONFUSION
-.ifdef ENGLISH
+.if GAME_LANGUAGE == LANGUAGE_ENGLISH
 	jumpifbyteequal gBattlerAttacker, gBattlerTarget, BattleScript_TeeterDanceLoopIncrement
-.endif
-.ifdef SPANISH
+.elseif GAME_LANGUAGE == LANGUAGE_SPANISH
 	jumpifbyteequal gBattlerAttacker, gBattlerTarget, jump_BattleScript_TeeterDanceLoop
 .endif
 	jumpifability BS_TARGET, ABILITY_OWN_TEMPO, BattleScript_TeeterDanceOwnTempoPrevents
 	jumpifstatus2 BS_TARGET, STATUS2_SUBSTITUTE, BattleScript_TeeterDanceSubstitutePrevents
 	jumpifstatus2 BS_TARGET, STATUS2_CONFUSION, BattleScript_TeeterDanceAlreadyConfused
-.ifdef SPANISH
+.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	jumpifhasnohp BS_TARGET, jump_BattleScript_TeeterDanceLoop
 .endif
 	accuracycheck BattleScript_TeeterDanceMissed, ACC_CURR_MOVE
@@ -2592,7 +2592,7 @@ BattleScript_TeeterDanceLoop::
 	waitmessage B_WAIT_TIME_LONG
 BattleScript_TeeterDanceLoopIncrement::
 	moveendto MOVEEND_NEXT_TARGET
-.ifdef SPANISH
+.if GAME_LANGUAGE == LANGUAGE_SPANISH
 jump_BattleScript_TeeterDanceLoop:
 .endif
 	addbyte gBattlerTarget, 1

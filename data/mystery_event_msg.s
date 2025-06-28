@@ -32,17 +32,16 @@ MysteryEventScript_StampCard::
 	end
 
 sText_MysteryGiftStampCard:
-	.ifdef ENGLISH
-	.string "Thank you for using the STAMP CARD\n"
-	.string "System.\p"
-	.string "You have {STR_VAR_1} more to collect to\n"
-	.string "fill your STAMP CARD.$"
-	.endif
-	.ifdef SPANISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Gracias por usar el sistema\n"
 	.string "de SELLOS.\p"
 	.string "Para completar la TARJETA\n"
 	.string "de SELLOS, te faltan {STR_VAR_1}.$"
+	.else @LANGUAGE_ENGLISH
+	.string "Thank you for using the STAMP CARD\n"
+	.string "System.\p"
+	.string "You have {STR_VAR_1} more to collect to\n"
+	.string "fill your STAMP CARD.$"
 	.endif
 
 MysteryEventScript_SurfPichu::
@@ -106,7 +105,13 @@ SurfPichu_Slot5:
 	return
 
 sText_MysteryGiftEgg:
-	.ifdef ENGLISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
+	.string "Gracias por usar el sistema\n"
+	.string "del REGALO MISTERIOSO.\p"
+	.string "Tenemos un REGALO del CENTRO\n"
+	.string "POKéMON: ¡un HUEVO POKéMON!\p"
+	.string "Cuídalo con tacto y cariño.$"
+	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
 	.string "From the POKéMON CENTER we\n"
@@ -114,25 +119,17 @@ sText_MysteryGiftEgg:
 	.string "Please raise it with love and\n"
 	.string "kindness.$"
 	.endif
-	.ifdef SPANISH
-	.string "Gracias por usar el sistema\n"
-	.string "del REGALO MISTERIOSO.\p"
-	.string "Tenemos un REGALO del CENTRO\n"
-	.string "POKéMON: ¡un HUEVO POKéMON!\p"
-	.string "Cuídalo con tacto y cariño.$"
-	.endif
 
 sText_FullParty:
-	.ifdef ENGLISH
-	.string "Oh, your party appears to be full.\p"
-	.string "Please come see me after storing\n"
-	.string "a POKéMON on a PC.$"
-	.endif
-	.ifdef SPANISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Parece que tu equipo está\n"
 	.string "completo.\p"
 	.string "Vuelve cuando dejes algún POKéMON\n"
 	.string "en el PC.$"
+	.else @LANGUAGE_ENGLISH
+	.string "Oh, your party appears to be full.\p"
+	.string "Please come see me after storing\n"
+	.string "a POKéMON on a PC.$"
 	.endif
 
 MysteryEventScript_VisitingTrainer::
@@ -157,23 +154,7 @@ MysteryEventScript_VisitingTrainerArrived:
 	end
 
 sText_MysteryGiftVisitingTrainer:
-	.ifdef ENGLISH
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "By holding this WONDER CARD, you\n"
-	.string "may take part in a survey at a\l"
-	.string "POKéMON MART.\p"
-	.string "Use these surveys to invite\n"
-	.string "TRAINERS to the SEVII ISLANDS.\p"
-	.string "…Let me give you a secret\n"
-	.string "password for a survey:\p"
-	.string "“GIVE ME\n"
-	.string "AWESOME TRAINER”\p"
-	.string "Write that in on a survey and send\n"
-	.string "it to the WIRELESS\l"
-	.string "COMMUNICATION SYSTEM.$"
-	.endif
-	.ifdef SPANISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Gracias por usar el sistema\n"
 	.string "del REGALO MISTERIOSO.\p"
 	.string "Al llevar la TARJETA MISTERIOSA,\n"
@@ -189,22 +170,25 @@ sText_MysteryGiftVisitingTrainer:
 	.string "Escríbela en un cuestionario y\n"
 	.string "envíala al sistema de comunicación\l"
 	.string "inalámbrica.$"
+	.else @LANGUAGE_ENGLISH
+	.string "Thank you for using the MYSTERY\n"
+	.string "GIFT System.\p"
+	.string "By holding this WONDER CARD, you\n"
+	.string "may take part in a survey at a\l"
+	.string "POKéMON MART.\p"
+	.string "Use these surveys to invite\n"
+	.string "TRAINERS to the SEVII ISLANDS.\p"
+	.string "…Let me give you a secret\n"
+	.string "password for a survey:\p"
+	.string "“GIVE ME\n"
+	.string "AWESOME TRAINER”\p"
+	.string "Write that in on a survey and send\n"
+	.string "it to the WIRELESS\l"
+	.string "COMMUNICATION SYSTEM.$"
 	.endif
 
 sText_MysteryGiftVisitingTrainer_2:
-	.ifdef ENGLISH
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "A TRAINER has arrived in the SEVII\n"
-	.string "ISLANDS looking for you.\p"
-	.string "We hope you will enjoy\n"
-	.string "battling the visiting TRAINER.\p"
-	.string "You may invite other TRAINERS by\n"
-	.string "entering other passwords.\p"
-	.string "Try looking for other passwords\n"
-	.string "that may work.$"
-	.endif
-	.ifdef SPANISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Gracias por usar el sistema\n"
 	.string "del REGALO MISTERIOSO.\p"
 	.string "Ha llegado un ENTRENADOR\n"
@@ -216,6 +200,17 @@ sText_MysteryGiftVisitingTrainer_2:
 	.string "contraseñas.\p"
 	.string "Busca otras contraseñas\n"
 	.string "que vayan bien.$"
+	.else @LANGUAGE_ENGLISH
+	.string "Thank you for using the MYSTERY\n"
+	.string "GIFT System.\p"
+	.string "A TRAINER has arrived in the SEVII\n"
+	.string "ISLANDS looking for you.\p"
+	.string "We hope you will enjoy\n"
+	.string "battling the visiting TRAINER.\p"
+	.string "You may invite other TRAINERS by\n"
+	.string "entering other passwords.\p"
+	.string "Try looking for other passwords\n"
+	.string "that may work.$"
 	.endif
 
 MysteryEventScript_BattleCard::
@@ -244,19 +239,7 @@ MysteryEventScript_BattleCardInfo:
 	end
 
 sText_MysteryGiftBattleCountCard:
-	.ifdef ENGLISH
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Your BATTLE COUNT CARD keeps\n"
-	.string "track of your battle record against\l"
-	.string "TRAINERS with the same CARD.\p"
-	.string "Look for and battle TRAINERS who\n"
-	.string "have the same CARD as you.\p"
-	.string "You may check the overall rankings\n"
-	.string "by reading the NEWS.\p"
-	.string "Please do give it a try!$"
-	.endif
-	.ifdef SPANISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Gracias por usar el sistema\n"
 	.string "del REGALO MISTERIOSO.\p"
 	.string "Tu TARJETA de RECUENTO de\n"
@@ -269,10 +252,28 @@ sText_MysteryGiftBattleCountCard:
 	.string "Cuando leas las NOTICIAS,\n"
 	.string "podrás ver las clasificaciones.\p"
 	.string "¡No te lo pierdas!$"
+	.else @LANGUAGE_ENGLISH
+	.string "Thank you for using the MYSTERY\n"
+	.string "GIFT System.\p"
+	.string "Your BATTLE COUNT CARD keeps\n"
+	.string "track of your battle record against\l"
+	.string "TRAINERS with the same CARD.\p"
+	.string "Look for and battle TRAINERS who\n"
+	.string "have the same CARD as you.\p"
+	.string "You may check the overall rankings\n"
+	.string "by reading the NEWS.\p"
+	.string "Please do give it a try!$"
 	.endif
 
 sText_MysteryGiftBattleCountCard_2:
-	.ifdef ENGLISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
+	.string "Gracias por usar el sistema\n"
+	.string "del REGALO MISTERIOSO.\p"
+	.string "¡Enhorabuena!\p"
+	.string "¡Has ganado un premio por vencer\n"
+	.string "a tu rival en tres combates!\p"
+	.string "¡Esperamos que sigas luchando!$"
+	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
 	.string "Congratulations!\p"
@@ -280,14 +281,6 @@ sText_MysteryGiftBattleCountCard_2:
 	.string "three battles!\p"
 	.string "We hope you will be inspired to\n"
 	.string "battle some more.$"
-	.endif
-	.ifdef SPANISH
-	.string "Gracias por usar el sistema\n"
-	.string "del REGALO MISTERIOSO.\p"
-	.string "¡Enhorabuena!\p"
-	.string "¡Has ganado un premio por vencer\n"
-	.string "a tu rival en tres combates!\p"
-	.string "¡Esperamos que sigas luchando!$"
 	.endif
 
 MysteryEventScript_AuroraTicket::
@@ -327,55 +320,51 @@ AuroraTicket_Obtained:
 	end
 
 sText_AuroraTicket1:
-	.ifdef ENGLISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
+	.string "Gracias por usar el sistema\n"
+	.string "del REGALO MISTERIOSO.\p"
+	.string "Debes de ser {PLAYER}, ¿no?\p"
+	.string "Pues tenemos un ticket para ti.$"
+	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
 	.string "You must be {PLAYER}.\n"
 	.string "There is a ticket here for you.$"
 	.endif
-	.ifdef SPANISH
-	.string "Gracias por usar el sistema\n"
-	.string "del REGALO MISTERIOSO.\p"
-	.string "Debes de ser {PLAYER}, ¿no?\p"
-	.string "Pues tenemos un ticket para ti.$"
-	.endif
 
 sText_AuroraTicket2:
-	.ifdef ENGLISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
+	.string "Parece que puedes usarlo en el\n"
+	.string "PUERTO de CIUDAD CARMÍN.\p"
+	.string "¿Por qué no curioseas un poco\n"
+	.string "para ver de qué se trata?$"
+	.else @LANGUAGE_ENGLISH
 	.string "It appears to be for use at the\n"
 	.string "VERMILION CITY port.\p"
 	.string "Why not give it a try and see what\n"
 	.string "it is about?$"
 	.endif
-	.ifdef SPANISH
-	.string "Parece que puedes usarlo en el\n"
-	.string "PUERTO de CIUDAD CARMÍN.\p"
-	.string "¿Por qué no curioseas un poco\n"
-	.string "para ver de qué se trata?$"
-	.endif
 
 sText_AuroraTicketGot:
-	.ifdef ENGLISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
+	.string "Gracias por usar el sistema\n"
+	.string "del REGALO MISTERIOSO.$"
+	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.$"
 	.endif
-	.ifdef SPANISH
-	.string "Gracias por usar el sistema\n"
-	.string "del REGALO MISTERIOSO.$"
-	.endif
 
 sText_AuroraTicketNoPlace:
-	.ifdef ENGLISH
-	.string "Oh, I'm sorry, {PLAYER}. Your BAG's\n"
-	.string "KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
-	.endif
-	.ifdef SPANISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Lo siento, {PLAYER}. El BOLSILLO de\n"
 	.string "los OBJETOS CLAVE, está lleno.\p"
 	.string "Guarda algo en el PC y vuelve más\n"
 	.string "tarde.$"
+	.else @LANGUAGE_ENGLISH
+	.string "Oh, I'm sorry, {PLAYER}. Your BAG's\n"
+	.string "KEY ITEMS POCKET is full.\p"
+	.string "Please store something on your PC,\n"
+	.string "then come back for this.$"
 	.endif
 
 MysteryEventScript_MysticTicket::
@@ -416,55 +405,51 @@ MysticTicket_Obtained:
 	end
 
 sText_MysticTicket2:
-	.ifdef ENGLISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
+	.string "Gracias por usar el sistema\n"
+	.string "del REGALO MISTERIOSO.\p"
+	.string "Debes de ser {PLAYER}, ¿no?\p"
+	.string "Pues tenemos un ticket para ti.$"
+	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
 	.string "You must be {PLAYER}.\n"
 	.string "There is a ticket here for you.$"
 	.endif
-	.ifdef SPANISH
-	.string "Gracias por usar el sistema\n"
-	.string "del REGALO MISTERIOSO.\p"
-	.string "Debes de ser {PLAYER}, ¿no?\p"
-	.string "Pues tenemos un ticket para ti.$"
-	.endif
 
 sText_MysticTicket1:
-	.ifdef ENGLISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
+	.string "Parece que puedes usarlo en el\n"
+	.string "PUERTO de CIUDAD CARMÍN.\p"
+	.string "¿Por qué no curioseas un poco\n"
+	.string "para ver de qué se trata?$"
+	.else @LANGUAGE_ENGLISH
 	.string "It appears to be for use at the\n"
 	.string "VERMILION CITY port.\p"
 	.string "Why not give it a try and see what\n"
 	.string "it is about?$"
 	.endif
-	.ifdef SPANISH
-	.string "Parece que puedes usarlo en el\n"
-	.string "PUERTO de CIUDAD CARMÍN.\p"
-	.string "¿Por qué no curioseas un poco\n"
-	.string "para ver de qué se trata?$"
-	.endif
 
 sText_MysticTicketGot:
-	.ifdef ENGLISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
+	.string "Gracias por usar el sistema\n"
+	.string "del REGALO MISTERIOSO.$"
+	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.$"
 	.endif
-	.ifdef SPANISH
-	.string "Gracias por usar el sistema\n"
-	.string "del REGALO MISTERIOSO.$"
-	.endif
 
 sText_MysticTicketNoPlace:
-	.ifdef ENGLISH
-	.string "Oh, I'm sorry, {PLAYER}. Your BAG's\n"
-	.string "KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
-	.endif
-	.ifdef SPANISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Lo siento, {PLAYER}. El BOLSILLO de\n"
 	.string "los OBJETOS CLAVE, está lleno.\p"
 	.string "Guarda algo en el PC y vuelve más\n"
 	.string "tarde.$"
+	.else @LANGUAGE_ENGLISH
+	.string "Oh, I'm sorry, {PLAYER}. Your BAG's\n"
+	.string "KEY ITEMS POCKET is full.\p"
+	.string "Please store something on your PC,\n"
+	.string "then come back for this.$"
 	.endif
 
 MysteryEventScript_AlteringCave::
@@ -482,17 +467,7 @@ MysteryEventScript_AlteringCave_:
 	end
 
 sText_MysteryGiftAlteringCave:
-	.ifdef ENGLISH
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Recently, there have been rumors\n"
-	.string "of rare POKéMON appearances.\p"
-	.string "The rumors are about ALTERING\n"
-	.string "CAVE on OUTCAST ISLAND.\p"
-	.string "Why not visit there and check if\n"
-	.string "the rumors are indeed true?$"
-	.endif
-	.ifdef SPANISH
+	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Gracias por usar el sistema\n"
 	.string "del REGALO MISTERIOSO.\p"
 	.string "Últimamente se ha comentado que\n"
@@ -501,4 +476,13 @@ sText_MysteryGiftAlteringCave:
 	.string "CAMBIANTE y por ISLA AISLADA.\p"
 	.string "¿Por qué no te pasas por allí\n"
 	.string "y ves si los rumores son ciertos?$"
+	.else @LANGUAGE_ENGLISH
+	.string "Thank you for using the MYSTERY\n"
+	.string "GIFT System.\p"
+	.string "Recently, there have been rumors\n"
+	.string "of rare POKéMON appearances.\p"
+	.string "The rumors are about ALTERING\n"
+	.string "CAVE on OUTCAST ISLAND.\p"
+	.string "Why not visit there and check if\n"
+	.string "the rumors are indeed true?$"
 	.endif
