@@ -299,7 +299,7 @@
 #define BRAILLE_CHAR_H               0x0D
 #define BRAILLE_CHAR_J               0x0E
 #define BRAILLE_CHAR_G               0x0F
-#define BRAILLE_CHAR_CURRENCY        0x10
+#define BRAILLE_CHAR_ASTERISK        0x10
 #define BRAILLE_CHAR_K               0x11
 #define BRAILLE_CHAR_SLASH           0x12
 #define BRAILLE_CHAR_M               0x13

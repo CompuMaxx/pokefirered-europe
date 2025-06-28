@@ -38,7 +38,7 @@ Braille_Text_WXYZ::
 	.braille "WXYZ$"
 
 Braille_Text_Period::
-	.braille "='$"
+	.braille "=*$"
 
 Braille_Text_Comma::
 	.braille "=,$"
