@@ -162,25 +162,25 @@ static const struct ListMenuTemplate sListMenuTemplate_UnionRoomGroups = {
     .cursorKind = 0
 };
 
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
+    #define WT_INVITE_TILEMAP_LEFT  18
+    #define WT_INVITE_WIDTH         10
+#else
+    #define WT_INVITE_TILEMAP_LEFT  20
+    #define WT_INVITE_WIDTH          8
+#endif
+
 static const struct WindowTemplate sWindowTemplate_InviteToActivity = {
     .bg = 0,
-#if ENGLISH
-    .tilemapLeft = 20,
+    .tilemapLeft = WT_INVITE_TILEMAP_LEFT,
     .tilemapTop = 6,
-    .width = 8,
-#elif SPANISH
-    .tilemapLeft = 18,
-    .tilemapTop = 6,
-    .width = 10,
-#elif ITALIAN
-    .tilemapLeft = 20,
-    .tilemapTop = 6,
-    .width = 8,
-#endif
+    .width = WT_INVITE_WIDTH,
     .height = 7,
     .paletteNum = 15,
     .baseBlock = 0x001
 };
+#undef WT_INVITE_TILEMAP_LEFT
+#undef WT_INVITE_WIDTH
 
 static const struct ListMenuItem sListMenuItems_InviteToActivity[] = {
     {gText_UR_Greetings, ACTIVITY_CARD | LINK_GROUP_CAPACITY(0, 2)},
