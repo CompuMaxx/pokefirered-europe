@@ -361,6 +361,7 @@ int AsmFile::ReadBraille(unsigned char* s)
         { '\'', BRAILLE_CHAR_APOSTROPHE },
         { '#', BRAILLE_CHAR_NUMBER },
         { '=', BRAILLE_CHAR_EQUAL },
+//      { '¥', BRAILLE_CHAR_CURRENCY },
         { '$', EOS },
     };
 
