@@ -1,142 +1,57 @@
 VictoryRoad_2F_Text_DawsonIntro::
-    .ifdef ENGLISH
-    .string "If you can get through here,\n"
-    .string "you can go meet the ELITE FOUR.$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Si puedes pasar por aquí, podrás\n"
-    .string "enfrentarte al ALTO MANDO!$"
-    .endif
+	.string "If you can get through here,\n"
+	.string "you can go meet the ELITE FOUR.$"
 
 VictoryRoad_2F_Text_DawsonDefeat::
-    .ifdef ENGLISH
-    .string "No!\n"
-    .string "Unbelievable!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡No!\n"
-    .string "¡Increíble!$"
-    .endif
+	.string "No!\n"
+	.string "Unbelievable!$"
 
 VictoryRoad_2F_Text_DawsonPostBattle::
-    .ifdef ENGLISH
-    .string "I can beat you when it comes to\n"
-    .string "knowledge about POKéMON!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Puedo vencerte en cuanto a\n"
-    .string "conocimientos sobre los POKéMON!$"
-    .endif
+	.string "I can beat you when it comes to\n"
+	.string "knowledge about POKéMON!$"
 
 VictoryRoad_2F_Text_DaisukeIntro::
-    .ifdef ENGLISH
-    .string "This here is VICTORY ROAD.\n"
-    .string "It's the final test for TRAINERS!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡La CALLE VICTORIA es la prueba\n"
-    .string "final de todo ENTRENADOR!$"
-    .endif
+	.string "This here is VICTORY ROAD.\n"
+	.string "It's the final test for TRAINERS!$"
 
 VictoryRoad_2F_Text_DaisukeDefeat::
-    .ifdef ENGLISH
-    .string "Atcho!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Ayyyy!$"
-    .endif
+	.string "Atcho!$"
 
 VictoryRoad_2F_Text_DaisukePostBattle::
-    .ifdef ENGLISH
-    .string "If you get stuck, try moving some\n"
-    .string "boulders around.$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Prueba a mover las rocas\n"
-    .string "si tienes el paso cortado!$"
-    .endif
+	.string "If you get stuck, try moving some\n"
+	.string "boulders around.$"
 
 VictoryRoad_2F_Text_NelsonIntro::
-    .ifdef ENGLISH
-    .string "Ah, so you wish to challenge the\n"
-    .string "ELITE FOUR?$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Ah!\n"
-    .string "¿Quieres desafiar al ALTO MANDO?$"
-    .endif
+	.string "Ah, so you wish to challenge the\n"
+	.string "ELITE FOUR?$"
 
 VictoryRoad_2F_Text_NelsonDefeat::
-    .ifdef ENGLISH
-    .string "You got me!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Me has ganado!$"
-    .endif
+	.string "You got me!$"
 
 VictoryRoad_2F_Text_NelsonPostBattle::
-    .ifdef ENGLISH
-    .string "{RIVAL} also came through here.$"
-    .endif
-    .ifdef SPANISH
-    .string "¡{RIVAL} también vino por aquí!$"
-    .endif
+	.string "{RIVAL} also came through here.$"
 
 VictoryRoad_2F_Text_VincentIntro::
-    .ifdef ENGLISH
-    .string "Come on!\n"
-    .string "I'll whip you!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Adelante!\n"
-    .string "¡Te daré una paliza!$"
-    .endif
+	.string "Come on!\n"
+	.string "I'll whip you!$"
 
 VictoryRoad_2F_Text_VincentDefeat::
-    .ifdef ENGLISH
-    .string "I got whipped!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Me has machacado!$"
-    .endif
+	.string "I got whipped!$"
 
 VictoryRoad_2F_Text_VincentPostBattle::
-    .ifdef ENGLISH
-    .string "You earned the right to be on\n"
-    .string "VICTORY ROAD…$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Ahora puedes recorrer la CALLE\n"
-    .string "VICTORIA!$"
-    .endif
+	.string "You earned the right to be on\n"
+	.string "VICTORY ROAD…$"
 
 VictoryRoad_2F_Text_GregoryIntro::
-    .ifdef ENGLISH
-    .string "Is VICTORY ROAD too tough?$"
-    .endif
-    .ifdef SPANISH
-    .string "¿Es muy dura la CALLE VICTORIA?$"
-    .endif
+	.string "Is VICTORY ROAD too tough?$"
 
 VictoryRoad_2F_Text_GregoryDefeat::
-    .ifdef ENGLISH
-    .string "Well done!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Bien hecho!$"
-    .endif
+	.string "Well done!$"
 
 VictoryRoad_2F_Text_GregoryPostBattle::
-    .ifdef ENGLISH
-    .string "Many TRAINERS give up their\n"
-    .string "challenge here and go home.$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Muchos de los ENTRENADORES\n"
-    .string "se rinden aquí!$"
-    .endif
+	.string "Many TRAINERS give up their\n"
+	.string "challenge here and go home.$"
 
 @ Unused, old text for Moltres
 VictoryRoad_2F_Text_Gyaoo::
-    .string "ギヤーオ！$"
-
+	.string "ギヤーオ！$"

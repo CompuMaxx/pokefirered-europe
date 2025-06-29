@@ -1,135 +1,52 @@
 RocketHideout_B1F_Text_Grunt1Intro::
-    .ifdef ENGLISH
-    .string "Who are you?\n"
-    .string "How did you get here?$"
-    .endif
-    .ifdef SPANISH
-    .string "¿Quién eres tú?\n"
-    .string "¿Y cómo has llegado aquí?$"
-    .endif
+	.string "Who are you?\n"
+	.string "How did you get here?$"
 
 RocketHideout_B1F_Text_Grunt1Defeat::
-    .ifdef ENGLISH
-    .string "Oww!\n"
-    .string "Beaten!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Auuu!\n"
-    .string "¡He perdido!$"
-    .endif
+	.string "Oww!\n"
+	.string "Beaten!$"
 
 RocketHideout_B1F_Text_Grunt1PostBattle::
-    .ifdef ENGLISH
-    .string "Blast it… You're dissing TEAM\n"
-    .string "ROCKET, aren't you?$"
-    .endif
-    .ifdef SPANISH
-    .string "¿Vas a luchar contra el TEAM\n"
-    .string "ROCKET?$"
-    .endif
+	.string "Blast it… You're dissing TEAM\n"
+	.string "ROCKET, aren't you?$"
 
 RocketHideout_B1F_Text_Grunt2Intro::
-    .ifdef ENGLISH
-    .string "You broke into TEAM ROCKET's\n"
-    .string "operation? What nerve!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Has destrozado nuestros planes!$"
-    .endif
+	.string "You broke into TEAM ROCKET's\n"
+	.string "operation? What nerve!$"
 
 RocketHideout_B1F_Text_Grunt2Defeat::
-    .ifdef ENGLISH
-    .string "Boom!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Chamuscado!$"
-    .endif
+	.string "Boom!$"
 
 RocketHideout_B1F_Text_Grunt2PostBattle::
-    .ifdef ENGLISH
-    .string "You're not going to get away with\n"
-    .string "this, brat!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡No te vas a salir con la tuya,\n"
-    .string "impresentable!$"
-    .endif
+	.string "You're not going to get away with\n"
+	.string "this, brat!$"
 
 RocketHideout_B1F_Text_Grunt3Intro::
-    .ifdef ENGLISH
-    .string "Intruder alert!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Alerta! ¡Nos invaden!$"
-    .endif
+	.string "Intruder alert!$"
 
 RocketHideout_B1F_Text_Grunt3Defeat::
-    .ifdef ENGLISH
-    .string "I can't do it!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡¡¡No lo he conseguido!!!$"
-    .endif
+	.string "I can't do it!$"
 
 RocketHideout_B1F_Text_Grunt3PostBattle::
-    .ifdef ENGLISH
-    .string "SILPH SCOPE? Humph!\n"
-    .string "I don't know where it is.$"
-    .endif
-    .ifdef SPANISH
-    .string "¿El SCOPE SILPH?\n"
-    .string "¡No sé dónde está!$"
-    .endif
+	.string "SILPH SCOPE? Humph!\n"
+	.string "I don't know where it is.$"
 
 RocketHideout_B1F_Text_Grunt4Intro::
-    .ifdef ENGLISH
-    .string "Why did you come here?$"
-    .endif
-    .ifdef SPANISH
-    .string "¿Por qué has venido aquí?$"
-    .endif
+	.string "Why did you come here?$"
 
 RocketHideout_B1F_Text_Grunt4Defeat::
-    .ifdef ENGLISH
-    .string "This won't do!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Esto no funcionará!$"
-    .endif
+	.string "This won't do!$"
 
 RocketHideout_B1F_Text_Grunt4PostBattle::
-    .ifdef ENGLISH
-    .string "Okay, I'll talk…\n"
-    .string "Take the elevator to see my BOSS.$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Vale, hablaré! ¡Toma el ascensor\n"
-    .string "para ver a mi JEFE!$"
-    .endif
+	.string "Okay, I'll talk…\n"
+	.string "Take the elevator to see my BOSS.$"
 
 RocketHideout_B1F_Text_Grunt5Intro::
-    .ifdef ENGLISH
-    .string "Are you lost, you little mouse?$"
-    .endif
-    .ifdef SPANISH
-    .string "¿Te has perdido? Pobre...$"
-    .endif
+	.string "Are you lost, you little mouse?$"
 
 RocketHideout_B1F_Text_Grunt5Defeat::
-    .ifdef ENGLISH
-    .string "Why…?$"
-    .endif
-    .ifdef SPANISH
-    .string "¿Por qué...?$"
-    .endif
+	.string "Why…?$"
 
 RocketHideout_B1F_Text_Grunt5PostBattle::
-    .ifdef ENGLISH
-    .string "Uh-oh, that ruckus somehow opened\n"
-    .string "the door!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Con tanto lío se ha abierto\n"
-    .string "la puerta!$"
-    .endif
-
+	.string "Uh-oh, that ruckus somehow opened\n"
+	.string "the door!$"

@@ -2,31 +2,24 @@
 @ Theres also an unused JP version of that text in this file instead
 
 JPText_BodySlamTeach::
-    .string "そーれ　ぼよーん！\n"
-    .string "どっちが　さきに　へたばるか？\l"
-    .string "のしかかり　しょうぶ　してるんだ\p"
-    .string "きみは　なかまに　はいったら\n"
-    .string "つぶれそうだな‥\l"
-    .string "かわりに　きみの　ポケモンに\l"
-    .string "のしかかり　おしえて　やろっか？$"
+	.string "そーれ　ぼよーん！\n"
+	.string "どっちが　さきに　へたばるか？\l"
+	.string "のしかかり　しょうぶ　してるんだ\p"
+	.string "きみは　なかまに　はいったら\n"
+	.string "つぶれそうだな‥\l"
+	.string "かわりに　きみの　ポケモンに\l"
+	.string "のしかかり　おしえて　やろっか？$"
 
 JPText_BodySlamDeclined::
-    .string "また　おいで　ぼよーん！$"
+	.string "また　おいで　ぼよーん！$"
 
 JPText_BodySlamWhichMon::
-    .string "どの　ポケモンに\n"
-    .string "おしえたい　かい？$"
+	.string "どの　ポケモンに\n"
+	.string "おしえたい　かい？$"
 
 JPText_BodySlamTaught::
-    .string "ぼよよーん！$"
+	.string "ぼよよーん！$"
 
 FourIsland_House1_Text_YoureAwfullyHeavy::
-    .ifdef ENGLISH
-    .string "There! Boing!\n"
-    .string "You're awfully heavy!$"
-    .endif
-    .ifdef SPANISH
-    .string "¡Hala, qué golpe!\n"
-    .string "¡Qué fuerza tienes!$"
-    .endif
-
+	.string "There! Boing!\n"
+	.string "You're awfully heavy!$"
