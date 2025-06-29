@@ -1,0 +1,37 @@
+SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland::
+    .string "Sono dieci anni che cerco fra\n"
+    .string "le ROVINE.\p"
+    .string "No, cosa sto dicendo? Ormai sono\n"
+    .string "vent'anni!\p"
+    .string "Continuo a credere che quest'isola\n"
+    .string "nasconda qualcosa!$"
+
+SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem::
+    .string "Sai che ci sono POKéMON che si\n"
+    .string "evolvono solo con lo scambio,\l"
+    .string "vero?\p"
+    .string "Tra questi, ce ne sono alcuni che\n"
+    .string "si evolvono solo se, durante lo\l"
+    .string "scambio, tengono certi strumenti.$"
+
+SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere::
+    .string "{RIVAL}: Ciao, {PLAYER}!\n"
+    .string "Come va con il POKéDEX?\p"
+    .string "Ho l'impressione che ci siano\n"
+    .string "POKéMON impossibili da catturare,\l"
+    .string "se si resta da queste parti.\p"
+    .string "Forse, da qualche parte lontano da\n"
+    .string "qui, ci sono POKéMON che non\l"
+    .string "conosciamo…\p"
+    .string "… … …  … … …  … …\p"
+    .string "Beh, se è così, non riuscirò mai\n"
+    .string "a completare il lavoro su queste\l"
+    .string "isole.\p"
+    .string "Beh, pazienza.\p"
+    .string "Continuerò a catturare e ad\n"
+    .string "allenare i POKéMON come\l"
+    .string "sempre, poi vedremo.\p"
+    .string "A questo punto, tanto vale che\n"
+    .string "ritorni a casa.\p"
+    .string "Ci becchiamo in giro!$"
+

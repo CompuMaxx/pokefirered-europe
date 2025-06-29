@@ -1,0 +1,16 @@
+PokemonLeague_HallOfFame_Text_OakCongratulations::
+    .string "OAK: Ehm ehm!\n"
+    .string "Congratulazioni, {PLAYER}!\p"
+    .string "Questa è la SALA d'ONORE POKéMON!\p"
+    .string "I CAMPIONI della LEGA POKéMON\n"
+    .string "sono onorati in questa sala per le\l"
+    .string "loro imprese!\p"
+    .string "Anche i loro POKéMON vengono\n"
+    .string "consacrati in questa SALA d'ONORE.\p"
+    .string "{PLAYER}!\p"
+    .string "Hai lavorato sodo per diventare il\n"
+    .string "nuovo CAMPIONE della LEGA!\p"
+    .string "Congratulazioni, {PLAYER}!\n"
+    .string "Tu e i tuoi POKéMON siete\l"
+    .string "famosi ora!$"
+
