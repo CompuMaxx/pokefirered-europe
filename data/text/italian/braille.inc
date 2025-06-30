@@ -41,7 +41,7 @@ Braille_Text_Period::
 	.braille ".$"
 
 Braille_Text_Comma::
-	.braille "'"
+	.braille "'$"
 
 Braille_Text_Everything::
 	.braille "TUTTO$"

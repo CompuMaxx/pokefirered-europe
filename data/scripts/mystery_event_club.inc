@@ -109,35 +109,18 @@ EventScript_GiveProfile:
 	end
 
 Text_IdLoveToHearYourProfile:
-	.ifdef ENGLISH
 	.string "Hi, glad to meet you!\p"
 	.string "…That's unfriendly of you.\n"
 	.string "How about saying hi back?\p"
 	.string "So, come on, tell me about\n"
 	.string "yourself.\p"
 	.string "I'd love to hear your profile!$"
-	.endif
-	.ifdef SPANISH
-	.string "Hola, me alegro de verte.\p"
-	.string "Eh, he dicho hola...\n"
-	.string "Qué borde... ya podrías\l"
-	.string "contestar.\p"
-	.string "Venga, cuéntame algo, anda.\p"
-	.string "¡Dime al menos cuál es tu perfil!$"
-	.endif
 
 Text_TellMeWhatsYourProfile:
-	.ifdef ENGLISH
 	.string "Tell me something good about\n"
 	.string "yourself. What's your profile?$"
-	.endif
-	.ifdef SPANISH
-	.string "Cuéntame alguna cosa sobre ti.\n"
-	.string "Dime cuál es tu perfil.$"
-	.endif
 
 Text_ExplainProfile:
-	.ifdef ENGLISH
 	.string "A profile is written using four\n"
 	.string "words or phrases.\p"
 	.string "There're plenty of words to choose\n"
@@ -148,119 +131,47 @@ Text_ExplainProfile:
 	.string "a word or phrase.\p"
 	.string "…It's easier than it sounds.\n"
 	.string "Why don't you try it?$"
-	.endif
-	.ifdef SPANISH
-	.string "El perfil puede hacerse con\n"
-	.string "palabras o frases.\p"
-	.string "Hay muchas palabras y frases\n"
-	.string "para elegir, y están divididas\l"
-	.string "por grupos.\p"
-	.string "Selecciona primero un grupo\n"
-	.string "y después el elemento que quieras.\p"
-	.string "Es mucho más fácil de lo que\n"
-	.string "parece. Inténtalo, anda.$"
-	.endif
 
 Text_WhatsYourProfile:
-	.ifdef ENGLISH
 	.string "What's your profile?$"
-	.endif
-	.ifdef SPANISH
-	.string "¿Cuál es tu perfil?$"
-	.endif
 
 Text_DontBeLikeThat:
-	.ifdef ENGLISH
 	.string "Aww… Don't be like that.\n"
 	.string "You can tell me your profile.$"
-	.endif
-	.ifdef SPANISH
-	.string "Venga, anda, enséñame tu perfil...$"
-	.endif
 
 Text_DecidedNotTo:
-	.ifdef ENGLISH
 	.string "Oh, you've decided not to?\n"
 	.string "You're fickle, aren't you?$"
-	.endif
-	.ifdef SPANISH
-	.string "Ah, ¿y no lo cambias?\n"
-	.string "¡Pues hay que ver cómo eres!$"
-	.endif
 
 Text_HiWeMeetAgain:
-	.ifdef ENGLISH
 	.string "Hi!\n"
 	.string "We meet again!$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Hola otra vez!$"
-	.endif
 
 Text_ChangeYourProfile:
-	.ifdef ENGLISH
 	.string "Would you like to change your\n"
 	.string "profile?$"
-	.endif
-	.ifdef SPANISH
-	.string "¿Quieres cambiar tu perfil?$"
-	.endif
 
 Text_WhatAreYouLikeNow:
-	.ifdef ENGLISH
 	.string "What are you like now?\n"
 	.string "I'd really like to know.$"
-	.endif
-	.ifdef SPANISH
-	.string "Me gustaría saber cuál tienes\n"
-	.string "ahora.$"
-	.endif
 
 Text_LikeProfileWayItIs:
-	.ifdef ENGLISH
 	.string "Okay, you like your profile the\n"
 	.string "way it is.\p"
 	.string "I think so, too.$"
-	.endif
-	.ifdef SPANISH
-	.string "Vale, pues déjalo como está.\p"
-	.string "A mí también me gusta.$"
-	.endif
 
 Text_ProfileSaysSomethingAboutYou:
-	.ifdef ENGLISH
 	.string "Hmhm…\p"
 	.string "Your profile really says something\n"
 	.string "about who you are.\p"
 	.string "Now that I know you better, it \n"
 	.string "makes us better friends than ever!$"
-	.endif
-	.ifdef SPANISH
-	.string "Mmmm...\p"
-	.string "La verdad es que te pega, da idea\n"
-	.string "de cómo eres.\p"
-	.string "¡Ahora nos conocemos mejor!\n"
-	.string "¡Vamos a llevarnos bien siempre!$"
-	.endif
 
 Text_HeardThatBefore:
-	.ifdef ENGLISH
 	.string "Oh, I've heard that before…\p"
 	.string "My cousin, who lives far away,\n"
 	.string "always used to say that, I think.$"
-	.endif
-	.ifdef SPANISH
-	.string "Eso ya lo he oído antes...\p"
-	.string "Mi primo, que vive lejos de aquí,\n"
-	.string "lo decía con frecuencia, creo.$"
-	.endif
 
 Text_TellMoreNextTime:
-	.ifdef ENGLISH
 	.string "Please tell me more about\n"
 	.string "yourself next time!$"
-	.endif
-	.ifdef SPANISH
-	.string "¡A ver si la próxima vez\n"
-	.string "me cuentas más sobre ti!$"
-	.endif

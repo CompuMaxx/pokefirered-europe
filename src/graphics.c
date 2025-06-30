@@ -619,7 +619,11 @@ const u32 gBattleAnimSpritePal_Eye[] = INCBIN_U32("graphics/battle_anims/sprites
 const u32 gBattleAnimSpriteGfx_Tendrils[] = INCBIN_U32("graphics/battle_anims/sprites/tendrils.4bpp.lz");
 const u32 gBattleAnimSpritePal_Tendrils[] = INCBIN_U32("graphics/battle_anims/sprites/tendrils.gbapal.lz");
 
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+const u32 gHealthboxSinglesPlayerGfx[] = INCBIN_U32("graphics/battle_interface/healthbox_singles_player_it.4bpp.lz");
+#else //LANGUAGE_ENGLISH || LANGUAGE_SPANISH
 const u32 gHealthboxSinglesPlayerGfx[] = INCBIN_U32("graphics/battle_interface/healthbox_singles_player.4bpp.lz");
+#endif
 const u32 gHealthboxSinglesOpponentGfx[] = INCBIN_U32("graphics/battle_interface/healthbox_singles_opponent.4bpp.lz");
 const u32 gHealthboxDoublesPlayerGfx[] = INCBIN_U32( "graphics/battle_interface/healthbox_doubles_player.4bpp.lz");
 const u32 gHealthboxDoublesOpponentGfx[] = INCBIN_U32("graphics/battle_interface/healthbox_doubles_opponent.4bpp.lz");
@@ -1275,11 +1279,15 @@ const u32 gSummaryScreen_Bg_Gfx[] = INCBIN_U32("graphics/summary_screen/bg.4bpp.
 #endif //GAME_LANGUAGE
 const u32 gSummaryScreen_Bg_Pal[] = INCBIN_U32("graphics/summary_screen/bg.gbapal");
 
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+const u32 gSummaryScreen_ExpBar_Gfx[] = INCBIN_U32("graphics/summary_screen/exp_bar_it.4bpp.lz");
+#else //LANGUAGE_ENGLISH || LANGUAGE_SPANISH
 const u32 gSummaryScreen_ExpBar_Gfx[] = INCBIN_U32("graphics/summary_screen/exp_bar.4bpp.lz");
+#endif //GAME_LANGUAGE
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
 const u32 gSummaryScreen_HpBar_Gfx[] = INCBIN_U32("graphics/summary_screen/hp_bar_es.4bpp.lz");
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-const u32 gSummaryScreen_HpBar_Gfx[] = INCBIN_U32("graphics/summary_screen/hp_bar.4bpp.lz");
+const u32 gSummaryScreen_HpBar_Gfx[] = INCBIN_U32("graphics/summary_screen/hp_bar_it.4bpp.lz");
 #else
 const u32 gSummaryScreen_HpBar_Gfx[] = INCBIN_U32("graphics/summary_screen/hp_bar.4bpp.lz");
 #endif //GAME_LANGUAGE
@@ -1353,12 +1361,16 @@ const u16 gFameCheckerBgPals[][16] = INCBIN_U16("graphics/fame_checker/bg.gbapal
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
 const u16 gFameCheckerBgTiles[] = INCBIN_U16("graphics/fame_checker/bg_es.4bpp");
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-const u16 gFameCheckerBgTiles[] = INCBIN_U16("graphics/fame_checker/bg.4bpp");
+const u16 gFameCheckerBgTiles[] = INCBIN_U16("graphics/fame_checker/bg_it.4bpp");
 #else
 const u16 gFameCheckerBgTiles[] = INCBIN_U16("graphics/fame_checker/bg.4bpp");
 #endif //GAME_LANGUAGE
 const u16 gFameCheckerBg3Tilemap[] = INCBIN_U16("graphics/fame_checker/tilemap3.bin");
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+const u16 gFameCheckerBg2Tilemap[] = INCBIN_U16("graphics/fame_checker/tilemap2_it.bin");
+#else //LANGUAGE_ENGLISH || LANGUAGE_SPANISH
 const u16 gFameCheckerBg2Tilemap[] = INCBIN_U16("graphics/fame_checker/tilemap2.bin");
+#endif //GAME_LANGUAGE
 
 const u16 gUnionRoomChat_Bg_Pal[] = INCBIN_U16("graphics/union_room_chat/bg.gbapal");
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -1583,9 +1595,9 @@ const u32 gBerryCrush_Crusher_Gfx[] = INCBIN_U32("graphics/berry_crush/crusher.4
 const u32 gBerryCrush_TextWindows_Tilemap[] = INCBIN_U32("graphics/berry_crush/text_windows.bin.lz");
 
 #if GAME_LANGUAGE == LANGUAGE_SPANISH //static .rodata to global gfx_data
-const u32 sHoennTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front_es.bin");
-const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front_link_es.bin");
-const u32 sKantoTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back_es.bin");
+const u32 sHoennTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front_es.bin.lz");
+const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front_link_es.bin.lz");
+const u32 sKantoTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back_es.bin.lz");
 
 const u16 sTheEnd_Pal[] = INCBIN_U16("graphics/credits/the_end_es.gbapal");
 const u8 sTheEnd_Tiles[] = INCBIN_U8("graphics/credits/the_end_es.4bpp.lz");
@@ -1618,9 +1630,9 @@ const u32 sCategoryMonInfoBgTiles[] = INCBIN_U32("graphics/pokedex/mini_page_es.
 #endif //LANGUAGE_SPANISH
 
 #if GAME_LANGUAGE == LANGUAGE_ITALIAN //static .rodata to global gfx_data
-const u32 sHoennTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front.bin");
-const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front_link.bin");
-const u32 sKantoTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back_it.bin");
+const u32 sHoennTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front.bin.lz");
+const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front_link.bin.lz");
+const u32 sKantoTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back_it.bin.lz");
 
 const u16 sTheEnd_Pal[] = INCBIN_U16("graphics/credits/the_end_it.gbapal");
 const u8 sTheEnd_Tiles[] = INCBIN_U8("graphics/credits/the_end_it.4bpp.lz");

@@ -1292,125 +1292,56 @@ TwoIsland_JoyfulGameCorner_EventScript_ShowDodrioBerryPickingRecords::
 	end
 
 CableClub_Text_WelcomeWhichCableClubService::
-	.ifdef ENGLISH
 	.string "Welcome to the POKéMON CABLE\n"
 	.string "CLUB.\p"
 	.string "Which of our services do you wish\n"
 	.string "to use?$"
-	.endif
-	.ifdef SPANISH
-	.string "Éste es el CLUB del CABLE\n"
-	.string "POKéMON.\p"
-	.string "¿Qué podemos hacer por ti?$"
-	.endif
 
 CableClub_Text_WhichService::
-	.ifdef ENGLISH
 	.string "Which of our services do you wish\n"
 	.string "to use?$"
-	.endif
-	.ifdef SPANISH
-	.string "¿Qué podemos hacer por ti?$"
-	.endif
 
 CableClub_Text_TradeMonsUsingLinkCable::
-	.ifdef ENGLISH
 	.string "Trade POKéMON with another player\n"
 	.string "using a GBA Game Link cable.$"
-	.endif
-	.ifdef SPANISH
-	.string "Intercambiar PKMN con otro jugador\n"
-	.string "usando el cable Game Link de GBA.$"
-	.endif
 
 CableClub_Text_BattleUsingLinkCable::
-	.ifdef ENGLISH
 	.string "You may battle another TRAINER\n"
 	.string "using a GBA Game Link cable.$"
-	.endif
-	.ifdef SPANISH
-	.string "Usando el cable Game Link de GBA,\n"
-	.string "podrás luchar contra alguien.$"
-	.endif
 
 @ Unused, translated in Emerald
 CableClub_Text_CloseThisMenu::
 	.string "おわります$"
 
 CableClub_Text_NeedTwoMonsForDoubleBattle::
-	.ifdef ENGLISH
 	.string "For a DOUBLE BATTLE, you must\n"
 	.string "have at least two POKéMON.$"
-	.endif
-	.ifdef SPANISH
-	.string "Para un COMBATE DOBLE, necesitas\n"
-	.string "tener al menos dos POKéMON.$"
-	.endif
 
 CableClub_Text_NeedTwoMonsToTrade::
-	.ifdef ENGLISH
 	.string "For trading, you must have at\n"
 	.string "least two POKéMON with you.$"
-	.endif
-	.ifdef SPANISH
-	.string "Para intercambiar POKéMON,\n"
-	.string "necesitas tener al menos dos.$"
-	.endif
 
 CableClub_Text_CantTradeEnigmaBerry::
-	.ifdef ENGLISH
 	.string "A POKéMON holding the {STR_VAR_1}\n"
 	.string "BERRY can't be traded.$"
-	.endif
-	.ifdef SPANISH
-	.string "Los POKéMON que tengan BAYAS\n"
-	.string "{STR_VAR_1} no se pueden intercambiar.$"
-	.endif
 
 CableClub_Text_PleaseWaitBCancel::
-	.ifdef ENGLISH
 	.string "Please wait.\n"
 	.string "… … B Button: Cancel$"
-	.endif
-	.ifdef SPANISH
-	.string "Espera unos instantes.\n"
-	.string "Pulsa el Botón B para cancelar.$"
-	.endif
 
 CableClub_Text_WhenAllPlayersReadyAConfirmBCancel::
-	.ifdef ENGLISH
 	.string "When all players are ready…\n"
 	.string "A Button: Confirm\l"
 	.string "B Button: Cancel$"
-	.endif
-	.ifdef SPANISH
-	.string "Cuando todos estén listos...\n"
-	.string "Botón A: confirmar\l"
-	.string "Botón B: cancelar$"
-	.endif
 
 CableClub_Text_StartLinkWithXPlayersAConfirmBCancel::
-	.ifdef ENGLISH
 	.string "Start link with {STR_VAR_1} players.\n"
 	.string "A Button: Confirm\l"
 	.string "B Button: Cancel$"
-	.endif
-	.ifdef SPANISH
-	.string "Comenzar la conexión con los\n"
-	.string "siguientes jugadores: {STR_VAR_1}...\l"
-	.string "Botón A: confirmar\l"
-	.string "Botón B: cancelar$"
-	.endif
 
 CableClub_Text_AwaitingLinkupBCancel::
-	.ifdef ENGLISH
 	.string "Awaiting linkup…\n"
 	.string "… … B Button: Cancel$"
-	.endif
-	.ifdef SPANISH
-	.string "Esperando conexión...\n"
-	.string "Botón B: cancelar$"
-	.endif
 
 @ Unused, translated in Emerald
 CableClub_Text_OkayToSaveProgress::
@@ -1418,258 +1349,108 @@ CableClub_Text_OkayToSaveProgress::
 	.string "かきますが　よろしいですか？$"
 
 CableClub_Text_PleaseEnter::
-	.ifdef ENGLISH
 	.string "Please enter.$"
-	.endif
-	.ifdef SPANISH
-	.string "Adelante.$"
-	.endif
 
 CableClub_Text_DirectYouToYourRoom::
-	.ifdef ENGLISH
 	.string "I'll direct you to your room now.$"
-	.endif
-	.ifdef SPANISH
-	.string "Te voy a llevar a tu sala.$"
-	.endif
 
 CableClub_Text_SomeoneIsNotReadyToLink::
-	.ifdef ENGLISH
 	.string "Someone is not ready to link.\p"
 	.string "Please come back after everyone\n"
 	.string "has made preparations.$"
-	.endif
-	.ifdef SPANISH
-	.string "Uno de los jugadores no está listo\n"
-	.string "para realizar la conexión.\p"
-	.string "Vuelve cuando todos estéis listos.$"
-	.endif
 
 CableClub_Text_LinkErrorPleaseReset::
-	.ifdef ENGLISH
 	.string "Sorry, we have a link error…\n"
 	.string "Please reset and try again.$"
-	.endif
-	.ifdef SPANISH
-	.string "Error de conexión... Comprueba el\n"
-	.string "cable Game Link, apaga la consola\l"
-	.string "(OFF) y vuelve a encenderla (ON).$"
-	.endif
 
 CableClub_Text_PlayersMadeDifferentSelections::
-	.ifdef ENGLISH
 	.string "The link partners appear to have\n"
 	.string "made different selections.$"
-	.endif
-	.ifdef SPANISH
-	.string "Los demás jugadores parecen haber\n"
-	.string "seleccionado opciones diferentes.$"
-	.endif
 
 CableClub_Text_PleaseVisitAgain::
-	.ifdef ENGLISH
 	.string "Please do visit again.$"
-	.endif
-	.ifdef SPANISH
-	.string "Vuelve cuando quieras.$"
-	.endif
 
 CableClub_Text_IncorrectNumberOfParticipants::
-	.ifdef ENGLISH
 	.string "The number of participants is\n"
 	.string "incorrect.$"
-	.endif
-	.ifdef SPANISH
-	.string "El número de jugadores no es\n"
-	.string "correcto.$"
-	.endif
 
 CableClub_Text_CantSingleBattleWithXPlayers::
-	.ifdef ENGLISH
 	.string "The SINGLE BATTLE Mode can't be\n"
 	.string "played by {STR_VAR_1} players.$"
-	.endif
-	.ifdef SPANISH
-	.string "No se puede jugar al modo de\n"
-	.string "combate INDIVIDUAL con {STR_VAR_1}\l"
-	.string "jugadores.$"
-	.endif
 
 CableClub_Text_CantDoubleBattleWithXPlayers::
-	.ifdef ENGLISH
 	.string "The DOUBLE BATTLE Mode can't be\n"
 	.string "played by {STR_VAR_1} players.$"
-	.endif
-	.ifdef SPANISH
-	.string "No se puede jugar al modo de\n"
-	.string "combate DOBLE con {STR_VAR_1} jugadores.$"
-	.endif
 
 CableClub_Text_NeedFourPlayers::
-	.ifdef ENGLISH
 	.string "There must be four players to play\n"
 	.string "this Battle Mode.$"
-	.endif
-	.ifdef SPANISH
-	.string "Se necesitan cuatro jugadores para\n"
-	.string "jugar a este modo de combate.$"
-	.endif
 
 CableClub_Text_PleaseConfirmNumberAndRestart::
-	.ifdef ENGLISH
 	.string "Please confirm the number of\n"
 	.string "players and start again.$"
-	.endif
-	.ifdef SPANISH
-	.string "Confirma el número de jugadores\n"
-	.string "y vuelve a empezar.$"
-	.endif
 
 Text_TerminateLinkIfYouLeaveRoom::
-	.ifdef ENGLISH
 	.string "The link will be terminated if you\n"
 	.string "leave the room. Is that okay?$"
-	.endif
-	.ifdef SPANISH
-	.string "Si sales de la sala, se pondrá fin\n"
-	.string "a la conexión. ¿Estás de acuerdo?$"
-	.endif
 
 Text_TerminateLinkConfirmation::
-	.ifdef ENGLISH
 	.string "Terminating link…\n"
 	.string "You will be escorted out of\l"
 	.string "the room. Please wait.$"
-	.endif
-	.ifdef SPANISH
-	.string "Finalizando conexión... \n"
-	.string "Te acompañamos fuera de la sala.\l"
-	.string "Espera un momento.$"
-	.endif
 
 Text_TrainerTooBusyToNotice::
-	.ifdef ENGLISH
 	.string "This TRAINER is too busy to\n"
 	.string "notice…$"
-	.endif
-	.ifdef SPANISH
-	.string "Este ENTRENADOR no te hace\n"
-	.string "ni caso...$"
-	.endif
 
 Text_LookedAtPlayersTrainerCard::
-	.ifdef ENGLISH
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
 	.string "TRAINER CARD!$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Bingo! ¡Puedes mirar la FICHA\n"
-	.string "de ENTRENADOR de {STR_VAR_1}!$"
-	.endif
 
 Text_LookedAtPlayersTrainerCardColored::
-	.ifdef ENGLISH
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
 	.string "TRAINER CARD!\p"
 	.string "It's a {STR_VAR_2} card!$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Bingo! ¡Puedes mirar la FICHA\n"
-	.string "de ENTRENADOR de {STR_VAR_1}!\p"
-	.string "¡Es de color {STR_VAR_2}!$"
-	.endif
 
 Text_TakeSeatStartBattle::
-	.ifdef ENGLISH
 	.string "Please take your seat and start\n"
 	.string "your battle.$"
-	.endif
-	.ifdef SPANISH
-	.string "Puedes comenzar el combate.$"
-	.endif
 
 Text_TakeSeatStartTrade::
-	.ifdef ENGLISH
 	.string "Please take your seat and start\n"
 	.string "your trade.$"
-	.endif
-	.ifdef SPANISH
-	.string "Puedes comenzar el intercambio.$"
-	.endif
 
 @ Unused, leftover from RS
 RecordCorner_Text_ThanksForComing::
 	.string "ごりよう　ありがとう　ございました$"
 
 CableClub_Text_TrainerCardDataOverwritten::
-	.ifdef ENGLISH
 	.string "The TRAINER CARD data will\n"
 	.string "be overwritten.$"
-	.endif
-	.ifdef SPANISH
-	.string "Se van a sobrescribir los datos\n"
-	.string "de la FICHA de ENTRENADOR.$"
-	.endif
 
 CableClub_Text_HopeToSeeYouAgain::
-	.ifdef ENGLISH
 	.string "I hope to see you again!$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Vuelve cuando quieras!$"
-	.endif
 
 CableClub_Text_NotSetUpForFarAwayRegion::
-	.ifdef ENGLISH
 	.string "I'm awfully sorry.\p"
 	.string "We're not set up to conduct trades\n"
 	.string "with TRAINERS far away in another\l"
 	.string "region yet…$"
-	.endif
-	.ifdef SPANISH
-	.string "Lo siento mucho.\p"
-	.string "Aún no podemos realizar\n"
-	.string "intercambios con ENTRENADORES\l"
-	.string "de otra región...$"
-	.endif
 
 CableClub_Text_OtherTrainerNotReady::
-	.ifdef ENGLISH
 	.string "The other TRAINER is not ready.$"
-	.endif
-	.ifdef SPANISH
-	.string "El otro ENTRENADOR no está listo.$"
-	.endif
 
 CableClub_Text_YouHaveAMonThatCantBeTaken::
-	.ifdef ENGLISH
 	.string "You have at least one POKéMON\n"
 	.string "that can't be taken.$"
-	.endif
-	.ifdef SPANISH
-	.string "Tienes al menos un POKéMON\n"
-	.string "que no se puede enviar.$"
-	.endif
 
 CableClub_Text_AdapterNotConnected::
-	.ifdef ENGLISH
 	.string "The Wireless Adapter is not\n"
 	.string "connected properly.$"
-	.endif
-	.ifdef SPANISH
-	.string "El Conector inalámbrico de GBA\n"
-	.string "no está bien conectado.$"
-	.endif
 
 CableClub_Text_ParticipantsStepUpToCounter::
-	.ifdef ENGLISH
 	.string "Participants are asked to step up\n"
 	.string "to the reception counter.$"
-	.endif
-	.ifdef SPANISH
-	.string "Los principiantes deben pasar\n"
-	.string "por el mostrador de recepción.$"
-	.endif
 
 @ Unused, translated in Emerald
 CableClub_Text_Hello::
@@ -1680,34 +1461,16 @@ CableClub_Text_PleaseWait::
 	.string "しょうしょう　おまちください$"
 
 CableClub_Text_YouMayTradeHere::
-	.ifdef ENGLISH
 	.string "You may trade your POKéMON here\n"
 	.string "with another TRAINER.$"
-	.endif
-	.ifdef SPANISH
-	.string "Aquí puedes intercambiar POKéMON\n"
-	.string "con un amigo.$"
-	.endif
 
 CableClub_Text_YouMayBattleHere::
-	.ifdef ENGLISH
 	.string "You may battle with your friends\n"
 	.string "here.$"
-	.endif
-	.ifdef SPANISH
-	.string "Aquí puedes luchar contra tus\n"
-	.string "amigos.$"
-	.endif
 
 CableClub_Text_CanMakeBerryPowder::
-	.ifdef ENGLISH
 	.string "Two to five TRAINERS can make\n"
 	.string "BERRY POWDER together.$"
-	.endif
-	.ifdef SPANISH
-	.string "Para hacer POLVO de BAYA, hacen\n"
-	.string "falta de dos a cinco ENTRENADORES.$"
-	.endif
 
 @ Unused, Record Mix nopped
 CableClub_Text_CanMixRecords::
@@ -1715,12 +1478,7 @@ CableClub_Text_CanMixRecords::
 	.string "あそびかたを　せつめいします$"
 
 CableClub_Text_CancelSelectedItem::
-	.ifdef ENGLISH
 	.string "Cancels the selected MENU item.$"
-	.endif
-	.ifdef SPANISH
-	.string "Cancelar la selección.$"
-	.endif
 
 @ Unused, translated in Emerald
 CableClub_Text_WhichBattleMode::
@@ -1731,51 +1489,23 @@ CableClub_Text_ReturnsToPreviousStep::
 	.string "ひとつ　まえに　もどります$"
 
 CableClub_Text_NeedBerryForBerryCrush::
-	.ifdef ENGLISH
 	.string "To use the BERRY CRUSH service,\n"
 	.string "you must have at least one BERRY.$"
-	.endif
-	.ifdef SPANISH
-	.string "Para usar el MACHACABAYAS,\n"
-	.string "necesitas al menos una BAYA.$"
-	.endif
 
 CableClub_Text_NeedTwoMonsForUnionRoom::
-	.ifdef ENGLISH
 	.string "To enter the UNION ROOM, you must\n"
 	.string "have at least two POKéMON.$"
-	.endif
-	.ifdef SPANISH
-	.string "Para entrar en la SALA UNIÓN,\n"
-	.string "debes tener al menos dos POKéMON.$"
-	.endif
 
 CableClub_Text_NoEnigmaBerryInUnionRoom::
-	.ifdef ENGLISH
 	.string "No POKéMON holding the {STR_VAR_1}\n"
 	.string "BERRY may enter the UNION ROOM.$"
-	.endif
-	.ifdef SPANISH
-	.string "Los POKéMON que tienen BAYAS\n"
-	.string "{STR_VAR_1} no pueden entrar en la\l"
-	.string "SALA UNIÓN.$"
-	.endif
 
 CableClub_Text_UnionRoomAdapterNotConnected::
-	.ifdef ENGLISH
 	.string "This is the POKéMON WIRELESS CLUB\n"
 	.string "UNION ROOM.\p"
 	.string "Unfortunately, your Wireless\n"
 	.string "Adapter is not connected properly.\p"
 	.string "Please do come again.$"
-	.endif
-	.ifdef SPANISH
-	.string "Ésta es la SALA UNIÓN del CLUB\n"
-	.string "INALÁMBRICO POKéMON.\p"
-	.string "Vaya, tu Conector inalámbrico\n"
-	.string "de GBA no está bien conectado...\p"
-	.string "Vuelve más tarde.$"
-	.endif
 
 @ Unused, translated in Emerald
 CableClub_Text_OhExcuseMe::
@@ -1783,29 +1513,16 @@ CableClub_Text_OhExcuseMe::
 	.string "おきゃくさま！$"
 
 Text_PlayerIsPlayingRightNowGoForIt::
-	.ifdef ENGLISH
 	.string "It appears as if {STR_VAR_1} is playing\n"
 	.string "right now.\l"
 	.string "Go for it!$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Parece que {STR_VAR_1} está jugando\n"
-	.string "ahora mismo! ¡Conéctate!$"
-	.endif
 
 Text_DescribeWhichGame::
-	.ifdef ENGLISH
 	.string "I can explain game rules to you,\n"
 	.string "if you'd like.\p"
 	.string "Which game should I describe?$"
-	.endif
-	.ifdef SPANISH
-	.string "Si quieres te explico las reglas.\p"
-	.string "¿De qué juego te hablo?$"
-	.endif
 
 Text_PokemonJumpInfo::
-	.ifdef ENGLISH
 	.string "“POKéMON JUMP”\p"
 	.string "Make your POKéMON skip the\n"
 	.string "VINE WHIP rope with the A Button.\p"
@@ -1817,24 +1534,8 @@ Text_PokemonJumpInfo::
 	.string "participate.\p"
 	.string "Good things happen if everyone\n"
 	.string "jumps in time.$"
-	.endif
-	.ifdef SPANISH
-	.string "“SALTO POKéMON”\p"
-	.string "Consigue que a tus POKéMON no les\n"
-	.string "atrape la LIANA usando el Botón A.\p"
-	.string "Sólo pueden participar los POKéMON\n"
-	.string "que midan unos 70 cm o menos.\p"
-	.string "A los POKéMON que naden despacio,\n"
-	.string "caven o vuelen no se les dará muy\l"
-	.string "bien lo de saltar.\p"
-	.string "Por ello, estos POKéMON no deben\n"
-	.string "participar.\p"
-	.string "Si todos saltan a la vez,\n"
-	.string "pueden ocurrir cosas estupendas.$"
-	.endif
 
 Text_DodrioBerryPickingInfo::
-	.ifdef ENGLISH
 	.string "“DODRIO BERRY-PICKING”\p"
 	.string "Command DODRIO's three heads to\n"
 	.string "catch falling BERRIES.\p"
@@ -1842,91 +1543,36 @@ Text_DodrioBerryPickingInfo::
 	.string "{PLUS} Control Pad to move the heads.\p"
 	.string "To play this game, you must have\n"
 	.string "a DODRIO.$"
-	.endif
-	.ifdef SPANISH
-	.string "“DODRIO A POR BAYAS”\p"
-	.string "Dile a DODRIO que pille las BAYAS\n"
-	.string "que pueda con los tres picos que\l"
-	.string "tiene.\p"
-	.string "Pulsa derecha, izquierda o arriba\n"
-	.string "en el {PLUS} Panel de Control para\l"
-	.string "que se mueva.\p"
-	.string "Para poder jugar a este juego,\n"
-	.string "hay que tener un DODRIO.$"
-	.endif
 
 Text_TalkToManToPlay::
-	.ifdef ENGLISH
 	.string "If you want to play a game,\n"
 	.string "please tell the man beside me.$"
-	.endif
-	.ifdef SPANISH
-	.string "Si quieres jugar a un juego,\n"
-	.string "díselo a mi compañero.$"
-	.endif
 
 Text_WelcomeCanYouWait::
-	.ifdef ENGLISH
 	.string "Hi, welcome!\n"
 	.string "You can play games over the\l"
 	.string "Wireless Communication System.\p"
 	.string "Can you wait just a little bit?$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Hola! ¡Gracias al sistema de\n"
-	.string "comunicación inalámbrica,\l"
-	.string "podrás jugar a juegos!\p"
-	.string "¿Puedes esperar un segundo?$"
-	.endif
 
 CableClub_Text_ComeAgain::
-	.ifdef ENGLISH
 	.string "All right, come again!$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Bueno, hasta otra!$"
-	.endif
 
 Text_AdapterNotConnectedMinigame::
-	.ifdef ENGLISH
 	.string "The Wireless Adapter isn't\n"
 	.string "connected.\p"
 	.string "Come back when it's hooked up!$"
-	.endif
-	.ifdef SPANISH
-	.string "El Conector inalámbrico de GBA\n"
-	.string "no está conectado.\p"
-	.string "¡Vuelve cuando lo tengas!$"
-	.endif
 
 Text_PlayWhichGame::
-	.ifdef ENGLISH
 	.string "All right, which game did you want\n"
 	.string "to play?$"
-	.endif
-	.ifdef SPANISH
-	.string "¿A qué juego quieres jugar?$"
-	.endif
 
 Text_EnterWhichPokemon::
-	.ifdef ENGLISH
 	.string "Which POKéMON would you like to\n"
 	.string "enter?$"
-	.endif
-	.ifdef SPANISH
-	.string "¿Con qué POKéMON quieres\n"
-	.string "participar?$"
-	.endif
 
 Text_AllGoodToGo::
-	.ifdef ENGLISH
 	.string "Okay, you're all good to go.\n"
 	.string "Don't let the others beat you!$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Muy bien! ¡Pues adelante!\n"
-	.string "¡A por todas!$"
-	.endif
 
 @ Unused, translated in Emerald
 Text_LeavingDoComeAgain::
@@ -1934,21 +1580,12 @@ Text_LeavingDoComeAgain::
 	.string "またこいよ！$"
 
 EventScript_ExplainPokemonJumpRequirements::
-	.ifdef ENGLISH
 	.string "It doesn't look like you have any\n"
 	.string "POKéMON that you can enter…\p"
 	.string "Would you like me to explain what\n"
 	.string "kinds of POKéMON can enter?$"
-	.endif
-	.ifdef SPANISH
-	.string "Creo que no tienes POKéMON\n"
-	.string "aptos para participar...\p"
-	.string "¿Quieres que te diga cuáles son\n"
-	.string "los que pueden participar?$"
-	.endif
 
 Text_ShortJumpingPokemonAllowed::
-	.ifdef ENGLISH
 	.string "“POKéMON JUMP” is open to POKéMON\n"
 	.string "around 28 inches or less.\p"
 	.string "What you can't enter are those\n"
@@ -1956,32 +1593,12 @@ Text_ShortJumpingPokemonAllowed::
 	.string "You know, like POKéMON that only\n"
 	.string "swim, burrow, or fly.\p"
 	.string "That's all you need to know.$"
-	.endif
-	.ifdef SPANISH
-	.string "En “SALTO POKéMON” pueden\n"
-	.string "participar los POKéMON que midan\l"
-	.string "unos 70 cm o menos.\p"
-	.string "Tampoco pueden participar los\n"
-	.string "POKéMON que no pueden saltar.\p"
-	.string "Es decir, los POKéMON que sólo\n"
-	.string "nadan, cavan o vuelan.\p"
-	.string "Bueno, pues ya lo sabes.$"
-	.endif
 
 Text_OnlyDodrioAllowed::
-	.ifdef ENGLISH
 	.string "“DODRIO BERRY-PICKING”…\n"
 	.string "Well, the name says it all.\p"
 	.string "You have to have a DODRIO to play\n"
 	.string "this game.$"
-	.endif
-	.ifdef SPANISH
-	.string "“DODRIO A POR BAYAS”...\n"
-	.string "Yo creo que el nombre lo explica\l"
-	.string "todo, ¿no?\p"
-	.string "Para jugar a este juego debes\n"
-	.string "tener al menos un DODRIO.$"
-	.endif
 
 @ Unused, translated in Emerald
 Text_RetryFromStartPlease::
@@ -1989,50 +1606,25 @@ Text_RetryFromStartPlease::
 	.string "やりなおして　みて　くれ$"
 
 CableClub_Text_WelcomeWhichDirectCornerRoom::
-	.ifdef ENGLISH
 	.string "Welcome to the POKéMON WIRELESS\n"
 	.string "CLUB DIRECT CORNER.\p"
 	.string "You may interact directly with\n"
 	.string "your friends here.\p"
 	.string "Which room would you like to\n"
 	.string "enter?$"
-	.endif
-	.ifdef SPANISH
-	.string "Ésta es la ZONA DIRECTA del CLUB\n"
-	.string "INALÁMBRICO POKéMON.\p"
-	.string "Aquí puedes comunicarte\n"
-	.string "directamente con tus amigos.\p"
-	.string "¿En qué sala quieres entrar?$"
-	.endif
 
 CableClub_Text_TradePokemon::
-	.ifdef ENGLISH
 	.string "Would you like to trade POKéMON?$"
-	.endif
-	.ifdef SPANISH
-	.string "¿Quieres cambiar POKéMON?$"
-	.endif
 
 CableClub_Text_PlayWhichBattleMode::
-	.ifdef ENGLISH
 	.string "Which Battle Mode would you like\n"
 	.string "to play?$"
-	.endif
-	.ifdef SPANISH
-	.string "¿Qué modo de combate quieres?$"
-	.endif
 
 CableClub_Text_UseBerryCrush::
-	.ifdef ENGLISH
 	.string "Would you like to use the\n"
 	.string "BERRY CRUSH System?$"
-	.endif
-	.ifdef SPANISH
-	.string "¿Quieres usar el MACHACABAYAS?$"
-	.endif
 
 CableClub_Text_ExplainBattleModes::
-	.ifdef ENGLISH
 	.string "There are three Battle Modes.\p"
 	.string "SINGLE BATTLE is for two TRAINERS\n"
 	.string "with one or more POKéMON each.\p"
@@ -2046,87 +1638,34 @@ CableClub_Text_ExplainBattleModes::
 	.string "with one or more POKéMON each.\p"
 	.string "Each TRAINER can have one POKéMON\n"
 	.string "in battle at a time.$"
-	.endif
-	.ifdef SPANISH
-	.string "Hay tres modos de combate.\p"
-	.string "El COMBATE INDIVIDUAL es para dos\n"
-	.string "ENTRENADORES con uno o más\l"
-	.string "POKéMON cada uno.\p"
-	.string "Cada ENTRENADOR puede usar un\n"
-	.string "POKéMON cada vez.\p"
-	.string "El COMBATE DOBLE es para dos\n"
-	.string "ENTRENADORES con dos o más\l"
-	.string "POKéMON cada uno.\p"
-	.string "Cada ENTRENADOR usará dos\n"
-	.string "POKéMON cada vez.\p"
-	.string "El COMBATE MULTIJUGADOR es para\n"
-	.string "cuatro ENTRENADORES con uno o más\l"
-	.string "POKéMON cada uno.\p"
-	.string "Cada ENTRENADOR puede usar un\n"
-	.string "POKéMON cada vez.$"
-	.endif
 
 CableClub_Text_ChooseGroupLeaderOfTwo::
-	.ifdef ENGLISH
 	.string "Please decide which of you two\n"
 	.string "will become the LEADER.\p"
 	.string "The other player must then choose\n"
 	.string "“JOIN GROUP.”$"
-	.endif
-	.ifdef SPANISH
-	.string "Un jugador debe ser LÍDER.\p"
-	.string "Y el otro, “UNIRSE\n"
-	.string "al GRUPO”.$"
-	.endif
 
 CableClub_Text_ChooseGroupLeaderOfFour::
-	.ifdef ENGLISH
 	.string "Please decide which of you four\n"
 	.string "will become the GROUP LEADER.\p"
 	.string "The other players must then choose\n"
 	.string "“JOIN GROUP.”$"
-	.endif
-	.ifdef SPANISH
-	.string "Un jugador debe ser LÍDER\n"
-	.string "del GRUPO.\p"
-	.string "Y los otros, “UNIRSE\n"
-	.string "al GRUPO”.$"
-	.endif
 
 CableClub_Text_ChooseGroupLeader::
-	.ifdef ENGLISH
 	.string "Please decide which of you will\n"
 	.string "become the GROUP LEADER.\p"
 	.string "The other players must then choose\n"
 	.string "“JOIN GROUP.”$"
-	.endif
-	.ifdef SPANISH
-	.string "Un jugador debe ser LÍDER\n"
-	.string "del GRUPO.\p"
-	.string "Y los otros, “UNIRSE\n"
-	.string "al GRUPO”.$"
-	.endif
 
 CableClub_Text_WelcomeUnionRoomEnter::
-	.ifdef ENGLISH
 	.string "Welcome to the POKéMON WIRELESS\n"
 	.string "CLUB UNION ROOM.\p"
 	.string "You may interact directly with\n"
 	.string "other TRAINERS here, some of\l"
 	.string "whom you may not even know.\p"
 	.string "Would you like to enter the ROOM?$"
-	.endif
-	.ifdef SPANISH
-	.string "Ésta es la SALA UNIÓN del CLUB\n"
-	.string "INALÁMBRICO POKéMON.\p"
-	.string "Aquí puedes comunicarte\n"
-	.string "directamente con ENTRENADORES\l"
-	.string "a los que puede que no conozcas.\p"
-	.string "¿Quieres entrar en la SALA?$"
-	.endif
 
 CableClub_Text_UnionRoomInfo::
-	.ifdef ENGLISH
 	.string "The TRAINERS in the UNION ROOM\n"
 	.string "will be those players around you\l"
 	.string "who have also entered the ROOM.\p"
@@ -2139,36 +1678,12 @@ CableClub_Text_UnionRoomInfo::
 	.string "Or, you may register a POKéMON for\n"
 	.string "trade.\p"
 	.string "Would you like to enter the ROOM?$"
-	.endif
-	.ifdef SPANISH
-	.string "Los ENTRENADORES de la SALA UNIÓN\n"
-	.string "serán los jugadores que tengas\l"
-	.string "cerca y hayan entrado en la SALA.\p"
-	.string "¡Aquí se pueden hacer muchas\n"
-	.string "cosas, empezando por saludarse\l"
-	.string "y celebrar el encuentro!\p"
-	.string "Puedes registrar dos POKéMON\n"
-	.string "de nivel no superior a 30 para\l"
-	.string "entablar combates de 1 contra 1.\p"
-	.string "También puedes participar en chats;\n"
-	.string "podéis ser de 2 a 5 jugadores.\p"
-	.string "Y, por supuesto, puedes registrar\n"
-	.string "POKéMON para realizar intercambios.\p"
-	.string "¿Quieres entrar en la SALA?$"
-	.endif
 
 CableClub_Text_EnjoyUnionRoom::
-	.ifdef ENGLISH
 	.string "I hope you enjoy your time in\n"
 	.string "the UNION ROOM.$"
-	.endif
-	.ifdef SPANISH
-	.string "Espero que disfrutes en la SALA\n"
-	.string "UNIÓN.$"
-	.endif
 
 CableClub_Text_FirstTimeRightThisWay::
-	.ifdef ENGLISH
 	.string "Hello!\n"
 	.string "My name is TEALA.\p"
 	.string "This must be your first time\n"
@@ -2178,21 +1693,8 @@ CableClub_Text_FirstTimeRightThisWay::
 	.string "First, I need to show you this\n"
 	.string "floor of our POKéMON CENTER.\p"
 	.string "Right this way, please.$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Hola!\n"
-	.string "Me llamo TEALA.\p"
-	.string "Es la primera vez que vienes, ¿no?\p"
-	.string "Te voy a explicar cómo funciona\n"
-	.string "el sistema de comunicación\l"
-	.string "inalámbrica.\p"
-	.string "Primero, te enseñaré esta planta\n"
-	.string "de nuestro CENTRO POKéMON.\p"
-	.string "Por aquí, por favor.$"
-	.endif
 
 CableClub_Text_ExplainWirelessClubFirstTime::
-	.ifdef ENGLISH
 	.string "On the top floor, there are two\n"
 	.string "rooms.\p"
 	.string "First, the room on the left.\n"
@@ -2213,52 +1715,15 @@ CableClub_Text_ExplainWirelessClubFirstTime::
 	.string "to the DIRECT CORNER.\p"
 	.string "I hope you enjoy the Wireless \n"
 	.string "Communication System.$"
-	.endif
-	.ifdef SPANISH
-	.string "En el primer piso de los CENTROS\n"
-	.string "POKéMON hay dos salas.\p"
-	.string "Primero te hablaré de la sala de\n"
-	.string "la izquierda: la SALA UNIÓN.\p"
-	.string "En ella puedes conectarte con los\n"
-	.string "ENTRENADORES que también\p"
-	.string "hayan entrado en la SALA UNIÓN\n"
-	.string "y estén cerca de ti.\p"
-	.string "Con ellos, podrás chatear, luchar\n"
-	.string "y realizar intercambios.\p"
-	.string "Ahora, la sala de la derecha:\n"
-	.string "la ZONA DIRECTA.\p"
-	.string "En ella puedes realizar\n"
-	.string "intercambios o enfrentarte a tus\l"
-	.string "amigos en combates POKéMON.\p"
-	.string "Si el Conector inalámbrico de GBA\n"
-	.string "no estuviera conectado, puedes\p"
-	.string "conectarte a tus amigos con un\n"
-	.string "cable Game Link de Game Boy\l"
-	.string "Advance.\p"
-	.string "Para ello hay que ir a la ZONA\n"
-	.string "DIRECTA.\p"
-	.string "Espero que disfrutes del sistema\n"
-	.string "de comunicación inalámbrica.$"
-	.endif
 
 CableClub_Text_AskAboutLinking::
-	.ifdef ENGLISH
 	.string "Hello, {PLAYER}!\p"
 	.string "It's me, TEALA, the POKéMON\n"
 	.string "CENTER 2F attendant.\p"
 	.string "Is there something you needed to\n"
 	.string "ask me about linking?$"
-	.endif
-	.ifdef SPANISH
-	.string "¡Hola, {PLAYER}!\p"
-	.string "Soy yo, TEALA, la recepcionista\n"
-	.string "del 1.{SUPER_ER} Piso del CENTRO POKéMON.\p"
-	.string "¿Necesitas información sobre\n"
-	.string "cómo realizar la conexión?$"
-	.endif
 
 CableClub_Text_ExplainWirelessClub::
-	.ifdef ENGLISH
 	.string "Let me explain how the POKéMON\n"
 	.string "WIRELESS CLUB works.\p"
 	.string "On this, the top floor, there are\n"
@@ -2286,45 +1751,7 @@ CableClub_Text_ExplainWirelessClub::
 	.string "to the DIRECT CORNER.\p"
 	.string "I hope you enjoy the Wireless \n"
 	.string "Communication System.$"
-	.endif
-	.ifdef SPANISH
-	.string "Te voy a explicar cómo funciona\n"
-	.string "el CLUB INALÁMBRICO POKéMON.\p"
-	.string "Éste es el piso de arriba y tiene\n"
-	.string "dos salas.\p"
-	.string "Primero te hablaré de la sala de\n"
-	.string "la izquierda: la SALA UNIÓN.\p"
-	.string "En ella puedes conectarte con los\n"
-	.string "ENTRENADORES que también\p"
-	.string "hayan entrado en la SALA UNIÓN\n"
-	.string "y estén cerca de ti.\p"
-	.string "Con ellos, podrás chatear, luchar\n"
-	.string "y realizar intercambios.\p"
-	.string "Ahora, la sala de la derecha:\n"
-	.string "la ZONA DIRECTA.\p"
-	.string "En ella puedes realizar\n"
-	.string "intercambios o enfrentarte a tus\l"
-	.string "amigos en combates POKéMON.\p"
-	.string "Si no encontraras a tus amigos\n"
-	.string "en la SALA UNIÓN ni en la ZONA\l"
-	.string "DIRECTA, acercad las consolas.\p"
-	.string "Si el Conector inalámbrico de GBA\n"
-	.string "no estuviera conectado, puedes\p"
-	.string "conectarte a tus amigos con un\n"
-	.string "cable Game Link de Game Boy\l"
-	.string "Advance.\p"
-	.string "Para ello hay que ir a la ZONA\n"
-	.string "DIRECTA.\p"
-	.string "Espero que disfrutes del sistema\n"
-	.string "de comunicación inalámbrica.$"
-	.endif
 
 CableClub_Text_HopeYouEnjoyWirelessSystem::
-	.ifdef ENGLISH
 	.string "I hope you enjoy the Wireless\n"
 	.string "Communication System.$"
-	.endif
-	.ifdef SPANISH
-	.string "Espero que disfrutes del sistema\n"
-	.string "de comunicación inalámbrica.$"
-	.endif

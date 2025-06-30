@@ -774,7 +774,7 @@ gFameCheckerPersonQuote_Bill::
 	.string "appena trovi un POKéMON raro!$"
 
 gFameCheckerPersonName_MrFuji::
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}SR. FUJI$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}MR. FUJI$"
 
 gFameCheckerPersonQuote_MrFuji::
 	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}Da: MR. FUJI\n"
