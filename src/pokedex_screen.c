@@ -2911,9 +2911,17 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     }
     else
     {
+    #if GAME_LANGUAGE == LANGUAGE_SPANISH
         categoryStr[index++] = CHAR_LEFT_PAREN;
         categoryStr[index++] = CHAR_QUESTION_MARK;
         categoryStr[index++] = CHAR_RIGHT_PAREN;
+    #else
+        while (index < 11)
+        {
+            categoryStr[index] = CHAR_QUESTION_MARK;
+            index++;
+        }
+    #endif
     }
 
     categoryStr[index] = EOS;
