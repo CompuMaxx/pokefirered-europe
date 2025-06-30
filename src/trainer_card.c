@@ -1195,7 +1195,7 @@ static void PrintMoneyOnCard(void)
     u8 *txtPtr;
     u8 x;
 
-#if GAME_LANGUAGE == LANGUAGE_ENGLISH
+#if (GAME_LANGUAGE == LANGUAGE_ENGLISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN)
     txtPtr = StringCopy(buffer, gText_TrainerCardYen);
     ConvertIntToDecimalStringN(txtPtr, sTrainerCardDataPtr->trainerCard.rse.money, STR_CONV_MODE_LEFT_ALIGN, 6);
 #else
