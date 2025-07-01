@@ -50,6 +50,10 @@ ifeq ($(GAME_LANGUAGE),ITALIAN)
 $(C_BUILDDIR)/item.o: c_dep += $(DATA_SRC_SUBDIR)/items_it.h
 endif #ITALIAN
 
+AUTO_GEN_TARGETS += $(DATA_SRC_SUBDIR)/trainers.h
+$(DATA_SRC_SUBDIR)/trainers.h: $(DATA_SRC_SUBDIR)/trainers.json $(DATA_SRC_SUBDIR)/trainers.json.txt
+	$(JSONPROC) $^ $@
+
 AUTO_GEN_TARGETS += $(DATA_SRC_SUBDIR)/heal_locations.h
 $(DATA_SRC_SUBDIR)/heal_locations.h: $(DATA_SRC_SUBDIR)/heal_locations.json $(DATA_SRC_SUBDIR)/heal_locations.json.txt
 	$(JSONPROC) $^ $@

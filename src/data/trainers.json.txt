@@ -1,0 +1,27 @@
+{{ doNotModifyHeader }}
+const struct Trainer gTrainers[] = {
+## for trainer in trainers
+## if trainer.id != "TRAINER_NONE"
+    [{{ trainer.id }}] = {
+        .trainerClass = {{trainer.trainerClass}},
+        .encounterMusic_gender = {{trainer.encounterMusic_gender}},
+        .trainerPic = {{trainer.trainerPic}},
+    #if GAME_LANGUAGE == LANGUAGE_SPANISH
+        .trainerName = _("{{trainer.trainerName_spanish}}"),
+    #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+        .trainerName = _("{{trainer.trainerName_italian}}"),
+    #else
+        .trainerName = _("{{trainer.trainerName_english}}"),
+    #endif
+        .items = { {{trainer.items}} },
+        .doubleBattle = {{trainer.doubleBattle}},
+        .aiFlags = {{trainer.aiFlags}},
+        .party = {{trainer.party}},
+    },
+## else
+    [{{ trainer.id }}] = {
+        .trainerName = _(""),
+    },
+## endif
+## endfor
+};
