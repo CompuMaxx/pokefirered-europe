@@ -63,23 +63,7 @@ static const u8 *const sEasyChatGroupNamePointers[] = {
     [EC_GROUP_POKEMON_2] = gEasyChatGroupName_Pokemon2,
 };
 
-#if GAME_LANGUAGE == LANGUAGE_ENGLISH
-static const u16 sDefaultProfileWords[] = {
-    EC_WORD_I_AM,
-    EC_WORD_A,
-    EC_WORD_POKEMON,
-    EC_WORD_FRIEND,
-};
-
-static const u16 sDefaultBattleStartWords[] = {
-    EC_WORD_ARE,
-    EC_WORD_YOU,
-    EC_WORD_READY,
-    EC_WORD_QUES,
-    EC_WORD_HERE_I_COME,
-    EC_WORD_EXCL,
-};
-#else //LANGUAGE_SPANISH || LANGUAGE_ITALIAN
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
 static const u16 sDefaultProfileWords[] = {
     EC_WORD_ISN_T_IT_QUES,
     EC_WORD_BEING,
@@ -94,6 +78,38 @@ static const u16 sDefaultBattleStartWords[] = {
     EC_WORD_LIE,
     EC_WORD_FIGHTS,
     EC_WORD_QUES,
+};
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+static const u16 sDefaultProfileWords[] = {
+    EC_WORD_ABSENT,
+    EC_WORD_LAY,
+    EC_WORD_ALL,
+    EC_WORD_POKEMON,
+};
+
+static const u16 sDefaultBattleStartWords[] = {
+    EC_WORD_WILL_BE_HERE,
+    EC_WORD_WHERE,
+    EC_WORD_STRONG,
+    EC_WORD_QUES,
+    EC_WORD_HERE_I_COME,
+    EC_WORD_EXCL,
+};
+#else //LANGUAGE_ENGLISH
+static const u16 sDefaultProfileWords[] = {
+    EC_WORD_I_AM,
+    EC_WORD_A,
+    EC_WORD_POKEMON,
+    EC_WORD_FRIEND,
+};
+
+static const u16 sDefaultBattleStartWords[] = {
+    EC_WORD_ARE,
+    EC_WORD_YOU,
+    EC_WORD_READY,
+    EC_WORD_QUES,
+    EC_WORD_HERE_I_COME,
+    EC_WORD_EXCL,
 };
 #endif
 

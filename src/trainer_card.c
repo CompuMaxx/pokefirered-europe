@@ -351,12 +351,15 @@ static bool8 (*const sTrainerCardFlipTasks[])(struct Task *) =
     Task_EndCardFlip
 };
 
-#if (GAME_LANGUAGE == LANGUAGE_ENGLISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN)
-    #define BACKNAME_X_POS  0x8A
-    #define STARTYOFFSET2   6
-#else //#elif GAME_LANGUAGE == LANGUAGE_SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
     #define BACKNAME_X_POS 0x94
     #define STARTYOFFSET2   7
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+    #define BACKNAME_X_POS  0x94
+    #define STARTYOFFSET2   7
+#else //#elif GAME_LANGUAGE == LANGUAGE_ENGLISH
+    #define BACKNAME_X_POS  0x8A
+    #define STARTYOFFSET2   6
 #endif
 
 static const u8 sTrainerCardFrontNameXPositions[] = {0x14, 0x10};

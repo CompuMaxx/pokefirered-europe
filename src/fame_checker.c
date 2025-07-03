@@ -501,9 +501,15 @@ static const struct WindowTemplate sUIWindowTemplates[] = {
     },
     [FCWINDOWID_ICONDESC] = {
         .bg = 0,
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+        .tilemapLeft = 13,
+        .tilemapTop = 10,
+        .width = 15,
+#else
         .tilemapLeft = 15,
         .tilemapTop = 10,
         .width = 11,
+#endif
         .height = 4,
         .paletteNum = 15,
         .baseBlock = 20 + 8 * 10 + 24 * 2 + 26 * 4

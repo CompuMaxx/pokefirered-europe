@@ -303,19 +303,26 @@ static void CompareProfileResponseWithPassphrase(void)
     gSpecialVar_0x8004 = IsPhraseDifferentThanPlayerInput(sECPhrase_MysteryEventIsExciting, NELEMS(sECPhrase_MysteryEventIsExciting));
 }
 
-#if GAME_LANGUAGE == LANGUAGE_ENGLISH
-static const u16 sECPhrase_LinkTogetherWithAll[] = {
-    EC_WORD_LINK,
-    EC_WORD_TOGETHER,
-    EC_WORD_WITH,
-    EC_WORD_ALL
-};
-#else //LANGUAGE_SPANISH || LANGUAGE_ITALIAN
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
 static const u16 sECPhrase_LinkTogetherWithAll[] = {
     EC_WORD_LINK,
     EC_WORD_MISS,
     EC_WORD_TO_THEM,
     EC_WORD_UNDEFINED,
+};
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+static const u16 sECPhrase_LinkTogetherWithAll[] = {
+    EC_WORD_ME,
+    EC_WORD_TOO_LATE,
+    EC_WORD_LINK,
+    EC_WORD_EXCL,
+};
+#else //LANGUAGE_ENGLISH
+static const u16 sECPhrase_LinkTogetherWithAll[] = {
+    EC_WORD_LINK,
+    EC_WORD_TOGETHER,
+    EC_WORD_WITH,
+    EC_WORD_ALL
 };
 #endif
 

@@ -272,6 +272,280 @@ static const struct EasyChatWordInfo sEasyChatGroup_Lifestyle[] = {
         .enabled = TRUE
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+static const u8 sEasyChatWord_Chores[] = _("COMPITI");
+static const u8 sEasyChatWord_Home[] = _("CASA");
+static const u8 sEasyChatWord_Money[] = _("SOLDI");
+static const u8 sEasyChatWord_Allowance[] = _("PAGHETTA");
+static const u8 sEasyChatWord_Bath[] = _("BAGNO");
+static const u8 sEasyChatWord_Conversation[] = _("DIALOGO");
+static const u8 sEasyChatWord_School[] = _("SCUOLA");
+static const u8 sEasyChatWord_Commemorate[] = _("CELEBRAZIONE");
+static const u8 sEasyChatWord_Habit[] = _("ABITUDINE");
+static const u8 sEasyChatWord_Group[] = _("GRUPPO");
+static const u8 sEasyChatWord_Word[] = _("PAROLA");
+static const u8 sEasyChatWord_Store[] = _("MAESTRO");
+static const u8 sEasyChatWord_Service[] = _("LAVAGNA");
+static const u8 sEasyChatWord_Work[] = _("LAVORO");
+static const u8 sEasyChatWord_System[] = _("SISTEMA");
+static const u8 sEasyChatWord_Train[] = _("TRENO");
+static const u8 sEasyChatWord_Class[] = _("AULA");
+static const u8 sEasyChatWord_Lessons[] = _("LEZIONI");
+static const u8 sEasyChatWord_Information[] = _("INFORMAZIONI");
+static const u8 sEasyChatWord_Living[] = _("VIVA LA VITA");
+static const u8 sEasyChatWord_Teacher[] = _("INSEGNANTE");
+static const u8 sEasyChatWord_Tournament[] = _("TORNEO");
+static const u8 sEasyChatWord_Letter[] = _("LETTERA");
+static const u8 sEasyChatWord_Event[] = _("EVENTO");
+static const u8 sEasyChatWord_Digital[] = _("TECNOLOGIA");
+static const u8 sEasyChatWord_Test[] = _("PALLONE");
+static const u8 sEasyChatWord_DeptStore[] = _("NEGOZIO");
+static const u8 sEasyChatWord_Television[] = _("TELEVISIONE");
+static const u8 sEasyChatWord_Phone[] = _("TELEFONO");
+static const u8 sEasyChatWord_Item[] = _("STRUMENTO");
+static const u8 sEasyChatWord_Name[] = _("NOME");
+static const u8 sEasyChatWord_News[] = _("NOTIZIE");
+static const u8 sEasyChatWord_Popular[] = _("MAESTRA");
+static const u8 sEasyChatWord_Party[] = _("FESTA");
+static const u8 sEasyChatWord_Study[] = _("STUDIO");
+static const u8 sEasyChatWord_Machine[] = _("MACCHINA");
+static const u8 sEasyChatWord_Mail[] = _("MESSAGGIO");
+static const u8 sEasyChatWord_Message[] = _("POSTA");
+static const u8 sEasyChatWord_Promise[] = _("PROMESSA");
+static const u8 sEasyChatWord_Dream[] = _("SOGNO");
+static const u8 sEasyChatWord_Kindergarten[] = _("ASILO");
+static const u8 sEasyChatWord_Life[] = _("VITA");
+static const u8 sEasyChatWord_Radio[] = _("RADIO");
+static const u8 sEasyChatWord_Rental[] = _("E-MAIL");
+static const u8 sEasyChatWord_World[] = _("MONDO");
+
+static const struct EasyChatWordInfo sEasyChatGroup_Lifestyle[] = {
+    {
+        .text = sEasyChatWord_Chores,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Home,
+        .alphabeticalOrder = 40,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Money,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Allowance,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Bath,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Conversation,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_School,
+        .alphabeticalOrder = 0,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Commemorate,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Habit,
+        .alphabeticalOrder = 43,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Group,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Word,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Store,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Service,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Work,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_System,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Train,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Class,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Lessons,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Information,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Living,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Teacher,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Tournament,
+        .alphabeticalOrder = 36,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Letter,
+        .alphabeticalOrder = 44,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Event,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Digital,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Test,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_DeptStore,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Television,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Phone,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Item,
+        .alphabeticalOrder = 37,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Name,
+        .alphabeticalOrder = 38,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_News,
+        .alphabeticalOrder = 42,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Popular,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Party,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Study,
+        .alphabeticalOrder = 39,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Machine,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Mail,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Message,
+        .alphabeticalOrder = 34,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Promise,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Dream,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Kindergarten,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Life,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Radio,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Rental,
+        .alphabeticalOrder = 41,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_World,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE
+    }
+};
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_Chores[] = _("CHORES");
 static const u8 sEasyChatWord_Home[] = _("HOME");

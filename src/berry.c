@@ -98,7 +98,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("LIEGIA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -126,7 +126,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("STAGNA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -154,7 +154,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("PESCA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -182,7 +182,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("FRAGO"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -210,7 +210,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("PERINA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -238,7 +238,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("MELA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -266,7 +266,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("RANCIA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -294,7 +294,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("KI"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -322,7 +322,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("PRUGNA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -350,7 +350,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("CEDRO"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -378,7 +378,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("FICO"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -406,7 +406,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("KIWI"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -434,7 +434,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("MANGO"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -462,7 +462,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("GUAVA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -490,7 +490,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("PAIA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -518,7 +518,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("LAMPON"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -546,7 +546,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("MORA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -574,7 +574,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("BANA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -602,7 +602,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("PERA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -630,7 +630,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("NANAS"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -658,7 +658,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("GRANA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -686,7 +686,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("LGA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -714,7 +714,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("LOQUAT"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -742,7 +742,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("MELON"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -770,7 +770,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("UVA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -798,7 +798,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("MODORO"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -826,7 +826,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("VENA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -854,7 +854,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("GOSTAN"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -882,7 +882,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("MBUTAN"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -910,7 +910,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("LEMON"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -938,7 +938,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("MELOS"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -966,7 +966,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("PALMA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -994,7 +994,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("COMERO"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1022,7 +1022,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("DURIAN"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1050,7 +1050,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("RTILLO"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1078,7 +1078,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("LICI"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1106,7 +1106,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("LONGAN"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1134,7 +1134,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("SALAK"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1162,7 +1162,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("PITAYA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1190,7 +1190,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("COCCA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1218,7 +1218,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("LANGSA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1246,7 +1246,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("MBOLA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else
@@ -1274,7 +1274,7 @@ const struct Berry gBerries[] = {
         #elif GAME_LANGUAGE == LANGUAGE_FRENCH
             .name = _(""),
         #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-            .name = _(""),
+            .name = _("ENIGMA"),
         #elif GAME_LANGUAGE == LANGUAGE_GERMAN
             .name = _(""),
         #else

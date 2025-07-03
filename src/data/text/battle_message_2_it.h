@@ -19,7 +19,7 @@ static const u8 sText_RightArrow2[] = _("{RIGHT_ARROW_2}");
 static const u8 sText_Plus[] = _("{PLUS}");
 static const u8 sText_Dash[] = _("-");
 
-static const u8 sText_MaxHP[] = _("{FONT_SMALL}PS({FONT_NORMAL}Á max");
+static const u8 sText_MaxHP[] = _("{FONT_SMALL}PS{FONT_NORMAL} max");
 static const u8 sText_Attack[] = _("ATTACCO");
 static const u8 sText_Defense[] = _("DIFESA");
 static const u8 sText_SpAtk[] = _("ATT. SPEC.");

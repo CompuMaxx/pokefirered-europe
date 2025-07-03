@@ -1471,7 +1471,7 @@ static void DaycarePrintMonLvl(struct DayCare *daycare, u8 windowId, u32 daycare
     u8 lvlText[12];
     u8 intText[8];
 
-#if REVISION == 0 && !SPANISH
+#if REVISION == 0 && !(SPANISH || ITALIAN)
     strcpy((char *)lvlText, (const char *)gText_Lv);
 #else
     StringCopy(lvlText, gText_Lv);

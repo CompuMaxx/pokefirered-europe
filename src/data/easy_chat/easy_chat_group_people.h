@@ -452,6 +452,460 @@ static const struct EasyChatWordInfo sEasyChatGroup_People[] = {
         .enabled = TRUE
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+static const u8 sEasyChatWord_Opponent[] = _("UN TESORO");
+static const u8 sEasyChatWord_I[] = _("AFFIATAMENTO");
+static const u8 sEasyChatWord_You[] = _("CHE BEL TEAM");
+static const u8 sEasyChatWord_Yours[] = _("IO E TE");
+static const u8 sEasyChatWord_Son[] = _("FIGLIO");
+static const u8 sEasyChatWord_Your[] = _("CONCORDIA");
+static const u8 sEasyChatWord_Youre[] = _("CHE SQUADRA");
+static const u8 sEasyChatWord_Youve[] = _("SIAMO GRANDI");
+static const u8 sEasyChatWord_Mother[] = _("MAMMA");
+static const u8 sEasyChatWord_Grandfather[] = _("NONNO");
+static const u8 sEasyChatWord_Uncle[] = _("ZIO");
+static const u8 sEasyChatWord_Father[] = _("PAPÀ");
+static const u8 sEasyChatWord_Boy[] = _("RAGAZZO");
+static const u8 sEasyChatWord_Adult[] = _("ADULTO");
+static const u8 sEasyChatWord_Brother[] = _("FRATELLO");
+static const u8 sEasyChatWord_Sister[] = _("SORELLA");
+static const u8 sEasyChatWord_Grandmother[] = _("NONNA");
+static const u8 sEasyChatWord_Aunt[] = _("ZIA");
+static const u8 sEasyChatWord_Parent[] = _("GENITORI");
+static const u8 sEasyChatWord_Man[] = _("UOMO");
+static const u8 sEasyChatWord_Me[] = _("INSIEME");
+static const u8 sEasyChatWord_Girl[] = _("BAMBINA");
+static const u8 sEasyChatWord_Babe[] = _("TESORINO");
+static const u8 sEasyChatWord_Family[] = _("FAMIGLIA");
+static const u8 sEasyChatWord_Her[] = _("SIAMO CON TE");
+static const u8 sEasyChatWord_Him[] = _("PUOI FARCELA");
+static const u8 sEasyChatWord_He[] = _("VAI FORTE");
+static const u8 sEasyChatWord_Place[] = _("TIENI DURO");
+static const u8 sEasyChatWord_Daughter[] = _("FIGLIA");
+static const u8 sEasyChatWord_His[] = _("CONTACI");
+static const u8 sEasyChatWord_Hes[] = _("DAI, SU!");
+static const u8 sEasyChatWord_Arent[] = _("HO FIDUCIA");
+static const u8 sEasyChatWord_Siblings[] = _("FRATELLI");
+static const u8 sEasyChatWord_Kid[] = _("BAMBINO");
+static const u8 sEasyChatWord_Children[] = _("BAMBINI");
+static const u8 sEasyChatWord_Mr[] = _("SIGNORE");
+static const u8 sEasyChatWord_Mrs[] = _("SIGNORA");
+static const u8 sEasyChatWord_Myself[] = _("SIAMO UNITI");
+static const u8 sEasyChatWord_IWas[] = _("CE LA FAI");
+static const u8 sEasyChatWord_ToMe[] = _("SII BUONO");
+static const u8 sEasyChatWord_My[] = _("SII BUONA");
+static const u8 sEasyChatWord_IAm[] = _("SII GENTILE");
+static const u8 sEasyChatWord_Ive[] = _("COPPIA");
+static const u8 sEasyChatWord_Who[] = _("SODALIZIO");
+static const u8 sEasyChatWord_Someone[] = _("L'UNIONE...");
+static const u8 sEasyChatWord_WhoWas[] = _("FA LA FORZA");
+static const u8 sEasyChatWord_ToWhom[] = _("DEL CUORE");
+static const u8 sEasyChatWord_Whose[] = _("AMICI");
+static const u8 sEasyChatWord_WhoIs[] = _("PER LA PELLE");
+static const u8 sEasyChatWord_Its[] = _("ALLEATA");
+static const u8 sEasyChatWord_Lady[] = _("ALLEATO");
+static const u8 sEasyChatWord_Friend[] = _("AMICA");
+static const u8 sEasyChatWord_Ally[] = _("AMICO");
+static const u8 sEasyChatWord_Person[] = _("PERSONA");
+static const u8 sEasyChatWord_Dude[] = _("RAGAZZA");
+static const u8 sEasyChatWord_They[] = _("COME PRIMA");
+static const u8 sEasyChatWord_TheyWere[] = _("D'AMORE");
+static const u8 sEasyChatWord_ToThem[] = _("D'ACCORDO");
+static const u8 sEasyChatWord_Their[] = _("FARSI FORZA");
+static const u8 sEasyChatWord_Theyre[] = _("STA A CUORE");
+static const u8 sEasyChatWord_Theyve[] = _("CUORE D'ORO");
+static const u8 sEasyChatWord_We[] = _("DI CUORE");
+static const u8 sEasyChatWord_Been[] = _("LEGAME");
+static const u8 sEasyChatWord_ToUs[] = _("AMORE");
+static const u8 sEasyChatWord_Our[] = _("RAGAZZE");
+static const u8 sEasyChatWord_WeAre[] = _("AMICIZIA");
+static const u8 sEasyChatWord_Rival[] = _("RAGAZZI");
+static const u8 sEasyChatWord_Weve[] = _("COMPAGNI");
+static const u8 sEasyChatWord_Woman[] = _("DONNA");
+static const u8 sEasyChatWord_She[] = _("CUGINO");
+static const u8 sEasyChatWord_SheWas[] = _("CUGINA");
+static const u8 sEasyChatWord_ToHer[] = _("SEI UN AMORE");
+static const u8 sEasyChatWord_Hers[] = _("MI MANCHI");
+static const u8 sEasyChatWord_SheIs[] = _("SINTONIA");
+static const u8 sEasyChatWord_Some[] = _("ARMONIA");
+
+static const struct EasyChatWordInfo sEasyChatGroup_People[] = {
+    {
+        .text = sEasyChatWord_Opponent,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_I,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_You,
+        .alphabeticalOrder = 49,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Yours,
+        .alphabeticalOrder = 50,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Son,
+        .alphabeticalOrder = 51,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Your,
+        .alphabeticalOrder = 47,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Youre,
+        .alphabeticalOrder = 65,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Youve,
+        .alphabeticalOrder = 52,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Mother,
+        .alphabeticalOrder = 63,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Grandfather,
+        .alphabeticalOrder = 74,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Uncle,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Father,
+        .alphabeticalOrder = 34,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Boy,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Adult,
+        .alphabeticalOrder = 38,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Brother,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Sister,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Grandmother,
+        .alphabeticalOrder = 55,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Aunt,
+        .alphabeticalOrder = 67,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Parent,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Man,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Me,
+        .alphabeticalOrder = 42,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Girl,
+        .alphabeticalOrder = 70,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Babe,
+        .alphabeticalOrder = 69,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Family,
+        .alphabeticalOrder = 60,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Her,
+        .alphabeticalOrder = 57,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Him,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_He,
+        .alphabeticalOrder = 56,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Place,
+        .alphabeticalOrder = 46,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Daughter,
+        .alphabeticalOrder = 61,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_His,
+        .alphabeticalOrder = 68,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hes,
+        .alphabeticalOrder = 45,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Arent,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Siblings,
+        .alphabeticalOrder = 58,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Kid,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Children,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Mr,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Mrs,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Myself,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_IWas,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ToMe,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_My,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_IAm,
+        .alphabeticalOrder = 62,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Ive,
+        .alphabeticalOrder = 44,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Who,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Someone,
+        .alphabeticalOrder = 72,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_WhoWas,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ToWhom,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Whose,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_WhoIs,
+        .alphabeticalOrder = 48,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Its,
+        .alphabeticalOrder = 53,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Lady,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Friend,
+        .alphabeticalOrder = 54,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Ally,
+        .alphabeticalOrder = 64,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Person,
+        .alphabeticalOrder = 66,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Dude,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_They,
+        .alphabeticalOrder = 71,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_TheyWere,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ToThem,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Their,
+        .alphabeticalOrder = 37,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Theyre,
+        .alphabeticalOrder = 36,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Theyve,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_We,
+        .alphabeticalOrder = 40,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Been,
+        .alphabeticalOrder = 39,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ToUs,
+        .alphabeticalOrder = 41,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Our,
+        .alphabeticalOrder = 73,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_WeAre,
+        .alphabeticalOrder = 43,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Rival,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Weve,
+        .alphabeticalOrder = 59,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Woman,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_She,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_SheWas,
+        .alphabeticalOrder = 0,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ToHer,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hers,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_SheIs,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Some,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE
+    }
+};
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_Opponent[] = _("OPPONENT");
 static const u8 sEasyChatWord_I[] = _("I");

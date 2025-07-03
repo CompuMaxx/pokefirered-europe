@@ -1083,7 +1083,7 @@ ALIGNED(4) static const u8 sText_GladToMeetYouMale[] = _("{DYNAMIC 1}: ¡Me aleg
 ALIGNED(4) static const u8 sText_GladToMeetYouFemale[] = _("{DYNAMIC 1}: ¡Es un placer conocerte!{PAUSE 60}");
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) const u8 gText_UR_TrainerCardInfoPage1[] = _("Questa è la SCHEDA\nALLENATORE di\l{DYNAMIC 1}, {DYNAMIC 0}.\p{DYNAMIC 2}\pPOKéDEX: {DYNAMIC 3}\nTEMPO: {DYNAMIC 4}:{DYNAMIC 5}\p");
-ALIGNED(4) const u8 gText_UR_TrainerCardInfoPage2[] = _("LOTTE: {DYNAMIC 0} VINTE  {DYNAMIC 2} PERSE\nSCAMBI: {DYNAMIC 3} VOLTE\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 5}”\p");
+ALIGNED(4) const u8 gText_UR_TrainerCardInfoPage2[] = _("LOTTE: {DYNAMIC 0} VINTE  {DYNAMIC 2} PERSE\nSCAMBI: {DYNAMIC 3} VOLTE\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p");
 ALIGNED(4) static const u8 sText_GladToMeetYouMale[] = _("{DYNAMIC 1}: Piacere di conoscerti!{PAUSE 60}");
 ALIGNED(4) static const u8 sText_GladToMeetYouFemale[] = _("{DYNAMIC 1}: Piacere!{PAUSE 60}");
 #endif

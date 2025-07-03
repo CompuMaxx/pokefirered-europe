@@ -254,6 +254,262 @@ static const struct EasyChatWordInfo sEasyChatGroup_Misc[] = {
         .enabled = TRUE
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+static const u8 sEasyChatWord_Highs[] = _("SUL SERIO");
+static const u8 sEasyChatWord_Lows[] = _("DAVVERO");
+static const u8 sEasyChatWord_Um[] = _("TIPI");
+static const u8 sEasyChatWord_Rear[] = _("DIETRO");
+static const u8 sEasyChatWord_Things[] = _("COSE");
+static const u8 sEasyChatWord_Thing[] = _("COSA");
+static const u8 sEasyChatWord_Below[] = _("SOTTO");
+static const u8 sEasyChatWord_Above[] = _("MEGLIO");
+static const u8 sEasyChatWord_Back[] = _("NON TROVI?");
+static const u8 sEasyChatWord_High[] = _("SOPRA");
+static const u8 sEasyChatWord_Here[] = _("TUTTO");
+static const u8 sEasyChatWord_Inside[] = _("FUORI");
+static const u8 sEasyChatWord_Outside[] = _("DENTRO");
+static const u8 sEasyChatWord_Beside[] = _("CHE FIGURA");
+static const u8 sEasyChatWord_ThisIsItExcl[] = _("MODO");
+static const u8 sEasyChatWord_This[] = _("ALTRO");
+static const u8 sEasyChatWord_Every[] = _("ALTRA");
+static const u8 sEasyChatWord_These[] = _("TI VA");
+static const u8 sEasyChatWord_TheseWere[] = _("CHE NE DICI");
+static const u8 sEasyChatWord_Down[] = _("GIÙ");
+static const u8 sEasyChatWord_That[] = _("TRANNE");
+static const u8 sEasyChatWord_ThoseAre[] = _("BENE");
+static const u8 sEasyChatWord_ThoseWere[] = _("MALE");
+static const u8 sEasyChatWord_ThatsItExcl[] = _("MENTRE");
+static const u8 sEasyChatWord_Am[] = _("PEGGIO");
+static const u8 sEasyChatWord_ThatWas[] = _("PREPARATI");
+static const u8 sEasyChatWord_Front[] = _("DAVANTI");
+static const u8 sEasyChatWord_Up[] = _("SU");
+static const u8 sEasyChatWord_Choice[] = _("PREPARIAMOCI");
+static const u8 sEasyChatWord_Far[] = _("LONTANO");
+static const u8 sEasyChatWord_Away[] = _("VI VA");
+static const u8 sEasyChatWord_Near[] = _("VICINO");
+static const u8 sEasyChatWord_Where[] = _("ABBASTANZA");
+static const u8 sEasyChatWord_When[] = _("NIENTE");
+static const u8 sEasyChatWord_What[] = _("RISVEGLIATI");
+static const u8 sEasyChatWord_Deep[] = _("RISVEGLIATO");
+static const u8 sEasyChatWord_Shallow[] = _("AVVELENATI");
+static const u8 sEasyChatWord_Why[] = _("AVVELENATO");
+static const u8 sEasyChatWord_Confused[] = _("ADDORMENTATI");
+static const u8 sEasyChatWord_Opposite[] = _("ADDORMENTATO");
+static const u8 sEasyChatWord_Left[] = _("SINISTRA");
+static const u8 sEasyChatWord_Right[] = _("DESTRA");
+
+static const struct EasyChatWordInfo sEasyChatGroup_Misc[] = {
+    {
+        .text = sEasyChatWord_Highs,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Lows,
+        .alphabeticalOrder = 38,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Um,
+        .alphabeticalOrder = 39,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Rear,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Things,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Thing,
+        .alphabeticalOrder = 36,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Below,
+        .alphabeticalOrder = 37,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Above,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Back,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_High,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Here,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Inside,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Outside,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Beside,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ThisIsItExcl,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_This,
+        .alphabeticalOrder = 41,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Every,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_These,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_TheseWere,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Down,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_That,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ThoseAre,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ThoseWere,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ThatsItExcl,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Am,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ThatWas,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Front,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Up,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Choice,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Far,
+        .alphabeticalOrder = 34,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Away,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Near,
+        .alphabeticalOrder = 40,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Where,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_When,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_What,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Deep,
+        .alphabeticalOrder = 0,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Shallow,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Why,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Confused,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Opposite,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Left,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Right,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE
+    }
+};
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_Highs[] = _("HIGHS");
 static const u8 sEasyChatWord_Lows[] = _("LOWS");

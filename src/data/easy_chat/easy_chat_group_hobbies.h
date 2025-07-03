@@ -326,6 +326,334 @@ static const struct EasyChatWordInfo sEasyChatGroup_Hobbies[] = {
         .enabled = TRUE
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+static const u8 sEasyChatWord_Idol[] = _("IDOLO");
+static const u8 sEasyChatWord_Anime[] = _("ROCK");
+static const u8 sEasyChatWord_Song[] = _("SCIARE");
+static const u8 sEasyChatWord_Movie[] = _("CINEMA");
+static const u8 sEasyChatWord_Sweets[] = _("DOLCI");
+static const u8 sEasyChatWord_Chat[] = _("CHAT");
+static const u8 sEasyChatWord_ChildsPlay[] = _("GIOCHI");
+static const u8 sEasyChatWord_Toys[] = _("GIOCATTOLI");
+static const u8 sEasyChatWord_Music[] = _("MUSICA");
+static const u8 sEasyChatWord_Cards[] = _("FIGURINE");
+static const u8 sEasyChatWord_Shopping[] = _("SHOPPING");
+static const u8 sEasyChatWord_Camera[] = _("FOTOGRAFIA");
+static const u8 sEasyChatWord_Viewing[] = _("ESCURSIONE");
+static const u8 sEasyChatWord_Spectator[] = _("TEATRO");
+static const u8 sEasyChatWord_Gourmet[] = _("CUCINARE");
+static const u8 sEasyChatWord_Game[] = _("GIOCARE");
+static const u8 sEasyChatWord_Rpg[] = _("INFORMATICA");
+static const u8 sEasyChatWord_Collection[] = _("COLLEZIONARE");
+static const u8 sEasyChatWord_Complete[] = _("SCAMBIARE");
+static const u8 sEasyChatWord_Magazine[] = _("MANGIARE");
+static const u8 sEasyChatWord_Walk[] = _("CAMMINARE");
+static const u8 sEasyChatWord_Bike[] = _("BICI");
+static const u8 sEasyChatWord_Hobby[] = _("HOBBY");
+static const u8 sEasyChatWord_Sports[] = _("SPORT");
+static const u8 sEasyChatWord_Software[] = _("SOFTWARE");
+static const u8 sEasyChatWord_Songs[] = _("CANZONE");
+static const u8 sEasyChatWord_Diet[] = _("CANTARE");
+static const u8 sEasyChatWord_Treasure[] = _("FRANCOBOLLI");
+static const u8 sEasyChatWord_Travel[] = _("VIAGGIARE");
+static const u8 sEasyChatWord_Dance[] = _("BALLARE");
+static const u8 sEasyChatWord_Channel[] = _("LA TV");
+static const u8 sEasyChatWord_Making[] = _("VEDERE");
+static const u8 sEasyChatWord_Fishing[] = _("PESCARE");
+static const u8 sEasyChatWord_Date[] = _("USCIRE");
+static const u8 sEasyChatWord_Design[] = _("DISEGNARE");
+static const u8 sEasyChatWord_Locomotive[] = _("TRENINI");
+static const u8 sEasyChatWord_PlushDoll[] = _("PELUCHE");
+static const u8 sEasyChatWord_Pc[] = _("PC");
+static const u8 sEasyChatWord_Flowers[] = _("FIORI");
+static const u8 sEasyChatWord_Hero[] = _("CAMPIONE");
+static const u8 sEasyChatWord_Nap[] = _("DORMIRE");
+static const u8 sEasyChatWord_Heroine[] = _("CAMPIONESSA");
+static const u8 sEasyChatWord_Fashion[] = _("MODA");
+static const u8 sEasyChatWord_Adventure[] = _("AVVENTURA");
+static const u8 sEasyChatWord_Board[] = _("DA TAVOLO");
+static const u8 sEasyChatWord_Ball[] = _("CALCIO");
+static const u8 sEasyChatWord_Book[] = _("LEGGERE");
+static const u8 sEasyChatWord_Festival[] = _("CORRERE");
+static const u8 sEasyChatWord_Comics[] = _("FUMETTI");
+static const u8 sEasyChatWord_Holiday[] = _("OZIARE");
+static const u8 sEasyChatWord_Plans[] = _("MODELLISMO");
+static const u8 sEasyChatWord_Trendy[] = _("GIOCO");
+static const u8 sEasyChatWord_Vacation[] = _("VACANZE");
+static const u8 sEasyChatWord_Look[] = _("SCRIVERE");
+
+static const struct EasyChatWordInfo sEasyChatGroup_Hobbies[] = {
+    {
+        .text = sEasyChatWord_Idol,
+        .alphabeticalOrder = 43,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Anime,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Song,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Movie,
+        .alphabeticalOrder = 45,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Sweets,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Chat,
+        .alphabeticalOrder = 39,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_ChildsPlay,
+        .alphabeticalOrder = 41,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Toys,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Music,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Cards,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Shopping,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Camera,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Viewing,
+        .alphabeticalOrder = 47,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Spectator,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Gourmet,
+        .alphabeticalOrder = 44,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Game,
+        .alphabeticalOrder = 34,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Rpg,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Collection,
+        .alphabeticalOrder = 40,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Complete,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Magazine,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Walk,
+        .alphabeticalOrder = 38,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Bike,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hobby,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Sports,
+        .alphabeticalOrder = 48,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Software,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Songs,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Diet,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Treasure,
+        .alphabeticalOrder = 51,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Travel,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Dance,
+        .alphabeticalOrder = 0,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Channel,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Making,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Fishing,
+        .alphabeticalOrder = 46,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Date,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Design,
+        .alphabeticalOrder = 42,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Locomotive,
+        .alphabeticalOrder = 50,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_PlushDoll,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Pc,
+        .alphabeticalOrder = 49,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Flowers,
+        .alphabeticalOrder = 37,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hero,
+        .alphabeticalOrder = 36,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Nap,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Heroine,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Fashion,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Adventure,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Board,
+        .alphabeticalOrder = 53,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Ball,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Book,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Festival,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Comics,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Holiday,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Plans,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Trendy,
+        .alphabeticalOrder = 52,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Vacation,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Look,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE
+    }
+};
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_Idol[] = _("IDOL");
 static const u8 sEasyChatWord_Anime[] = _("ANIME");
