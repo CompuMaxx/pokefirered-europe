@@ -732,6 +732,12 @@ static void Task_WaitFadeOnInit(u8 taskId)
         gTasks[taskId].func = Task_TopMenuHandleInput;
 }
 
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+    #define WINDOW_WITDH 120
+#else
+    #define WINDOW_WITDH 88
+#endif
+
 static void Task_TopMenuHandleInput(u8 taskId)
 {
     u16 cursorPos;
@@ -753,7 +759,7 @@ static void Task_TopMenuHandleInput(u8 taskId)
             else if (cursorPos != sFameCheckerData->numUnlockedPersons - 1) // anything but CANCEL
             {
                 PlaySE(SE_M_LOCK_ON);
-                FillWindowPixelRect(FCWINDOWID_ICONDESC, PIXEL_FILL(0), 0, 0, 88, 32);
+                FillWindowPixelRect(FCWINDOWID_ICONDESC, PIXEL_FILL(0), 0, 0, WINDOW_WITDH, 32);
                 FC_PutWindowTilemapAndCopyWindowToVramMode3(FCWINDOWID_ICONDESC);
                 UpdateInfoBoxTilemap(2, 4);
                 UpdateInfoBoxTilemap(1, 5);
@@ -1404,14 +1410,15 @@ static void UpdateIconDescriptionBox(u8 whichText)
     u32 idx = 6 * sFameCheckerData->unlockedPersons[FameCheckerGetCursorY()] + whichText;
     HandleFlavorTextModeSwitch(TRUE);
     gIconDescriptionBoxIsOpen = 1;
-    FillWindowPixelRect(FCWINDOWID_ICONDESC, PIXEL_FILL(0), 0, 0, 0x58, 0x20);
-    width = (0x54 - GetStringWidth(FONT_SMALL, sFlavorTextOriginLocationTexts[idx], 0)) / 2;
+    FillWindowPixelRect(FCWINDOWID_ICONDESC, PIXEL_FILL(0), 0, 0, WINDOW_WITDH, 0x20);
+    width = ((WINDOW_WITDH - 4) - GetStringWidth(FONT_SMALL, sFlavorTextOriginLocationTexts[idx], 0)) / 2;
     AddTextPrinterParameterized4(FCWINDOWID_ICONDESC, FONT_SMALL, width, 0, 0, 2, sTextColor_DkGrey, -1, sFlavorTextOriginLocationTexts[idx]);
     StringExpandPlaceholders(gStringVar1, sFlavorTextOriginObjectNameTexts[idx]);
-    width = (0x54 - GetStringWidth(FONT_SMALL, gStringVar1, 0)) / 2;
+    width = ((WINDOW_WITDH - 4) - GetStringWidth(FONT_SMALL, gStringVar1, 0)) / 2;
     AddTextPrinterParameterized4(FCWINDOWID_ICONDESC, FONT_SMALL, width, 10, 0, 2, sTextColor_DkGrey, -1, gStringVar1);
     FC_PutWindowTilemapAndCopyWindowToVramMode3(FCWINDOWID_ICONDESC);
 }
+#undef WINDOW_WITDH
 
 static void UpdateIconDescriptionBoxOff(void)
 {
@@ -1673,6 +1680,69 @@ static void Task_FCOpenOrCloseInfoBox(u8 taskId)
     }
 }
 
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+static void UpdateInfoBoxTilemap(u8 bg, s16 state)
+{
+    if (state == 0 || state == 3)
+    {
+        FillBgTilemapBufferRect(bg, 0x8C, 12, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0xA1, 13, 10, 14,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x8D, 27, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x8E, 28, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x8F, 12, 11,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x00, 13, 11, 15,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x90, 28, 11,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x91, 12, 12,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0xA3, 13, 12, 14,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x92, 27, 12,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x93, 28, 12,  1,  1, 1);
+    }
+    else if (state == 1)
+    {
+        FillBgTilemapBufferRect(bg, 0x9B, 12, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x9C, 13, 10, 15,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x96, 28, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x9D, 12, 11,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x00, 13, 11, 15,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x90, 28, 11,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x9E, 12, 12,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x9F, 13, 12, 15,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x99, 28, 12,  1,  1, 1);
+    }
+    else if (state == 2)
+    {
+        FillBgTilemapBufferRect(bg, 0x94, 12, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x95, 13, 10, 15,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x96, 28, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x8F, 12, 11,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x9A, 13, 11, 15,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x90, 28, 11,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x97, 12, 12,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x98, 13, 12, 15,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x99, 28, 12,  1,  1, 1);
+    }
+    else if (state == 4)
+    {
+        FillBgTilemapBufferRect(bg, 0x83, 12, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0xA0, 13, 10, 14,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x84, 27, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x85, 28, 10,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x86, 12, 11,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0xA2, 13, 11, 14,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x87, 27, 11,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x88, 28, 11,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x83, 12, 12,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0xA0, 13, 12, 14,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x84, 27, 12,  1,  1, 1);
+        FillBgTilemapBufferRect(bg, 0x85, 28, 12,  1,  1, 1);
+    }
+    else if (state == 5)
+    {
+        FillBgTilemapBufferRect(bg, 0x00, 12, 10, 17,  3, 1);
+    }
+    CopyBgTilemapBufferToVram(bg);
+}
+#else
 static void UpdateInfoBoxTilemap(u8 bg, s16 state)
 {
     if (state == 0 || state == 3)
@@ -1734,6 +1804,7 @@ static void UpdateInfoBoxTilemap(u8 bg, s16 state)
     }
     CopyBgTilemapBufferToVram(bg);
 }
+#endif
 
 static void PlaceListMenuCursor(bool8 isActive)
 {
