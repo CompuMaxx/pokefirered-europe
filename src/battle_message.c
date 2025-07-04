@@ -974,7 +974,6 @@ extern u8 *Localize_BattleStrings(const u8 *src);
     stringPtr = Localize_BattleStrings(string);
 #endif
 
-//TODO: decompile this function to match Italian version
 void BufferStringBattle(u16 stringId)
 {
     s32 i;
@@ -1295,7 +1294,8 @@ const u8 *Localize_TrainerClass_Leader(bool32 doubleBattle)
 
 const u8 *Localize_TrainerClass_Names(s32 battleType, u32 trainerId)
 {
-    u8 trainerClass, trainerEncounterMusicId;
+    u8 trainerClass;
+    u32 trainerEncounterMusicId;
     bool8 doubleBattle;
     const u8 * txt;
 
@@ -1373,32 +1373,39 @@ const u8 *Localize_TrainerClass_Leader(bool32 doubleBattle)
     return txt;
 }
 
-//mismatch
 const u8 *Localize_TrainerClass_Names(s32 battleType, u32 trainerId)
 {
-    u8 trainerClass, trainerEncounterMusicId;
+    u8 trainerClass;
+    u32 trainerEncounterMusicId;
+    bool8 doubleBattle;
+    const u8 * txt;
 
     switch (battleType)
     {
     case TRAINER_SECRET_BASE:
         trainerClass = GetSecretBaseTrainerNameIndex();
-        return gTrainerClassNames[trainerClass];
+        txt = gTrainerClassNames[trainerClass];
+        return txt;
 
     case TRAINER_UNION_ROOM:
         trainerClass = GetUnionRoomTrainerClass();
-        return gTrainerClassNames[trainerClass];
+        txt = gTrainerClassNames[trainerClass];
+        return txt;
 
     case BATTLE_TYPE_BATTLE_TOWER:
         trainerClass = GetBattleTowerTrainerClassNameId();
-        return gTrainerClassNames[trainerClass];
+        txt = gTrainerClassNames[trainerClass];
+        return txt;
 
     case BATTLE_TYPE_TRAINER_TOWER:
         trainerClass = GetTrainerTowerOpponentClass();
-        return gTrainerClassNames[trainerClass];
+        txt = gTrainerClassNames[trainerClass];
+        return txt;
 
     case TRAINER_LINK_OPPONENT:
         trainerClass = GetEreaderTrainerClassId();
-        return gTrainerClassNames[trainerClass];
+        txt = gTrainerClassNames[trainerClass];
+        return txt;
 
     default:
         trainerClass = gTrainers[trainerId].trainerClass;
@@ -1406,19 +1413,24 @@ const u8 *Localize_TrainerClass_Names(s32 battleType, u32 trainerId)
 
         if (trainerClass == TRAINER_CLASS_SCHOOL_KID)
         {
-            return Localize_TrainerClass_SchoolKid((u8)trainerEncounterMusicId);
+            return Localize_TrainerClass_SchoolKid(trainerEncounterMusicId);
         }
 
-        if (trainerClass == TRAINER_CLASS_PKMN_TRAINER && (u8)trainerEncounterMusicId == TRAINER_ENCOUNTER_MUSIC_FEMALE)
+        if (trainerClass == TRAINER_CLASS_PKMN_TRAINER && trainerEncounterMusicId == TRAINER_ENCOUNTER_MUSIC_FEMALE)
         {
             return Localize_TrainerClass_PkmnTrainer(FEMALE);
         }
 
         if (trainerClass == TRAINER_CLASS_LEADER)
         {
-            return Localize_TrainerClass_Leader((bool32)gTrainers[trainerId].doubleBattle == TRUE);
+            if (gTrainers[trainerId].doubleBattle == TRUE)
+                doubleBattle = TRUE;
+            else
+                doubleBattle = FALSE;
+            return Localize_TrainerClass_Leader(doubleBattle);
         }
-        return gTrainerClassNames[trainerClass];
+        txt = gTrainerClassNames[trainerClass];
+        return txt;
     }
 }
 #endif
