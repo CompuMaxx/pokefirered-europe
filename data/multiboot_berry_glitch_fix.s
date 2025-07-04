@@ -5,6 +5,8 @@
 gMultiBootProgram_BerryGlitchFix_Start::
 	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.incbin "data/mb_berry_fix_es.gba"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.incbin "data/mb_berry_fix_it.gba"
 	.else @LANGUAGE_ENGLISH
 	.incbin "data/mb_berry_fix.gba"
 	.endif
