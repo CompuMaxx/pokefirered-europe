@@ -37,6 +37,12 @@ sText_MysteryGiftStampCard:
 	.string "de SELLOS.\p"
 	.string "Para completar la TARJETA\n"
 	.string "de SELLOS, te faltan {STR_VAR_1}.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema SCHEDA\n"
+	.string "BOLLINI.\p"
+	.string "Il numero di BOLLINI che ancora ti\n"
+	.string "serve per completare la SCHEDA\l"
+	.string "è {STR_VAR_1}.$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the STAMP CARD\n"
 	.string "System.\p"
@@ -111,6 +117,12 @@ sText_MysteryGiftEgg:
 	.string "Tenemos un REGALO del CENTRO\n"
 	.string "POKéMON: ¡un HUEVO POKéMON!\p"
 	.string "Cuídalo con tacto y cariño.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO.\p"
+	.string "Abbiamo un regalo per te da un\n"
+	.string "CENTRO POKéMON, un UOVO POKéMON!\p"
+	.string "Trattalo con tanto amore!$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
@@ -126,6 +138,12 @@ sText_FullParty:
 	.string "completo.\p"
 	.string "Vuelve cuando dejes algún POKéMON\n"
 	.string "en el PC.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Non hai più posto nella tua\n"
+	.string "squadra.\p"
+	.string "Torna a trovarmi dopo aver\n"
+	.string "depositato uno o più\l"
+	.string "POKéMON nel PC.$"
 	.else @LANGUAGE_ENGLISH
 	.string "Oh, your party appears to be full.\p"
 	.string "Please come see me after storing\n"
@@ -170,6 +188,22 @@ sText_MysteryGiftVisitingTrainer:
 	.string "Escríbela en un cuestionario y\n"
 	.string "envíala al sistema de comunicación\l"
 	.string "inalámbrica.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO.\p"
+	.string "La SCHEDA SEGRETA ti\n"
+	.string "permette di partecipare ad\l"
+	.string "un sondaggio al POKéMON-MARKET.\p"
+	.string "Così, potrai invitare gli\n"
+	.string "ALLENATORI al SETTIPELAGO.\p"
+	.string "Ora ti do la password che ti serve\n"
+	.string "per partecipare a un sondaggio:\p"
+	.string "BATTI CINQUE ACUTI\n"
+	.string "ALLENATORE.\p"
+	.string "Scrivi questa password su\n"
+	.string "un sondaggio e invialo al\l"
+	.string "SISTEMA COMUNICAZIONE\l"
+	.string "WIRELESS.$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
@@ -200,6 +234,17 @@ sText_MysteryGiftVisitingTrainer_2:
 	.string "contraseñas.\p"
 	.string "Busca otras contraseñas\n"
 	.string "que vayan bien.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO.\p"
+	.string "Un ALLENATORE è appena\n"
+	.string "sbarcato sul SETTIPELAGO\l"
+	.string "per cercarti.\p"
+	.string "Buon divertimento nella lotta\n"
+	.string "contro questo ALLENATORE!\p"
+	.string "Inserendo altre password,\n"
+	.string "potrai invitare altri ALLENATORI!\p"
+	.string "Cerca altre password valide!$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
@@ -252,6 +297,16 @@ sText_MysteryGiftBattleCountCard:
 	.string "Cuando leas las NOTICIAS,\n"
 	.string "podrás ver las clasificaciones.\p"
 	.string "¡No te lo pierdas!$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO.\p"
+	.string "La tua SCHEDA CONTALOTTE\n"
+	.string "calcola il numero di LOTTE contro\l"
+	.string "ALLENATORI con la stessa SCHEDA.\p"
+	.string "Cerca altri ALLENATORI che hanno\n"
+	.string "la SCHEDA CONTALOTTE e sfidali!\p"
+	.string "I risultati saranno diffusi tra le\n"
+	.string "NOTIZIE!$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
@@ -273,6 +328,14 @@ sText_MysteryGiftBattleCountCard_2:
 	.string "¡Has ganado un premio por vencer\n"
 	.string "a tu rival en tres combates!\p"
 	.string "¡Esperamos que sigas luchando!$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO!\p"
+	.string "Congratulazioni! Hai ottenuto\n"
+	.string "un premio per aver vinto tre lotte!\p"
+	.string "Speriamo che questo ti aiuti ad\n"
+	.string "impegnarti ancora di più nella\l"
+	.string "lotta!$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
@@ -325,6 +388,11 @@ sText_AuroraTicket1:
 	.string "del REGALO MISTERIOSO.\p"
 	.string "Debes de ser {PLAYER}, ¿no?\p"
 	.string "Pues tenemos un ticket para ti.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO.\p"
+	.string "Tu sei {PLAYER}, vero? Ho qui\n"
+	.string "un biglietto per te.$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
@@ -338,6 +406,11 @@ sText_AuroraTicket2:
 	.string "PUERTO de CIUDAD CARMÍN.\p"
 	.string "¿Por qué no curioseas un poco\n"
 	.string "para ver de qué se trata?$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Dovrebbe servirti al porto di\n"
+	.string "ARANCIOPOLI.\p"
+	.string "Ti conviene andare a vedere\n"
+	.string "di persona.$"
 	.else @LANGUAGE_ENGLISH
 	.string "It appears to be for use at the\n"
 	.string "VERMILION CITY port.\p"
@@ -349,6 +422,9 @@ sText_AuroraTicketGot:
 	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Gracias por usar el sistema\n"
 	.string "del REGALO MISTERIOSO.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO.$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.$"
@@ -360,6 +436,11 @@ sText_AuroraTicketNoPlace:
 	.string "los OBJETOS CLAVE, está lleno.\p"
 	.string "Guarda algo en el PC y vuelve más\n"
 	.string "tarde.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Oh, mi spiace. La TASCA STRUMENTI\n"
+	.string "BASE del tuo ZAINO è piena.\p"
+	.string "Torna a trovarmi dopo aver\n"
+	.string "depositato qualcosa nel PC.$"
 	.else @LANGUAGE_ENGLISH
 	.string "Oh, I'm sorry, {PLAYER}. Your BAG's\n"
 	.string "KEY ITEMS POCKET is full.\p"
@@ -410,6 +491,11 @@ sText_MysticTicket2:
 	.string "del REGALO MISTERIOSO.\p"
 	.string "Debes de ser {PLAYER}, ¿no?\p"
 	.string "Pues tenemos un ticket para ti.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO.\p"
+	.string "Tu sei {PLAYER}, vero? Ho qui\n"
+	.string "un biglietto per te.$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
@@ -423,6 +509,11 @@ sText_MysticTicket1:
 	.string "PUERTO de CIUDAD CARMÍN.\p"
 	.string "¿Por qué no curioseas un poco\n"
 	.string "para ver de qué se trata?$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Dovrebbe servirti al porto di\n"
+	.string "ARANCIOPOLI.\p"
+	.string "Ti conviene andare a vedere\n"
+	.string "di persona.$"
 	.else @LANGUAGE_ENGLISH
 	.string "It appears to be for use at the\n"
 	.string "VERMILION CITY port.\p"
@@ -434,6 +525,9 @@ sText_MysticTicketGot:
 	.if GAME_LANGUAGE == LANGUAGE_SPANISH
 	.string "Gracias por usar el sistema\n"
 	.string "del REGALO MISTERIOSO.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO.$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.$"
@@ -445,6 +539,11 @@ sText_MysticTicketNoPlace:
 	.string "los OBJETOS CLAVE, está lleno.\p"
 	.string "Guarda algo en el PC y vuelve más\n"
 	.string "tarde.$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Oh, mi spiace. La TASCA STRUMENTI\n"
+	.string "BASE del tuo ZAINO è piena.\p"
+	.string "Torna a trovarmi dopo aver\n"
+	.string "depositato qualcosa nel PC.$"
 	.else @LANGUAGE_ENGLISH
 	.string "Oh, I'm sorry, {PLAYER}. Your BAG's\n"
 	.string "KEY ITEMS POCKET is full.\p"
@@ -476,6 +575,14 @@ sText_MysteryGiftAlteringCave:
 	.string "CAMBIANTE y por ISLA AISLADA.\p"
 	.string "¿Por qué no te pasas por allí\n"
 	.string "y ves si los rumores son ciertos?$"
+	.elseif GAME_LANGUAGE == LANGUAGE_ITALIAN
+	.string "Grazie per usare il Sistema\n"
+	.string "DONO SEGRETO.\p"
+	.string "Recentemente sono stati visti\n"
+	.string "POKéMON rari nella GROTTA\l"
+	.string "MUTEVOLE, sull'ISOLA SOLITARIA.\p"
+	.string "Perché non vai a vedere\n"
+	.string "di persona?$"
 	.else @LANGUAGE_ENGLISH
 	.string "Thank you for using the MYSTERY\n"
 	.string "GIFT System.\p"
