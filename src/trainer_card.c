@@ -1381,12 +1381,15 @@ static void BufferLinkBattleResults(void)
     }
 }
 
-#if (GAME_LANGUAGE == LANGUAGE_ENGLISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN)
-    #define X_COORD_WIN_LOSS 130
-    #define X_COORD_LINK_WINS 144
-#else //#elif GAME_LANGUAGE == LANGUAGE_SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
     #define X_COORD_WIN_LOSS 136
     #define X_COORD_LINK_WINS 149
+#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+    #define X_COORD_WIN_LOSS 130
+    #define X_COORD_LINK_WINS 148
+#else //LANGUAGE_ENGLISH
+    #define X_COORD_WIN_LOSS 130
+    #define X_COORD_LINK_WINS 144
 #endif
 
 static void PrintLinkBattleResultsOnCard(void)

@@ -449,6 +449,14 @@ void UpdatePlayerLinkBattleRecords(s32 battlerId)
     }
 }
 
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+    #define TOTALRECORD_X   2
+    #define BATTERECORDS_X  0x4E
+#else
+    #define TOTALRECORD_X   12
+    #define BATTERECORDS_X  0x54
+#endif
+
 static void PrintTotalRecord(struct LinkBattleRecords * records)
 {
     u32 nwins = GetGameStat(GAME_STAT_LINK_BATTLE_WINS);
@@ -486,7 +494,7 @@ static void PrintTotalRecord(struct LinkBattleRecords * records)
     }
 
     StringExpandPlaceholders(gStringVar4, gString_BattleRecords_TotalRecord);
-    AddTextPrinterParameterized4(0, FONT_NORMAL, 12, 24, 0, 2, sTextColor, 0, gStringVar4);
+    AddTextPrinterParameterized4(0, FONT_NORMAL, TOTALRECORD_X, 24, 0, 2, sTextColor, 0, gStringVar4);
 }
 
 static void PrintOpponentBattleRecord(struct LinkBattleRecord * record, u8 y)
@@ -548,11 +556,13 @@ static void PrintBattleRecords(void)
     left = 0xD0 - GetStringWidth(FONT_NORMAL, gStringVar4, -1);
     AddTextPrinterParameterized4(0, FONT_NORMAL, left / 2, 4, 0, 2, sTextColor, 0, gStringVar4);
     PrintTotalRecord(&gSaveBlock2Ptr->linkBattleRecords);
-    AddTextPrinterParameterized4(0, FONT_NORMAL, 0x54, 0x30, 0, 2, sTextColor, 0, gString_BattleRecords_ColumnHeaders);
+    AddTextPrinterParameterized4(0, FONT_NORMAL, BATTERECORDS_X, 0x30, 0, 2, sTextColor, 0, gString_BattleRecords_ColumnHeaders);
     for (i = 0; i < LINK_B_RECORDS_COUNT; i++)
         PrintOpponentBattleRecord(&gSaveBlock2Ptr->linkBattleRecords.entries[i], 0x3D + 14 * i);
     CommitWindow(0);
 }
+#undef TOTALRECORD_X
+#undef BATTERECORDS_X
 
 static void CommitWindow(u8 windowId)
 {

@@ -463,7 +463,11 @@ static const struct {
     },
 };
 
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+#define MB_BERRYFIX_SIZE 0x4124
+#else //LANGUAGE_SPANISH
 #define MB_BERRYFIX_SIZE 0x4120
+#endif
 
 extern const u8 gMultiBootProgram_BerryGlitchFix_Start[MB_BERRYFIX_SIZE];
 extern const u8 gMultiBootProgram_BerryGlitchFix_End[];
