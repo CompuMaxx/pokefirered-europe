@@ -966,7 +966,7 @@ static const u16 sGrammarMoveUsedTable[] =
 extern u8 *Localize_BattleStrings(const u8 *src);
 #endif
 
-#if GAME_LANGUAGE == LANGUAGE_ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH || GAME_LANGUAGE == LANGUAGE_FRENCH //Test
 #define STRINGPTR_RESULT(string) \
     stringPtr = string;
 #else
@@ -1697,7 +1697,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 toCpy = gAbilityNames[sBattlerAbilities[gEffectBattler]];
                 break;
             case B_TXT_TRAINER1_CLASS: // trainer class name
-#if GAME_LANGUAGE == LANGUAGE_ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH || GAME_LANGUAGE == LANGUAGE_FRENCH //Test
                 if (gTrainerBattleOpponent_A == TRAINER_SECRET_BASE)
                     toCpy = gTrainerClassNames[GetSecretBaseTrainerNameIndex()];
                 else if (gTrainerBattleOpponent_A == TRAINER_UNION_ROOM)

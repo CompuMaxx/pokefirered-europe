@@ -130,7 +130,7 @@ MAKEFLAGS += --no-print-directory
 # Delete files that weren't built properly
 .DELETE_ON_ERROR:
 
-ALL_BUILDS := firered firered_rev1 leafgreen leafgreen_rev1 firered_es leafgreen_es firered_it
+ALL_BUILDS := firered firered_rev1 leafgreen leafgreen_rev1 firered_es leafgreen_es firered_it leafgreen_it firered_it leafgreen_fr
 ALL_BUILDS += $(ALL_BUILDS:%=%_modern)
 
 RULES_NO_SCAN += clean clean-assets tidy generated clean-generated
@@ -230,6 +230,9 @@ leafgreen_rev1:         ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_REVISION=1
 firered_es:             ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=SPANISH
 leafgreen_es:           ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH
 firered_it:             ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=ITALIAN
+leafgreen_it:           ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=ITALIAN
+firered_fr:             ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=FRENCH
+leafgreen_fr:           ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=FRENCH
 
 compare_firered:        ; @$(MAKE) GAME_VERSION=FIRERED COMPARE=1
 compare_firered_rev1:   ; @$(MAKE) GAME_VERSION=FIRERED GAME_REVISION=1 COMPARE=1
@@ -239,6 +242,8 @@ compare_firered_es:     ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=SPANISH CO
 compare_leafgreen_es:   ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH COMPARE=1
 compare_firered_it:     ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=ITALIAN COMPARE=1
 compare_leafgreen_it:   ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=ITALIAN COMPARE=1
+#compare_firered_fr:     ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=FRENCH COMPARE=1
+#compare_leafgreen_fr:   ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=FRENCH COMPARE=1
 
 firered_modern:        ; @$(MAKE) GAME_VERSION=FIRERED MODERN=1
 firered_rev1_modern:   ; @$(MAKE) GAME_VERSION=FIRERED GAME_REVISION=1 MODERN=1
@@ -248,6 +253,8 @@ firered_es_modern:     ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=SPANISH MOD
 leafgreen_es_modern:   ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=SPANISH MODERN=1
 firered_it_modern:     ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=ITALIAN MODERN=1
 leafgreen_it_modern:   ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=ITALIAN MODERN=1
+firered_fr_modern:     ; @$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=FRENCH MODERN=1
+leafgreen_fr_modern:   ; @$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=FRENCH MODERN=1
 
 #test
 #Ubuntu 22.04 use: time make rojofuego -j$NPROC
@@ -267,6 +274,15 @@ rossofuoco:
 verdefoglia:
 	@$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=ITALIAN
 	@$(MAKE) syms GAME_VERSION=LEAFGREEN GAME_LANGUAGE=ITALIAN
+
+#WSL2 TEST use: time make rougefeu -j$NPROC
+rougefeu:
+	@$(MAKE) GAME_VERSION=FIRERED GAME_LANGUAGE=FRENCH
+	@$(MAKE) syms GAME_VERSION=FIRERED GAME_LANGUAGE=FRENCH
+
+vertfeuille:
+	@$(MAKE) GAME_VERSION=LEAFGREEN GAME_LANGUAGE=FRENCH
+	@$(MAKE) syms GAME_VERSION=LEAFGREEN GAME_LANGUAGE=FRENCH
 
 modern: ; @$(MAKE) MODERN=1
 
@@ -398,6 +414,16 @@ $(OBJ_DIR)/sym_common.ld: sym_common.txt $(C_OBJS) $(wildcard common_syms/*.txt)
 $(OBJ_DIR)/sym_ewram.ld: sym_ewram.txt
 	$(RAMSCRGEN) ewram_data $< ITALIAN > $@
 endif #ITALIAN
+ifeq ($(GAME_LANGUAGE),FRENCH)
+$(OBJ_DIR)/sym_bss.ld: sym_bss_fr.txt
+	$(RAMSCRGEN) .bss $< FRENCH > $@
+
+$(OBJ_DIR)/sym_common.ld: sym_common.txt $(C_OBJS) $(wildcard common_syms/*.txt)
+	$(RAMSCRGEN) COMMON $< FRENCH -c $(C_BUILDDIR),common_syms > $@
+
+$(OBJ_DIR)/sym_ewram.ld: sym_ewram.txt
+	$(RAMSCRGEN) ewram_data $< FRENCH > $@
+endif #FRENCH
 ifeq ($(GAME_LANGUAGE),SPANISH)
 $(OBJ_DIR)/sym_bss.ld: sym_bss_es.txt
 	$(RAMSCRGEN) .bss $< SPANISH > $@
@@ -416,6 +442,9 @@ ifeq ($(MODERN),0)
   ifeq ($(GAME_LANGUAGE),ENGLISH)
     LD_SCRIPT := ld_script.ld
   endif #ENGLISH
+  ifeq ($(GAME_LANGUAGE),FRENCH)
+    LD_SCRIPT := ld_script_fr.ld
+  endif #FRENCH
   ifeq ($(GAME_LANGUAGE),ITALIAN)
     LD_SCRIPT := ld_script_it.ld
   endif #ITALIAN

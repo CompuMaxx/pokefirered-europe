@@ -1663,3 +1663,38 @@ const u32 sKantoDexTiles[] = INCBIN_U32("graphics/pokedex/kanto_dex_bgtiles_it.4
 const u32 sNatDexTiles[] = INCBIN_U32("graphics/pokedex/national_dex_bgtiles_it.4bpp.lz");
 const u32 sCategoryMonInfoBgTiles[] = INCBIN_U32("graphics/pokedex/mini_page_it.4bpp.lz");
 #endif //LANGUAGE_ITALIAN
+
+#if GAME_LANGUAGE == LANGUAGE_FRENCH //static .rodata to global gfx_data
+const u32 sHoennTrainerCardFront_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front.bin.lz");
+const u32 sHoennTrainerCardFrontLink_Tilemap[] = INCBIN_U32("graphics/trainer_card/rse/front_link.bin.lz");
+const u32 sKantoTrainerCardBack_Tilemap[] = INCBIN_U32("graphics/trainer_card/back.bin.lz"); //TODO: change graphics
+
+const u16 sTheEnd_Pal[] = INCBIN_U16("graphics/credits/the_end.gbapal"); //TODO: change graphics
+const u8 sTheEnd_Tiles[] = INCBIN_U8("graphics/credits/the_end.4bpp.lz"); //TODO: change graphics
+const u8 sTheEnd_Tilemap[] = INCBIN_U8("graphics/credits/the_end.bin.lz"); //TODO: change graphics
+
+const u32 sPresents_Gfx[] = INCBIN_U32("graphics/intro/game_freak/presents_it.4bpp.lz"); //TODO: change graphics
+
+#ifdef FIRERED
+const u16 sBg_Pal[][16] = INCBIN_U16("graphics/slot_machine/firered/bg.gbapal");
+const u32 sBg_Tiles[] = INCBIN_U32("graphics/slot_machine/firered/bg_it.4bpp.lz"); //TODO: change graphics
+const u32 sBg_Tilemap[] = INCBIN_U32("graphics/slot_machine/firered/bg.bin.lz");
+#endif //FIRERED
+
+#ifdef LEAFGREEN
+const u16 sBg_Pal[][16] = INCBIN_U16("graphics/slot_machine/leafgreen/bg.gbapal");
+const u32 sBg_Tiles[] = INCBIN_U32("graphics/slot_machine/leafgreen/bg.4bpp.lz"); //TODO: change graphics
+const u32 sBg_Tilemap[] = INCBIN_U32("graphics/slot_machine/leafgreen/bg.bin.lz");
+#endif //LEAFGREEN
+
+const u16 sSpritePal_321Start[] = INCBIN_U16("graphics/misc/minigame_countdown.gbapal"); //TODO: change graphics
+const u16 sSpriteSheet_321Start[] = INCBIN_U16("graphics/misc/minigame_countdown.4bpp.lz"); //TODO: change graphics
+
+const u16 sBonuses_Pal[] = INCBIN_U16("graphics/pokemon_jump/bonuses.gbapal");
+const u32 sBonuses_Gfx[] = INCBIN_U32("graphics/pokemon_jump/bonuses.4bpp.lz"); //TODO: change graphics
+const u32 sBonuses_Tilemap[] = INCBIN_U32("graphics/pokemon_jump/bonuses.bin.lz"); //TODO: change graphics
+
+const u32 sKantoDexTiles[] = INCBIN_U32("graphics/pokedex/kanto_dex_bgtiles.4bpp.lz"); //TODO: change graphics
+const u32 sNatDexTiles[] = INCBIN_U32("graphics/pokedex/national_dex_bgtiles.4bpp.lz"); //TODO: change graphics
+const u32 sCategoryMonInfoBgTiles[] = INCBIN_U32("graphics/pokedex/mini_page.4bpp.lz"); //TODO: change graphics
+#endif //LANGUAGE_FRENCH
