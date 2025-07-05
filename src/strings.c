@@ -13,6 +13,12 @@
 #include "data/text/strings_2_it.h"
 #include "data/text/teachy_tv_it.h"
 #include "data/text/strings_3_it.h"
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+#include "data/text/strings_1_fr.h"
+#include "data/text/quest_log_fr.h"
+#include "data/text/strings_2_fr.h"
+#include "data/text/teachy_tv_fr.h"
+#include "data/text/strings_3_fr.h"
 #else
 #include "data/text/strings_1_en.h"
 #include "data/text/quest_log_en.h"
