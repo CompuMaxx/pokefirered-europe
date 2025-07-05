@@ -136,6 +136,9 @@ $(MISCGFXDIR)/markings2_es.4bpp: %.4bpp: %.png
 $(MISCGFXDIR)/markings2_it.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 25 -Wnum_tiles
 
+$(MISCGFXDIR)/markings2_fr.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 25 -Wnum_tiles
+
 $(INTERFACEGFXDIR)/menu.gbapal: $(INTERFACEGFXDIR)/menu_0.gbapal \
 						$(INTERFACEGFXDIR)/menu_1.gbapal
 	@cat $^ >$@
@@ -237,6 +240,9 @@ $(PARTYMENUGFXDIR)/bg_es.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 62 -Wnum_tiles
 
 $(PARTYMENUGFXDIR)/bg_it.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 62 -Wnum_tiles
+
+$(PARTYMENUGFXDIR)/bg_fr.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 62 -Wnum_tiles
 
 $(TYPESGFXDIR)/move_types.4bpp: $(types:%=$(TYPESGFXDIR)/%.4bpp) $(contest_types:%=$(TYPESGFXDIR)/contest_%.4bpp)
@@ -492,6 +498,9 @@ $(FAMECHECKERGFXDIR)/bg_es.4bpp: %.4bpp: %.png
 $(FAMECHECKERGFXDIR)/bg_it.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 165 -Wnum_tiles
 
+$(FAMECHECKERGFXDIR)/bg_fr.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 165 -Wnum_tiles
+
 graphics/seagallop/water.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 41 -Wnum_tiles
 
@@ -513,6 +522,9 @@ $(SLOTMACHINEGFXDIR)/firered/bg_es.4bpp: %.4bpp: %.png
 $(SLOTMACHINEGFXDIR)/firered/bg_it.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 138 -Wnum_tiles
 
+$(SLOTMACHINEGFXDIR)/firered/bg_fr.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 138 -Wnum_tiles
+
 $(SLOTMACHINEGFXDIR)/leafgreen/bg.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 134 -Wnum_tiles
 
@@ -522,6 +534,9 @@ $(SLOTMACHINEGFXDIR)/leafgreen/bg_es.4bpp: %.4bpp: %.png
 $(SLOTMACHINEGFXDIR)/leafgreen/bg_it.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 134 -Wnum_tiles
 
+$(SLOTMACHINEGFXDIR)/leafgreen/bg_fr.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 134 -Wnum_tiles
+
 $(TEACHYTVGFXDIR)/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 233 -Wnum_tiles
 
@@ -529,6 +544,9 @@ $(TEACHYTVGFXDIR)/tiles_es.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 233
 
 $(TEACHYTVGFXDIR)/tiles_it.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 233
+
+$(TEACHYTVGFXDIR)/tiles_fr.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 233
 
 $(SSANNEGFXDIR)/smoke.4bpp: %.4bpp: %.png
@@ -637,6 +655,9 @@ $(TILESETGFXDIR)/secondary/department_store/tiles_es.4bpp: %.4bpp: %.png
 
 $(TILESETGFXDIR)/secondary/department_store/tiles_it.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 202
+
+$(TILESETGFXDIR)/secondary/department_store/tiles_fr.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 203
 
 $(MAPPREVIEWGFXDIR)/altering_cave/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 391 -Wnum_tiles
