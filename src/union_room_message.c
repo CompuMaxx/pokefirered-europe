@@ -19,6 +19,12 @@ ALIGNED(4) const u8 gText_UR_WirelessSearchCanceled[] = _("SISTEMA COMUNICAZIONE
 ALIGNED(4) static const u8 sText_AwaitingCommunucation2[] = _("ともだちからの れんらくを\nまっています");
 ALIGNED(4) const u8 gText_UR_AwaitingCommunication[] = _("{STR_VAR_1}! In attesa\ncomunicazione da altro giocatore.");
 ALIGNED(4) const u8 gText_UR_AwaitingLinkPressStart[] = _("{STR_VAR_1}! Quando siete\ntutti pronti, premi START.");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_PleaseStartOver[] = _("Veuillez recommencer depuis le début.");
+ALIGNED(4) const u8 gText_UR_WirelessSearchCanceled[] = _("La recherche de la COMMUNICATION\nSANS FIL a été annulée.");
+ALIGNED(4) static const u8 sText_AwaitingCommunucation2[] = _("ともだちからの れんらくを\nまっています");
+ALIGNED(4) const u8 gText_UR_AwaitingCommunication[] = _("{STR_VAR_1}! Attente \nd'un autre joueur.");
+ALIGNED(4) const u8 gText_UR_AwaitingLinkPressStart[] = _("{STR_VAR_1}! Attente de\nlink! App. sur START une fois prêts");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_PleaseStartOver[] = _("Please start over from the beginning.");
 ALIGNED(4) const u8 gText_UR_WirelessSearchCanceled[] = _("The WIRELESS COMMUNICATION\nSYSTEM search has been canceled.");
@@ -77,6 +83,15 @@ static const u8 sText_2PlayerMode[] = _("MODALITÀ\n2 GIOC.");
 static const u8 sText_3PlayerMode[] = _("MODALITÀ\n3 GIOC.");
 static const u8 sText_4PlayerMode[] = _("MODALITÀ\n4 GIOC.");
 static const u8 sText_5PlayerMode[] = _("MODALITÀ\n5 GIOC.");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+static const u8 sText_1PlayerNeeded[] = _("Manque\n1 J.");
+static const u8 sText_2PlayersNeeded[] = _("Manque\n2 J.");
+static const u8 sText_3PlayersNeeded[] = _("Manque\n3 J.");
+static const u8 sText_4PlayersNeeded[] = _("あと4にん\nひつよう");
+static const u8 sText_2PlayerMode[] = _("MODE\n2 JOUEURS");
+static const u8 sText_3PlayerMode[] = _("MODE\n3 JOUEURS");
+static const u8 sText_4PlayerMode[] = _("MODE\n4 JOUEURS");
+static const u8 sText_5PlayerMode[] = _("MODE\n5 JOUEURS");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 static const u8 sText_1PlayerNeeded[] = _("1 player\nneeded.");
 static const u8 sText_2PlayersNeeded[] = _("2 players\nneeded.");
@@ -141,6 +156,19 @@ ALIGNED(4) const u8 gText_UR_AnOKWasSentToPlayer[] = _("Inviato “OK”\na {STR
 ALIGNED(4) static const u8 sText_OtherTrainerUnavailableNow[] = _("L'altro ALLENATORE non è\ndisponibile al momento.\p");
 ALIGNED(4) static const u8 sText_CantTransmitTrainerTooFar[] = _("Non puoi comunicare con un\nALLENATORE troppo distante.\p");
 ALIGNED(4) static const u8 sText_TrainersNotReadyYet[] = _("L'altro ALLENATORE o gli altri\nALLENATORI non sono disponibili.\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_BButtonCancel[] = _("{B_BUTTON}RETOUR");
+ALIGNED(4) static const u8 sText_SearchingForParticipants[] = _("ため\nさんかしゃ ぼしゅうちゅう です！");
+ALIGNED(4) const u8 gText_UR_PlayerContactedYouForXAccept[] = _("{STR_VAR_2} vous contacte pour un\n{STR_VAR_1}. Accepter?");
+ALIGNED(4) const u8 gText_UR_PlayerContactedYouShareX[] = _("{STR_VAR_2} vous a contacté.\nPartager {STR_VAR_1}?");
+ALIGNED(4) const u8 gText_UR_PlayerContactedYouAddToMembers[] = _("{STR_VAR_2} vous a contacté.\nL'ajouter aux membres?");
+ALIGNED(4) const u8 gText_UR_AreTheseMembersOK[] = _("{STR_VAR_1}!\nOK avec ces membres?");
+ALIGNED(4) const u8 gText_UR_CancelModeWithTheseMembers[] = _("Annuler le MODE {STR_VAR_1}\navec ces membres?");
+ALIGNED(4) const u8 gText_UR_AnOKWasSentToPlayer[] = _("“OK” a été envoyé\nà {STR_VAR_1}.");
+
+ALIGNED(4) static const u8 sText_OtherTrainerUnavailableNow[] = _("L'autre DRESSEUR ne semble\npas être disponible…\p");
+ALIGNED(4) static const u8 sText_CantTransmitTrainerTooFar[] = _("Transmission impossible avec\nun DRESSEUR trop éloigné.\p");
+ALIGNED(4) static const u8 sText_TrainersNotReadyYet[] = _("Tous les DRESSEURS\nne sont pas prêts.\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_BButtonCancel[] = _("{B_BUTTON}CANCEL");
 ALIGNED(4) static const u8 sText_SearchingForParticipants[] = _("ため\nさんかしゃ ぼしゅうちゅう です！");
@@ -167,6 +195,9 @@ ALIGNED(4) static const u8 sText_MemberNoLongerAvailable[] = _("Hay un miembro d
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) const u8 gText_UR_ModeWithTheseMembersWillBeCanceled[] = _("La MODALITÀ {STR_VAR_1} con\nquesti partecipanti sarà annullata.{PAUSE 90}");
 ALIGNED(4) static const u8 sText_MemberNoLongerAvailable[] = _("Uno dei partecipanti non può\ncontinuare.\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_ModeWithTheseMembersWillBeCanceled[] = _("Le MODE {STR_VAR_1} avec\nces membres va être annulé.{PAUSE}Í");
+ALIGNED(4) static const u8 sText_MemberNoLongerAvailable[] = _("Un des membres ne sera\nbientôt plus disponible.\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_ModeWithTheseMembersWillBeCanceled[] = _("The {STR_VAR_1} MODE with\nthese members will be canceled.{PAUSE 90}");
 ALIGNED(4) static const u8 sText_MemberNoLongerAvailable[] = _("There is a member who can no\nlonger remain available.\p");
@@ -193,6 +224,14 @@ ALIGNED(4) static const u8 sText_PlayerRepliedNo[] = _("{STR_VAR_1} ha risposto 
 ALIGNED(4) const u8 gText_UR_AwaitingOtherMembers[] = _("{STR_VAR_1}!\nIn attesa di altri partecipanti…");
 ALIGNED(4) const u8 gText_UR_QuitBeingMember[] = _("Vuoi uscire?");
 ALIGNED(4) static const u8 sText_StoppedBeingMember[] = _("Non sei più tra i partecipanti.\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_TrainerAppearsUnavailable[] = _("L'autre DRESSEUR est\nindisponible…\p");
+ALIGNED(4) const u8 gText_UR_PlayerSentBackOK[] = _("{STR_VAR_1} renvoie un “OK”!");
+ALIGNED(4) const u8 gText_UR_PlayerOKdRegistration[] = _("{STR_VAR_1} vous accepte comme\nmembre.");
+ALIGNED(4) static const u8 sText_PlayerRepliedNo[] = _("{STR_VAR_1} répond “Non…”.\p");
+ALIGNED(4) const u8 gText_UR_AwaitingOtherMembers[] = _("{STR_VAR_1}!\nAttente d'autres membres!");
+ALIGNED(4) const u8 gText_UR_QuitBeingMember[] = _("Se désinscrire?");
+ALIGNED(4) static const u8 sText_StoppedBeingMember[] = _("Vous n'êtes plus membre.\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_TrainerAppearsUnavailable[] = _("The other TRAINER appears\nunavailable…\p");
 ALIGNED(4) const u8 gText_UR_PlayerSentBackOK[] = _("{STR_VAR_1} sent back an “OK”!");
@@ -226,6 +265,11 @@ ALIGNED(4) const u8 gText_UR_WirelessLinkEstablished[] = _("Stabilito collegamen
 ALIGNED(4) const u8 gText_UR_WirelessLinkDropped[] = _("Interrotto collegamento SISTEMA\nCOMUNICAZIONE WIRELESS.");
 ALIGNED(4) const u8 gText_UR_LinkWithFriendDropped[] = _("Il collegamento è stato interrotto.");
 ALIGNED(4) static const u8 sText_PlayerRepliedNo2[] = _("{STR_VAR_1} ha risposto\ncon un “no…”");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_WirelessLinkEstablished[] = _("Le réseau de COMMUNICATION SANS\nFIL a été établi.");
+ALIGNED(4) const u8 gText_UR_WirelessLinkDropped[] = _("Le réseau de COMMUNICATION SANS\nFIL a été interrompu.");
+ALIGNED(4) const u8 gText_UR_LinkWithFriendDropped[] = _("Le link avec votre ami a été\ninterrompu…");
+ALIGNED(4) static const u8 sText_PlayerRepliedNo2[] = _("{STR_VAR_1} répond “Non…”.");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_WirelessLinkEstablished[] = _("The WIRELESS COMMUNICATION\nSYSTEM link has been established.");
 ALIGNED(4) const u8 gText_UR_WirelessLinkDropped[] = _("The WIRELESS COMMUNICATION\nSYSTEM link has been dropped…");
@@ -252,6 +296,9 @@ ALIGNED(4) static const u8 sText_DoYouWantXMode2[] = _("¿Eliges {STR_VAR_2}?");
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) static const u8 sText_DoYouWantXMode[] = _("Vuoi la MODALITÀ\n{STR_VAR_2}?");
 ALIGNED(4) static const u8 sText_DoYouWantXMode2[] = _("Vuoi la MODALITÀ\n{STR_VAR_2}?");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_DoYouWantXMode[] = _("Voulez-vous le MODE\n{STR_VAR_2}?");
+ALIGNED(4) static const u8 sText_DoYouWantXMode2[] = _("Voulez-vous le MODE\n{STR_VAR_2}?");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_DoYouWantXMode[] = _("Do you want the {STR_VAR_2}\nMODE?");
 ALIGNED(4) static const u8 sText_DoYouWantXMode2[] = _("Do you want the {STR_VAR_2}\nMODE?");
@@ -276,6 +323,12 @@ ALIGNED(4) const u8 gText_UR_AwaitingPlayersResponseAboutTrade[] = _("In attesa 
 ALIGNED(4) static const u8 sText_Communicating[] = _("Comunicazione in corso{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.");
 ALIGNED(4) static const u8 sText_CommunicatingWithPlayer[] = _("Comunicazione con {STR_VAR_1}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.");
 ALIGNED(4) static const u8 sText_PleaseWaitAWhile[] = _("Attendi{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_AwaitingPlayersResponseAboutTrade[] = _("Attente d'une réponse de {STR_VAR_1}\npour l'échange…");
+
+ALIGNED(4) static const u8 sText_Communicating[] = _("Communication en cours{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.");
+ALIGNED(4) static const u8 sText_CommunicatingWithPlayer[] = _("Communication avec {STR_VAR_1}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.");
+ALIGNED(4) static const u8 sText_PleaseWaitAWhile[] = _("Patienter un instant{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_AwaitingPlayersResponseAboutTrade[] = _("Awaiting {STR_VAR_1}'s response about\nthe trade…");
 
@@ -300,6 +353,11 @@ ALIGNED(4) static const u8 sText_HiDoSomethingMale[] = _("Ciao! Che cosa vuoi fa
 ALIGNED(4) static const u8 sText_HiDoSomethingFemale[] = _("Ehi, ciao! Che cosa vuoi fare?");
 ALIGNED(4) static const u8 sText_HiDoSomethingAgainMale[] = _("{STR_VAR_1}: Ciao, ci si rincontra!\nCosa vuoi fare questa volta?");
 ALIGNED(4) static const u8 sText_HiDoSomethingAgainFemale[] = _("{STR_VAR_1}: Ciao, {PLAYER}!\nChe cosa vuoi fare?");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_HiDoSomethingMale[] = _("Salut! Vous vouliez quelque chose?");
+ALIGNED(4) static const u8 sText_HiDoSomethingFemale[] = _("Bonjour jeune fille.\nJe peux vous aider?");
+ALIGNED(4) static const u8 sText_HiDoSomethingAgainMale[] = _("{STR_VAR_1}: Content de vous revoir!\nQu'est-ce que ça sera cette fois?");
+ALIGNED(4) static const u8 sText_HiDoSomethingAgainFemale[] = _("{STR_VAR_1}: Oh! Bonjour, {PLAYER}!\nVous désirez quelque chose?");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_HiDoSomethingMale[] = _("Hiya! Is there something that you\nwanted to do?");
 ALIGNED(4) static const u8 sText_HiDoSomethingFemale[] = _("Hello!\nWould you like to do something?");
@@ -325,6 +383,10 @@ ALIGNED(4) static const u8 sText_DoSomethingAgainMale[] = _("{STR_VAR_1}: ¿Qué
 ALIGNED(4) static const u8 sText_DoSomethingMale[] = _("Che cosa vuoi fare?");
 ALIGNED(4) static const u8 sText_DoSomethingFemale[] = _("Che cosa vuoi fare?");
 ALIGNED(4) static const u8 sText_DoSomethingAgainMale[] = _("{STR_VAR_1}: Che cosa vuoi fare ora?");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_DoSomethingMale[] = _("Quelque chose vous tente?");
+ALIGNED(4) static const u8 sText_DoSomethingFemale[] = _("Vous désirez quelque chose?");
+ALIGNED(4) static const u8 sText_DoSomethingAgainMale[] = _("{STR_VAR_1}: Qu'est-ce que vous\nvoulez faire maintenant?");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_DoSomethingMale[] = _("Want to do something?");
 ALIGNED(4) static const u8 sText_DoSomethingFemale[] = _("Would you like to do something?");
@@ -349,6 +411,9 @@ ALIGNED(4) static const u8 sText_PlayerHasContactedYou[] = _("{STR_VAR_1} está\
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) static const u8 sText_SomebodyHasContactedYou[] = _("Qualcuno ti ha contattato.{PAUSE 60}");
 ALIGNED(4) static const u8 sText_PlayerHasContactedYou[] = _("{STR_VAR_1} ti ha contattato.{PAUSE 60}");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_SomebodyHasContactedYou[] = _("Quelqu'un vous contacte.{PAUSE 60}");
+ALIGNED(4) static const u8 sText_PlayerHasContactedYou[] = _("{STR_VAR_1} essaie de vous contacter.{PAUSE 60}");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_SomebodyHasContactedYou[] = _("Somebody has contacted you.{PAUSE 60}");
 ALIGNED(4) static const u8 sText_PlayerHasContactedYou[] = _("{STR_VAR_1} has contacted you.{PAUSE 60}");
@@ -365,6 +430,9 @@ ALIGNED(4) static const u8 sText_AwaitingResponseFromPlayer[] = _("Esperando res
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) static const u8 sText_AwaitingResponseFromTrainer[] = _("In attesa di risposta\ndall'altro ALLENATORE…");
 ALIGNED(4) static const u8 sText_AwaitingResponseFromPlayer[] = _("In attesa di risposta\nda {STR_VAR_1}…");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_AwaitingResponseFromTrainer[] = _("En attente d'une réponse de\nl'autre DRESSEUR…");
+ALIGNED(4) static const u8 sText_AwaitingResponseFromPlayer[] = _("En attente d'une réponse de\n{STR_VAR_1}…");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_AwaitingResponseFromTrainer[] = _("Awaiting a response from\nthe other TRAINER…");
 ALIGNED(4) static const u8 sText_AwaitingResponseFromPlayer[] = _("Awaiting a response from\n{STR_VAR_1}…");
@@ -397,6 +465,16 @@ ALIGNED(4) const u8 gText_UR_ChatDropped[] = _("La chat è stata interrotta.\p")
 ALIGNED(4) const u8 gText_UR_OfferDeclined1[] = _("Hai rifiutato l'offerta.\p");
 ALIGNED(4) const u8 gText_UR_OfferDeclined2[] = _("Hai rifiutato l'offerta.\p");
 ALIGNED(4) const u8 gText_UR_ChatEnded[] = _("La chat è stata conclusa.\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_ShowTrainerCard[] = _("L'autre DRESSEUR vous montre\nsa CARTE DE DRESSEUR.\pVoulez-vous montrer votre\nCARTE DE DRESSEUR?");
+ALIGNED(4) const u8 gText_UR_BattleChallenge[] = _("L'autre DRESSEUR veut se\nbattre contre vous.\pAccepter le combat?");
+ALIGNED(4) const u8 gText_UR_ChatInvitation[] = _("L'autre DRESSEUR vous invite\nà discuter.\pAccepter l'invitation?");
+ALIGNED(4) const u8 gText_UR_OfferToTradeMon[] = _("Il y a une offre d'échange pour\nvotre {DYNAMIC 1} de N. {DYNAMIC} \pcontre un\n{DYNAMIC 3} de N. {DYNAMIC 2}.\pAccepter l'échange?");
+ALIGNED(4) const u8 gText_UR_OfferToTradeEgg[] = _("Il y a une offre d'échange pour\nvotre OEUF enregistré.\lAccepter l'offre d'échange?");
+ALIGNED(4) const u8 gText_UR_ChatDropped[] = _("Le tchat est abandonné.");
+ALIGNED(4) const u8 gText_UR_OfferDeclined1[] = _("Vous déclinez l'offre.\p");
+ALIGNED(4) const u8 gText_UR_OfferDeclined2[] = _("L'offre est déclinée.\p");
+ALIGNED(4) const u8 gText_UR_ChatEnded[] = _("La discussion est terminée.");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_ShowTrainerCard[] = _("The other TRAINER showed\nyou their TRAINER CARD.\pWould you like to show your\nTRAINER CARD?");
 ALIGNED(4) const u8 gText_UR_BattleChallenge[] = _("The other TRAINER challenges you\nto battle.\pWill you accept the battle\nchallenge?");
@@ -427,6 +505,11 @@ ALIGNED(4) static const u8 sText_JoinChatMale[] = _("Ehi, ciao! Siamo in chat!\n
 ALIGNED(4) static const u8 sText_PlayerJoinChatMale[] = _("{STR_VAR_1}: Ehi, {PLAYER}!\nSiamo in chat!\lVuoi partecipare?");
 ALIGNED(4) static const u8 sText_JoinChatFemale[] = _("Ciao! Siamo in chat!\nVuoi partecipare?");
 ALIGNED(4) static const u8 sText_PlayerJoinChatFemale[] = _("{STR_VAR_1}: Ciao, {PLAYER}!\nSiamo in chat!\lVuoi partecipare?");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_JoinChatMale[] = _("On est en plein dans un tchat.\nTu nous rejoins?");
+ALIGNED(4) static const u8 sText_PlayerJoinChatMale[] = _("{STR_VAR_1}: Salut, {PLAYER}!\nOn est en train de tchater.\lTu veux nous rejoindre?");
+ALIGNED(4) static const u8 sText_JoinChatFemale[] = _("Bonjour! On est en plein dans\nun tchat. Tu nous rejoins?");
+ALIGNED(4) static const u8 sText_PlayerJoinChatFemale[] = _("{STR_VAR_1}: Oh, coucou, {PLAYER}!\nNous sommes en train de tchater.\lTu te joins à nous?");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_JoinChatMale[] = _("Oh, hey! We're in a chat right now.\nWant to join us?");
 ALIGNED(4) static const u8 sText_PlayerJoinChatMale[] = _("{STR_VAR_1}: Hey, {PLAYER}!\nWe're having a chat right now.\lWant to join us?");
@@ -460,6 +543,14 @@ ALIGNED(4) static const u8 sText_ShowTrainerCardMale[] = _("Senz'altro! Eccoti l
 ALIGNED(4) static const u8 sText_WaitForBattleFemale[] = _("Una lotta?\nVa bene! Aspetta solo un momento!");
 ALIGNED(4) static const u8 sText_WaitForChatFemale[] = _("Vuoi chattare?\nOK, aspetta un momento.");
 ALIGNED(4) static const u8 sText_ShowTrainerCardFemale[] = _("Per presentarmi ti mostro la\nmia SCHEDA ALLENATORE!");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_TrainerAppearsBusy[] = _("……\nLe DRESSEUR est occupé…\p");
+ALIGNED(4) static const u8 sText_WaitForBattleMale[] = _("Un combat, hein?\nTrès bien, juste un instant.");
+ALIGNED(4) static const u8 sText_WaitForChatMale[] = _("Un tchat?\nPas de problème, juste un instant.");
+ALIGNED(4) static const u8 sText_ShowTrainerCardMale[] = _("Pareil pour moi!\nVoilà ma CARTE DE DRESSEUR.");
+ALIGNED(4) static const u8 sText_WaitForBattleFemale[] = _("Un combat? Bien sûr!\nJuste un instant, je me prépare.");
+ALIGNED(4) static const u8 sText_WaitForChatFemale[] = _("Un tchat?\nPas de problème, juste un instant.");
+ALIGNED(4) static const u8 sText_ShowTrainerCardFemale[] = _("On se présente?\nVoilà ma CARTE DE DRESSEUR.");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_TrainerAppearsBusy[] = _("……\nThe TRAINER appears to be busy…\p");
 ALIGNED(4) static const u8 sText_WaitForBattleMale[] = _("A battle, huh?\nAll right, just give me some time.");
@@ -501,6 +592,14 @@ ALIGNED(4) static const u8 sText_DoneWaitingChatFemale[] = _("Scusa, t'ho fatto 
 ALIGNED(4) static const u8 sText_TradeWillBeStarted[] = _("Ha inizio lo scambio.{PAUSE 60}");
 ALIGNED(4) static const u8 sText_BattleWillBeStarted[] = _("Ha inizio la lotta.{PAUSE 60}");
 ALIGNED(4) static const u8 sText_EnteringChat[] = _("Ha inizio la chat.{PAUSE 60}");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_DoneWaitingBattleMale[] = _("Merci d'avoir patienté!\nAllez, commençons le combat!{PAUSE 60}");
+ALIGNED(4) static const u8 sText_DoneWaitingChatMale[] = _("Parfait!\nCommençons le tchat.{PAUSE 60}");
+ALIGNED(4) static const u8 sText_DoneWaitingBattleFemale[] = _("Tu n'as pas trop attendu?\nCommençons!{PAUSE 60}");
+ALIGNED(4) static const u8 sText_DoneWaitingChatFemale[] = _("Tu n'as pas trop attendu?\nCommençons le tchat.{PAUSE 60}");
+ALIGNED(4) static const u8 sText_TradeWillBeStarted[] = _("L'échange va commencer.{PAUSE 60}");
+ALIGNED(4) static const u8 sText_BattleWillBeStarted[] = _("Le combat va commencer.{PAUSE 60}");
+ALIGNED(4) static const u8 sText_EnteringChat[] = _("Début du tchat…{PAUSE 60}");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_DoneWaitingBattleMale[] = _("Thanks for waiting!\nLet's get our battle started!{PAUSE 60}");
 ALIGNED(4) static const u8 sText_DoneWaitingChatMale[] = _("All right!\nLet's chat!{PAUSE 60}");
@@ -541,6 +640,9 @@ ALIGNED(4) static const u8 sText_BattleDeclinedFemale[] = _("No sabes cómo lo s
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) static const u8 sText_BattleDeclinedMale[] = _("Scusa, ma i miei POKéMON non si\nsentono molto bene al momento.\lLotteremo un'altra volta!\p");
 ALIGNED(4) static const u8 sText_BattleDeclinedFemale[] = _("Mi spiace, ma i miei POKéMON non\nsi sentono bene in questo momento.\lSarà per un'altra volta!\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_BattleDeclinedMale[] = _("Dommage! Mes POKéMON ne sont\npas vraiment en forme.\lJe t'écraserai une prochaine fois.\p");
+ALIGNED(4) static const u8 sText_BattleDeclinedFemale[] = _("Je suis désolée, mais mes POKéMON\nne se sentent pas bien…\pBattons-nous une prochaine fois!\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_BattleDeclinedMale[] = _("Sorry! My POKéMON don't seem to\nbe feeling too well right now.\lLet me battle you another time.\p");
 ALIGNED(4) static const u8 sText_BattleDeclinedFemale[] = _("I'm terribly sorry, but my POKéMON\naren't feeling well…\pLet's battle another time.\p");
@@ -557,6 +659,9 @@ ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedFemale[] = _("Eh..., no 
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedMale[] = _("Dov'è finita la mia SCHEDA\nALLENATORE?! Scusa, te la\lmostrerò un'altra volta.\p");
 ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedFemale[] = _("Ma dove avrò messo la mia SCHEDA\nALLENATORE?! Scusa ma non\lte la posso mostrare.\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedMale[] = _("Hein? Ma CARTE DE DRESSEUR…\nJ'l'ai mise où?\lTant pis, la prochaine alors!\p");
+ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedFemale[] = _("Oh! Mais où est passée ma\nCARTE DE DRESSEUR?\lDésolée! La prochaine fois alors!\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedMale[] = _("Huh? My TRAINER CARD…\nWhere'd it go now?\lSorry! I'll show you another time!\p");
 ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedFemale[] = _("Oh? Now where did I put my\nTRAINER CARD?…\lSorry! I'll show you later!\p");
@@ -573,6 +678,9 @@ ALIGNED(4) static const u8 sText_IfYouWantToDoSomethingFemale[] = _("Cuando quie
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) static const u8 sText_IfYouWantToDoSomethingMale[] = _("Se vuoi chattare, scambiare o\nlottare con me, fammi un fischio.\p");
 ALIGNED(4) static const u8 sText_IfYouWantToDoSomethingFemale[] = _("Se vuoi chattare, scambiare o\nlottare con me, mi trovi qui.\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_IfYouWantToDoSomethingMale[] = _("Si tu as besoin de moi,\nfais-moi signe!\p");
+ALIGNED(4) static const u8 sText_IfYouWantToDoSomethingFemale[] = _("Si tu veux faire un truc, n'hésite\npas à demander.\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_IfYouWantToDoSomethingMale[] = _("If you want to do something with\nme, just give me a shout!\p");
 ALIGNED(4) static const u8 sText_IfYouWantToDoSomethingFemale[] = _("If you want to do something with\nme, don't be shy.\p");
@@ -597,6 +705,13 @@ ALIGNED(4) const u8 gText_UR_NeedTwoMonsOfLevel30OrLower2[] = _("Puoi lottare se
 
 ALIGNED(4) static const u8 sText_DeclineChatMale[] = _("Oh… Va bene.\nTorna a trovarmi quando vuoi!");
 ALIGNED(4) static const u8 stext_DeclineChatFemale[] = _("Oh…\nBeh, torna quando vuoi!");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_TrainerBattleBusy[] = _("Oups! Dommage, j'ai autre \nchose à faire.\lUne autre fois, OK?\p");
+ALIGNED(4) const u8 gText_UR_NeedTwoMonsOfLevel30OrLower1[] = _("Si tu veux te battre, il te faut\ndeux POKéMON de niveau\linférieur à 30.\p");
+ALIGNED(4) const u8 gText_UR_NeedTwoMonsOfLevel30OrLower2[] = _("Pour combattre, il te faut deux\nPOKéMON de niveau inférieur\là 30.\p");
+
+ALIGNED(4) static const u8 sText_DeclineChatMale[] = _("Bon, OK.\nA la prochaine alors.\p");
+ALIGNED(4) static const u8 stext_DeclineChatFemale[] = _("Oh…\nA la prochaine alors.\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_TrainerBattleBusy[] = _("Whoops! Sorry, but I have to do\nsomething else.\lAnother time, okay?\p");
 ALIGNED(4) const u8 gText_UR_NeedTwoMonsOfLevel30OrLower1[] = _("If you want to battle, you need\ntwo POKéMON that are below\lLv. 30.\p");
@@ -618,6 +733,9 @@ ALIGNED(4) static const u8 sText_ChatDeclinedFemale[] = _("Lo siento, ahora teng
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) static const u8 sText_ChatDeclinedMale[] = _("Scusa ma non posso in questo\nmomento.\lChatteremo un'altra volta.\p");
 ALIGNED(4) static const u8 sText_ChatDeclinedFemale[] = _("Scusa, in questo momento non\nposso proprio. Avremo altre\loccasioni per chattare.\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_ChatDeclinedMale[] = _("Bon…\nC'est pas vraiment le moment.\lOn tchatera une prochaine fois.\p");
+ALIGNED(4) static const u8 sText_ChatDeclinedFemale[] = _("Vraiment navrée.\nJ'ai plein de choses à faire.\lCe sera pour la prochaine fois.\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_ChatDeclinedMale[] = _("Oh, sorry!\nI just can't right this instant.\lLet's chat another time.\p");
 ALIGNED(4) static const u8 sText_ChatDeclinedFemale[] = _("Oh, I'm sorry.\nI have too much to do right now.\lLet's chat some other time.\p");
@@ -647,6 +765,15 @@ ALIGNED(4) static const u8 sText_YoureToughFemale[] = _("Quel tuo POKéMON…\n�
 ALIGNED(4) static const u8 sText_UsedGoodMoveFemale[] = _("Proprio la mossa giusta!\p");
 ALIGNED(4) static const u8 sText_BattleSurpriseFemale[] = _("Incredibile!\nCome fai a lottare in quel modo?\p");
 ALIGNED(4) static const u8 sText_SwitchedMonsFemale[] = _("Sai perfettamente quando sostituire\ni POKéMON!\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_YoureToughMale[] = _("Waouh!\nT'en as dans le ventre!\p");
+ALIGNED(4) static const u8 sText_UsedGoodMoveMale[] = _("T'as utilisé cette capacité?\nBonne stratégie!\p");
+ALIGNED(4) static const u8 sText_BattleSurpriseMale[] = _("Voilà!\nC'est comme ça qu'y faut faire!\p");
+ALIGNED(4) static const u8 sText_SwitchedMonsMale[] = _("Oh! C'est pas le bon moment\npour utiliser ce POKéMON!\p");
+ALIGNED(4) static const u8 sText_YoureToughFemale[] = _("Ce POKéMON…\nIl est super bien dressé!\p");
+ALIGNED(4) static const u8 sText_UsedGoodMoveFemale[] = _("C'est ça!\nC'est la bonne capacité!\p");
+ALIGNED(4) static const u8 sText_BattleSurpriseFemale[] = _("Incroyable!\nTu peux te battre comme ça?\p");
+ALIGNED(4) static const u8 sText_SwitchedMonsFemale[] = _("Tu sais vraiment changer de\nPOKéMON au bon moment!\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_YoureToughMale[] = _("Whoa!\nI can tell you're pretty tough!\p");
 ALIGNED(4) static const u8 sText_UsedGoodMoveMale[] = _("You used that move?\nThat's good strategy!\p");
@@ -690,6 +817,15 @@ ALIGNED(4) static const u8 sText_LearnedSomethingFemale[] = _("Ma va'?\p");
 ALIGNED(4) static const u8 sText_ThatsFunnyFemale[] = _("Non ho capito. Puoi ripetere?\p");
 ALIGNED(4) static const u8 sText_RandomChatFemale1[] = _("Mi hai tolto le parole di bocca!\p");
 ALIGNED(4) static const u8 sText_RandomChatFemale2[] = _("Certo! Hai ragione!\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_LearnedSomethingMale[] = _("Oh, je vois!\nC'était plutôt instructif!\p");
+ALIGNED(4) static const u8 sText_ThatsFunnyMale[] = _("Ne dis plus rien! J'ai des crampes\nà force de rire!\p");
+ALIGNED(4) static const u8 sText_RandomChatMale1[] = _("Oh?\nC'est vraiment arrivé?\p");
+ALIGNED(4) static const u8 sText_RandomChatMale2[] = _("Hm… Quoi?\nSi tu le dis…\p");
+ALIGNED(4) static const u8 sText_LearnedSomethingFemale[] = _("Vraiment?\nJe savais pas.\p");
+ALIGNED(4) static const u8 sText_ThatsFunnyFemale[] = _("Ahaha!\nVraiment?\p");
+ALIGNED(4) static const u8 sText_RandomChatFemale1[] = _("Oui, c'est ça!\nC'est ce que je voulais dire.\p");
+ALIGNED(4) static const u8 sText_RandomChatFemale2[] = _("En d'autres termes…\nOui, c'est ça!\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_LearnedSomethingMale[] = _("Oh, I see!\nThis is educational!\p");
 ALIGNED(4) static const u8 sText_ThatsFunnyMale[] = _("Don't say anything funny anymore!\nI'm sore from laughing!\p");
@@ -725,6 +861,11 @@ ALIGNED(4) static const u8 sText_ShowedTrainerCardMale1[] = _("Questa è la mia 
 ALIGNED(4) static const u8 sText_ShowedTrainerCardMale2[] = _("Spero che faremo amicizia!\p");
 ALIGNED(4) static const u8 sText_ShowedTrainerCardFemale1[] = _("Mostriamoci le SCHEDE ALLENATORE,\ncosì ci conosciamo!\p");
 ALIGNED(4) static const u8 sText_ShowedTrainerCardFemale2[] = _("Piacere di conoscerti.\nDico davvero!\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_ShowedTrainerCardMale1[] = _("Je montre toujours ma CARTE DE\nDRESSEUR pour me présenter.\p");
+ALIGNED(4) static const u8 sText_ShowedTrainerCardMale2[] = _("J'espère qu'on apprendra à se\nconnaître!\p");
+ALIGNED(4) static const u8 sText_ShowedTrainerCardFemale1[] = _("On se présente notre CARTE DE\nDRESSEUR pour faire connaissance.\p");
+ALIGNED(4) static const u8 sText_ShowedTrainerCardFemale2[] = _("Ravie de te connaître. On va\nbien s'entendre tous les deux!\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_ShowedTrainerCardMale1[] = _("I'm just showing my TRAINER CARD\nas my way of greeting.\p");
 ALIGNED(4) static const u8 sText_ShowedTrainerCardMale2[] = _("I hope I get to know you better!\p");
@@ -752,6 +893,11 @@ ALIGNED(4) static const u8 sText_MaleTraded1[] = _("Grandioso!\nProprio il POKé
 ALIGNED(4) static const u8 sText_MaleTraded2[] = _("Era tanto che volevo ottenere\nquesto POKéMON! Ottimo scambio!\p");
 ALIGNED(4) static const u8 sText_FemaleTraded1[] = _("Sto facendo uno scambio di\nPOKéMON.\p");
 ALIGNED(4) static const u8 sText_FemaleTraded2[] = _("Ecco il POKéMON che cercavo!\nSono felice dello scambio!\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) static const u8 sText_MaleTraded1[] = _("Cool! \nJe le voulais vraiment ce POKéMON!\p");
+ALIGNED(4) static const u8 sText_MaleTraded2[] = _("Finalement, j'obtiens ce\nPOKéMON grâce à un échange.\p");
+ALIGNED(4) static const u8 sText_FemaleTraded1[] = _("Je suis en train de faire\nun échange.\p");
+ALIGNED(4) static const u8 sText_FemaleTraded2[] = _("C'est le POKéMON que je voulais\ntellement!\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) static const u8 sText_MaleTraded1[] = _("Yeahah!\nI really wanted this POKéMON!\p");
 ALIGNED(4) static const u8 sText_MaleTraded2[] = _("Finally, a trade got me that\nPOKéMON I'd wanted a long time.\p");
@@ -836,6 +982,40 @@ ALIGNED(4) const u8 gText_UR_DontHaveEggTrainerWants[] = _("{STR_VAR_1} cerca un
 
 ALIGNED(4) static const u8 sText_PlayerCantTradeForYourMon[] = _("{STR_VAR_1} non può fare uno scambio\nper il tuo POKéMON al momento.\p");
 ALIGNED(4) static const u8 sText_CantTradeForPartnersMon[] = _("Non puoi fare uno scambio per\nil POKéMON di {STR_VAR_1} al momento.\p");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+const u8 gText_UR_XCheckedTradingBoard[] = _("{STR_VAR_1} vérifie le\nPANNEAU D'ECHANGE.\p");
+ALIGNED(4) const u8 gText_UR_RegisterMonAtTradingBoard[] = _("Bienvenue au PANNEAU D'ECHANGE.\pVous pouvez enregistrer vos\nPOKéMON pour un échange.\pVoulez-vous enregistrer un de vos\nPOKéMON?");
+ALIGNED(4) const u8 gText_UR_TradingBoardInfo[] = _("Ce PANNEAU D'ECHANGE sert aux\n"
+                                                    "échanges de POKéMON.\p"
+                                                    "Tout ce que vous devez faire est\n"
+                                                    "d'enregister un POKéMON avant.\p"
+                                                    "Un autre DRESSEUR peut offrir un\n"
+                                                    "POKéMON de son équipe en retour.\p"
+                                                    "Nous espérons que vous échangerez\n"
+                                                    "vos POKéMON avec le plus de \l"
+                                                    "DRESSEURS possible.\p"
+                                                    "Voulez-vous enregistrer un de vos\n"
+                                                    "POKéMON?");
+ALIGNED(4) static const u8 sText_ThankYouForRegistering[] = _("こうかんけいじばん の とうろくが\nかんりょう しました\pごりよう ありがとう\nございました！\p");
+ALIGNED(4) static const u8 sText_NobodyHasRegistered[] = _("けいじばんに だれも ポケモンを\nとうろく していません\p\n");
+ALIGNED(4) const u8 gText_UR_ChooseRequestedMonType[] = _("Choisissez le type de POKéMON\nque vous voulez pour l'échange.\n");
+ALIGNED(4) const u8 gText_UR_WhichMonWillYouOffer[] = _("Quel POKéMON de votre équipe\nvoulez-vous échanger?\p");
+ALIGNED(4) const u8 gText_UR_RegistrationCanceled[] = _("L'enregistrement a été annulé.\p");
+ALIGNED(4) const u8 gText_UR_RegistraionCompleted[] = _("L'enregistrement est terminé.\p");
+ALIGNED(4) const u8 gText_UR_TradeCanceled[] = _("L'échange a été annulé.\p");
+ALIGNED(4) const u8 gText_UR_CancelRegistrationOfMon[] = _("Annuler l'enregistrement de votre\n{STR_VAR_1} de N. {STR_VAR_2}?");
+ALIGNED(4) const u8 gText_UR_CancelRegistrationOfEgg[] = _("Annuler l'enregistrement de votre\nOEUF?");
+ALIGNED(4) const u8 gText_UR_RegistrationCanceled2[] = _("L'enregistrement a été annulé.\p");
+ALIGNED(4) static const u8 sText_TradeTrainersWillBeListed[] = _("こうかんを きぼうしているひとを\nひょうじします");
+ALIGNED(4) static const u8 sText_ChooseTrainerToTradeWith2[] = _("こうかん したい トレーナーを\nえらんで ください");
+ALIGNED(4) const u8 gText_UR_AskTrainerToMakeTrade[] = _("Voulez-vous demander à {STR_VAR_1}\nde faire un échange?");
+ALIGNED(4) static const u8 sText_AwaitingResponseFromTrainer2[] = _("……\nあいての へんじを まっています");
+ALIGNED(4) static const u8 sText_NotRegisteredAMonForTrade[] = _("あなたが こうかんにだす\nポケモンが とうろくされていません\p");
+ALIGNED(4) const u8 gText_UR_DontHaveTypeTrainerWants[] = _("Vous n'avez pas de POKéMON\ndu type {STR_VAR_2}\pque veut {STR_VAR_1}.\p");
+ALIGNED(4) const u8 gText_UR_DontHaveEggTrainerWants[] = _("Vous n'avez pas l'OEUF que veut\n{STR_VAR_1}.\p");
+
+ALIGNED(4) static const u8 sText_PlayerCantTradeForYourMon[] = _("{STR_VAR_1} ne peut faire d'échange\npour votre POKéMON maintenant.\p");
+ALIGNED(4) static const u8 sText_CantTradeForPartnersMon[] = _("Vous ne pouvez pas échanger le\nPOKéMON de {STR_VAR_1} maintenant.\p");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 const u8 gText_UR_XCheckedTradingBoard[] = _("{STR_VAR_1} checked the\nTRADING BOARD.\p");
 ALIGNED(4) const u8 gText_UR_RegisterMonAtTradingBoard[] = _("Welcome to the TRADING BOARD.\pYou may register your POKéMON\nand offer it up for a trade.\pWould you like to register one of\nyour POKéMON?");
@@ -906,6 +1086,20 @@ ALIGNED(4) static const u8 sText_ChooseTrainerToShareWonderNews[] = _("Scegli un
 ALIGNED(4) static const u8 sText_ChooseLeaderPokemonJump[] = _("Salta con piccoli POKéMON!\nScegli il CAPOGRUPPO.");
 ALIGNED(4) static const u8 sText_ChooseLeaderBerryCrush[] = _("MACINABACCHE!\nScegli il CAPOGRUPPO.");
 ALIGNED(4) static const u8 sText_ChooseLeaderBerryPicking[] = _("DODRIO PIGLIABACCHE!\nScegli il CAPOGRUPPO.");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_TradeOfferRejected[] = _("Votre offre d'échange a\nété refusée.\p");
+ALIGNED(4) const u8 gText_UR_EggTrade[] = _("ECHANGE D'OEUF");
+ALIGNED(4) const u8 gText_UR_ChooseJoinCancel[] = _("{DPAD_UPDOWN}CHOISIR  {A_BUTTON}JOINDRE  {B_BUTTON}ANNULER");
+ALIGNED(4) const u8 gText_UR_ChooseTrainer[] = _("Veuillez choisir un DRESSEUR.");
+ALIGNED(4) static const u8 sText_ChooseTrainerSingleBattle[] = _("Veuillez choisir un DRESSEUR\npour un combat SOLO.");
+ALIGNED(4) static const u8 sText_ChooseTrainerDoubleBattle[] = _("Veuillez choisir un DRESSEUR\npour un combat DUO.");
+ALIGNED(4) static const u8 sText_ChooseLeaderMultiBattle[] = _("Veuillez choisir un DRESSEUR\npour un combat MULTI.");
+ALIGNED(4) static const u8 sText_ChooseTrainerToTradeWith[] = _("Veuillez choisir le DRESSEUR avec\nqui faire l'échange.");
+ALIGNED(4) static const u8 sText_ChooseTrainerToShareWonderCards[] = _("Veuillez choisir le DRESSEUR qui\npartage les CARTES MIRACLE.");
+ALIGNED(4) static const u8 sText_ChooseTrainerToShareWonderNews[] = _("Veuillez choisir le DRESSEUR qui\npartage les INFOS MIRACLE.");
+ALIGNED(4) static const u8 sText_ChooseLeaderPokemonJump[] = _("Sautez avec un mini POKéMON!\nChoisissez le MENEUR.");
+ALIGNED(4) static const u8 sText_ChooseLeaderBerryCrush[] = _("BROYEUR DE BAIES!\nChoisissez le MENEUR.");
+ALIGNED(4) static const u8 sText_ChooseLeaderBerryPicking[] = _("ATTRAPE-BAIES DODRIO!\nChoisissez le MENEUR.");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_TradeOfferRejected[] = _("Your trade offer was rejected.\p");
 ALIGNED(4) const u8 gText_UR_EggTrade[] = _("EGG TRADE");
@@ -954,6 +1148,16 @@ ALIGNED(4) static const u8 sText_PleaseWaitForOtherTrainersToGather[] = _("ほ�
 
 ALIGNED(4) static const u8 sText_NoCardsSharedRightNow[] = _("Non ci sono SCHEDE condivise\nal momento.");
 ALIGNED(4) static const u8 sText_NoNewsSharedRightNow[] = _("Non ci sono NOTIZIE condivise\nal momento.");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_SearchingForWirelessSystemWait[] = _("Recherche d'un système de\nCOMMUNICATION SANS FIL. Patienter.");
+ALIGNED(4) static const u8 sText_MustHaveTwoMonsForDoubleBattle[] = _("ダブルバトルでは 2ひき いじょうの\nポケモンが ひつようです\p");
+ALIGNED(4) const u8 gText_UR_AwaitingPlayersResponse[] = _("Attente d'une réponse de {STR_VAR_1}…");
+ALIGNED(4) const u8 gText_UR_PlayerHasBeenAskedToRegisterYouPleaseWait[] = _("{STR_VAR_1} doit vous enregistrer\ncomme membre. Veuillez patienter.");
+ALIGNED(4) const u8 gText_UR_AwaitingResponseFromWirelessSystem[] = _("Attente d'une réponse d'un système\nde COMMUNICATION SANS FIL.");
+ALIGNED(4) static const u8 sText_PleaseWaitForOtherTrainersToGather[] = _("ほかの さんかしゃが そろうまで\nしょうしょう おまちください");
+
+ALIGNED(4) static const u8 sText_NoCardsSharedRightNow[] = _("Aucune CARTE n'est échangée pour\nl'instant.");
+ALIGNED(4) static const u8 sText_NoNewsSharedRightNow[] = _("Aucune INFO n'est échangée pour\nl'instant.");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_SearchingForWirelessSystemWait[] = _("Searching for a WIRELESS\nCOMMUNICATION SYSTEM. Wait...");
 ALIGNED(4) static const u8 sText_MustHaveTwoMonsForDoubleBattle[] = _("ダブルバトルでは 2ひき いじょうの\nポケモンが ひつようです\p");
@@ -1031,6 +1235,36 @@ ALIGNED(4) static const u8 sText_ItsBronzeCard[] = _("È una SCHEDA di BRONZO!")
 ALIGNED(4) static const u8 sText_ItsCopperCard[] = _("È una SCHEDA di RAME!");
 ALIGNED(4) static const u8 sText_ItsSilverCard[] = _("È una SCHEDA d'ARGENTO!");
 ALIGNED(4) static const u8 sText_ItsGoldCard[] = _("È una SCHEDA d'ORO!");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_Battle[] = _("COMBAT");
+ALIGNED(4) const u8 gText_UR_Chat2[] = _("TCHAT");
+ALIGNED(4) const u8 gText_UR_Greetings[] = _("SALUT");
+ALIGNED(4) const u8 gText_UR_Exit[] = _("RETOUR");
+
+ALIGNED(4) const u8 gText_UR_Exit2[] = _("RETOUR");
+ALIGNED(4) const u8 gText_UR_Info[] = _("INFOS");
+ALIGNED(4) const u8 gText_UR_NameWantedOfferLv[] = _("NOM{CLEAR_TO 0x3C}RECHERCHE{CLEAR_TO 0x6E}OFFRE{CLEAR_TO 0xC6}N.");
+
+ALIGNED(4) const u8 gText_UR_SingleBattle[] = _("COMBAT SOLO");
+ALIGNED(4) const u8 gText_UR_DoubleBattle[] = _("COMBAT DUO");
+ALIGNED(4) const u8 gText_UR_MultiBattle[] = _("COMBAT MULTI.");
+ALIGNED(4) const u8 gText_UR_PokemonTrades[] = _("ECHANGES DE PKMN");
+ALIGNED(4) const u8 gText_UR_Chat[] = _("TCHAT");
+ALIGNED(4) const u8 gText_UR_Cards[] = _("CARTES");
+ALIGNED(4) const u8 gText_UR_WonderCards[] = _("CARTES MIRACLE");
+ALIGNED(4) const u8 gText_UR_WonderNews[] = _("INFOS MIRACLE");
+ALIGNED(4) const u8 gText_UR_PokemonJump[] = _("SAUT POKéMON");
+ALIGNED(4) const u8 gText_UR_BerryCrush[] = _("BROYEUR DE BAIES");
+ALIGNED(4) const u8 gText_UR_BerryPicking[] = _("ATTRAPE-BAIES");
+ALIGNED(4) const u8 gText_UR_Search[] = _("RECHERCHE");
+ALIGNED(4) const u8 gText_UR_SpinTrade[] = _("ぐるぐるこうかん");
+ALIGNED(4) const u8 gText_UR_ItemTrade[] = _("アイテムトレード");
+
+ALIGNED(4) static const u8 sText_ItsNormalCard[] = _("C'est une carte NORMALE!");
+ALIGNED(4) static const u8 sText_ItsBronzeCard[] = _("C'est une carte en BRONZE!");
+ALIGNED(4) static const u8 sText_ItsCopperCard[] = _("C'est une carte en CUIVRE!");
+ALIGNED(4) static const u8 sText_ItsSilverCard[] = _("C'est une carte en ARGENT!");
+ALIGNED(4) static const u8 sText_ItsGoldCard[] = _("C'est une carte en OR!");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_Battle[] = _("BATTLE");
 ALIGNED(4) const u8 gText_UR_Chat2[] = _("CHAT");
@@ -1081,6 +1315,11 @@ ALIGNED(4) const u8 gText_UR_TrainerCardInfoPage1[] = _("Questa è la SCHEDA\nAL
 ALIGNED(4) const u8 gText_UR_TrainerCardInfoPage2[] = _("LOTTE: {DYNAMIC 0} VINTE  {DYNAMIC 2} PERSE\nSCAMBI: {DYNAMIC 3} VOLTE\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p");
 ALIGNED(4) static const u8 sText_GladToMeetYouMale[] = _("{DYNAMIC 1}: Piacere di conoscerti!{PAUSE 60}");
 ALIGNED(4) static const u8 sText_GladToMeetYouFemale[] = _("{DYNAMIC 1}: Piacere!{PAUSE 60}");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_TrainerCardInfoPage1[] = _("C'est la CARTE DE DRESSEUR\nde {DYNAMIC 0} {DYNAMIC 1}…\l{DYNAMIC 2}\pPOKéDEX: {DYNAMIC 3}\nTEMPS:    {DYNAMIC 4}:{DYNAMIC 5}\p");
+ALIGNED(4) const u8 gText_UR_TrainerCardInfoPage2[] = _("COMBATS: {DYNAMIC 0} VICT.  {DYNAMIC 2} DEF.\nECHANGES:  {DYNAMIC 3}\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p");
+ALIGNED(4) static const u8 sText_GladToMeetYouMale[] = _("{DYNAMIC 1}: Ravi de te connaître!{PAUSE 60}");
+ALIGNED(4) static const u8 sText_GladToMeetYouFemale[] = _("{DYNAMIC 1}: Ravie de te connaître!{PAUSE 60}");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_TrainerCardInfoPage1[] = _("This is {DYNAMIC 0} {DYNAMIC 1}'s\nTRAINER CARD…\l{DYNAMIC 2}\pPOKéDEX: {DYNAMIC 3}\nTIME:    {DYNAMIC 4}:{DYNAMIC 5}\p");
 ALIGNED(4) const u8 gText_UR_TrainerCardInfoPage2[] = _("BATTLES: {DYNAMIC 0} WINS  {DYNAMIC 2} LOSSES\nTRADES:  {DYNAMIC 3} TIMES\p“{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}”\p");
@@ -1099,6 +1338,9 @@ static const u8 sText_CanceledReadingCard[] = _("Cancelada la lectura de la TARJ
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 ALIGNED(4) const u8 gText_UR_FinishedCheckingPlayersTrainerCard[] = _("Completata la lettura della SCHEDA\nALLENATORE di {DYNAMIC 1}.{PAUSE 60}");
 ALIGNED(4) static const u8 sText_CanceledReadingCard[] = _("Annullata la lettura della Scheda.");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+ALIGNED(4) const u8 gText_UR_FinishedCheckingPlayersTrainerCard[] = _("La CARTE DE DRESSEUR de\n{DYNAMIC 1} a été lue.");
+static const u8 sText_CanceledReadingCard[] = _("La lecture de la carte a\nété annulée.");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 ALIGNED(4) const u8 gText_UR_FinishedCheckingPlayersTrainerCard[] = _("Finished checking {DYNAMIC 1}'s\nTRAINER CARD.{PAUSE 60}");
 ALIGNED(4) static const u8 sText_CanceledReadingCard[] = _("Canceled reading the Card.");

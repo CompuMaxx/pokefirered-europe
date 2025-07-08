@@ -321,6 +321,30 @@ static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("Segui le istruzion
                                                              "di Pokémon Rubino o Zaffiro.");
 static const u8 sText_TransmissionFailureTryAgain[] = _("La trasmissione non è riuscita.\n"
                                                         "{COLOR RED}{SHADOW LIGHT_RED}Riprova.");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+static const u8 sText_BerryProgramUpdate[] = _("Mise à jour du Programme Baie");
+static const u8 sText_RubySapphire[] = _("Rubis/Saphir");
+static const u8 sText_FireRed[] = _("Rouge Feu/Vert Feuille");
+static const u8 sText_BerryProgramWillBeUpdatedPressA[] = _("Le Programme Baie sur votre\n"
+                                                            "cartouche Rubis/Saphir va être\n"
+                                                            "mis à jour.\n"
+                                                            "{COLOR RED}{SHADOW LIGHT_RED}Appuyez sur le bouton A.");
+static const u8 sText_EnsureGBAConnectionMatches[] = _("Veuillez vérifier que vos Game Boy\n"
+                                                       "Advance sont connectées correctement.\n"
+                                                       "{COLOR RED}{SHADOW LIGHT_RED}Oui: Bouton A.\n"
+                                                       "Non: Eteindre et recommencer.");
+static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("Veuillez allumer la console Pokémon\n"
+                                                           "Rubis/Saphir en maintenant enfoncés\n"
+                                                           "simultanément START et SELECT.\n"
+                                                           "Assurez-vous que ce logo apparaît.");
+static const u8 sText_TransmittingPleaseWait[] = _("Transmission en cours...\n"
+                                                   "{COLOR RED}{SHADOW LIGHT_RED}N'éteignez pas votre Game Boy\n"
+                                                   "Advance et ne retirez pas le câble\n"
+                                                   "Game Boy Advance Game Link.");
+static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("Veuillez suivre les instructions sur\n"
+                                                             "l'écran de Pokémon Rubis/Saphir.");
+static const u8 sText_TransmissionFailureTryAgain[] = _("Echec de la transmission.\n"
+                                                        "{COLOR RED}{SHADOW LIGHT_RED}Veuillez réessayer.");
 #else //for other language purpose
 static const u8 sText_BerryProgramUpdate[] = _("Berry Program Update");
 static const u8 sText_RubySapphire[] = _("Ruby/Sapphire");

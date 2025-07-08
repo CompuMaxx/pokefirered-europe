@@ -1,0 +1,15 @@
+PokemonLeague_HallOfFame_Text_OakCongratulations::
+	.string "CHEN: Hum-hum!\n"
+	.string "Félicitations {PLAYER}!\p"
+	.string "Cet étage est réservé au\n"
+	.string "PANTHEON DES DRESSEURS.\p"
+	.string "Les MAITRES de la LIGUE POKéMON\n"
+	.string "sont consacrés ici!\p"
+	.string "Leurs POKéMON sont enregistrés\n"
+	.string "en tant que CELEBRITES!\p"
+	.string "{PLAYER}!\p"
+	.string "Ton périple fut long jusqu'à\n"
+	.string "la victoire!\p"
+	.string "Encore bravo. Toi et tes chers\n"
+	.string "POKéMON êtes tous célèbres!$"
+

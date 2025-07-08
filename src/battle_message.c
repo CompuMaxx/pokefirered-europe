@@ -46,6 +46,8 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst);
 #include "data/text/battle_message_1_es.h"
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 #include "data/text/battle_message_1_it.h"
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+#include "data/text/battle_message_1_fr.h"
 #else
 #include "data/text/battle_message_1_en.h"
 #endif
@@ -811,6 +813,8 @@ const u16 gTrappingMoves[NUM_TRAPPING_MOVES + 1] =
 #include "data/text/battle_message_2_es.h"
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 #include "data/text/battle_message_2_it.h"
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+#include "data/text/battle_message_2_fr.h"
 #else
 #include "data/text/battle_message_2_en.h"
 #endif
@@ -962,11 +966,11 @@ static const u16 sGrammarMoveUsedTable[] =
     MOVE_NONE
 };
 
-#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN)
+#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN) || GAME_LANGUAGE == LANGUAGE_FRENCH //Test
 extern u8 *Localize_BattleStrings(const u8 *src);
 #endif
 
-#if GAME_LANGUAGE == LANGUAGE_ENGLISH || GAME_LANGUAGE == LANGUAGE_FRENCH //Test
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
 #define STRINGPTR_RESULT(string) \
     stringPtr = string;
 #else
@@ -1897,7 +1901,7 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
         {
         case B_BUFF_STRING: // battle string
             hword = T1_READ_16(&src[srcId + 1]);
-#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_GERMAN) || (GAME_LANGUAGE == LANGUAGE_ITALIAN)
+#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_GERMAN) || (GAME_LANGUAGE == LANGUAGE_ITALIAN)|| (GAME_LANGUAGE == LANGUAGE_FRENCH)
             if (hword == STRINGID_STATSHARPLY || hword == STRINGID_STATHARSHLY)
                 srcId += 3;
 #endif

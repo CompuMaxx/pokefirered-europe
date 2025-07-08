@@ -35,6 +35,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 			.speechWin = {EC_WORD_WELCOME, EC_WORD_EXCL, EC_WORD_GOOD_BYE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_WILL, EC_WORD_WON, EC_WORD_LET_S, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_WILL_BE_HERE, EC_WORD_REFRESHING, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("CYRIL"),
+			.facilityClass = FACILITY_CLASS_YOUNGSTER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_AHAHA, EC_WORD_YOU, EC_WORD_ISN_T, EC_WORD_COULD, EC_WORD_NOT, EC_WORD_OFFENSIVE},
+			.speechWin = {EC_WORD_EXCUSE, EC_WORD_EXCL, EC_WORD_GOOD_BYE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_GRAAAH, EC_WORD_DEFEATED, EC_WORD_TOTALLY, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_SNORT, EC_WORD_SNORT, EC_WORD_I_VE, EC_WORD_LOST, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("COLE"),
 			.facilityClass = FACILITY_CLASS_YOUNGSTER,
@@ -64,7 +72,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RATTATAC"),
+					#else
 					.nickname = _("RATICATE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -86,7 +98,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x56, // MALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MAGMAR"),
+					#else
+					.nickname = _("MAGMAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -108,7 +124,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("VOLCAROPOD"),
+					#else
 					.nickname = _("MAGCARGO"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -130,7 +150,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x87, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("COLOSSINGE"),
+					#else
 					.nickname = _("PRIMEAPE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -152,7 +176,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x81, // MALE NAUGHTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("NOSFERALTO"),
+					#else
 					.nickname = _("GOLBAT"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -174,7 +202,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x11, // FEMALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FLAGADOSS"),
+					#else
 					.nickname = _("SLOWBRO"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -208,6 +240,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 			.speechWin = {EC_WORD_AS_IF, EC_WORD_DISLIKE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_WHOM, EC_WORD_WILL, EC_WORD_SEE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_ABOVE, EC_WORD_IF, EC_WORD_WORK, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("ILAN"),
+			.facilityClass = FACILITY_CLASS_BURGLAR,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_I, EC_WORD_DIDN_T, EC_WORD_A, EC_MOVE2(THIEF), EC_WORD_GIVES, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_DO, EC_WORD_MY, EC_WORD_TIME, EC_WORD_WITH, EC_WORD_HIM, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_EEK, EC_WORD_EXCL_EXCL, EC_WORD_FORGIVE, EC_WORD_DON_T, EC_WORD_GIVE_UP, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_I, EC_WORD_ISN_T, EC_WORD_DIDN_T, EC_WORD_PLUS, EC_WORD_OF, EC_MOVE2(THIEF)},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JAC"),
 			.facilityClass = FACILITY_CLASS_BURGLAR,
@@ -237,7 +277,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MIAOUSS"),
+					#else
 					.nickname = _("MEOWTH"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -259,7 +303,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PYROLI"),
+					#else
 					.nickname = _("FLAREON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -281,7 +329,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x07, // GENDERLESS RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PORYGON"),
+					#else
+					.nickname = _("PORYGON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -303,7 +355,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x10, // FEMALE MILD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEVEINARD"),
+					#else
 					.nickname = _("CHANSEY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -325,7 +381,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x85, // MALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("CANARTICHO"),
+					#else
 					.nickname = _("FARFETCH'D"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -347,7 +407,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x82, // MALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("M. MIME"),
+					#else
 					.nickname = _("MR. MIME"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -381,6 +445,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 			.speechWin = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("LUCILLE"),
+			.facilityClass = FACILITY_CLASS_PSYCHIC_F,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_LOOKS, EC_WORD_FEELING, EC_MOVE(FOCUS_ENERGY), EC_WORD_OF, EC_WORD_WHO_IS, EC_WORD_POKEMON},
+			.speechWin = {EC_WORD_THIS_IS_IT_EXCL, EC_MOVE(FOCUS_ENERGY), EC_WORD_ELLIPSIS, EC_WORD_UNBELIEVABLE, EC_WORD_ISN_T_IT_QUES, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_THAT_WAS, EC_WORD_A, EC_MOVE(NIGHTMARE), EC_WORD_UNBELIEVABLE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_THAT_WAS, EC_WORD_JUST, EC_WORD_A, EC_WORD_DREAM, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("MILY"),
 			.facilityClass = FACILITY_CLASS_PSYCHIC_F,
@@ -410,7 +482,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x08, // FEMALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEVEINARD"),
+					#else
 					.nickname = _("CHANSEY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -432,7 +508,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELODELFE"),
+					#else
 					.nickname = _("CLEFABLE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -454,7 +534,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGETIC"),
+					#else
+					.nickname = _("TOGETIC"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -476,7 +560,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x20, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGETIC"),
+					#else
+					.nickname = _("TOGETIC"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -498,7 +586,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x05, // FEMALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEVEINARD"),
+					#else
 					.nickname = _("CHANSEY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -520,7 +612,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0xC0, // MALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELODELFE"),
+					#else
 					.nickname = _("CLEFABLE"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -554,6 +650,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			.speechWin = {EC_WORD_CONGRATS, EC_WORD_EXCL, EC_WORD_THIN, EC_WORD_FIGHTING, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_INCREDIBLE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_WILL, EC_WORD_WON, EC_WORD_THOSE_ARE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("JOS & ANNE"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_CAN, EC_WORD_NOT, EC_WORD_LOSE, EC_WORD_VERSUS, EC_WORD_HIM, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_EXCUSE, EC_WORD_PLAYS, EC_WORD_EXCELLENT, EC_WORD_FIGHTING, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNBELIEVABLE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_I_AM, EC_WORD_DISAPPOINTED, EC_WORD_BUT, EC_WORD_YOU_VE, EC_WORD_WINS, EC_WORD_ELLIPSIS},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JOS & ANNE"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
@@ -583,7 +687,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x10, // FEMALE MILD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GALOPA"),
+					#else
 					.nickname = _("RAPIDASH"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -605,7 +713,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x15, // FEMALE GENTLE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FEUNARD"),
+					#else
 					.nickname = _("NINETALES"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -627,7 +739,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FEUFOREVE"),
+					#else
 					.nickname = _("MISDREAVUS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -649,7 +765,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ALAKAZAM"),
+					#else
+					.nickname = _("ALAKAZAM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -671,7 +791,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEUPHORIE"),
+					#else
 					.nickname = _("BLISSEY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -693,7 +817,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x17, // FEMALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("NOSTENFER"),
+					#else
 					.nickname = _("CROBAT"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -715,6 +843,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			.speechWin = {EC_WORD_SORRY, EC_WORD_ELLIPSIS, EC_WORD_BUT, EC_WORD_WILL, EC_WORD_LOST, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_NOPE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_BUT, EC_WORD_HOW, EC_WORD_IS_IT_QUES, EC_WORD_FAINTED, EC_WORD_IF_I_LOSE, EC_WORD_QUES_EXCL},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("JOS & ANNE"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_PARDON, EC_WORD_EXCL_EXCL, EC_WORD_LIKELY_TO, EC_WORD_LOSE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_PERFECT, EC_WORD_EXCL, EC_WORD_VICTORY, EC_WORD_FOR, EC_WORD_WE, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_LOST, EC_WORD_QUES_EXCL, EC_WORD_IT_S, EC_WORD_NOT, EC_WORD_JOKING, EC_WORD_QUES},
+			.speechAfter = {EC_WORD_WHY, EC_WORD_I_VE, EC_WORD_LOST, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JOS & ANNE"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
@@ -744,7 +880,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x82, // MALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DEMOLOSSE"),
+					#else
 					.nickname = _("HOUNDOOM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -766,7 +906,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x33, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PTERA"),
+					#else
 					.nickname = _("AERODACTYL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -788,7 +932,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x56, // MALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ARCANIN"),
+					#else
 					.nickname = _("ARCANINE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -810,7 +958,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x8E, // MALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SMOGOGO"),
+					#else
 					.nickname = _("WEEZING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -832,7 +984,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x33, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DRACAUFEU"),
+					#else
 					.nickname = _("CHARIZARD"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -854,7 +1010,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x87, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ECTOPLASMA"),
+					#else
 					.nickname = _("GENGAR"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -887,6 +1047,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			.speechWin = {EC_WORD_IS, EC_WORD_PERFECT, EC_WORD_BEAUTIFUL, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_NATURALLY, EC_WORD_AS_IF, EC_WORD_WILL_BE_HERE, EC_WORD_VERY, EC_WORD_STRONG, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_BUT, EC_WORD_WONDER, EC_WORD_WILL_BE_HERE, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("EMY & ALEK"),
+			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_IN, EC_WORD_FULL, EC_WORD_HAPPINESS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_OH, EC_WORD_OH, EC_WORD_HE_S, EC_WORD_REALLY, EC_WORD_UNBELIEVABLE, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_AIYEEH, EC_WORD_UNDEFINED, EC_WORD_YOU_RE, EC_WORD_NOT, EC_WORD_SERIOUS, EC_WORD_QUES},
+			.speechAfter = {EC_WORD_WHO, EC_WORD_ELLIPSIS, EC_WORD_DOES, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("EMY & ALEK"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
@@ -916,7 +1084,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0A, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TAUROS"),
+					#else
+					.nickname = _("TAUROS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -938,7 +1110,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("KANGOUREX"),
+					#else
 					.nickname = _("KANGASKHAN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -960,7 +1136,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x94, // MALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RAPASDEPIC"),
+					#else
 					.nickname = _("FEAROW"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -982,7 +1162,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x24, // MALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGETIC"),
+					#else
+					.nickname = _("TOGETIC"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1004,7 +1188,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0D, // FEMALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ROUCARNAGE"),
+					#else
 					.nickname = _("PIDGEOT"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1026,7 +1214,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("URSARING"),
+					#else
+					.nickname = _("URSARING"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -1048,6 +1240,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			.speechWin = {EC_WORD_THESE_WERE, EC_WORD_PROBABLY, EC_WORD_BETTER, EC_WORD_DUDE, EC_WORD_HEH, EC_WORD_QUES},
 			.speechLose = {EC_WORD_LOWS, EC_WORD_AS_IF, EC_WORD_WILL_BE_HERE, EC_WORD_VERY, EC_WORD_STRONG, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_TRY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("EMY & ALEK"),
+			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_GIDDY, EC_WORD_OF, EC_WORD_THIS_IS_IT_EXCL, EC_WORD_JOY, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_WHOAH, EC_WORD_ELLIPSIS, EC_WORD_THIS_IS_IT_EXCL, EC_WORD_GIRL, EC_WORD_IS, EC_WORD_LOVEY_DOVEY},
+			.speechLose = {EC_WORD_WAAAH, EC_WORD_EXCL_EXCL, EC_WORD_IT_S, EC_WORD_JOKING, EC_WORD_HUH_QUES, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_EH_QUES, EC_WORD_WHO, EC_WORD_DOES, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("EMY & ALEK"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
@@ -1077,7 +1277,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("EXCELANGUE"),
+					#else
 					.nickname = _("LICKITUNG"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1099,7 +1303,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("NOARFANG"),
+					#else
 					.nickname = _("NOCTOWL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1121,7 +1329,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0E, // FEMALE NAIVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FOUINAR"),
+					#else
 					.nickname = _("FURRET"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1143,7 +1355,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RATTATAC"),
+					#else
 					.nickname = _("RATICATE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1165,7 +1381,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GRODOUDOU"),
+					#else
 					.nickname = _("WIGGLYTUFF"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1187,7 +1407,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0A, // GENDERLESS TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PORYGON2"),
+					#else
+					.nickname = _("PORYGON2"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -1220,6 +1444,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 			.speechWin = {EC_WORD_MUCH, EC_WORD_BUT, EC_WORD_COULD, EC_WORD_WON, EC_WORD_WON_T, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_REFRESHING, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_LOSE, EC_WORD_ALWAYS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("JO & HALEY"),
+			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_TO_US, EC_WORD_USE, EC_WORD_THIS_IS_IT_EXCL, EC_WORD_STRATEGY, EC_WORD_OKAY, EC_WORD_QUES},
+			.speechWin = {EC_WORD_YAY, EC_WORD_TO_ME, EC_WORD_WINS, EC_WORD_EXCL, EC_WORD_FORGIVE, EC_WORD_EXCL},
+			.speechLose = {EC_WORD_GWAH, EC_WORD_EXCL, EC_WORD_THAT_WAS, EC_WORD_REALLY, EC_WORD_TERRIBLE, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_DO, EC_WORD_REALLY, EC_WORD_ANOTHER, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JO & HALEY"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
@@ -1249,7 +1481,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0D, // FEMALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FARFURET"),
+					#else
 					.nickname = _("SNEASEL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1271,7 +1507,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x05, // FEMALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ALAKAZAM"),
+					#else
+					.nickname = _("ALAKAZAM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1293,7 +1533,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x08, // MALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("KAPOERA"),
+					#else
 					.nickname = _("HITMONTOP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1315,7 +1559,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("GIRAFARIG"),
+					#else
+					.nickname = _("GIRAFARIG"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1337,7 +1585,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("XATU"),
+					#else
+					.nickname = _("XATU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1359,7 +1611,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x05, // FEMALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("M. MIME"),
+					#else
 					.nickname = _("MR. MIME"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -1381,6 +1637,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 			.speechWin = {EC_WORD_UNBELIEVABLE, EC_WORD_UNDEFINED, EC_WORD_COULD, EC_WORD_WON, EC_WORD_WON_T, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_EASY, EC_WORD_ELLIPSIS, EC_WORD_LOWS, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_SNORT, EC_WORD_ELLIPSIS, EC_WORD_BUT, EC_WORD_WILL_BE_HERE, EC_WORD_INVINCIBLE, EC_WORD_ELLIPSIS},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("JO & HALEY"),
+			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_HEY_THERE, EC_WORD_UNDEFINED, EC_WORD_DOESN_T, EC_WORD_WIN, EC_WORD_HUH_QUES, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_SERIOUS, EC_WORD_QUES, EC_WORD_TO_ME, EC_WORD_REALLY, EC_WORD_WINS, EC_WORD_QUES},
+			.speechLose = {EC_WORD_WIMPY, EC_WORD_ELLIPSIS, EC_WORD_TO_ME, EC_WORD_SUMMER, EC_WORD_WEAK, EC_WORD_ELLIPSIS},
+			.speechAfter = {EC_WORD_AHAHA, EC_WORD_TO_ME, EC_WORD_SUMMER, EC_WORD_RECOMMEND, EC_WORD_BAD, EC_WORD_ELLIPSIS},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JO & HALEY"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
@@ -1410,7 +1674,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x87, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("HYPNOMADE"),
+					#else
 					.nickname = _("HYPNO"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1432,7 +1700,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0F, // MALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TYGNON"),
+					#else
 					.nickname = _("HITMONCHAN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1454,7 +1726,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x43, // MALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MACKOGNEUR"),
+					#else
 					.nickname = _("MACHAMP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1476,7 +1752,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x87, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DEMOLOSSE"),
+					#else
 					.nickname = _("HOUNDOOM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1498,7 +1778,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x8C, // MALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("COLOSSINGE"),
+					#else
 					.nickname = _("PRIMEAPE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1520,7 +1804,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x85, // MALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SCARHINO"),
+					#else
 					.nickname = _("HERACROSS"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -1553,6 +1841,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			.speechWin = {EC_WORD_REFUSE, EC_WORD_MEAN, EC_WORD_HOME, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_SOMETIME, EC_WORD_THERE, EC_WORD_CHANGE, EC_WORD_ALSO, EC_WORD_IF_I_LOSE, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_BUT, EC_WORD_HOW, EC_WORD_IS_IT_QUES, EC_WORD_FAINTED, EC_WORD_IF_I_LOSE, EC_WORD_QUES},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("ANGELO"),
+			.facilityClass = FACILITY_CLASS_BIKER,
+			.textColor = 3,
+			.speechBefore = {EC_WORD_AHAHA, EC_WORD_AHAHA, EC_WORD_WIMPY, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_WHERE, EC_WORD_PUSHOVER, EC_WORD_YOU_RE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_WHAT, EC_WORD_FIGHTING, EC_WORD_EXCELLENT, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_DARN, EC_WORD_EXCL, EC_WORD_I, EC_WORD_ISN_T, EC_WORD_UNDERSTAND, EC_WORD_NOT},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JORDY"),
 			.facilityClass = FACILITY_CLASS_BIKER,
@@ -1582,7 +1878,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x43, // MALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MAGBY"),
+					#else
+					.nickname = _("MAGBY"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1604,7 +1904,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0xCA, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELO"),
+					#else
 					.nickname = _("CLEFFA"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1626,7 +1930,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0xD2, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TOUDOUDOU"),
+					#else
 					.nickname = _("IGGLYBUFF"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1648,7 +1956,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LIPPOUTI"),
+					#else
 					.nickname = _("SMOOCHUM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -1670,7 +1982,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x34, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGEPI"),
+					#else
+					.nickname = _("TOGEPI"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1692,7 +2008,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x8E, // MALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PICHU"),
+					#else
+					.nickname = _("PICHU"),
+					#endif
 					.friendship = 0
 				},
 			}
@@ -1714,6 +2034,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			.speechWin = {EC_WORD_LOWS, EC_WORD_AS_IF, EC_WORD_GUTSY, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_SCARY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_NOW, EC_WORD_PRAISE, EC_WORD_NAP, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("ERNEST"),
+			.facilityClass = FACILITY_CLASS_BIKER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_DID, EC_WORD_SLEEP, EC_WORD_CASE, EC_WORD_CHILDREN, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_LACKS, EC_WORD_OF, EC_WORD_GUTSY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_I_AM, EC_WORD_TOTALLY, EC_WORD_EAT, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_I_AM, EC_WORD_TIRED, EC_WORD_WILL, EC_WORD_MAKE, EC_WORD_AN, EC_WORD_NAP},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("ERNEST"),
 			.facilityClass = FACILITY_CLASS_BIKER,
@@ -1743,7 +2071,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0xCA, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELO"),
+					#else
 					.nickname = _("CLEFFA"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1765,7 +2097,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x4D, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MAGBY"),
+					#else
+					.nickname = _("MAGBY"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1787,7 +2123,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x34, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGEPI"),
+					#else
+					.nickname = _("TOGEPI"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1809,7 +2149,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LIPPOUTI"),
+					#else
 					.nickname = _("SMOOCHUM"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1831,7 +2175,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TOUDOUDOU"),
+					#else
 					.nickname = _("IGGLYBUFF"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1853,7 +2201,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PICHU"),
+					#else
+					.nickname = _("PICHU"),
+					#endif
 					.friendship = 0
 				},
 			}
@@ -1875,6 +2227,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			.speechWin = {EC_WORD_TRUMP_CARD, EC_WORD_EXCL, EC_WORD_AGREE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_HOW, EC_WORD_QUES_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_WEREN_T, EC_WORD_ANOTHER, EC_WORD_TIME, EC_WORD_WIN, EC_WORD_ISN_T_IT_QUES, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("GABRIEL"),
+			.facilityClass = FACILITY_CLASS_CUE_BALL,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_AIYEEH, EC_WORD_I_VE_ARRIVED, EC_WORD_FOR, EC_WORD_SIBLINGS, EC_WORD_FIGHT, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_I_AM, EC_WORD_INVINCIBLE, EC_WORD_UNDERSTOOD, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_THAT_WAS, EC_WORD_EH_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WILL, EC_WORD_WIN, EC_WORD_THE, EC_WORD_NEXT, EC_WORD_FIGHTING, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("GABRIEL"),
 			.facilityClass = FACILITY_CLASS_CUE_BALL,
@@ -1904,7 +2264,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x81, // MALE NAUGHTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PICHU"),
+					#else
+					.nickname = _("PICHU"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1926,7 +2290,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x33, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGEPI"),
+					#else
+					.nickname = _("TOGEPI"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1948,7 +2316,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0xCF, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELO"),
+					#else
 					.nickname = _("CLEFFA"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1970,7 +2342,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0xCF, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TOUDOUDOU"),
+					#else
 					.nickname = _("IGGLYBUFF"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -1992,7 +2368,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LIPPOUTI"),
+					#else
 					.nickname = _("SMOOCHUM"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -2014,7 +2394,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x4D, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MAGBY"),
+					#else
+					.nickname = _("MAGBY"),
+					#endif
 					.friendship = 0
 				},
 			}
@@ -2046,6 +2430,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechWin = {EC_WORD_AND, EC_WORD_LET_S, EC_WORD_WILL_BE_HERE, EC_WORD_NATURALLY, EC_WORD_STRONG, EC_WORD_QUES},
 			.speechLose = {EC_WORD_FOR, EC_WORD_WILL, EC_WORD_EXCUSE_ME, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_CONGRATS, EC_WORD_ELLIPSIS_ELLIPSIS_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("MAXIME"),
+			.facilityClass = FACILITY_CLASS_HIKER,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_SUPER, EC_WORD_POWER, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_EXCUSE_ME, EC_WORD_OR, EC_WORD_IS, EC_WORD_HER, EC_MOVE(STRENGTH), EC_WORD_EXCL},
+			.speechLose = {EC_WORD_I_VE, EC_WORD_SUMMER, EC_WORD_DEFEATED, EC_WORD_WITH, EC_WORD_YOURS, EC_MOVE2(FAKE_OUT)},
+			.speechAfter = {EC_WORD_YEAH, EC_WORD_VERY, EC_WORD_GOOD, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("MIKE"),
 			.facilityClass = FACILITY_CLASS_HIKER,
@@ -2075,7 +2467,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SCARABRUTE"),
+					#else
 					.nickname = _("PINSIR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2097,7 +2493,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x35, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DRACAUFEU"),
+					#else
 					.nickname = _("CHARIZARD"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2119,7 +2519,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x09, // FEMALE LAX
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RHINOFEROS"),
+					#else
 					.nickname = _("RHYDON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2141,7 +2545,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x3F, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ARCANIN"),
+					#else
 					.nickname = _("ARCANINE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2163,7 +2571,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GROLEM"),
+					#else
 					.nickname = _("GOLEM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2185,7 +2597,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 1,
 					.personality = 0x08, // FEMALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DEMOLOSSE"),
+					#else
 					.nickname = _("HOUNDOOM"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -2207,6 +2623,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechWin = {EC_WORD_EHEHE, EC_WORD_ELLIPSIS, EC_WORD_ARE, EC_WORD_PLUS, EC_WORD_STRONG, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_SHOCKED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_SIGH, EC_WORD_ELLIPSIS, EC_WORD_WILL_BE_HERE, EC_WORD_PLUS, EC_WORD_STRONG, EC_WORD_ELLIPSIS},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("REBECCA"),
+			.facilityClass = FACILITY_CLASS_CRUSH_GIRL,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_I, EC_WORD_COULD, EC_WORD_WIN, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_THAT_WAS, EC_WORD_HOT, EC_WORD_BUT, EC_WORD_I_AM, EC_WORD_OVERWHELMING, EC_WORD_EXCL},
+			.speechLose = {EC_WORD_ARRGH, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_FANTASTIC, EC_WORD_I_AM, EC_WORD_IN, EC_WORD_ANGER, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("REBECCA"),
 			.facilityClass = FACILITY_CLASS_CRUSH_GIRL,
@@ -2236,7 +2660,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x0D, // FEMALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SABLAIREAU"),
+					#else
 					.nickname = _("SANDSLASH"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2258,7 +2686,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DRACO"),
+					#else
 					.nickname = _("DRAGONAIR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2280,7 +2712,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 1,
 					.personality = 0x94, // MALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GALOPA"),
+					#else
 					.nickname = _("RAPIDASH"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2302,7 +2738,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x21, // MALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PYROLI"),
+					#else
 					.nickname = _("FLAREON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2324,7 +2764,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x17, // FEMALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDOQUEEN"),
+					#else
+					.nickname = _("NIDOQUEEN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2346,7 +2790,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PERSIAN"),
+					#else
+					.nickname = _("PERSIAN"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -2368,6 +2816,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechWin = {EC_WORD_WILL_BE_HERE, EC_WORD_LOWS, EC_WORD_WEAK, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_INCREDIBLE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_TODAY, EC_WORD_AS_IF, EC_WORD_NON_STOP, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("NICOLAS"),
+			.facilityClass = FACILITY_CLASS_BLACK_BELT,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_NOW, EC_WORD_IF, EC_WORD_ENOUGH, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_YOU_RE, EC_WORD_TOO_WEAK, EC_WORD_FOR, EC_WORD_WHO_WAS, EC_WORD_WHEN_I_WIN, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_WHY, EC_WORD_THIS_IS_IT_EXCL, EC_WORD_LOSS, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_DID, EC_WORD_LEARN, EC_WORD_LAY, EC_WORD_PLUS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("NICOLAS"),
 			.facilityClass = FACILITY_CLASS_BLACK_BELT,
@@ -2397,7 +2853,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x08, // MALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("KICKLEE"),
+					#else
 					.nickname = _("HITMONLEE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2419,7 +2879,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x17, // FEMALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("INSECATEUR"),
+					#else
 					.nickname = _("SCYTHER"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2441,7 +2905,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x53, // MALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MAGMAR"),
+					#else
+					.nickname = _("MAGMAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2463,7 +2931,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x3F, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MACKOGNEUR"),
+					#else
 					.nickname = _("MACHAMP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2485,7 +2957,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x08, // FEMALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("COLOSSINGE"),
+					#else
 					.nickname = _("PRIMEAPE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2507,7 +2983,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x0D, // FEMALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TARTARD"),
+					#else
 					.nickname = _("POLIWRATH"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -2539,6 +3019,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 			.speechWin = {EC_WORD_WHICH, EC_WORD_IS_IT_QUES, EC_WORD_SAYS, EC_WORD_THOSE_WERE, EC_WORD_QUES, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_WILL, EC_WORD_POKEMON, EC_WORD_TOO_STRONG, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_FUNNY, EC_WORD_TERRIBLE, EC_WORD_AROUND, EC_WORD_POKEMON, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("JO"),
+			.facilityClass = FACILITY_CLASS_CAMPER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_WHO_IS, EC_WORD_POKEMON, EC_WORD_ARE, EC_WORD_HEALTHY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_THAT_WAS, EC_WORD_A_LOT, EC_WORD_RECOMMEND, EC_WORD_HERE, EC_WORD_POKEMON, EC_WORD_QUES},
+			.speechLose = {EC_WORD_YOUR, EC_WORD_POKEMON, EC_WORD_ARE, EC_WORD_REALLY, EC_WORD_HEALTHY, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_HER, EC_WORD_MATCH_UP, EC_WORD_IS, EC_WORD_EXCELLENT, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JOEY"),
 			.facilityClass = FACILITY_CLASS_CAMPER,
@@ -2568,7 +3056,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("CORNEBRE"),
+					#else
 					.nickname = _("MURKROW"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2590,7 +3082,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TAUROS"),
+					#else
+					.nickname = _("TAUROS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2612,7 +3108,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FLAGADOSS"),
+					#else
 					.nickname = _("SLOWBRO"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2634,7 +3134,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ARBOK"),
+					#else
+					.nickname = _("ARBOK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2656,7 +3160,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDOKING"),
+					#else
+					.nickname = _("NIDOKING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2678,7 +3186,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GALOPA"),
+					#else
 					.nickname = _("RAPIDASH"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -2712,6 +3224,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 			.speechWin = {EC_WORD_POKEMON, EC_WORD_EXCL, EC_WORD_WEAKENED, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_IS_IT_QUES, EC_WORD_LOST, EC_WORD_TO_THEM, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_DISASTER, EC_WORD_ALL, EC_WORD_POKEMON, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("FLO"),
+			.facilityClass = FACILITY_CLASS_PKMN_BREEDER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_WANT, EC_WORD_SOMETHING, EC_WORD_THING, EC_WORD_IN, EC_MOVE(SKILL_SWAP), EC_WORD_EXCL},
+			.speechWin = {EC_WORD_LIKE, EC_WORD_WHO_IS, EC_WORD_POKEMON, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_NEED, EC_WORD_OF, EC_WORD_SOMETHING, EC_WORD_THING, EC_WORD_IN, EC_MOVE(SKILL_SWAP)},
+			.speechAfter = {EC_WORD_I_VE, EC_WORD_ALWAYS, EC_WORD_TRUST, EC_WORD_IN, EC_WORD_WHO_IS, EC_WORD_POKEMON},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("LILY"),
 			.facilityClass = FACILITY_CLASS_PKMN_BREEDER,
@@ -2741,7 +3261,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELOFEE"),
+					#else
 					.nickname = _("CLEFAIRY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2763,7 +3287,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGEPI"),
+					#else
+					.nickname = _("TOGEPI"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2785,7 +3313,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MIAOUSS"),
+					#else
 					.nickname = _("MEOWTH"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2807,7 +3339,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RONDOUDOU"),
+					#else
 					.nickname = _("JIGGLYPUFF"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2829,7 +3365,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x25, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RONFLEX"),
+					#else
 					.nickname = _("SNORLAX"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2851,7 +3391,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("SNUBBULL"),
+					#else
+					.nickname = _("SNUBBULL"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -2885,6 +3429,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 			.speechWin = {EC_WORD_AGREE, EC_WORD_IT, EC_WORD_POISON, EC_WORD_IS, EC_WORD_THIN, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_IT, EC_WORD_POISON, EC_WORD_AS_IF, EC_WORD_IS, EC_WORD_LATE, EC_WORD_QUES_EXCL},
 			.speechAfter = {EC_WORD_DISASTER, EC_WORD_IT, EC_WORD_POISON, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("FLORENT"),
+			.facilityClass = FACILITY_CLASS_BUG_CATCHER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_THE, EC_WORD_POISON, EC_WORD_IT_S, EC_WORD_PSYCHIC, EC_WORD_HUH_QUES, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDERSTOOD, EC_WORD_QUES, EC_WORD_THE, EC_WORD_POISON, EC_WORD_IT_S, EC_WORD_TERRIBLE},
+			.speechLose = {EC_WORD_EH_QUES, EC_WORD_THE, EC_WORD_POISON, EC_WORD_EVEN_SO, EC_WORD_NOT, EC_WORD_WALKS},
+			.speechAfter = {EC_WORD_THE, EC_WORD_POISON, EC_WORD_IT_S, EC_WORD_FEELING, EC_MOVE(TORMENT), EC_WORD_HUH_QUES},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("BRANDON"),
 			.facilityClass = FACILITY_CLASS_BUG_CATCHER,
@@ -2914,7 +3466,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PAPILUSION"),
+					#else
 					.nickname = _("BUTTERFREE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2936,7 +3492,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DARDARGNAN"),
+					#else
 					.nickname = _("BEEDRILL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2958,7 +3518,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PARASECT"),
+					#else
+					.nickname = _("PARASECT"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -2980,7 +3544,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 1,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("YANMA"),
+					#else
+					.nickname = _("YANMA"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3002,7 +3570,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("CARATROC"),
+					#else
 					.nickname = _("SHUCKLE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3024,7 +3596,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FORETRESS"),
+					#else
 					.nickname = _("FORRETRESS"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -3058,6 +3634,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			.speechWin = {EC_WORD_WITH, EC_WORD_BROTHER, EC_WORD_IS, EC_WORD_VERY, EC_WORD_BEAUTIFUL, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_WITH, EC_WORD_BROTHER, EC_WORD_IS, EC_WORD_LOWS, EC_WORD_BEAUTIFUL, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_WITH, EC_WORD_BROTHER, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("RIC & LILI"),
+			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_MY, EC_WORD_BROTHER, EC_WORD_IS, EC_WORD_REALLY, EC_WORD_UNBELIEVABLE, EC_WORD_EXCL_EXCL},
+			.speechWin = {EC_WORD_MY, EC_WORD_BROTHER, EC_WORD_IS, EC_WORD_RECOMMEND, EC_WORD_EXCUSE, EC_WORD_EXCL_EXCL},
+			.speechLose = {EC_WORD_MY, EC_WORD_BROTHER, EC_WORD_IS, EC_WORD_NOT, EC_WORD_UNBELIEVABLE, EC_WORD_QUES},
+			.speechAfter = {EC_WORD_MY, EC_WORD_BROTHER, EC_WORD_FIGHTING, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("RIC & RENE"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
@@ -3087,7 +3671,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("KICKLEE"),
+					#else
 					.nickname = _("HITMONLEE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3109,7 +3697,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x7F, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RHINOFEROS"),
+					#else
 					.nickname = _("RHYDON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3131,7 +3723,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GROLEM"),
+					#else
 					.nickname = _("GOLEM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3153,7 +3749,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x4F, // MALE NAUGHTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MAGMAR"),
+					#else
+					.nickname = _("MAGMAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3175,7 +3775,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x7F, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SCARHINO"),
+					#else
 					.nickname = _("HERACROSS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3197,7 +3801,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x97, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TARTARD"),
+					#else
 					.nickname = _("POLIWRATH"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -3219,6 +3827,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			.speechWin = {EC_WORD_ARE, EC_WORD_THIN, EC_WORD_AND, EC_WORD_LOWS, EC_WORD_BEAUTIFUL, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_AS_IF, EC_WORD_ARE, EC_WORD_THIN, EC_WORD_AND, EC_WORD_BEAUTIFUL, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_GIVE, EC_WORD_ALWAYS, EC_WORD_NOT_VERY, EC_WORD_WITH, EC_WORD_ABOVE, EC_WORD_EXCL},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("RIC & LILI"),
+			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_REALLY, EC_WORD_UNBELIEVABLE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_I_AM, EC_WORD_RECOMMEND, EC_WORD_AWESOME, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_HUH_QUES, EC_WORD_EH_QUES, EC_WORD_I_AM, EC_WORD_NOT, EC_WORD_AWESOME, EC_WORD_QUES},
+			.speechAfter = {EC_WORD_WILL, EC_WORD_MAKE, EC_WORD_OF, EC_WORD_MY, EC_WORD_BETTER, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("RIC & RENE"),
 			.facilityClass = FACILITY_CLASS_CRUSH_KIN,
@@ -3248,7 +3864,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x4E, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MACKOGNEUR"),
+					#else
 					.nickname = _("MACHAMP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3270,7 +3890,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SCARABRUTE"),
+					#else
 					.nickname = _("PINSIR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3292,7 +3916,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("OSSATUEUR"),
+					#else
 					.nickname = _("MAROWAK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3314,7 +3942,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x03, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TYGNON"),
+					#else
 					.nickname = _("HITMONCHAN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3336,7 +3968,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x4F, // MALE NAUGHTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ELEKTEK"),
+					#else
 					.nickname = _("ELECTABUZZ"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3358,7 +3994,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x97, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TARTARD"),
+					#else
 					.nickname = _("POLIWRATH"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -3391,6 +4031,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 			.speechWin = {EC_WORD_AGREE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_OOPS, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_IS, EC_WORD_ABOVE, EC_WORD_ALLOW, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("ERY & KIRA"),
+			.facilityClass = FACILITY_CLASS_TWINS,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_WILL, EC_WORD_MAKE, EC_WORD_OF, EC_WORD_MY, EC_WORD_BETTER, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_EHEHE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_ARRGH, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WILL, EC_WORD_MAKE, EC_WORD_LAY, EC_WORD_BETTER, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JEN & KIRA"),
 			.facilityClass = FACILITY_CLASS_TWINS,
@@ -3420,7 +4068,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x29, // MALE MILD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("VOLTALI"),
+					#else
 					.nickname = _("JOLTEON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3442,7 +4094,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x29, // MALE MILD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MENTALI"),
+					#else
 					.nickname = _("ESPEON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3464,7 +4120,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x33, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PYROLI"),
+					#else
 					.nickname = _("FLAREON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3486,7 +4146,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x10, // FEMALE MILD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AQUALI"),
+					#else
 					.nickname = _("VAPOREON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3508,7 +4172,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x10, // FEMALE MILD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("EVOLI"),
+					#else
 					.nickname = _("EEVEE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3530,7 +4198,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x10, // FEMALE MILD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("NOCTALI"),
+					#else
 					.nickname = _("UMBREON"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -3552,6 +4224,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 			.speechWin = {EC_WORD_AGREE, EC_WORD_UNDEFINED, EC_WORD_AHAHA, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_WAAAH, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_ABOVE, EC_WORD_WEREN_T, EC_WORD_ESCAPE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("ERY & KIRA"),
+			.facilityClass = FACILITY_CLASS_TWINS,
+			.textColor = 3,
+			.speechBefore = {EC_WORD_GO, EC_WORD_EXCL_EXCL, EC_WORD_GO_AHEAD, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_GIGGLE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_ARRGH, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_DID, EC_WORD_WORKING, EC_WORD_BETTER, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JEN & KIRA"),
 			.facilityClass = FACILITY_CLASS_TWINS,
@@ -3581,7 +4261,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("VOLTALI"),
+					#else
 					.nickname = _("JOLTEON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3603,7 +4287,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MENTALI"),
+					#else
 					.nickname = _("ESPEON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3625,7 +4313,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0D, // FEMALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PYROLI"),
+					#else
 					.nickname = _("FLAREON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3647,7 +4339,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x23, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AQUALI"),
+					#else
 					.nickname = _("VAPOREON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3669,7 +4365,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x23, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("EVOLI"),
+					#else
 					.nickname = _("EEVEE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3691,7 +4391,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x23, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("NOCTALI"),
+					#else
 					.nickname = _("UMBREON"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -3724,6 +4428,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 			.speechWin = {EC_WORD_MISS, EC_WORD_SURPRISE, EC_WORD_EH_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_BUT, EC_WORD_MISS, EC_WORD_SURPRISE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_LAY, EC_WORD_WEREN_T, EC_WORD_BETTER, EC_WORD_DUDE, EC_WORD_ARE, EC_WORD_HAPPILY},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("ISAC & MAG"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_WITH, EC_WORD_THIS, EC_MOVE(EARTHQUAKE), EC_WORD_YOU_RE, EC_WORD_WEIRD, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_YOU, EC_WORD_SIBLINGS, EC_WORD_SENSE, EC_WORD_NOT, EC_WORD_WEIRD, EC_WORD_QUES},
+			.speechLose = {EC_WORD_I_AM, EC_WORD_ALL, EC_WORD_WEIRD, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_TO_HER, EC_WORD_NOT, EC_WORD_FEAR, EC_WORD_SHE_IS, EC_WORD_LOVEY_DOVEY, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("ISAC & MAG"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
@@ -3753,7 +4465,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x03, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDOKING"),
+					#else
+					.nickname = _("NIDOKING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3775,7 +4491,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SCORPLANE"),
+					#else
 					.nickname = _("GLIGAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3797,7 +4517,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MARAISTE"),
+					#else
 					.nickname = _("QUAGSIRE"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -3819,7 +4543,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("COCHIGNON"),
+					#else
 					.nickname = _("PILOSWINE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3841,7 +4569,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GROLEM"),
+					#else
 					.nickname = _("GOLEM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3863,7 +4595,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("STEELIX"),
+					#else
+					.nickname = _("STEELIX"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -3885,6 +4621,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 			.speechWin = {EC_WORD_PLAY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_ISN_T_IT_QUES, EC_WORD_AS_IF, EC_WORD_ARE, EC_WORD_VERY, EC_WORD_SHAKY, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_IT, EC_WORD_WITH, EC_WORD_BOY, EC_WORD_IS, EC_WORD_HAPPILY, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("ISAC & MAG"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_WHO_IS, EC_WORD_POKEMON, EC_WORD_ARE, EC_WORD_NOT, EC_WORD_HEALTHY, EC_WORD_EXCL_EXCL},
+			.speechWin = {EC_WORD_YOU_VE, EC_WORD_EXCUSE, EC_WORD_UNDERSTOOD, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_HUH_QUES, EC_WORD_I_VE, EC_WORD_FEAR, EC_WORD_ME, EC_WORD_NOW, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_I_VE, EC_WORD_NOT, EC_WORD_FEAR, EC_WORD_I_AM, EC_WORD_LOVEY_DOVEY, EC_WORD_ELLIPSIS},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("ISAC & MAG"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
@@ -3914,7 +4658,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AIRMURE"),
+					#else
 					.nickname = _("SKARMORY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3936,7 +4684,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0B, // FEMALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DEMANTA"),
+					#else
 					.nickname = _("MANTINE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3958,7 +4710,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("COTOVOL"),
+					#else
 					.nickname = _("JUMPLUFF"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -3980,7 +4736,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ECTOPLASMA"),
+					#else
 					.nickname = _("GENGAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4002,7 +4762,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("NOSTENFER"),
+					#else
 					.nickname = _("CROBAT"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4024,7 +4788,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("XATU"),
+					#else
+					.nickname = _("XATU"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -4057,6 +4825,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechWin = {EC_WORD_PLAYED, EC_WORD_THOSE_WERE, EC_WORD_IF_I_LOSE, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_LOOKS, EC_WORD_HEARING, EC_WORD_NITWIT, EC_WORD_IT, EC_WORD_GREEN, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_AS_IF, EC_WORD_FORGET, EC_WORD_MUST_BE, EC_WORD_IT, EC_WORD_GREEN, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("CHELSEA"),
+			.facilityClass = FACILITY_CLASS_PKMN_RANGER_F,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_FEELING, EC_WORD_NATURE, EC_WORD_IS, EC_WORD_REALLY, EC_WORD_FANTASTIC, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_FEELING, EC_WORD_LOSS, EC_WORD_IS, EC_WORD_FOR, EC_WORD_HIM, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_LET_S, EC_WORD_NICE, EC_WORD_WITH, EC_WORD_FEELING, EC_WORD_NATURE, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_NOT, EC_WORD_OF, EC_WORD_POISON, EC_WORD_FOR, EC_WORD_FEELING, EC_WORD_NATURE},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("CHELSEA"),
 			.facilityClass = FACILITY_CLASS_PKMN_RANGER_F,
@@ -4086,7 +4862,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RAFFLESIA"),
+					#else
 					.nickname = _("VILEPLUME"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4108,7 +4888,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x10, // GENDERLESS MILD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("STAROSS"),
+					#else
 					.nickname = _("STARMIE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4130,7 +4914,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x01, // FEMALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("URSARING"),
+					#else
+					.nickname = _("URSARING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4152,7 +4940,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x01, // FEMALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("NOARFANG"),
+					#else
 					.nickname = _("NOCTOWL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4174,7 +4966,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x10, // FEMALE MILD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FEUNARD"),
+					#else
 					.nickname = _("NINETALES"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4196,7 +4992,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x01, // FEMALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("COXYCLAQUE"),
+					#else
 					.nickname = _("LEDIAN"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -4218,6 +5018,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechWin = {EC_WORD_PLAYED, EC_WORD_VERY, EC_WORD_THOSE_WERE, EC_WORD_WEREN_T, EC_WORD_LOSS, EC_WORD_QUES},
 			.speechLose = {EC_WORD_WEREN_T, EC_MOVE2(PROTECT), EC_WORD_NOT_VERY, EC_WORD_GREEN, EC_WORD_IS, EC_WORD_IMPORTANT},
 			.speechAfter = {EC_WORD_IT, EC_WORD_GREEN, EC_WORD_IS, EC_WORD_INVINCIBLE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("JOSHUA"),
+			.facilityClass = FACILITY_CLASS_PKMN_RANGER_M,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_ADORE, EC_WORD_THE, EC_WORD_WORLD, EC_WORD_OF, EC_WORD_FEELING, EC_WORD_NATURE},
+			.speechWin = {EC_WORD_TAKE_THAT, EC_WORD_YOU_VE, EC_WORD_LOST, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_RULE, EC_WORD_THE, EC_WORD_WORLD, EC_WORD_OF, EC_WORD_FEELING, EC_WORD_NATURE},
+			.speechAfter = {EC_WORD_RELEASE, EC_WORD_THE, EC_WORD_WORLD, EC_WORD_OF, EC_WORD_FEELING, EC_WORD_NATURE},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("TRENTON"),
 			.facilityClass = FACILITY_CLASS_PKMN_RANGER_M,
@@ -4247,7 +5055,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x88, // MALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEVIATOR"),
+					#else
 					.nickname = _("GYARADOS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4269,7 +5081,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x8E, // MALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("EMPIFLOR"),
+					#else
 					.nickname = _("VICTREEBEL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4291,7 +5107,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x97, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("DONPHAN"),
+					#else
+					.nickname = _("DONPHAN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4313,7 +5133,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x97, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RAPASDEPIC"),
+					#else
 					.nickname = _("FEAROW"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4335,7 +5159,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x4F, // MALE NAUGHTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ARCANIN"),
+					#else
 					.nickname = _("ARCANINE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4357,7 +5185,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x97, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MIGALOS"),
+					#else
 					.nickname = _("ARIADOS"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -4379,6 +5211,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechWin = {EC_WORD_WILL_BE_HERE, EC_WORD_WEAK, EC_WORD_NITWIT, EC_WORD_CONCEDE, EC_WORD_ENTERTAINING, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_WILL_BE_HERE, EC_WORD_REFRESHING, EC_WORD_NITWIT, EC_WORD_CONCEDE, EC_WORD_ENTERTAINING, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_NOW, EC_WORD_TRAINS, EC_WORD_ALLOW, EC_WORD_MEAN, EC_WORD_NAP, EC_WORD_ELLIPSIS},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("ALBERT"),
+			.facilityClass = FACILITY_CLASS_COOLTRAINER_M,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_WE_RE, EC_WORD_A, EC_WORD_FIGHTING, EC_WORD_FUNNY, EC_WORD_NOW, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_YOU_RE, EC_WORD_A_LOT, EC_WORD_TOO_WEAK, EC_WORD_EXCL, EC_WORD_NOT, EC_WORD_FUNNY},
+			.speechLose = {EC_WORD_THAT_WAS, EC_WORD_REALLY, EC_WORD_FUNNY, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_I_AM, EC_WORD_VERY, EC_WORD_TIRED, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("ALBERT"),
 			.facilityClass = FACILITY_CLASS_COOLTRAINER_M,
@@ -4408,7 +5248,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x15, // FEMALE GENTLE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("HYPOROI"),
+					#else
 					.nickname = _("KINGDRA"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4430,7 +5274,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x7F, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GROLEM"),
+					#else
 					.nickname = _("GOLEM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4452,7 +5300,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x01, // FEMALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DRACOLOSSE"),
+					#else
 					.nickname = _("DRAGONITE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4474,7 +5326,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x97, // MALE LONELY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TYRANOCIF"),
+					#else
 					.nickname = _("TYRANITAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4496,7 +5352,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x13, // FEMALE RASH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PHARAMP"),
+					#else
 					.nickname = _("AMPHAROS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4518,7 +5378,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x2A, // MALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FLORIZARRE"),
+					#else
 					.nickname = _("VENUSAUR"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -4550,6 +5414,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechWin = {EC_WORD_AGREE, EC_WORD_UNDEFINED, EC_WORD_AS_IF, EC_WORD_PLEASE, EC_WORD_IF_I_LOSE, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_BUT, EC_WORD_NATURALLY, EC_WORD_AS_IF, EC_WORD_PLEASE, EC_WORD_IF_I_WIN, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_WILL_BE_HERE, EC_WORD_REFRESHING, EC_WORD_NITWIT, EC_WORD_DON_T, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("CLEO"),
+			.facilityClass = FACILITY_CLASS_PICNICKER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_IT_S, EC_WORD_A, EC_WORD_FIGHTING, EC_WORD_EXCL, EC_WORD_WILL, EC_WORD_WIN},
+			.speechWin = {EC_WORD_I_VE, EC_WORD_SAID, EC_WORD_WILL, EC_WORD_WIN, EC_WORD_ISN_T_IT_QUES, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_OH, EC_WORD_ELLIPSIS, EC_WORD_LOST, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_RECOMMEND, EC_WORD_WEIRD, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("CAMRYN"),
 			.facilityClass = FACILITY_CLASS_PICNICKER,
@@ -4579,7 +5451,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("CORNEBRE"),
+					#else
 					.nickname = _("MURKROW"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4601,7 +5477,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GALOPA"),
+					#else
 					.nickname = _("RAPIDASH"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4623,7 +5503,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ECREMEUH"),
+					#else
 					.nickname = _("MILTANK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4645,7 +5529,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AKWAKWAK"),
+					#else
 					.nickname = _("GOLDUCK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4667,7 +5555,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SABLAIREAU"),
+					#else
 					.nickname = _("SANDSLASH"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4689,7 +5581,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDOQUEEN"),
+					#else
+					.nickname = _("NIDOQUEEN"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -4711,6 +5607,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechWin = {EC_WORD_BEAUTIFUL, EC_WORD_EH_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_ON, EC_WORD_AS_IF, EC_WORD_IS, EC_WORD_LOWS, EC_WORD_BEAUTIFUL, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_WHICH, EC_WORD_LIKES, EC_MOVE(AROMATHERAPY), EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("NATALIA"),
+			.facilityClass = FACILITY_CLASS_AROMA_LADY,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_YOU, EC_WORD_KNOWS, EC_WORD_NOT, EC_WORD_THIS, EC_MOVE(SWEET_SCENT), EC_WORD_QUES},
+			.speechWin = {EC_WORD_IT_S, EC_WORD_KIND, EC_WORD_HUH_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_THAT_WAS, EC_WORD_NOT, EC_WORD_EXCUSE, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WITH, EC_MOVE(AROMATHERAPY), EC_WORD_ALL, EC_WORD_IS, EC_WORD_PLUS, EC_WORD_REFRESHING},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("NATALIA"),
 			.facilityClass = FACILITY_CLASS_AROMA_LADY,
@@ -4740,7 +5644,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("JOLIFLOR"),
+					#else
 					.nickname = _("BELLOSSOM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4762,7 +5670,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("EMPIFLOR"),
+					#else
 					.nickname = _("VICTREEBEL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4784,7 +5696,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PARASECT"),
+					#else
+					.nickname = _("PARASECT"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4806,7 +5722,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RAFFLESIA"),
+					#else
 					.nickname = _("VILEPLUME"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4828,7 +5748,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FLORIZARRE"),
+					#else
 					.nickname = _("VENUSAUR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4850,7 +5774,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x25, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MEGANIUM"),
+					#else
+					.nickname = _("MEGANIUM"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -4872,6 +5800,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechWin = {EC_WORD_APOLOGIZE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_UNBELIEVABLE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_WEREN_T, EC_WORD_SINCE, EC_WORD_POWER, EC_WORD_IS, EC_WORD_NATURAL, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("RANIA"),
+			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_THIS_IS_IT_EXCL, EC_WORD_TIMES, EC_WORD_LIKELY_TO, EC_WORD_LOSE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_FORGIVE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_IT_S, EC_WORD_REALLY, EC_WORD_HARD, EC_WORD_EVEN_SO, EC_WORD_BELIEVE, EC_WORD_ELLIPSIS},
+			.speechAfter = {EC_WORD_HER, EC_WORD_PURE_POWER, EC_WORD_IS, EC_WORD_EXCELLENT, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("KATHLEEN"),
 			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
@@ -4901,7 +5837,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("OSSATUEUR"),
+					#else
 					.nickname = _("MAROWAK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4923,7 +5863,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LOKHLASS"),
+					#else
 					.nickname = _("LAPRAS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4945,7 +5889,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x57, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ARCANIN"),
+					#else
 					.nickname = _("ARCANINE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4967,7 +5915,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("RAICHU"),
+					#else
+					.nickname = _("RAICHU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -4989,7 +5941,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGETIC"),
+					#else
+					.nickname = _("TOGETIC"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5011,7 +5967,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0C, // FEMALE SERIOUS
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RONFLEX"),
+					#else
 					.nickname = _("SNORLAX"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -5043,6 +6003,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 			.speechWin = {EC_WORD_HIGHS, EC_WORD_IS_IT_QUES, EC_WORD_WON, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_LUKEWARM, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_GIVE_ME, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("GASPARD"),
+			.facilityClass = FACILITY_CLASS_SWIMMER_M,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_TRY, EC_WORD_OF, EC_WORD_ME, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_EH_QUES, EC_WORD_I_VE, EC_WORD_WINS, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_SHOCKED, EC_WORD_EXCL, EC_WORD_I_VE, EC_WORD_LOST, EC_WORD_DAUGHTER, EC_WORD_JOY},
+			.speechAfter = {EC_WORD_GOOD, EC_WORD_WORK, EC_WORD_YOU_RE, EC_WORD_REALLY, EC_WORD_FANTASTIC, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("BRADEN"),
 			.facilityClass = FACILITY_CLASS_SWIMMER_M,
@@ -5072,7 +6040,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AQUALI"),
+					#else
 					.nickname = _("VAPOREON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5094,7 +6066,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x91, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FLAGADOSS"),
+					#else
 					.nickname = _("SLOWBRO"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5116,7 +6092,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TARPAUD"),
+					#else
 					.nickname = _("POLITOED"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5138,7 +6118,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TENTACRUEL"),
+					#else
+					.nickname = _("TENTACRUEL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5160,7 +6144,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RATTATAC"),
+					#else
 					.nickname = _("RATICATE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5182,7 +6170,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x7F, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("INSOLOURDO"),
+					#else
 					.nickname = _("DUNSPARCE"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -5216,6 +6208,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 			.speechWin = {EC_WORD_TODAY, EC_WORD_WHOM, EC_WORD_DISASTER, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_TODAY, EC_WORD_AS_IF, EC_WORD_PLEASE, EC_WORD_LOWS, EC_WORD_IF_I_WIN, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_TODAY, EC_WORD_WILL_BE_HERE, EC_WORD_KIND, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("ALINE"),
+			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_WILL, EC_WORD_NOT, EC_WORD_LAY, EC_WORD_LOSE, EC_WORD_TODAY, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_YES, EC_WORD_EXCL_EXCL, EC_WORD_I_AM, EC_WORD_HEALTHY, EC_WORD_TODAY, EC_WORD_EXCL},
+			.speechLose = {EC_WORD_I_VE, EC_WORD_SUMMER, EC_WORD_SURPRISE, EC_WORD_AND, EC_WORD_I_VE, EC_WORD_LOST},
+			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_RECOMMEND, EC_WORD_HEALTHY, EC_WORD_TODAY, EC_WORD_IT_S, EC_WORD_ALL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("ALLYSON"),
 			.facilityClass = FACILITY_CLASS_COOLTRAINER_F,
@@ -5245,7 +6245,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x0F, // GENDERLESS MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("STAROSS"),
+					#else
 					.nickname = _("STARMIE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5267,7 +6271,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x32, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TORTANK"),
+					#else
 					.nickname = _("BLASTOISE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5289,7 +6297,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x8C, // MALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("HYPOROI"),
+					#else
 					.nickname = _("KINGDRA"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5311,7 +6323,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MARAISTE"),
+					#else
 					.nickname = _("QUAGSIRE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5333,7 +6349,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LOKHLASS"),
+					#else
 					.nickname = _("LAPRAS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5355,7 +6375,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DRACOLOSSE"),
+					#else
 					.nickname = _("DRAGONITE"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -5389,6 +6413,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 			.speechWin = {EC_WORD_BORING, EC_WORD_IF_I_WIN, EC_WORD_ALWAYS, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_SURRENDER, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_NOW, EC_WORD_AS_IF, EC_WORD_WHEN_I_WIN, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("RONAN"),
+			.facilityClass = FACILITY_CLASS_SAILOR,
+			.textColor = 5,
+			.speechBefore = {EC_WORD_GO, EC_WORD_EXCL, EC_WORD_THAT_S, EC_WORD_WORK, EC_WORD_NOW, EC_WORD_EXCL_EXCL},
+			.speechWin = {EC_WORD_YO, EC_WORD_EXCL_EXCL, EC_WORD_LIKELY_TO, EC_WORD_GIVE_UP, EC_WORD_HUH_QUES, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_RECOMMEND, EC_WORD_LATE, EC_WORD_ELLIPSIS, EC_WORD_WILL, EC_WORD_GIVE_UP, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_OKAY, EC_WORD_I_VE, EC_WORD_UNDERSTOOD, EC_WORD_ELLIPSIS, EC_WORD_I_VE, EC_WORD_LOST},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("ALBERTO"),
 			.facilityClass = FACILITY_CLASS_SAILOR,
@@ -5418,7 +6450,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x32, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ALIGATUEUR"),
+					#else
 					.nickname = _("FERALIGATR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5440,7 +6476,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 1,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TARTARD"),
+					#else
 					.nickname = _("POLIWRATH"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5462,7 +6502,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("KANGOUREX"),
+					#else
 					.nickname = _("KANGASKHAN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5484,7 +6528,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ECREMEUH"),
+					#else
 					.nickname = _("MILTANK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5506,7 +6554,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 1,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AKWAKWAK"),
+					#else
 					.nickname = _("GOLDUCK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5528,7 +6580,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0xCA, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("GRANBULL"),
+					#else
+					.nickname = _("GRANBULL"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -5562,6 +6618,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 			.speechWin = {EC_WORD_YOU_VE, EC_WORD_UNDEFINED, EC_WORD_BROTHER, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_TODAY, EC_WORD_OK_QUES, EC_WORD_IS, EC_WORD_SLIDE, EC_WORD_THOSE_WERE, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_BROTHER, EC_WORD_EXCL, EC_WORD_SPIRIT, EC_WORD_NITWIT, EC_WORD_DON_T, EC_WORD_EXCL},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("KAT & NINO"),
+			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_WILL, EC_WORD_GIVE, EC_WORD_THE, EC_WORD_BEST, EC_WORD_OF, EC_WORD_ME},
+			.speechWin = {EC_WORD_EXCUSE, EC_WORD_PLAYS, EC_WORD_MY, EC_WORD_AWESOME, EC_WORD_BROTHER, EC_WORD_EXCL},
+			.speechLose = {EC_WORD_SIGH, EC_WORD_ELLIPSIS, EC_WORD_IT_S, EC_WORD_FEELING, EC_WORD_LIFE, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_OKAY, EC_WORD_MY, EC_WORD_AWESOME, EC_WORD_BROTHER, EC_WORD_BESIDE, EC_WORD_HIM},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("KAT & KIPP"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
@@ -5591,7 +6655,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x0D, // FEMALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FARFURET"),
+					#else
 					.nickname = _("SNEASEL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5613,7 +6681,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x2D, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AMONISTAR"),
+					#else
 					.nickname = _("OMASTAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5635,7 +6707,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LAMANTINE"),
+					#else
 					.nickname = _("DEWGONG"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5657,7 +6733,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x91, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MARAISTE"),
+					#else
 					.nickname = _("QUAGSIRE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5679,7 +6759,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x17, // FEMALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("CORAYON"),
+					#else
 					.nickname = _("CORSOLA"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5701,7 +6785,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x94, // MALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SABLAIREAU"),
+					#else
 					.nickname = _("SANDSLASH"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -5723,6 +6811,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 			.speechWin = {EC_WORD_AS_IF, EC_WORD_STORY, EC_WORD_LOWS, EC_WORD_IF_I_LOSE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_MISHEARD, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_DISLIKE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("KAT & NINO"),
+			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_FUFUFU, EC_WORD_ELLIPSIS, EC_WORD_TO_US, EC_WORD_WINS, EC_WORD_ALWAYS, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_FUFUFU, EC_WORD_ELLIPSIS, EC_WORD_RECOMMEND, EC_WORD_HEALTHY, EC_WORD_FOR, EC_WORD_LOSE},
+			.speechLose = {EC_WORD_EH_QUES, EC_WORD_IT_S, EC_WORD_JOKING, EC_WORD_HUH_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WAAAH, EC_WORD_WAAAH, EC_WORD_OH, EC_WORD_WHERE, EC_WORD_SISTER, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("KAT & KIPP"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
@@ -5752,7 +6848,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FOUINAR"),
+					#else
 					.nickname = _("FURRET"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5774,7 +6874,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("AZUMARILL"),
+					#else
+					.nickname = _("AZUMARILL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5796,7 +6900,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x91, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("KRABBOSS"),
+					#else
 					.nickname = _("KINGLER"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5818,7 +6926,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("CRUSTABRI"),
+					#else
 					.nickname = _("CLOYSTER"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5840,7 +6952,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x94, // MALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MARAISTE"),
+					#else
 					.nickname = _("QUAGSIRE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5862,7 +6978,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x30, // MALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("KABUTOPS"),
+					#else
+					.nickname = _("KABUTOPS"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -5895,6 +7015,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 			.speechWin = {EC_WORD_ARE, EC_WORD_TO, EC_MOVE(STRENGTH), EC_WORD_PROBABLY, EC_WORD_NATURE, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_WILL_BE_HERE, EC_WORD_TO, EC_MOVE(STRENGTH), EC_WORD_PROBABLY, EC_WORD_NATURE, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_REFUSE, EC_WORD_EXCL, EC_WORD_TCH, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("GEB & MEL"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_YOU_RE, EC_WORD_OUR, EC_WORD_OPPONENT, EC_WORD_QUES, EC_WORD_WIMPY, EC_WORD_AHAHA},
+			.speechWin = {EC_WORD_AHAHA, EC_WORD_FORGIVE, EC_WORD_WHO_IS, EC_WORD_FRIEND, EC_WORD_WHERE, EC_WORD_LOSS},
+			.speechLose = {EC_WORD_OH_DEAR, EC_WORD_HIM, EC_WORD_YOU_RE, EC_WORD_VERY, EC_WORD_DONE, EC_WORD_EXCL_EXCL},
+			.speechAfter = {EC_WORD_BELONGS_TO, EC_WORD_PLAYED, EC_WORD_PLEASE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("GEB&MEGAN"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
@@ -5924,7 +7052,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x8C, // MALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TARPAUD"),
+					#else
 					.nickname = _("POLITOED"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5946,7 +7078,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEVIATOR"),
+					#else
 					.nickname = _("GYARADOS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5968,7 +7104,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LOKHLASS"),
+					#else
 					.nickname = _("LAPRAS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -5990,7 +7130,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDOQUEEN"),
+					#else
+					.nickname = _("NIDOQUEEN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6012,7 +7156,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LIPPOUTOU"),
+					#else
 					.nickname = _("JYNX"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6034,7 +7182,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x8C, // MALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("GIRAFARIG"),
+					#else
+					.nickname = _("GIRAFARIG"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -6056,6 +7208,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 			.speechWin = {EC_WORD_NOW, EC_WORD_FUNNY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_GOOD_BYE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_ARE, EC_WORD_FINISH, EC_WORD_MISS, EC_WORD_SAID, EC_WORD_AND, EC_WORD_LOSE},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("GEB & MEL"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 7,
+			.speechBefore = {EC_WORD_YOU_RE, EC_WORD_OUR, EC_WORD_OPPONENT, EC_WORD_QUES, EC_WORD_GIGGLE, EC_WORD_ELLIPSIS},
+			.speechWin = {EC_WORD_GIGGLE, EC_WORD_ELLIPSIS, EC_WORD_SORRY, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_SERIOUSLY, EC_WORD_IT_S, EC_WORD_UNBELIEVABLE, EC_WORD_EXCL_EXCL, EC_WORD_REALLY, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_DID, EC_WORD_WORKING, EC_WORD_PLUS, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("GEB&MEGAN"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
@@ -6085,7 +7245,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x94, // MALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("OSSATUEUR"),
+					#else
 					.nickname = _("MAROWAK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6107,7 +7271,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("URSARING"),
+					#else
+					.nickname = _("URSARING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6129,7 +7297,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x11, // FEMALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ROIGADA"),
+					#else
 					.nickname = _("SLOWKING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6151,7 +7323,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x41, // MALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ALAKAZAM"),
+					#else
+					.nickname = _("ALAKAZAM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6173,7 +7349,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x00, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDOKING"),
+					#else
+					.nickname = _("NIDOKING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6195,7 +7375,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x93, // MALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RHINOFEROS"),
+					#else
 					.nickname = _("RHYDON"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -6228,6 +7412,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 			.speechWin = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("LISA&ERIN"),
+			.facilityClass = FACILITY_CLASS_TWINS,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_WE_RE, EC_WORD_WIN, EC_WORD_THIS, EC_WORD_FIGHTING, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_AIYEEH, EC_WORD_WOW, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_DARN, EC_WORD_AND, EC_WORD_DARN, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("LISA&LEAH"),
 			.facilityClass = FACILITY_CLASS_TWINS,
@@ -6257,7 +7449,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x87, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PTITARD"),
+					#else
 					.nickname = _("POLIWAG"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6279,7 +7475,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x2D, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("CARAPUCE"),
+					#else
 					.nickname = _("SQUIRTLE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6301,7 +7501,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LOUPIO"),
+					#else
 					.nickname = _("CHINCHOU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6323,7 +7527,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDORAN♀"),
+					#else
+					.nickname = _("NIDORAN♀"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6345,7 +7553,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELOFEE"),
+					#else
 					.nickname = _("CLEFAIRY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6367,7 +7579,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x2D, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("HYPOTREMPE"),
+					#else
 					.nickname = _("HORSEA"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -6383,6 +7599,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 			.name = _("LISA &  LU"),
+			.facilityClass = FACILITY_CLASS_TWINS,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("LISA&ERIN"),
 			.facilityClass = FACILITY_CLASS_TWINS,
 			.textColor = 1,
 			.speechBefore = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
@@ -6418,7 +7642,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x93, // MALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AXOLOTO"),
+					#else
 					.nickname = _("WOOPER"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6440,7 +7668,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 1,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PSYKOKWAK"),
+					#else
 					.nickname = _("PSYDUCK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6462,7 +7694,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("SNUBBULL"),
+					#else
+					.nickname = _("SNUBBULL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6484,7 +7720,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RONDOUDOU"),
+					#else
 					.nickname = _("JIGGLYPUFF"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6506,7 +7746,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x00, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDORAN♂"),
+					#else
+					.nickname = _("NIDORAN♂"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6528,7 +7772,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x2D, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("KAIMINUS"),
+					#else
 					.nickname = _("TOTODILE"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -6561,6 +7809,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechWin = {EC_WORD_IS_IT_QUES, EC_WORD_WON, EC_WORD_LOWS, EC_WORD_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_IS_IT_QUES, EC_WORD_LOST, EC_WORD_BUT, EC_WORD_IS, EC_WORD_NORMAL, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_THANKS, EC_WORD_NITWIT, EC_WORD_WEREN_T, EC_WORD_CHALLENGE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("NINON"),
+			.facilityClass = FACILITY_CLASS_TUBER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_AN, EC_WORD_GIRL, EC_WORD_EVEN_SO, EC_WORD_POKEMON, EC_WORD_HERE_I_COME},
+			.speechWin = {EC_WORD_WAAAH, EC_WORD_EXCL_EXCL, EC_WORD_I_VE, EC_WORD_REALLY, EC_WORD_WINS, EC_WORD_QUES},
+			.speechLose = {EC_WORD_OH_DEAR, EC_WORD_EXCL, EC_WORD_WHERE, EC_WORD_LOSS, EC_WORD_UNBELIEVABLE, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_A, EC_WORD_TRAINER, EC_WORD_NICE, EC_WORD_THANK_YOU, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("PRISCILLA"),
 			.facilityClass = FACILITY_CLASS_TUBER,
@@ -6590,7 +7846,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("POISSIRENE"),
+					#else
 					.nickname = _("GOLDEEN"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -6612,7 +7872,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("POISSOROY"),
+					#else
 					.nickname = _("SEAKING"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -6634,7 +7898,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x8C, // MALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("LANTURN"),
+					#else
+					.nickname = _("LANTURN"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -6656,7 +7924,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("LANTURN"),
+					#else
+					.nickname = _("LANTURN"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -6678,7 +7950,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("POISSIRENE"),
+					#else
 					.nickname = _("GOLDEEN"),
+					#endif
 					.friendship = 0
 				},
 				{
@@ -6700,7 +7976,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("POISSOROY"),
+					#else
 					.nickname = _("SEAKING"),
+					#endif
 					.friendship = 0
 				},
 			}
@@ -6722,6 +8002,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechWin = {EC_WORD_APOLOGIZE, EC_WORD_BUT, EC_WORD_IS_IT_QUES, EC_WORD_WON, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_WILL, EC_WORD_PLUS, EC_WORD_COOLNESS, EC_WORD_LISTEN, EC_WORD_DON_T, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_THANKS, EC_WORD_AND, EC_WORD_CONGRATS, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("CHARLOTTE"),
+			.facilityClass = FACILITY_CLASS_LADY,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_HELLO, EC_WORD_I_AM, EC_WORD_AN, EC_WORD_LADY, EC_WORD_EVEN_SO, EC_WORD_POKEMON},
+			.speechWin = {EC_WORD_OH, EC_WORD_ELLIPSIS, EC_WORD_SORRY, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_YOU, EC_WORD_SIBLINGS, EC_WORD_BESIDE, EC_WORD_EXCUSE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_HOHOHO, EC_WORD_THANK_YOU, EC_WORD_FOR, EC_WORD_THIS, EC_WORD_FIGHTING, EC_WORD_AMUSING},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("CHARLOTTE"),
 			.facilityClass = FACILITY_CLASS_LADY,
@@ -6751,7 +8039,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("OCTILLERY"),
+					#else
+					.nickname = _("OCTILLERY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6773,7 +8065,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("QWILFISH"),
+					#else
+					.nickname = _("QWILFISH"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6795,7 +8091,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("REMORAID"),
+					#else
+					.nickname = _("REMORAID"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6817,7 +8117,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("REMORAID"),
+					#else
+					.nickname = _("REMORAID"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6839,7 +8143,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x93, // MALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("OCTILLERY"),
+					#else
+					.nickname = _("OCTILLERY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6861,7 +8169,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("QWILFISH"),
+					#else
+					.nickname = _("QWILFISH"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -6883,6 +8195,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechWin = {EC_WORD_APOLOGIZE, EC_WORD_BUT, EC_WORD_WILL_BE_HERE, EC_WORD_LOWS, EC_WORD_WEAK, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_WILL_BE_HERE, EC_WORD_LOWS, EC_WORD_OVERWHELMING, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_GREAT, EC_WORD_HEARING, EC_WORD_LAY, EC_WORD_DO, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("SHANIA"),
+			.facilityClass = FACILITY_CLASS_SWIMMER_F,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_AN, EC_WORD_HEROINE, EC_WORD_POKEMON, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNBELIEVABLE, EC_WORD_EXCL, EC_WORD_YOU_RE, EC_WORD_REALLY, EC_WORD_TOO_WEAK, EC_WORD_EXCL},
+			.speechLose = {EC_WORD_I_AM, EC_WORD_REALLY, EC_WORD_SURPRISE, EC_WORD_EXCL_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_BEAUTIFUL, EC_WORD_FIGHTING, EC_WORD_THANK_YOU, EC_WORD_A_LOT, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("SHANIA"),
 			.facilityClass = FACILITY_CLASS_SWIMMER_F,
@@ -6912,7 +8232,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DEMANTA"),
+					#else
 					.nickname = _("MANTINE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6934,7 +8258,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0D, // FEMALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MAGICARPE"),
+					#else
 					.nickname = _("MAGIKARP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6956,7 +8284,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DEMANTA"),
+					#else
 					.nickname = _("MANTINE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -6978,7 +8310,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEVIATOR"),
+					#else
 					.nickname = _("GYARADOS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7000,7 +8336,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x94, // MALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MAGICARPE"),
+					#else
 					.nickname = _("MAGIKARP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7022,7 +8362,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEVIATOR"),
+					#else
 					.nickname = _("GYARADOS"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -7054,6 +8398,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			.speechWin = {EC_WORD_BYE_BYE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_BUT, EC_WORD_MISS, EC_WORD_DECIDE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_IMPOSSIBLE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("NILS"),
+			.facilityClass = FACILITY_CLASS_SAILOR,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_LET_S, EC_WORD_NOT, EC_WORD_DONE, EC_WORD_ELLIPSIS, EC_WORD_SERIOUSLY, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_GIVE_UP, EC_WORD_IT_S, EC_WORD_LOSE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_OOPS, EC_WORD_THAT_WAS, EC_WORD_EASY, EC_WORD_OF, EC_WORD_WIN, EC_WORD_EXCL_EXCL},
+			.speechAfter = {EC_WORD_GOOD, EC_WORD_WITHOUT, EC_MOVE(GRUDGE), EC_WORD_BUT, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("BRENNAN"),
 			.facilityClass = FACILITY_CLASS_SAILOR,
@@ -7083,7 +8435,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LOKHLASS"),
+					#else
 					.nickname = _("LAPRAS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7105,7 +8461,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x8C, // MALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("HYPOROI"),
+					#else
 					.nickname = _("KINGDRA"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7127,7 +8487,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x4E, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MACKOGNEUR"),
+					#else
 					.nickname = _("MACHAMP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7149,7 +8513,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x05, // FEMALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEVEINARD"),
+					#else
 					.nickname = _("CHANSEY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7171,7 +8539,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x03, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TAUROS"),
+					#else
+					.nickname = _("TAUROS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7193,7 +8565,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x21, // MALE IMPISH
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RONFLEX"),
+					#else
 					.nickname = _("SNORLAX"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -7215,6 +8591,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			.speechWin = {EC_WORD_FISHING, EC_WORD_WHOM, EC_WORD_PLAYED, EC_WORD_IF_I_WIN, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_FISHING, EC_WORD_WHOM, EC_WORD_PLAYED, EC_WORD_IF_I_LOSE, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_NATURALLY, EC_WORD_AS_IF, EC_WORD_IS, EC_WORD_IT, EC_WORD_WITH, EC_WORD_SPORTS},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("KENNY"),
+			.facilityClass = FACILITY_CLASS_FISHERMAN,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_DAUGHTER, EC_WORD_MATCH_UP, EC_WORD_OF, EC_WORD_FISHING, EC_WORD_IS, EC_WORD_FANTASTIC},
+			.speechWin = {EC_WORD_DAUGHTER, EC_WORD_MATCH_UP, EC_WORD_OF, EC_WORD_FISHING, EC_WORD_IS, EC_WORD_EXCELLENT},
+			.speechLose = {EC_WORD_UH_OH, EC_WORD_ELLIPSIS, EC_WORD_HEY_QUES, EC_WORD_I_VE, EC_WORD_LOST, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_DAUGHTER, EC_WORD_MATCH_UP, EC_WORD_WHO_WAS, EC_WORD_WON_T, EC_WORD_NOT, EC_WORD_WIN},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("KADEN"),
 			.facilityClass = FACILITY_CLASS_FISHERMAN,
@@ -7244,7 +8628,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LOUPIO"),
+					#else
 					.nickname = _("CHINCHOU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7266,7 +8654,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MINIDRACO"),
+					#else
 					.nickname = _("DRATINI"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7288,7 +8680,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RAMOLOSS"),
+					#else
 					.nickname = _("SLOWPOKE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7310,7 +8706,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x17, // FEMALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MAGICARPE"),
+					#else
 					.nickname = _("MAGIKARP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7332,7 +8732,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x17, // FEMALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("POISSOROY"),
+					#else
 					.nickname = _("SEAKING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7354,7 +8758,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x96, // MALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TENTACRUEL"),
+					#else
+					.nickname = _("TENTACRUEL"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -7376,6 +8784,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			.speechWin = {EC_WORD_AS_IF, EC_WORD_AS_MUCH_AS, EC_WORD_DON_T, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_LOWS, EC_WORD_AS_MUCH_AS, EC_WORD_DON_T, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_ANGRY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("CELESTIN"),
+			.facilityClass = FACILITY_CLASS_GENTLEMAN,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_HMM, EC_WORD_QUES, EC_WORD_YOU_RE, EC_WORD_HEALTHY, EC_WORD_TODAY, EC_WORD_QUES},
+			.speechWin = {EC_WORD_HMM, EC_WORD_WHERE, EC_WORD_MISTAKE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_YOU_RE, EC_WORD_REALLY, EC_WORD_A, EC_WORD_MASTER, EC_WORD_POKEMON, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_SORRY, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("EMANUEL"),
 			.facilityClass = FACILITY_CLASS_GENTLEMAN,
@@ -7405,7 +8821,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AQUALI"),
+					#else
 					.nickname = _("VAPOREON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7427,7 +8847,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MENTALI"),
+					#else
 					.nickname = _("ESPEON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7449,7 +8873,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x05, // FEMALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEUPHORIE"),
+					#else
 					.nickname = _("BLISSEY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7471,7 +8899,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x14, // GENDERLESS CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("STAROSS"),
+					#else
 					.nickname = _("STARMIE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7493,7 +8925,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0D, // FEMALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PERSIAN"),
+					#else
+					.nickname = _("PERSIAN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7515,7 +8951,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("AZUMARILL"),
+					#else
+					.nickname = _("AZUMARILL"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -7547,6 +8987,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 			.speechWin = {EC_WORD_RUN, EC_WORD_FAINT, EC_MOVE2(EXPLOSION), EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_WILL_BE_HERE, EC_WORD_LOWS, EC_WORD_SUPER, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_REJECT, EC_WORD_IS, EC_WORD_TO, EC_WORD_DECIDED, EC_WORD_EXCL, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("JAROD"),
+			.facilityClass = FACILITY_CLASS_JUGGLER,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_IF, EC_WORD_BELONGS_TO, EC_WORD_BE, EC_WORD_FEELING, EC_WORD_SUPER, EC_WORD_PARTY},
+			.speechWin = {EC_WORD_THANK_YOU, EC_WORD_FOR, EC_WORD_FEELING, EC_WORD_VICTORY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_YOU_RE, EC_WORD_HEALTHY, EC_WORD_HIM, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_IT, EC_WORD_LAY, EC_WORD_MAKE, EC_WORD_FEELING, EC_WORD_PARTY, EC_WORD_QUES},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("JARRETT"),
 			.facilityClass = FACILITY_CLASS_JUGGLER,
@@ -7576,7 +9024,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x0D, // GENDERLESS JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ELECTRODE"),
+					#else
+					.nickname = _("ELECTRODE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7598,7 +9050,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x0D, // GENDERLESS JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("VOLTORBE"),
+					#else
 					.nickname = _("VOLTORB"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7620,7 +9076,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SMOGOGO"),
+					#else
 					.nickname = _("WEEZING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7642,7 +9102,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x7F, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GROLEM"),
+					#else
 					.nickname = _("GOLEM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7664,7 +9128,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("NOEUNOEUF"),
+					#else
 					.nickname = _("EXEGGCUTE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7686,7 +9154,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x84, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FORETRESS"),
+					#else
 					.nickname = _("FORRETRESS"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -7720,6 +9192,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 			.speechWin = {EC_MOVE2(THUNDER_WAVE), EC_WORD_IS, EC_WORD_IT, EC_WORD_WITH, EC_MOVE2(PRESENT), EC_WORD_UNDEFINED},
 			.speechLose = {EC_WORD_ARE, EC_WORD_STRONG, EC_WORD_HOW, EC_WORD_A, EC_WORD_TRAIN, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_ARE, EC_WORD_A, EC_MOVE2(WHIRLWIND), EC_WORD_LISTEN, EC_WORD_POWER, EC_WORD_EXCL},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("OLIVER"),
+			.facilityClass = FACILITY_CLASS_SUPER_NERD,
+			.textColor = 2,
+			.speechBefore = {EC_MOVE2(THUNDER_WAVE), EC_WORD_WINS, EC_WORD_ALWAYS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_LIKELY_TO, EC_WORD_ACCEPT, EC_WORD_DAUGHTER, EC_MOVE2(THUNDER_WAVE), EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_MOVE2(WRAP), EC_MOVE(BIND), EC_WORD_ELECTRIC, EC_MOVE2(WHIRLWIND), EC_WORD_SPIRALING, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_MOVE2(WHIRLWIND), EC_WORD_SPIRALING, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_MOVE2(WHIRLWIND), EC_WORD_SPIRALING},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("OWEN"),
 			.facilityClass = FACILITY_CLASS_SUPER_NERD,
@@ -7749,7 +9229,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x0A, // GENDERLESS TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MAGNETON"),
+					#else
+					.nickname = _("MAGNETON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7771,7 +9255,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PIKACHU"),
+					#else
+					.nickname = _("PIKACHU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7793,7 +9281,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x37, // MALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("VOLTALI"),
+					#else
 					.nickname = _("JOLTEON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7815,7 +9307,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x05, // FEMALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEUPHORIE"),
+					#else
 					.nickname = _("BLISSEY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7837,7 +9333,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x05, // GENDERLESS BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PORYGON2"),
+					#else
+					.nickname = _("PORYGON2"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7859,7 +9359,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x05, // GENDERLESS BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PORYGON"),
+					#else
+					.nickname = _("PORYGON"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -7893,6 +9397,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 			.speechWin = {EC_WORD_NOW, EC_WORD_WORKS, EC_WORD_ABSOLUTELY, EC_WORD_ARE, EC_WORD_STRONG, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_AS_IF, EC_WORD_STORES, EC_WORD_THOSE_ARE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_AS_IF, EC_WORD_ARE, EC_WORD_ALONE, EC_WORD_TODAY, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("LORENZO"),
+			.facilityClass = FACILITY_CLASS_PSYCHIC_M,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_DAUGHTER, EC_MOVE(STRENGTH), EC_WORD_IS, EC_WORD_THAT_S, EC_WORD_TOP, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_NONE, EC_WORD_TRAINER, EC_WORD_ISN_T, EC_WORD_BELONGS_TO, EC_WORD_WHO_WAS, EC_WORD_WHEN_I_WIN},
+			.speechLose = {EC_WORD_IT_S, EC_WORD_ELLIPSIS, EC_WORD_IMPOSSIBLE, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_WILL, EC_WORD_MAKE, EC_WORD_THE, EC_WORD_HALL_OF_FAME, EC_WORD_OF, EC_MOVE(KINESIS)},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("LORENZO"),
 			.facilityClass = FACILITY_CLASS_PSYCHIC_M,
@@ -7922,7 +9434,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("M. MIME"),
+					#else
 					.nickname = _("MR. MIME"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7944,7 +9460,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x8C, // MALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("HYPNOMADE"),
+					#else
 					.nickname = _("HYPNO"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7966,7 +9486,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ALAKAZAM"),
+					#else
+					.nickname = _("ALAKAZAM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -7988,7 +9512,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x88, // MALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ECTOPLASMA"),
+					#else
 					.nickname = _("GENGAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8010,7 +9538,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 1,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("GIRAFARIG"),
+					#else
+					.nickname = _("GIRAFARIG"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8032,7 +9564,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x0A, // GENDERLESS TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("STAROSS"),
+					#else
 					.nickname = _("STARMIE"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -8059,6 +9595,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+			.name = _("NIA & CARL"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
 			.name = _("NIA & CARL"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 4,
@@ -8095,7 +9639,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GROTADMORV"),
+					#else
 					.nickname = _("MUK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8117,7 +9665,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x15, // FEMALE GENTLE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ECTOPLASMA"),
+					#else
 					.nickname = _("GENGAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8139,7 +9691,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ALAKAZAM"),
+					#else
+					.nickname = _("ALAKAZAM"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8161,7 +9717,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x05, // FEMALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("VOLTALI"),
+					#else
 					.nickname = _("JOLTEON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8183,7 +9743,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x14, // GENDERLESS CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ELECTRODE"),
+					#else
+					.nickname = _("ELECTRODE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8205,7 +9769,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("RAICHU"),
+					#else
+					.nickname = _("RAICHU"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -8220,6 +9788,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+			.name = _("NIA & CARL"),
+			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
 			.name = _("NIA & CARL"),
 			.facilityClass = FACILITY_CLASS_COOL_COUPLE,
 			.textColor = 4,
@@ -8256,7 +9832,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("KANGOUREX"),
+					#else
 					.nickname = _("KANGASKHAN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8278,7 +9858,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x03, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TAUROS"),
+					#else
+					.nickname = _("TAUROS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8300,7 +9884,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ECREMEUH"),
+					#else
 					.nickname = _("MILTANK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8322,7 +9910,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RHINOFEROS"),
+					#else
 					.nickname = _("RHYDON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8344,7 +9936,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x91, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DRACOLOSSE"),
+					#else
 					.nickname = _("DRAGONITE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8366,7 +9962,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x91, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LOKHLASS"),
+					#else
 					.nickname = _("LAPRAS"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -8399,6 +9999,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 			.speechWin = {EC_WORD_TODAY, EC_WORD_COME_OVER, EC_WORD_NITWIT, EC_WORD_ABOUT, EC_WORD_LESSONS, EC_WORD_QUES},
 			.speechLose = {EC_WORD_TODAY, EC_WORD_SMELL, EC_WORD_NITWIT, EC_WORD_ABOUT, EC_WORD_LESSONS, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_THIS, EC_WORD_MISS, EC_WORD_LESSONS, EC_WORD_LISTEN, EC_WORD_FIGHTING, EC_WORD_EXCL},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("LEO & LEA"),
+			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_HE, EC_WORD_BELONGS_TO, EC_WORD_MAKE, EC_WORD_SUPER, EC_WORD_COLD, EC_WORD_EXCL_EXCL},
+			.speechWin = {EC_WORD_COUNT_ON, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_SUPER, EC_WORD_COLD, EC_WORD_EXCL},
+			.speechLose = {EC_WORD_CAN, EC_WORD_NOT, EC_WORD_WIN, EC_WORD_WITH, EC_WORD_THIS, EC_WORD_COLD},
+			.speechAfter = {EC_WORD_THIS_IS_IT_EXCL, EC_MOVE(SHEER_COLD), EC_WORD_WHO_WAS, EC_WORD_DESTROYED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("AXE & REN"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
@@ -8428,7 +10036,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("LANTURN"),
+					#else
+					.nickname = _("LANTURN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8450,7 +10062,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DEMANTA"),
+					#else
 					.nickname = _("MANTINE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8472,7 +10088,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LAMANTINE"),
+					#else
 					.nickname = _("DEWGONG"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8494,7 +10114,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("CRUSTABRI"),
+					#else
 					.nickname = _("CLOYSTER"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8516,7 +10140,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TENTACRUEL"),
+					#else
+					.nickname = _("TENTACRUEL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8538,7 +10166,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LEVIATOR"),
+					#else
 					.nickname = _("GYARADOS"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -8560,6 +10192,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 			.speechWin = {EC_WORD_LATER, EC_WORD_TO, EC_WORD_VICTORY, EC_WORD_A, EC_WORD_THIS, EC_WORD_BATH},
 			.speechLose = {EC_WORD_LOWS, EC_WORD_CONGRATS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_MEET_YOU, EC_WORD_SEE_YA, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("LEO & LEA"),
+			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_OUR, EC_WORD_SWIFT_SWIM, EC_WORD_WHO_WAS, EC_WORD_GIVES, EC_WORD_COLD, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_I_VE, EC_WORD_WINS, EC_WORD_BUT, EC_WORD_I_VE, EC_WORD_A_LITTLE, EC_WORD_HOT},
+			.speechLose = {EC_WORD_I_VE, EC_WORD_HUNGRY, EC_WORD_WANT, EC_WORD_WILL_BE_HERE, EC_WORD_HOT, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_SISTER, EC_WORD_WANT, EC_WORD_WILL_BE_HERE, EC_WORD_HOT, EC_WORD_PLEASE, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("AXE & REN"),
 			.facilityClass = FACILITY_CLASS_SIS_AND_BRO,
@@ -8589,7 +10229,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x40, // MALE NAIVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ELEKTEK"),
+					#else
 					.nickname = _("ELECTABUZZ"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8611,7 +10255,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0A, // GENDERLESS TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MAGNETON"),
+					#else
+					.nickname = _("MAGNETON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8633,7 +10281,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x11, // GENDERLESS QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PORYGON"),
+					#else
+					.nickname = _("PORYGON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8655,7 +10307,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("DRACO"),
+					#else
 					.nickname = _("DRAGONAIR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8677,7 +10333,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PERSIAN"),
+					#else
+					.nickname = _("PERSIAN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8699,7 +10359,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x05, // GENDERLESS BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("STAROSS"),
+					#else
 					.nickname = _("STARMIE"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -8726,6 +10390,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 			.name = _("KATI & GEB"),
+			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("KATI & SEB"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 2,
 			.speechBefore = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
@@ -8761,7 +10433,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x84, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LAINERGIE"),
+					#else
 					.nickname = _("FLAAFFY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8783,7 +10459,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x93, // MALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MARAISTE"),
+					#else
 					.nickname = _("QUAGSIRE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8805,7 +10485,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PIKACHU"),
+					#else
+					.nickname = _("PIKACHU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8827,7 +10511,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x46, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ELEKTEK"),
+					#else
 					.nickname = _("ELECTABUZZ"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8849,7 +10537,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x2D, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGETIC"),
+					#else
+					.nickname = _("TOGETIC"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8871,7 +10563,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AKWAKWAK"),
+					#else
 					.nickname = _("GOLDUCK"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -8887,6 +10583,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 			.name = _("KATI & GEB"),
+			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechWin = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechAfter = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("KATI & SEB"),
 			.facilityClass = FACILITY_CLASS_YOUNG_COUPLE,
 			.textColor = 2,
 			.speechBefore = {EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
@@ -8922,7 +10626,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x03, // FEMALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PICHU"),
+					#else
+					.nickname = _("PICHU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8944,7 +10652,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ELEKID"),
+					#else
+					.nickname = _("ELEKID"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8966,7 +10678,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("TOGEPI"),
+					#else
+					.nickname = _("TOGEPI"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -8988,7 +10704,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PSYKOKWAK"),
+					#else
 					.nickname = _("PSYDUCK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9010,7 +10730,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("WATTOUAT"),
+					#else
 					.nickname = _("MAREEP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9032,7 +10756,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("AXOLOTO"),
+					#else
 					.nickname = _("WOOPER"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -9065,6 +10793,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechWin = {EC_WORD_STATIC, EC_WORD_IS, EC_WORD_ELECTRIC, EC_WORD_QUES, EC_WORD_OH_YEAH, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_WHEN, EC_WORD_ELECTRIC, EC_WORD_WHEN, EC_WORD_TELEVISION, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 			.speechAfter = {EC_WORD_ELECTRIC, EC_WORD_IS, EC_WORD_TO, EC_MOVE(STRENGTH), EC_WORD_NATURAL, EC_WORD_EXCL},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("BEN"),
+			.facilityClass = FACILITY_CLASS_ROCKER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_LALALA, EC_WORD_WILL, EC_WORD_SONGS, EC_WORD_FEELING, EC_MOVE(FOCUS_ENERGY), EC_WORD_ELECTRIC},
+			.speechWin = {EC_WORD_STATIC, EC_WORD_IS, EC_WORD_ELECTRIC, EC_WORD_YAY, EC_WORD_WOWEE, EC_WORD_EXCL_EXCL},
+			.speechLose = {EC_WORD_DAUGHTER, EC_WORD_TELEVISION, EC_WORD_DIGITAL, EC_WORD_IS, EC_WORD_FANTASTIC, EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_WORD_WHERE, EC_MOVE(FOCUS_ENERGY), EC_WORD_UNBELIEVABLE, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("BEN"),
 			.facilityClass = FACILITY_CLASS_ROCKER,
@@ -9094,7 +10830,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x14, // GENDERLESS CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("ELECTRODE"),
+					#else
+					.nickname = _("ELECTRODE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9116,7 +10856,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ELEKTEK"),
+					#else
 					.nickname = _("ELECTABUZZ"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9138,7 +10882,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x8E, // MALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("LANTURN"),
+					#else
+					.nickname = _("LANTURN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9160,7 +10908,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x14, // GENDERLESS CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("MAGNETON"),
+					#else
+					.nickname = _("MAGNETON"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9182,7 +10934,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("RAICHU"),
+					#else
+					.nickname = _("RAICHU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9204,7 +10960,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PHARAMP"),
+					#else
 					.nickname = _("AMPHAROS"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -9226,6 +10986,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechWin = {EC_MOVE(THUNDERBOLT), EC_WORD_IS, EC_WORD_TO, EC_WORD_MOVE, EC_WORD_ELECTRIC, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_IT, EC_WORD_LINK, EC_WORD_WIRELESS, EC_WORD_IS, EC_WORD_ELECTRIC, EC_WORD_QUES},
 			.speechAfter = {EC_WORD_HERE, EC_WORD_IS, EC_WORD_ELECTRIC, EC_WORD_SOMETHING, EC_WORD_LIFE, EC_WORD_EXCL},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("PIERRICK"),
+			.facilityClass = FACILITY_CLASS_ENGINEER,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_LALALA, EC_WORD_WILL, EC_WORD_SONGS, EC_WORD_FEELING, EC_MOVE(FOCUS_ENERGY), EC_WORD_ELECTRIC},
+			.speechWin = {EC_WORD_THE, EC_MOVE(THUNDERBOLT), EC_WORD_IS, EC_WORD_ELECTRIC, EC_WORD_ALSO, EC_WORD_EXCL_EXCL},
+			.speechLose = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_AN, EC_WORD_LINK, EC_WORD_WIRELESS},
+			.speechAfter = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_RECOMMEND, EC_WORD_EXCUSE, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("CAMDEN"),
 			.facilityClass = FACILITY_CLASS_ENGINEER,
@@ -9255,7 +11023,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("GRANBULL"),
+					#else
+					.nickname = _("GRANBULL"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9277,7 +11049,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PERSIAN"),
+					#else
+					.nickname = _("PERSIAN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9299,7 +11075,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("EXCELANGUE"),
+					#else
 					.nickname = _("LICKITUNG"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9321,7 +11101,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x94, // MALE CAREFUL
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RATTATAC"),
+					#else
 					.nickname = _("RATICATE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9343,7 +11127,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("COLOSSINGE"),
+					#else
 					.nickname = _("PRIMEAPE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9365,7 +11153,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("KANGOUREX"),
+					#else
 					.nickname = _("KANGASKHAN"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -9387,6 +11179,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechWin = {EC_MOVE2(THUNDER_SHOCK), EC_WORD_IS, EC_WORD_TO, EC_WORD_MOVE, EC_WORD_ELECTRIC, EC_WORD_EXCL},
 			.speechLose = {EC_MOVE2(FLASH), EC_WORD_IS, EC_WORD_TO, EC_WORD_MOVE, EC_WORD_ELECTRIC, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_ARE, EC_WORD_TO, EC_MOVE(SPARK), EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("MARIO"),
+			.facilityClass = FACILITY_CLASS_SCIENTIST,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_LALALA, EC_WORD_WILL, EC_WORD_SONGS, EC_WORD_FEELING, EC_MOVE(FOCUS_ENERGY), EC_WORD_ELECTRIC},
+			.speechWin = {EC_WORD_A, EC_MOVE2(THUNDER_SHOCK), EC_WORD_IS, EC_WORD_ELECTRIC, EC_WORD_HUH_QUES, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_MOVE2(FLASH), EC_MOVE2(FLASH), EC_MOVE2(FLASH), EC_WORD_EXCL},
+			.speechAfter = {EC_MOVE(SPARK), EC_WORD_IT_S, EC_WORD_SUPER, EC_WORD_EXCL, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("ZACKERY"),
 			.facilityClass = FACILITY_CLASS_SCIENTIST,
@@ -9416,7 +11216,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SMOGOGO"),
+					#else
 					.nickname = _("WEEZING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9438,7 +11242,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x84, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GROTADMORV"),
+					#else
 					.nickname = _("MUK"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9460,7 +11268,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("ECTOPLASMA"),
+					#else
 					.nickname = _("GENGAR"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9482,7 +11294,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0A, // FEMALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("FEUFOREVE"),
+					#else
 					.nickname = _("MISDREAVUS"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9504,7 +11320,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x87, // MALE TIMID
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("NOSTENFER"),
+					#else
 					.nickname = _("CROBAT"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9526,7 +11346,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x91, // MALE CALM
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("SPECTRUM"),
+					#else
 					.nickname = _("HAUNTER"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -9558,6 +11382,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechWin = {EC_WORD_LISTEN, EC_WORD_THING, EC_WORD_ARE, EC_WORD_IT, EC_WORD_LEADER, EC_WORD_QUES},
 			.speechLose = {EC_WORD_GIGGLE, EC_WORD_AS_IF, EC_WORD_ARE, EC_WORD_IT, EC_WORD_LEADER, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_IT, EC_WORD_LEADER, EC_WORD_IS, EC_WORD_WITH, EC_WORD_UNCLE, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("MYRIAM"),
+			.facilityClass = FACILITY_CLASS_BEAUTY,
+			.textColor = 2,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_THE, EC_WORD_LEADER, EC_WORD_WILL_BE_HERE, EC_WORD_GROUP, EC_WORD_EXCL},
+			.speechWin = {EC_WORD_I_AM, EC_WORD_LEADER, EC_WORD_OF, EC_WORD_EH_QUES, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_I_AM, EC_WORD_NOT, EC_WORD_LEADER, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_JOKING},
+			.speechAfter = {EC_WORD_THE, EC_WORD_TYPE, EC_WORD_GROUND, EC_WORD_IS, EC_WORD_LOUSY, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("MAURA"),
 			.facilityClass = FACILITY_CLASS_BEAUTY,
@@ -9587,7 +11419,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x05, // FEMALE BOLD
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PICHU"),
+					#else
+					.nickname = _("PICHU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9609,7 +11445,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("WATTOUAT"),
+					#else
 					.nickname = _("MAREEP"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9631,7 +11471,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("TOUDOUDOU"),
+					#else
 					.nickname = _("IGGLYBUFF"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9653,7 +11497,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELO"),
+					#else
 					.nickname = _("CLEFFA"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9675,7 +11523,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDORAN♀"),
+					#else
+					.nickname = _("NIDORAN♀"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9697,7 +11549,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x07, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDORAN♂"),
+					#else
+					.nickname = _("NIDORAN♂"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -9719,6 +11575,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechWin = {EC_WORD_LET_S, EC_WORD_QUES, EC_WORD_NO, EC_WORD_LET_S, EC_WORD_NO, EC_WORD_EXCL},
 			.speechLose = {EC_WORD_LET_S, EC_WORD_WILL_BE_HERE, EC_WORD_ABOVE, EC_WORD_LISTEN, EC_WORD_DON_T, EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_BESIDE, EC_WORD_ELLIPSIS, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED, EC_WORD_UNDEFINED},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("DORINE"),
+			.facilityClass = FACILITY_CLASS_LASS,
+			.textColor = 1,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_REALLY, EC_WORD_THE, EC_WORD_TRAINER, EC_WORD_NO_1, EC_WORD_THERE},
+			.speechWin = {EC_WORD_I_VE, EC_WORD_NOT, EC_WORD_SAID, EC_WORD_NO_1, EC_WORD_HUH_QUES, EC_WORD_UNDEFINED},
+			.speechLose = {EC_WORD_THE, EC_WORD_NEXT, EC_WORD_FIGHTING, EC_WORD_BELONGS_TO, EC_WORD_BE, EC_WORD_UNBELIEVABLE},
+			.speechAfter = {EC_WORD_I_VE, EC_WORD_LOST, EC_WORD_AND, EC_WORD_OF, EC_WORD_FAR, EC_WORD_EXCL},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("MIKAELA"),
 			.facilityClass = FACILITY_CLASS_LASS,
@@ -9748,7 +11612,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x07, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDORINO"),
+					#else
+					.nickname = _("NIDORINO"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9770,7 +11638,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDORINA"),
+					#else
+					.nickname = _("NIDORINA"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9792,7 +11664,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("PIKACHU"),
+					#else
+					.nickname = _("PIKACHU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9814,7 +11690,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("LAINERGIE"),
+					#else
 					.nickname = _("FLAAFFY"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9836,7 +11716,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("RONDOUDOU"),
+					#else
 					.nickname = _("JIGGLYPUFF"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9858,7 +11742,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELOFEE"),
+					#else
 					.nickname = _("CLEFAIRY"),
+					#endif
 					.friendship = 255
 				},
 			}
@@ -9880,6 +11768,14 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechWin = {EC_WORD_WILL, EC_WORD_WON, EC_WORD_CHOOSE, EC_MOVE2(MILK_DRINK), EC_WORD_NOW, EC_WORD_QUES},
 			.speechLose = {EC_WORD_OVER, EC_WORD_IS_IT_QUES, EC_WORD_WHERE, EC_WORD_LISTEN, EC_MOVE2(MILK_DRINK), EC_WORD_EXCL},
 			.speechAfter = {EC_WORD_NOW, EC_MOVE2(MILK_DRINK), EC_WORD_AS_IF, EC_WORD_SATISFIED, EC_WORD_PLUS, EC_WORD_EXCL},
+		#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+			.name = _("FREDERIC"),
+			.facilityClass = FACILITY_CLASS_ENGINEER,
+			.textColor = 4,
+			.speechBefore = {EC_WORD_I_AM, EC_WORD_THE, EC_WORD_LEADER, EC_WORD_WILL_BE_HERE, EC_MOVE2(MILK_DRINK), EC_WORD_EXCL},
+			.speechWin = {EC_WORD_I_VE, EC_WORD_WINS, EC_WORD_THIS, EC_WORD_FIGHTING, EC_WORD_OF, EC_MOVE2(MILK_DRINK)},
+			.speechLose = {EC_WORD_CAN, EC_WORD_PLUS, EC_WORD_SEE, EC_WORD_OF, EC_MOVE2(MILK_DRINK), EC_WORD_EXCL},
+			.speechAfter = {EC_WORD_I_VE, EC_WORD_WILL_BE_HERE, EC_MOVE2(MILK_DRINK), EC_WORD_FULL, EC_WORD_UP, EC_WORD_ME},
 		#else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 			.name = _("FLINT"),
 			.facilityClass = FACILITY_CLASS_ENGINEER,
@@ -9909,7 +11805,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0xCF, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("GRODOUDOU"),
+					#else
 					.nickname = _("WIGGLYTUFF"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9931,7 +11831,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0xCF, // MALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("MELODELFE"),
+					#else
 					.nickname = _("CLEFABLE"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9953,7 +11857,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x07, // FEMALE RELAXED
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDOQUEEN"),
+					#else
+					.nickname = _("NIDOQUEEN"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9975,7 +11883,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x02, // MALE BRAVE
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("NIDOKING"),
+					#else
+					.nickname = _("NIDOKING"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -9997,7 +11909,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
 					.nickname = _("RAICHU"),
+					#else
+					.nickname = _("RAICHU"),
+					#endif
 					.friendship = 255
 				},
 				{
@@ -10019,7 +11935,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
+					#if GAME_LANGUAGE == LANGUAGE_FRENCH
+					.nickname = _("PHARAMP"),
+					#else
 					.nickname = _("AMPHAROS"),
+					#endif
 					.friendship = 255
 				},
 			}

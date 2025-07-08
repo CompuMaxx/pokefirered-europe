@@ -6458,7 +6458,7 @@ u8 *Localize_BattleStrings(const u8 *src)
 }
 #endif
 
-#if GAME_LANGUAGE == LANGUAGE_SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH || GAME_LANGUAGE == LANGUAGE_FRENCH //Test
 //Is trainer class n name in src ?
 static bool32 es_sub_8044D1C(u8 *src)
 {

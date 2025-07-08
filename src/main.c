@@ -34,6 +34,8 @@ const char BuildDateTime[] = __DATE__ " " __TIME__;
 const char BuildDateTime[] = "2004 07 20 15:50";
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 const char BuildDateTime[] = "2004 07 26 17:40";
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+const char BuildDateTime[] = "2004 07 21 13:50";
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 #if REVISION == 0
 const char BuildDateTime[] = "2004 04 26 11:20";

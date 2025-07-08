@@ -1135,6 +1135,37 @@ static void CreateCursorSprite(void)
     SetCursorPos(0, 0);
 }
 
+#if GAME_LANGUAGE == LANGUAGE_FRENCH //Fake match
+void SetCursorPos(s16 x, s16 y) {
+    struct Sprite *cursorSprite = &gSprites[sNamingScreen->cursorSpriteId];
+    u8 page;
+    s16 xPos;
+
+    // Dummy variables para forzar uso de registros
+    s16 sx, sy, col;
+
+    // Acceso redundante para forzar carga
+    sx = cursorSprite->sX;
+    sy = cursorSprite->sY;
+    col = sPageColumnCounts[page];
+
+    page = CurrentPageToKeyboardId();
+
+    if (x < col)
+        xPos = sPageColumnXPos[page][x] + 38;
+    else
+        xPos = 0;
+
+    cursorSprite->x = xPos;
+    cursorSprite->y = sy * 16 + 88;
+
+    // Actualizar posición lógica previa
+    cursorSprite->sPrevX = sx;
+    cursorSprite->sPrevY = sy;
+    cursorSprite->sX = x;
+    cursorSprite->sY = y;
+}
+#else
 static void SetCursorPos(s16 x, s16 y)
 {
     struct Sprite *cursorSprite = &gSprites[sNamingScreen->cursorSpriteId];
@@ -1150,6 +1181,7 @@ static void SetCursorPos(s16 x, s16 y)
     cursorSprite->sX = x;
     cursorSprite->sY = y;
 }
+#endif
 
 static void GetCursorPos(s16 *x, s16 *y)
 {
@@ -1771,10 +1803,22 @@ static void DrawGenderIcon(void)
     }
 }
 
+#if GAME_LANGUAGE == LANGUAGE_FRENCH //Fake match
+static u8 GetCharAtKeyboardPos(s16 x, s16 y)
+{
+    u8 page, result;
+
+    page = CurrentPageToKeyboardId();
+
+    result = sKeyboardChars[CurrentPageToKeyboardId()][y][x];
+    return sKeyboardChars[CurrentPageToKeyboardId()][y][x];
+}
+#else
 static u8 GetCharAtKeyboardPos(s16 x, s16 y)
 {
     return sKeyboardChars[CurrentPageToKeyboardId()][y][x];
 }
+#endif
 
 static u8 GetTextEntryPosition(void)
 {

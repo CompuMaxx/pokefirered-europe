@@ -34,6 +34,22 @@ static const u8 sMapsecName_{{ cleanString(map_section.name) }}_Clone[] = _("{{ 
 {% endif %}
 ## endfor
 
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+## for map_section in map_sections
+{% if existsIn(map_section, "name") and isEmptyString(getVar(map_section.name_fr)) and not existsIn(map_section, "name_clone") %}{{ setVar(map_section.name_fr, map_section.id) }}{% endif %}
+## endfor
+
+## for map_section in map_sections
+{% if existsIn(map_section, "name") %}
+{% if getVar(map_section.name_fr) == map_section.id %}
+static const u8 sMapsecName_{{ cleanString(map_section.name) }}[] = _("{{ map_section.name_fr }}");
+{% endif %}
+{% if existsIn(map_section, "name_clone") %}
+static const u8 sMapsecName_{{ cleanString(map_section.name) }}_Clone[] = _("{{ map_section.name_fr }}");
+{% endif %}
+{% endif %}
+## endfor
+
 #else //LANGUAGE_ENGLISH
 ## for map_section in map_sections
 {% if existsIn(map_section, "name") and isEmptyString(getVar(map_section.name)) and not existsIn(map_section, "name_clone") %}{{ setVar(map_section.name, map_section.id) }}{% endif %}
