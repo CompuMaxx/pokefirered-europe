@@ -19,7 +19,7 @@ static const u8 sText_RightArrow2[] = _("{RIGHT_ARROW_2}");
 static const u8 sText_Plus[] = _("{PLUS}");
 static const u8 sText_Dash[] = _("-");
 
-static const u8 sText_MaxHP[] = _("{FONT_SMALL} Max{FONT_NORMAL} PV");
+static const u8 sText_MaxHP[] = _("{FONT_SMALL}Max{FONT_NORMAL} PV");
 static const u8 sText_Attack[] = _("ATTAQUE");
 static const u8 sText_Defense[] = _("DEFENSE");
 static const u8 sText_SpAtk[] = _("ATQ. SPE.");
@@ -36,7 +36,7 @@ static const u8 *const sStatNamesTable2	[] =
     sText_Speed
 };
 
-const u8 gText_SafariBalls[] = _("{HIGHLIGHT 2} SAFARI BALLS");
+const u8 gText_SafariBalls[] = _("{HIGHLIGHT 2}SAFARI BALLS");
 const u8 gText_HighlightRed_Left[] = _("{HIGHLIGHT 2}Nb: ");
 const u8 gText_HighlightRed[] = _("{HIGHLIGHT 2}");
 const u8 gText_Sleep[] = _("sommeil");
@@ -96,7 +96,7 @@ const u8 *const gTrainerTowerChallengeTypeTexts[NUM_TOWER_CHALLENGE_TYPES] =
     gOtherText_Mixed
 };
 
-static const u8 sText_Trainer1Fled[] = _("{PLAY_SE SE_FLEE}{PLAY_SE SE_FLEE} {B_TRAINER1_NAME} {B_TRAINER1_CLASS} s'enfuit!");
+static const u8 sText_Trainer1Fled[] = _("{PLAY_SE SE_FLEE}{B_TRAINER1_NAME} {B_TRAINER1_CLASS} s'enfuit!");
 static const u8 sText_PlayerLostAgainstTrainer1[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME} a\ngagné!");
 static const u8 sText_PlayerBattledToDrawTrainer1[] = _("Egalité avec \n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!");
 
