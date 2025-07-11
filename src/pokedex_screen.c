@@ -2896,6 +2896,98 @@ void DexScreen_PrintMonWeight(u8 windowId, u16 species, u8 x, u8 y)
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, buffer, x, y, 0);
 }
 #else
+#if GAME_LANGUAGE == LANGUAGE_FRENCH
+NAKED
+void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
+{
+    asm("push {r4-r7,lr}");
+    asm("mov r7, r8");
+    asm("push {r7}");
+    asm("sub sp, sp, #0x14");
+    asm("lsl r0, #0x18");
+    asm("lsr r0, #0x18");
+    asm("mov r8, r0");
+    asm("lsl r1, #0x10");
+    asm("lsr r1, #0x10");
+    asm("lsl r2, #0x18");
+    asm("lsr r7, r2, #0x18");
+    asm("lsl r3, #0x18");
+    asm("lsr r6, r3, #0x18");
+    asm("mov r0, r1");
+    asm("bl SpeciesToNationalPokedexNum");
+    asm("lsl r1, r0, #3");
+    asm("add r1, r1, r0");
+    asm("lsl r1, r1, #2");
+    asm("ldr r2, _gPokedexEntries");
+    asm("add r5, r1, r2");
+    asm("mov r4, #0");
+    asm("mov r1, #1");
+    asm("mov r2, #0");
+    asm("bl DexScreen_GetSetPokedexFlag");
+    asm("lsl r0, #0x18");
+    asm("cmp r0, #0");
+    asm("beq loc_8105bd0");
+    asm("ldrb r0, [r5]");
+    asm("cmp r0, #0xff");
+    asm("beq loc_8105be4");
+
+    asm("loc_8105bac:");
+    asm("mov r1, sp");
+    asm("add r1, r1, r4");
+    asm("add r1, #8");
+    asm("add r0, r5, r4");
+    asm("ldrb r0, [r0]");
+    asm("strb r0, [r1]");
+    asm("add r0, r4, #1");
+    asm("lsl r0, #0x18");
+    asm("lsr r4, r0, #0x18");
+    asm("add r0, r5, r4");
+    asm("ldrb r0, [r0]");
+    asm("cmp r0, #0xff");
+    asm("beq loc_8105be4");
+    asm("cmp r4, #0xa");
+    asm("bls loc_8105bac");
+    asm("b loc_8105be4");
+
+    asm("_gPokedexEntries:");
+    asm(".word gPokedexEntries");
+
+    asm("loc_8105bd0:");
+    asm("mov r1, #0xac");
+
+    asm("loc_8105bd2:");
+    asm("mov r0, sp");
+    asm("add r0, r0, r4");
+    asm("add r0, #8");
+    asm("strb r1, [r0]");
+    asm("add r0, r4, #1");
+    asm("lsl r0, #0x18");
+    asm("lsr r4, r0, #0x18");
+    asm("cmp r4, #0xa");
+    asm("bls loc_8105bd2");
+
+    asm("loc_8105be4:");
+    asm("mov r0, sp");
+    asm("add r0, r0, r4");
+    asm("add r0, #8");
+    asm("mov r1, #0xff");
+    asm("strb r1, [r0]");
+    asm("str r6, [sp]");
+    asm("mov r0, #0");
+    asm("str r0, [sp, #4]");
+    asm("mov r0, r8");
+    asm("mov r1, #0");
+    asm("add r2, sp, #8");
+    asm("mov r3, r7");
+    asm("bl DexScreen_AddTextPrinterParameterized");
+    asm("add sp, #0x14");
+    asm("pop {r3}");
+    asm("mov r8, r3");
+    asm("pop {r4-r7}");
+    asm("pop {r0}");
+    asm("bx r0");
+}
+#else
 
 void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
 {
@@ -2939,6 +3031,7 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     x = tmp + stringWidth;
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, categoryStr, x, y, 0);  
 }
+#endif
 
 #define PRINT_HEIGHT    0
 #define PRINT_WEIGHT    1

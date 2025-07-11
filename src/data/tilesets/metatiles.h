@@ -119,6 +119,8 @@ const u32 gMetatileAttributes_CeruleanCave[] = INCBIN_U32("data/tilesets/seconda
 const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles_es.bin");
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
 const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles_it.bin");
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles_fr.bin");
 #else //LANGUAGE_ENGLISH
 const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles.bin");
 #endif

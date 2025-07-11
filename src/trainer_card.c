@@ -357,6 +357,9 @@ static bool8 (*const sTrainerCardFlipTasks[])(struct Task *) =
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
     #define BACKNAME_X_POS  0x94
     #define STARTYOFFSET2   7
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+    #define BACKNAME_X_POS  0x8A
+    #define STARTYOFFSET2   7
 #else //#elif GAME_LANGUAGE == LANGUAGE_ENGLISH
     #define BACKNAME_X_POS  0x8A
     #define STARTYOFFSET2   6
@@ -1385,6 +1388,9 @@ static void BufferLinkBattleResults(void)
     #define X_COORD_WIN_LOSS 136
     #define X_COORD_LINK_WINS 149
 #elif GAME_LANGUAGE == LANGUAGE_ITALIAN
+    #define X_COORD_WIN_LOSS 130
+    #define X_COORD_LINK_WINS 148
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
     #define X_COORD_WIN_LOSS 130
     #define X_COORD_LINK_WINS 148
 #else //LANGUAGE_ENGLISH

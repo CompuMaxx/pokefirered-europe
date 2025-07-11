@@ -501,7 +501,7 @@ static const struct WindowTemplate sUIWindowTemplates[] = {
     },
     [FCWINDOWID_ICONDESC] = {
         .bg = 0,
-#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_FRENCH
         .tilemapLeft = 13,
         .tilemapTop = 10,
         .width = 15,
@@ -732,7 +732,7 @@ static void Task_WaitFadeOnInit(u8 taskId)
         gTasks[taskId].func = Task_TopMenuHandleInput;
 }
 
-#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_FRENCH
     #define WINDOW_WITDH 120
 #else
     #define WINDOW_WITDH 88
@@ -1680,7 +1680,7 @@ static void Task_FCOpenOrCloseInfoBox(u8 taskId)
     }
 }
 
-#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_FRENCH
 static void UpdateInfoBoxTilemap(u8 bg, s16 state)
 {
     if (state == 0 || state == 3)

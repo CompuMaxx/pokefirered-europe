@@ -164,9 +164,6 @@ CableClub_EventScript_PlayerExitUnionRoom::
 CableClub_EventScript_TrainerCardDataOverwritten::
 	message CableClub_Text_TrainerCardDataOverwritten
 	waitmessage
-.if GAME_LANGUAGE != LANGUAGE_ENGLISH
-	delay 60
-.endif
 	playse SE_PIN
 	message CableClub_Text_HopeToSeeYouAgain
 	waitmessage

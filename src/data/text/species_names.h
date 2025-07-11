@@ -562,7 +562,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_OLD_UNOWN_Y] = _("?"),
     [SPECIES_OLD_UNOWN_Z] = _("?"),
 #endif
-#if GAME_LANGUAGE == FRENCH
+#if GAME_LANGUAGE == LANGUAGE_FRENCH
     [SPECIES_TREECKO] = _("ARCKO"),
     [SPECIES_GROVYLE] = _("MASSKO"),
     [SPECIES_SCEPTILE] = _("JUNGKO"),

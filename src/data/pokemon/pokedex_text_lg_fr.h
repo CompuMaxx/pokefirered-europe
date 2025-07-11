@@ -25,7 +25,8 @@ const u8 gVenusaurPokedexText[] = _(
     "absorbe les rayons du soleil. Il migre\n"
     "souvent vers les endroits ensoleillés.");
 
-const u8 gVenusaurPokedexTextUnused[] = _("");
+const u8 gVenusaurPokedexTextUnused[] = _(
+    " ");
 
 const u8 gCharmanderPokedexText[] = _(
     "Il préfère les endroits chauds. En cas\n"
@@ -80,14 +81,16 @@ const u8 gMetapodPokedexText[] = _(
     "que sa carapace est molle, car il\n"
     "expose son corps tendre et mou.");
 
-const u8 gMetapodPokedexTextUnused[] = _("");
+const u8 gMetapodPokedexTextUnused[] = _(
+    " ");
 
 const u8 gButterfreePokedexText[] = _(
     "En combat, il bat des ailes très\n"
     "rapidement pour projeter des poudres\n"
     "toxiques sur ses ennemis.");
 
-const u8 gButterfreePokedexTextUnused[] = _("");
+const u8 gButterfreePokedexTextUnused[] = _(
+    " ");
 
 const u8 gWeedlePokedexText[] = _(
     "Il vit dans les forêts et se nourrit\n"

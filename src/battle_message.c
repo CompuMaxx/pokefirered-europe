@@ -1271,6 +1271,23 @@ static const u8 *TryGetStatusString(u8 *src)
     return NULL;
 }
 
+#if GAME_LANGUAGE == LANGUAGE_FRENCH
+const u8 *Localize_TrainerClass_SchoolKid()
+{
+    return gTrainerClassNames[TRAINER_CLASS_SCHOOL_KID];
+}
+
+const u8 *Localize_TrainerClass_PkmnTrainer()
+{
+     return gTrainerClassNames[TRAINER_CLASS_PKMN_TRAINER];
+}
+
+const u8 *Localize_TrainerClass_Leader()
+{
+    return gTrainerClassNames[TRAINER_CLASS_LEADER];
+}
+#endif
+
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
 extern const u8 gText_Entrenadora[];
 extern const u8 gText_Lideres[];
@@ -1487,7 +1504,7 @@ const u8 *Localize_TrainerClass_Names(s32 battleType, u32 trainerId)
     }
 #endif
 
-u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
+u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst) //not matching
 {
     u32 dstId = 0; // if they used dstId, why not use srcId as well?
     const u8 *toCpy = NULL;
@@ -1701,7 +1718,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 toCpy = gAbilityNames[sBattlerAbilities[gEffectBattler]];
                 break;
             case B_TXT_TRAINER1_CLASS: // trainer class name
-#if GAME_LANGUAGE == LANGUAGE_ENGLISH || GAME_LANGUAGE == LANGUAGE_FRENCH //Test
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH || GAME_LANGUAGE == LANGUAGE_FRENCH
                 if (gTrainerBattleOpponent_A == TRAINER_SECRET_BASE)
                     toCpy = gTrainerClassNames[GetSecretBaseTrainerNameIndex()];
                 else if (gTrainerBattleOpponent_A == TRAINER_UNION_ROOM)
@@ -1886,6 +1903,11 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
 
     return dstId;
 }
+
+#if GAME_LANGUAGE == LANGUAGE_FRENCH //Fake match
+//Relleno para complementar el cambio de tamaño de la funcion
+static const u8 FillRomSpace2[152] __attribute__((section(".text"))) = {0};
+#endif
 
 static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
 {

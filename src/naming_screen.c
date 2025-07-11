@@ -39,7 +39,11 @@ enum {
 };
 
 #define KBROW_COUNT 4
+#if GAME_LANGUAGE == LANGUAGE_FRENCH
+#define KBCOL_COUNT 9
+#else
 #define KBCOL_COUNT 8
+#endif    
 
 enum {
     GFXTAG_BACK_BUTTON,
@@ -374,6 +378,28 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
 
 // This handles what characters get inserted when a key is pressed
 // The keys shown on the keyboard are handled separately by sNamingScreenKeyboardText
+#if GAME_LANGUAGE == LANGUAGE_FRENCH
+static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
+    [KEYBOARD_LETTERS_LOWER] = {
+        __("abcdefgh."),
+        __("ijklmnop,"),
+        __("qrstuvwx "),
+        __("yz  -    "),
+    },
+    [KEYBOARD_LETTERS_UPPER] = {
+        __("ABCDEFGH."),
+        __("IJKLMNOP,"),
+        __("QRSTUVWX "),
+        __("YZ  -    "),
+    },
+    [KEYBOARD_SYMBOLS] = {
+        __("01234"),
+        __("56789"),
+        __("!?♂♀/"),
+        __("…“”‘'"),
+    }
+};
+#else
 static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {
         __("abcdef ."),
@@ -394,6 +420,7 @@ static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
         __("…“”‘'"),
     }
 };
+#endif
 
 static const u8 sPageColumnCounts[] = {
     [KEYBOARD_LETTERS_LOWER] = KBCOL_COUNT,
@@ -401,11 +428,19 @@ static const u8 sPageColumnCounts[] = {
     [KEYBOARD_SYMBOLS]       = 6
 };
 
+#if GAME_LANGUAGE == LANGUAGE_FRENCH
+static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
+    [KEYBOARD_LETTERS_LOWER] = {0, 12, 24, 36, 62, 74, 86, 98, 123},
+    [KEYBOARD_LETTERS_UPPER] = {0, 12, 24, 36, 62, 74, 86, 98, 123},
+    [KEYBOARD_SYMBOLS]       = {0, 22, 44, 66, 88, 110}
+};
+#else
 static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {0, 12, 24, 56, 68, 80, 92, 123},
     [KEYBOARD_LETTERS_UPPER] = {0, 12, 24, 56, 68, 80, 92, 123},
     [KEYBOARD_SYMBOLS]       = {0, 22, 44, 66, 88, 110}
 };
+#endif
 
 void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGender, u32 monPersonality, MainCallback returnCallback)
 {
@@ -1135,37 +1170,6 @@ static void CreateCursorSprite(void)
     SetCursorPos(0, 0);
 }
 
-#if GAME_LANGUAGE == LANGUAGE_FRENCH //Fake match
-void SetCursorPos(s16 x, s16 y) {
-    struct Sprite *cursorSprite = &gSprites[sNamingScreen->cursorSpriteId];
-    u8 page;
-    s16 xPos;
-
-    // Dummy variables para forzar uso de registros
-    s16 sx, sy, col;
-
-    // Acceso redundante para forzar carga
-    sx = cursorSprite->sX;
-    sy = cursorSprite->sY;
-    col = sPageColumnCounts[page];
-
-    page = CurrentPageToKeyboardId();
-
-    if (x < col)
-        xPos = sPageColumnXPos[page][x] + 38;
-    else
-        xPos = 0;
-
-    cursorSprite->x = xPos;
-    cursorSprite->y = sy * 16 + 88;
-
-    // Actualizar posición lógica previa
-    cursorSprite->sPrevX = sx;
-    cursorSprite->sPrevY = sy;
-    cursorSprite->sX = x;
-    cursorSprite->sY = y;
-}
-#else
 static void SetCursorPos(s16 x, s16 y)
 {
     struct Sprite *cursorSprite = &gSprites[sNamingScreen->cursorSpriteId];
@@ -1181,7 +1185,6 @@ static void SetCursorPos(s16 x, s16 y)
     cursorSprite->sX = x;
     cursorSprite->sY = y;
 }
-#endif
 
 static void GetCursorPos(s16 *x, s16 *y)
 {
@@ -1803,22 +1806,10 @@ static void DrawGenderIcon(void)
     }
 }
 
-#if GAME_LANGUAGE == LANGUAGE_FRENCH //Fake match
-static u8 GetCharAtKeyboardPos(s16 x, s16 y)
-{
-    u8 page, result;
-
-    page = CurrentPageToKeyboardId();
-
-    result = sKeyboardChars[CurrentPageToKeyboardId()][y][x];
-    return sKeyboardChars[CurrentPageToKeyboardId()][y][x];
-}
-#else
 static u8 GetCharAtKeyboardPos(s16 x, s16 y)
 {
     return sKeyboardChars[CurrentPageToKeyboardId()][y][x];
 }
-#endif
 
 static u8 GetTextEntryPosition(void)
 {

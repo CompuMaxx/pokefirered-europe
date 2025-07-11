@@ -547,7 +547,7 @@ static const struct EasyChatWordInfo sEasyChatGroup_Lifestyle[] = {
     }
 };
 #elif GAME_LANGUAGE == LANGUAGE_FRENCH
-static const u8 sEasyChatWord_Chores[] = _("UTINE");
+static const u8 sEasyChatWord_Chores[] = _("ROUTINE");
 static const u8 sEasyChatWord_Home[] = _("MAISON");
 static const u8 sEasyChatWord_Money[] = _("ARGENT");
 static const u8 sEasyChatWord_Allowance[] = _("TRANSPORTS");

@@ -713,6 +713,31 @@ static const u8 sEasyChatWord_Look[] = _("COCOONING");
 static const struct EasyChatWordInfo sEasyChatGroup_Hobbies[] = {
     {
         .text = sEasyChatWord_Idol,
+        .alphabeticalOrder = 51,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Anime,
+        .alphabeticalOrder = 43,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Song,
+        .alphabeticalOrder = 44,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Movie,
+        .alphabeticalOrder = 48,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Sweets,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Chat,
         .alphabeticalOrder = 31,
         .enabled = TRUE
     },
@@ -955,7 +980,7 @@ static const struct EasyChatWordInfo sEasyChatGroup_Hobbies[] = {
         .text = sEasyChatWord_Look,
         .alphabeticalOrder = 28,
         .enabled = TRUE
-    }
+    },
 };
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_Idol[] = _("IDOL");

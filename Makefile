@@ -130,7 +130,7 @@ MAKEFLAGS += --no-print-directory
 # Delete files that weren't built properly
 .DELETE_ON_ERROR:
 
-ALL_BUILDS := firered firered_rev1 leafgreen leafgreen_rev1 firered_es leafgreen_es firered_it leafgreen_it firered_it leafgreen_fr
+ALL_BUILDS := firered firered_rev1 leafgreen leafgreen_rev1 firered_es leafgreen_es firered_it leafgreen_it firered_fr leafgreen_fr
 ALL_BUILDS += $(ALL_BUILDS:%=%_modern)
 
 RULES_NO_SCAN += clean clean-assets tidy generated clean-generated

@@ -317,6 +317,13 @@ static const u16 sECPhrase_LinkTogetherWithAll[] = {
     EC_WORD_LINK,
     EC_WORD_EXCL,
 };
+#elif GAME_LANGUAGE == LANGUAGE_FRENCH
+static const u16 sECPhrase_LinkTogetherWithAll[] = {
+    EC_WORD_LINK,
+    EC_WORD_WITH,
+    EC_WORD_CASE,
+    EC_WORD_TRAINER,
+};
 #else //LANGUAGE_ENGLISH
 static const u16 sECPhrase_LinkTogetherWithAll[] = {
     EC_WORD_LINK,

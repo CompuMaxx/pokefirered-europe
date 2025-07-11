@@ -70,6 +70,9 @@ $(FONTGFXDIR)/latin_small_es.latfont: $(FONTGFXDIR)/latin_small_es.png
 $(FONTGFXDIR)/latin_small_it.latfont: $(FONTGFXDIR)/latin_small_it.png
 	$(GFX) $< $@
 
+$(FONTGFXDIR)/latin_small_fr.latfont: $(FONTGFXDIR)/latin_small_fr.png
+	$(GFX) $< $@
+
 $(FONTGFXDIR)/japanese_small.fwjpnfont: $(FONTGFXDIR)/japanese_small.png
 	$(GFX) $< $@
 
@@ -85,6 +88,9 @@ $(FONTGFXDIR)/latin_normal_es.latfont: $(FONTGFXDIR)/latin_normal_es.png
 $(FONTGFXDIR)/latin_normal_it.latfont: $(FONTGFXDIR)/latin_normal_it.png
 	$(GFX) $< $@
 
+$(FONTGFXDIR)/latin_normal_fr.latfont: $(FONTGFXDIR)/latin_normal_fr.png
+	$(GFX) $< $@
+
 $(FONTGFXDIR)/japanese_normal.fwjpnfont: $(FONTGFXDIR)/japanese_normal.png
 	$(GFX) $< $@
 
@@ -97,6 +103,9 @@ $(FONTGFXDIR)/latin_male_es.latfont: $(FONTGFXDIR)/latin_male_es.png
 $(FONTGFXDIR)/latin_male_it.latfont: $(FONTGFXDIR)/latin_male_it.png
 	$(GFX) $< $@
 
+$(FONTGFXDIR)/latin_male_fr.latfont: $(FONTGFXDIR)/latin_male_fr.png
+	$(GFX) $< $@
+
 $(FONTGFXDIR)/japanese_male.fwjpnfont: $(FONTGFXDIR)/japanese_male.png
 	$(GFX) $< $@
 
@@ -107,6 +116,9 @@ $(FONTGFXDIR)/latin_female_es.latfont: $(FONTGFXDIR)/latin_female_es.png
 	$(GFX) $< $@
 
 $(FONTGFXDIR)/latin_female_it.latfont: $(FONTGFXDIR)/latin_female_it.png
+	$(GFX) $< $@
+
+$(FONTGFXDIR)/latin_female_fr.latfont: $(FONTGFXDIR)/latin_female_fr.png
 	$(GFX) $< $@
 
 $(FONTGFXDIR)/japanese_female.fwjpnfont: $(FONTGFXDIR)/japanese_female.png

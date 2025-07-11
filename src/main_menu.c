@@ -649,6 +649,12 @@ static void PrintContinueStats(void)
     PrintBadgeCount();
 }
 
+#if GAME_LANGUAGE == LANGUAGE_FRENCH
+    #define X_COORD 74
+#else
+    #define X_COORD 62
+#endif
+
 static void PrintPlayerName(void)
 {
     s32 i;
@@ -659,7 +665,7 @@ static void PrintPlayerName(void)
     for (i = 0; i < PLAYER_NAME_LENGTH; i++)
         *ptr++ = gSaveBlock2Ptr->playerName[i];
     *ptr = EOS;
-    AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, 62, 18, sTextColor2, -1, name);
+    AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, X_COORD, 18, sTextColor2, -1, name);
 }
 
 static void PrintPlayTime(void)
@@ -671,7 +677,7 @@ static void PrintPlayTime(void)
     ptr = ConvertIntToDecimalStringN(strbuf, gSaveBlock2Ptr->playTimeHours, STR_CONV_MODE_LEFT_ALIGN, 3);
     *ptr++ = CHAR_COLON;
     ConvertIntToDecimalStringN(ptr, gSaveBlock2Ptr->playTimeMinutes, STR_CONV_MODE_LEADING_ZEROS, 2);
-    AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, 62, 34, sTextColor2, -1, strbuf);
+    AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, X_COORD, 34, sTextColor2, -1, strbuf);
 }
 
 static void PrintDexCount(void)
@@ -688,7 +694,7 @@ static void PrintDexCount(void)
         AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, 2, 50, sTextColor2, -1, gText_Pokedex);
         ptr = ConvertIntToDecimalStringN(strbuf, dexcount, STR_CONV_MODE_LEFT_ALIGN, 3);
         StringAppend(ptr, gTextJPDummy_Hiki);
-        AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, 62, 50, sTextColor2, -1, strbuf);
+        AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, X_COORD, 50, sTextColor2, -1, strbuf);
     }
 }
 
@@ -706,8 +712,9 @@ static void PrintBadgeCount(void)
     AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, 2, 66, sTextColor2, -1, gText_Badges);
     ptr = ConvertIntToDecimalStringN(strbuf, nbadges, STR_CONV_MODE_LEADING_ZEROS, 1);
     StringAppend(ptr, gTextJPDummy_Ko);
-    AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, 62, 66, sTextColor2, -1, strbuf);
+    AddTextPrinterParameterized3(MAIN_MENU_WINDOW_CONTINUE, FONT_NORMAL, X_COORD, 66, sTextColor2, -1, strbuf);
 }
+#undef X_COORD
 
 static void LoadUserFrameToBg(u8 bgId)
 {
