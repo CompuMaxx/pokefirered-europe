@@ -966,7 +966,7 @@ static const u16 sGrammarMoveUsedTable[] =
     MOVE_NONE
 };
 
-#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN) || GAME_LANGUAGE == LANGUAGE_FRENCH //Test
+#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN) || GAME_LANGUAGE == LANGUAGE_FRENCH
 extern u8 *Localize_BattleStrings(const u8 *src);
 #endif
 
@@ -1271,127 +1271,45 @@ static const u8 *TryGetStatusString(u8 *src)
     return NULL;
 }
 
-#if GAME_LANGUAGE == LANGUAGE_FRENCH
-const u8 *Localize_TrainerClass_SchoolKid()
-{
-    return gTrainerClassNames[TRAINER_CLASS_SCHOOL_KID];
-}
-
-const u8 *Localize_TrainerClass_PkmnTrainer()
-{
-     return gTrainerClassNames[TRAINER_CLASS_PKMN_TRAINER];
-}
-
-const u8 *Localize_TrainerClass_Leader()
-{
-    return gTrainerClassNames[TRAINER_CLASS_LEADER];
-}
-#endif
-
-#if GAME_LANGUAGE == LANGUAGE_SPANISH
-extern const u8 gText_Entrenadora[];
-extern const u8 gText_Lideres[];
-
-const u8 *Localize_TrainerClass_SchoolKid()
-{
-    return gTrainerClassNames[TRAINER_CLASS_SCHOOL_KID];
-}
-
-const u8 *Localize_TrainerClass_PkmnTrainer(u32 gender)
-{
-    const u8 * txt = gText_Entrenadora;
-    if (gender == MALE)
-        txt = gTrainerClassNames[TRAINER_CLASS_PKMN_TRAINER];
-    return txt;
-}
-
-const u8 *Localize_TrainerClass_Leader(bool32 doubleBattle)
-{
-    const u8 * txt = gText_Lideres;
-    if (!doubleBattle)
-        txt = gTrainerClassNames[TRAINER_CLASS_LEADER];
-    return txt;
-}
-
-const u8 *Localize_TrainerClass_Names(s32 battleType, u32 trainerId)
-{
-    u8 trainerClass;
-    u32 trainerEncounterMusicId;
-    bool8 doubleBattle;
-    const u8 * txt;
-
-    switch (battleType)
-    {
-    case TRAINER_SECRET_BASE:
-        trainerClass = GetSecretBaseTrainerNameIndex();
-        txt = gTrainerClassNames[trainerClass];
-        return txt;
-
-    case TRAINER_UNION_ROOM:
-        trainerClass = GetUnionRoomTrainerClass();
-        txt = gTrainerClassNames[trainerClass];
-        return txt;
-
-    case BATTLE_TYPE_BATTLE_TOWER:
-        trainerClass = GetBattleTowerTrainerClassNameId();
-        txt = gTrainerClassNames[trainerClass];
-        return txt;
-
-    case BATTLE_TYPE_TRAINER_TOWER:
-        trainerClass = GetTrainerTowerOpponentClass();
-        txt = gTrainerClassNames[trainerClass];
-        return txt;
-
-    case TRAINER_LINK_OPPONENT:
-        trainerClass = GetEreaderTrainerClassId();
-        txt = gTrainerClassNames[trainerClass];
-        return txt;
-
-    default:
-        trainerClass = gTrainers[trainerId].trainerClass;
-        trainerEncounterMusicId = GetTrainerEncounterMusicId(trainerId);
-
-        if (trainerClass == TRAINER_CLASS_SCHOOL_KID)
-            return Localize_TrainerClass_SchoolKid();
-
-        if (trainerClass == TRAINER_CLASS_PKMN_TRAINER && trainerEncounterMusicId == TRAINER_ENCOUNTER_MUSIC_FEMALE)
-            return Localize_TrainerClass_PkmnTrainer(FEMALE);
-
-        if (trainerClass == TRAINER_CLASS_LEADER)
-        {
-            if (gTrainers[trainerId].doubleBattle == TRUE)
-                doubleBattle = TRUE;
-            else
-                doubleBattle = FALSE;
-            return Localize_TrainerClass_Leader(doubleBattle);
-        }
-        txt = gTrainerClassNames[trainerClass];
-        return txt;
-    }
-}
-#elif GAME_LANGUAGE == LANGUAGE_ITALIAN
-extern const u8 gText_Scolara[];
-extern const u8 gText_Capilestra[];
+#if GAME_LANGUAGE != LANGUAGE_ENGLISH
+extern const u8 gText_FemaleTrainer[];
+extern const u8 gText_Schoolgirl[];
+extern const u8 gText_Leaders[];
 
 const u8 *Localize_TrainerClass_SchoolKid(u32 gender)
 {
-    const u8 * txt = gText_Scolara;
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+    const u8 * txt = gText_Schoolgirl;
     if (gender == MALE)
         txt = gTrainerClassNames[TRAINER_CLASS_SCHOOL_KID];
     return txt;
+#else
+    return gTrainerClassNames[TRAINER_CLASS_SCHOOL_KID];
+#endif
 }
 
 const u8 *Localize_TrainerClass_PkmnTrainer(u32 gender)
 {
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
+    const u8 * txt = gText_FemaleTrainer;
+    if (gender == MALE)
+        txt = gTrainerClassNames[TRAINER_CLASS_PKMN_TRAINER];
+    return txt;
+#else
     return gTrainerClassNames[TRAINER_CLASS_PKMN_TRAINER];
+#endif
 }
 
 const u8 *Localize_TrainerClass_Leader(bool32 doubleBattle)
 {
-    const u8 * txt = gText_Capilestra;
+#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN)
+    const u8 * txt = gText_Leaders;
     if (!doubleBattle)
         txt = gTrainerClassNames[TRAINER_CLASS_LEADER];
     return txt;
+#else
+    return gTrainerClassNames[TRAINER_CLASS_LEADER];
+#endif
 }
 
 const u8 *Localize_TrainerClass_Names(s32 battleType, u32 trainerId)
@@ -1718,7 +1636,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst) //not matching
                 toCpy = gAbilityNames[sBattlerAbilities[gEffectBattler]];
                 break;
             case B_TXT_TRAINER1_CLASS: // trainer class name
-#if GAME_LANGUAGE == LANGUAGE_ENGLISH || GAME_LANGUAGE == LANGUAGE_FRENCH
+#if GAME_LANGUAGE == LANGUAGE_ENGLISH
                 if (gTrainerBattleOpponent_A == TRAINER_SECRET_BASE)
                     toCpy = gTrainerClassNames[GetSecretBaseTrainerNameIndex()];
                 else if (gTrainerBattleOpponent_A == TRAINER_UNION_ROOM)
@@ -1904,11 +1822,6 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst) //not matching
     return dstId;
 }
 
-#if GAME_LANGUAGE == LANGUAGE_FRENCH //Fake match
-//Relleno para complementar el cambio de tamaño de la funcion
-static const u8 FillRomSpace2[152] __attribute__((section(".text"))) = {0};
-#endif
-
 static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
 {
     u32 srcId = 1;
@@ -1923,7 +1836,7 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
         {
         case B_BUFF_STRING: // battle string
             hword = T1_READ_16(&src[srcId + 1]);
-#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_GERMAN) || (GAME_LANGUAGE == LANGUAGE_ITALIAN)|| (GAME_LANGUAGE == LANGUAGE_FRENCH)
+#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_GERMAN) || (GAME_LANGUAGE == LANGUAGE_ITALIAN) || (GAME_LANGUAGE == LANGUAGE_FRENCH)
             if (hword == STRINGID_STATSHARPLY || hword == STRINGID_STATHARSHLY)
                 srcId += 3;
 #endif

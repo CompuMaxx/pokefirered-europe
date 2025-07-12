@@ -348,5 +348,5 @@ const u8 gText_Toss[] = _("TIRAR");
 const u8 gText_DelAllCancelOk[] = _("BORRAR{CLEAR_TO 0x57}SALIR{CLEAR_TO 0xA4}VALE");
 
 //BPRS
-const u8 gText_Entrenadora[] = _("ENTRENADORA");
-const u8 gText_Lideres[] = _("LÍDERES");
+const u8 gText_FemaleTrainer[] = _("ENTRENADORA");
+const u8 gText_Leaders[] = _("LÍDERES");
