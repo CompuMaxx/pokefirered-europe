@@ -345,6 +345,31 @@ static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("Veuillez suivre le
                                                              "l'écran de Pokémon Rubis/Saphir.");
 static const u8 sText_TransmissionFailureTryAgain[] = _("Echec de la transmission.\n"
                                                         "{COLOR RED}{SHADOW LIGHT_RED}Veuillez réessayer.");
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+static const u8 sText_BerryProgramUpdate[] = _("Aktualisierung des Beeren-Programms");
+static const u8 sText_RubySapphire[] = _("Rubin/Saphir");
+static const u8 sText_FireRed[] = _("Feuerrot/Blattgrün");
+static const u8 sText_BerryProgramWillBeUpdatedPressA[] = _("Das Beeren-Programm auf deinem\n"
+                                                            "Rubin- bzw. Saphir-Modul wird\n"
+                                                            "aktualisiert.\n"
+                                                            "{COLOR RED}{SHADOW LIGHT_RED}Drücke den A-Knopf!");
+static const u8 sText_EnsureGBAConnectionMatches[] = _("Überprüfe, ob die GBA-Systeme gemäß\n"
+                                                       "dem Diagramm verbunden wurden.\n"
+                                                       "{COLOR RED}{SHADOW LIGHT_RED}JA: Drücke den A-Knopf.\n"
+                                                       "NEIN: Abschalten/Erneut versuchen.");
+static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("Schalte das Gerät mit Rubin/Saphir\n"
+                                                           "ein, während du START und SELECT\n"
+                                                           "gleichzeitig drückst. Stelle sicher,\n"
+                                                           "dass dieser Bildschirm erscheint.");
+static const u8 sText_TransmittingPleaseWait[] = _("Übertragung...\n"
+                                                   "Bitte warten!\n"
+                                                   "{COLOR RED}{SHADOW LIGHT_RED}Gerät nicht ausschalten oder das\n"
+                                                   "GBA Game Link-Kabel entfernen.");
+static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("Bitte folge den Anweisungen, die auf\n"
+                                                             "dem Bildschirm von Rubin/Saphir\n"
+                                                             "angezeigt werden.");
+static const u8 sText_TransmissionFailureTryAgain[] = _("Übertragungsfehler!\n"
+														"{COLOR RED}{SHADOW LIGHT_RED}Bitte erneut versuchen!");
 #else //for other language purpose
 static const u8 sText_BerryProgramUpdate[] = _("Berry Program Update");
 static const u8 sText_RubySapphire[] = _("Ruby/Sapphire");

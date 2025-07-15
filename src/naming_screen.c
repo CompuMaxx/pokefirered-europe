@@ -39,7 +39,7 @@ enum {
 };
 
 #define KBROW_COUNT 4
-#if GAME_LANGUAGE == LANGUAGE_FRENCH
+#if GAME_LANGUAGE == LANGUAGE_FRENCH || GAME_LANGUAGE == LANGUAGE_GERMAN
 #define KBCOL_COUNT 9
 #else
 #define KBCOL_COUNT 8
@@ -399,6 +399,27 @@ static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
         __("…“”‘'"),
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
+    [KEYBOARD_LETTERS_LOWER] = {
+        __("abcdefgh."),
+        __("ijklmnop,"),
+        __("qrstuvwx "),
+        __("yz  äöü  "),
+    },
+    [KEYBOARD_LETTERS_UPPER] = {
+        __("ABCDEFGH."),
+        __("IJKLMNOP,"),
+        __("QRSTUVWX "),
+        __("YZ  ÄÖÜ  "),
+    },
+    [KEYBOARD_SYMBOLS] = {
+        __("01234    "),
+        __("56789    "),
+        __("!?♂♀/-   "),
+        __("…“”‘'    "),
+    }
+};
 #else
 static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {
@@ -428,7 +449,7 @@ static const u8 sPageColumnCounts[] = {
     [KEYBOARD_SYMBOLS]       = 6
 };
 
-#if GAME_LANGUAGE == LANGUAGE_FRENCH
+#if GAME_LANGUAGE == LANGUAGE_FRENCH || GAME_LANGUAGE == LANGUAGE_GERMAN
 static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {0, 12, 24, 36, 62, 74, 86, 98, 123},
     [KEYBOARD_LETTERS_UPPER] = {0, 12, 24, 36, 62, 74, 86, 98, 123},
@@ -1185,7 +1206,7 @@ static void SetCursorPos(s16 x, s16 y)
     cursorSprite->sX = x;
     cursorSprite->sY = y;
 }
-
+ 
 static void GetCursorPos(s16 *x, s16 *y)
 {
     struct Sprite *cursorSprite = &gSprites[sNamingScreen->cursorSpriteId];

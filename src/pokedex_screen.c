@@ -1147,6 +1147,8 @@ static void Task_PokedexScreen(u8 taskId)
 
 #if GAME_LANGUAGE == LANGUAGE_ITALIAN
     #define X_COORD 4
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+    #define X_COORD 2
 #else
     #define X_COORD 8
 #endif
@@ -2896,7 +2898,7 @@ void DexScreen_PrintMonWeight(u8 windowId, u16 species, u8 x, u8 y)
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, buffer, x, y, 0);
 }
 #else
-#if GAME_LANGUAGE == LANGUAGE_FRENCH
+#if GAME_LANGUAGE == LANGUAGE_FRENCH || GAME_LANGUAGE == LANGUAGE_GERMAN
 NAKED
 void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
 {

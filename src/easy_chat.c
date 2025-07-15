@@ -111,6 +111,22 @@ static const u16 sDefaultBattleStartWords[] = {
     EC_WORD_UNDEFINED,
     EC_WORD_UNDEFINED,
 };
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+static const u16 sDefaultProfileWords[] = {
+    EC_WORD_I_AM,
+    EC_WORD_BIG,
+    EC_WORD_IN,
+    EC_WORD_POKEMON,
+};
+
+static const u16 sDefaultBattleStartWords[] = {
+    EC_WORD_ARE,
+    EC_WORD_YOU,
+    EC_WORD_READY,
+    EC_WORD_QUES,
+    EC_WORD_HERE_I_COME,
+    EC_WORD_EXCL,
+};
 #else //LANGUAGE_ENGLISH
 static const u16 sDefaultProfileWords[] = {
     EC_WORD_I_AM,

@@ -1252,6 +1252,424 @@ static const struct EasyChatWordInfo sEasyChatGroup_Feelings[] = {
         .enabled = TRUE
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+static const u8 sEasyChatWord_Meet[] = _("WEINEN");
+static const u8 sEasyChatWord_Play[] = _("SPIELEN");
+static const u8 sEasyChatWord_Hurried[] = _("EILIG");
+static const u8 sEasyChatWord_Goes[] = _("GEHT");
+static const u8 sEasyChatWord_Giddy[] = _("SCHWINDELIG");
+static const u8 sEasyChatWord_Happy[] = _("GLÜCKLICH");
+static const u8 sEasyChatWord_Happiness[] = _("GLÜCK");
+static const u8 sEasyChatWord_Excite[] = _("BEGEISTERN");
+static const u8 sEasyChatWord_Important[] = _("WICHTIG");
+static const u8 sEasyChatWord_Funny[] = _("LUSTIG");
+static const u8 sEasyChatWord_Got[] = _("HABEN");
+static const u8 sEasyChatWord_GoHome[] = _("HEIMGEHEN");
+static const u8 sEasyChatWord_Disappointed[] = _("ENTTÄUSCHT");
+static const u8 sEasyChatWord_Disappoints[] = _("ENTTÄUSCHEN");
+static const u8 sEasyChatWord_Sad[] = _("TRAURIG");
+static const u8 sEasyChatWord_Try[] = _("UNZUFRIEDEN");
+static const u8 sEasyChatWord_Tries[] = _("VERSUCHT");
+static const u8 sEasyChatWord_Hears[] = _("GUTE LAUNE");
+static const u8 sEasyChatWord_Think[] = _("FRÖHLICH");
+static const u8 sEasyChatWord_Hear[] = _("HÖREN");
+static const u8 sEasyChatWord_Wants[] = _("WILL");
+static const u8 sEasyChatWord_Misheard[] = _("VERHÖRT");
+static const u8 sEasyChatWord_Dislike[] = _("NICHT MÖGEN");
+static const u8 sEasyChatWord_Angry[] = _("WÜTEND");
+static const u8 sEasyChatWord_Anger[] = _("WUT");
+static const u8 sEasyChatWord_Scary[] = _("UNHEIMLICH");
+static const u8 sEasyChatWord_Lonesome[] = _("EINSAM");
+static const u8 sEasyChatWord_Disappoint[] = _("FRUSTRIERT");
+static const u8 sEasyChatWord_Joy[] = _("FREUDE");
+static const u8 sEasyChatWord_Gets[] = _("BEKOMMT");
+static const u8 sEasyChatWord_Never[] = _("NIE");
+static const u8 sEasyChatWord_Darn[] = _("VERDAMMT");
+static const u8 sEasyChatWord_Downcast[] = _("ENTMUTIGT");
+static const u8 sEasyChatWord_Incredible[] = _("SAGENHAFT");
+static const u8 sEasyChatWord_Likes[] = _("VORLIEBEN");
+static const u8 sEasyChatWord_Dislikes[] = _("ABNEIGUNG");
+static const u8 sEasyChatWord_Boring[] = _("LANGWEILIG");
+static const u8 sEasyChatWord_Care[] = _("SORGEN");
+static const u8 sEasyChatWord_Cares[] = _("SORGT");
+static const u8 sEasyChatWord_AllRight[] = _("GUT");
+static const u8 sEasyChatWord_Adore[] = _("VERGÖTTERN");
+static const u8 sEasyChatWord_Disaster[] = _("DESASTER");
+static const u8 sEasyChatWord_Enjoy[] = _("GENIESSEN");
+static const u8 sEasyChatWord_Enjoys[] = _("GENIESST");
+static const u8 sEasyChatWord_Eat[] = _("ESSEN");
+static const u8 sEasyChatWord_Lacking[] = _("UNZUREICHEND");
+static const u8 sEasyChatWord_Bad[] = _("SCHLECHTE");
+static const u8 sEasyChatWord_Hard[] = _("SCHWER");
+static const u8 sEasyChatWord_Terrible[] = _("SCHRECKLICH");
+static const u8 sEasyChatWord_Should[] = _("MIESE LAUNE");
+static const u8 sEasyChatWord_Nice[] = _("NETT");
+static const u8 sEasyChatWord_Drink[] = _("TRINKEN");
+static const u8 sEasyChatWord_Surprise[] = _("ÜBERRASCHUNG");
+static const u8 sEasyChatWord_Fear[] = _("FURCHT");
+static const u8 sEasyChatWord_Want[] = _("MÖCHTE");
+static const u8 sEasyChatWord_Wait[] = _("LANGEWEILE");
+static const u8 sEasyChatWord_Satisfied[] = _("ZUFRIEDEN");
+static const u8 sEasyChatWord_See[] = _("LACHEN");
+static const u8 sEasyChatWord_Rare[] = _("SELTEN");
+static const u8 sEasyChatWord_Negative[] = _("NEGATIV");
+static const u8 sEasyChatWord_Done[] = _("FERTIG");
+static const u8 sEasyChatWord_Danger[] = _("GEFAHR");
+static const u8 sEasyChatWord_Defeated[] = _("BESIEGT");
+static const u8 sEasyChatWord_Beat[] = _("SCHLUG");
+static const u8 sEasyChatWord_Great[] = _("GROSSARTIG");
+static const u8 sEasyChatWord_Romantic[] = _("ROMANTISCH");
+static const u8 sEasyChatWord_Question[] = _("FRAGE");
+static const u8 sEasyChatWord_Understand[] = _("VERSTEHEN");
+static const u8 sEasyChatWord_Understands[] = _("VERSTEHT");
+
+static const struct EasyChatWordInfo sEasyChatGroup_Feelings[] = {
+    {
+        .text = sEasyChatWord_Meet,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Play,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hurried,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Goes,
+        .alphabeticalOrder = 62,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Giddy,
+        .alphabeticalOrder = 41,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Happy,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Happiness,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Excite,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Important,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Funny,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Got,
+        .alphabeticalOrder = 44,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_GoHome,
+        .alphabeticalOrder = 60,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Disappointed,
+        .alphabeticalOrder = 66,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Disappoints,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Sad,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Try,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Tries,
+        .alphabeticalOrder = 53,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hears,
+        .alphabeticalOrder = 61,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Think,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hear,
+        .alphabeticalOrder = 42,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Wants,
+        .alphabeticalOrder = 43,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Misheard,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Dislike,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Angry,
+        .alphabeticalOrder = 64,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Anger,
+        .alphabeticalOrder = 39,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Scary,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Lonesome,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Disappoint,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Joy,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Gets,
+        .alphabeticalOrder = 57,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Never,
+        .alphabeticalOrder = 55,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Darn,
+        .alphabeticalOrder = 36,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Downcast,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Incredible,
+        .alphabeticalOrder = 49,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Likes,
+        .alphabeticalOrder = 54,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Dislikes,
+        .alphabeticalOrder = 59,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Boring,
+        .alphabeticalOrder = 50,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Care,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Cares,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_AllRight,
+        .alphabeticalOrder = 65,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Adore,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Disaster,
+        .alphabeticalOrder = 46,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Enjoy,
+        .alphabeticalOrder = 63,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Enjoys,
+        .alphabeticalOrder = 48,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Eat,
+        .alphabeticalOrder = 47,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Lacking,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Bad,
+        .alphabeticalOrder = 58,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hard,
+        .alphabeticalOrder = 37,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Terrible,
+        .alphabeticalOrder = 38,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Should,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Nice,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Drink,
+        .alphabeticalOrder = 51,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Surprise,
+        .alphabeticalOrder = 52,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Fear,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Want,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Wait,
+        .alphabeticalOrder = 45,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Satisfied,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_See,
+        .alphabeticalOrder = 40,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Rare,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Negative,
+        .alphabeticalOrder = 67,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Done,
+        .alphabeticalOrder = 68,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Danger,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Defeated,
+        .alphabeticalOrder = 34,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Beat,
+        .alphabeticalOrder = 0,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Great,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Romantic,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Question,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Understand,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Understands,
+        .alphabeticalOrder = 56,
+        .enabled = TRUE
+    },
+};
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_Meet[] = _("MEET");
 static const u8 sEasyChatWord_Play[] = _("PLAY");

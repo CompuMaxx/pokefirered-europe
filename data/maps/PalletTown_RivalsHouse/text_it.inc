@@ -55,15 +55,15 @@ PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
     .string "splendido.$"
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
-	#ifdef BUGFIX
+#ifdef BUGFIX @ The localizers missed what should be a textcolor change in the localizations.
 	.string "{COLOR DARK_GRAY}{STR_VAR_1} ha un aspetto felice.\p"
     .string "{COLOR RED}MARGI: Ecco qui, ho finito!\n"
-	#else
+#else @ In the JP games, gender-based text used a different font instead of different colors.
     .string "{FONT_NORMAL}{STR_VAR_1} ha un aspetto felice.\p"
     .string "{FONT_FEMALE}MARGI: Ecco qui, ho finito!\n"
+#endif
     .string "È bello, non credi?\p"
     .string "È un POKéMON così carino!$"
-	#endif
 
 PalletTown_RivalsHouse_Text_CantGroomAnEgg::
     .string "Mi spiace, ma non posso proprio\n"

@@ -121,6 +121,8 @@ const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/dep
 const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles_it.bin");
 #elif GAME_LANGUAGE == LANGUAGE_FRENCH
 const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles_fr.bin");
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles_de.bin");
 #else //LANGUAGE_ENGLISH
 const u16 gMetatiles_DepartmentStore[] = INCBIN_U16("data/tilesets/secondary/department_store/metatiles.bin");
 #endif

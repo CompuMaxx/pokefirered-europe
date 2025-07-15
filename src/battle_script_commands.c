@@ -5841,7 +5841,7 @@ static void DrawLevelUpBannerText(void)
     txtPtr = gStringVar4;
     gStringVar4[0] = CHAR_EXTRA_SYMBOL;
     *++txtPtr = CHAR_LV_2;
-#if GAME_LANGUAGE == LANGUAGE_SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH || GAME_LANGUAGE == LANGUAGE_GERMAN
     *++txtPtr = CHAR_EXTRA_SYMBOL;
     *++txtPtr = CHAR_LV_2_END;
     *++txtPtr = EXT_CTRL_CODE_BEGIN;

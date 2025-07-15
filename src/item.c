@@ -22,6 +22,8 @@ void SortAndCompactBagPocket(struct BagPocket * pocket);
 #include "data/items_it.h"
 #elif GAME_LANGUAGE == LANGUAGE_FRENCH
 #include "data/items_fr.h"
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+#include "data/items_de.h"
 #else
 #include "data/items_en.h"
 #endif

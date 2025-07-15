@@ -756,7 +756,7 @@ void InitBattlerHealthboxCoords(u8 battler)
     UpdateSpritePos(gHealthboxSpriteIds[battler], x, y);
 }
 
-#if GAME_LANGUAGE == LANGUAGE_SPANISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH || GAME_LANGUAGE == LANGUAGE_GERMAN
     #define TEXT_LV _("{LV_3}")
 #else
     #define TEXT_LV _("{LV_2}")

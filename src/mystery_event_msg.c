@@ -36,6 +36,18 @@ const u8 gText_MysteryGiftFullParty[] = _("Your party is full.\n{STR_VAR_1} coul
 const u8 gText_MysteryGiftNewTrainer[] = _("Un nouveau DRESSEUR est arrivé\ndans la région de HOENN.");
 const u8 gText_MysteryGiftNewAdversaryInBattleTower[] = _("バトルタワーに　あらたな\nたいせんしゃが　あらわれた！");
 const u8 gText_MysteryGiftCantBeUsed[] = _("Ces données ne peuvent être\nutilisées dans cette version.");
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+const u8 gText_MysteryGiftBerry[]= _("Eine {STR_VAR_2}BEERE! Vater in der \nARENA von BLÜTENBURG CITY besitzt\lauch eine.");
+const u8 gText_MysteryGiftBerryTransform[]= _("Die {STR_VAR_1}BEERE verwandelte\nsich in eine {STR_VAR_2}BEERE!");
+const u8 gText_MysteryGiftBerryObtained[]= _("Du hast schon eine {STR_VAR_1}BEERE.");
+const u8 gText_MysteryGiftSpecialRibbon[]= _("Ein besonderes BAND wurde deinen\nPOKéMON im Team verliehen.");
+const u8 gText_MysteryGiftNationalDex[]= _("Der POKéDEX wurde mit dem\nNATIONALEN MODUS ausgerüstet.");
+const u8 gText_MysteryGiftRareWord[]= _("Ein seltenes Wort wurde\nhinzugefügt.");
+const u8 gText_MysteryGiftSentOver[]= _("{STR_VAR_1} was sent over!");
+const u8 gText_MysteryGiftFullParty[]= _("Your party is full.\n{STR_VAR_1} could not be sent over.");
+const u8 gText_MysteryGiftNewTrainer[]= _("Ein neuer TRAINER ist in HOENN\nangekommen.");
+const u8 gText_MysteryGiftNewAdversaryInBattleTower[] = _("バトルタワーに　あらたな\nたいせんしゃが　あらわれた！");
+const u8 gText_MysteryGiftCantBeUsed[]= _("Die Daten können in dieser Edition\nnicht eingesetzt werden.");
 #else //GAME_LANGUAGE == LANGUAGE_ENGLISH
 const u8 gText_MysteryGiftBerry[] = _("Obtained a {STR_VAR_2} BERRY!\nDad has it at PETALBURG GYM.");
 const u8 gText_MysteryGiftBerryTransform[] = _("The {STR_VAR_1} BERRY transformed into\none {STR_VAR_2} BERRY.");

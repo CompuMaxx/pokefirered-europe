@@ -55,15 +55,15 @@ PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
 	.string "deux secondes.$"
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
-    #ifdef BUGFIX
+#ifdef BUGFIX @ The localizers missed what should be a textcolor change in the localizations.
+	.string "{COLOR DARK_GRAY}{STR_VAR_1} a l'air heureux.\p"
+	.string "{COLOR RED}NINA: Voilààà! C'est fini!\n"
+#else @ In the JP games, gender-based text used a different font instead of different colors.
 	.string "{FONT_NORMAL}{STR_VAR_1} a l'air heureux.\p"
 	.string "NINA: Voilààà! C'est fini!\n"
-    #else
-	.string "{FONT_NORMAL}{STR_VAR_1} a l'air heureux.\p"
-	.string "NINA: Voilààà! C'est fini!\n"
+#endif
 	.string "Alors? Il est beau, hein?\p"
 	.string "Un joli petit POKéMON.$"
-    #endif
 
 PalletTown_RivalsHouse_Text_CantGroomAnEgg::
 	.string "NINA: Oh, désolée. Je ne peux pas\n"

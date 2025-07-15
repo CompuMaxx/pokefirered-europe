@@ -19,6 +19,12 @@
 #include "data/text/strings_2_fr.h"
 #include "data/text/teachy_tv_fr.h"
 #include "data/text/strings_3_fr.h"
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+#include "data/text/strings_1_de.h"
+#include "data/text/quest_log_de.h"
+#include "data/text/strings_2_de.h"
+#include "data/text/teachy_tv_de.h"
+#include "data/text/strings_3_de.h"
 #else
 #include "data/text/strings_1_en.h"
 #include "data/text/quest_log_en.h"

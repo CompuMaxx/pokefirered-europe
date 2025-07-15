@@ -48,6 +48,8 @@ static void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst);
 #include "data/text/battle_message_1_it.h"
 #elif GAME_LANGUAGE == LANGUAGE_FRENCH
 #include "data/text/battle_message_1_fr.h"
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+#include "data/text/battle_message_1_de.h"
 #else
 #include "data/text/battle_message_1_en.h"
 #endif
@@ -815,6 +817,8 @@ const u16 gTrappingMoves[NUM_TRAPPING_MOVES + 1] =
 #include "data/text/battle_message_2_it.h"
 #elif GAME_LANGUAGE == LANGUAGE_FRENCH
 #include "data/text/battle_message_2_fr.h"
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+#include "data/text/battle_message_2_de.h"
 #else
 #include "data/text/battle_message_2_en.h"
 #endif
@@ -966,7 +970,7 @@ static const u16 sGrammarMoveUsedTable[] =
     MOVE_NONE
 };
 
-#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN) || GAME_LANGUAGE == LANGUAGE_FRENCH
+#if (GAME_LANGUAGE == LANGUAGE_SPANISH) || (GAME_LANGUAGE == LANGUAGE_ITALIAN) || GAME_LANGUAGE == LANGUAGE_FRENCH || GAME_LANGUAGE == LANGUAGE_GERMAN
 extern u8 *Localize_BattleStrings(const u8 *src);
 #endif
 

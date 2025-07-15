@@ -16,6 +16,12 @@
     #elif defined(LEAFGREEN)
         #include "pokedex_text_lg_fr.h"
     #endif
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+    #if defined(FIRERED)
+        #include "pokedex_text_fr_de.h"
+    #elif defined(LEAFGREEN)
+        #include "pokedex_text_lg_de.h"
+    #endif
 #else //LANGUAGE_ENGLISH
     #if defined(FIRERED)
         #include "pokedex_text_fr_en.h"

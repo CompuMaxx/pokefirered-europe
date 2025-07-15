@@ -309,7 +309,7 @@
 #define BRAILLE_CHAR_P               0x17
 //
 #define BRAILLE_CHAR_O               0x19
-//
+#define BRAILLE_CHAR_A_DIAERESIS     0x1A
 #define BRAILLE_CHAR_N               0x1B
 #define BRAILLE_CHAR_EXCL_MARK       0x1C
 #define BRAILLE_CHAR_R               0x1D
@@ -317,7 +317,7 @@
 #define BRAILLE_CHAR_Q               0x1F
 //
 #define BRAILLE_CHAR_PERIOD          0x2C
-//
+#define BRAILLE_CHAR_U_DIAERESIS     0x2D
 #define BRAILLE_CHAR_W               0x2E
 //
 #define BRAILLE_CHAR_HYPHEN          0x30

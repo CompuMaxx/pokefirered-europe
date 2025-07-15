@@ -452,6 +452,9 @@ void UpdatePlayerLinkBattleRecords(s32 battlerId)
 #if GAME_LANGUAGE == LANGUAGE_ITALIAN
     #define TOTALRECORD_X   2
     #define BATTERECORDS_X  0x4E
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+    #define TOTALRECORD_X   0
+    #define BATTERECORDS_X  0x54
 #else
     #define TOTALRECORD_X   12
     #define BATTERECORDS_X  0x54

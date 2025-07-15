@@ -658,6 +658,226 @@ static const struct EasyChatWordInfo sEasyChatGroup_Adjectives[] = {
         .enabled = TRUE
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+static const u8 sEasyChatWord_Wandering[] = _("LATSCH");
+static const u8 sEasyChatWord_Rickety[] = _("WACKEL");
+static const u8 sEasyChatWord_RockSolid[] = _("STEINHART");
+static const u8 sEasyChatWord_Hungry[] = _("MAGENKNURR");
+static const u8 sEasyChatWord_Tight[] = _("KNURSCHP");
+static const u8 sEasyChatWord_Ticklish[] = _("KILLE KILLE");
+static const u8 sEasyChatWord_Twirling[] = _("SCHLEUDER");
+static const u8 sEasyChatWord_Spiraling[] = _("WIRBEL");
+static const u8 sEasyChatWord_Thirsty[] = _("LECHZ");
+static const u8 sEasyChatWord_Lolling[] = _("LÜMMEL RÄKEL");
+static const u8 sEasyChatWord_Silky[] = _("WUSCHEL");
+static const u8 sEasyChatWord_Sadly[] = _("SCHNÜFF");
+static const u8 sEasyChatWord_Hopeless[] = _("OOCH");
+static const u8 sEasyChatWord_Useless[] = _("MÜLL");
+static const u8 sEasyChatWord_Drooling[] = _("SABBER");
+static const u8 sEasyChatWord_Exciting[] = _("JIPP! JIPP!");
+static const u8 sEasyChatWord_Thick[] = _("SCHWABBEL");
+static const u8 sEasyChatWord_Smooth[] = _("GLATT");
+static const u8 sEasyChatWord_Slimy[] = _("GLIBBER");
+static const u8 sEasyChatWord_Thin[] = _("KLAPPER");
+static const u8 sEasyChatWord_Break[] = _("SCHEPPER");
+static const u8 sEasyChatWord_Voracious[] = _("MAMPF FRESS");
+static const u8 sEasyChatWord_Scatter[] = _("SCHMEISS");
+static const u8 sEasyChatWord_Awesome[] = _("IRRE");
+static const u8 sEasyChatWord_Wimpy[] = _("ANGST BIBBER");
+static const u8 sEasyChatWord_Wobbly[] = _("ZITTER");
+static const u8 sEasyChatWord_Shaky[] = _("SCHÜTTEL");
+static const u8 sEasyChatWord_Ripped[] = _("RATSCH");
+static const u8 sEasyChatWord_Shredded[] = _("FETZ");
+static const u8 sEasyChatWord_Increasing[] = _("WURGS");
+static const u8 sEasyChatWord_Yet[] = _("NÖÖÖ");
+static const u8 sEasyChatWord_Destroyed[] = _("RUMMS BERST");
+static const u8 sEasyChatWord_Fiery[] = _("ZISCH FACKEL");
+static const u8 sEasyChatWord_LoveyDovey[] = _("SCHNUCKELIG");
+static const u8 sEasyChatWord_Happily[] = _("MEGAGRINS");
+static const u8 sEasyChatWord_Anticipation[] = _("GRINS HOFF");
+
+static const struct EasyChatWordInfo sEasyChatGroup_Adjectives[] = {
+    {
+        .text = sEasyChatWord_Wandering,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Rickety,
+        .alphabeticalOrder = 28,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_RockSolid,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hungry,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Tight,
+        .alphabeticalOrder = 35,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Ticklish,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Twirling,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Spiraling,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Thirsty,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Lolling,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Silky,
+        .alphabeticalOrder = 0,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Sadly,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hopeless,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Useless,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Drooling,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Exciting,
+        .alphabeticalOrder = 34,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Thick,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Smooth,
+        .alphabeticalOrder = 30,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Slimy,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Thin,
+        .alphabeticalOrder = 27,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Break,
+        .alphabeticalOrder = 31,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Voracious,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Scatter,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Awesome,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Wimpy,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Wobbly,
+        .alphabeticalOrder = 33,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Shaky,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Ripped,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Shredded,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Increasing,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Yet,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Destroyed,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Fiery,
+        .alphabeticalOrder = 29,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_LoveyDovey,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Happily,
+        .alphabeticalOrder = 32,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Anticipation,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE
+    },
+};
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_Wandering[] = _("WANDERING");
 static const u8 sEasyChatWord_Rickety[] = _("RICKETY");

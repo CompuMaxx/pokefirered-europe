@@ -60,16 +60,15 @@ PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
     .string "que se queda.$"
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
-
-    #ifdef BUGFIX
+#ifdef BUGFIX @ The localizers missed what should be a textcolor change in the localizations.
     .string "{COLOR DARK_GRAY}{STR_VAR_1} parece encantado.\p"
     .string "{COLOR RED}DALIA: ¡Ya está! ¡Listo!\n"
-    #else
+#else @ In the JP games, gender-based text used a different font instead of different colors.
     .string "{FONT_NORMAL}{STR_VAR_1} parece encantado.\p"
     .string "{FONT_FEMALE}DALIA: ¡Ya está! ¡Listo!\n"
+#endif
     .string "¿Qué? ¿Tiene buen aspecto o no?\p"
     .string "¡Qué POKéMON más mono!$"
-    #endif
 
 PalletTown_RivalsHouse_Text_CantGroomAnEgg::
     .string "Lo siento, yo no sé limpiar HUEVOS.$"

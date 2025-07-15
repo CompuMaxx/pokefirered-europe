@@ -604,6 +604,208 @@ static const struct EasyChatWordInfo sEasyChatGroup_TrendySaying[] = {
         .enabled = FALSE
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+static const u8 sEasyChatWord_KthxBye[] = _("VOKUHILA");
+static const u8 sEasyChatWord_YesSirExcl[] = _("AYE, AYE!");
+static const u8 sEasyChatWord_AvantGarde[] = _("AVANTGARDE");
+static const u8 sEasyChatWord_Couple[] = _("YUPPIES");
+static const u8 sEasyChatWord_MuchObliged[] = _("IHR DIENER!");
+static const u8 sEasyChatWord_YeehawExcl[] = _("JIIHAAH");
+static const u8 sEasyChatWord_Mega[] = _("MEGA");
+static const u8 sEasyChatWord_1HitKOExcl[] = _("GUMMIPUNKT");
+static const u8 sEasyChatWord_Destiny[] = _("KARMA");
+static const u8 sEasyChatWord_Cancel[] = _("NDW");
+static const u8 sEasyChatWord_New[] = _("POPPER");
+static const u8 sEasyChatWord_Flatten[] = _("ERDBEERTEE");
+static const u8 sEasyChatWord_Kidding[] = _("SCHOFEL");
+static const u8 sEasyChatWord_Loser[] = _("LOSER");
+static const u8 sEasyChatWord_Losing[] = _("ZOFF");
+static const u8 sEasyChatWord_Happening[] = _("GIMMICK");
+static const u8 sEasyChatWord_HipAnd[] = _("HIP UND");
+static const u8 sEasyChatWord_Shake[] = _("BANANENSHAKE");
+static const u8 sEasyChatWord_Shady[] = _("ROCK'N'ROLL");
+static const u8 sEasyChatWord_Upbeat[] = _("DUFTE");
+static const u8 sEasyChatWord_Modern[] = _("MODERN");
+static const u8 sEasyChatWord_SmellYa[] = _("RÜBENNASE");
+static const u8 sEasyChatWord_Bang[] = _("STULPEN");
+static const u8 sEasyChatWord_Knockout[] = _("LICHT AUS...");
+static const u8 sEasyChatWord_Hassle[] = _("AUFSTAND");
+static const u8 sEasyChatWord_Winner[] = _("LEUCHTKEKS");
+static const u8 sEasyChatWord_Fever[] = _("KÖRPERHITZE");
+static const u8 sEasyChatWord_Wannabe[] = _("GERNEGROSS");
+static const u8 sEasyChatWord_Baby[] = _("BABY");
+static const u8 sEasyChatWord_Heart[] = _("HOLDE");
+static const u8 sEasyChatWord_Old[] = _("OLL");
+static const u8 sEasyChatWord_Young[] = _("JUNG");
+static const u8 sEasyChatWord_Ugly[] = _("ÄTZEND");
+
+static const struct EasyChatWordInfo sEasyChatGroup_TrendySaying[] = {
+    {
+        .text = sEasyChatWord_KthxBye,
+        .alphabeticalOrder = 32,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_YesSirExcl,
+        .alphabeticalOrder = 24,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_AvantGarde,
+        .alphabeticalOrder = 2,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Couple,
+        .alphabeticalOrder = 1,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_MuchObliged,
+        .alphabeticalOrder = 28,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_YeehawExcl,
+        .alphabeticalOrder = 17,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Mega,
+        .alphabeticalOrder = 19,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_1HitKOExcl,
+        .alphabeticalOrder = 11,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Destiny,
+        .alphabeticalOrder = 27,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Cancel,
+        .alphabeticalOrder = 15,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_New,
+        .alphabeticalOrder = 7,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Flatten,
+        .alphabeticalOrder = 16,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Kidding,
+        .alphabeticalOrder = 29,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Loser,
+        .alphabeticalOrder = 4,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Losing,
+        .alphabeticalOrder = 5,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Happening,
+        .alphabeticalOrder = 31,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_HipAnd,
+        .alphabeticalOrder = 8,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Shake,
+        .alphabeticalOrder = 26,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Shady,
+        .alphabeticalOrder = 25,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Upbeat,
+        .alphabeticalOrder = 23,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Modern,
+        .alphabeticalOrder = 13,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_SmellYa,
+        .alphabeticalOrder = 6,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Bang,
+        .alphabeticalOrder = 20,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Knockout,
+        .alphabeticalOrder = 9,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Hassle,
+        .alphabeticalOrder = 30,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Winner,
+        .alphabeticalOrder = 10,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Fever,
+        .alphabeticalOrder = 18,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Wannabe,
+        .alphabeticalOrder = 21,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Baby,
+        .alphabeticalOrder = 12,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Heart,
+        .alphabeticalOrder = 22,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Old,
+        .alphabeticalOrder = 0,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Young,
+        .alphabeticalOrder = 3,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Ugly,
+        .alphabeticalOrder = 14,
+        .enabled = FALSE
+    },
+};
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_KthxBye[] = _("KTHX, BYE.");
 static const u8 sEasyChatWord_YesSirExcl[] = _("YES, SIR!");

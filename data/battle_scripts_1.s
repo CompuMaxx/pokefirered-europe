@@ -2574,13 +2574,13 @@ BattleScript_TeeterDanceLoop::
 	setmoveeffect MOVE_EFFECT_CONFUSION
 .if GAME_LANGUAGE == LANGUAGE_ENGLISH
 	jumpifbyteequal gBattlerAttacker, gBattlerTarget, BattleScript_TeeterDanceLoopIncrement
-.elseif GAME_LANGUAGE == LANGUAGE_SPANISH || GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_FRENCH
+.elseif GAME_LANGUAGE == LANGUAGE_SPANISH || GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_FRENCH || GAME_LANGUAGE == LANGUAGE_GERMAN
 	jumpifbyteequal gBattlerAttacker, gBattlerTarget, jump_BattleScript_TeeterDanceLoop
 .endif
 	jumpifability BS_TARGET, ABILITY_OWN_TEMPO, BattleScript_TeeterDanceOwnTempoPrevents
 	jumpifstatus2 BS_TARGET, STATUS2_SUBSTITUTE, BattleScript_TeeterDanceSubstitutePrevents
 	jumpifstatus2 BS_TARGET, STATUS2_CONFUSION, BattleScript_TeeterDanceAlreadyConfused
-.if GAME_LANGUAGE == LANGUAGE_SPANISH || GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_FRENCH
+.if GAME_LANGUAGE == LANGUAGE_SPANISH || GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_FRENCH || GAME_LANGUAGE == LANGUAGE_GERMAN
 	jumpifhasnohp BS_TARGET, jump_BattleScript_TeeterDanceLoop
 .endif
 	accuracycheck BattleScript_TeeterDanceMissed, ACC_CURR_MOVE
@@ -2592,7 +2592,7 @@ BattleScript_TeeterDanceLoop::
 	waitmessage B_WAIT_TIME_LONG
 BattleScript_TeeterDanceLoopIncrement::
 	moveendto MOVEEND_NEXT_TARGET
-.if GAME_LANGUAGE == LANGUAGE_SPANISH || GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_FRENCH
+.if GAME_LANGUAGE == LANGUAGE_SPANISH || GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_FRENCH || GAME_LANGUAGE == LANGUAGE_GERMAN
 jump_BattleScript_TeeterDanceLoop:
 .endif
 	addbyte gBattlerTarget, 1

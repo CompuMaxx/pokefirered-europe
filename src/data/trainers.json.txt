@@ -12,6 +12,8 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("{{trainer.trainerName_italian}}"),
     #elif GAME_LANGUAGE == LANGUAGE_FRENCH
         .trainerName = _("{{trainer.trainerName_french}}"),
+    #elif GAME_LANGUAGE == LANGUAGE_GERMAN
+        .trainerName = _("{{trainer.trainerName_german}}"),
     #else
         .trainerName = _("{{trainer.trainerName_english}}"),
     #endif

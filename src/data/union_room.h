@@ -171,6 +171,9 @@ static const struct ListMenuTemplate sListMenuTemplate_UnionRoomGroups = {
 #elif GAME_LANGUAGE == LANGUAGE_FRENCH
     #define WT_INVITE_TILEMAP_LEFT  18
     #define WT_INVITE_WIDTH         10
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+    #define WT_INVITE_TILEMAP_LEFT  18
+    #define WT_INVITE_WIDTH         10
 #else
     #define WT_INVITE_TILEMAP_LEFT  20
     #define WT_INVITE_WIDTH          8

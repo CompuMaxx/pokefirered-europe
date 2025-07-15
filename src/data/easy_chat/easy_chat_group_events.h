@@ -514,6 +514,178 @@ static const struct EasyChatWordInfo sEasyChatGroup_Events[] = {
         .enabled = TRUE
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+static const u8 sEasyChatWord_Appeal[] = _("AUSDRUCK");
+static const u8 sEasyChatWord_Events[] = _("EVENTS");
+static const u8 sEasyChatWord_StayAtHome[] = _("BABYSITTEN");
+static const u8 sEasyChatWord_Berry[] = _("BEERE");
+static const u8 sEasyChatWord_Contest[] = _("WETTBEWERB");
+static const u8 sEasyChatWord_Mc[] = _("MC");
+static const u8 sEasyChatWord_Judge[] = _("JUROR");
+static const u8 sEasyChatWord_Super[] = _("SUPER");
+static const u8 sEasyChatWord_Stage[] = _("BÜHNE");
+static const u8 sEasyChatWord_HallOfFame[] = _("RUHMESHALLE");
+static const u8 sEasyChatWord_Evolution[] = _("ENTWICKLUNG");
+static const u8 sEasyChatWord_Hyper[] = _("HYPER");
+static const u8 sEasyChatWord_BattleTower[] = _("DUELLTURM");
+static const u8 sEasyChatWord_Leaders[] = _("LEITER");
+static const u8 sEasyChatWord_BattleRoom[] = _("KAMPFRAUM");
+static const u8 sEasyChatWord_Hidden[] = _("VERSTECKTE");
+static const u8 sEasyChatWord_SecretBase[] = _("GEHEIMBASIS");
+static const u8 sEasyChatWord_Blend[] = _("MIXEN");
+static const u8 sEasyChatWord_POKEBLOCK[] = _("{POKEBLOCK}");
+static const u8 sEasyChatWord_Master[] = _("MEISTER");
+static const u8 sEasyChatWord_Rank[] = _("KLASSE");
+static const u8 sEasyChatWord_Ribbon[] = _("BAND");
+static const u8 sEasyChatWord_Crush[] = _("MÜHLE");
+static const u8 sEasyChatWord_Direct[] = _("DIREKT");
+static const u8 sEasyChatWord_Tower[] = _("TURM");
+static const u8 sEasyChatWord_Union[] = _("KONNEX");
+static const u8 sEasyChatWord_Room[] = _("KLUB");
+static const u8 sEasyChatWord_Wireless[] = _("DRAHTLOS");
+
+static const struct EasyChatWordInfo sEasyChatGroup_Events[] = {
+    {
+        .text = sEasyChatWord_Appeal,
+        .alphabeticalOrder = 0,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Events,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_StayAtHome,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Berry,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Contest,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Mc,
+        .alphabeticalOrder = 23,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Judge,
+        .alphabeticalOrder = 27,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Super,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Stage,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_HallOfFame,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Evolution,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Hyper,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_BattleTower,
+        .alphabeticalOrder = 6,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Leaders,
+        .alphabeticalOrder = 14,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_BattleRoom,
+        .alphabeticalOrder = 20,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Hidden,
+        .alphabeticalOrder = 26,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_SecretBase,
+        .alphabeticalOrder = 25,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Blend,
+        .alphabeticalOrder = 13,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_POKEBLOCK,
+        .alphabeticalOrder = 5,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Master,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Rank,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Ribbon,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Crush,
+        .alphabeticalOrder = 18,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Direct,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Tower,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Union,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Room,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Wireless,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+};
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_Appeal[] = _("APPEAL");
 static const u8 sEasyChatWord_Events[] = _("EVENTS");

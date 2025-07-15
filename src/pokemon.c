@@ -6452,7 +6452,7 @@ u8 *MonSpritesGfxManager_GetSpritePtr(u8 spriteNum)
     }
 }
 
-#if GAME_LANGUAGE == LANGUAGE_ITALIAN
+#if GAME_LANGUAGE == LANGUAGE_ITALIAN || GAME_LANGUAGE == LANGUAGE_GERMAN
 u8 *Localize_BattleStrings(const u8 *src)
 {
 }

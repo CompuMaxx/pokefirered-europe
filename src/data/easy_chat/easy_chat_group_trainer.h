@@ -479,6 +479,166 @@ static const struct EasyChatWordInfo sEasyChatGroup_Trainer[] = {
         .enabled = TRUE
     }
 };
+#elif GAME_LANGUAGE == LANGUAGE_GERMAN
+static const u8 sEasyChatWord_IChooseYou[] = _("DU BIST DRAN");
+static const u8 sEasyChatWord_Gotcha[] = _("HAB DICH");
+static const u8 sEasyChatWord_Trade[] = _("TAUSCH");
+static const u8 sEasyChatWord_Sapphire[] = _("SAPHIR");
+static const u8 sEasyChatWord_Evolve[] = _("ENTWICKELN");
+static const u8 sEasyChatWord_Encyclopedia[] = _("ENZYKLOPÄDIE");
+static const u8 sEasyChatWord_Nature[] = _("WESEN");
+static const u8 sEasyChatWord_Center[] = _("CENTER");
+static const u8 sEasyChatWord_Egg[] = _("EI");
+static const u8 sEasyChatWord_Link[] = _("LINK");
+static const u8 sEasyChatWord_SpAbility[] = _("FÄHIGKEIT");
+static const u8 sEasyChatWord_Trainer[] = _("TRAINER");
+static const u8 sEasyChatWord_Version[] = _("VERSION");
+static const u8 sEasyChatWord_Pokenav[] = _("POKéNAV");
+static const u8 sEasyChatWord_Pokemon[] = _("POKéMON");
+static const u8 sEasyChatWord_Get[] = _("BEKOMMEN");
+static const u8 sEasyChatWord_Pokedex[] = _("POKéDEX");
+static const u8 sEasyChatWord_Ruby[] = _("RUBIN");
+static const u8 sEasyChatWord_Level[] = _("LEVEL");
+static const u8 sEasyChatWord_Red[] = _("ROT");
+static const u8 sEasyChatWord_Green[] = _("GRÜN");
+static const u8 sEasyChatWord_Bag[] = _("BEUTEL");
+static const u8 sEasyChatWord_Flame[] = _("FLAMME");
+static const u8 sEasyChatWord_Gold[] = _("GOLD");
+static const u8 sEasyChatWord_Leaf[] = _("BLATT");
+static const u8 sEasyChatWord_Silver[] = _("SILBER");
+
+static const struct EasyChatWordInfo sEasyChatGroup_Trainer[] = {
+    {
+        .text = sEasyChatWord_IChooseYou,
+        .alphabeticalOrder = 15,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Gotcha,
+        .alphabeticalOrder = 21,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Trade,
+        .alphabeticalOrder = 24,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Sapphire,
+        .alphabeticalOrder = 7,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Evolve,
+        .alphabeticalOrder = 0,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Encyclopedia,
+        .alphabeticalOrder = 8,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Nature,
+        .alphabeticalOrder = 4,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Center,
+        .alphabeticalOrder = 5,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Egg,
+        .alphabeticalOrder = 10,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Link,
+        .alphabeticalOrder = 22,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_SpAbility,
+        .alphabeticalOrder = 23,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Trainer,
+        .alphabeticalOrder = 20,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Version,
+        .alphabeticalOrder = 1,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Pokenav,
+        .alphabeticalOrder = 18,
+        .enabled = FALSE
+    },
+    {
+        .text = sEasyChatWord_Pokemon,
+        .alphabeticalOrder = 9,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Get,
+        .alphabeticalOrder = 16,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Pokedex,
+        .alphabeticalOrder = 14,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Ruby,
+        .alphabeticalOrder = 13,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Level,
+        .alphabeticalOrder = 19,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Red,
+        .alphabeticalOrder = 17,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Green,
+        .alphabeticalOrder = 3,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Bag,
+        .alphabeticalOrder = 25,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Flame,
+        .alphabeticalOrder = 2,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Gold,
+        .alphabeticalOrder = 11,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Leaf,
+        .alphabeticalOrder = 12,
+        .enabled = TRUE
+    },
+    {
+        .text = sEasyChatWord_Silver,
+        .alphabeticalOrder = 6,
+        .enabled = TRUE
+    },
+};
 #else //LANGUAGE_ENGLISH
 static const u8 sEasyChatWord_IChooseYou[] = _("I CHOOSE YOU");
 static const u8 sEasyChatWord_Gotcha[] = _("GOTCHA");
